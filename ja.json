@@ -1,0 +1,655 @@
+{
+  "translation": {
+    "common": {
+      "cgMode": "CGモード",
+      "or": "または",
+      "close": "閉じる",
+      "save": "保存",
+      "saveAndSend": "保存して送信",
+      "loadingSuccess": "正常にロードされました",
+      "loaded": "ロード",
+      "notLoaded": "ロードされていません",
+      "vs": "VS",
+      "noTeam": "チームなし",
+      "noPlayer": "選手なし",
+      "noMatch": "マッチが見つかりません",
+      "noTournament": "トーナメントなし",
+      "noValue": "デフォルト",
+      "teamOne": "チーム1",
+      "teamTwo": "チーム2",
+      "show": "ショー",
+      "hide": "非表示",
+      "map": "地図",
+      "team": "チーム",
+      "players": "選手",
+      "realName": "本名",
+      "player": "選手名",
+      "teams": "所属チーム",
+      "team1": "チーム1",
+      "team2": "チーム2",
+      "teamNumber": "チーム #{{num}}",
+      "vetoNumber": "拒否権 {{num}}",
+      "delete": "削除",
+      "edit": "編集",
+      "live": "ライブ",
+      "match": "試合",
+      "goBack": "戻る",
+      "ct": "CT",
+      "t": "T",
+      "no": "いいえ",
+      "export": "輸出",
+      "cancel": "キャンセル",
+      "tournaments": "トーナメント",
+      "firstName": "名",
+      "lastName": "姓",
+      "createNew": "新規作成",
+      "nickname": "ニックネーム",
+      "ready": "レディ",
+      "country": "国名",
+      "manage": "管理",
+      "import": "インポート",
+      "teamName": "チーム名",
+      "shortName": "ショートネーム",
+      "search": "検索...",
+      "ok": "OK",
+      "disconnect": "切断",
+      "connect": "接続",
+      "enable": "有効にする",
+      "example": "例",
+      "disable": "無効にする",
+      "downloadTemplate": "テンプレートのダウンロード",
+      "clickAndCopy": "コピー"
+    },
+    "blocker": {
+      "personal": "LHMをパーソナル、プロフェッショナル、またはエンタープライズプランにアップグレードすると、このセクションにフルアクセスできます。",
+      "proPlus": "LHMをプロフェッショナルまたはエンタープライズプランにアップグレードすると、このセクションにフルアクセスできます。",
+      "aco": "LHMをパーソナルプランにアップグレードしてACOにアクセスするか、プロフェッショナル/エンタープライズプランにアップグレードしてACO AIに追加アクセスします。",
+      "upgradeNow": "今すぐアップグレード"
+    },
+    "titles": {
+      "players": "プレイヤー",
+      "teams": "チーム",
+      "arg": "オートリプレイジェネレーター",
+      "aco": "オートシネマティックオブザーバー",
+      "ar": "拡張現実",
+      "cgpanel": "CGモード",
+      "huds": "HUD",
+      "matches": "マッチ",
+      "tournaments": "トーナメント",
+      "live": "ライブ",
+      "cameras": "カメラ",
+      "addons": "アドオン",
+      "settings": "設定",
+      "credits": "クレジット",
+      "quick": "クイック"
+    },
+    "aco": {
+      "disabled": "無効",
+      "aco1": "ACO",
+      "acoAI": "ACO AI",
+      "acoAIScout": "ACO AI + スカウトAI",
+      "map": "地図",
+      "area": "エリア",
+      "addNewArea": "新規エリアの追加",
+      "showInfo": "情報を表示",
+      "hideInfo": "情報を隠す",
+      "areaCreation": "エリア作成",
+      "createArea": "+ 新規エリアの追加",
+      "addConfig": "+ 新規設定の追加",
+      "areaConfigurations": "エリア構成",
+      "stateCreatingNew": "[新しいエリアの作成］",
+      "priority": "優先順位",
+      "inGameName": "ゲーム内名称",
+      "manualControl": "手動制御",
+      "areaConfigurationsPlaceholder": "エリアを選択して設定を見る",
+      "enableDirector": "監督を有効にする",
+      "disabledDescription": "すべてのコントロールはあなたとオブザーバーに委ねられます。\n楽しんでください。",
+      "aco1Description": "コントロールと自動化のバランス。\nACOのために手動で書かれた指示一式でオブザーバーを補助する。",
+      "aco-aiDescription": "ACO AIの高度なアルゴリズムがあなたのストリームをコントロールする間、座っていましょう。",
+      "aco-ai-scoutDescription": "最新の試合予測システムにお任せください。\n近日公開。",
+      "saveArea": "保存エリア",
+      "areaName": "名前",
+      "areaNamePlaceholder": "エリア名",
+      "areaPriority": "優先順位",
+      "areaPriorityPlaceholder": "エリア優先度",
+      "addConfigHeader": "このエリアに新しい設定を追加する",
+      "addConfigPlaceholder": "このエリアで実行するコマンドを入力する"
+    },
+    "players": {
+      "edit": "プレーヤーを編集する",
+      "uploadProfile": "画像",
+      "avatarInfo": "Steamからのデフォルトの代わりにプレイヤー画像に使用するアバター",
+      "addPlayer": "プレイヤーを追加",
+      "importPlayersTitle": "選手のインポート",
+      "downloadNamesFile": "名前ファイルのダウンロード",
+      "importPlayersExcel": "あらかじめ用意されたExcelシートを使用して、一度に多数のプレーヤーを簡単にインポートできます。",
+      "exportPlayers": "エクスポート",
+      "avatar": "アバター"
+    },
+    "teams": {
+      "edit": "チームの編集",
+      "uploadLogo": "ロゴ",
+      "logoInfo": "指定されたHUDで可能であれば、チームに使用するロゴ",
+      "addTeam": "チーム追加",
+      "exportTeams": "エクスポート",
+      "importTeamsTitle": "チームのインポート",
+      "importTeamsExcel": "事前に用意されたExcelシートを使用して、多数のチームを一度に簡単にインポートできます。",
+      "logo": "ロゴ"
+    },
+    "live": {
+      "replaceUsernames": "ユーザー名の置換",
+      "header": "ライブ",
+      "noGame": "現在ライブ中のゲームはありません。",
+      "tip": "現在試合中の選手、クリックすると選手リストに追加されます。"
+    },
+    "cameras": {
+      "generatePassword": "パスワード生成",
+      "sendToPlayers": "これを選手に送信",
+      "fillFromLive": "ライブタブから入力",
+      "resetLink": "リンクをリセット"
+    },
+    "addons": {
+      "upload": "アドオンのアップロード",
+      "status": {
+        "READY": "準備完了",
+        "UNINSTALLED": "アンインストール"
+      }
+    },
+    "navbar": {
+      "huds": "HUD",
+      "aco": "ACO & Scout",
+      "addons": "アドオン",
+      "ar": "AR",
+      "live": "ライブ",
+      "quick": "クイック",
+      "professionalOnly": "プロフェッショナルのみ",
+      "nonFreeOnly": "フリーのみ",
+      "cameras": "カメラ",
+      "hi": "こんにちは、{{username}}です！",
+      "yourPlan": "あなたのプラン",
+      "validFrom": "から有効です。",
+      "validUntil": "まで有効",
+      "nextPayment": "次回のお支払い",
+      "logout": "ログアウト"
+    },
+    "quick": {
+      "uploadImage": "画像のアップロード",
+      "teamLogo": "チームロゴ",
+      "backToLHM": "LHMに戻る",
+      "next": "次へ",
+      "back": "戻る",
+      "newPlayer": "新規選手作成",
+      "startSession": "新規セッション開始",
+      "exit": "クイック終了",
+      "fillWithLive": "ライブデータで埋める",
+      "unnamedTeam": "無名チーム",
+      "dismiss": "解任",
+      "launchHUD": "HUD起動",
+      "uploadAvatar": "アバターのアップロード",
+      "selectHUD": "HUDを選択",
+      "preview": "プレビュー",
+      "unlink": "リンク解除",
+      "playerExists": {
+        "info": "この{{playerIdentifierName}}を持つプレイヤーは既に存在します。",
+        "overwrite": "これでデータを上書きしますか？",
+        "overwriteTitle": "上書きしますか？",
+        "decline": "いいえ、変更します",
+        "accept": "はい、上書きします"
+      },
+      "success": {
+        "title": "HUDが設定され、起動しました。",
+        "opened": "HUD が別ウィンドウで開かれました。",
+        "borderless": "ゲーム内でボーダーレスモードを使用し、HUD画面を直接キャプチャできます。",
+        "display": "または放送ソフトに新しい表示ソースとして追加します。",
+        "userGuide": "問題が発生した場合は、ユーザーガイドをご覧ください。",
+        "started": "ゲーム開始"
+      }
+    },
+    "tournaments": {
+      "overview": "概要",
+      "edit": "トーナメントの編集",
+      "page": "トーナメントページ",
+      "create": "新しいトーナメントの作成",
+      "name": "トーナメント名",
+      "uploadLogo": "トーナメントロゴのアップロード",
+      "logoInfo": "試合中に大会のロゴが表示されます。",
+      "singleElimBracket": "シングルエリミネーション・ブラケット",
+      "doubleElimBracket": "ダブルエリミネーション",
+      "swiss": "スイス",
+      "group": "グループ",
+      "playoffs": "プレーオフ",
+      "playoffType": "プレーオフタイプ",
+      "soon": "すぐに",
+      "groupType": "グループタイプ",
+      "participants": "参加者",
+      "then": "その時",
+      "amountOfTeams": "チーム数",
+      "amountOfRounds": "ラウンド数",
+      "bindMatch": "試合をブラケットにバインドする",
+      "teamOrderList": "チーム順リスト"
+    },
+    "match": {
+      "matches": "試合",
+      "seriesWins": "シリーズ勝利数",
+      "live": "ライブ",
+      "edit": "試合を編集する",
+      "editTeam": "チーム編集",
+      "emptyTeam": "空のチーム",
+      "scoreModal": {
+        "unsetWin": "勝利未設定",
+        "setWin": "セット勝利",
+        "teamLogo": "チームロゴ"
+      },
+      "toggleLive": "ライブ",
+      "tabs": {
+        "ended": "終了",
+        "current": "現在",
+        "future": "未来"
+      },
+      "columns": {
+        "match": "マッチ",
+        "score": "スコア",
+        "date": "日付",
+        "time": "時間"
+      },
+      "wins": "WINS",
+      "wrongTeamSelected": "選択したチームが違う",
+      "vetoType": {
+        "pick": "ピック",
+        "ban": "禁止",
+        "decider": "決定者"
+      },
+      "vetoSide": {
+        "left": "左",
+        "right": "右"
+      },
+      "vetoDescription": {
+        "pick": "{{teamName}}}は{{mapName}}を選ぶ。",
+        "ban": "{{teamName}}禁止{{mapName}} {{secondTeamName}}"
+      },
+      "chooseTeam": "チームを選択",
+      "vetoSidepick": {
+        "normal": "{{side}} は{{mapName}}側を選択する",
+        "decider": "{{percent}}決定戦"
+      },
+      "pickBothTeams": "ベトを出す両チームを選ぶ",
+      "setScore": "スコアを設定する",
+      "resetScore": "スコアをリセット",
+      "questionOpponentPick": "相手はサイドを選びますか？",
+      "reversedSides": "逆サイド",
+      "mapList": "マップリスト",
+      "generateGet5Config": "Get5 コンフィグの生成"
+    },
+    "credits": {
+      "header": "クレジット",
+      "applicationAndAPI": "アプリケーションと HUD API",
+      "testingAndDebugging": "テストとデバッグ",
+      "customRadarBy": "カスタムレーダー",
+      "initialLayoutIdea": "初期レイアウト案",
+      "feedbackAndIdeas": "フィードバックとアイデア"
+    },
+    "arg": {
+      "safeband": "安全バンド",
+      "beforeKill": "殺す前に",
+      "useHLAE": "HLAEを使用しますか？",
+      "afterKill": "キル後",
+      "saveClips": "クリップを保存しますか？",
+      "delayConfig": "ディレイ設定",
+      "computerId": "コンピュータID",
+      "turnOff": "オフにする",
+      "turnOn": "オンにする",
+      "priority": {
+        "multi": "マルチキルを優先する",
+        "headshots": "ヘッドショットを優先する",
+        "teamkills": "チームキルを優先する"
+      }
+    },
+    "settings": {
+      "logIn": "ログインする",
+      "email": "メール",
+      "password": "パスワード",
+      "noAccount": "アカウントをお持ちでないですか？",
+      "registerNow": "今すぐ登録",
+      "forgot": "パスワードをお忘れですか？",
+      "Not logged in": "ログインしていません",
+      "You need to pass your one-time token": "ワンタイムトークンを渡す必要があります",
+      "preInstalled": "プリインストールを使用する",
+      "cloudSynchronization": "クラウド同期",
+      "language": "言語",
+      "dota2Assets": "Dota 2 アセット",
+      "autoSwitch": "自動スイッチ",
+      "header": "設定",
+      "f1": {
+        "add": "統合の追加",
+        "integration": "F1統合",
+        "notInstalled": "F1がインストールされていない"
+      },
+      "rocketleague": {
+        "integration": "RL統合",
+        "status": {
+          "busy": "ビジー...",
+          "bakkesModNotInstalled": "BakkesMod 未インストール",
+          "sosNotInstalled": "SOS プラグインがインストールされていません",
+          "notConfigured": "設定されていません",
+          "installed": "インストール済み"
+        },
+        "refresh": "リフレッシュ",
+        "install": "インストール"
+      },
+      "gsi": {
+        "loadingAbout": "GameStateファイルに関するデータをロードしています...",
+        "loadingData": "GameStateデータをロード中...",
+        "loadingFileData": "GameStateファイルのデータをロード中..."
+      },
+      "config": {
+        "loadingAbout": "cfgファイルのデータをロード中...",
+        "loadingFileData": "コンフィグファイルのデータをロード中..."
+      },
+      "input": {
+        "steamAPIKey": "Steam APIキー",
+        "GSIPort": "GSIポート",
+        "GSIToken": "GSIトークン"
+      },
+      "updater": {
+        "version": "バージョン",
+        "installing": "インストール中...",
+        "downloading": "ダウンロード中...{{field}}%",
+        "install": "アップデートのインストール",
+        "latest": "最新の"
+      },
+      "entry": {
+        "keybinds": {
+          "keybinds": "キーバインド",
+          "hardRefreshHUD": "HUD ハードリフレッシュ",
+          "argToggle": "ARG トグル",
+          "dota2ARG": "Dota 2 ARG をプレイ",
+          "reverseSide": "逆サイド",
+          "refreshHud": "HUDをリフレッシュ",
+          "toggleDirector": "ACO ディレクターの切り替え"
+        },
+        "streamDeck": {
+          "unavailable": "使用不可"
+        },
+        "HLAE": {
+          "path": "HLAEパス",
+          "setPath": "HLAEパスを設定"
+        },
+        "AFX": {
+          "path": "AFX CEF HUD インターロップ",
+          "setPath": "AFXパスの設定"
+        },
+        "GSI": {
+          "status": "ゲームステート統合",
+          "add": "GSI ファイルの追加"
+        },
+        "config": {
+          "status": "設定",
+          "add": "設定ファイルの追加"
+        },
+        "credits": {
+          "credits": "クレジット",
+          "seeNow": "今すぐ見る"
+        },
+        "downloads": {
+          "downloads": "ダウンロード",
+          "GSIConfig": "GSI設定",
+          "HUDConfigs": "HUDコンフィグ",
+          "exportDB": "エクスポート DB"
+        },
+        "import": {
+          "import": "インポート"
+        },
+        "readerCode": {
+          "readerCode": "リーダーコード"
+        }
+      }
+    },
+    "ar": {
+      "add": "ARモジュールのアップロード",
+      "toggle": "AR モジュールを切り替える",
+      "openDirectory": "モジュールディレクトリを開く",
+      "deleteLocally": "ARモジュール削除"
+    },
+    "huds": {
+      "header": "HUD",
+      "config": {
+        "customRadar": "レーダー",
+        "customKillfeedOrACO": "キルフィード / ACO",
+        "embeddedHUD": "埋め込みHUD",
+        "autoexecute": "自動実行",
+        "console": "コンソール",
+        "add": "HUDの追加",
+        "runGame": "ゲーム実行",
+        "pauseTest": "一時停止テスト",
+        "runTest": "テスト実行",
+        "openDirectory": "HUDs ディレクトリを開く",
+        "playTestLoop": "テストループを再生",
+        "ar": "AR",
+        "goToKeybinds": "キーバインドを設定する",
+        "more": "その他",
+        "hlaeIsRequired": "CS:GOがHLAEで動作している必要があります。",
+        "proOrEntrpriseIsRequired": "プロフェッショナルまたはエンタープライズプランが必要です",
+        "hlaeAndHigherPlanIsRequired": "CS:GOをHLAEで実行し、プロフェッショナルまたはエンタープライズプランを持っている必要があります。"
+      },
+      "sort": {
+        "custom": "カスタム",
+        "newest": "最新",
+        "oldest": "最も古い"
+      },
+      "fields": {
+        "missing": "欠落しているフィールド",
+        "fieldOfType": "タイプ \"{{type}}\" のフィールド \"{{hud}}\"；",
+        "fieldNamePlaceholder": "フィールド名",
+        "inputType": "入力タイプ",
+        "values": {
+          "text": "テキスト",
+          "team": "チーム",
+          "image": "画像",
+          "match": "試合",
+          "player": "選手",
+          "color": "色"
+        },
+        "visible": "可視",
+        "manageCustom": "カスタムフィールドの管理",
+        "addNew": "+ 新規フィールドの追加"
+      },
+      "includes": {
+        "customRadar": "カスタムレーダーを含む",
+        "customKillfeed": "カスタムキルフィードを含む"
+      },
+      "removal": {
+        "title": "14}}の削除",
+        "areYouSure": "本当に{{hud}}を削除しますか？"
+      },
+      "actions": {
+        "toggleUrl": "HUDのURLを切り替える",
+        "settings": "HUD設定へ",
+        "shortcut": "ショートカット",
+        "overlay": "HUDオーバーレイ開始",
+        "upload": "HUDのアップロード",
+        "uploading": "アップロード中...",
+        "delete": "削除",
+        "deleteLocally": "ローカルでHUDを削除",
+        "deleteFromCloud": "クラウドからHUDを削除",
+        "downloading": "ダウンロード中...",
+        "toggleHUD": "HUDの切り替え (埋め込みのみ)",
+        "clickToCopy": "クリックしてコピー",
+        "createShortcut": "デスクトップにショートカットを作成"
+      },
+      "warning": {
+        "specifyHLAEPath": "カスタムキルフィードを使用するために設定でHLAEのパスを指定する",
+        "specifyAFXInteropPath": "AFX モードを使用するため、設定で AFX Interop パスを指定します。",
+        "specifyAFXModeInfo": "AFX モードを使用する場合、試合に参加した後、トグルをクリックします - オーバーレイを開始する必要はありません。"
+      }
+    },
+    "app": {
+      "changeGame": "ゲームの変更",
+      "cloud": {
+        "isActive": "クラウドがアクティブ",
+        "isNotActive": "クラウドはアクティブではない"
+      }
+    },
+    "helpers": {
+      "learnMore": "詳細はこちら",
+      "onlyInProPlus": {
+        "title": "プランをアップグレードする",
+        "info": "この機能はプロフェッショナルプランとエンタープライズプランのユーザーのみご利用いただけます。\nロックを解除するには、プランをアップグレードしてください。"
+      },
+      "huds": {
+        "tab": {
+          "title": "HUDタブ",
+          "info": "HUDsタブはHUDとゲーム起動設定の管理に使用します。"
+        },
+        "radar": {
+          "title": "レーダー",
+          "info": "このオプションを有効にし、以下に示す設定でゲームを実行するか、\"Run game\"ボタンを使用すると、ゲーム内レーダーが無効になり、HUDに組み込まれたカスタムレーダーが使用されます。"
+        },
+        "killfeedACO": {
+          "title": "キルフィード / ACO",
+          "info": "このオプションを有効にし、以下に示すコンフィグでゲームを実行するか、\"Run game\"ボタンを使用すると、ゲーム内のキルフィードが無効になり、HUDに組み込まれたカスタムキルフィードが使用されます。このオプションを有効にすることはACOを使用するためにも必要です。\nこのオプションはCS:GOを安全でないモードで起動します - 有効になっている間はGOTV観戦者でない限りVACで保護されたサーバー（Faceitやマッチメイキングなど）に参加できません。"
+        },
+        "embeddedHUD": {
+          "title": "埋め込みHUD",
+          "info": "このオプションを有効にすると、LHMがCS:GOのレンダリングプロセスにフックされ、HUDが別個のオーバーレイではなくゲームの一部になります。埋め込みモードでHUDを起動するには、HUDの横にあるトグルを使用してください。\n埋め込みモードの使用はARに必要です。また、ゲームのパフォーマンスを低下させる可能性があります。\nこのオプションは安全でないモードでCS:GOを起動します - 有効になっている間はGOTV観戦者でない限り、VACで保護されたサーバー（Faceitやマッチメイキングなど）に参加できません。"
+        },
+        "playTestLoop": {
+          "title": "プレイテストループ",
+          "info": "このオプションを有効にすると、テストデータがループ再生され、終了することはありません。これはHUDをテストするのに便利です。"
+        },
+        "ar": {
+          "title": "AR",
+          "info": "このオプションを有効にし、以下に示すコンフィグでゲームを実行するか、\"Run game\"ボタンを使用するとARモジュールを使用することができます。\nこのオプションを有効にすると、CS:GO をインセキュアモードで起動します - 有効になっている間はGOTV観戦者でない限り、VACで保護されたサーバー（Faceitやマッチメイキングなど）に参加できません。"
+        },
+        "autoExecute": {
+          "title": "自動実行",
+          "info": "このオプションが有効になっている場合、quot;Run game\"ボタンは以下の設定でゲームを起動します。"
+        },
+        "xray": {
+          "title": "XRay",
+          "info": "このオプションを使用すると、ゲーム内のプレイヤーの境界線にカスタムカラーを設定できます。"
+        },
+        "runTest": {
+          "title": "テストの実行",
+          "info": "この機能を使用すると、HUDまたは設定をテストするためにゲームデータストリームをシミュレートできます。"
+        }
+      },
+      "teams": {
+        "tab": {
+          "title": "チーム",
+          "info": "TeamsタブはHUDや他のLHM機能で表示・使用されるチームの管理に使用します。"
+        }
+      },
+      "players": {
+        "tab": {
+          "title": "選手",
+          "info": "Playersタブは、HUDやその他のLHM機能内で表示・使用される選手の管理に使用します。"
+        }
+      },
+      "matches": {
+        "tab": {
+          "title": "試合",
+          "info": "MatchesタブはHUDやその他のLHM機能で表示・使用される試合の管理に使用します。"
+        }
+      },
+      "tournaments": {
+        "tab": {
+          "title": "トーナメント",
+          "info": "トーナメントタブはHUDや他のLHM機能の中で表示・使用されるトーナメントを管理するために使用されます。"
+        }
+      },
+      "cgMode": {
+        "tab": {
+          "title": "CGモード",
+          "info": "CGモードは放送操作に最も必要なモジュールをコンパクトにまとめたものです。\nこのタブでは、試合、チーム、選手、実況を一つの画面で管理することができます。\n各セクションの上にある「\"Hide\"」ボタンで不要なタブを非表示にすることができます。"
+        }
+      },
+      "arg": {
+        "tab": {
+          "title": "オートリプレイジェネレーター",
+          "info": "Auto Replay Generator (ARG)モジュールは、ラウンド間や試合終了時に表示できるリプレイを生成します。\nvMixは無料のアプリケーションではなく、ARG自体は主にvMixをすでに使用しているプロダクションチームのために設計されています。"
+        },
+        "safeband": {
+          "title": "セーフバンド",
+          "info": "セーフバンドオプションは、各クリップのキル前後の時間（ミリ秒）を決定します。"
+        },
+        "useHLAE": {
+          "title": "HLAEを使うか？",
+          "info": "HLAEを使用することで、ARGはより多くのゲーム内データを分析し、より良いキル予測を行うことができます。"
+        },
+        "delayConfig": {
+          "title": "ディレイ設定",
+          "info": "Delay config は GOTV observer の遅延時間（秒）を指定します。"
+        },
+        "saveClips": {
+          "title": "クリップの保存",
+          "info": "このオプションを有効にすると、vMix は ARG によって生成された全てのクリップを削除せずに保持します。"
+        },
+        "computerID": {
+          "title": "コンピュータID",
+          "info": "ARG が使用する ID。接続に成功するために必要です。"
+        }
+      },
+      "aco": {
+        "tab": {
+          "title": "オートシネマティックオブザーバ",
+          "info": "ACO モジュールを使用すると、定義済みのカメラ移動パスを使用して、ゲーム内のアクションを追跡することができます。\nACO は AI を使用して、任意の時点でゲーム内で起こっている最も重要なイベントを決定します。"
+        },
+        "area": {
+          "title": "エリア",
+          "info": "エリアはコンフィグをバインドするマップ上の領域です。指定されたエリアに多くのプレイヤーがいる場合、追加されたコンフィグはCS:GOクライアント内で実行されます。\nエリアを追加するには、\"+\" ボタンをクリックし、マップ上の角をクリックして希望のエリアを選択します。"
+        },
+        "manualControl": {
+          "title": "マニュアル操作",
+          "info": "手動コントロールパネルを使用して、表示する任意のエリアを手動で選択します。\nウェブブラウザで開く外部ページなので、スマートフォンやタブレットからもアクセスできます（同じローカルネットワーク内にいる場合）。\nマニュアルコントロールパネル内のエリアをクリックまたはタップすると、CS:GOクライアントでそのコンフィグが実行されます。"
+        },
+        "areaCreation": {
+          "title": "エリアの作成",
+          "info": "マップをクリックしてエリアの角を定義します。\n間違えた場合はアンドゥボタンを使用してください。"
+        }
+      },
+      "ar": {
+        "tab": {
+          "title": "拡張現実",
+          "info": "ARモジュールのサポートにより、カスタム3Dオブジェクトをゲームの一部であるかのように表示できます。\nARは、GSIを使用してロードされたカメラ位置データを使用して、HTML＆CSSベースの3Dオブジェクトをゲームシーン上にレンダリングします。"
+        }
+      },
+      "live": {
+        "tab": {
+          "title": "ライブ",
+          "info": "ライブゲームが検出されると、Liveタブにプレーヤー名、ID、現在のスコアなど、現在の試合に関するデータが表示されます。\nLiveタブでは選手の編集にも素早くアクセスできます。"
+        }
+      },
+      "cameras": {
+        "tab": {
+          "title": "カメラ",
+          "info": "Camerasモジュールを使用すると、LHMを使って選手のウェブカメラフィードをHUD内に表示することができます。"
+        }
+      },
+      "addons": {
+        "tab": {
+          "title": "アドオン",
+          "info": "アドオンはLHMと強力な統合を作成する新しい方法で、CS:GO GSIイベントエミッターをフックしたサンドボックス化されたNode.js環境を提供します。\nLHMアドオンのおかげで、LHMがすべての重労働を行うことで、視聴者に最高の体験を提供することに集中することができます。"
+        }
+      },
+      "quick": {
+        "tab": {
+          "title": "クイック",
+          "info": "LHM Quickを使用すると、プレイヤー、チーム、HUDのセットアップを1つの場所から素早く準備することができ、ストリームをすぐに開始することができます。"
+        }
+      }
+    },
+    "modals": {
+      "imageTooLarge": {
+        "title": "画像が大きすぎます",
+        "info": "選択した画像が大きすぎます。サイズ制限は{{limit}}です。MBです。"
+      },
+      "delete": {
+        "titleTeams": "削除チーム",
+        "titlePlayers": "選手の削除",
+        "infoTeams": "本当に{{count}}チームを削除しますか？",
+        "infoPlayers": "本当に{{count}}選手を削除しますか？",
+        "deleteWithPlayers": "選手と一緒に削除"
+      }
+    }
+  }
+}

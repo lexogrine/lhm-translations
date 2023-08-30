@@ -1,0 +1,679 @@
+{
+	"translation": {
+		"common": {
+			"cgMode": "CG Mode",
+			"or": "or",
+			"close": "Close",
+			"save": "Save",
+			"saveAndSend": "Save and send",
+			"loadingSuccess": "Loaded successfully",
+			"loaded": "Loaded",
+			"notLoaded": "Not loaded",
+			"vs": "VS",
+			"noTeam": "No team",
+			"noPlayer": "No player",
+			"noMatch": "Match not found",
+			"noTournament": "No tournament",
+			"noValue": "Default",
+			"teamOne": "Team One",
+			"teamTwo": "Team Two",
+			"show": "Show",
+			"hide": "Hide",
+			"map": "Map",
+			"team": "Team",
+			"players": "Players",
+			"realName": "Real name",
+			"player": "Player",
+			"teams": "Teams",
+			"team1": "Team 1",
+			"team2": "Team 2",
+			"teamNumber": "TEAM #{{num}}",
+			"vetoNumber": "Veto {{num}}",
+			"delete": "Delete",
+			"edit": "Edit",
+			"live": "Live",
+			"match": "Match",
+			"goBack": "Go back",
+			"ct": "CT",
+			"t": "T",
+			"no": "No",
+			"export": "Export",
+			"cancel": "Cancel",
+			"tournaments": "Tournaments",
+			"firstName": "First Name",
+			"lastName": "Last Name",
+			"createNew": "Create New",
+			"nickname": "Nickname",
+			"ready": "Ready",
+			"country": "Country",
+			"manage": "Manage",
+			"import": "Import",
+			"teamName": "Team Name",
+			"shortName": "Short Name",
+			"search": "Search...",
+			"ok": "Ok",
+			"disconnect": "Disconnect",
+			"connect": "Connect",
+			"enable": "Enable",
+			"example": "Example",
+			"disable": "Disable",
+			"downloadTemplate": "Download template",
+			"clickAndCopy": "Click & Copy"
+		},
+		"blocker": {
+			"personal": "Upgrade your LHM to a Personal, Professional or Enterprise plan to get full access to this section.",
+			"proPlus": "Upgrade your LHM to a Professional or Enterprise plan to get full access to this section.",
+			"aco": "Upgrade your LHM to a Personal plan to get access to ACO, or a Professional / Enterprise plan to additionally access ACO AI. Additionally, Professional plans and Enterprise plans with 3+ seats get access to Scout AI.",
+			"upgradeNow": "Upgrade now"
+		},
+		"titles": {
+			"players": "Players",
+			"teams": "Teams",
+			"arg": "Auto Replay Generator",
+			"aco": "Auto Cinematic Observer",
+			"ar": "Augmented Reality",
+			"cgpanel": "CG Mode",
+			"huds": "HUDs",
+			"matches": "Matches",
+			"tournaments": "Tournaments",
+			"live": "Live",
+			"cameras": "Cameras",
+			"addons": "Addons",
+			"settings": "Settings",
+			"credits": "Credits",
+			"quick": "Quick"
+		},
+		"aco": {
+			"disabled": "Disabled",
+			"aco1": "ACO",
+			"acoAI": "ACO AI",
+			"acoAIScout": "ACO AI + Scout AI",
+			"map": "Map",
+			"area": "Area",
+			"addNewArea": "Add new area",
+			"showInfo": "Show info",
+			"hideInfo": "Hide info",
+			"areaCreation": "Area creation",
+			"createArea": "+ Add a new area",
+			"addConfig": "+ Add a new configuration",
+			"areaConfigurations": "Area configurations",
+			"stateCreatingNew": "[creating a new area]",
+			"priority": "priority",
+			"inGameName": "In-game name",
+			"manualControl": "Manual control",
+			"areaConfigurationsPlaceholder": "Select an area to see its configurations",
+			"enableDirector": "Enable director",
+			"disabledDescription": "All control is given to you and your observers.",
+			"aco1Description": "A balance of control and automation.\nAssist your observers with a set of manually written instructions for ACO.\n",
+			"aco-aiDescription": "Sit back while the advanced algorithms of ACO AI control your stream.",
+			"aco-ai-scoutDescription": "Let our latest AI match observer system take the wheel.",
+			"aco-ai-scoutDescription-disconnected": "Let our latest AI match observer system take the wheel.\\nScout servers may be currently unavailable.",
+			"scoutCinematic": "Use Cinematic Scout",
+			"saveArea": "Save area",
+			"areaName": "Name",
+			"areaNamePlaceholder": "Area name",
+			"areaPriority": "Priority",
+			"areaPriorityPlaceholder": "Area priority",
+			"addConfigHeader": "Add a new configuration to this area",
+			"addConfigPlaceholder": "Enter a command to be executed in this area",
+			"timeRemaining": "Scout AI time remaining",
+			"scoutServerUnavailable": "LHM can't connect to Scout AI servers.\nPlease try again in a few minutes."
+		},
+		"players": {
+			"edit": "Edit a player",
+			"uploadProfile": "Picture",
+			"avatarInfo": "Avatar to be used for player images instead of the default from Steam",
+			"addPlayer": "Add Player",
+			"importPlayersTitle": "Import Players",
+			"downloadNamesFile": "Download Names file",
+			"importPlayersExcel": "Use our pre-prepared Excel sheet to easily import many players at once.",
+			"exportPlayers": "Export",
+			"avatar": "Avatar"
+		},
+		"teams": {
+			"edit": "Edit a team",
+			"uploadLogo": "Logo",
+			"logoInfo": "Logo to be used for the team, if possible in the given HUD",
+			"addTeam": "Add Team",
+			"exportTeams": "Export",
+			"importTeamsTitle": "Import Teams",
+			"importTeamsExcel": "Use our pre-prepared Excel sheet to easily import many teams at once.",
+			"logo": "Logo"
+		},
+		"live": {
+			"replaceUsernames": "Replace usernames",
+			"header": "Live",
+			"noGame": "No game is currently live.",
+			"tip": "Players currently in match, click to add a player to the player list."
+		},
+		"cameras": {
+			"generatePassword": "Generate password",
+			"sendToPlayers": "Send this to your players",
+			"fillFromLive": "Fill from Live tab",
+			"resetLink": "Reset link"
+		},
+		"addons": {
+			"upload": "Upload addon",
+			"status": {
+				"READY": "Ready",
+				"UNINSTALLED": "Uninstalled"
+			}
+		},
+		"navbar": {
+			"huds": "HUDs",
+			"aco": "ACO & Scout",
+			"addons": "Addons",
+			"ar": "AR",
+			"live": "Live",
+			"quick": "Quick",
+			"professionalOnly": "Professional only",
+			"nonFreeOnly": "Non-free only",
+			"cameras": "Cameras",
+			"hi": "Hi, {{username}}!",
+			"yourPlan": "Your plan",
+			"validFrom": "Valid from",
+			"validUntil": "Valid until",
+			"nextPayment": "Next payment",
+			"logout": "Log out"
+		},
+		"quick": {
+			"uploadImage": "Upload image",
+			"teamLogo": "Team Logo",
+			"backToLHM": "Back to LHM",
+			"next": "Next",
+			"back": "Back",
+			"newPlayer": "Create new player",
+			"startSession": "Start New Session",
+			"exit": "Exit Quick",
+			"fillWithLive": "Fill with Live data",
+			"unnamedTeam": "Unnamed Team",
+			"dismiss": "Dismiss",
+			"launchHUD": "Launch HUD",
+			"uploadAvatar": "Upload avatar",
+			"selectHUD": "Select HUD",
+			"preview": "Preview",
+			"unlink": "Unlink",
+			"playerExists": {
+				"info": "A player with this {{playerIdentifierName}} already exists.",
+				"overwrite": "Do you want to overwrite their data with this?",
+				"overwriteTitle": "Overwrite?",
+				"decline": "No, let me change it",
+				"accept": "Yes, overwrite"
+			},
+			"success": {
+				"title": "Your HUD is configured and launched",
+				"opened": "The HUD was opened in a separate window.",
+				"borderless": "You can use Borderless mode in the game and capture the HUD screen directly",
+				"display": "or add it as a new display source to your broadcasting software.",
+				"userGuide": "In case of any problems visit the User Guide.",
+				"started": "Game started"
+			}
+		},
+		"tournaments": {
+			"overview": "Overview",
+			"edit": "Edit a tournament",
+			"page": "Tournament page",
+			"create": "Create new tournament",
+			"name": "Tournament name",
+			"uploadLogo": "Upload tournament logo",
+			"logoInfo": "Logo of the tournament will be available during the match",
+			"singleElimBracket": "Single Elimination Bracket",
+			"doubleElimBracket": "Double Elimination Bracket",
+			"swiss": "Swiss",
+			"group": "Group",
+			"playoffs": "Play-offs",
+			"playoffType": "Playoff type",
+			"soon": "Soon",
+			"groupType": "Group type",
+			"participants": "Participants",
+			"then": "then",
+			"amountOfTeams": "Amount of teams",
+			"amountOfRounds": "Amount of rounds",
+			"bindMatch": "Bind match to bracket",
+			"teamOrderList": "Teams order list"
+		},
+		"match": {
+			"matches": "Matches",
+			"seriesWins": "Series wins",
+			"live": "Live",
+			"edit": "Edit match",
+			"editTeam": "Edit team",
+			"emptyTeam": "Empty team",
+			"scoreModal": {
+				"unsetWin": "Unset win",
+				"setWin": "Set win",
+				"teamLogo": "Team Logo"
+			},
+			"toggleLive": "LIVE",
+			"tabs": {
+				"ended": "ended",
+				"current": "current",
+				"future": "future"
+			},
+			"columns": {
+				"match": "Match",
+				"score": "Score",
+				"date": "Date",
+				"time": "Time"
+			},
+			"wins": "WINS",
+			"wrongTeamSelected": "Wrong team selected",
+			"vetoType": {
+				"pick": "pick",
+				"ban": "ban",
+				"decider": "decider"
+			},
+			"vetoSide": {
+				"left": "left",
+				"right": "right"
+			},
+			"vetoDescription": {
+				"pick": "{{teamName}} picks {{mapName}}",
+				"ban": "{{teamName}} bans {{mapName}}"
+			},
+			"chooseTeam": "Choose team",
+			"vetoSidepick": {
+				"normal": ", {{secondTeamName}} chooses {{side}} side",
+				"decider": "{{mapName}} decider"
+			},
+			"pickBothTeams": "Pick both teams to set vetos",
+			"setScore": "Set score",
+			"resetScore": "Reset score",
+			"questionOpponentPick": "Does the opponent pick a side?",
+			"reversedSides": "Reversed sides",
+			"mapList": "Map list",
+			"generateGet5Config": "Generate Get5 Config"
+		},
+		"credits": {
+			"header": "Credits",
+			"applicationAndAPI": "Application and HUD API",
+			"testingAndDebugging": "Testing and Debugging",
+			"customRadarBy": "Custom radar by",
+			"initialLayoutIdea": "Initial Layout Idea",
+			"feedbackAndIdeas": "Feedback & Ideas"
+		},
+		"arg": {
+			"safeband": "Safety band",
+			"beforeKill": "Before kill",
+			"useHLAE": "Use HLAE?",
+			"afterKill": "After kill",
+			"saveClips": "Save clips?",
+			"delayConfig": "Delay config",
+			"computerId": "Computer id",
+			"turnOff": "Turn off",
+			"turnOn": "Turn on",
+			"priority": {
+				"multi": "Prioritize multi kills",
+				"headshots": "Prioritize headshots",
+				"teamkills": "Prioritize team kills"
+			}
+		},
+		"settings": {
+			"logIn": "Log in",
+			"email": "Email",
+			"password": "Password",
+			"noAccount": "Don't have an account?",
+			"registerNow": "Register now!",
+			"forgot": "Forgot password?",
+			"Not logged in": "Not logged in",
+			"You need to pass your one-time token": "You need to pass your one-time token",
+			"preInstalled": "Use pre-installed",
+			"cloudSynchronization": "Cloud Synchronization",
+			"language": "Language",
+			"dota2Assets": "Dota 2 Assets",
+			"autoSwitch": "Auto switch",
+			"header": "Settings",
+			"f1": {
+				"add": "Add integration",
+				"integration": "F1 Integration",
+				"notInstalled": "F1 not installed"
+			},
+			"rocketleague": {
+				"integration": "RL Integration",
+				"status": {
+					"busy": "Busy...",
+					"bakkesModNotInstalled": "BakkesMod not installed",
+					"sosNotInstalled": "SOS Plugin not installed",
+					"notConfigured": "Not configured",
+					"installed": "Installed"
+				},
+				"refresh": "Refresh",
+				"install": "Install"
+			},
+			"gsi": {
+				"loadingAbout": "Loading data about GameState files...",
+				"loadingData": "Loading GameState data...",
+				"loadingFileData": "Loading GameState file data..."
+			},
+			"config": {
+				"loadingAbout": "Loading data about cfg files...",
+				"loadingFileData": "Loading config file data..."
+			},
+			"input": {
+				"steamAPIKey": "Steam API Key",
+				"GSIPort": "GSI Port",
+				"GSIToken": "GSI Token"
+			},
+			"updater": {
+				"version": "Version",
+				"installing": "Installing...",
+				"downloading": "Downloading... {{percent}}%",
+				"install": "Install update",
+				"latest": "Latest"
+			},
+			"entry": {
+				"keybinds": {
+					"keybinds": "Keybinds",
+					"hardRefreshHUD": "Hard refresh HUD",
+					"argToggle": "Toggle ARG",
+					"dota2ARG": "Play Dota 2 ARG",
+					"reverseSide": "Reverse sides",
+					"refreshHud": "Refresh HUD",
+					"toggleDirector": "Toggle ACO Director"
+				},
+				"streamDeck": {
+					"unavailable": "Unavailable"
+				},
+				"HLAE": {
+					"path": "HLAE Path",
+					"setPath": "Set HLAE path"
+				},
+				"AFX": {
+					"path": "AFX CEF HUD Interop",
+					"setPath": "Set AFX path"
+				},
+				"GSI": {
+					"status": "GameState Integration",
+					"add": "Add GSI file"
+				},
+				"config": {
+					"status": "Configs",
+					"add": "Add config files"
+				},
+				"credits": {
+					"credits": "Credits",
+					"seeNow": "See now"
+				},
+				"downloads": {
+					"downloads": "Downloads",
+					"GSIConfig": "GSI config",
+					"HUDConfigs": "HUD configs",
+					"exportDB": "Export DB"
+				},
+				"import": {
+					"import": "Import"
+				},
+				"readerCode": {
+					"readerCode": "Reader Code"
+				}
+			}
+		},
+		"ar": {
+			"add": "Upload AR module",
+			"toggle": "Toggle AR Module",
+			"openDirectory": "Open module directory",
+			"deleteLocally": "Delete AR module"
+		},
+		"huds": {
+			"header": "HUDs",
+			"config": {
+				"customRadar": "Radar",
+				"customKillfeedOrACO": "Killfeed / ACO",
+				"embeddedHUD": "Embedded HUD",
+				"autoexecute": "Auto-execute",
+				"console": "Console",
+				"add": "Add HUD",
+				"runGame": "RUN GAME",
+				"pauseTest": "PAUSE TEST",
+				"runTest": "RUN TEST",
+				"openDirectory": "Open HUDs directory",
+				"playTestLoop": "Play test loop",
+				"ar": "AR",
+				"goToKeybinds": "Configure Keybinds",
+				"more": "More",
+				"hlaeIsRequired": "You must have CS:GO running with HLAE",
+				"proOrEntrpriseIsRequired": "You must have a Professional or Enterprise plan",
+				"hlaeAndHigherPlanIsRequired": "You must have CS:GO running with HLAE and a Professional or Enterprise plan"
+			},
+			"sort": {
+				"custom": "Custom",
+				"newest": "Newest",
+				"oldest": "Oldest"
+			},
+			"fields": {
+				"missing": "Missing fields",
+				"fieldOfType": "Field \"{{field}}\" of type \"{{type}}\"",
+				"fieldNamePlaceholder": "Field name",
+				"inputType": "Input type",
+				"values": {
+					"text": "Text",
+					"team": "Team",
+					"image": "Image",
+					"match": "Match",
+					"player": "Player",
+					"color": "Color"
+				},
+				"visible": "Visible",
+				"manageCustom": "Manage custom fields",
+				"addNew": "+ Add new field"
+			},
+			"includes": {
+				"customRadar": "Includes custom radar",
+				"customKillfeed": "Include custom killfeed"
+			},
+			"removal": {
+				"title": "Removing {{hud}}",
+				"areYouSure": "Are you sure you want to remove {{hud}}?"
+			},
+			"actions": {
+				"toggleUrl": "Toggle HUD URL",
+				"settings": "Go to HUD settings",
+				"shortcut": " Shortcut",
+				"overlay": "Start HUD overlay",
+				"upload": "Upload HUD",
+				"uploading": "Uploading...",
+				"delete": "Delete",
+				"deleteLocally": "Delete HUD locally",
+				"deleteFromCloud": "Delete HUD from cloud",
+				"downloading": "Downloading...",
+				"toggleHUD": "Toggle HUD (Embedded only)",
+				"clickToCopy": "Click to copy",
+				"createShortcut": "Create shortcut on desktop"
+			},
+			"warning": {
+				"specifyHLAEPath": "Specify HLAE path in Settings in order to use custom killfeeds",
+				"specifyAFXInteropPath": "Specify AFX Interop path in Settings in order to use AFX mode",
+				"specifyAFXModeInfo": "When using AFX mode, after joining the match click on the toggle - no need to start the overlay."
+			}
+		},
+		"app": {
+			"changeGame": "Change Game",
+			"cloud": {
+				"isActive": "Cloud is active",
+				"isNotActive": "Cloud is not active"
+			}
+		},
+		"helpers": {
+			"learnMore": "Learn more",
+			"onlyInProPlus": {
+				"title": "Upgrade your plan",
+				"info": "This functionality is only available for Professional and Enterprise plan users.\nPlease upgrade your plan to unlock it."
+			},
+			"onlyInProPlusEnt3": {
+				"title": "Upgrade your plan",
+				"info": "This functionality is only available for Professional and Enterprise plan users with at least 3 seats.\nPlease upgrade your plan to unlock it."
+			},
+			"huds": {
+				"tab": {
+					"title": "HUDs Tab",
+					"info": "HUDs tab is used to manage HUDs and game launch configuration."
+				},
+				"radar": {
+					"title": "Radar",
+					"info": "Enabling this option and running the game with the config presented below or using the \"Run game\" button will disable the in-game radar to use the custom radar built into your HUDs."
+				},
+				"killfeedACO": {
+					"title": "Killfeed / ACO",
+					"info": "Enabling this option and running the game with the config presented below or using the \"Run game\" button will disable the in-game killfeed to use the custom killfeed built into your HUDs. Enabling this option is also required to use ACO.\nThis option will launch CS:GO in insecure mode - you won't be able to join VAC-protected servers (e.g. Faceit, matchmaking) unless as a GOTV spectator while it is enabled."
+				},
+				"embeddedHUD": {
+					"title": "Embedded HUD",
+					"info": "Enabling this option will make LHM hook into the CS:GO render process, making your HUD a part of the game instead of a separate overlay. To launch a HUD in embedded mode, use the toggle next to the HUD.\nUsing embedded mode is required for AR. It might also decrease the performance of the game.\nThis option will launch CS:GO in insecure mode - you won't be able to join VAC-protected servers (e.g. Faceit, matchmaking) unless as a GOTV spectator while it is enabled."
+				},
+				"playTestLoop": {
+					"title": "Play test loop",
+					"info": "Enabling this option will play the Test Data in a loop so it never ends. This is useful for testing your HUDs."
+				},
+				"ar": {
+					"title": "AR",
+					"info": "Enabling this option and running the game with the config presented below or using the \"Run game\" button will allow you to use AR modules.\nThis option will launch CS:GO in insecure mode - you won't be able to join VAC-protected servers (e.g. Faceit, matchmaking) unless as a GOTV spectator while it is enabled."
+				},
+				"autoExecute": {
+					"title": "Auto-execute",
+					"info": "\"Run game\" button will launch the game with the config presented below when this option is enabled."
+				},
+				"xray": {
+					"title": "XRay",
+					"info": "With this option you can set custom colors for player borders in the game."
+				},
+				"runTest": {
+					"title": "Run test",
+					"info": "This functionality lets you simulate a game data stream to test your HUD or configuration."
+				}
+			},
+			"teams": {
+				"tab": {
+					"title": "Teams",
+					"info": "Teams tab is used to manage teams displayed and used within HUDs and other LHM functionalities."
+				}
+			},
+			"players": {
+				"tab": {
+					"title": "Players",
+					"info": "Players tab is used to manage players displayed and used within HUDs and other LHM functionalities."
+				}
+			},
+			"matches": {
+				"tab": {
+					"title": "Matches",
+					"info": "Matches tab is used to manage matches displayed and used within HUDs and other LHM functionalities."
+				}
+			},
+			"tournaments": {
+				"tab": {
+					"title": "Tournaments",
+					"info": "Tournaments tab is used to manage tournaments displayed and used within HUDs and other LHM functionalities."
+				}
+			},
+			"cgMode": {
+				"tab": {
+					"title": "CG Mode",
+					"info": "CG Mode incorporates the most essential modules for broadcasting operations in a compact form.\nFrom this tab, you can manage your matches, teams, players and live game on a single screen.\nYou can hide unnecessary tabs using the \"Hide\" button above each section."
+				}
+			},
+			"arg": {
+				"tab": {
+					"title": "Auto Replay Generator",
+					"info": "Auto Replay Generator (ARG) module generates replays that can be displayed between rounds or at the end of a game.\nPlease keep in mind that vMix is required for proper ARG configuration. vMix is not a free application, and ARG itself is designed primarly for production teams already using vMix."
+				},
+				"safeband": {
+					"title": "Safeband",
+					"info": "Safeband options determine how much time (in milliseconds) before and after a kill each clip should contain."
+				},
+				"useHLAE": {
+					"title": "Use HLAE?",
+					"info": "Using HLAE will let ARG analyze more in-game data, resulting in better kill predictions."
+				},
+				"delayConfig": {
+					"title": "Delay config",
+					"info": "Delay config specifies how much the GOTV observer is delayed (in seconds)."
+				},
+				"saveClips": {
+					"title": "Save clips",
+					"info": "Enabling this option will make vMix keep all of the clips generated by ARG instead of deleting them."
+				},
+				"computerID": {
+					"title": "Computer ID",
+					"info": "ID used by ARG, needed for successful connection."
+				}
+			},
+			"aco": {
+				"tab": {
+					"title": "Auto Cinematic Observer",
+					"info": "The ACO module lets you use predefined camera movement paths to follow the action in the game.\nACO uses AI to determine the most important events happening in-game at any given time."
+				},
+				"area": {
+					"title": "Area",
+					"info": "Areas are regions on the map to which you bind your configs. If there are many players in the given area, one of the configs added to it will be executed inside the CS:GO client.\nTo add an area, click on the \"+\" button and select the desired region on the map by clicking on its corners."
+				},
+				"manualControl": {
+					"title": "Manual control",
+					"info": "Use the Manual Control panel to pick any area to be displayed by hand.\nBecause this is an external page that opens up in your web browser, you can visit it from your smartphone or tablet as well (if you are in the same local network).\nClicking or tapping on an area inside the Manual Control panel will execute its configs in the CS:GO client."
+				},
+				"areaCreation": {
+					"title": "Area creation",
+					"info": "Click on the map to define the corners of your area.\nUse the undo button if you made a mistake."
+				},
+				"directorSwitch": {
+					"title": "Enable Director",
+					"info": "When the toggle is turned on, the ACO automatically starts up. You can also use keybind (default: ALT + K)."
+				},
+				"scoutDirectorSwitch": {
+					"title": "Enable Director",
+					"info": "When the toggle is turned on, the Scout AI automatically starts up. You can also use keybind (default: ALT + K)."
+				},
+				"scoutCinematic": {
+					"title": "Scout AI Cinematic Mode",
+					"info": "In this mode, Scout AI will work along with ACO AI, to provide the fullest observing experience. Without it, Scout AI will only provide POV camera, without any overview shots.\nThis mode is only applicable if ACO AI supports a map the match is played on."
+				},
+				"timeRemaining": {
+					"title": "Remaining time of your monthly Scout AI quota",
+					"info": "Because Scout AI is currently in beta, usage limits are temporarily disabled and time is not being counted - enjoy!"
+				}
+			},
+			"ar": {
+				"tab": {
+					"title": "Augmented Reality",
+					"info": "AR module support allows for displaying custom 3D objects as if they were a part of the game.\nAR uses camera position data loaded using GSI to render your HTML & CSS-based 3D objects over the game scene."
+				}
+			},
+			"live": {
+				"tab": {
+					"title": "Live",
+					"info": "When a live game is detected, the Live tab fills up with data about the current match, such as player names, IDs and current score.\nThe Live tab provides you with quick access to player editing as well."
+				}
+			},
+			"cameras": {
+				"tab": {
+					"title": "Cameras",
+					"info": "The Cameras module lets you display player webcam feeds inside your HUDs using LHM - no external tools are required."
+				}
+			},
+			"addons": {
+				"tab": {
+					"title": "Addons",
+					"info": "Addons are a new way to create powerful integrations with LHM, working by providing sandboxed Node.js environments with CS:GO GSI event emitters hooked into them out of the box.\nThanks to LHM Addons, you can focus your efforts on creating the best possible experience for your viewers, with all the heavy lifting done by LHM."
+				}
+			},
+			"quick": {
+				"tab": {
+					"title": "Quick",
+					"info": "LHM Quick allows you to quickly prepare your whole player, team and HUD setup from a single place, letting you get your stream started right away."
+				}
+			}
+		},
+		"modals": {
+			"imageTooLarge": {
+				"title": "Image too large",
+				"info": "The selected image is too large. The size limit is {{limit}} MB."
+			},
+			"delete": {
+				"titleTeams": "Delete teams",
+				"titlePlayers": "Delete players",
+				"infoTeams": "Are you sure you want to remove {{count}} teams?",
+				"infoPlayers": "Are you sure you want to remove {{count}} players?",
+				"deleteWithPlayers": "Delete with players"
+			}
+		}
+	}
+}

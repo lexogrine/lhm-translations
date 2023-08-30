@@ -1,0 +1,655 @@
+{
+  "translation": {
+    "common": {
+      "cgMode": "CG-läge",
+      "or": "eller",
+      "close": "Stäng",
+      "save": "Spara",
+      "saveAndSend": "Spara och skicka",
+      "loadingSuccess": "Laddad framgångsrikt",
+      "loaded": "Laddad",
+      "notLoaded": "Ej laddad",
+      "vs": "VS",
+      "noTeam": "Inget team",
+      "noPlayer": "Ingen spelare",
+      "noMatch": "Match hittades inte",
+      "noTournament": "Ingen turnering",
+      "noValue": "Standard",
+      "teamOne": "Lag Ett",
+      "teamTwo": "Lag två",
+      "show": "Show",
+      "hide": "Dölj",
+      "map": "Karta",
+      "team": "Team",
+      "players": "Spelare",
+      "realName": "Verkligt namn",
+      "player": "Spelare",
+      "teams": "Lag",
+      "team1": "Lag 1",
+      "team2": "Lag 2",
+      "teamNumber": "TEAM #{{num}}",
+      "vetoNumber": "Veto {{num}}",
+      "delete": "Radera",
+      "edit": "Redigera",
+      "live": "Live",
+      "match": "Match",
+      "goBack": "Gå tillbaka",
+      "ct": "CT",
+      "t": "T",
+      "no": "Nej",
+      "export": "Export",
+      "cancel": "Avbryt",
+      "tournaments": "Turneringar",
+      "firstName": "Förnamn",
+      "lastName": "Efternamn",
+      "createNew": "Skapa ny",
+      "nickname": "Smeknamn",
+      "ready": "Redo",
+      "country": "Land",
+      "manage": "Hantera",
+      "import": "Importera",
+      "teamName": "Teamets namn",
+      "shortName": "Kort namn",
+      "search": "Sök...",
+      "ok": "Ok",
+      "disconnect": "Koppla från",
+      "connect": "Anslut",
+      "enable": "Aktivera",
+      "example": "Exempel",
+      "disable": "Inaktivera",
+      "downloadTemplate": "Ladda ner mall",
+      "clickAndCopy": "Klicka & Kopiera"
+    },
+    "blocker": {
+      "personal": "Uppgradera din LHM till en personlig, professionell eller företagsplan för att få full tillgång till det här avsnittet.",
+      "proPlus": "Uppgradera din LHM till en Professional- eller Enterprise-plan för att få full tillgång till detta avsnitt.",
+      "aco": "Uppgradera din LHM till en Personal-plan för att få tillgång till ACO, eller en Professional-/ Enterprise-plan för att få ytterligare tillgång till ACO AI.",
+      "upgradeNow": "Uppgradera nu"
+    },
+    "titles": {
+      "players": "Spelare",
+      "teams": "Lag",
+      "arg": "Generator för automatisk uppspelning",
+      "aco": "Auto Cinematic Observer",
+      "ar": "Förstärkt verklighet",
+      "cgpanel": "CG-läge",
+      "huds": "HUD:ar",
+      "matches": "Matcher",
+      "tournaments": "Turneringar",
+      "live": "Live",
+      "cameras": "Kameror",
+      "addons": "Tillägg",
+      "settings": "Inställningar",
+      "credits": "Krediter",
+      "quick": "Snabbt"
+    },
+    "aco": {
+      "disabled": "Inaktiverad",
+      "aco1": "ACO",
+      "acoAI": "ACO AI",
+      "acoAIScout": "ACO AI + Scout AI",
+      "map": "Karta",
+      "area": "Område",
+      "addNewArea": "Lägg till nytt område",
+      "showInfo": "Visa info",
+      "hideInfo": "Dölj info",
+      "areaCreation": "Skapande av område",
+      "createArea": "+ Lägg till ett nytt område",
+      "addConfig": "+ Lägg till en ny konfiguration",
+      "areaConfigurations": "Konfigurationer för områden",
+      "stateCreatingNew": "[skapa ett nytt område]",
+      "priority": "prioritet",
+      "inGameName": "Namn i spelet",
+      "manualControl": "Manuell kontroll",
+      "areaConfigurationsPlaceholder": "Välj ett område för att se dess konfigurationer",
+      "enableDirector": "Aktivera direktör",
+      "disabledDescription": "All kontroll ges till dig och dina observatörer.\nHa det så kul.",
+      "aco1Description": "En balans mellan kontroll och automatisering.\nHjälp dina observatörer med en uppsättning manuellt skrivna instruktioner för ACO.",
+      "aco-aiDescription": "Luta dig tillbaka medan de avancerade algoritmerna i ACO AI styr din ström.",
+      "aco-ai-scoutDescription": "Låt vårt nyaste matchprognossystem ta över rodret.\nKommer snart.",
+      "saveArea": "Spara område",
+      "areaName": "Namn",
+      "areaNamePlaceholder": "Namn på område",
+      "areaPriority": "Prioritet",
+      "areaPriorityPlaceholder": "Prioritet för område",
+      "addConfigHeader": "Lägg till en ny konfiguration i detta område",
+      "addConfigPlaceholder": "Ange ett kommando som ska utföras i detta område"
+    },
+    "players": {
+      "edit": "Redigera en spelare",
+      "uploadProfile": "Bild",
+      "avatarInfo": "Avatar som ska användas för spelarbilder istället för standard från Steam",
+      "addPlayer": "Lägg till spelare",
+      "importPlayersTitle": "Importera spelare",
+      "downloadNamesFile": "Ladda ner namnfil",
+      "importPlayersExcel": "Använd vårt förberedda Excel-ark för att enkelt importera många spelare på en gång.",
+      "exportPlayers": "Exportera",
+      "avatar": "Avatar"
+    },
+    "teams": {
+      "edit": "Redigera ett lag",
+      "uploadLogo": "Logotyp",
+      "logoInfo": "Logotyp som ska användas för laget, om möjligt i den givna HUD",
+      "addTeam": "Lägg till team",
+      "exportTeams": "Exportera",
+      "importTeamsTitle": "Importera team",
+      "importTeamsExcel": "Använd vårt förberedda Excel-ark för att enkelt importera många team på en gång.",
+      "logo": "Logotyp"
+    },
+    "live": {
+      "replaceUsernames": "Byt ut användarnamn",
+      "header": "Live",
+      "noGame": "Inget spel är för närvarande live.",
+      "tip": "Spelare för närvarande i match, klicka för att lägga till en spelare i spelarlistan."
+    },
+    "cameras": {
+      "generatePassword": "Generera lösenord",
+      "sendToPlayers": "Skicka detta till dina spelare",
+      "fillFromLive": "Fyll från Live-fliken",
+      "resetLink": "Återställ länk"
+    },
+    "addons": {
+      "upload": "Ladda upp addon",
+      "status": {
+        "READY": "Klar",
+        "UNINSTALLED": "Avinstallerad"
+      }
+    },
+    "navbar": {
+      "huds": "HUD",
+      "aco": "ACO & Scout",
+      "addons": "Tillägg",
+      "ar": "AR",
+      "live": "Live",
+      "quick": "Snabb",
+      "professionalOnly": "Endast för professionella",
+      "nonFreeOnly": "Endast icke-fria",
+      "cameras": "Kameror",
+      "hi": "Hej, {{username}}!",
+      "yourPlan": "Din plan",
+      "validFrom": "Giltig från",
+      "validUntil": "Giltig till",
+      "nextPayment": "Nästa betalning",
+      "logout": "Logga ut"
+    },
+    "quick": {
+      "uploadImage": "Ladda upp bild",
+      "teamLogo": "Teamets logotyp",
+      "backToLHM": "Tillbaka till LHM",
+      "next": "Nästa",
+      "back": "Tillbaka till",
+      "newPlayer": "Skapa ny spelare",
+      "startSession": "Starta ny session",
+      "exit": "Avsluta snabbt",
+      "fillWithLive": "Fyll med Live data",
+      "unnamedTeam": "Namnlöst team",
+      "dismiss": "Avfärda",
+      "launchHUD": "Starta HUD",
+      "uploadAvatar": "Ladda upp avatar",
+      "selectHUD": "Välj HUD",
+      "preview": "Förhandsgranskning",
+      "unlink": "Ta bort länk",
+      "playerExists": {
+        "info": "En spelare med denna {{playerIdentifierName}} finns redan.",
+        "overwrite": "Vill du skriva över deras data med detta?",
+        "overwriteTitle": "Skriva över?",
+        "decline": "Nej, låt mig ändra det",
+        "accept": "Ja, skriv över"
+      },
+      "success": {
+        "title": "Din HUD är konfigurerad och startad",
+        "opened": "HUD öppnades i ett separat fönster.",
+        "borderless": "Du kan använda gränslöst läge i spelet och fånga HUD-skärmen direkt",
+        "display": "eller lägga till den som en ny skärmkälla i din sändningsprogramvara.",
+        "userGuide": "Om du har några problem kan du läsa användarhandboken.",
+        "started": "Spelet har startat"
+      }
+    },
+    "tournaments": {
+      "overview": "Översikt",
+      "edit": "Redigera en turnering",
+      "page": "Turnerings sida",
+      "create": "Skapa ny turnering",
+      "name": "Turneringens namn",
+      "uploadLogo": "Ladda upp turneringslogotyp",
+      "logoInfo": "Logotypen för turneringen kommer att finnas tillgänglig under matchen",
+      "singleElimBracket": "Bracket med enkel eliminering",
+      "doubleElimBracket": "Dubbel eliminering",
+      "swiss": "Schweizisk",
+      "group": "Grupp",
+      "playoffs": "Slutspel",
+      "playoffType": "Typ av slutspel",
+      "soon": "Snart",
+      "groupType": "Grupp typ",
+      "participants": "Deltagare",
+      "then": "sedan",
+      "amountOfTeams": "Antal lag",
+      "amountOfRounds": "Antal omgångar",
+      "bindMatch": "Bind match till bracket",
+      "teamOrderList": "Lagens ordningslista"
+    },
+    "match": {
+      "matches": "Matcher",
+      "seriesWins": "Seriesegrar",
+      "live": "Live",
+      "edit": "Redigera match",
+      "editTeam": "Redigera lag",
+      "emptyTeam": "Tomt lag",
+      "scoreModal": {
+        "unsetWin": "Oinställd vinst",
+        "setWin": "Inställd vinst",
+        "teamLogo": "Lagets logotyp"
+      },
+      "toggleLive": "LIVE",
+      "tabs": {
+        "ended": "slutade",
+        "current": "ström",
+        "future": "framtida"
+      },
+      "columns": {
+        "match": "Matchning",
+        "score": "Resultat",
+        "date": "Datum",
+        "time": "Tid"
+      },
+      "wins": "VINSTER",
+      "wrongTeamSelected": "Fel lag valt",
+      "vetoType": {
+        "pick": "välj",
+        "ban": "ban",
+        "decider": "beslut"
+      },
+      "vetoSide": {
+        "left": "vänster",
+        "right": "höger"
+      },
+      "vetoDescription": {
+        "pick": "{{teamName}} plockar {{mapName}}",
+        "ban": "{{teamName}} förbjuder {{mapName}}"
+      },
+      "chooseTeam": "Välj lag",
+      "vetoSidepick": {
+        "normal": ", {{secondTeamName}} väljer {{side}} sida",
+        "decider": "{{mapName}} avgörande"
+      },
+      "pickBothTeams": "Välj båda lagen för att fastställa veton",
+      "setScore": "Ange poäng",
+      "resetScore": "Återställ poäng",
+      "questionOpponentPick": "Väljer motståndaren en sida?",
+      "reversedSides": "Omvända sidor",
+      "mapList": "Kartlista",
+      "generateGet5Config": "Generera Get5 Config"
+    },
+    "credits": {
+      "header": "Krediter",
+      "applicationAndAPI": "API för applikationer och HUD",
+      "testingAndDebugging": "Testning och felsökning",
+      "customRadarBy": "Anpassad radar av",
+      "initialLayoutIdea": "Ursprunglig layoutidé",
+      "feedbackAndIdeas": "Feedback & Idéer"
+    },
+    "arg": {
+      "safeband": "Säkerhetsband",
+      "beforeKill": "Före död",
+      "useHLAE": "Använd HLAE?",
+      "afterKill": "Efter dödande",
+      "saveClips": "Spara klipp?",
+      "delayConfig": "Konfigurera fördröjning",
+      "computerId": "Dator-ID",
+      "turnOff": "Stäng av",
+      "turnOn": "Slå på",
+      "priority": {
+        "multi": "Prioritera flera kills",
+        "headshots": "Prioritera huvudskott",
+        "teamkills": "Prioritera team dödar"
+      }
+    },
+    "settings": {
+      "logIn": "Logga in",
+      "email": "E-post",
+      "password": "Lösenord",
+      "noAccount": "Har du inget konto?",
+      "registerNow": "Registrera dig nu!",
+      "forgot": "Glömt lösenordet?",
+      "Not logged in": "Ej inloggad",
+      "You need to pass your one-time token": "Du måste skicka din engångstoken",
+      "preInstalled": "Använd förinstallerad",
+      "cloudSynchronization": "Synkronisering i molnet",
+      "language": "Språk",
+      "dota2Assets": "Dota 2 Tillgångar",
+      "autoSwitch": "Auto switch",
+      "header": "Inställningar",
+      "f1": {
+        "add": "Lägg till integration",
+        "integration": "F1 Integration",
+        "notInstalled": "F1 inte installerad"
+      },
+      "rocketleague": {
+        "integration": "RL Integration",
+        "status": {
+          "busy": "Upptagen...",
+          "bakkesModNotInstalled": "BakkesMod ej installerad",
+          "sosNotInstalled": "SOS Plugin ej installerad",
+          "notConfigured": "Ej konfigurerad",
+          "installed": "Installerad"
+        },
+        "refresh": "Uppdatera",
+        "install": "Installera"
+      },
+      "gsi": {
+        "loadingAbout": "Laddar data om GameState-filer...",
+        "loadingData": "Laddar GameState-data...",
+        "loadingFileData": "Laddar data om GameState-filer..."
+      },
+      "config": {
+        "loadingAbout": "Laddar data om cfg-filer...",
+        "loadingFileData": "Laddar data om config-filer..."
+      },
+      "input": {
+        "steamAPIKey": "API-nyckel för Steam",
+        "GSIPort": "GSI-port",
+        "GSIToken": "GSI-token"
+      },
+      "updater": {
+        "version": "Version",
+        "installing": "Installerar...",
+        "downloading": "Nedladdning... {{percent}}%",
+        "install": "Installera uppdatering",
+        "latest": "Senaste"
+      },
+      "entry": {
+        "keybinds": {
+          "keybinds": "Nyckelbindningar",
+          "hardRefreshHUD": "Hård uppdatering HUD",
+          "argToggle": "Växla ARG",
+          "dota2ARG": "Spela Dota 2 ARG",
+          "reverseSide": "Omvända sidor",
+          "refreshHud": "Uppdatera HUD",
+          "toggleDirector": "Växla ACO-direktör"
+        },
+        "streamDeck": {
+          "unavailable": "Ej tillgänglig"
+        },
+        "HLAE": {
+          "path": "HLAE-väg",
+          "setPath": "Ange HLAE-väg"
+        },
+        "AFX": {
+          "path": "AFX CEF HUD Interop",
+          "setPath": "Set AFX path"
+        },
+        "GSI": {
+          "status": "GameState Integration",
+          "add": "Lägg till GSI-fil"
+        },
+        "config": {
+          "status": "Konfigurationer",
+          "add": "Lägg till konfigurationsfiler"
+        },
+        "credits": {
+          "credits": "Krediter",
+          "seeNow": "Se nu"
+        },
+        "downloads": {
+          "downloads": "Nedladdningar",
+          "GSIConfig": "GSI-konfiguration",
+          "HUDConfigs": "HUD-konfigurationer",
+          "exportDB": "Exportera DB"
+        },
+        "import": {
+          "import": "Importera"
+        },
+        "readerCode": {
+          "readerCode": "Läsarkod"
+        }
+      }
+    },
+    "ar": {
+      "add": "Ladda upp AR-modul",
+      "toggle": "Växla AR-modul",
+      "openDirectory": "Öppna modulkatalogen",
+      "deleteLocally": "Radera AR-modul"
+    },
+    "huds": {
+      "header": "HUD",
+      "config": {
+        "customRadar": "Radar",
+        "customKillfeedOrACO": "Killfeed / ACO",
+        "embeddedHUD": "Inbäddad HUD",
+        "autoexecute": "Auto-execute",
+        "console": "Konsol",
+        "add": "Lägg till HUD",
+        "runGame": "KÖR SPEL",
+        "pauseTest": "PAUSA TEST",
+        "runTest": "KÖR TEST",
+        "openDirectory": "Öppna HUD-katalogen",
+        "playTestLoop": "Spela testloop",
+        "ar": "AR",
+        "goToKeybinds": "Konfigurera nyckelbindningar",
+        "more": "Mer",
+        "hlaeIsRequired": "Du måste ha CS:GO igång med HLAE",
+        "proOrEntrpriseIsRequired": "Du måste ha en Professional- eller Enterprise-plan",
+        "hlaeAndHigherPlanIsRequired": "Du måste ha CS:GO som körs med HLAE och en Professional- eller Enterprise-plan"
+      },
+      "sort": {
+        "custom": "Anpassad",
+        "newest": "Nyaste",
+        "oldest": "Äldsta"
+      },
+      "fields": {
+        "missing": "Saknade fält",
+        "fieldOfType": "Fält \"{{field}}\" av typ \"{{type}}\"",
+        "fieldNamePlaceholder": "Fältnamn",
+        "inputType": "Typ av indata",
+        "values": {
+          "text": "Text",
+          "team": "Lag",
+          "image": "Bild",
+          "match": "Match",
+          "player": "Spelare",
+          "color": "Färg"
+        },
+        "visible": "Synlig",
+        "manageCustom": "Hantera anpassade fält",
+        "addNew": "+ Lägg till nytt fält"
+      },
+      "includes": {
+        "customRadar": "Inkluderar anpassad radar",
+        "customKillfeed": "Inkluderar anpassad killfeed"
+      },
+      "removal": {
+        "title": "Tar bort {{hud}}",
+        "areYouSure": "Är du säker på att du vill ta bort {{hud}}?"
+      },
+      "actions": {
+        "toggleUrl": "Växla HUD URL",
+        "settings": "Gå till HUD-inställningar",
+        "shortcut": "Genväg",
+        "overlay": "Starta HUD-överlagring",
+        "upload": "Ladda upp HUD",
+        "uploading": "Uppladdning...",
+        "delete": "Radera",
+        "deleteLocally": "Radera HUD lokalt",
+        "deleteFromCloud": "Ta bort HUD från molnet",
+        "downloading": "Laddar ner...",
+        "toggleHUD": "Växla HUD (endast inbäddad)",
+        "clickToCopy": "Klicka för att kopiera",
+        "createShortcut": "Skapa genväg på skrivbordet"
+      },
+      "warning": {
+        "specifyHLAEPath": "Ange HLAE-sökväg i Inställningar för att kunna använda anpassade killfeeds",
+        "specifyAFXInteropPath": "Ange AFX Interop-sökväg i Inställningar för att använda AFX-läge",
+        "specifyAFXModeInfo": "Vid användning av AFX-läge, efter att ha gått med i matchen, klicka på växeln - inget behov av att starta överlagringen."
+      }
+    },
+    "app": {
+      "changeGame": "Ändra spel",
+      "cloud": {
+        "isActive": "Molnet är aktivt",
+        "isNotActive": "Molnet är inte aktivt"
+      }
+    },
+    "helpers": {
+      "learnMore": "Läs mer",
+      "onlyInProPlus": {
+        "title": "Uppgradera din plan",
+        "info": "Denna funktion är endast tillgänglig för användare av Professional- och Enterprise-planerna.\nVänligen uppgradera din plan för att låsa upp den."
+      },
+      "huds": {
+        "tab": {
+          "title": "Fliken HUD",
+          "info": "Fliken HUD:ar används för att hantera HUD:ar och konfigurationen för spelstart."
+        },
+        "radar": {
+          "title": "Radar",
+          "info": "Om du aktiverar det här alternativet och kör spelet med konfigurationen nedan eller använder knappen \"Kör spel\" inaktiveras spelradarn för att använda den anpassade radarn som är inbyggd i dina HUD:ar."
+        },
+        "killfeedACO": {
+          "title": "Killfeed / ACO",
+          "info": "Om du aktiverar det här alternativet och kör spelet med konfigurationen nedan eller använder knappen \"Kör spelet\" inaktiveras killfeeden i spelet så att den anpassade killfeed som finns inbyggd i dina HUD:ar används. Aktivering av det här alternativet krävs också för att använda ACO.\nDet här alternativet startar CS:GO i osäkert läge - du kommer inte att kunna gå med i VAC-skyddade servrar (t.ex. Faceit, matchmaking) om du inte är en GOTV-åskådare medan det är aktiverat."
+        },
+        "embeddedHUD": {
+          "title": "Inbäddad HUD",
+          "info": "Om du aktiverar det här alternativet kopplas LHM in i CS:GO-renderingsprocessen, vilket gör din HUD till en del av spelet istället för en separat överlagring. För att starta en HUD i inbäddat läge använder du reglaget bredvid HUD.\nInbäddat läge krävs för AR. Det kan också minska spelets prestanda.\nDet här alternativet startar CS:GO i osäkert läge - du kommer inte att kunna gå med i VAC-skyddade servrar (t.ex. Faceit, matchmaking) om du inte är en GOTV-åskådare medan det är aktiverat."
+        },
+        "playTestLoop": {
+          "title": "Spela testloop",
+          "info": "Om du aktiverar det här alternativet spelas testdata upp i en loop så att det aldrig tar slut. Detta är användbart för att testa dina HUD:ar."
+        },
+        "ar": {
+          "title": "AR",
+          "info": "Om du aktiverar det här alternativet och kör spelet med konfigurationen nedan eller använder knappen \"Kör spel\" kan du använda AR-moduler.\nDet här alternativet startar CS:GO i osäkert läge - du kommer inte att kunna gå med i VAC-skyddade servrar (t.ex. Faceit, matchmaking) om du inte är en GOTV-åskådare medan det är aktiverat."
+        },
+        "autoExecute": {
+          "title": "Automatisk körning",
+          "info": "knappen \"Kör spel\" kommer att starta spelet med konfigurationen nedan när detta alternativ är aktiverat."
+        },
+        "xray": {
+          "title": "XRay",
+          "info": "Med det här alternativet kan du ställa in anpassade färger för spelargränser i spelet."
+        },
+        "runTest": {
+          "title": "Kör test",
+          "info": "Med den här funktionen kan du simulera en speldataström för att testa din HUD eller konfiguration."
+        }
+      },
+      "teams": {
+        "tab": {
+          "title": "Lag",
+          "info": "Fliken Teams används för att hantera team som visas och används i HUD och andra LHM-funktioner."
+        }
+      },
+      "players": {
+        "tab": {
+          "title": "Spelare",
+          "info": "Fliken Players används för att hantera spelare som visas och används i HUD och andra LHM-funktioner."
+        }
+      },
+      "matches": {
+        "tab": {
+          "title": "Matcher",
+          "info": "Fliken Matcher används för att hantera matcher som visas och används i HUD:ar och andra LHM-funktioner."
+        }
+      },
+      "tournaments": {
+        "tab": {
+          "title": "Turneringar",
+          "info": "Fliken Turneringar används för att hantera turneringar som visas och används i HUD och andra LHM-funktioner."
+        }
+      },
+      "cgMode": {
+        "tab": {
+          "title": "CG-läge",
+          "info": "CG Mode innehåller de viktigaste modulerna för sändningsverksamhet i en kompakt form.\nFrån den här fliken kan du hantera dina matcher, lag, spelare och live-spel på en enda skärm.\nDu kan dölja onödiga flikar med hjälp av knappen \"Dölj\" ovanför varje avsnitt."
+        }
+      },
+      "arg": {
+        "tab": {
+          "title": "Generator för automatisk uppspelning",
+          "info": "Modulen Auto Replay Generator (ARG) genererar repriser som kan visas mellan omgångar eller i slutet av ett spel.\nTänk på att vMix krävs för korrekt ARG-konfiguration. vMix är inte en gratis applikation, och ARG i sig är främst utformad för produktionsteam som redan använder vMix."
+        },
+        "safeband": {
+          "title": "Safeband",
+          "info": "Safeband-alternativen bestämmer hur mycket tid (i millisekunder) före och efter ett dödande som varje klipp ska innehålla."
+        },
+        "useHLAE": {
+          "title": "Använd HLAE?",
+          "info": "Genom att använda HLAE kan ARG analysera mer data i spelet, vilket resulterar i bättre dödsprognoser."
+        },
+        "delayConfig": {
+          "title": "Fördröjningskonfiguration",
+          "info": "Fördröjningskonfiguration anger hur mycket GOTV-observatören är försenad (i sekunder)."
+        },
+        "saveClips": {
+          "title": "Spara klipp",
+          "info": "Om du aktiverar det här alternativet kommer vMix att behålla alla klipp som genererats av ARG istället för att radera dem."
+        },
+        "computerID": {
+          "title": "Dator-ID",
+          "info": "ID som används av ARG, behövs för en lyckad anslutning."
+        }
+      },
+      "aco": {
+        "tab": {
+          "title": "Auto Cinematic Observer",
+          "info": "Med ACO-modulen kan du använda fördefinierade kamerarörelser för att följa händelserna i spelet.\nACO använder AI för att bestämma de viktigaste händelserna i spelet vid varje given tidpunkt."
+        },
+        "area": {
+          "title": "Område",
+          "info": "Områden är regioner på kartan som du binder dina konfigurationer till. Om det finns många spelare i det givna området kommer en av konfigurationerna som lagts till i det att köras i CS:GO-klienten.\nFör att lägga till ett område, klicka på knappen \"+\" och välj önskad region på kartan genom att klicka på dess hörn."
+        },
+        "manualControl": {
+          "title": "Manuell kontroll",
+          "info": "Använd panelen Manuell kontroll för att välja ett område som ska visas för hand.\nEftersom detta är en extern sida som öppnas i din webbläsare kan du även besöka den från din smartphone eller surfplatta (om ni befinner er i samma lokala nätverk).\nOm du klickar eller trycker på ett område i panelen Manuell kontroll körs dess konfigurationer i CS:GO-klienten."
+        },
+        "areaCreation": {
+          "title": "Skapande av område",
+          "info": "Klicka på kartan för att definiera hörnen på ditt område.\nAnvänd ångra-knappen om du har gjort ett misstag."
+        }
+      },
+      "ar": {
+        "tab": {
+          "title": "Förstärkt verklighet",
+          "info": "AR-modulstöd gör det möjligt att visa anpassade 3D-objekt som om de vore en del av spelet.\nAR använder kamerapositionsdata som laddas med GSI för att rendera dina HTML & CSS-baserade 3D-objekt över spelscenen."
+        }
+      },
+      "live": {
+        "tab": {
+          "title": "Levande",
+          "info": "När en live-match upptäcks fylls fliken Live med data om den aktuella matchen, t.ex. spelarnamn, ID och aktuell poäng.\nFliken Live ger dig också snabb åtkomst till spelarredigering."
+        }
+      },
+      "cameras": {
+        "tab": {
+          "title": "Kameror",
+          "info": "Med modulen Cameras kan du visa spelarnas webbkameraflöden i dina HUD:ar med LHM - inga externa verktyg krävs."
+        }
+      },
+      "addons": {
+        "tab": {
+          "title": "Tillägg",
+          "info": "Addons är ett nytt sätt att skapa kraftfulla integrationer med LHM, som fungerar genom att tillhandahålla sandboxade Node.js-miljöer med CS:GO GSI event emitters kopplade till dem från början.\nTack vare LHM Addons kan du fokusera dina ansträngningar på att skapa bästa möjliga upplevelse för dina tittare, med alla tunga lyft gjorda av LHM."
+        }
+      },
+      "quick": {
+        "tab": {
+          "title": "Snabbt",
+          "info": "LHM Quick låter dig snabbt förbereda hela din spelar-, team- och HUD-inställning från en enda plats, så att du kan få igång din stream direkt."
+        }
+      }
+    },
+    "modals": {
+      "imageTooLarge": {
+        "title": "Bilden för stor",
+        "info": "Den valda bilden är för stor. Storleksgränsen är {{limit}} MB."
+      },
+      "delete": {
+        "titleTeams": "Radera team",
+        "titlePlayers": "Radera spelare",
+        "infoTeams": "Är du säker på att du vill ta bort {{count}} lag?",
+        "infoPlayers": "Är du säker på att du vill ta bort {{count}} spelare?",
+        "deleteWithPlayers": "Ta bort med spelare"
+      }
+    }
+  }
+}
