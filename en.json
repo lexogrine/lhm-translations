@@ -39,6 +39,7 @@
 			"no": "No",
 			"export": "Export",
 			"cancel": "Cancel",
+			"understand": "I understand",
 			"tournaments": "Tournaments",
 			"firstName": "First Name",
 			"lastName": "Last Name",
@@ -57,13 +58,14 @@
 			"enable": "Enable",
 			"example": "Example",
 			"disable": "Disable",
+			"download": "Download",
 			"downloadTemplate": "Download template",
 			"clickAndCopy": "Click & Copy"
 		},
 		"blocker": {
 			"personal": "Upgrade your LHM to a Personal, Professional or Enterprise plan to get full access to this section.",
 			"proPlus": "Upgrade your LHM to a Professional or Enterprise plan to get full access to this section.",
-			"aco": "Upgrade your LHM to a Personal plan to get access to ACO, or a Professional / Enterprise plan to additionally access ACO AI. Additionally, Professional plans and Enterprise plans with 3+ seats get access to Scout AI.",
+			"aco": "Upgrade your LHM to a Personal plan to get access to ACO and Scout AI, or a Professional / Enterprise plan to additionally access ACO AI.",
 			"upgradeNow": "Upgrade now"
 		},
 		"titles": {
@@ -88,6 +90,9 @@
 			"aco1": "ACO",
 			"acoAI": "ACO AI",
 			"acoAIScout": "ACO AI + Scout AI",
+			"scoutOnly": "Scout AI",
+			"cs2Warning": "ACO and ACO AI are not currently available for the freshly released Counter-Strike 2.\nCS2 is missing key features which are required by LHM for those functionalities to work right now.",
+			"cs2ScoutAndARGWarning": "Because of missing key features in CS2, {{ feature }} now requires the in-game grenade keybindings to be set to their default values (number keys 1-0 on the keyboard) in order to work correctly.\n\nThe lack of necessary commands in CS2 prevents LHM from switching players automatically, so LHM is now sending keypresses to the game manually, so please make sure the game is focused during {{ feature }} usage.",
 			"map": "Map",
 			"area": "Area",
 			"addNewArea": "Add new area",
@@ -103,6 +108,7 @@
 			"manualControl": "Manual control",
 			"areaConfigurationsPlaceholder": "Select an area to see its configurations",
 			"enableDirector": "Enable director",
+			"scoutPredict": "Enable Predict",
 			"disabledDescription": "All control is given to you and your observers.",
 			"aco1Description": "A balance of control and automation.\nAssist your observers with a set of manually written instructions for ACO.\n",
 			"aco-aiDescription": "Sit back while the advanced algorithms of ACO AI control your stream.",
@@ -157,6 +163,14 @@
 			"status": {
 				"READY": "Ready",
 				"UNINSTALLED": "Uninstalled"
+			},
+			"downloadGameAddon": "Download addon",
+			"downloading": "Downloading...",
+			"runAddon": "Run addon",
+			"addonWarning": "Addon Warning",
+			"warnings": {
+				"lol-mr-1": "Advanced Addon makes it possible to read much more data thanks to memory reading. Memory reading can be treated as a cheat, while such tools have existed for years and Riot does not refer to them and we have not heard of cases of spectators being banned for this. Nevertheless, you use League of Legends Advanced Addon at your own risk.",
+				"lol-mr-2": "Do not use LoL Advanced Addon during normal gameplay, it is only used to spectate the game!"
 			}
 		},
 		"navbar": {
@@ -319,6 +333,9 @@
 			"You need to pass your one-time token": "You need to pass your one-time token",
 			"preInstalled": "Use pre-installed",
 			"cloudSynchronization": "Cloud Synchronization",
+			"hudConfigCloudSynchronization": "HUD Settings Cloud Synchronization",
+			"hudTogglesCloudSynchronization": "HUD Toggles Cloud Synchronization",
+			"autoHUDUpload": "Automatic HUDs upload to the cloud",
 			"language": "Language",
 			"dota2Assets": "Dota 2 Assets",
 			"autoSwitch": "Auto switch",
@@ -418,8 +435,10 @@
 			"header": "HUDs",
 			"config": {
 				"customRadar": "Radar",
-				"customKillfeedOrACO": "Killfeed / ACO",
+				"customKillfeed": "Killfeed",
 				"embeddedHUD": "Embedded HUD",
+				"killfeedOffset": "Killfeed Offset",
+				"scout": "Scout AI",
 				"autoexecute": "Auto-execute",
 				"console": "Console",
 				"add": "Add HUD",
@@ -477,10 +496,12 @@
 				"deleteFromCloud": "Delete HUD from cloud",
 				"downloading": "Downloading...",
 				"toggleHUD": "Toggle HUD (Embedded only)",
+				"toggleHUDKeybinds": "Toggle HUD Keybinds (For Browser Source)",
 				"clickToCopy": "Click to copy",
 				"createShortcut": "Create shortcut on desktop"
 			},
 			"warning": {
+				"csgoHUDinCS2": "This HUD was made for CS:GO. It is not guaranteed that all of it's features will work in the same manner in CS2.",
 				"specifyHLAEPath": "Specify HLAE path in Settings in order to use custom killfeeds",
 				"specifyAFXInteropPath": "Specify AFX Interop path in Settings in order to use AFX mode",
 				"specifyAFXModeInfo": "When using AFX mode, after joining the match click on the toggle - no need to start the overlay."
@@ -493,6 +514,10 @@
 				"isNotActive": "Cloud is not active"
 			}
 		},
+		"cta": {
+			"orderPlan": "Order Plan",
+			"orderCustomHUD": "Order your own custom HUD"
+		},
 		"helpers": {
 			"learnMore": "Learn more",
 			"onlyInProPlus": {
@@ -503,7 +528,19 @@
 				"title": "Upgrade your plan",
 				"info": "This functionality is only available for Professional and Enterprise plan users with at least 3 seats.\nPlease upgrade your plan to unlock it."
 			},
+			"deviceLockWorkspace": {
+				"title": "Device limit exceeded",
+				"info": "It seems like the workspace is being used on more devices than the amount of seats its plan has.\nWait for the device lock to expire or upgrade your Enterprise plan to accomodate more devices."
+			},
 			"huds": {
+				"killfeedOffset": {
+					"title": "Killfeed Offset",
+					"info": "Enabling this option will set safezoney to 0.8 to accomodate for custom HUD elements in the right top corner"
+				},
+				"scout": {
+					"title": "Scout AI",
+					"info": "Enabling this option will launch CS2 with VConsole2, which might prevent you from joining servers unless properly configured."
+				},
 				"tab": {
 					"title": "HUDs Tab",
 					"info": "HUDs tab is used to manage HUDs and game launch configuration."
@@ -512,9 +549,9 @@
 					"title": "Radar",
 					"info": "Enabling this option and running the game with the config presented below or using the \"Run game\" button will disable the in-game radar to use the custom radar built into your HUDs."
 				},
-				"killfeedACO": {
-					"title": "Killfeed / ACO",
-					"info": "Enabling this option and running the game with the config presented below or using the \"Run game\" button will disable the in-game killfeed to use the custom killfeed built into your HUDs. Enabling this option is also required to use ACO.\nThis option will launch CS:GO in insecure mode - you won't be able to join VAC-protected servers (e.g. Faceit, matchmaking) unless as a GOTV spectator while it is enabled."
+				"killfeed": {
+					"title": "Killfeed",
+					"info": "Enabling this option and running the game with the config presented below or using the \"Run game\" button will disable the in-game killfeed to use the custom killfeed built into your HUDs.\nThis option will launch CS2 in insecure mode - do not join VAC-protected servers (e.g. Faceit, matchmaking) unless as a GOTV spectator while it is enabled."
 				},
 				"embeddedHUD": {
 					"title": "Embedded HUD",
@@ -539,6 +576,10 @@
 				"runTest": {
 					"title": "Run test",
 					"info": "This functionality lets you simulate a game data stream to test your HUD or configuration."
+				},
+				"launchParams": {
+					"title": "Launch Parameters",
+					"info": "You can specify Launch Parameters for the game here, instead of its settings in the Steam"
 				}
 			},
 			"teams": {
@@ -626,9 +667,13 @@
 					"title": "Scout AI Cinematic Mode",
 					"info": "In this mode, Scout AI will work along with ACO AI, to provide the fullest observing experience. Without it, Scout AI will only provide POV camera, without any overview shots.\nThis mode is only applicable if ACO AI supports a map the match is played on."
 				},
+				"scoutPredict": {
+					"title": "Scout Predict",
+					"info": "Scout allows for automated, AI-based live predictions. If this option is enabled, those predictions will be sent to your HUDs on important moments, to give better insight into a game."
+				},
 				"timeRemaining": {
-					"title": "Remaining time of your monthly Scout AI quota",
-					"info": "Because Scout AI is currently in beta, usage limits are temporarily disabled and time is not being counted - enjoy!"
+					"title": "Your monthly Scout AI quota",
+					"info": "Your available time to use Scout AI servers. It refreshes with every month of your subscription."
 				}
 			},
 			"ar": {
@@ -673,7 +718,19 @@
 				"infoTeams": "Are you sure you want to remove {{count}} teams?",
 				"infoPlayers": "Are you sure you want to remove {{count}} players?",
 				"deleteWithPlayers": "Delete with players"
+			},
+			"steamApiKeyMissing": {
+				"title": "Steam API Key Missing",
+				"info": "It seems you put custom Steam URL in the SteamID field. LHM requires Steam API Key to support custom URLs. Do you wish to save anyway?"
 			}
+		},
+		"cloudification": {
+			"updateModalTitle": "Upload your HUDs to use from Cloud",
+			"updateModalBody1": "With the new update, we're moving our HUDs to the Cloud only. This means that you will be able to use your HUDs on any device.",
+			"updateModalBody2": "To continue using LHM, you need to upload your HUDs to the Cloud. Select HUDs to upload to the Cloud.",
+			"updateModalCloudWarning": "Some of the HUDs are currently saved compressed in the Cloud. To use them, LHM will have to download them and decompress them. It may result in higher Cloud limit usage.",
+			"updateModalNonuploadedHUDsStillInDirectory": "Your HUDs will still be backed up in your HUD directory, if you choose not to upload them.",
+			"updateModalImporting": "We're preparing your HUDs for you..."
 		}
 	}
 }

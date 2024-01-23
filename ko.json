@@ -58,7 +58,8 @@
       "example": "예제",
       "disable": "Disable",
       "downloadTemplate": "템플릿 다운로드",
-      "clickAndCopy": "클릭 & 복사"
+      "clickAndCopy": "클릭 & 복사",
+      "download": "다운로드"
     },
     "blocker": {
       "personal": "이 섹션에 대한 전체 액세스 권한을 얻으려면 LHM을 개인, 프로페셔널 또는 엔터프라이즈 요금제로 업그레이드하세요.",
@@ -88,6 +89,7 @@
       "aco1": "ACO",
       "acoAI": "ACO AI",
       "acoAIScout": "ACO AI + 스카우트 AI",
+      "scoutOnly": "스카우트 AI",
       "map": "Map",
       "area": "Area",
       "addNewArea": "새 영역 추가",
@@ -113,7 +115,13 @@
       "areaPriority": "우선 순위",
       "areaPriorityPlaceholder": "영역 우선 순위",
       "addConfigHeader": "이 영역에 새 구성 추가",
-      "addConfigPlaceholder": "이 영역에서 실행할 명령을 입력하십시오"
+      "addConfigPlaceholder": "이 영역에서 실행할 명령을 입력하십시오",
+      "aco-ai-scoutDescription-disconnected": "최신 AI 경기 옵저버 시스템에 맡겨보세요.\\n스카우트 서버를 현재 사용할 수 없을 수 있습니다.",
+      "scoutCinematic": "시네마틱 스카우트 사용",
+      "timeRemaining": "남은 스카우트 AI 시간",
+      "scoutServerUnavailable": "LHM이 Scout AI 서버에 연결할 수 없습니다.\n몇 분 후에 다시 시도하세요.",
+      "cs2Warning": "현재 새로 출시된 카운터 스트라이크 2에서는 ACO 및 ACO AI를 사용할 수 없습니다.\nCS2에는 현재 해당 기능이 작동하기 위해 LHM에 필요한 주요 기능이 누락되어 있습니다.",
+      "cs2ScoutAndARGWarning": "CS2에 누락된 주요 기능으로 인해 {{ feature }} 게임 내 수류탄 키 바인딩을 기본값(키보드의 숫자 키 1~0)으로 설정해야 올바르게 작동합니다.\n\nCS2에 필요한 명령어가 없어 LHM이 자동으로 플레이어를 전환하지 못하므로 이제 LHM이 수동으로 키 입력을 게임에 전송하므로 {{ feature }} 사용 중 게임에 집중하고 있는지 확인하세요."
     },
     "players": {
       "edit": "플레이어 편집",
@@ -153,7 +161,10 @@
       "status": {
         "READY": "Ready",
         "UNINSTALLED": "Uninstalled"
-      }
+      },
+      "downloadGameAddon": "애드온 다운로드",
+      "downloading": "다운로드 중...",
+      "runAddon": "애드온 실행"
     },
     "navbar": {
       "huds": "HUD",
@@ -402,7 +413,9 @@
         "readerCode": {
           "readerCode": "리더 코드"
         }
-      }
+      },
+      "hudConfigCloudSynchronization": "HUD 설정 클라우드 동기화",
+      "autoHUDUpload": "클라우드에 자동 HUD 업로드"
     },
     "ar": {
       "add": "AR 모듈 업로드",
@@ -414,7 +427,6 @@
       "header": "HUD",
       "config": {
         "customRadar": "레이더",
-        "customKillfeedOrACO": "킬 피드 / ACO",
         "embeddedHUD": "임베디드 HUD",
         "autoexecute": "자동 실행",
         "console": "콘솔",
@@ -429,7 +441,9 @@
         "more": "More",
         "hlaeIsRequired": "HLAE와 함께 CS:GO를 실행해야 합니다",
         "proOrEntrpriseIsRequired": "프로페셔널 또는 엔터프라이즈 요금제를 사용 중이어야 합니다",
-        "hlaeAndHigherPlanIsRequired": "HLAE와 함께 CS:GO를 실행 중이고 프로페셔널 또는 엔터프라이즈 플랜이 있어야 합니다"
+        "hlaeAndHigherPlanIsRequired": "HLAE와 함께 CS:GO를 실행 중이고 프로페셔널 또는 엔터프라이즈 플랜이 있어야 합니다",
+        "customKillfeed": "Killfeed",
+        "killfeedOffset": "킬 피드 오프셋"
       },
       "sort": {
         "custom": "사용자 지정",
@@ -474,12 +488,14 @@
         "downloading": "다운로드 중...",
         "toggleHUD": "HUD 토글(임베디드만 해당)",
         "clickToCopy": "클릭하여 복사",
-        "createShortcut": "바탕화면에 바로 가기 만들기"
+        "createShortcut": "바탕화면에 바로 가기 만들기",
+        "toggleHUDKeybinds": "HUD 키바인드 토글 (브라우저 소스용)"
       },
       "warning": {
         "specifyHLAEPath": "사용자 지정 킬피드를 사용하려면 설정에서 HLAE 경로를 지정하세요",
         "specifyAFXInteropPath": "AFX 모드를 사용하려면 설정에서 AFX Interop 경로를 지정하세요",
-        "specifyAFXModeInfo": "AFX 모드를 사용하는 경우 경기에 참가한 후 토글을 클릭하면 오버레이를 시작할 필요가 없습니다."
+        "specifyAFXModeInfo": "AFX 모드를 사용하는 경우 경기에 참가한 후 토글을 클릭하면 오버레이를 시작할 필요가 없습니다.",
+        "csgoHUDinCS2": "이 HUD는 CS:GO용으로 제작되었습니다. 모든 기능이 CS2에서 동일한 방식으로 작동한다는 보장은 없습니다."
       }
     },
     "app": {
@@ -504,10 +520,6 @@
           "title": "Radar",
           "info": "이 옵션을 활성화하고 아래 제시된 구성으로 게임을 실행하거나 {{hud}} 버튼을 사용하면 게임 내 레이더를 비활성화하여 HUD에 내장된 사용자 지정 레이더를 사용합니다."
         },
-        "killfeedACO": {
-          "title": "킬피드 / ACO",
-          "info": "이 옵션을 활성화하고 아래 제시된 구성으로 게임을 실행하거나 undefined 버튼을 사용하면 게임 내 킬피드를 비활성화하여 HUD에 내장된 사용자 지정 킬피드를 사용합니다. 이 옵션을 활성화하면 ACO를 사용할 때도 필요합니다.\n이 옵션을 활성화하면 CS:GO가 안전하지 않은 모드로 실행되며, 이 옵션이 활성화되어 있는 동안에는 GOTV 관중이 아닌 이상 VAC로 보호되는 서버(예: 페이스잇, 매치메이킹)에 참가할 수 없습니다."
-        },
         "embeddedHUD": {
           "title": "임베디드 HUD",
           "info": "이 옵션을 활성화하면 LHM이 CS:GO 렌더링 프로세스에 연결되어 HUD가 별도의 오버레이가 아닌 게임의 일부가 됩니다. 임베디드 모드에서 HUD를 실행하려면 HUD 옆에 있는 토글을 사용합니다.\nAR에는 임베디드 모드 사용이 필수입니다. 또한 게임 성능이 저하될 수 있습니다.\n이 옵션을 선택하면 CS:GO가 안전하지 않은 모드로 실행되며, 이 모드가 활성화되어 있는 동안에는 GOTV 관중이 아닌 이상 VAC로 보호되는 서버(예: 페이스잇, 매치메이킹)에 참가할 수 없습니다."
@@ -531,6 +543,18 @@
         "runTest": {
           "title": "테스트 실행",
           "info": "이 기능을 사용하면 게임 데이터 스트림을 시뮬레이션하여 HUD 또는 구성을 테스트할 수 있습니다."
+        },
+        "killfeed": {
+          "title": "킬피드",
+          "info": "이 옵션을 활성화하고 아래 제시된 구성으로 게임을 실행하거나 undefined 버튼을 사용하면 게임 내 킬피드를 비활성화하여 HUD에 내장된 사용자 지정 킬피드를 사용합니다.\n이 옵션을 선택하면 CS:GO가 안전하지 않은 모드로 실행되며, 이 옵션이 활성화되어 있는 동안에는 GOTV 관중이 아닌 이상 VAC로 보호되는 서버(예: 페이스잇, 매치메이킹)에 참가할 수 없습니다."
+        },
+        "killfeedOffset": {
+          "title": "킬피드 오프셋",
+          "info": "이 옵션을 활성화하면 오른쪽 상단 모서리에 있는 커스텀 HUD 요소를 수용하기 위해 세이프존이 0.8로 설정됩니다"
+        },
+        "launchParams": {
+          "title": "시작 매개 변수",
+          "info": "Steam의 설정 대신 여기에서 게임에 대한 실행 매개변수를 지정할 수 있습니다"
         }
       },
       "teams": {
@@ -605,6 +629,22 @@
         "areaCreation": {
           "title": "영역 생성",
           "info": "지도를 클릭하여 영역의 모서리를 정의합니다.\n실수한 경우 실행 취소 버튼을 사용합니다."
+        },
+        "directorSwitch": {
+          "title": "디렉터 활성화",
+          "info": "토글을 켜면 ACO가 자동으로 시작됩니다. 키 바인딩을 사용할 수도 있습니다(기본값: ALT + K)."
+        },
+        "scoutDirectorSwitch": {
+          "title": "디렉터 사용",
+          "info": "토글이 켜져 있으면 Scout AI가 자동으로 시작됩니다. 키 바인딩을 사용할 수도 있습니다(기본값: ALT + K)."
+        },
+        "scoutCinematic": {
+          "title": "스카우트 AI 시네마틱 모드",
+          "info": "이 모드에서는 Scout AI가 ACO AI와 함께 작동하여 최고의 관측 경험을 제공합니다. 이 모드가 없으면 Scout AI는 오버뷰 샷 없이 POV 카메라만 제공합니다.\n이 모드는 ACO AI가 경기가 진행되는 맵을 지원하는 경우에만 적용됩니다."
+        },
+        "timeRemaining": {
+          "title": "월간 스카우트 AI 할당량의 남은 시간",
+          "info": "스카우트 AI는 현재 베타 버전이므로 일시적으로 사용 제한이 비활성화되어 있으며 시간이 계산되지 않습니다 - 즐기세요!"
         }
       },
       "ar": {
@@ -636,6 +676,14 @@
           "title": "Quick",
           "info": "LHM Quick을 사용하면 한 곳에서 전체 플레이어, 팀, HUD 설정을 빠르게 준비할 수 있어 바로 방송을 시작할 수 있습니다."
         }
+      },
+      "onlyInProPlusEnt3": {
+        "title": "요금제 업그레이드",
+        "info": "이 기능은 3좌석 이상의 프로페셔널 및 엔터프라이즈 요금제 사용자만 사용할 수 있습니다.\n이 기능을 잠금 해제하려면 요금제를 업그레이드하세요."
+      },
+      "deviceLockWorkspace": {
+        "title": "디바이스 제한 초과",
+        "info": "워크스페이스가 해당 요금제의 좌석 수보다 많은 장치에서 사용되고 있는 것 같습니다.\n장치 잠금이 만료될 때까지 기다리거나 더 많은 장치를 수용하려면 엔터프라이즈 요금제를 업그레이드하세요."
       }
     },
     "modals": {
@@ -649,6 +697,10 @@
         "infoTeams": "1}} 팀을 삭제하시겠습니까?",
         "infoPlayers": "2}} 플레이어를 삭제하시겠습니까?",
         "deleteWithPlayers": "플레이어와 함께 삭제"
+      },
+      "steamApiKeyMissing": {
+        "title": "Steam API 키 누락",
+        "info": "SteamID 필드에 사용자 지정 Steam URL을 입력한 것 같습니다. LHM은 사용자 지정 URL을 지원하려면 Steam API 키가 필요합니다. 그래도 저장하시겠습니까?"
       }
     }
   }

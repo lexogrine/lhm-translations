@@ -58,7 +58,8 @@
       "example": "Exempel",
       "disable": "Inaktivera",
       "downloadTemplate": "Ladda ner mall",
-      "clickAndCopy": "Klicka & Kopiera"
+      "clickAndCopy": "Klicka & Kopiera",
+      "download": "Ladda ner"
     },
     "blocker": {
       "personal": "Uppgradera din LHM till en personlig, professionell eller företagsplan för att få full tillgång till det här avsnittet.",
@@ -88,6 +89,7 @@
       "aco1": "ACO",
       "acoAI": "ACO AI",
       "acoAIScout": "ACO AI + Scout AI",
+      "scoutOnly": "Scout AI",
       "map": "Karta",
       "area": "Område",
       "addNewArea": "Lägg till nytt område",
@@ -113,7 +115,13 @@
       "areaPriority": "Prioritet",
       "areaPriorityPlaceholder": "Prioritet för område",
       "addConfigHeader": "Lägg till en ny konfiguration i detta område",
-      "addConfigPlaceholder": "Ange ett kommando som ska utföras i detta område"
+      "addConfigPlaceholder": "Ange ett kommando som ska utföras i detta område",
+      "aco-ai-scoutDescription-disconnected": "Låt vårt senaste AI-system för matchningsobservation ta över ratten.\\nScout-servrar kan för närvarande vara otillgängliga.",
+      "scoutCinematic": "Använd Cinematic Scout",
+      "timeRemaining": "Återstående AI-tid för scout",
+      "scoutServerUnavailable": "LHM kan'inte ansluta till Scout AI-servrar.\nVänligen försök igen om några minuter.",
+      "cs2Warning": "ACO och ACO AI är för närvarande inte tillgängliga för den nyligen släppta Counter-Strike 2.\nCS2 saknar viktiga funktioner som krävs av LHM för att dessa funktioner ska fungera just nu.",
+      "cs2ScoutAndARGWarning": "På grund av saknade nyckelfunktioner i CS2 kräver {{ feature }} nu att granatnyckelbindningarna i spelet är inställda på sina standardvärden (siffertangenterna 1-0 på tangentbordet) för att fungera korrekt.\n\nAvsaknaden av nödvändiga kommandon i CS2 hindrar LHM från att byta spelare automatiskt, så LHM skickar nu tangenttryckningar till spelet manuellt, så se till att spelet är fokuserat under användning av {{ feature }}."
     },
     "players": {
       "edit": "Redigera en spelare",
@@ -153,7 +161,10 @@
       "status": {
         "READY": "Klar",
         "UNINSTALLED": "Avinstallerad"
-      }
+      },
+      "downloadGameAddon": "Ladda ner addon",
+      "downloading": "Laddar ner...",
+      "runAddon": "Kör addon"
     },
     "navbar": {
       "huds": "HUD",
@@ -402,7 +413,9 @@
         "readerCode": {
           "readerCode": "Läsarkod"
         }
-      }
+      },
+      "hudConfigCloudSynchronization": "HUD-inställningar Molnsynkronisering",
+      "autoHUDUpload": "Automatisk uppladdning av HUD till molnet"
     },
     "ar": {
       "add": "Ladda upp AR-modul",
@@ -414,7 +427,6 @@
       "header": "HUD",
       "config": {
         "customRadar": "Radar",
-        "customKillfeedOrACO": "Killfeed / ACO",
         "embeddedHUD": "Inbäddad HUD",
         "autoexecute": "Auto-execute",
         "console": "Konsol",
@@ -429,7 +441,9 @@
         "more": "Mer",
         "hlaeIsRequired": "Du måste ha CS:GO igång med HLAE",
         "proOrEntrpriseIsRequired": "Du måste ha en Professional- eller Enterprise-plan",
-        "hlaeAndHigherPlanIsRequired": "Du måste ha CS:GO som körs med HLAE och en Professional- eller Enterprise-plan"
+        "hlaeAndHigherPlanIsRequired": "Du måste ha CS:GO som körs med HLAE och en Professional- eller Enterprise-plan",
+        "customKillfeed": "Killfeed",
+        "killfeedOffset": "Offset för Killfeed"
       },
       "sort": {
         "custom": "Anpassad",
@@ -474,12 +488,14 @@
         "downloading": "Laddar ner...",
         "toggleHUD": "Växla HUD (endast inbäddad)",
         "clickToCopy": "Klicka för att kopiera",
-        "createShortcut": "Skapa genväg på skrivbordet"
+        "createShortcut": "Skapa genväg på skrivbordet",
+        "toggleHUDKeybinds": "Växla HUD-tangentbindningar (för webbläsarkälla)"
       },
       "warning": {
         "specifyHLAEPath": "Ange HLAE-sökväg i Inställningar för att kunna använda anpassade killfeeds",
         "specifyAFXInteropPath": "Ange AFX Interop-sökväg i Inställningar för att använda AFX-läge",
-        "specifyAFXModeInfo": "Vid användning av AFX-läge, efter att ha gått med i matchen, klicka på växeln - inget behov av att starta överlagringen."
+        "specifyAFXModeInfo": "Vid användning av AFX-läge, efter att ha gått med i matchen, klicka på växeln - inget behov av att starta överlagringen.",
+        "csgoHUDinCS2": "Denna HUD skapades för CS:GO. Det är inte garanterat att alla dess funktioner kommer att fungera på samma sätt i CS2."
       }
     },
     "app": {
@@ -504,10 +520,6 @@
           "title": "Radar",
           "info": "Om du aktiverar det här alternativet och kör spelet med konfigurationen nedan eller använder knappen \"Kör spel\" inaktiveras spelradarn för att använda den anpassade radarn som är inbyggd i dina HUD:ar."
         },
-        "killfeedACO": {
-          "title": "Killfeed / ACO",
-          "info": "Om du aktiverar det här alternativet och kör spelet med konfigurationen nedan eller använder knappen \"Kör spelet\" inaktiveras killfeeden i spelet så att den anpassade killfeed som finns inbyggd i dina HUD:ar används. Aktivering av det här alternativet krävs också för att använda ACO.\nDet här alternativet startar CS:GO i osäkert läge - du kommer inte att kunna gå med i VAC-skyddade servrar (t.ex. Faceit, matchmaking) om du inte är en GOTV-åskådare medan det är aktiverat."
-        },
         "embeddedHUD": {
           "title": "Inbäddad HUD",
           "info": "Om du aktiverar det här alternativet kopplas LHM in i CS:GO-renderingsprocessen, vilket gör din HUD till en del av spelet istället för en separat överlagring. För att starta en HUD i inbäddat läge använder du reglaget bredvid HUD.\nInbäddat läge krävs för AR. Det kan också minska spelets prestanda.\nDet här alternativet startar CS:GO i osäkert läge - du kommer inte att kunna gå med i VAC-skyddade servrar (t.ex. Faceit, matchmaking) om du inte är en GOTV-åskådare medan det är aktiverat."
@@ -531,6 +543,18 @@
         "runTest": {
           "title": "Kör test",
           "info": "Med den här funktionen kan du simulera en speldataström för att testa din HUD eller konfiguration."
+        },
+        "killfeed": {
+          "title": "Killfeed",
+          "info": "Om du aktiverar det här alternativet och kör spelet med konfigurationen nedan eller använder knappen \"Kör spel\" inaktiveras killfeed i spelet för att använda den anpassade killfeed som är inbyggd i dina HUD:ar.\nDet här alternativet startar CS:GO i osäkert läge - du kommer inte att kunna gå med i VAC-skyddade servrar (t.ex. Faceit, matchmaking) om du inte är en GOTV-åskådare medan det är aktiverat."
+        },
+        "killfeedOffset": {
+          "title": "Offset för Killfeed",
+          "info": "Om du aktiverar det här alternativet sätts safezoney till 0,8 för att ta hänsyn till anpassade HUD-element i det övre högra hörnet"
+        },
+        "launchParams": {
+          "title": "Startparametrar",
+          "info": "Du kan ange lanseringsparametrar för spelet här, istället för dess inställningar i Steam"
         }
       },
       "teams": {
@@ -605,6 +629,22 @@
         "areaCreation": {
           "title": "Skapande av område",
           "info": "Klicka på kartan för att definiera hörnen på ditt område.\nAnvänd ångra-knappen om du har gjort ett misstag."
+        },
+        "directorSwitch": {
+          "title": "Aktivera direktör",
+          "info": "När knappen är på startar ACO automatiskt. Du kan också använda tangentbindning (standard: ALT + K)."
+        },
+        "scoutDirectorSwitch": {
+          "title": "Aktivera Director",
+          "info": "När växlingen är aktiverad startar Scout AI automatiskt. Du kan också använda nyckelbindning (standard: ALT + K)."
+        },
+        "scoutCinematic": {
+          "title": "Cinematiskt läge för Scout AI",
+          "info": "I det här läget kommer Scout AI att arbeta tillsammans med ACO AI för att ge den bästa observationsupplevelsen. Utan den kommer Scout AI endast att tillhandahålla POV-kamera, utan några översiktsbilder.\nDetta läge är endast tillämpligt om ACO AI stöder en karta som matchen spelas på."
+        },
+        "timeRemaining": {
+          "title": "Återstående tid av din månatliga Scout AI-kvot",
+          "info": "Eftersom Scout AI för närvarande är i betaversion är användningsgränserna tillfälligt inaktiverade och tiden räknas inte - njut!"
         }
       },
       "ar": {
@@ -636,6 +676,14 @@
           "title": "Snabbt",
           "info": "LHM Quick låter dig snabbt förbereda hela din spelar-, team- och HUD-inställning från en enda plats, så att du kan få igång din stream direkt."
         }
+      },
+      "onlyInProPlusEnt3": {
+        "title": "Uppgradera din plan",
+        "info": "Denna funktion är endast tillgänglig för användare av Professional- och Enterprise-planer med minst 3 platser.\nVänligen uppgradera din plan för att låsa upp den."
+      },
+      "deviceLockWorkspace": {
+        "title": "Enhetsgräns överskriden",
+        "info": "Det verkar som om arbetsytan används på fler enheter än det antal platser som planen har.\nVänta tills enhetslåset löper ut eller uppgradera din Enterprise-plan för att få plats med fler enheter."
       }
     },
     "modals": {
@@ -649,6 +697,10 @@
         "infoTeams": "Är du säker på att du vill ta bort {{count}} lag?",
         "infoPlayers": "Är du säker på att du vill ta bort {{count}} spelare?",
         "deleteWithPlayers": "Ta bort med spelare"
+      },
+      "steamApiKeyMissing": {
+        "title": "Steam API-nyckel saknas",
+        "info": "Det verkar som om du har lagt in en anpassad Steam-URL i SteamID-fältet. LHM kräver Steam API-nyckel för att stödja anpassade webbadresser. Vill du spara ändå?"
       }
     }
   }

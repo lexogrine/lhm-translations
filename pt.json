@@ -58,7 +58,8 @@
       "example": "Exemplo",
       "disable": "Desativar",
       "downloadTemplate": "Descarregar modelo",
-      "clickAndCopy": "Clicar e copiar"
+      "clickAndCopy": "Clicar e copiar",
+      "download": "Descarregar"
     },
     "blocker": {
       "personal": "Actualize o seu LHM para um plano Pessoal, Profissional ou Empresarial para obter acesso total a esta secção.",
@@ -88,6 +89,7 @@
       "aco1": "ACO",
       "acoAI": "ACO AI",
       "acoAIScout": "ACO AI + Scout AI",
+      "scoutOnly": "Scout AI",
       "map": "Mapa",
       "area": "Área",
       "addNewArea": "Adicionar nova área",
@@ -113,7 +115,13 @@
       "areaPriority": "Prioridade",
       "areaPriorityPlaceholder": "Prioridade da área",
       "addConfigHeader": "Adicionar uma nova configuração a esta área",
-      "addConfigPlaceholder": "Introduzir um comando a ser executado nesta área"
+      "addConfigPlaceholder": "Introduzir um comando a ser executado nesta área",
+      "aco-ai-scoutDescription-disconnected": "Deixa que o nosso mais recente sistema de observação de jogos com IA assuma o comando. Os servidores Scout podem estar indisponíveis de momento.",
+      "scoutCinematic": "Usa o Cinematic Scout",
+      "timeRemaining": "Tempo restante da IA do Scout",
+      "scoutServerUnavailable": "LHM não consegue ligar-se aos servidores Scout AI.\nPor favor tenta novamente dentro de alguns minutos.",
+      "cs2Warning": "O ACO e o ACO AI não estão atualmente disponíveis para o recém-lançado Counter-Strike 2.\nO CS2 está a perder características chave que são requeridas pelo LHM para que essas funcionalidades funcionem neste momento.",
+      "cs2ScoutAndARGWarning": "Devido à falta de teclas no CS2, o {{ feature }} requer agora que as teclas de granada do jogo estejam definidas para os seus valores predefinidos (teclas numéricas 1-0 no teclado) para funcionar corretamente.\n\nA falta de comandos necessários no CS2 impede o LHM de mudar de jogador automaticamente, por isso o LHM está agora a enviar as teclas para o jogo manualmente, por isso certifica-te que o jogo está focado durante a utilização do {{ feature }}."
     },
     "players": {
       "edit": "Editar um jogador",
@@ -153,7 +161,10 @@
       "status": {
         "READY": "Preparar",
         "UNINSTALLED": "Desinstalado"
-      }
+      },
+      "downloadGameAddon": "Descarregar addon",
+      "downloading": "Descarregando...",
+      "runAddon": "Executar o addon"
     },
     "navbar": {
       "huds": "HUDs",
@@ -402,7 +413,9 @@
         "readerCode": {
           "readerCode": "Código do leitor"
         }
-      }
+      },
+      "hudConfigCloudSynchronization": "Definições do HUD Sincronização na nuvem",
+      "autoHUDUpload": "Carregamento automático de HUDs para a nuvem"
     },
     "ar": {
       "add": "Carregar módulo AR",
@@ -414,7 +427,6 @@
       "header": "HUDs",
       "config": {
         "customRadar": "Radar",
-        "customKillfeedOrACO": "Alimentação de mortes / ACO",
         "embeddedHUD": "HUD incorporado",
         "autoexecute": "Auto-executar",
         "console": "Consola",
@@ -429,7 +441,9 @@
         "more": "Mais",
         "hlaeIsRequired": "Tens de ter o CS:GO a correr com o HLAE",
         "proOrEntrpriseIsRequired": "Tem de ter um plano Professional ou Enterprise",
-        "hlaeAndHigherPlanIsRequired": "Tem de ter o CS:GO a funcionar com HLAE e um plano Profissional ou Empresarial"
+        "hlaeAndHigherPlanIsRequired": "Tem de ter o CS:GO a funcionar com HLAE e um plano Profissional ou Empresarial",
+        "customKillfeed": "Killfeed",
+        "killfeedOffset": "Deslocação do Killfeed"
       },
       "sort": {
         "custom": "Personalizado",
@@ -474,12 +488,14 @@
         "downloading": "A descarregar...",
         "toggleHUD": "Alternar HUD (apenas incorporado)",
         "clickToCopy": "Clicar para copiar",
-        "createShortcut": "Criar atalho no ambiente de trabalho"
+        "createShortcut": "Criar atalho no ambiente de trabalho",
+        "toggleHUDKeybinds": "Alternar as teclas do HUD (para a fonte do navegador)"
       },
       "warning": {
         "specifyHLAEPath": "Especificar o caminho do HLAE nas Definições para usar killfeeds personalizados",
         "specifyAFXInteropPath": "Especificar o caminho AFX Interop nas Definições para usar o modo AFX",
-        "specifyAFXModeInfo": "Quando se usa o modo AFX, depois de entrar no jogo clica-se no botão - não é necessário iniciar a sobreposição."
+        "specifyAFXModeInfo": "Quando se usa o modo AFX, depois de entrar no jogo clica-se no botão - não é necessário iniciar a sobreposição.",
+        "csgoHUDinCS2": "Este HUD foi criado para o CS:GO. Não é garantido que todas as suas características funcionem da mesma forma no CS2."
       }
     },
     "app": {
@@ -504,10 +520,6 @@
           "title": "Radar",
           "info": "Se ativar esta opção e executar o jogo com a configuração apresentada abaixo ou usar o botão \"Executar jogo\", o radar do jogo será desativado e será usado o radar personalizado incorporado nos HUDs."
         },
-        "killfeedACO": {
-          "title": "Alimentação de mortes / ACO",
-          "info": "Ativar esta opção e correr o jogo com a configuração apresentada abaixo ou usar o botão \"Executar o jogo\" irá desativar o killfeed do jogo para usar o killfeed personalizado incorporado nos teus HUDs. A ativação desta opção também é necessária para usar o ACO.\nEsta opção irá iniciar o CS:GO em modo inseguro - não será possível entrar em servidores protegidos por VAC (por exemplo, Faceit, matchmaking) a não ser como espetador GOTV enquanto estiver activada."
-        },
         "embeddedHUD": {
           "title": "HUD incorporado",
           "info": "Ativar esta opção fará com que o LHM se ligue ao processo de renderização do CS:GO, tornando o seu HUD uma parte do jogo em vez de uma sobreposição separada. Para lançar um HUD em modo incorporado, use o botão de alternância junto ao HUD.\nA utilização do modo incorporado é necessária para a RA. Pode também diminuir o desempenho do jogo.\nEsta opção irá iniciar o CS:GO em modo inseguro - não poderá entrar em servidores protegidos por VAC (por exemplo, Faceit, matchmaking) a não ser que seja um espetador GOTV enquanto esta opção estiver activada."
@@ -531,6 +543,18 @@
         "runTest": {
           "title": "Executar teste",
           "info": "Esta funcionalidade permite-lhe simular um fluxo de dados do jogo para testar o seu HUD ou configuração."
+        },
+        "killfeed": {
+          "title": "Killfeed",
+          "info": "Ativar esta opção e correr o jogo com a configuração apresentada abaixo ou usando o botão \"Correr o jogo\" irá desativar o killfeed no jogo para usar o killfeed personalizado incorporado nos seus HUDs.\nEsta opção irá iniciar o CS:GO em modo inseguro - não será possível entrar em servidores protegidos por VAC (por exemplo, Faceit, matchmaking) a não ser como espetador GOTV enquanto estiver activada."
+        },
+        "killfeedOffset": {
+          "title": "Deslocação do Killfeed",
+          "info": "Se ativar esta opção, o safezoney será ajustado para 0,8 para acomodar os elementos personalizados do HUD no canto superior direito"
+        },
+        "launchParams": {
+          "title": "Parâmetros de lançamento",
+          "info": "Pode especificar aqui os parâmetros de lançamento do jogo, em vez das suas definições no Steam"
         }
       },
       "teams": {
@@ -605,6 +629,22 @@
         "areaCreation": {
           "title": "Criação de área",
           "info": "Clique no mapa para definir os cantos da sua área.\nUsa o botão de desfazer se cometeres um erro."
+        },
+        "directorSwitch": {
+          "title": "Ativar Diretor",
+          "info": "Quando esta opção é activada, o ACO inicia-se automaticamente. Também podes usar a ligação de teclas (predefinição: ALT + K)."
+        },
+        "scoutDirectorSwitch": {
+          "title": "Ativar o Diretor",
+          "info": "Quando esta opção é activada, a IA do Scout é automaticamente iniciada. Também podes usar a tecla (por defeito: ALT + K)."
+        },
+        "scoutCinematic": {
+          "title": "Modo Cinemático da IA do Scout",
+          "info": "Neste modo, a IA do Scout trabalha em conjunto com a IA do ACO, para proporcionar a melhor experiência de observação. Sem este modo, a IA do Scout apenas fornecerá a câmara POV, sem qualquer visão geral.\nEste modo só é aplicável se a IA ACO suportar um mapa onde o jogo é jogado."
+        },
+        "timeRemaining": {
+          "title": "Tempo restante da tua quota mensal de IA Scout",
+          "info": "Como a IA Scout está atualmente em fase beta, os limites de utilização estão temporariamente desactivados e o tempo não está a ser contabilizado - diverte-te!"
         }
       },
       "ar": {
@@ -636,6 +676,14 @@
           "title": "Rápido",
           "info": "O LHM Quick permite-lhe preparar rapidamente toda a configuração do jogador, da equipa e do HUD a partir de um único local, permitindo-lhe iniciar imediatamente a sua transmissão."
         }
+      },
+      "onlyInProPlusEnt3": {
+        "title": "Actualiza o teu plano",
+        "info": "Esta funcionalidade só está disponível para utilizadores dos planos Profissional e Empresarial com, pelo menos, 3 postos de trabalho.\nActualize o seu plano para a desbloquear."
+      },
+      "deviceLockWorkspace": {
+        "title": "Limite do dispositivo excedido",
+        "info": "Parece que o espaço de trabalho está a ser utilizado em mais dispositivos do que o número de lugares que o seu plano tem.\nAguarde a expiração do bloqueio de dispositivos ou actualize o seu plano Enterprise para acomodar mais dispositivos."
       }
     },
     "modals": {
@@ -649,6 +697,10 @@
         "infoTeams": "Tem a certeza que quer remover as equipas?",
         "infoPlayers": "Tem a certeza que quer remover {{count}} jogadores?",
         "deleteWithPlayers": "Apagar com jogadores"
+      },
+      "steamApiKeyMissing": {
+        "title": "Chave API do Steam em falta",
+        "info": "Parece que colocaste um URL personalizado do Steam no campo SteamID. O LHM requer a chave API do Steam para suportar URLs personalizados. Deseja guardar na mesma?"
       }
     }
   }

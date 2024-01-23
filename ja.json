@@ -58,7 +58,8 @@
       "example": "例",
       "disable": "無効にする",
       "downloadTemplate": "テンプレートのダウンロード",
-      "clickAndCopy": "コピー"
+      "clickAndCopy": "コピー",
+      "download": "ダウンロード"
     },
     "blocker": {
       "personal": "LHMをパーソナル、プロフェッショナル、またはエンタープライズプランにアップグレードすると、このセクションにフルアクセスできます。",
@@ -88,6 +89,7 @@
       "aco1": "ACO",
       "acoAI": "ACO AI",
       "acoAIScout": "ACO AI + スカウトAI",
+      "scoutOnly": "スカウトAI",
       "map": "地図",
       "area": "エリア",
       "addNewArea": "新規エリアの追加",
@@ -113,7 +115,13 @@
       "areaPriority": "優先順位",
       "areaPriorityPlaceholder": "エリア優先度",
       "addConfigHeader": "このエリアに新しい設定を追加する",
-      "addConfigPlaceholder": "このエリアで実行するコマンドを入力する"
+      "addConfigPlaceholder": "このエリアで実行するコマンドを入力する",
+      "aco-ai-scoutDescription-disconnected": "最新のAIマッチオブザーバーシステムにお任せください。◆スカウトサーバーは現在ご利用いただけない場合があります。",
+      "scoutCinematic": "シネマティック・スカウトを使用する",
+      "timeRemaining": "AIスカウト残り時間",
+      "scoutServerUnavailable": "LHMはスカウトAIサーバーに接続できません。\n数分後に再試行してください。",
+      "cs2Warning": "ACOとACO AIは、リリースされたばかりのCounter-Strike 2では現在使用できません。\nCS2には、LHMがこれらの機能を動作させるために必要とする主要な機能が欠けています。",
+      "cs2ScoutAndARGWarning": "CS2のキー機能が欠落しているため、{{ feature }}を正しく動作させるには、ゲーム内のグレネードのキーバインドをデフォルト値（キーボードの数字キー1～0）に設定する必要があります。\n\nCS2 に必要なコマンドがないため、LHM はプレイヤーを自動的に切り替えることができません。そのため、LHM は現在手動でキー入力をゲームに送信しています。{{ feature }} 使用中はゲームのフォーカスが合っていることを確認してください。"
     },
     "players": {
       "edit": "プレーヤーを編集する",
@@ -153,7 +161,10 @@
       "status": {
         "READY": "準備完了",
         "UNINSTALLED": "アンインストール"
-      }
+      },
+      "downloadGameAddon": "アドオンのダウンロード",
+      "downloading": "ダウンロード中...",
+      "runAddon": "アドオンの実行"
     },
     "navbar": {
       "huds": "HUD",
@@ -402,7 +413,9 @@
         "readerCode": {
           "readerCode": "リーダーコード"
         }
-      }
+      },
+      "hudConfigCloudSynchronization": "HUD設定クラウド同期",
+      "autoHUDUpload": "HUDのクラウドへの自動アップロード"
     },
     "ar": {
       "add": "ARモジュールのアップロード",
@@ -414,7 +427,6 @@
       "header": "HUD",
       "config": {
         "customRadar": "レーダー",
-        "customKillfeedOrACO": "キルフィード / ACO",
         "embeddedHUD": "埋め込みHUD",
         "autoexecute": "自動実行",
         "console": "コンソール",
@@ -429,7 +441,9 @@
         "more": "その他",
         "hlaeIsRequired": "CS:GOがHLAEで動作している必要があります。",
         "proOrEntrpriseIsRequired": "プロフェッショナルまたはエンタープライズプランが必要です",
-        "hlaeAndHigherPlanIsRequired": "CS:GOをHLAEで実行し、プロフェッショナルまたはエンタープライズプランを持っている必要があります。"
+        "hlaeAndHigherPlanIsRequired": "CS:GOをHLAEで実行し、プロフェッショナルまたはエンタープライズプランを持っている必要があります。",
+        "customKillfeed": "キルフィード",
+        "killfeedOffset": "キルフィードオフセット"
       },
       "sort": {
         "custom": "カスタム",
@@ -474,12 +488,14 @@
         "downloading": "ダウンロード中...",
         "toggleHUD": "HUDの切り替え (埋め込みのみ)",
         "clickToCopy": "クリックしてコピー",
-        "createShortcut": "デスクトップにショートカットを作成"
+        "createShortcut": "デスクトップにショートカットを作成",
+        "toggleHUDKeybinds": "HUDキーバインド切り替え（ブラウザソース用）"
       },
       "warning": {
         "specifyHLAEPath": "カスタムキルフィードを使用するために設定でHLAEのパスを指定する",
         "specifyAFXInteropPath": "AFX モードを使用するため、設定で AFX Interop パスを指定します。",
-        "specifyAFXModeInfo": "AFX モードを使用する場合、試合に参加した後、トグルをクリックします - オーバーレイを開始する必要はありません。"
+        "specifyAFXModeInfo": "AFX モードを使用する場合、試合に参加した後、トグルをクリックします - オーバーレイを開始する必要はありません。",
+        "csgoHUDinCS2": "このHUDはCS:GO用に作られました。全ての機能がCS2で同じように動作することは保証されていません。"
       }
     },
     "app": {
@@ -504,10 +520,6 @@
           "title": "レーダー",
           "info": "このオプションを有効にし、以下に示す設定でゲームを実行するか、\"Run game\"ボタンを使用すると、ゲーム内レーダーが無効になり、HUDに組み込まれたカスタムレーダーが使用されます。"
         },
-        "killfeedACO": {
-          "title": "キルフィード / ACO",
-          "info": "このオプションを有効にし、以下に示すコンフィグでゲームを実行するか、\"Run game\"ボタンを使用すると、ゲーム内のキルフィードが無効になり、HUDに組み込まれたカスタムキルフィードが使用されます。このオプションを有効にすることはACOを使用するためにも必要です。\nこのオプションはCS:GOを安全でないモードで起動します - 有効になっている間はGOTV観戦者でない限りVACで保護されたサーバー（Faceitやマッチメイキングなど）に参加できません。"
-        },
         "embeddedHUD": {
           "title": "埋め込みHUD",
           "info": "このオプションを有効にすると、LHMがCS:GOのレンダリングプロセスにフックされ、HUDが別個のオーバーレイではなくゲームの一部になります。埋め込みモードでHUDを起動するには、HUDの横にあるトグルを使用してください。\n埋め込みモードの使用はARに必要です。また、ゲームのパフォーマンスを低下させる可能性があります。\nこのオプションは安全でないモードでCS:GOを起動します - 有効になっている間はGOTV観戦者でない限り、VACで保護されたサーバー（Faceitやマッチメイキングなど）に参加できません。"
@@ -531,6 +543,18 @@
         "runTest": {
           "title": "テストの実行",
           "info": "この機能を使用すると、HUDまたは設定をテストするためにゲームデータストリームをシミュレートできます。"
+        },
+        "killfeed": {
+          "title": "キルフィード",
+          "info": "このオプションを有効にし、以下に示す設定でゲームを実行するか、\"Run game\"ボタンを使用すると、ゲーム内のキルフィードが無効になり、HUDに組み込まれたカスタムキルフィードが使用されます。\nこのオプションはCS:GOをインセキュアモードで起動します。有効になっている間はGOTV観戦者でない限り、VACで保護されたサーバー（Faceitやマッチメイキングなど）には参加できません。"
+        },
+        "killfeedOffset": {
+          "title": "キルフィードオフセット",
+          "info": "このオプションを有効にすると、右上隅のカスタムHUD要素に対応するためにsafezoneyが0.8に設定されます。"
+        },
+        "launchParams": {
+          "title": "起動パラメータ",
+          "info": "Steam の設定ではなく、ここでゲームの起動パラメータを指定できます。"
         }
       },
       "teams": {
@@ -605,6 +629,22 @@
         "areaCreation": {
           "title": "エリアの作成",
           "info": "マップをクリックしてエリアの角を定義します。\n間違えた場合はアンドゥボタンを使用してください。"
+        },
+        "directorSwitch": {
+          "title": "監督を有効にする",
+          "info": "トグルをオンにすると、ACOが自動的に起動します。キーバインド（デフォルト：ALT + K）を使用することもできます。"
+        },
+        "scoutDirectorSwitch": {
+          "title": "ディレクターを有効にする",
+          "info": "トグルをオンにすると、スカウトAIが自動的に起動します。キーバインド（デフォルト：ALT + K）を使用することもできます。"
+        },
+        "scoutCinematic": {
+          "title": "スカウトAIシネマティックモード",
+          "info": "このモードでは、Scout AIはACO AIと共に動作し、完全な観戦体験を提供します。このモードがない場合、Scout AIはPOVカメラのみを提供し、俯瞰ショットはありません。\nこのモードは、ACO AIが試合の行われるマップをサポートしている場合にのみ適用されます。"
+        },
+        "timeRemaining": {
+          "title": "月間Scout AI枠の残り時間",
+          "info": "現在Scout AIはベータ版であるため、使用制限は一時的に無効となり、時間はカウントされません！"
         }
       },
       "ar": {
@@ -636,6 +676,14 @@
           "title": "クイック",
           "info": "LHM Quickを使用すると、プレイヤー、チーム、HUDのセットアップを1つの場所から素早く準備することができ、ストリームをすぐに開始することができます。"
         }
+      },
+      "onlyInProPlusEnt3": {
+        "title": "プランのアップグレード",
+        "info": "この機能は3シート以上のプロフェッショナルおよびエンタープライズプランユーザーのみご利用いただけます。\nロックを解除するにはプランをアップグレードしてください。"
+      },
+      "deviceLockWorkspace": {
+        "title": "デバイスの制限を超えました",
+        "info": "ワークスペースがプランのシート数を超えるデバイスで使用されているようです。\nデバイス ロックの有効期限が切れるのを待つか、エンタープライズ プランをアップグレードして、より多くのデバイスに対応してください。"
       }
     },
     "modals": {
@@ -649,6 +697,10 @@
         "infoTeams": "本当に{{count}}チームを削除しますか？",
         "infoPlayers": "本当に{{count}}選手を削除しますか？",
         "deleteWithPlayers": "選手と一緒に削除"
+      },
+      "steamApiKeyMissing": {
+        "title": "Steam API Key Missing",
+        "info": "SteamIDフィールドにカスタムSteam URLを入れているようです。LHMではカスタムURLをサポートするためにSteam API Keyが必要です。とにかく保存しますか？"
       }
     }
   }
