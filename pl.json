@@ -546,6 +546,9 @@
                 "launchParams": {
                     "title": "Parametry uruchamiania",
                     "info": "Tutaj możesz określić parametry uruchamiania gry, zamiast jej ustawień w Steam"
+                },
+                "scout": {
+                    "info": "Włączenie tej opcji uruchomi CS2 z VConsole2, co może przeszkodzić ci w dołączaniu do serwerów, jeśli te nie są poprawnie skonfigurowane."
                 }
             },
             "teams": {
@@ -704,6 +707,9 @@
                 "title": "Brak klucza API Steam",
                 "info": "Wygląda na to, że umieściłeś niestandardowy adres URL Steam w polu SteamID. LHM wymaga klucza API Steam do obsługi niestandardowych adresów URL. Czy mimo to chcesz zapisać?"
             }
+        },
+        "cta": {
+            "orderPlan": "Kup Plan"
         }
     }
 }
