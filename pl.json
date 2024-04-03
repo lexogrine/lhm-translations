@@ -498,7 +498,8 @@
             "aco-ai-scoutDescription-disconnected": "Pozwól naszemu najnowszemu systemowi obserwacji meczów AI przejąć stery. Serwery Scout mogą być obecnie niedostępne.",
             "scoutServerUnavailable": "LHM nie może połączyć się z serwerami Scout AI.\nSpróbuj ponownie za kilka minut.",
             "cs2Warning": "ACO i ACO AI nie są obecnie dostępne dla świeżo wydanej wersji Counter-Strike 2.\nW CS2 brakuje kluczowych funkcji, które są wymagane przez LHM do działania tych funkcji.",
-            "cs2ScoutAndARGWarning": "Z powodu brakujących funkcji klawiszy w CS2, {{ feature }} wymaga teraz ustawienia domyślnych powiązań klawiszy granatów w grze (klawisze numeryczne 1-0 na klawiaturze), aby działały poprawnie.\n\nBrak niezbędnych komend w CS2 uniemożliwia LHM automatyczne przełączanie graczy, więc LHM wysyła teraz naciśnięcia klawiszy do gry ręcznie, więc upewnij się, że gra jest skoncentrowana podczas korzystania z {{ feature }}."
+            "cs2ScoutAndARGWarning": "Z powodu brakujących funkcji klawiszy w CS2, {{ feature }} wymaga teraz ustawienia domyślnych powiązań klawiszy granatów w grze (klawisze numeryczne 1-0 na klawiaturze), aby działały poprawnie.\n\nBrak niezbędnych komend w CS2 uniemożliwia LHM automatyczne przełączanie graczy, więc LHM wysyła teraz naciśnięcia klawiszy do gry ręcznie, więc upewnij się, że gra jest skoncentrowana podczas korzystania z {{ feature }}.",
+            "scoutPredict": "Włącz Predicta"
         },
         "helpers": {
             "huds": {
