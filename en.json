@@ -65,8 +65,14 @@
 		"blocker": {
 			"personal": "Upgrade your LHM to a Personal, Professional or Enterprise plan to get full access to this section.",
 			"proPlus": "Upgrade your LHM to a Professional or Enterprise plan to get full access to this section.",
-			"aco": "Upgrade your LHM to a Personal plan to get access to ACO and Scout AI, or a Professional / Enterprise plan to additionally access ACO AI.",
-			"upgradeNow": "Upgrade now"
+			"upgradeNow": "Upgrade now",
+			"featureDescription": {
+				"cgmode": "CG Mode incorporates the most essential modules for broadcasting operations in a compact form.\nFrom this tab, you can manage your matches, teams, players, and Live game on one screen.\nUpgrade your LHM to a Personal, Professional or Enterprise plan to get full access to this section.",
+				"arg": "Automatization is the next frontier - and here in Lexogrine we are determined to cross it! Auto Replay Generator fully automates the replay system. ARG - based on defined criteria - tracks every event in the game to automatically capture the most crucial moments and display breathtaking replays between the rounds. All you need to have is vMix.\nUpgrade your LHM to a Personal, Professional or Enterprise plan to get full access to this section.",
+				"addons": "Addons are a new way to create integrations with LHM.\nUp until this point, only the custom HUD's code had access to game data feed, which meant whatever you wanted to do, it had to be done in the browser environment.\nAddons work on server environments - they are basically NodeJS apps with CS:GO GSI Event emitter hooked into them. It means that you don't need to create a custom HTTP server with a parser just to receive information from CS:GO, you have all that out of the box, so you can focus on integrations and features you want to create.\nUpgrade your LHM to a Personal, Professional or Enterprise plan to get full access to this section.",
+				"aco": "It's impossible to capture every action in a perfect way and from an ideal perspective - but Scout comes really close to that. Our own AI learns from thousands of games to capture the most spicy events on its own, without human input.\nUpgrade your LHM to a Personal plan to get access to ACO and Scout AI, or a Professional / Enterprise plan to additionally access ACO AI.",
+				"cameras": "Our camera system is super easy to use and will save you a huge amount of setup time - both for organizers and for players - and offers support for every game integrated with LHM. No excessively complicated and time-consuming production software configuration, no hardware issues.\nConnect the camera and assign it to a player in LHM. Launch the HUD and smile at the audience.\nUpgrade your LHM to a Personal, Professional or Enterprise plan to get full access to this section."
+			}
 		},
 		"titles": {
 			"players": "Players",
@@ -109,6 +115,8 @@
 			"areaConfigurationsPlaceholder": "Select an area to see its configurations",
 			"enableDirector": "Enable director",
 			"scoutPredict": "Enable Predict",
+			"telnet": "Enable Telnet",
+			"telnetWarning": "To use Telnet, CS2 must be launched with Workshop Tools. You can do it by enabling \"Killfeed / Tools\" option in the HUDs tab and clicking \"Run Game\" button.",
 			"disabledDescription": "All control is given to you and your observers.",
 			"aco1Description": "A balance of control and automation.\nAssist your observers with a set of manually written instructions for ACO.\n",
 			"aco-aiDescription": "Sit back while the advanced algorithms of ACO AI control your stream.",
@@ -175,7 +183,7 @@
 		},
 		"navbar": {
 			"huds": "HUDs",
-			"aco": "ACO & Scout",
+			"aco": "Scout AI & ACO",
 			"addons": "Addons",
 			"ar": "AR",
 			"live": "Live",
@@ -422,6 +430,11 @@
 				},
 				"readerCode": {
 					"readerCode": "Reader Code"
+				},
+				"newToLHM": {
+					"show": "Show \"New to LHM\"",
+					"seeNow": "See now",
+					"toggleInSidebar": "Toggle in sidebar"
 				}
 			}
 		},
@@ -435,7 +448,7 @@
 			"header": "HUDs",
 			"config": {
 				"customRadar": "Radar",
-				"customKillfeed": "Killfeed",
+				"customKillfeed": "Killfeed / Tools",
 				"embeddedHUD": "Embedded HUD",
 				"killfeedOffset": "Killfeed Offset",
 				"scout": "Scout AI",
@@ -501,10 +514,18 @@
 				"createShortcut": "Create shortcut on desktop"
 			},
 			"warning": {
-				"csgoHUDinCS2": "This HUD was made for CS:GO. It is not guaranteed that all of it's features will work in the same manner in CS2.",
+				"csgoHUDinCS2": "This HUD was made for CS:GO. It is not guaranteed that all of its features will work in the same manner in CS2.",
 				"specifyHLAEPath": "Specify HLAE path in Settings in order to use custom killfeeds",
 				"specifyAFXInteropPath": "Specify AFX Interop path in Settings in order to use AFX mode",
 				"specifyAFXModeInfo": "When using AFX mode, after joining the match click on the toggle - no need to start the overlay."
+			},
+			"error": {
+				"title": "Unable to add the HUD",
+				"config": "LHM wasn't able to read the HUD's config file.",
+				"upload": "LHM wasn't able to upload the HUD to the cloud. Try it again later.",
+				"generic": "Something went wrong. Try it again later.",
+				"archive": "LHM wasn't able to read the archive file.",
+				"space": "You do not have enough Cloud Space in the workspace you're using. Please upgrade your plan or delete some of your cloud resources."
 			}
 		},
 		"app": {
@@ -516,9 +537,23 @@
 		},
 		"cta": {
 			"orderPlan": "Order Plan",
-			"orderCustomHUD": "Order your own custom HUD"
+			"orderCustomHUD": "Order your own custom HUD",
+			"orderCustomHUDName": {
+				"cs2": "Order your own custom HUD for CS2",
+				"csgo": "Order your own custom HUD for CS:GO",
+				"dota2": "Order your own custom HUD for Dota 2",
+				"leagueoflegends": "Order your own custom HUD for LoL",
+				"rocketleague": "Order your own custom HUD for Rocket League",
+				"apexlegends": "Order your own custom HUD for Apex Legends"
+			},
+			"getAQuote": "Get a quote",
+			"tryScoutAI": "Use our AI observer and multiple AI match predictions!",
+			"newToLHM": "New to LHM?"
 		},
 		"helpers": {
+			"next": "Next",
+			"previous": "Previous",
+			"close": "Close",
 			"learnMore": "Learn more",
 			"onlyInProPlus": {
 				"title": "Upgrade your plan",
@@ -537,6 +572,19 @@
 					"title": "Killfeed Offset",
 					"info": "Enabling this option will set safezoney to 0.8 to accomodate for custom HUD elements in the right top corner"
 				},
+				"previewDescriptions": {
+					"premium": {
+						"cs2": "With PREMIUM HUD we are taking the next step towards the goal of building the super easy to use cloud-based solution which with just a few clicks takes care of every step of esports tournament organization - including top-tier visuals!\nPREMIUM HUD is available for all Personal, Professional and Enterprise Plan users.",
+						"csgo": "With PREMIUM HUD we are taking the next step towards the goal of building the super easy to use cloud-based solution which with just a few clicks takes care of every step of esports tournament organization - including top-tier visuals!\nPREMIUM HUD is available for all Personal, Professional and Enterprise Plan users.",
+						"dota2": "Premium HUD for Dota 2 is our first step into revolutionizing the MOBA broadcasting industry. Our goal was to make absolutely everyone benefit from this integration. Whether you're a newcomer to the esports scene or already have your own brand and proven solutions, we're confident that the Premium HUD will bring you an experience that neither you nor your audience have ever seen before on other broadcasts.",
+						"leagueoflegends": "Premium HUD for League of Legends adds what is missing from the game's observer HUD and makes things even better. A huge amount of data, additional statistics and screens, beautiful visuals integrated into the game interface create a completely new and unique experience. Premium HUD for League of Legends is a quality that can be observed at the most famous events, from now on available to everyone.",
+						"rocketleague": "From the beginning, we wanted to build a solution to help esports focus on esports - and make sure to utilize the vast amount of existing data esports generates for viewers, players and organizers. Once we have begun successful in that area we added automation and cloud-based to the list - to make sure organizers can focus on viewers, players and teams instead of setting everything manually and worrying if everything will work."
+					},
+					"ultra": {
+						"cs2": "Counter-Strike 2 is a new fresh start. Ultra HUD is a comprehensive overlay to meet the needs and style that CS2 brought. The quick and easy setup of Ultra HUD will adapt to your needs and completely enhance your events. Your broadcast - just like Counter-Strike - is ready for a new era.\nUltra HUD is available for all Professional LHM Plan users, as well as Enterprise Plan users with 3 or more seats.",
+						"dota2": "There was no solution on the market that provided additional information, blended into the interface from the game and was accessible to everyone with a super-easy setup. Ultra HUD for Dota 2 changed all of that. LHM's advanced support of Dota 2 over the past several months has allowed us to improve everything we've offered so far - that's how Ultra HUD came to be.\nThe first and biggest upgrade you'll notice is the look of the HUD - from now on, it's both versatile and perfectly complements the layout of Dota 2 but doesn't make any visual compromises. This makes Ultra HUD the perfect solution for anyone, regardless of their own branding and expectations. It is simply an almost new part of the game."
+					}
+				},
 				"scout": {
 					"title": "Scout AI",
 					"info": "Enabling this option will launch CS2 with VConsole2, which might prevent you from joining servers unless properly configured."
@@ -550,7 +598,7 @@
 					"info": "Enabling this option and running the game with the config presented below or using the \"Run game\" button will disable the in-game radar to use the custom radar built into your HUDs."
 				},
 				"killfeed": {
-					"title": "Killfeed",
+					"title": "Killfeed / Tools",
 					"info": "Enabling this option and running the game with the config presented below or using the \"Run game\" button will disable the in-game killfeed to use the custom killfeed built into your HUDs.\nThis option will launch CS2 in insecure mode - do not join VAC-protected servers (e.g. Faceit, matchmaking) unless as a GOTV spectator while it is enabled."
 				},
 				"embeddedHUD": {
@@ -639,6 +687,10 @@
 				}
 			},
 			"aco": {
+				"telnet": {
+					"title": "Telnet",
+					"info": "Telnet is a protocol for communication with CS2. While it is being used, you don't need to have CS2 window in focus, as LHM will switch players with remote commands."
+				},
 				"tab": {
 					"title": "Auto Cinematic Observer",
 					"info": "The ACO module lets you use predefined camera movement paths to follow the action in the game.\nACO uses AI to determine the most important events happening in-game at any given time."
@@ -725,12 +777,46 @@
 			}
 		},
 		"cloudification": {
-			"updateModalTitle": "Upload your HUDs to use from Cloud",
-			"updateModalBody1": "With the new update, we're moving our HUDs to the Cloud only. This means that you will be able to use your HUDs on any device.",
-			"updateModalBody2": "To continue using LHM, you need to upload your HUDs to the Cloud. Select HUDs to upload to the Cloud.",
+			"updateModalTitle": "Upload your HUDs to LHM Cloud",
+			"updateModalInfo1": "Starting with LHM 4.9.0, all HUDs are fully cloud-based. This means that you are now able to use your HUDs on any device, and your HUDs will always stay in-sync.",
+			"updateModalInfo2": "To continue using LHM, you need to upload your HUDs to LHM Cloud.",
 			"updateModalCloudWarning": "Some of the HUDs are currently saved compressed in the Cloud. To use them, LHM will have to download them and decompress them. It may result in higher Cloud limit usage.",
 			"updateModalNonuploadedHUDsStillInDirectory": "Your HUDs will still be backed up in your HUD directory, if you choose not to upload them.",
-			"updateModalImporting": "We're preparing your HUDs for you..."
+			"updateModalImporting": "We're preparing your HUDs for you...",
+			"actions": {
+				"uploadAll": "Upload all HUDs to LHM Cloud",
+				"customize": "Let me choose which HUDs to upload",
+				"confirm": "Confirm and upload"
+			},
+			"downloadAndUnpack": "Download and unpack HUD",
+			"spaceCompressedInCloud": "compressed in cloud",
+			"spaceOnDisk": "on disk"
+		},
+		"newToLHM": {
+			"welcome": {
+				"title": "Welcome to LHM!",
+				"description": "New to LHM? Here you will find some basic tips to get started with using the application!"
+			},
+			"games": {
+				"title": "Game configuration",
+				"description": "LHM currently supports CS2, Dota 2, League of Legends, Rocket League, Apex Legends and F1. Each supported game requires a simple but necessary configuration to work properly with LHM.\nClick on the Learn More button below to learn how to set up any game you want to use with LHM."
+			},
+			"quick": {
+				"title": "LHM Quick",
+				"description": "LHM Quick allows you to quickly configure players and teams to launch with HUD. The feature is primarily intended for users familiar with how LHM works and to allow them to get started right away.\nCurrently, the games that are supported in LHM Quick are CS2, CS:GO, Dota 2, League of Legends and Rocket League.\nClick on the Learn More button below to learn more about LHM Quick."
+			},
+			"huds": {
+				"title": "HUDs tab",
+				"description": "The HUDs tab displays all the HUDs you have, both the built-in ones and the ones you have uploaded yourself.\nTo start a HUD, you can launch the overlay in a separate window on your system (\"Start HUD overlay\" button) or copy the link and add it as a browser source in your broadcast software (\"Toggle HUD url\" button)."
+			},
+			"lhmHuds": {
+				"title": "LHM HUDs",
+				"description": "Each LHM plan has built-in HUDs. The higher the plan, the more advanced the HUDs. Click on the names below to learn more about each:\n\n- Default HUD for any supported game\n- Premium HUD for [[CS2|premiumCS2]], [[Dota 2|premiumDota2]], [[LoL|premiumLoL]], [[Rocket League|premiumRL]]\n- Ultra HUD for [[CS2|ultraCS2]] and [[Dota 2|ultraDota2]]"
+			},
+			"userGuide": {
+				"title": "User guide",
+				"description": "Check out our User Guide to learn more about each of LHM's components. You'll find descriptions, instructions for configuring and using all features, and answers to the most common questions. If you have additional questions, join [[our Discord|discord]]."
+			}
 		}
 	}
 }
