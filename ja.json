@@ -728,9 +728,6 @@
                 "info": "SteamIDフィールドにカスタムSteam URLを入れているようです。LHMではカスタムURLをサポートするためにSteam API Keyが必要です。とにかく保存しますか？"
             }
         },
-        "cta": {
-            "orderPlan": "オーダープラン"
-        },
         "cloudification": {
             "updateModalTitle": "HUDをLHMクラウドにアップロードする",
             "updateModalInfo1": "LHM 4.9.0から、すべてのHUDが完全にクラウドベースになりました。つまり、どのデバイスでもHUDを使用することができ、HUDは常に同期しています。",
