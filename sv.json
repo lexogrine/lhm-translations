@@ -728,9 +728,6 @@
                 "info": "Det verkar som om du har lagt in en anpassad Steam-URL i SteamID-fältet. LHM kräver Steam API-nyckel för att stödja anpassade webbadresser. Vill du spara ändå?"
             }
         },
-        "cta": {
-            "orderPlan": "Beställ plan"
-        },
         "cloudification": {
             "updateModalTitle": "Ladda upp dina HUD:ar till LHM Cloud",
             "updateModalInfo1": "Från och med LHM 4.9.0 är alla HUDs helt molnbaserade. Detta innebär att du nu kan använda dina HUDs på vilken enhet som helst, och dina HUDs kommer alltid att vara synkroniserade.",
