@@ -543,7 +543,6 @@
                 "leagueoflegends": "Order your own custom HUD for LoL",
                 "rocketleague": "Order your own custom HUD for Rocket League"
             },
-            "getAQuote": "Get a quote",
             "tryScoutAI": "Use our AI observer and multiple AI match predictions!"
         },
         "helpers": {
