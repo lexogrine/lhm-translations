@@ -65,10 +65,7 @@
         "blocker": {
             "personal": "Upgrade your LHM to a Personal, Professional or Enterprise plan to get full access to this section.",
             "proPlus": "Upgrade your LHM to a Professional or Enterprise plan to get full access to this section.",
-            "upgradeNow": "Upgrade now",
-            "featureDescription": {
-                "cgmode": "CG Mode incorporates the most essential modules for broadcasting operations in a compact form.\nFrom this tab, you can manage your matches, teams, players, and Live game on one screen.\nUpgrade your LHM to a Personal, Professional or Enterprise plan to get full access to this section."
-            }
+            "upgradeNow": "Upgrade now"
         },
         "titles": {
             "players": "Players",
