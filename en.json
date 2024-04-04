@@ -538,7 +538,6 @@
         "cta": {
             "orderPlan": "Order Plan",
             "orderCustomHUDName": {
-                "leagueoflegends": "Order your own custom HUD for LoL",
                 "rocketleague": "Order your own custom HUD for Rocket League"
             },
             "tryScoutAI": "Use our AI observer and multiple AI match predictions!"
