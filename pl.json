@@ -728,9 +728,6 @@
                 "info": "Wygląda na to, że umieściłeś niestandardowy adres URL Steam w polu SteamID. LHM wymaga klucza API Steam do obsługi niestandardowych adresów URL. Czy mimo to chcesz zapisać?"
             }
         },
-        "cta": {
-            "orderPlan": "Zamów plan"
-        },
         "cloudification": {
             "updateModalTitle": "Prześlij swoje HUD-y do LHM Cloud",
             "updateModalInfo1": "Począwszy od LHM 4.9.0, wszystkie HUD-y są w pełni oparte na chmurze. Oznacza to, że możesz teraz korzystać z HUD-ów na dowolnym urządzeniu, a HUD-y zawsze będą zsynchronizowane.",
