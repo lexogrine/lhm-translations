@@ -356,6 +356,11 @@
                 },
                 "readerCode": {
                     "readerCode": "Kod czytnika"
+                },
+                "newToLHM": {
+                    "seeNow": "Zobacz teraz",
+                    "toggleInSidebar": "Przełącz na pasku bocznym",
+                    "show": "Pokaż \"Nowy w LHM\""
                 }
             },
             "f1": {
@@ -404,7 +409,7 @@
                 "hlaeIsRequired": "Musisz mieć CS:GO uruchomione z HLAE",
                 "proOrEntrpriseIsRequired": "Wymagany plan Professional lub Enterprise",
                 "hlaeAndHigherPlanIsRequired": "Wymagane CS:GO uruchomione z HLAE oraz plan Professional lub Enterprise",
-                "customKillfeed": "Killfeed",
+                "customKillfeed": "Killfeed / Narzędzia",
                 "killfeedOffset": "Killfeed Offset",
                 "scout": "Scout AI"
             },
@@ -498,7 +503,7 @@
             "disabledDescription": "Cała kontrola należy do ciebie i twoich obserwatorów.\nMiłej zabawy.",
             "aco1Description": "Równowaga między kontrolą a automatyzacją.\nPomóż swoim obserwatorom z zestawem ręcznie napisanych instrukcji dla ACO.",
             "aco-aiDescription": "Usiądź wygodnie, podczas gdy zaawansowane algorytmy ACO AI kontrolują twój strumień.",
-            "aco-ai-scoutDescription": "Pozwól naszemu najnowszemu systemowi przewidywania meczów przejąć stery.\nJuż wkrótce.",
+            "aco-ai-scoutDescription": "Pozwól naszemu najnowszemu systemowi przewidywania meczów przejąć stery.",
             "inGameName": "Nazwa w grze",
             "saveArea": "Obszar oszczędzania",
             "areaName": "Nazwa",
@@ -515,7 +520,8 @@
             "cs2Warning": "ACO i ACO AI nie są obecnie dostępne dla świeżo wydanej wersji Counter-Strike 2.\nW CS2 brakuje kluczowych funkcji, które są wymagane przez LHM do działania tych funkcji.",
             "cs2ScoutAndARGWarning": "Z powodu brakujących funkcji klawiszy w CS2, {{ feature }} wymaga teraz ustawienia domyślnych powiązań klawiszy granatów w grze (klawisze numeryczne 1-0 na klawiaturze), aby działały poprawnie.\n\nBrak niezbędnych komend w CS2 uniemożliwia LHM automatyczne przełączanie graczy, więc LHM wysyła teraz naciśnięcia klawiszy do gry ręcznie, więc upewnij się, że gra jest skoncentrowana podczas korzystania z {{ feature }}.",
             "scoutPredict": "Włącz przewidywanie",
-            "telnetWarning": "Aby korzystać z Telnetu, CS2 musi być uruchomiony z Workshop Tools. Można to zrobić włączając opcję \\\"Killfeed / Tools\\\" w zakładce HUDs i klikając przycisk \\\"Run Game\\\"."
+            "telnetWarning": "Aby korzystać z Telnetu, CS2 musi być uruchomiony z Workshop Tools. Można to zrobić włączając opcję \\\"Killfeed / Tools\\\" w zakładce HUDs i klikając przycisk \\\"Run Game\\\".",
+            "telnet": "Włącz Telnet"
         },
         "helpers": {
             "huds": {
@@ -552,7 +558,7 @@
                     "info": "Zakładka HUDy służy do zarządzania HUDami i konfiguracją uruchamiania gry."
                 },
                 "killfeed": {
-                    "title": "Killfeed",
+                    "title": "Killfeed / Narzędzia",
                     "info": "Włączenie tej opcji i uruchomienie gry z konfiguracją przedstawioną poniżej lub za pomocą przycisku \"Uruchom grę\" spowoduje wyłączenie funkcji killfeed w grze, aby korzystać z niestandardowego killfeed wbudowanego w HUD.\nTa opcja uruchomi CS:GO w trybie niezabezpieczonym - nie będziesz mógł dołączyć do serwerów chronionych przez VAC (np. Faceit, matchmaking), chyba że jako widz GOTV, gdy jest włączona."
                 },
                 "killfeedOffset": {
@@ -566,6 +572,19 @@
                 "scout": {
                     "title": "Scout AI",
                     "info": "Włączenie tej opcji spowoduje uruchomienie CS2 z VConsole2, co może uniemożliwić dołączenie do serwerów, o ile nie zostanie poprawnie skonfigurowane."
+                },
+                "previewDescriptions": {
+                    "premium": {
+                        "leagueoflegends": "Premium HUD dla League of Legends dodaje to, czego brakuje w HUD-zie obserwatora gry i sprawia, że wszystko jest jeszcze lepsze. Ogromna ilość danych, dodatkowe statystyki i ekrany, piękne wizualizacje zintegrowane z interfejsem gry tworzą zupełnie nowe i unikalne doświadczenie. Premium HUD dla League of Legends to jakość, którą można zaobserwować na najsłynniejszych wydarzeniach, od teraz dostępna dla każdego.",
+                        "cs2": "Dzięki PREMIUM HUD robimy kolejny krok w kierunku celu, jakim jest zbudowanie super łatwego w użyciu rozwiązania opartego na chmurze, które za pomocą zaledwie kilku kliknięć zajmie się każdym etapem organizacji turnieju e-sportowego - w tym wizualizacjami na najwyższym poziomie!\nPREMIUM HUD jest dostępny dla wszystkich użytkowników planów Personal, Professional i Enterprise.",
+                        "dota2": "Premium HUD dla Dota 2 to nasz pierwszy krok w kierunku zrewolucjonizowania branży transmisji MOBA. Naszym celem było, aby absolutnie każdy mógł skorzystać z tej integracji. Niezależnie od tego, czy jesteś nowicjuszem na scenie e-sportowej, czy masz już własną markę i sprawdzone rozwiązania, jesteśmy przekonani, że Premium HUD zapewni Ci wrażenia, których ani Ty, ani Twoi widzowie nigdy wcześniej nie widzieli w innych transmisjach.",
+                        "csgo": "Dzięki PREMIUM HUD robimy kolejny krok w kierunku celu, jakim jest zbudowanie super łatwego w użyciu rozwiązania opartego na chmurze, które za pomocą zaledwie kilku kliknięć zadba o każdy etap organizacji turnieju e-sportowego - w tym o najwyższej klasy oprawę wizualną!\nPREMIUM HUD jest dostępny dla wszystkich użytkowników planów Personal, Professional i Enterprise.",
+                        "rocketleague": "Od samego początku chcieliśmy stworzyć rozwiązanie, które pomoże esportowi skupić się na esporcie - i upewnić się, że wykorzystamy ogromną ilość istniejących danych, które esport generuje dla widzów, graczy i organizatorów. Gdy zaczęliśmy odnosić sukcesy w tej dziedzinie, dodaliśmy do listy automatyzację i chmurę - aby upewnić się, że organizatorzy mogą skupić się na widzach, graczach i drużynach, zamiast ustawiać wszystko ręcznie i martwić się, czy wszystko będzie działać."
+                    },
+                    "ultra": {
+                        "dota2": "Na rynku nie było rozwiązania, które zapewniałoby dodatkowe informacje, wtapiało się w interfejs gry i było dostępne dla każdego z bardzo łatwą konfiguracją. Ultra HUD dla Dota 2 zmienił to wszystko. Zaawansowane wsparcie LHM dla Dota 2 w ciągu ostatnich kilku miesięcy pozwoliło nam ulepszyć wszystko, co do tej pory oferowaliśmy - tak powstał Ultra HUD.\nPierwszym i największym ulepszeniem, które zauważysz, jest wygląd HUD-a - od teraz jest on zarówno wszechstronny, jak i doskonale uzupełnia układ Dota 2, ale nie idzie na żadne kompromisy wizualne. To sprawia, że Ultra HUD jest idealnym rozwiązaniem dla każdego, niezależnie od własnego brandingu i oczekiwań. To po prostu prawie nowa część gry.",
+                        "cs2": "Counter-Strike 2 to nowy, świeży start. Ultra HUD to kompleksowa nakładka spełniająca potrzeby i styl, który przyniósł CS2. Szybka i łatwa konfiguracja Ultra HUD dostosuje się do twoich potrzeb i całkowicie ulepszy twoje wydarzenia. Twoja transmisja - podobnie jak Counter-Strike - jest gotowa na nową erę.\nUltra HUD jest dostępny dla wszystkich użytkowników Professional LHM Plan, a także Enterprise Plan z 3 lub więcej stanowiskami."
+                    }
                 }
             },
             "teams": {
@@ -654,12 +673,16 @@
                     "info": "W tym trybie Scout AI będzie współpracować z ACO AI, aby zapewnić jak najpełniejsze wrażenia z obserwacji. Bez tego, Scout AI zapewni tylko kamerę POV, bez żadnych ujęć przeglądowych.\nTen tryb ma zastosowanie tylko wtedy, gdy ACO AI obsługuje mapę, na której rozgrywany jest mecz."
                 },
                 "timeRemaining": {
-                    "title": "Pozostały czas miesięcznego limitu Scout AI",
+                    "title": "Miesięczny limit Scout AI",
                     "info": "Dostępny czas na korzystanie z serwerów Scout AI. Odświeża się z każdym miesiącem subskrypcji."
                 },
                 "scoutPredict": {
                     "title": "Scout Predict",
                     "info": "Scout pozwala na automatyczne, oparte na sztucznej inteligencji przewidywanie na żywo. Jeśli ta opcja jest włączona, prognozy te będą wysyłane do HUD-ów w ważnych momentach, aby zapewnić lepszy wgląd w grę."
+                },
+                "telnet": {
+                    "info": "Telnet jest protokołem służącym do komunikacji z CS2. Podczas korzystania z niego nie trzeba mieć okna CS2 w centrum uwagi, ponieważ LHM będzie przełączać graczy za pomocą zdalnych poleceń.",
+                    "title": "Telnet"
                 }
             },
             "ar": {
@@ -704,7 +727,10 @@
             "deviceLockWorkspace": {
                 "title": "Przekroczono limit urządzeń",
                 "info": "Wygląda na to, że obszar roboczy jest używany na większej liczbie urządzeń niż liczba miejsc w planie.\nPoczekaj na wygaśnięcie blokady urządzeń lub zaktualizuj plan Enterprise, aby pomieścić więcej urządzeń."
-            }
+            },
+            "close": "Zamknij",
+            "previous": "Poprzedni",
+            "next": "Następny"
         },
         "blocker": {
             "personal": "Uaktualnij LHM do planu Personal, Professional lub Enterprise, aby uzyskać pełny dostęp do tej sekcji.",
@@ -744,6 +770,35 @@
             "downloadAndUnpack": "Pobierz i rozpakuj HUD",
             "spaceCompressedInCloud": "skompresowany w chmurze",
             "spaceOnDisk": "na dysku"
+        },
+        "newToLHM": {
+            "games": {
+                "title": "Konfiguracja gry",
+                "description": "LHM obsługuje obecnie CS2, Dota 2, League of Legends, Rocket League, Apex Legends i F1. Każda obsługiwana gra wymaga prostej, ale niezbędnej konfiguracji, aby poprawnie współpracować z LHM.\nKliknij przycisk Dowiedz się więcej poniżej, aby dowiedzieć się, jak skonfigurować dowolną grę, której chcesz używać z LHM."
+            },
+            "welcome": {
+                "title": "Witamy w LHM!",
+                "description": "Jesteś nowy w LHM? Tutaj znajdziesz kilka podstawowych wskazówek, aby rozpocząć korzystanie z aplikacji!"
+            },
+            "userGuide": {
+                "description": "Zapoznaj się z naszym przewodnikiem użytkownika, aby dowiedzieć się więcej o każdym z komponentów LHM&apos. Znajdziesz w nim opisy, instrukcje konfiguracji i korzystania ze wszystkich funkcji oraz odpowiedzi na najczęściej zadawane pytania. Jeśli masz dodatkowe pytania, dołącz do [[nasz Discord|discord]].",
+                "title": "Podręcznik użytkownika"
+            },
+            "lhmHuds": {
+                "title": "LHM HUD",
+                "description": "Każdy plan LHM ma wbudowane interfejsy HUD. Im wyższy plan, tym bardziej zaawansowane HUD-y. Kliknij poniższe nazwy, aby dowiedzieć się więcej o każdym z nich:\n\n- Domyślny HUD dla dowolnej obsługiwanej gry\n- Premium HUD dla [[CS2|premiumCS2]], [[Dota 2|premiumDota2]], [[LoL|premiumLoL]], [[Rocket League|premiumRL]]\n- Ultra HUD dla [[CS2|ultraCS2]] i [[Dota 2|ultraDota2]]"
+            },
+            "quick": {
+                "description": "LHM Quick pozwala szybko skonfigurować graczy i drużyny do uruchomienia z HUD. Funkcja ta jest przeznaczona przede wszystkim dla użytkowników zaznajomionych z działaniem LHM i umożliwia im natychmiastowe rozpoczęcie pracy.\nObecnie gry obsługiwane przez LHM Quick to CS2, CS:GO, Dota 2, League of Legends i Rocket League.\nKliknij przycisk Dowiedz się więcej poniżej, aby dowiedzieć się więcej o LHM Quick.",
+                "title": "LHM Quick"
+            },
+            "huds": {
+                "title": "Zakładka HUD",
+                "description": "Zakładka HUDy wyświetla wszystkie posiadane HUDy, zarówno te wbudowane, jak i przesłane przez ciebie.\nAby uruchomić HUD, możesz uruchomić nakładkę w osobnym oknie w systemie (przycisk \"Uruchom nakładkę HUD\") lub skopiować link i dodać go jako źródło przeglądarki w oprogramowaniu do transmisji (przycisk \"Przełącz adres URL HUD\")."
+            }
+        },
+        "cta": {
+            "tryScoutAI": "Użyj naszego obserwatora AI i wielu prognoz meczów AI!"
         }
     }
 }
