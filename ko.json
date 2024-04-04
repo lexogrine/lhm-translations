@@ -728,9 +728,6 @@
                 "info": "SteamID 필드에 사용자 지정 Steam URL을 입력한 것 같습니다. LHM은 사용자 지정 URL을 지원하려면 Steam API 키가 필요합니다. 그래도 저장하시겠습니까?"
             }
         },
-        "cta": {
-            "orderPlan": "플랜 주문"
-        },
         "cloudification": {
             "updateModalTitle": "HUD를 LHM 클라우드에 업로드하기",
             "updateModalInfo1": "LHM 4.9.0부터 모든 HUD는 완전히 클라우드 기반입니다. 즉, 이제 어떤 기기에서든 HUD를 사용할 수 있으며 HUD는 항상 동기화 상태를 유지합니다.",
