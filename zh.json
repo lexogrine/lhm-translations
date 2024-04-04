@@ -728,9 +728,6 @@
                 "info": "您似乎在 SteamID 字段中输入了自定义的 Steam URL。LHM 需要 Steam API Key 才能支持自定义 URL。您还想保存吗？"
             }
         },
-        "cta": {
-            "orderPlan": "订购计划"
-        },
         "cloudification": {
             "updateModalTitle": "将 HUD 上传到 LHM 云端",
             "updateModalInfo1": "从 LHM 4.9.0 开始，所有 HUD 都将完全基于云。这意味着您现在可以在任何设备上使用 HUD，而且 HUD 将始终保持同步。",
