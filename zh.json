@@ -514,7 +514,9 @@
             "scoutServerUnavailable": "LHM无法连接到Scout AI服务器。\n请几分钟后再试。",
             "cs2Warning": "新发布的《反恐精英 2》目前无法使用 ACO 和 ACO AI。\nCS2 缺少一些关键功能，而 LHM 需要这些功能才能正常工作。",
             "cs2ScoutAndARGWarning": "由于CS2中缺少按键功能，{{ feature }}现在需要将游戏中的手雷按键绑定设置为默认值（键盘上的数字键1-0）才能正常工作。\n\n由于 CS2 中缺少必要的指令，LHM 无法自动切换玩家，因此 LHM 现在需要手动向游戏发送按键，因此在使用 {{ feature }} 时请确保游戏处于专注状态。",
-            "scoutPredict": "启用预测"
+            "scoutPredict": "启用预测",
+            "telnetWarning": "要使用 Telnet，必须使用工作坊工具启动 CS2。在 \\\"HUDs \\\"选项卡中启用 \\\"Killfeed / Tools\\\" \\\"选项并点击 \\\"Run Game\\\" \\\"按钮即可.",
+            "telnet": "要使用 Telnet，必须使用工作坊工具启动 CS2。在 \\\"HUDs \\\"选项卡中启用 \\\"Killfeed / Tools\\\" \\\"选项并点击 \\\"Run Game\\\" \\\"按钮即可"
         },
         "helpers": {
             "huds": {
