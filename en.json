@@ -538,7 +538,6 @@
         "cta": {
             "orderPlan": "Order Plan",
             "orderCustomHUDName": {
-                "cs2": "Order your own custom HUD for CS2",
                 "csgo": "Order your own custom HUD for CS:GO",
                 "dota2": "Order your own custom HUD for Dota 2",
                 "leagueoflegends": "Order your own custom HUD for LoL",
