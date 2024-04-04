@@ -123,7 +123,8 @@
             "scoutServerUnavailable": "LHM kan ikke oprette forbindelse til Scout AI-servere.\nPrøv igen om et par minutter.",
             "cs2Warning": "ACO og ACO AI er i øjeblikket ikke tilgængelige for den nyligt udgivne Counter-Strike 2.\nCS2 mangler nøglefunktioner, som kræves af LHM, for at disse funktioner kan fungere lige nu.",
             "cs2ScoutAndARGWarning": "På grund af manglende nøglefunktioner i CS2 kræver {{ feature }} nu, at granat-tastebindingerne i spillet er indstillet til deres standardværdier (nummertasterne 1-0 på tastaturet) for at fungere korrekt.\n\nManglen på nødvendige kommandoer i CS2 forhindrer LHM i at skifte spiller automatisk, så LHM sender nu tastetryk til spillet manuelt, så sørg for, at spillet er fokuseret under brug af {{ feature }}.",
-            "scoutPredict": "Muliggør forudsigelse"
+            "scoutPredict": "Muliggør forudsigelse",
+            "telnetWarning": "For at bruge Telnet skal CS2 startes med Workshop Tools. Du kan gøre det ved at aktivere \\\"Killfeed / Tools\\\" under fanen HUDs og klikke på knappen \\\"Run Game\\\"."
         },
         "players": {
             "edit": "Rediger en spiller",
