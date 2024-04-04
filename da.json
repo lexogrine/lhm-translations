@@ -106,7 +106,7 @@
             "manualControl": "Manuel kontrol",
             "areaConfigurationsPlaceholder": "Vælg et område for at se dets konfigurationer",
             "enableDirector": "Aktivér direktør",
-            "disabledDescription": "Al kontrol overlades til dig og dine observatører.\nHav det sjovt.",
+            "disabledDescription": "Al kontrol gives til dig og dine observatører.",
             "aco1Description": "En balance mellem kontrol og automatisering.\nHjælp dine observatører med et sæt manuelt skrevne instruktioner til ACO.",
             "aco-aiDescription": "Læn dig tilbage, mens de avancerede algoritmer i ACO AI styrer din stream.",
             "aco-ai-scoutDescription": "Lad vores nyeste kampforudsigelsessystem tage roret.\nKommer snart.",
@@ -124,7 +124,8 @@
             "cs2Warning": "ACO og ACO AI er i øjeblikket ikke tilgængelige for den nyligt udgivne Counter-Strike 2.\nCS2 mangler nøglefunktioner, som kræves af LHM, for at disse funktioner kan fungere lige nu.",
             "cs2ScoutAndARGWarning": "På grund af manglende nøglefunktioner i CS2 kræver {{ feature }} nu, at granat-tastebindingerne i spillet er indstillet til deres standardværdier (nummertasterne 1-0 på tastaturet) for at fungere korrekt.\n\nManglen på nødvendige kommandoer i CS2 forhindrer LHM i at skifte spiller automatisk, så LHM sender nu tastetryk til spillet manuelt, så sørg for, at spillet er fokuseret under brug af {{ feature }}.",
             "scoutPredict": "Muliggør forudsigelse",
-            "telnetWarning": "For at bruge Telnet skal CS2 startes med Workshop Tools. Du kan gøre det ved at aktivere \\\"Killfeed / Tools\\\" under fanen HUDs og klikke på knappen \\\"Run Game\\\"."
+            "telnetWarning": "For at bruge Telnet skal CS2 startes med Workshop Tools. Du kan gøre det ved at aktivere \\\"Killfeed / Tools\\\" under fanen HUDs og klikke på knappen \\\"Run Game\\\".",
+            "telnet": "Aktiver Telnet"
         },
         "players": {
             "edit": "Rediger en spiller",
@@ -420,6 +421,11 @@
                 },
                 "readerCode": {
                     "readerCode": "Læserkode"
+                },
+                "newToLHM": {
+                    "seeNow": "Se nu",
+                    "toggleInSidebar": "Skift i sidepanelet",
+                    "show": "Vis \"Ny på LHM\""
                 }
             },
             "hudConfigCloudSynchronization": "Cloud-synkronisering af HUD-indstillinger",
@@ -451,7 +457,7 @@
                 "hlaeIsRequired": "Du skal have CS:GO kørende med HLAE",
                 "proOrEntrpriseIsRequired": "Du skal have en Professional- eller Enterpriseplan",
                 "hlaeAndHigherPlanIsRequired": "Du skal have CS:GO kørende med HLAE og et Professional- eller Enterpriseabonnement",
-                "customKillfeed": "Killfeed",
+                "customKillfeed": "Killfeed / Værktøjer",
                 "killfeedOffset": "Killfeed-offset",
                 "scout": "Scout AI"
             },
@@ -505,7 +511,7 @@
                 "specifyHLAEPath": "Angiv HLAE stien i Indstillinger for at bruge brugerdefinerede killfeeds",
                 "specifyAFXInteropPath": "Angiv AFX Interop stien i Indstillinger for at bruge AFX tilstand",
                 "specifyAFXModeInfo": "Når du bruger AFX tilstand, skal du klikke på knappen efter at have sluttet dig til kampen - det er ikke nødvendigt at starte overlayet.",
-                "csgoHUDinCS2": "Denne HUD er lavet til CS:GO. Det kan ikke garanteres, at alle dens funktioner vil fungere på samme måde i CS2."
+                "csgoHUDinCS2": "Denne HUD er lavet til CS:GO. Det er ikke sikkert, at alle dens funktioner fungerer på samme måde i CS2."
             },
             "error": {
                 "title": "Kan ikke tilføje HUD",
@@ -563,7 +569,7 @@
                     "info": "Med denne funktion kan du simulere en spilledatastrøm for at teste dit HUD eller din konfiguration."
                 },
                 "killfeed": {
-                    "title": "Killfeed",
+                    "title": "Killfeed / Værktøjer",
                     "info": "Hvis du aktiverer denne indstilling og kører spillet med nedenstående konfiguration eller bruger knappen \"Run game\", deaktiveres killfeed i spillet, så du kan bruge den brugerdefinerede killfeed, der er indbygget i dine HUD'er.\nDenne indstilling vil starte CS:GO i usikker tilstand - du vil ikke kunne deltage i VAC-beskyttede servere (f.eks. Faceit, matchmaking), medmindre du er GOTV-tilskuer, mens den er aktiveret."
                 },
                 "killfeedOffset": {
@@ -577,6 +583,19 @@
                 "scout": {
                     "title": "Spejder AI",
                     "info": "Hvis du aktiverer denne indstilling, starter CS2 med VConsole2, hvilket kan forhindre dig i at joine servere, medmindre det er korrekt konfigureret."
+                },
+                "previewDescriptions": {
+                    "premium": {
+                        "leagueoflegends": "Premium HUD til League of Legends tilføjer det, der mangler i spillets observatør-HUD, og gør tingene endnu bedre. En enorm mængde data, ekstra statistikker og skærmbilleder, smukke billeder integreret i spillets interface skaber en helt ny og unik oplevelse. Premium HUD til League of Legends er en kvalitet, der kan observeres ved de mest berømte begivenheder, fra nu af tilgængelig for alle.",
+                        "cs2": "Med PREMIUM HUD tager vi det næste skridt mod målet om at bygge en superbrugervenlig cloud-baseret løsning, der med få klik tager sig af alle trin i organiseringen af esports-turneringer - inklusive visuals i topklasse!\nPREMIUM HUD er tilgængelig for alle brugere af Personal, Professional og Enterprise Plan.",
+                        "dota2": "Premium HUD til Dota 2 er vores første skridt til at revolutionere MOBA-transmissionsbranchen. Vores mål var at få absolut alle til at drage fordel af denne integration. Uanset om du er ny på esport-scenen eller allerede har dit eget brand og gennemprøvede løsninger, er vi sikre på, at Premium HUD vil give dig en oplevelse, som hverken du eller dit publikum nogensinde har set før i andre udsendelser.",
+                        "csgo": "Med PREMIUM HUD tager vi det næste skridt mod målet om at bygge den super brugervenlige cloud-baserede løsning, som med få klik tager sig af alle trin i organiseringen af esports-turneringer - inklusive visuals i topklasse!\nPREMIUM HUD er tilgængelig for alle brugere af Personal, Professional og Enterprise Plan.",
+                        "rocketleague": "Fra begyndelsen ønskede vi at bygge en løsning, der kunne hjælpe esport med at fokusere på esport - og sørge for at udnytte den enorme mængde eksisterende data, som esport genererer for seere, spillere og arrangører. Da vi begyndte at få succes på det område, tilføjede vi automatisering og cloud-baseret til listen - for at sikre, at arrangørerne kan fokusere på seere, spillere og hold i stedet for at indstille alt manuelt og bekymre sig om, hvorvidt alt vil fungere."
+                    },
+                    "ultra": {
+                        "dota2": "Der var ingen løsning på markedet, der gav ekstra information, smeltede ind i spillets interface og var tilgængelig for alle med en supernem opsætning. Ultra HUD til Dota 2 ændrede alt dette. LHM's avancerede support af Dota 2 i løbet af de sidste mange måneder har gjort det muligt for os at forbedre alt, hvad vi hidtil har tilbudt - det er sådan, Ultra HUD blev til.\nDen første og største opgradering, du vil lægge mærke til, er HUD'ens udseende - fra nu af er den både alsidig og passer perfekt til Dota 2's layout, men den går ikke på kompromis med det visuelle. Det gør Ultra HUD til den perfekte løsning for alle, uanset deres egen branding og forventninger. Det er simpelthen en næsten ny del af spillet.",
+                        "cs2": "Counter-Strike 2 er en ny frisk start. Ultra HUD er et omfattende overlay, der opfylder de behov og den stil, som CS2 har medført. Den hurtige og nemme opsætning af Ultra HUD vil tilpasse sig dine behov og forbedre dine events fuldstændigt. Din udsendelse - ligesom Counter-Strike - er klar til en ny æra.\nUltra HUD er tilgængelig for alle Professional LHM Plan-brugere samt Enterprise Plan-brugere med 3 eller flere sæder."
+                    }
                 }
             },
             "teams": {
@@ -665,12 +684,16 @@
                     "info": "I denne tilstand vil Scout AI arbejde sammen med ACO AI for at give den mest komplette observationsoplevelse. Uden den vil Scout AI kun levere POV-kamera uden nogen oversigtsbilleder.\nDenne tilstand kan kun bruges, hvis ACO AI understøtter det kort, kampen spilles på."
                 },
                 "timeRemaining": {
-                    "title": "Resterende tid af din månedlige Scout AI-kvote",
+                    "title": "Din månedlige Scout AI-kvote",
                     "info": "Din tilgængelige tid til at bruge Scout AI-servere. Den opdateres for hver måned i dit abonnement."
                 },
                 "scoutPredict": {
                     "title": "Spejderforudsigelse",
                     "info": "Scout giver mulighed for automatiserede, AI-baserede live-forudsigelser. Hvis denne indstilling er aktiveret, vil disse forudsigelser blive sendt til dine HUD'er på vigtige tidspunkter for at give et bedre indblik i spillet."
+                },
+                "telnet": {
+                    "info": "Telnet er en protokol til kommunikation med CS2. Mens den bruges, behøver du ikke at have CS2-vinduet i fokus, da LHM vil skifte afspiller med fjernkommandoer.",
+                    "title": "Telnet"
                 }
             },
             "ar": {
@@ -710,7 +733,10 @@
             "deviceLockWorkspace": {
                 "title": "Enhedsgrænse overskredet",
                 "info": "Det ser ud til, at arbejdsområdet bliver brugt på flere enheder end det antal pladser, som planen har.\nVent, til enhedslåsen udløber, eller opgrader dit Enterprise-abonnement, så der er plads til flere enheder."
-            }
+            },
+            "close": "Luk",
+            "previous": "Forrige",
+            "next": "Næste"
         },
         "modals": {
             "imageTooLarge": {
@@ -744,6 +770,35 @@
             "downloadAndUnpack": "Download og udpak HUD",
             "spaceCompressedInCloud": "komprimeret i skyen",
             "spaceOnDisk": "på disk"
+        },
+        "newToLHM": {
+            "games": {
+                "title": "Spilkonfiguration",
+                "description": "LHM understøtter i øjeblikket CS2, Dota 2, League of Legends, Rocket League, Apex Legends og F1. Hvert understøttet spil kræver en enkel, men nødvendig konfiguration for at fungere korrekt med LHM.\nKlik på knappen Lær mere nedenfor for at lære, hvordan du konfigurerer et spil, du vil bruge med LHM."
+            },
+            "welcome": {
+                "title": "Velkommen til LHM!",
+                "description": "Er du ny i LHM? Her finder du nogle grundlæggende tips til at komme i gang med at bruge programmet!"
+            },
+            "userGuide": {
+                "description": "Tjek vores brugervejledning for at lære mere om hver af LHM's komponenter. Du finder beskrivelser, instruktioner til konfiguration og brug af alle funktioner og svar på de mest almindelige spørgsmål. Hvis du har yderligere spørgsmål, kan du deltage i [[vores Discord|discord]].",
+                "title": "Brugervejledning"
+            },
+            "lhmHuds": {
+                "title": "LHM HUD'er",
+                "description": "Hver LHM-plan har indbyggede HUD'er. Jo højere plan, jo mere avancerede HUD'er. Klik på navnene nedenfor for at lære mere om hver enkelt:\n\n- Standard HUD til alle understøttede spil\n- Premium HUD for [[CS2|premiumCS2]], [[Dota 2|premiumDota2]], [[LoL|premiumLoL]], [[Rocket League|premiumRL]]\n- Ultra HUD til [[CS2|ultraCS2]] og [[Dota 2|ultraDota2]]"
+            },
+            "quick": {
+                "description": "LHM Quick giver dig mulighed for hurtigt at konfigurere spillere og hold til at starte med HUD. Funktionen er primært beregnet til brugere, der er fortrolige med, hvordan LHM fungerer, og til at give dem mulighed for at komme i gang med det samme.\nDe spil, der understøttes i LHM Quick, er i øjeblikket CS2, CS:GO, Dota 2, League of Legends og Rocket League.\nKlik på knappen Lær mere nedenfor for at lære mere om LHM Quick.",
+                "title": "LHM Hurtigt"
+            },
+            "huds": {
+                "title": "Fanen HUDs",
+                "description": "Fanen HUDs viser alle de HUDs, du har, både de indbyggede og dem, du selv har uploadet.\nFor at starte en HUD kan du starte overlayet i et separat vindue på dit system (knappen \"Start HUD overlay\") eller kopiere linket og tilføje det som en browserkilde i din udsendelsessoftware (knappen \"Toggle HUD url\")."
+            }
+        },
+        "cta": {
+            "tryScoutAI": "Brug vores AI-observatør og flere AI-kampforudsigelser!"
         }
     }
 }
