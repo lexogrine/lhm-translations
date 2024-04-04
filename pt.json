@@ -728,9 +728,6 @@
                 "info": "Parece que colocaste um URL personalizado do Steam no campo SteamID. O LHM requer a chave API do Steam para suportar URLs personalizados. Deseja guardar na mesma?"
             }
         },
-        "cta": {
-            "orderPlan": "Encomendar plano"
-        },
         "cloudification": {
             "updateModalTitle": "Carrega os teus HUDs para a Nuvem LHM",
             "updateModalInfo1": "A partir do LHM 4.9.0, todos os HUDs são totalmente baseados na nuvem. Isto significa que agora podes usar os teus HUDs em qualquer dispositivo, e os teus HUDs estarão sempre sincronizados.",
