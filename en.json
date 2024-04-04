@@ -537,7 +537,6 @@
         },
         "cta": {
             "orderPlan": "Order Plan",
-            "orderCustomHUD": "Order your own custom HUD",
             "orderCustomHUDName": {
                 "cs2": "Order your own custom HUD for CS2",
                 "csgo": "Order your own custom HUD for CS:GO",
