@@ -728,9 +728,6 @@
                 "info": "Näyttää siltä, että laitoit mukautetun Steam-URL:n SteamID-kenttään. LHM vaatii Steam API -avaimen tukeakseen mukautettuja URL-osoitteita. Haluatko tallentaa kuitenkin?"
             }
         },
-        "cta": {
-            "orderPlan": "Tilaa suunnitelma"
-        },
         "cloudification": {
             "updateModalTitle": "Lataa HUDisi LHM Cloudiin",
             "updateModalInfo1": "LHM 4.9.0:sta alkaen kaikki HUDit ovat täysin pilvipohjaisia. Tämä tarkoittaa, että voit nyt käyttää HUDejasi millä tahansa laitteella, ja HUDisi pysyvät aina synkronoituina.",
