@@ -111,7 +111,7 @@
             "telnet": "Enable Telnet",
             "telnetWarning": "To use Telnet, CS2 must be launched with Workshop Tools. You can do it by enabling \"Killfeed / Tools\" option in the HUDs tab and clicking \"Run Game\" button.",
             "disabledDescription": "All control is given to you and your observers.",
-            "aco1Description": "A balance of control and automation.\nAssist your observers with a set of manually written instructions for ACO.\n",
+            "aco1Description": "A balance of control and automation.\nAssist your observers with a set of manually written instructions for ACO.",
             "aco-aiDescription": "Sit back while the advanced algorithms of ACO AI control your stream.",
             "aco-ai-scoutDescription": "Let our latest AI match observer system take the wheel.",
             "aco-ai-scoutDescription-disconnected": "Let our latest AI match observer system take the wheel.\\nScout servers may be currently unavailable.",
