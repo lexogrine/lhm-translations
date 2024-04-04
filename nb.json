@@ -728,9 +728,6 @@
                 "info": "Det ser ut til at du har lagt inn en egendefinert Steam-URL i SteamID-feltet. LHM krever Steam API-nøkkel for å støtte egendefinerte URL-er. Ønsker du å lagre likevel?"
             }
         },
-        "cta": {
-            "orderPlan": "Bestill plan"
-        },
         "cloudification": {
             "updateModalTitle": "Last opp HUD-ene dine til LHM Cloud",
             "updateModalInfo1": "Fra og med LHM 4.9.0 er alle HUD-er fullstendig skybaserte. Det betyr at du nå kan bruke HUD-ene dine på alle enheter, og at de alltid vil være synkronisert.",
