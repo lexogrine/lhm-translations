@@ -356,6 +356,11 @@
                 },
                 "readerCode": {
                     "readerCode": "阅读器代码"
+                },
+                "newToLHM": {
+                    "seeNow": "显示 \"New to LHM\"；",
+                    "toggleInSidebar": "立即查看",
+                    "show": "阅读器代码"
                 }
             },
             "f1": {
@@ -404,7 +409,7 @@
                 "hlaeIsRequired": "您必须使用 HLAE 运行 CS:GO",
                 "proOrEntrpriseIsRequired": "您必须拥有专业版或企业版",
                 "hlaeAndHigherPlanIsRequired": "您必须使用 HLAE 和专业或企业计划运行 CS:GO",
-                "customKillfeed": "Killfeed",
+                "customKillfeed": "雷达",
                 "killfeedOffset": "杀怪偏移",
                 "scout": "侦察兵 AI"
             },
@@ -453,7 +458,7 @@
                 "specifyHLAEPath": "在 \"设置 \"中指定HLAE路径，以便使用自定义杀毒软件",
                 "specifyAFXInteropPath": "在 \"设置 \"中指定AFX互操作路径，以便使用AFX模式",
                 "specifyAFXModeInfo": "使用AFX模式时，加入比赛后点击切换按钮--无需启动叠加。",
-                "csgoHUDinCS2": "此 HUD 专为 CS:GO 制作。不保证其所有功能都能在 CS2 中以相同方式运行。"
+                "csgoHUDinCS2": "在桌面上创建快捷方式"
             },
             "sort": {
                 "custom": "自定义",
@@ -496,8 +501,8 @@
             "manualControl": "手动控制",
             "areaConfigurationsPlaceholder": "选择一个区域查看其配置",
             "enableDirector": "启用指挥",
-            "disabledDescription": "所有控制权都交给你和你的观察员。\\n玩得开心",
-            "aco1Description": "控制与自动化的平衡。\\n为您的观察员提供一套人工编写的 ACO 指令。",
+            "disabledDescription": "所有控制权都交给你和你的观察者。",
+            "aco1Description": "控制与自动化的平衡。\n为您的观察员提供一套手动编写的 ACO 指令。",
             "aco-aiDescription": "坐等 ACO 人工智能的先进算法控制您的数据流。",
             "aco-ai-scoutDescription": "让我们最新的比赛预测系统掌舵。\\n即将推出",
             "inGameName": "游戏内名称",
@@ -553,7 +558,7 @@
                     "info": "HUDs选项卡用于管理HUD和游戏启动配置。"
                 },
                 "killfeed": {
-                    "title": "杀戮信息",
+                    "title": "启用此选项并使用以下配置运行游戏，或使用\"运行游戏\"按钮将禁用游戏中的雷达，以使用 HUD 中内置的自定义雷达。",
                     "info": "启用此选项并使用下面的配置运行游戏或使用 \"运行游戏\"按钮将禁用游戏中的击杀进给，以使用 HUD 中内置的自定义击杀进给。\n该选项将以不安全模式启动 CS:GO--启用该选项后，除非作为 GOTV 观众，否则您将无法加入受 VAC 保护的服务器（如 Faceit、匹配）。"
                 },
                 "killfeedOffset": {
@@ -567,6 +572,19 @@
                 "scout": {
                     "title": "侦察兵人工智能",
                     "info": "启用此选项将使用 VConsole2 启动 CS2，除非正确配置，否则可能无法加入服务器。"
+                },
+                "previewDescriptions": {
+                    "premium": {
+                        "leagueoflegends": "Dota 2 高级 HUD 是我们革新 MOBA 直播行业的第一步。我们的目标是让所有人都能从这一整合中受益。无论您是电竞新手，还是已经拥有自己的品牌和成熟的解决方案，我们都有信心，高级 HUD 将为您和您的观众带来前所未有的体验。",
+                        "cs2": "启用此选项后，safezoney 将设置为 0.8，以适应右上角的自定义 HUD 元素。",
+                        "dota2": "通过 PREMIUM HUD，我们向着打造超级易用的云端解决方案的目标迈出了新的一步，只需点击几下即可完成电竞比赛组织的每一个步骤 - 包括顶级视觉效果！\nPREMIUM HUD 适用于所有个人、专业和企业计划用户。",
+                        "csgo": "通过 PREMIUM HUD，我们向着打造超级易用的云端解决方案的目标迈出了新的一步，只需点击几下即可完成电竞比赛组织的每一个步骤，包括顶级视觉效果！\nPREMIUM HUD 适用于所有个人、专业和企业计划用户。",
+                        "rocketleague": "英雄联盟高级 HUD 添加了游戏观察员 HUD 中缺少的内容，并使其更加出色。大量的数据、额外的统计信息和屏幕、集成到游戏界面中的精美视觉效果创造了全新的独特体验。英雄联盟》的高级 HUD 是在最著名的赛事中可以观察到的品质，从现在起人人都可以使用。"
+                    },
+                    "ultra": {
+                        "dota2": "反恐精英 2》是一个全新的开始。Ultra HUD 是一款全面的覆盖程序，可满足 CS2 带来的需求和风格。Ultra HUD 的设置简单快捷，可以满足您的需求，并完全提升您的赛事效果。您的转播--就像《反恐精英》一样--已经准备好迎接新时代的到来。\nUltra HUD 适用于所有专业 LHM 计划用户以及拥有 3 个或更多席位的企业计划用户。",
+                        "cs2": "从一开始，我们就希望建立一个解决方案，帮助电竞专注于电竞--并确保利用电竞为观众、玩家和组织者产生的大量现有数据。一旦我们在这一领域取得成功，我们就会将自动化和云计算添加到列表中--以确保组织者可以专注于观众、玩家和战队，而不是手动设置一切并担心是否一切正常。"
+                    }
                 }
             },
             "teams": {
@@ -655,12 +673,16 @@
                     "info": "在此模式下，AI \"侦察兵 \"将与 ACO AI 协同工作，提供最全面的观察体验。如果不使用该模式，人工智能侦察兵将只提供 POV 摄像机，而不提供任何概览镜头。\n该模式仅适用于 ACO AI 支持的比赛地图。"
                 },
                 "timeRemaining": {
-                    "title": "每月 \"侦察兵 AI \"配额的剩余时间",
+                    "title": "Scout 允许基于 AI 的自动实时预测。如果启用此选项，这些预测将在重要时刻发送到您的 HUD，以便更好地洞察比赛。",
                     "info": "您使用 Scout AI 服务器的可用时间。订阅后每个月都会刷新。"
                 },
                 "scoutPredict": {
                     "title": "侦察兵预测",
                     "info": "Scout 允许基于人工智能的自动实时预测。如果启用此选项，这些预测将在重要时刻发送到你的 HUD，以便更好地洞察比赛。"
+                },
+                "telnet": {
+                    "info": "远程登录",
+                    "title": "ARG 使用的 ID，连接成功时需要使用。"
                 }
             },
             "ar": {
@@ -705,7 +727,10 @@
             "deviceLockWorkspace": {
                 "title": "超出设备限制",
                 "info": "工作区使用的设备数量似乎超过了其计划的座位数。\n等待设备锁定到期或升级企业计划以容纳更多设备。"
-            }
+            },
+            "close": "上一页",
+            "previous": "下一页",
+            "next": "使用我们的人工智能观测器和多个人工智能匹配预测！"
         },
         "blocker": {
             "personal": "将您的 LHM 升级到个人、专业或企业计划，即可完全访问此部分。",
@@ -745,6 +770,35 @@
             "downloadAndUnpack": "下载并解压 HUD",
             "spaceCompressedInCloud": "压缩在云中",
             "spaceOnDisk": "在磁盘上"
+        },
+        "newToLHM": {
+            "games": {
+                "title": "LHM 新手？在这里，您将找到一些开始使用该应用程序的基本提示！",
+                "description": "游戏配置"
+            },
+            "welcome": {
+                "title": "在磁盘上",
+                "description": "欢迎来到 LHM！"
+            },
+            "userGuide": {
+                "description": "用户指南",
+                "title": "每个 LHM 计划都有内置 HUD。计划越高，HUD 越先进。点击下面的名称了解更多信息：\n\n- 任何支持游戏的默认 HUD\n- 适用于 [[CS2|premiumCS2]], [[Dota 2|premiumDota2]], [[LoL|premiumLoL]], [[Rocket League|premiumRL]] 的高级 HUD\n- 用于[[CS2|ultraCS2]]和[[Dota2|ultraDota2]]的超级 HUD"
+            },
+            "lhmHuds": {
+                "title": "HUDs 标签会显示你拥有的所有 HUD，包括内置的和你自己上传的。\n要启动 HUD，您可以在系统的单独窗口中启动叠加（\"启动 HUD 叠加\"按钮），或者复制链接并将其添加为广播软件中的浏览器源（\"切换 HUD 网址\"按钮）。",
+                "description": "LHM HUD"
+            },
+            "quick": {
+                "description": "LHM 快速",
+                "title": "LHM 目前支持 CS2、Dota 2、英雄联盟、火箭联盟、Apex Legends 和 F1。每个支持的游戏都需要进行简单但必要的配置，才能与 LHM 正常运行。\n点击下面的 \"了解更多 \"按钮，了解如何设置您想与 LHM 一起使用的任何游戏。"
+            },
+            "huds": {
+                "title": "LHM Quick 可让您快速配置球员和球队，以便使用 HUD 启动。该功能主要面向熟悉 LHM 工作原理的用户，让他们能够立即上手。\n目前，LHM Quick 支持的游戏有 CS2、CS:GO、Dota 2、英雄联盟和火箭联盟。\n点击下面的 \"了解更多 \"按钮，了解有关 LHM Quick 的更多信息。",
+                "description": "HUD 选项卡"
+            }
+        },
+        "cta": {
+            "tryScoutAI": "云不活跃"
         }
     }
 }
