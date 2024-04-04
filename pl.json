@@ -514,7 +514,8 @@
             "scoutServerUnavailable": "LHM nie może połączyć się z serwerami Scout AI.\nSpróbuj ponownie za kilka minut.",
             "cs2Warning": "ACO i ACO AI nie są obecnie dostępne dla świeżo wydanej wersji Counter-Strike 2.\nW CS2 brakuje kluczowych funkcji, które są wymagane przez LHM do działania tych funkcji.",
             "cs2ScoutAndARGWarning": "Z powodu brakujących funkcji klawiszy w CS2, {{ feature }} wymaga teraz ustawienia domyślnych powiązań klawiszy granatów w grze (klawisze numeryczne 1-0 na klawiaturze), aby działały poprawnie.\n\nBrak niezbędnych komend w CS2 uniemożliwia LHM automatyczne przełączanie graczy, więc LHM wysyła teraz naciśnięcia klawiszy do gry ręcznie, więc upewnij się, że gra jest skoncentrowana podczas korzystania z {{ feature }}.",
-            "scoutPredict": "Włącz przewidywanie"
+            "scoutPredict": "Włącz przewidywanie",
+            "telnetWarning": "Aby korzystać z Telnetu, CS2 musi być uruchomiony z Workshop Tools. Można to zrobić włączając opcję \\\"Killfeed / Tools\\\" w zakładce HUDs i klikając przycisk \\\"Run Game\\\"."
         },
         "helpers": {
             "huds": {
