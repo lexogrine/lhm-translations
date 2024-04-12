@@ -106,10 +106,10 @@
             "manualControl": "Controlo manual",
             "areaConfigurationsPlaceholder": "Selecionar uma área para ver as suas configurações",
             "enableDirector": "Ativar diretor",
-            "disabledDescription": "Todo o controlo é dado a ti e aos teus observadores.",
+            "disabledDescription": "Todo o controlo é dado a ti e aos teus observadores.\nDiverte-te",
             "aco1Description": "Um equilíbrio entre controlo e automatização.\nAjuda os teus observadores com um conjunto de instruções escritas manualmente para o ACO.",
             "aco-aiDescription": "Sente-se enquanto os algoritmos avançados do ACO AI controlam o seu fluxo.",
-            "aco-ai-scoutDescription": "Deixa o nosso mais recente sistema de previsão de jogos assumir o controlo.\nEm breve.",
+            "aco-ai-scoutDescription": "Deixa o nosso mais recente sistema de previsão de jogos assumir o controlo.",
             "saveArea": "Guardar área",
             "areaName": "Nome",
             "areaNamePlaceholder": "Nome da área",
@@ -117,7 +117,7 @@
             "areaPriorityPlaceholder": "Prioridade da área",
             "addConfigHeader": "Adicionar uma nova configuração a esta área",
             "addConfigPlaceholder": "Introduzir um comando a ser executado nesta área",
-            "aco-ai-scoutDescription-disconnected": "Deixa que o nosso mais recente sistema de observação de jogos com IA assuma o comando. Os servidores Scout podem estar indisponíveis de momento.",
+            "aco-ai-scoutDescription-disconnected": "Deixa que o nosso mais recente sistema de observação de jogos com IA assuma o comando.\\nOs servidores Scout podem estar indisponíveis de momento.",
             "scoutCinematic": "Usa o Cinematic Scout",
             "timeRemaining": "Tempo restante da IA do Scout",
             "scoutServerUnavailable": "LHM não consegue ligar-se aos servidores Scout AI.\nPor favor tenta novamente dentro de alguns minutos.",
@@ -289,7 +289,7 @@
             },
             "chooseTeam": "Escolher equipa",
             "vetoSidepick": {
-                "normal": "escolhe o lado {{secondTeamName}}",
+                "normal": ", {{secondTeamName}} escolhe o lado {{side}}",
                 "decider": "{Decisão"
             },
             "pickBothTeams": "Escolhe ambas as equipas para definir os vetos",
@@ -373,7 +373,7 @@
             "updater": {
                 "version": "Versão",
                 "installing": "Instalando...",
-                "downloading": "Descarregando... {{side}}%",
+                "downloading": "Descarregando... {{percent}}%",
                 "install": "Instalar atualização",
                 "latest": "Mais recente"
             },
@@ -468,7 +468,7 @@
             },
             "fields": {
                 "missing": "Campos em falta",
-                "fieldOfType": "Campo \"{{mapName}}\" do tipo \"{{percent}}\"",
+                "fieldOfType": "Campo \"{{field}}\" do tipo \"{{type}}\"",
                 "fieldNamePlaceholder": "Nome do campo",
                 "inputType": "Tipo de entrada",
                 "values": {
@@ -488,8 +488,8 @@
                 "customKillfeed": "Incluir killfeed personalizado"
             },
             "removal": {
-                "title": "Removendo {{field}}",
-                "areYouSure": "Tens a certeza que queres remover {{type}}?"
+                "title": "Removendo {{hud}}",
+                "areYouSure": "Tens a certeza que queres remover {{hud}}?"
             },
             "actions": {
                 "toggleUrl": "Alternar URL do HUD",
@@ -746,7 +746,7 @@
             "delete": {
                 "titleTeams": "Eliminar equipas",
                 "titlePlayers": "Apagar jogadores",
-                "infoTeams": "Tem a certeza que quer remover as equipas?",
+                "infoTeams": "Tem a certeza que pretende remover {{count}} equipas?",
                 "infoPlayers": "Tem a certeza que quer remover {{count}} jogadores?",
                 "deleteWithPlayers": "Apagar com jogadores"
             },
