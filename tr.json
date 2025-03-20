@@ -1,0 +1,1077 @@
+{
+  "translation": {
+    "common": {
+      "cgMode": "CG Modu",
+      "or": "veya",
+      "close": "Kapat",
+      "save": "Kaydet",
+      "saveAndSend": "Kaydet ve gönder",
+      "saveAndRestart": "Kaydet ve yeniden başlat",
+      "saveAndExit": "Kaydet ve çık",
+      "loadingSuccess": "Başarıyla yüklendi",
+      "loaded": "Yüklü",
+      "notLoaded": "Yüklü değil",
+      "vs": "VS",
+      "noTeam": "Takım yok",
+      "noPlayer": "Oyuncu yok",
+      "noMatch": "Eşleşme bulunamadı",
+      "noTournament": "Turnuva yok",
+      "noValue": "Varsayılan",
+      "teamOne": "Birinci Takım",
+      "teamTwo": "İkinci Takım",
+      "show": "Göster",
+      "hide": "Gizle",
+      "map": "Harita",
+      "team": "Takım",
+      "players": "Oyuncular",
+      "editDraft": "Taslağı Düzenle",
+      "realName": "Gerçek isim",
+      "player": "Oyuncu",
+      "noDraftData": "Taslak veri yok",
+      "champion": "Şampiyon",
+      "teams": "Takımlar",
+      "team1": "Takım 1",
+      "team2": "Takım 2",
+      "teamNumber": "TAKIM #{{num}}",
+      "vetoNumber": "Veto {{num}}",
+      "delete": "Silme",
+      "edit": "Düzenle",
+      "live": "Canlı",
+      "match": "Maç",
+      "goBack": "Geri dön",
+      "ct": "CT",
+      "t": "T",
+      "no": "Hayır",
+      "yes": "Evet",
+      "noDontAsk": "Hayır, sorma",
+      "csgo": {
+        "ct": "CT",
+        "t": "T",
+        "no": "Hayır"
+      },
+      "cs2": {
+        "ct": "CT",
+        "t": "T",
+        "no": "Hayır"
+      },
+      "valorant": {
+        "ct": "DEF",
+        "t": "ATK",
+        "no": "Hayır"
+      },
+      "export": "İhracat",
+      "cancel": "İptal",
+      "next": "Sonraki",
+      "finish": "Bitirmek",
+      "understand": "Anlıyorum",
+      "tournaments": "Turnuvalar",
+      "firstName": "İlk İsim",
+      "lastName": "Soyadı",
+      "createNew": "Yeni Oluştur",
+      "nickname": "Takma ad",
+      "ready": "Hazır",
+      "country": "Ülke",
+      "manage": "Yönetmek",
+      "import": "İthalat",
+      "teamName": "Takım Adı",
+      "shortName": "Kısa İsim",
+      "search": "Ara...",
+      "loading": "Yükleniyor...",
+      "ok": "Tamam",
+      "disconnect": "Bağlantıyı Kes",
+      "connect": "Bağlan",
+      "refresh": "Yenile",
+      "enable": "Etkinleştir",
+      "example": "Örnek",
+      "disable": "Devre dışı bırak",
+      "download": "İndir",
+      "upload": "Yükle",
+      "accept": "Kabul et",
+      "decline": "Düşüş",
+      "downloadTemplate": "Şablonu indirin",
+      "clickAndCopy": "Tıkla & Kopyala",
+      "swap": "Takas"
+    },
+    "chat": {
+      "title": "Destek Sohbeti",
+      "header": "Destek ile Sohbet Edin",
+      "suggestionHeader": "Bu sorunuza cevap olabilir",
+      "outOfOfficeWarning": "Destek ekibimiz genellikle iş günlerinde sabah 9'dan akşam 5'e kadar hizmet vermektedir. Bu saatler dışında yanıt vermemiz daha uzun sürebilir.",
+      "typeYourMessage": "Mesajınızı buraya yazın..."
+    },
+    "blocker": {
+      "personal": "Bu bölüme tam erişim elde etmek için LHM'nizi Kişisel, Profesyonel veya Kurumsal plana yükseltin.",
+      "proPlus": "Bu bölüme tam erişim elde etmek için LHM'nizi Profesyonel veya Kurumsal plana yükseltin.",
+      "upgradeNow": "Şimdi yükseltin",
+      "featureDescription": {
+        "cgmode": "CG Modu, yayıncılık işlemleri için en temel modülleri kompakt bir biçimde bir araya getirir.\nBu sekmeden maçlarınızı, takımlarınızı, oyuncularınızı ve Canlı oyununuzu tek bir ekranda yönetebilirsiniz.\nBu bölüme tam erişim elde etmek için LHM'nizi Kişisel, Profesyonel veya Kurumsal plana yükseltin.",
+        "arg": "Otomatizasyon bir sonraki sınırdır - ve biz Lexogrine'de onu geçmeye kararlıyız! Auto Replay Generator, tekrar oynatma sistemini tamamen otomatikleştirir. ARG - tanımlanmış kriterlere dayanarak - en önemli anları otomatik olarak yakalamak ve turlar arasında nefes kesici tekrarları görüntülemek için oyundaki her olayı izler. Sahip olmanız gereken tek şey vMix veya OBS.\nBu bölüme tam erişim elde etmek için LHM'nizi Kişisel, Profesyonel veya Kurumsal plana yükseltin.",
+        "addons": "Eklentiler, LHM ile entegrasyon oluşturmanın yeni bir yoludur.\nBu noktaya kadar, yalnızca özel HUD's kodunun oyun veri akışına erişimi vardı, bu da ne yapmak isterseniz isteyin, bunun tarayıcı ortamında yapılması gerektiği anlamına geliyordu.\nEklentiler sunucu ortamlarında çalışır - bunlar temelde kendilerine bağlanmış bir GSI Olay yayıcısı olan NodeJS uygulamalarıdır. Bu, sadece desteklenen oyunlardan (CS2, Dota 2) bilgi almak için bir ayrıştırıcı ile özel bir HTTP sunucusu oluşturmanıza gerek olmadığı anlamına gelir, tüm bunlara kutudan çıkarsınız, böylece oluşturmak istediğiniz entegrasyonlara ve özelliklere odaklanabilirsiniz.\nBu bölüme tam erişim elde etmek için LHM'nizi Kişisel, Profesyonel veya Kurumsal plana yükseltin.",
+        "aco": "Her eylemi mükemmel bir şekilde ve ideal bir perspektiften yakalamak imkansızdır - ancak Scout buna gerçekten yaklaşıyor. Kendi yapay zekamız binlerce oyundan öğrenerek en heyecanlı olayları insan müdahalesi olmadan kendi başına yakalıyor.\nTüm Scout AI modüllerine (Scout Vision, Scout Predict ve Scout Cinematic) erişmek için LHM'nizi Kişisel plana yükseltin.",
+        "cameras": "Kamera sistemimizin kullanımı son derece kolaydır ve hem organizatörler hem de oyuncular için kurulum süresinden büyük ölçüde tasarruf etmenizi sağlar. Aşırı karmaşık ve zaman alıcı prodüksiyon yazılımı yapılandırması yok, donanım sorunları yok.\nKamerayı bağlayın ve LHM'de bir oyuncuya atayın. HUD'ı başlatın ve izleyicilere gülümseyin.\nBu bölüme tam erişim elde etmek için LHM'nizi Kişisel, Profesyonel veya Kurumsal plana yükseltin.",
+        "signals": "LHM Signals, Bitfocus Companion uygulaması ile özel entegrasyonumuzdur.\nAmacımız, öngörülebilir, oyun içi olayların otomasyonuna yardımcı olmaktır. Sinyaller bununla ilgilenir ve belirli oyun olaylarında Companion düğmelerini tetiklemeye izin verir.\nBu bölüme tam erişim elde etmek için LHM'nizi Kişisel, Profesyonel veya Kurumsal plana yükseltin."
+      }
+    },
+    "titles": {
+      "players": "Oyuncular",
+      "teams": "Takımlar",
+      "arg": "Tekrarlar",
+      "aco": "Gözcü Yapay Zeka",
+      "ar": "Artırılmış Gerçeklik",
+      "cgpanel": "CG Modu",
+      "huds": "HUD'lar",
+      "matches": "Eşleşmeler",
+      "tournaments": "Turnuvalar",
+      "live": "Canlı",
+      "signals": "Sinyaller",
+      "cameras": "Kameralar",
+      "addons": "Eklentiler",
+      "settings": "Ayarlar",
+      "credits": "Krediler",
+      "quick": "Hızlı",
+      "chat": "Destek Sohbeti"
+    },
+    "aco": {
+      "disabled": "Engelli",
+      "aco1": "ACO",
+      "acoAI": "ACO AI",
+      "acoAIScout": "ACO Yapay Zeka + İzci Yapay Zeka",
+      "scoutOnly": "Gözcü Yapay Zeka",
+      "cs2Warning": "ACO ve ACO AI, yeni yayınlanan Counter-Strike 2 için şu anda mevcut değildir.\nCS2'de şu anda bu işlevlerin çalışması için LHM tarafından gerekli olan temel özellikler eksiktir.",
+      "cs2ScoutAndARGWarning": "CS2'deki eksik tuş özellikleri nedeniyle, {{ feature }} artık doğru çalışması için oyun içi el bombası tuş atamalarının varsayılan değerlerine (klavyedeki 1-0 sayı tuşları) ayarlanmasını gerektiriyor.\n\nCS2'de gerekli komutların olmaması LHM'nin oyuncuları otomatik olarak değiştirmesini engelliyor, bu nedenle LHM artık tuş basışlarını oyuna manuel olarak gönderiyor, bu nedenle lütfen {{ feature }} kullanımı sırasında oyunun odaklandığından emin olun.",
+      "map": "Harita",
+      "area": "Alan",
+      "addNewArea": "Yeni alan ekle",
+      "showInfo": "Bilgi göster",
+      "hideInfo": "Bilgileri gizle",
+      "areaCreation": "Alan oluşturma",
+      "createArea": "+ Yeni bir alan ekleyin",
+      "addConfig": "+ Yeni bir yapılandırma ekleyin",
+      "areaConfigurations": "Alan konfigürasyonları",
+      "stateCreatingNew": "[yeni̇ bi̇r alan yaratmak]",
+      "priority": "öncelik",
+      "inGameName": "Oyun içi isim",
+      "manualControl": "Manuel kontrol",
+      "areaConfigurationsPlaceholder": "Konfigürasyonlarını görmek için bir alan seçin",
+      "enableDirector": "Yönetmeni etkinleştir",
+      "scoutPredict": "Tahmin Etmeyi Etkinleştir",
+      "telnet": "Telnet'i Etkinleştir",
+      "telnetWarning": "Telnet'i kullanmak için CS2 Atölye Araçları ile başlatılmalıdır. HUDs sekmesindeki \"Killfeed / Tools\" seçeneğini etkinleştirerek ve \"Run Game\" düğmesine tıklayarak yapabilirsiniz.",
+      "cinematicWarning": "Scout Cinematic'i kullanmak için CS2 Atölye Araçları ile başlatılmalıdır. Bunu HUDs sekmesindeki \"Killfeed / Tools\" seçeneğini etkinleştirip \"Run Game\" düğmesine tıklayarak yapabilirsiniz. Scout Sinematik'i etkinleştirmek Scout Vision'ı da Doğrudan modda çalışmaya zorlayacaktır.",
+      "disabledDescription": "Tüm kontrol size ve gözlemcilerinize verilmiştir.",
+      "aco1Description": "Kontrol ve otomasyon dengesi.\nGözlemcilerinize ACO için manuel olarak yazılmış bir dizi talimatla yardımcı olun.",
+      "aco-aiDescription": "ACO AI'nın gelişmiş algoritmaları akışınızı kontrol ederken arkanıza yaslanın.",
+      "aco-ai-scoutDescription": "Yapay zeka maç gözlemcisinin herhangi bir kullanıcı girişi olmadan oyunu izlemesine izin verin.",
+      "aco-ai-scoutDescription-disconnected": "Yapay zeka maç gözlemcisinin herhangi bir kullanıcı girişi olmadan oyunu izlemesine izin verin.\\nGözcü sunucuları şu anda kullanılamıyor olabilir.",
+      "scoutCinematicDescription": "Maç aralarında güzel sinematik çekimler gösterin.",
+      "scoutPredictDescription": "Canlı maç sonucu tahminlerini doğrudan akışınızda görüntüleyin.",
+      "scoutCinematic": "Sinematik İzci Kullanın",
+      "saveArea": "Alanı kaydet",
+      "areaName": "İsim",
+      "areaNamePlaceholder": "Alan adı",
+      "areaPriority": "Öncelik",
+      "areaPriorityPlaceholder": "Alan önceliği",
+      "addConfigHeader": "Bu alana yeni bir yapılandırma ekleyin",
+      "addConfigPlaceholder": "Bu alana yürütülecek bir komut girin",
+      "timeRemaining": "Uygun zaman",
+      "scoutServerUnavailable": "LHM, Scout AI sunucularına bağlanamıyor.\nLütfen birkaç dakika içinde tekrar deneyin.",
+      "scoutSubtitle": "Yapay Zeka Gözlemcisi",
+      "scoutGetMoreTime": "Daha fazla zaman kazanın",
+      "scoutDescription": "Scout yapay zekası binlerce oyundan öğrenerek en heyecanlı olayları insan girdisi olmadan kendi başına yakalar.",
+      "scoutVisionControl": {
+        "label": "Oyun kontrol modu",
+        "direct": {
+          "label": "Doğrudan",
+          "description": "Doğrudan mod oyunu doğrudan kontrol etmek için telnet kullanır. Oyunu kontrol etmenin en güvenilir yoludur, ancak oyunun Steam'deki DLC sekmesinde Atölye Araçları etkinleştirilmiş olarak başlatılmasını gerektirir."
+        },
+        "keybinds": {
+          "label": "Klavye",
+          "description": "Klavye modu, oyunu kontrol etmek için tuşlara basmayı simüle eder. Ek bir gereksinimi yoktur, ancak tuş basımlarını almak için oyunun odakta olması ve kamera kontrolüyle ilgili oyun içi tuş bağlarının varsayılanlara ayarlanması gerekir."
+        }
+      },
+      "scoutVisionTakeoverControl": {
+        "label": "Manuel devralma"
+      },
+      "scoutCinematicTakeoverControl": {
+        "label": "Manuel devralma"
+      },
+      "scoutCinematicAction": {
+        "label": "Aksiyon Sinematik"
+      },
+      "scoutPausedTip": "Scout AI duraklatıldı çünkü koşu oyunu tespit edilmedi."
+    },
+    "players": {
+      "edit": "Bir oyuncuyu düzenleme",
+      "uploadProfile": "Resim",
+      "avatarInfo": "Oyuncu resimleri için Steam'deki varsayılan yerine kullanılacak avatar",
+      "addPlayer": "Oyuncu Ekle",
+      "importPlayersTitle": "İthal Oyuncular",
+      "downloadNamesFile": "İsim dosyasını indir",
+      "importPlayersExcel": "Birçok oyuncuyu aynı anda kolayca içe aktarmak için önceden hazırlanmış Excel sayfamızı kullanın.",
+      "exportPlayers": "İhracat",
+      "avatar": "Avatar"
+    },
+    "teams": {
+      "edit": "Ekip düzenleme",
+      "uploadLogo": "Logo",
+      "logoInfo": "Takım için kullanılacak logo, mümkünse verilen HUD'da",
+      "addTeam": "Takım Ekle",
+      "exportTeams": "İhracat",
+      "importTeamsTitle": "İthalat Ekipleri",
+      "importTeamsExcel": "Birçok ekibi aynı anda kolayca içe aktarmak için önceden hazırlanmış Excel sayfamızı kullanın.",
+      "logo": "Logo"
+    },
+    "live": {
+      "replaceUsernames": "Kullanıcı adlarını değiştirin",
+      "header": "Canlı",
+      "noGame": "Şu anda hiçbir oyun canlı değil.",
+      "tip": "Şu anda maçta olan oyuncular, oyuncu listesine bir oyuncu eklemek için tıklayın."
+    },
+    "cameras": {
+      "generatePassword": "Parola oluştur",
+      "sendToPlayers": "Bunu oyuncularınıza gönderin",
+      "fillFromLive": "Canlı sekmesinden doldurun",
+      "resetLink": "Bağlantıyı sıfırla",
+      "startTestVideo": "Test Videosunu Oynat",
+      "stopTestVideo": "Test Videosunu Durdur",
+      "testVideoBlocker": "Test videosunu ve yukarıdaki tabloda doldurulan oyuncuları oynatmak için oyunun çalışıyor olması gerekir. Bir demo izleyin veya test verilerini oynatın ve test oynatıcısını seçin",
+      "testPlayer": "Test Oyuncusu"
+    },
+    "addons": {
+      "upload": "Eklenti yükle",
+      "status": {
+        "READY": "Hazır",
+        "UNINSTALLED": "Kaldırıldı"
+      },
+      "downloadGameAddon": "Eklentiyi indirin",
+      "downloading": "İndiriliyor...",
+      "runAddon": "Eklentiyi çalıştır",
+      "addonWarning": "Eklenti Uyarısı",
+      "warnings": {
+        "lol-mr-1": "Advanced Addon, hafıza okuma sayesinde çok daha fazla verinin okunmasını mümkün kılıyor. Hafıza okuma bir hile olarak değerlendirilebilir, ancak bu tür araçlar yıllardır var ve Riot bunlara atıfta bulunmuyor ve bunun için yasaklanan seyirci vakalarını duymadık. Bununla birlikte, League of Legends Gelişmiş Eklentisini kendi sorumluluğunuzda kullanırsınız.",
+        "lol-mr-2": "LoL Advanced Addon'u normal oyun sırasında kullanmayın, sadece oyunu izlemek için kullanılır!"
+      },
+      "nodejsWarning": "Çoğu eklenti için NodeJS ve NPM'nin yüklenmesi gerekir"
+    },
+    "navbar": {
+      "huds": "HUD'lar",
+      "aco": "Gözcü Yapay Zeka",
+      "addons": "Eklentiler",
+      "ar": "AR",
+      "live": "Canlı",
+      "quick": "Hızlı",
+      "professionalOnly": "Sadece profesyonel",
+      "nonFreeOnly": "Yalnızca serbest olmayan",
+      "cameras": "Kameralar",
+      "hi": "Merhaba, {{username}}!",
+      "yourPlan": "Sizin planınız",
+      "signals": "Sinyaller",
+      "validFrom": "Şu tarihten itibaren geçerlidir",
+      "validUntil": "Şu tarihe kadar geçerlidir",
+      "nextPayment": "Sonraki ödeme",
+      "logout": "Oturumu kapat",
+      "arg": "Tekrarlar"
+    },
+    "signals": {
+      "removal": {
+        "title": "Ön ayarı sil",
+        "areYouSure": "\"{{name}}\" ön ayarını silmek istediğinizden emin misiniz?"
+      },
+      "edit": {
+        "title": "Ön ayarı yeniden adlandır",
+        "placeholder": "Ön ayar adı"
+      },
+      "create": {
+        "title": "Yeni bir ön ayar oluşturma",
+        "placeholder": "Ön ayar adı"
+      },
+      "activate": "{{ name }} aktif değil",
+      "deactivate": "{{ name }} aktif",
+      "addBranch": "Şube Ekle",
+      "event": "Etkinlik",
+      "addEvent": "Etkinlik Ekle",
+      "selectEvent": "Etkinlik Seçiniz",
+      "preset": "Ön ayar",
+      "addPreset": "Yeni bir ön ayar ekleme",
+      "requirements": "Gereksinimler",
+      "active": "Aktif:",
+      "companionAddress": "Arkadaşlık Adresi",
+      "filtering": {
+        "noFiltering": "Filtreleme mevcut değil",
+        "orientationAny": "Oryantasyon: Herhangi bir",
+        "orientationLeft": "Yönlendirme: Sol",
+        "orientationRight": "Yönlendirme: Doğru",
+        "sideAny": "Yan: Herhangi bir",
+        "side": "Yan:",
+        "teamAny": "Takım: Herhangi bir",
+        "playerAny": "Oyuncu: Herhangi bir"
+      }
+    },
+    "quick": {
+      "uploadImage": "Resim yükle",
+      "teamLogo": "Takım Logosu",
+      "backToLHM": "LHM'ye geri dön",
+      "next": "Sonraki",
+      "back": "Geri",
+      "newPlayer": "Yeni oyuncu oluştur",
+      "startSession": "Yeni Oturum Başlat",
+      "exit": "Hızlı Çıkış",
+      "fillWithLive": "Canlı verilerle doldurun",
+      "unnamedTeam": "İsimsiz Ekip",
+      "dismiss": "Dağılın",
+      "launchHUD": "HUD'ı Başlatın",
+      "uploadAvatar": "Avatar yükle",
+      "selectHUD": "HUD Seçiniz",
+      "preview": "Önizleme",
+      "unlink": "Bağlantıyı Kaldır",
+      "playerExists": {
+        "info": "Bu {{playerIdentifierName}}'e sahip bir oyuncu zaten var.",
+        "overwrite": "Verilerinin üzerine bununla mı yazmak istiyorsunuz?",
+        "overwriteTitle": "Üzerine yaz?",
+        "decline": "Hayır, değiştireyim",
+        "accept": "Evet, üzerine yaz"
+      },
+      "success": {
+        "title": "HUD'ınız yapılandırıldı ve başlatıldı",
+        "opened": "HUD ayrı bir pencerede açıldı.",
+        "borderless": "Oyunda Kenarlıksız modunu kullanabilir ve HUD ekranını doğrudan yakalayabilirsiniz",
+        "display": "veya yayın yazılımınıza yeni bir görüntü kaynağı olarak ekleyin.",
+        "userGuide": "Herhangi bir sorun olması durumunda Kullanıcı Kılavuzunu ziyaret edin.",
+        "started": "Oyun başladı"
+      }
+    },
+    "tournaments": {
+      "overview": "Genel Bakış",
+      "edit": "Turnuva düzenleme",
+      "page": "Turnuva sayfası",
+      "create": "Yeni turnuva oluşturun",
+      "name": "Turnuva adı",
+      "uploadLogo": "Turnuva logosunu yükleyin",
+      "logoInfo": "Turnuvanın logosu maç sırasında mevcut olacaktır",
+      "singleElimBracket": "Tekli Eleme Grubu",
+      "doubleElimBracket": "Çift Eleme Grubu",
+      "swiss": "İsviçre",
+      "group": "Grup",
+      "playoffs": "Play-off'lar",
+      "playoffType": "Playoff türü",
+      "soon": "Yakında",
+      "groupType": "Grup tipi",
+      "participants": "Katılımcılar",
+      "then": "sonra",
+      "amountOfTeams": "Ekip sayısı",
+      "amountOfRounds": "Tur sayısı",
+      "bindMatch": "Eşleşmeyi paranteze bağla",
+      "teamOrderList": "Takımlar sipariş listesi"
+    },
+    "match": {
+      "matches": "Eşleşmeler",
+      "seriesWins": "Seri galibiyetleri",
+      "live": "Canlı",
+      "edit": "Eşleşmeyi düzenle",
+      "editTeam": "Düzenleme ekibi",
+      "emptyTeam": "Boş takım",
+      "enableFearlessDraft": "Korkusuz Taslağı Etkinleştirin",
+      "disableFearlessDraft": "Korkusuz Taslak'ı devre dışı bırakın",
+      "blue": "Mavi",
+      "red": "Kırmızı",
+      "scoreModal": {
+        "unsetWin": "Ayarlanmamış galibiyet",
+        "setWin": "Kazanmayı ayarla",
+        "teamLogo": "Takım Logosu"
+      },
+      "toggleLive": "CANLI",
+      "tabs": {
+        "ended": "sona erdi",
+        "current": "güncel",
+        "future": "gelecek"
+      },
+      "columns": {
+        "match": "Maç",
+        "score": "Skor",
+        "date": "Tarih",
+        "time": "Zaman"
+      },
+      "wins": "WINS",
+      "wrongTeamSelected": "Yanlış takım seçildi",
+      "vetoType": {
+        "pick": "seç",
+        "ban": "yasak",
+        "decider": "karar verici"
+      },
+      "editVeto": "Veto Düzenle",
+      "vetoSide": {
+        "left": "sol",
+        "right": "doğru"
+      },
+      "vetoDescription": {
+        "pick": "{{teamName}} seçer {{mapName}}",
+        "ban": "{{teamName}} yasaklar {{mapName}}"
+      },
+      "chooseTeam": "Takım seçin",
+      "vetoSidepick": {
+        "normal": ", {{secondTeamName}} {{side}} tarafını seçer",
+        "decider": "{{mapName}} karar verici"
+      },
+      "vetoUrlModal": {
+        "title": "Veto uygulaması bağlantısı oluştur",
+        "deleteUrls": "URL'leri silme",
+        "generateUrls": "URL'ler oluşturun",
+        "readyToGenerate": "Üretime hazır",
+        "observerUrl": "Gözlemci URL'si",
+        "firstToPick": "İlk seçen"
+      },
+      "pickBothTeams": "Vetoyu belirlemek için iki takımı da seçin",
+      "setScore": "Skoru ayarla",
+      "resetScore": "Skoru sıfırla",
+      "questionOpponentPick": "Rakip bir taraf seçer mi?",
+      "reversedSides": "Ters çevrilmiş taraflar",
+      "mapList": "Harita listesi",
+      "generateGet5Config": "Get5 Konfigürasyonu Oluştur"
+    },
+    "credits": {
+      "header": "Krediler",
+      "applicationAndAPI": "Uygulama ve HUD API",
+      "testingAndDebugging": "Test Etme ve Hata Ayıklama",
+      "customRadarBy": "Özel radar",
+      "initialLayoutIdea": "İlk Yerleşim Planı Fikri",
+      "feedbackAndIdeas": "Geribildirim & Fikirler"
+    },
+    "arg": {
+      "safeband": "Güvenlik bandı",
+      "beforeKill": "Öldürmeden önce",
+      "useHLAE": "HLAE kullanıyor musunuz?",
+      "afterKill": "Öldürdükten sonra",
+      "saveClips": "Klipleri kaydetmek mi?",
+      "delayConfig": "Gecikme yapılandırması",
+      "computerId": "Bilgisayar kimliği",
+      "turnOff": "Kapatmak",
+      "turnOn": "Açmak",
+      "priority": {
+        "multi": "Çoklu öldürmelere öncelik verin",
+        "headshots": "Vesikalık fotoğraflara öncelik verin",
+        "teamkills": "Takım öldürmelerine öncelik verin"
+      },
+      "mixer": {
+        "label": "Karıştırıcı",
+        "activeNdi": "NDI Tekrar Oynatma Kaynağı",
+        "mixer": "Karıştırıcı",
+        "address": "Adres",
+        "vMixInput": "vMix Girişi",
+        "verifyConnection": "Kurulum",
+        "setup": "Bağlan & Kur",
+        "ip": "IP",
+        "port": "Liman",
+        "password": "Şifre",
+        "disconnect": "Bağlantıyı Kes",
+        "switchInputs": "Otomatik Giriş Anahtarı"
+      },
+      "replay": {
+        "replayModeTitle": "Tekrar Oynatma Modu",
+        "replayModeContent": "Bu LHM artık Tekrar Modunda çalışmaktadır. Yeniden oynatma ve karıştırıcı parametrelerini değiştirmek için Ana PC'deki ARG sekmesine bakın",
+        "installObsNdiPlugin": "OBS NDI Eklentisini Yükleme",
+        "thisPcCode": "Bu bilgisayar kodu",
+        "chooseYourMixer": "Mikserinizi seçin",
+        "noInput": "Girdi yok",
+        "stepCode": {
+          "noVmixRunning": "Görünüşe göre vMix çalışmıyor. Kuruluma başlamadan önce başlatmanız gerekir",
+          "vmixBadResponse": "VMix'inize bağlanamadık :C",
+          "noReplay": "Girdi Ekle > Anında Yeniden Oynatma öğesine tıklayarak Anında Yeniden Oynatma girdisi oluşturun. Kamera 1'i Çıkış 2 olarak ayarlayın. Tamam'a tıklayın",
+          "showInputs": "Gecikmeli oyununuz olan girişi seçin. Henüz eklemediyseniz, ekleyin ve yenile düğmesine tıklayın",
+          "finish": "VMix kurulumunuz tamamlandı!"
+        },
+        "modeModal": {
+          "title": "LHM Tekrar Oynatma Modu",
+          "youAreStartingArg": "ARG'ye iki bağlı LHM ile başlıyorsunuz",
+          "whichModeDoYou": "Tekrar oluşturma için hangi modu kullanmak istiyorsunuz?",
+          "ndiSourceForDelayedGame": "Gecikmeli Oyun için NDI Kaynağı",
+          "pickSource": "KAYNAK SEÇİN",
+          "setSource": "Kaynağı ayarla",
+          "refreshSources": "Kaynakları yenileyin"
+        },
+        "requestModal": {
+          "title": "LHM Tekrar Oynatma Talebi",
+          "anotherLhmInTheLocal": "Yerel ağdaki başka bir LHM bu bilgisayarın Tekrar Oynatma makinesi olarak kullanılmasını istiyor",
+          "doYouWish": "Gelen bağlantıyı kabul etmek istiyor musunuz?"
+        }
+      }
+    },
+    "settings": {
+      "logIn": "Giriş yap",
+      "email": "E-posta",
+      "password": "Şifre",
+      "noAccount": "Hesabınız yok mu?",
+      "registerNow": "Şimdi kayıt olun!",
+      "forgot": "Şifrenizi mi unuttunuz?",
+      "Not logged in": "Giriş yapılmamış",
+      "You need to pass your one-time token": "Tek seferlik belirtecinizi geçirmeniz gerekir",
+      "serversUnreachable": "Sunucularımıza ulaşılamıyor gibi görünüyor. Lütfen birkaç dakika içinde tekrar deneyin",
+      "preInstalled": "Önceden yüklenmiş kullanın",
+      "cloudSynchronization": "Bulut Senkronizasyonu",
+      "hudConfigCloudSynchronization": "HUD Ayarları Bulut Senkronizasyonu",
+      "hudTogglesCloudSynchronization": "HUD Bulut Senkronizasyonunu Açar",
+      "valorantWindowTitleOverride": "Valorant Pencere Başlığı Geçersiz Kılma",
+      "valorantServerMode": "Veri Toplama Modu",
+      "valorantReadLanguage": "Valorant Oyun Dili",
+      "valorantReadTeamMode": "Valorant Maç Türü",
+      "valorantMinimalisticGUI": "Minimalist",
+      "valorantIngameInterfaceType": "Valorant Oyun İçi Arayüz Türü",
+      "valorantUsernameLanguage": "Valorant Kullanıcı Adı Karakter Seti",
+      "leagueOfLegendsGameLanguage": "League of Legends Oyun İçi Yazı Tipi",
+      "openValorantScoreboardAutomatically": "Valorant Scoreboard'u otomatik olarak aç",
+      "autoHUDUpload": "HUD'ların buluta otomatik yüklenmesi",
+      "language": "Dil",
+      "dota2Assets": "Dota 2 Varlıkları",
+      "autoHalfSwitch": "Otomatik yarı anahtar (Deneysel)",
+      "autoSwitch": "Otomatik anahtar",
+      "header": "Ayarlar",
+      "subheaders": {
+        "lhm": "LHM",
+        "cloud": "LHM Bulut",
+        "additional": "Ek"
+      },
+      "f1": {
+        "add": "Entegrasyon ekleyin",
+        "integration": "F1 Entegrasyonu",
+        "notInstalled": "F1 yüklü değil"
+      },
+      "halfTimeBehaviour": {
+        "label": "Devre Arası Davranışları",
+        "none": "Hiçbiri",
+        "switch": "Takım değiştir (sol <-> sağ)",
+        "keep": "Ekipleri ve tarafları tutmaya zorlayın"
+      },
+      "rocketleague": {
+        "integration": "RL Entegrasyonu",
+        "status": {
+          "busy": "Meşgul.",
+          "bakkesModNotInstalled": "BakkesMod yüklü değil",
+          "sosNotInstalled": "SOS Eklentisi yüklü değil",
+          "notConfigured": "Yapılandırılmamış",
+          "installed": "Yüklendi"
+        },
+        "refresh": "Yenile",
+        "install": "Kurulum"
+      },
+      "serverClient": {
+        "client": "İstemci (Yerel ağ)",
+        "server": "Sunucu (Yerel ağ)",
+        "client_global": "İstemci (Yerel ağ dışında)",
+        "server_global": "Sunucu (Yerel ağın dışında)"
+      },
+      "languages": {
+        "default_latin": "Varsayılan (Latince)",
+        "chinese_simplified": "Çince (Basitleştirilmiş)",
+        "chinese": "Çince",
+        "english": "İngilizce",
+        "korean": "Korece",
+        "japanese": "Japonca",
+        "russian": "Rusça",
+        "arabic": "Arapça",
+        "german": "Alman",
+        "polish": "Lehçe",
+        "spanish": "İspanyolca",
+        "portuguese_brasil": "Portekizce (Brezilya)",
+        "turkish": "Türkçe",
+        "indonesian": "Endonezce"
+      },
+      "gsi": {
+        "loadingAbout": "GameState dosyaları hakkında veri yükleniyor...",
+        "loadingData": "GameState verileri yükleniyor...",
+        "loadingFileData": "GameState dosya verileri yükleniyor..."
+      },
+      "config": {
+        "loadingAbout": "Cfg dosyaları hakkında veri yükleniyor...",
+        "loadingFileData": "Yapılandırma dosyası verileri yükleniyor..."
+      },
+      "input": {
+        "steamAPIKey": "Steam API Anahtarı",
+        "GSIPort": "GSI Limanı",
+        "GSIToken": "GSI Token"
+      },
+      "updater": {
+        "version": "Versiyon",
+        "installing": "Yükleniyor...",
+        "downloading": "İndiriliyor... {{percent}}%",
+        "install": "Güncellemeyi yükleyin",
+        "latest": "En son"
+      },
+      "entry": {
+        "keybinds": {
+          "keybinds": "Tuş Bağlamaları",
+          "hardRefreshHUD": "Sert yenileme HUD",
+          "argToggle": "ARG'yi değiştir",
+          "dota2ARG": "Dota 2 ARG oynayın",
+          "reverseSide": "Ters taraflar",
+          "refreshHud": "HUD'ı Yenile",
+          "toggleDirector": "ACO Direktörü Değiştir",
+          "toggleScoutPredict": "Toggle Scout Tahmin Et",
+          "toggleScoutCinematic": "İzci Sinematiğini Değiştir"
+        },
+        "streamDeck": {
+          "unavailable": "Kullanılamıyor"
+        },
+        "HLAE": {
+          "path": "HLAE Yolu",
+          "setPath": "HLAE yolunu ayarlayın"
+        },
+        "AFX": {
+          "path": "AFX CEF HUD Interop",
+          "setPath": "AFX yolunu ayarlayın"
+        },
+        "GSI": {
+          "status": "GameState Entegrasyonu",
+          "add": "GSI dosyası ekle"
+        },
+        "config": {
+          "status": "Konfigürasyonlar",
+          "add": "Yapılandırma dosyaları ekleme"
+        },
+        "credits": {
+          "credits": "Krediler",
+          "seeNow": "Şimdi görün"
+        },
+        "downloads": {
+          "downloads": "İndirmeler",
+          "GSIConfig": "GSI yapılandırması",
+          "HUDConfigs": "HUD yapılandırmaları",
+          "exportDB": "DB'yi Dışa Aktar"
+        },
+        "import": {
+          "import": "İthalat"
+        },
+        "readerCode": {
+          "readerCode": "Okuyucu Kodu"
+        },
+        "newToLHM": {
+          "show": "Göster \"LHM'de Yeni\"",
+          "seeNow": "Şimdi görün"
+        },
+        "cta": {
+          "cta": "Lexogrine Özel HUD uygulama teklifini HUD sekmesinde göster"
+        }
+      }
+    },
+    "ar": {
+      "add": "AR modülünü yükleyin",
+      "toggle": "AR Modülünü Değiştir",
+      "openDirectory": "Modül dizinini açın",
+      "deleteLocally": "AR modülünü sil"
+    },
+    "huds": {
+      "header": "HUD'lar",
+      "config": {
+        "customRadar": "Radar",
+        "customKillfeed": "Killfeed / Araçlar",
+        "embeddedHUD": "Yerleşik HUD",
+        "killfeedOffset": "Killfeed Ofset",
+        "scout": "Gözcü Yapay Zeka",
+        "autoexecute": "Otomatik yürütme",
+        "console": "Konsol",
+        "add": "HUD ekleyin",
+        "runGame": "Koşu oyunu",
+        "pauseTest": "Duraklatma testi",
+        "runTest": "Test çalıştır",
+        "clearOCRData": "OCR Verilerini Temizle",
+        "openDirectory": "HUDs dizinini açın",
+        "playTestLoop": "Test döngüsünü oynat",
+        "ar": "AR",
+        "goToKeybinds": "Tuş Bağlamalarını Yapılandırma",
+        "showOnlyActivePlayers": "Sadece aktif oyuncuları göster",
+        "more": "Daha fazla",
+        "hlaeIsRequired": "HLAE ile çalışan CS:GO'ya sahip olmalısınız",
+        "proOrEntrpriseIsRequired": "Profesyonel veya Kurumsal plana sahip olmalısınız",
+        "hlaeAndHigherPlanIsRequired": "HLAE ile çalışan CS:GO'ya ve bir Professional veya Enterprise plana sahip olmalısınız"
+      },
+      "sort": {
+        "custom": "Özel",
+        "newest": "En Yeni",
+        "oldest": "En eski"
+      },
+      "fields": {
+        "missing": "Eksik alanlar",
+        "fieldOfType": "Field \"{{field}}\" of type \"{{type}}\"",
+        "fieldNamePlaceholder": "Alan adı",
+        "inputType": "Giriş tipi",
+        "values": {
+          "text": "Metin",
+          "team": "Takım",
+          "image": "Resim",
+          "match": "Maç",
+          "player": "Oyuncu",
+          "color": "Renk"
+        },
+        "visible": "Görünür",
+        "manageCustom": "Özel alanları yönetme",
+        "addNew": "+ Yeni alan ekle"
+      },
+      "includes": {
+        "customRadar": "Özel radar içerir",
+        "customKillfeed": "Özel öldürme beslemesi ekleyin"
+      },
+      "removal": {
+        "title": "{{hud}} kaldırılıyor",
+        "areYouSure": "21}} kaldırmak istediğinizden emin misiniz?"
+      },
+      "actions": {
+        "toggleUrl": "HUD URL'sini değiştir",
+        "settings": "HUD ayarlarına gidin",
+        "shortcut": "Kısayol",
+        "overlay": "HUD kaplamasını başlat",
+        "upload": "HUD Yükle",
+        "uploading": "Yükleniyor...",
+        "delete": "Silme",
+        "deleteLocally": "HUD'u yerel olarak silme",
+        "deleteFromCloud": "HUD'u buluttan silme",
+        "downloading": "İndiriliyor...",
+        "toggleHUD": "Toggle HUD (Yalnızca Yerleşik)",
+        "toggleHUDKeybinds": "HUD Tuş Bağlamalarını Değiştir (Tarayıcı Kaynağı İçin)",
+        "clickToCopy": "Kopyalamak için tıklayın",
+        "createShortcut": "Masaüstünde kısayol oluşturma"
+      },
+      "warning": {
+        "csgoHUDinCS2": "Bu HUD CS:GO için yapılmıştır. Tüm özelliklerinin CS2'de aynı şekilde çalışacağı garanti edilmez.",
+        "specifyHLAEPath": "Özel killfeeds kullanmak için Ayarlar'da HLAE yolunu belirtin",
+        "specifyAFXInteropPath": "AFX modunu kullanmak için Ayarlar'da AFX Interop yolunu belirtin",
+        "specifyAFXModeInfo": "AFX modunu kullanırken, maça katıldıktan sonra geçişe tıklayın - kaplamayı başlatmaya gerek yoktur."
+      },
+      "error": {
+        "title": "HUD eklenemiyor",
+        "config": "LHM, HUD'un yapılandırma dosyasını okuyamadı.",
+        "upload": "LHM, HUD'ı buluta yükleyemedi. Sonra tekrar dene.",
+        "generic": "Bir şeyler ters gitti. Sonra tekrar dene.",
+        "archive": "LHM'arşiv dosyasını okuyamadı.",
+        "source": "Görünüşe göre derlenmiş HUD yerine kaynak kodu yüklüyorsunuz. Lütfen yüklemeden önce HUD'yi derleyin.",
+        "space": "Kullandığınız çalışma alanında yeterli Bulut Alanınız yok. Lütfen planınızı yükseltin veya bulut kaynaklarınızdan bazılarını silin."
+      }
+    },
+    "app": {
+      "changeGame": "Oyunu Değiştir",
+      "cloud": {
+        "isActive": "Bulut aktif",
+        "isNotActive": "Bulut etkin değil"
+      }
+    },
+    "cta": {
+      "orderPlan": "Sipariş Planı",
+      "orderCustomHUD": "Kendi özel HUD'unuzu sipariş edin",
+      "orderCustomHUDName": {
+        "cs2": "CS2 için kendi özel HUD'ınızı sipariş edin",
+        "csgo": "CS:GO için kendi özel HUD'ınızı sipariş edin",
+        "dota2": "Dota 2 için kendi özel HUD'ınızı sipariş edin",
+        "leagueoflegends": "LoL için kendi özel HUD'ınızı sipariş edin",
+        "rocketleague": "Rocket League için kendi özel HUD'ınızı sipariş edin",
+        "apexlegends": "Apex Legends için kendi özel HUD'ınızı sipariş edin",
+        "valorant": "Valorant için kendi özel HUD'unuzu sipariş edin"
+      },
+      "getAQuote": "Fiyat teklifi alın",
+      "tryScoutAI": "Yapay zeka gözlemcimizi ve çoklu yapay zeka maç tahminlerimizi kullanın!",
+      "newToLHM": "LHM'de yeni misiniz?"
+    },
+    "helpers": {
+      "next": "Sonraki",
+      "previous": "Önceki",
+      "close": "Kapat",
+      "learnMore": "Daha fazla bilgi edinin",
+      "onlyInProPlus": {
+        "title": "Planınızı yükseltin",
+        "info": "Bu işlevsellik yalnızca Professional ve Enterprise plan kullanıcıları tarafından kullanılabilir.\nKilidi açmak için lütfen planınızı yükseltin."
+      },
+      "onlyInProPlusEnt3": {
+        "title": "Planınızı yükseltin",
+        "info": "Bu işlevsellik yalnızca en az 3 koltuğa sahip Professional ve Enterprise plan kullanıcıları tarafından kullanılabilir.\nKilidi açmak için lütfen planınızı yükseltin."
+      },
+      "deviceLockWorkspace": {
+        "title": "Cihaz sınırı aşıldı",
+        "info": "Çalışma alanı, planının sahip olduğu koltuk sayısından daha fazla cihazda kullanılıyor gibi görünüyor.\nCihaz kilidinin süresinin dolmasını bekleyin veya daha fazla cihazı barındırmak için Kurumsal planınızı yükseltin."
+      },
+      "huds": {
+        "killfeedOffset": {
+          "title": "Killfeed Ofset",
+          "info": "Bu seçeneğin etkinleştirilmesi, sağ üst köşedeki özel HUD öğelerine uyum sağlamak için safezoney'i 0,8'e ayarlayacaktır"
+        },
+        "previewDescriptions": {
+          "premium": {
+            "cs2": "PREMIUM HUD ile, üst düzey görseller de dahil olmak üzere espor turnuvası organizasyonunun her adımını sadece birkaç tıklamayla halleden, kullanımı çok kolay bulut tabanlı bir çözüm oluşturma hedefine doğru bir sonraki adımı atıyoruz!\nPREMIUM HUD tüm Personal, Professional ve Enterprise Plan kullanıcıları için mevcuttur.",
+            "csgo": "PREMIUM HUD ile, üst düzey görseller de dahil olmak üzere espor turnuvası organizasyonunun her adımını sadece birkaç tıklamayla halleden, kullanımı çok kolay bulut tabanlı bir çözüm oluşturma hedefine doğru bir sonraki adımı atıyoruz!\nPREMIUM HUD tüm Personal, Professional ve Enterprise Plan kullanıcıları için mevcuttur.",
+            "dota2": "Dota 2 için Premium HUD, MOBA yayıncılık endüstrisinde devrim yaratmaya yönelik ilk adımımızdır. Amacımız bu entegrasyondan kesinlikle herkesin faydalanmasını sağlamaktı. İster espor sahnesine yeni girmiş olun, ister kendi markanız ve kanıtlanmış çözümleriniz olsun, Premium HUD'ın size ne sizin ne de izleyicilerinizin daha önce diğer yayınlarda görmediği bir deneyim sunacağından eminiz.",
+            "leagueoflegends": "League of Legends için Premium HUD, oyunun gözlemci HUD'ında eksik olan şeyleri ekler ve işleri daha da iyi hale getirir. Büyük miktarda veri, ek istatistikler ve ekranlar, oyun arayüzüne entegre edilmiş güzel görseller tamamen yeni ve benzersiz bir deneyim yaratıyor. League of Legends için Premium HUD, en ünlü etkinliklerde gözlemlenebilen bir niteliktir, artık herkes tarafından kullanılabilir.",
+            "rocketleague": "En başından beri, esporun espora odaklanmasına yardımcı olacak bir çözüm oluşturmak ve esporun izleyiciler, oyuncular ve organizatörler için ürettiği mevcut büyük miktarda veriyi kullandığımızdan emin olmak istedik. Bu alanda başarılı olmaya başladıktan sonra, organizatörlerin her şeyi manuel olarak ayarlamak ve her şeyin çalışıp çalışmayacağı konusunda endişelenmek yerine izleyicilere, oyunculara ve takımlara odaklanabilmelerini sağlamak için listeye otomasyon ve bulut tabanlı ekledik.",
+            "valorant": "Valorant için Premium HUD, FPS oyun kaplamalarında yıllardır kullanılan formülleri uygularken oyunun estetiğini koruyacak şekilde tasarlandı. Seyirci HUD'undaki öğelerin düzeni izleyici için hemen anlaşılır ve oyunun ayrılmaz bir parçası haline gelir. Bu aynı zamanda, bu gözlemci HUD'un beraberinde getirdiği tüm deneyimi güçlendiren harika görsellerden kaynaklanmaktadır."
+          },
+          "ultra": {
+            "cs2": "Counter-Strike 2 yeni ve taze bir başlangıç. Ultra HUD, CS2'nin getirdiği ihtiyaçları ve tarzı karşılamak için kapsamlı bir kaplamadır. Ultra HUD'ın hızlı ve kolay kurulumu ihtiyaçlarınıza uyum sağlayacak ve etkinliklerinizi tamamen geliştirecektir. Yayınınız - tıpkı Counter-Strike gibi - yeni bir çağa hazır.\nUltra HUD, tüm Profesyonel LHM Planı kullanıcılarının yanı sıra 3 veya daha fazla koltuğa sahip Kurumsal Plan kullanıcıları için kullanılabilir.",
+            "dota2": "Piyasada ek bilgi sağlayan, oyundan arayüze karışan ve süper kolay bir kurulumla herkes tarafından erişilebilen bir çözüm yoktu. Dota 2 için Ultra HUD tüm bunları değiştirdi. LHM'un geçtiğimiz birkaç ay boyunca Dota 2'ye verdiği ileri düzey destek, şimdiye kadar sunduğumuz her şeyi geliştirmemizi sağladı - Ultra HUD bu şekilde ortaya çıktı.\nFark edeceğiniz ilk ve en büyük yükseltme HUD'un görünümüdür - bundan böyle hem çok yönlüdür hem de Dota 2'nin düzenini mükemmel bir şekilde tamamlar, ancak görsel olarak herhangi bir ödün vermez. Bu da Ultra HUD'ı kendi markaları ve beklentileri ne olursa olsun herkes için mükemmel bir çözüm haline getiriyor. Bu sadece oyunun neredeyse yeni bir parçasıdır.",
+            "leagueoflegends": "League of Legends Ultra HUD, League of Legends esport etkinliği için en yüksek görselleri LHM kolaylığı ile sunan karmaşık seyirci ve gözlemci çözümüdür. Özel taslak, maç ve maç sonrası kaplamalar, animasyonlar ve özel özelliklerle sadece birkaç tıklamayla kullanılabilir."
+          }
+        },
+        "scout": {
+          "title": "Gözcü Yapay Zeka",
+          "info": "Bu seçeneğin etkinleştirilmesi CS2'yi VConsole2 ile başlatacaktır, bu da uygun şekilde yapılandırılmadığı sürece sunuculara katılmanızı engelleyebilir."
+        },
+        "tab": {
+          "title": "HUDs Sekmesi",
+          "info": "HUDs sekmesi HUD'ları ve oyun başlatma yapılandırmasını yönetmek için kullanılır."
+        },
+        "radar": {
+          "title": "Radar",
+          "info": "Bu seçeneği etkinleştirmek ve oyunu aşağıda sunulan yapılandırma ile çalıştırmak veya \"Oyunu çalıştır\" düğmesini kullanmak, HUD'larınızda yerleşik özel radarı kullanmak için oyun içi radarı devre dışı bırakacaktır."
+        },
+        "killfeed": {
+          "title": "Killfeed / Araçlar",
+          "info": "Bu seçeneği etkinleştirmek ve oyunu aşağıda sunulan yapılandırma ile çalıştırmak veya \"Oyunu çalıştır\" düğmesini kullanmak, HUD'larınızda yerleşik özel öldürme beslemesini kullanmak için oyun içi öldürme beslemesini devre dışı bırakacaktır.\nBu seçenek CS2'yi güvensiz modda başlatacaktır - etkin olduğu sürece CSTV izleyicisi olmadıkça VAC korumalı sunuculara (örneğin Faceit, eşleştirme) katılmayın."
+        },
+        "embeddedHUD": {
+          "title": "Yerleşik HUD",
+          "info": "Bu seçeneğin etkinleştirilmesi, LHM'nin CS:GO render sürecine bağlanmasını sağlayarak HUD'nizi ayrı bir kaplama yerine oyunun bir parçası haline getirir. Bir HUD'u gömülü modda başlatmak için HUD'un yanındaki geçişi kullanın.\nAR için gömülü modun kullanılması gerekir. Ayrıca oyunun performansını da düşürebilir.\nBu seçenek CS:GO'yu güvensiz modda başlatacaktır - etkin olduğu sürece CSTV izleyicisi olmadıkça VAC korumalı sunuculara (örneğin Faceit, eşleştirme) katılamazsınız."
+        },
+        "playTestLoop": {
+          "title": "Test döngüsünü oynat",
+          "info": "Bu seçeneğin etkinleştirilmesi Test Verilerini bir döngü içinde oynatır, böylece hiç bitmez. Bu, HUD'larınızı test etmek için kullanışlıdır."
+        },
+        "ar": {
+          "title": "AR",
+          "info": "Bu seçeneği etkinleştirmek ve oyunu aşağıda sunulan yapılandırma ile çalıştırmak veya \"Oyunu çalıştır\" düğmesini kullanmak AR modüllerini kullanmanıza izin verecektir.\nBu seçenek CS:GO'yu güvensiz modda başlatacaktır - etkin olduğu sürece CSTV izleyicisi olmadıkça VAC korumalı sunuculara (örneğin Faceit, eşleştirme) katılamazsınız."
+        },
+        "autoExecute": {
+          "title": "Otomatik yürütme",
+          "info": "\"Oyunu çalıştır\" düğmesi, bu seçenek etkinleştirildiğinde oyunu aşağıda sunulan yapılandırma ile başlatacaktır."
+        },
+        "xray": {
+          "title": "XRay",
+          "info": "Bu seçenekle oyundaki oyuncu kenarlıkları için özel renkler ayarlayabilirsiniz."
+        },
+        "runTest": {
+          "title": "Test çalıştır",
+          "info": "Bu işlevsellik, HUD veya yapılandırmanızı test etmek için bir oyun veri akışını simüle etmenizi sağlar."
+        },
+        "launchParams": {
+          "title": "Başlatma Parametreleri",
+          "info": "Steam'deki ayarları yerine oyun için Başlatma Parametrelerini burada belirtebilirsiniz."
+        },
+        "clearOCRData": {
+          "title": "OCR Verilerini Temizleme",
+          "info": "LHM Valorant entegrasyonu ile farklı bir eşleşme izlenmesi veya sadece OCR'nin yanlış veri okuması durumunda, OCR verilerini temizleyebilir, LHM'nin tüm verileri yeniden okumasını ve yeniden ayrıştırmasını sağlayarak tüm alanları sıfırdan doldurabilirsiniz."
+        }
+      },
+      "teams": {
+        "tab": {
+          "title": "Takımlar",
+          "info": "Ekipler sekmesi, HUD'larda ve diğer LHM işlevlerinde görüntülenen ve kullanılan ekipleri yönetmek için kullanılır."
+        }
+      },
+      "players": {
+        "tab": {
+          "title": "Oyuncular",
+          "info": "Oyuncular sekmesi, HUD'larda ve diğer LHM işlevlerinde görüntülenen ve kullanılan oyuncuları yönetmek için kullanılır."
+        },
+        "identification": {
+          "title": "Oyuncu tanımlama",
+          "info": "Bu alan, LHM'nin oyundaki oyuncuları tanımlamasına ve onları LHM veritabanında depolanan bilgilerle eşleştirmesine olanak tanır. Bu, oyuncu adlarını, avatarları ve diğer bilgileri HUD'larda görüntülemek için kullanışlıdır."
+        },
+        "steamBasedIdentification": "Oyuncu kimliği (SteamID64)",
+        "usernameBasedIdentification": "Oyuncu kimliği (Oyun içi isim)"
+      },
+      "matches": {
+        "tab": {
+          "title": "Eşleşmeler",
+          "info": "Eşleşmeler sekmesi, HUD'larda ve diğer LHM işlevlerinde görüntülenen ve kullanılan eşleşmeleri yönetmek için kullanılır."
+        }
+      },
+      "tournaments": {
+        "tab": {
+          "title": "Turnuvalar",
+          "info": "Turnuvalar sekmesi, HUD'larda ve diğer LHM işlevlerinde görüntülenen ve kullanılan turnuvaları yönetmek için kullanılır."
+        }
+      },
+      "cgMode": {
+        "tab": {
+          "title": "CG Modu",
+          "info": "CG Modu, yayıncılık işlemleri için en temel modülleri kompakt bir biçimde bir araya getirir.\nBu sekmeden maçlarınızı, takımlarınızı, oyuncularınızı ve canlı maçlarınızı tek bir ekranda yönetebilirsiniz.\nHer bölümün üzerindeki \"Gizle\" düğmesini kullanarak gereksiz sekmeleri gizleyebilirsiniz."
+        }
+      },
+      "arg": {
+        "tab": {
+          "title": "Tekrarlar",
+          "info": "Auto Replay Generator (ARG) modülü, turlar arasında veya bir oyunun sonunda görüntülenebilecek tekrarlar oluşturur.\nDoğru ARG yapılandırması için vMix'in gerekli olduğunu lütfen unutmayın. vMix ücretsiz bir uygulama değildir ve ARG'nin kendisi öncelikli olarak vMix kullanan üretim ekipleri için tasarlanmıştır."
+        },
+        "safeband": {
+          "title": "Safeband",
+          "info": "Safeband seçenekleri, her klibin öldürmeden önce ve sonra ne kadar süre (milisaniye cinsinden) içermesi gerektiğini belirler."
+        },
+        "useHLAE": {
+          "title": "HLAE kullanıyor musunuz?",
+          "info": "HLAE'nin kullanılması ARG'nin daha fazla oyun içi veriyi analiz etmesine olanak tanıyarak daha iyi öldürme tahminleri elde edilmesini sağlar."
+        },
+        "delayConfig": {
+          "title": "Gecikme yapılandırması",
+          "info": "Delay yapılandırması CSTV gözlemcisinin ne kadar gecikeceğini belirtir (saniye cinsinden)."
+        },
+        "saveClips": {
+          "title": "Klipleri kaydet",
+          "info": "Bu seçeneğin etkinleştirilmesi, vMix'in ARG tarafından oluşturulan tüm klipleri silmek yerine saklamasını sağlayacaktır."
+        },
+        "computerID": {
+          "title": "Bilgisayar Kimliği",
+          "info": "ARG tarafından kullanılan ID, başarılı bağlantı için gerekli."
+        }
+      },
+      "aco": {
+        "telnet": {
+          "title": "Telnet",
+          "info": "Telnet CS2 ile iletişim için bir protokoldür. Kullanılırken, LHM uzaktan komutlarla oynatıcıları değiştireceğinden, CS2 penceresinin odakta olmasına gerek yoktur."
+        },
+        "tab": {
+          "title": "Gözcü Yapay Zeka",
+          "info": "Her eylemi mükemmel bir şekilde ve ideal bir perspektiften yakalamak imkansızdır - ancak Scout buna gerçekten yaklaşıyor. Kendi yapay zekamız binlerce oyundan öğrenerek en heyecanlı olayları insan girdisi olmadan kendi başına yakalıyor."
+        },
+        "area": {
+          "title": "Alan",
+          "info": "Alanlar, konfigürasyonlarınızı bağladığınız harita üzerindeki bölgelerdir. Verilen alanda çok sayıda oyuncu varsa, eklenen yapılandırmalardan biri CS:GO istemcisinin içinde yürütülecektir.\nBir alan eklemek için \"+\" düğmesine tıklayın ve köşelerine tıklayarak harita üzerinde istediğiniz bölgeyi seçin."
+        },
+        "manualControl": {
+          "title": "Manuel kontrol",
+          "info": "Görüntülenecek herhangi bir alanı elle seçmek için Manuel Kontrol panelini kullanın.\nBu, web tarayıcınızda açılan harici bir sayfa olduğundan, akıllı telefonunuzdan veya tabletinizden de ziyaret edebilirsiniz (aynı yerel ağdaysanız).\nManuel Kontrol paneli içindeki bir alana tıklamak veya dokunmak, CS:GO istemcisinde yapılandırmalarını yürütecektir."
+        },
+        "areaCreation": {
+          "title": "Alan oluşturma",
+          "info": "Bölgenizin köşelerini tanımlamak için haritaya tıklayın.\nBir hata yaptıysanız geri al düğmesini kullanın."
+        },
+        "directorSwitch": {
+          "title": "Direktörü Etkinleştir",
+          "info": "Geçiş açıldığında, ACO otomatik olarak başlar. Tuş bağlamayı da kullanabilirsiniz (varsayılan: ALT + K)."
+        },
+        "scoutDirectorSwitch": {
+          "title": "Direktörü Etkinleştir",
+          "info": "Geçiş açıldığında, Scout AI otomatik olarak başlar. Tuş bağlamayı da kullanabilirsiniz (varsayılan: ALT + K)."
+        },
+        "scoutCinematic": {
+          "title": "Scout Yapay Zeka Sinematik Modu",
+          "info": "Bu modda, Scout AI, en eksiksiz gözlem deneyimini sağlamak için ACO AI ile birlikte çalışacaktır. Onsuz, Scout AI herhangi bir genel bakış çekimi olmadan yalnızca POV kamera sağlayacaktır.\nBu mod yalnızca ACO AI maçın oynandığı haritayı destekliyorsa geçerlidir."
+        },
+        "scoutPredict": {
+          "title": "Scout Predict",
+          "info": "Scout otomatik, yapay zeka tabanlı canlı tahminlere olanak tanır. Bu seçenek etkinleştirilirse, bu tahminler önemli anlarda HUD'larınıza gönderilerek oyun hakkında daha iyi fikir sahibi olmanızı sağlar."
+        },
+        "timeRemaining": {
+          "title": "Aylık Scout AI kotanız",
+          "info": "Scout AI sunucularını kullanmak için uygun zamanınız. Aboneliğinizin her ayında yenilenir."
+        }
+      },
+      "ar": {
+        "tab": {
+          "title": "Artırılmış Gerçeklik",
+          "info": "AR modülü desteği, özel 3D nesnelerin oyunun bir parçasıymış gibi görüntülenmesini sağlar.\nAR, HTML & CSS tabanlı 3D nesnelerinizi oyun sahnesi üzerinde oluşturmak için GSI kullanılarak yüklenen kamera konum verilerini kullanır."
+        }
+      },
+      "live": {
+        "tab": {
+          "title": "Canlı",
+          "info": "Canlı bir oyun tespit edildiğinde, Canlı sekmesi oyuncu adları, kimlikleri ve mevcut skor gibi mevcut maçla ilgili verilerle dolar.\nCanlı sekmesi, oyuncu düzenlemesine de hızlı erişim sağlar."
+        }
+      },
+      "cameras": {
+        "delay": {
+          "title": "Kamera Gecikmesi",
+          "info": "Kamera Gecikmesi şu anda yalnızca resmi Lexogrine HUD'larda desteklenmektedir: Ultra & Premium HUD'lar"
+        },
+        "tab": {
+          "title": "Kameralar",
+          "info": "Kameralar modülü, LHM kullanarak oyuncu web kamerası yayınlarını HUD'larınızın içinde görüntülemenizi sağlar - harici araçlara gerek yoktur."
+        }
+      },
+      "addons": {
+        "tab": {
+          "title": "Eklentiler",
+          "info": "Eklentiler, LHM ile güçlü entegrasyonlar oluşturmanın yeni bir yoludur ve kutudan çıkar çıkmaz içlerine GSI olay yayıcıları bağlanmış kum havuzlu Node.js ortamları sağlayarak çalışır.\nLHM Eklentileri sayesinde, tüm ağır işler LHM tarafından yapılırken, çabalarınızı izleyicileriniz için mümkün olan en iyi deneyimi yaratmaya odaklayabilirsiniz."
+        }
+      },
+      "quick": {
+        "tab": {
+          "title": "Hızlı",
+          "info": "LHM Quick, tüm oyuncu, takım ve HUD kurulumunuzu tek bir yerden hızlı bir şekilde hazırlamanıza olanak tanıyarak yayınınızı hemen başlatmanızı sağlar."
+        }
+      },
+      "signals": {
+        "cta": {
+          "title": "Daha fazla etkinlik eklemeniz mi gerekiyor?",
+          "info": "Etkinlik dalları ve ön ayarlar oluşturma gibi gelişmiş seçeneklerle sınırsız etkinliğe erişim elde etmek için planınızı yükseltin!"
+        }
+      }
+    },
+    "modals": {
+      "imageTooLarge": {
+        "title": "Görüntü çok büyük",
+        "info": "Seçilen resim çok büyük. Boyut sınırı {{hud}} MB."
+      },
+      "delete": {
+        "titleTeams": "Ekipleri sil",
+        "titlePlayers": "Oyuncuları sil",
+        "titleMatches": "Eşleşmeleri sil",
+        "infoTeams": "{{limit}} takımları kaldırmak istediğinizden emin misiniz?",
+        "infoPlayers": "{{count}} oyuncuları kaldırmak istediğinizden emin misiniz?",
+        "infoMatches": "{{count}} eşleşmelerini kaldırmak istediğinizden emin misiniz?",
+        "deleteWithPlayers": "Oyuncularla silin"
+      },
+      "steamApiKeyMissing": {
+        "title": "Steam API Anahtarı Eksik",
+        "info": "Görünüşe göre SteamID alanına özel Steam URL'si koymuşsunuz. LHM özel URL'leri desteklemek için Steam API Anahtarı gerektirir. Yine de kaydetmek istiyor musunuz?"
+      }
+    },
+    "cloudification": {
+      "updateModalTitle": "HUD'larınızı LHM Cloud'a yükleyin",
+      "updateModalInfo1": "LHM 4.9.0'dan itibaren tüm HUD'lar tamamen bulut tabanlıdır. Bu, artık HUD'larınızı herhangi bir cihazda kullanabileceğiniz ve HUD'larınızın her zaman senkronize kalacağı anlamına gelir.",
+      "updateModalInfo2": "LHM'yi kullanmaya devam etmek için HUD'larınızı LHM Cloud'a yüklemeniz gerekir.",
+      "updateModalCloudWarning": "Bazı HUD'lar şu anda Bulut'ta sıkıştırılmış olarak kaydedilmektedir. Bunları kullanmak için LHM'nin bunları indirmesi ve sıkıştırmayı açması gerekecektir. Daha yüksek Bulut limiti kullanımına neden olabilir.",
+      "updateModalNonuploadedHUDsStillInDirectory": "Yüklememeyi tercih ederseniz HUD'larınız HUD dizininizde yedeklenmeye devam edecektir.",
+      "updateModalImporting": "HUD'larınızı sizin için hazırlıyoruz...",
+      "actions": {
+        "uploadAll": "Tüm HUD'ları LHM Cloud'a yükleyin",
+        "customize": "Hangi HUD'ları yükleyeceğimi seçmeme izin verin",
+        "confirm": "Onaylayın ve yükleyin"
+      },
+      "downloadAndUnpack": "HUD'u indirin ve paketinden çıkarın",
+      "spaceCompressedInCloud": "bulutta sıkıştırılmış",
+      "spaceOnDisk": "disk üzerinde",
+      "sizeLimitModalTitle": "Bulut Depolama Boyutu Sınırı",
+      "sizeLimitModalInfo1": "Gerçekleştirmek istediğiniz işlem, hesabınızın Bulut Depolama sınırı nedeniyle gerçekleşemiyor. Devam etmek için Bulut Depolamayı kapatın veya gereksiz varlıkları silin (HUD'lar, Takımlar, Oyuncular, Maçlar, Turnuvalar, ACO yolları). Kontrol et",
+      "sizeLimitModalInfo2": "mevcut Bulut Depolama kullanımınızı ve kapasitenizi görmek için."
+    },
+    "synchronization": {
+      "noUploadedResources": "Görünüşe göre henüz buluta yüklememişsiniz. Mevcut veritabanınızı yükleyebilir veya bu makinede senkronizasyonu devre dışı bırakabilirsiniz",
+      "noSyncLocal": "Yerel veritabanınız bulut depolama ile senkronize edilmiyor. Veritabanını indirebilir veya yükleyebilir ya da senkronizasyonu devre dışı bırakabilirsiniz. İndirmenin bu bilgisayarda şu anda sahip olduklarınızı kaldıracağını ve yüklemenin bulut depolama içeriğini SİLECEĞİNİ unutmayın. Ne yapmak istiyorsun?",
+      "error": "Bir hata oluştu, bu nedenle veri kaybını önlemek için senkronizasyonu kapattık",
+      "modalTitle": "Senkronizasyon"
+    },
+    "workspaces": {
+      "pickModalTitle": "Çalışma alanınızı seçin",
+      "pick": "Seç",
+      "unknownWorkspace": "Bilinmeyen çalışma alanı"
+    },
+    "streamDeck": {
+      "modalTitle": "Stream Deck kullandığınızı tespit ettik",
+      "modalInfo": "lHM'nin bağlanmasını istiyor musunuz?"
+    },
+    "newToLHM": {
+      "games": {
+        "title": "LHM'ye hoş geldiniz!",
+        "description": "LHM'de yeni misiniz? Burada uygulamayı kullanmaya başlamak için bazı temel ipuçları bulacaksınız!\n\nLHM şu anda CS2, Dota 2, League of Legends, Rocket League, Apex Legends ve F1'i desteklemektedir. Desteklenen her oyun, LHM ile düzgün çalışması için basit ama gerekli bir yapılandırma gerektirir.\nLHM ile kullanmak istediğiniz herhangi bir oyunu nasıl kuracağınızı öğrenmek için aşağıdaki Daha Fazla Bilgi Edinin düğmesine tıklayın."
+      },
+      "quick": {
+        "title": "LHM Hızlı",
+        "description": "LHM Quick, HUD ile başlatmak için oyuncuları ve takımları hızlı bir şekilde yapılandırmanıza olanak tanır. Bu özellik öncelikle LHM'nin nasıl çalıştığını bilen kullanıcılar için ve hemen başlamalarını sağlamak için tasarlanmıştır.\nŞu anda LHM Quick'te desteklenen oyunlar CS2, CS:GO, Dota 2, League of Legends ve Rocket League'dir.\nLHM Quick hakkında daha fazla bilgi edinmek için aşağıdaki Daha Fazla Bilgi Edinin düğmesine tıklayın."
+      },
+      "huds": {
+        "title": "HUDs sekmesi",
+        "description": "HUD'lar sekmesi, hem yerleşik olanlar hem de kendi yükledikleriniz olmak üzere sahip olduğunuz tüm HUD'ları görüntüler.\nBir HUD başlatmak için, kaplamayı sisteminizde ayrı bir pencerede başlatabilir (\"Start HUD overlay\" düğmesi) veya bağlantıyı kopyalayıp yayın yazılımınıza tarayıcı kaynağı olarak ekleyebilirsiniz (\"Toggle HUD url\" düğmesi)."
+      },
+      "lhmHuds": {
+        "title": "LHM HUD'lar",
+        "description": "Her LHM planı yerleşik HUD'lara sahiptir. Plan ne kadar yüksekse, HUD'lar da o kadar gelişmiş olur. Her biri hakkında daha fazla bilgi edinmek için aşağıdaki isimlere tıklayın:\n\n- Desteklenen herhangi bir oyun için varsayılan HUD\n- CS2|premiumCS2]], [[Dota 2|premiumDota2]], [[LoL|premiumLoL]], [[Rocket League|premiumRL]] için Premium HUD\n- CS2|ultraCS2]] ve [[Dota 2|ultraDota2]] için Ultra HUD"
+      },
+      "userGuide": {
+        "title": "Kullanıcı kılavuzu",
+        "description": "LHM'nin her bir bileşeni hakkında daha fazla bilgi edinmek için Kullanıcı Kılavuzumuza göz atın. Tüm özellikleri yapılandırmak ve kullanmak için açıklamalar, talimatlar ve en sık sorulan soruların yanıtlarını bulacaksınız. Başka sorularınız varsa, [[Discord'umuza|discord]] katılın."
+      }
+    }
+  }
+}
