@@ -1,804 +1,1077 @@
 {
-    "translation": {
-        "common": {
-            "cgMode": "CG-modus",
-            "or": "eller",
-            "close": "Lukk",
-            "save": "Lagre",
-            "saveAndSend": "Lagre og send",
-            "loadingSuccess": "Lastet inn vellykket",
-            "loaded": "Lastet inn",
-            "notLoaded": "Ikke lastet",
-            "vs": "VS",
-            "noTeam": "Ikke noe lag",
-            "noPlayer": "Ingen spiller",
-            "noMatch": "Kamp ikke funnet",
-            "noTournament": "Ingen turnering",
-            "noValue": "Standard",
-            "teamOne": "Lag en",
-            "teamTwo": "Lag to",
-            "show": "Vis",
-            "hide": "Skjul",
-            "map": "Kart",
-            "team": "Lag",
-            "players": "Spillere",
-            "realName": "Ekte navn",
-            "player": "Spiller",
-            "teams": "Lag",
-            "team1": "Lag 1",
-            "team2": "Lag 2",
-            "teamNumber": "LAG #{{{num}}",
-            "vetoNumber": "Veto {{num}}",
-            "delete": "Slett",
-            "edit": "Rediger",
-            "live": "Direkte",
-            "match": "Kamp",
-            "goBack": "Gå tilbake",
-            "ct": "CT",
-            "t": "T",
-            "no": "Nei",
-            "export": "Eksporter",
-            "cancel": "Avbryt",
-            "tournaments": "Turneringer",
-            "firstName": "Fornavn",
-            "lastName": "Etternavn",
-            "createNew": "Opprett ny",
-            "nickname": "Kallenavn",
-            "ready": "Klar",
-            "country": "Land",
-            "manage": "Administrer",
-            "import": "Importer",
-            "teamName": "Lagnavn",
-            "shortName": "Kort navn",
-            "search": "Søk...",
-            "ok": "Ok",
-            "disconnect": "Koble fra",
-            "connect": "Koble til",
-            "enable": "Aktiver",
-            "example": "Eksempel",
-            "disable": "Deaktiver",
-            "downloadTemplate": "Last ned mal",
-            "clickAndCopy": "Klikk og kopier",
-            "download": "Last ned",
-            "understand": "Jeg forstår"
+  "translation": {
+    "common": {
+      "cgMode": "CG-modus",
+      "or": "eller",
+      "close": "Lukk",
+      "save": "Lagre",
+      "saveAndSend": "Lagre og send",
+      "saveAndRestart": "Lagre og start på nytt",
+      "saveAndExit": "Lagre og avslutt",
+      "loadingSuccess": "Lastet inn vellykket",
+      "loaded": "Lastet inn",
+      "notLoaded": "Ikke lastet",
+      "vs": "VS",
+      "noTeam": "Ikke noe lag",
+      "noPlayer": "Ingen spiller",
+      "noMatch": "Kamp ikke funnet",
+      "noTournament": "Ingen turnering",
+      "noValue": "Standard",
+      "teamOne": "Lag en",
+      "teamTwo": "Lag to",
+      "show": "Vis",
+      "hide": "Skjul",
+      "map": "Kart",
+      "team": "Lag",
+      "players": "Spillere",
+      "editDraft": "Rediger utkast",
+      "realName": "Ekte navn",
+      "player": "Spiller",
+      "noDraftData": "Ingen utkast til data",
+      "champion": "Mester",
+      "teams": "Lag",
+      "team1": "Lag 1",
+      "team2": "Lag 2",
+      "teamNumber": "LAG #{{{num}}",
+      "vetoNumber": "Veto {{num}}",
+      "delete": "Slett",
+      "edit": "Rediger",
+      "live": "Direkte",
+      "match": "Kamp",
+      "goBack": "Gå tilbake",
+      "ct": "CT",
+      "t": "T",
+      "no": "Nei",
+      "yes": "Ja",
+      "noDontAsk": "Nei, ikke spør",
+      "csgo": {
+        "ct": "CT",
+        "t": "T",
+        "no": "No"
+      },
+      "cs2": {
+        "ct": "CT",
+        "t": "T",
+        "no": "No"
+      },
+      "valorant": {
+        "ct": "DEF",
+        "t": "ATK",
+        "no": "Nei"
+      },
+      "export": "Eksporter",
+      "cancel": "Avbryt",
+      "next": "Neste",
+      "finish": "Avslutt",
+      "understand": "Jeg forstår",
+      "tournaments": "Turneringer",
+      "firstName": "Fornavn",
+      "lastName": "Etternavn",
+      "createNew": "Opprett ny",
+      "nickname": "Kallenavn",
+      "ready": "Klar",
+      "country": "Land",
+      "manage": "Administrer",
+      "import": "Importer",
+      "teamName": "Lagnavn",
+      "shortName": "Kort navn",
+      "search": "Søk...",
+      "loading": "Loading...",
+      "ok": "Ok",
+      "disconnect": "Koble fra",
+      "connect": "Koble til",
+      "refresh": "Oppdater",
+      "enable": "Aktiver",
+      "example": "Eksempel",
+      "disable": "Deaktiver",
+      "download": "Last ned",
+      "upload": "Last opp",
+      "accept": "Godta",
+      "decline": "Avslå",
+      "downloadTemplate": "Last ned mal",
+      "clickAndCopy": "Klikk og kopier",
+      "swap": "Bytte"
+    },
+    "chat": {
+      "title": "Støtte Chat",
+      "header": "Chat med kundestøtte",
+      "suggestionHeader": "Dette kan gi deg svar på spørsmålet ditt",
+      "outOfOfficeWarning": "Kundestøtteteamet vårt er vanligvis tilgjengelig på hverdager fra kl. 09.00 til 17.00 CEST. Det kan ta lengre tid å svare utenom disse tidene.",
+      "typeYourMessage": "Skriv inn meldingen din her..."
+    },
+    "blocker": {
+      "personal": "Oppgrader LHM til en Personal-, Professional- eller Enterprise-abonnement for å få full tilgang til denne delen.",
+      "proPlus": "Oppgrader LHM til et Professional- eller Enterprise-abonnement for å få full tilgang til denne delen.",
+      "upgradeNow": "Oppgrader nå",
+      "featureDescription": {
+        "cgmode": "CG-modus inneholder de viktigste modulene for kringkasting i et kompakt format.\nFra denne fanen kan du administrere kamper, lag, spillere og Live-spill på ett skjermbilde.\nOppgrader LHM til en Personal-, Professional- eller Enterprise-plan for å få full tilgang til denne delen.",
+        "arg": "Automatisering er den neste grensen - og her i Lexogrine er vi fast bestemt på å krysse den! Auto Replay Generator automatiserer avspillingssystemet fullstendig. ARG - basert på definerte kriterier - sporer alle hendelser i spillet for automatisk å fange opp de mest avgjørende øyeblikkene og vise fantastiske repriser mellom rundene. Alt du trenger å ha er vMix eller OBS.\nOppgrader LHM til en Personal-, Professional- eller Enterprise-plan for å få full tilgang til denne delen.",
+        "addons": "Addons er en ny måte å lage integrasjoner med LHM på.\nFrem til nå var det bare den egendefinerte HUD-koden som hadde tilgang til spilldatastrømmen, noe som betydde at uansett hva du ønsket å gjøre, måtte det gjøres i nettlesermiljøet.\nAddons fungerer i servermiljøer - de er i bunn og grunn NodeJS-apper med en GSI Event-emitter koblet til dem. Det betyr at du ikke trenger å opprette en egen HTTP-server med en parser bare for å motta informasjon fra spill som støttes (CS2, Dota 2), du har alt dette i utgangspunktet, slik at du kan fokusere på integrasjoner og funksjoner du ønsker å lage.\nOppgrader LHM til en Personal-, Professional- eller Enterprise-plan for å få full tilgang til denne delen.",
+        "aco": "Det er umulig å fange hver handling på en perfekt måte og fra et ideelt perspektiv - men Scout kommer veldig nær det. Vår egen AI lærer av tusenvis av spill for å fange de mest krydrede hendelsene på egen hånd, uten menneskelig innspill.\nOppgrader din LHM til en personlig plan for å få tilgang til alle Scout AI-moduler - Scout Vision, Scout Predict og Scout Cinematic.",
+        "cameras": "Kamerasystemet vårt er superenkelt å bruke og vil spare deg for mye tid - både for arrangører og spillere. Ingen overdrevent komplisert og tidkrevende konfigurasjon av produksjonsprogramvare, ingen maskinvareproblemer.\nKoble til kameraet og tilordne det til en spiller i LHM. Start HUD og smil til publikum.\nOppgrader LHM til en Personal-, Professional- eller Enterprise-plan for å få full tilgang til denne delen.",
+        "signals": "LHM Signals er vår tilpassede integrasjon med Bitfocus Companion-appen.\nMålet vårt er å hjelpe til med automatisering av forutsigbare hendelser i spillet. Signals tar seg av det, og gjør det mulig å utløse Companion-knapper på spesifiserte spillhendelser.\nOppgrader LHM til en Personal-, Professional- eller Enterprise-plan for å få full tilgang til denne delen."
+      }
+    },
+    "titles": {
+      "players": "Spillere",
+      "teams": "Lag",
+      "arg": "Replays",
+      "aco": "Autofilmatisk Observer",
+      "ar": "Utvidet virkelighet",
+      "cgpanel": "CG-modus",
+      "huds": "HUD-er",
+      "matches": "Kamper",
+      "tournaments": "Turneringer",
+      "live": "Direkte",
+      "signals": "Signaler",
+      "cameras": "Kameraer",
+      "addons": "Tillegg",
+      "settings": "Innstillinger",
+      "credits": "Medvirkende",
+      "quick": "Hurtig",
+      "chat": "Support Chat"
+    },
+    "aco": {
+      "disabled": "Deaktivert",
+      "aco1": "ACO",
+      "acoAI": "ACO AI",
+      "acoAIScout": "ACO AI + Scout AI",
+      "scoutOnly": "Scout AI",
+      "cs2Warning": "ACO og ACO AI er foreløpig ikke tilgjengelig for den nylig lanserte Counter-Strike 2.\nCS2 mangler viktige funksjoner som LHM trenger for at disse funksjonene skal fungere akkurat nå.",
+      "cs2ScoutAndARGWarning": "På grunn av manglende tastefunksjoner i CS2 krever {{ feature }} nå at granat-tastebindingene i spillet er satt til standardverdiene (talltastene 1-0 på tastaturet) for å fungere korrekt.\n\nMangelen på nødvendige kommandoer i CS2 hindrer LHM i å bytte spiller automatisk, så LHM sender nå tastetrykk til spillet manuelt, så sørg for at spillet er fokusert under bruk av {{ feature }}.",
+      "map": "Kart",
+      "area": "Område",
+      "addNewArea": "Legg til nytt område",
+      "showInfo": "Vis info",
+      "hideInfo": "Skjul info",
+      "areaCreation": "Opprettelse av område",
+      "createArea": "+ Legg til et nytt område",
+      "addConfig": "+ Legg til en ny konfigurasjon",
+      "areaConfigurations": "Områdekonfigurasjoner",
+      "stateCreatingNew": "[opprette et nytt område]",
+      "priority": "prioritet",
+      "inGameName": "Navn i spillet",
+      "manualControl": "Manuell kontroll",
+      "areaConfigurationsPlaceholder": "Velg et område for å se konfigurasjonene",
+      "enableDirector": "Aktiver regissør",
+      "scoutPredict": "Aktivere Predict",
+      "telnet": "Aktiver Telnet",
+      "telnetWarning": "For å bruke Telnet må CS2 startes med Workshop Tools. Du kan gjøre det ved å aktivere alternativet \"Killfeed / Tools\" i HUD-fanen og klikke på knappen \"Run Game\".",
+      "cinematicWarning": "Hvis du vil bruke Scout Cinematic, må CS2 startes med Workshop Tools. Du kan gjøre det ved å aktivere alternativet \"Killfeed / Tools\" i HUDs-fanen og klikke på \"Run Game\" -knappen. Aktivering av Scout Cinematic vil også tvinge Scout Vision til å kjøre i direkte modus.",
+      "disabledDescription": "Du og observatørene dine får all kontroll.\nHa det gøy.",
+      "aco1Description": "En balanse mellom kontroll og automatisering.\nHjelp observatørene dine med et sett med manuelt skrevne instruksjoner for ACO.",
+      "aco-aiDescription": "Len deg tilbake mens de avanserte algoritmene i ACO AI styrer sendingen din.",
+      "aco-ai-scoutDescription": "La vårt nyeste system for kampforutsigelse ta styringen.\nKommer snart.",
+      "aco-ai-scoutDescription-disconnected": "La vårt nyeste AI-kampobservatørsystem ta styringen.\\nScout-servere kan være utilgjengelige for øyeblikket.",
+      "scoutCinematicDescription": "Vis vakre filmatiske bilder i kamppausene.",
+      "scoutPredictDescription": "Vis prognoser for kampresultater direkte i strømmen.",
+      "scoutCinematic": "Bruk Cinematic Scout",
+      "saveArea": "Lagre område",
+      "areaName": "Navn",
+      "areaNamePlaceholder": "Navn på område",
+      "areaPriority": "Prioritet",
+      "areaPriorityPlaceholder": "Prioritet for området",
+      "addConfigHeader": "Legg til en ny konfigurasjon i dette området",
+      "addConfigPlaceholder": "Angi en kommando som skal utføres i dette området",
+      "timeRemaining": "Gjenværende AI-tid for speider",
+      "scoutServerUnavailable": "LHM kan ikke koble til Scout AI-serverne.\nPrøv igjen om noen minutter.",
+      "scoutSubtitle": "AI-observatør",
+      "scoutGetMoreTime": "Få mer tid",
+      "scoutDescription": "Scout AI lærer av tusenvis av spill for å fange de mest krydrede hendelsene på egen hånd, uten menneskelig innblanding.",
+      "scoutVisionControl": {
+        "label": "Spillkontrollmodus",
+        "direct": {
+          "label": "Direkte",
+          "description": "Direct-modus bruker telnet til å kontrollere spillet direkte. Det er den mest pålitelige måten å kontrollere spillet på, men det krever at spillet lanseres med Workshop Tools aktivert i spillets DLC-fane i Steam."
         },
-        "blocker": {
-            "personal": "Oppgrader LHM til en Personal-, Professional- eller Enterprise-abonnement for å få full tilgang til denne delen.",
-            "proPlus": "Oppgrader LHM til et Professional- eller Enterprise-abonnement for å få full tilgang til denne delen.",
-            "upgradeNow": "Oppgrader nå",
-            "aco": "Oppgrader LHM til et Personal-abonnement for å få tilgang til ACO og Scout AI, eller et Professional/Enterprise-abonnement for å få tilgang til ACO AI i tillegg."
+        "keybinds": {
+          "label": "Tastatur",
+          "description": "Tastaturmodus simulerer tastetrykk for å kontrollere spillet. Det har ingen tilleggskrav, men spillet må være i fokus for å motta tastetrykk, og tastebindinger i spillet relatert til kamerakontroll må settes til standardinnstillinger."
+        }
+      },
+      "scoutVisionTakeoverControl": {
+        "label": "Manuell overtakelse"
+      },
+      "scoutCinematicTakeoverControl": {
+        "label": "Manuell overtakelse"
+      },
+      "scoutCinematicAction": {
+        "label": "Action Cinematic"
+      },
+      "scoutPausedTip": "Scout AI er satt på pause fordi det ikke ble oppdaget noe løpende spill."
+    },
+    "players": {
+      "edit": "Rediger en spiller",
+      "uploadProfile": "Bilde",
+      "avatarInfo": "Avatar som skal brukes til spillerbilder i stedet for standardbildet fra Steam",
+      "addPlayer": "Legg til spiller",
+      "importPlayersTitle": "Importer spillere",
+      "downloadNamesFile": "Last ned navnefil",
+      "importPlayersExcel": "Bruk vårt ferdiglagde Excel-ark til å importere mange spillere samtidig.",
+      "exportPlayers": "Eksporter",
+      "avatar": "Avatar"
+    },
+    "teams": {
+      "edit": "Rediger et lag",
+      "uploadLogo": "Logo",
+      "logoInfo": "Logo som skal brukes for laget, om mulig i den angitte HUD-en",
+      "addTeam": "Legg til lag",
+      "exportTeams": "Eksporter",
+      "importTeamsTitle": "Importer lag",
+      "importTeamsExcel": "Bruk vårt ferdiglagde Excel-ark til å importere mange lag samtidig.",
+      "logo": "Logo"
+    },
+    "live": {
+      "replaceUsernames": "Erstatt brukernavn",
+      "header": "Direkte",
+      "noGame": "Ingen kamp er Direkte for øyeblikket",
+      "tip": "Spillere i kamp, klikk for å legge til en spiller i spillerlisten."
+    },
+    "cameras": {
+      "generatePassword": "Generer passord",
+      "sendToPlayers": "Send dette til spillerne dine",
+      "fillFromLive": "Fyll ut fra Direkte-fanen",
+      "resetLink": "Tilbakestill lenke",
+      "startTestVideo": "Spill av testvideo",
+      "stopTestVideo": "Stopp testvideoen",
+      "testVideoBlocker": "Du må ha spillet i gang for å kunne spille av testvideoen, og spillerne må være fylt ut i tabellen ovenfor. Se en demo, eller spill av testdata, og velg testspiller",
+      "testPlayer": "Testspiller"
+    },
+    "addons": {
+      "upload": "Last opp tillegg",
+      "status": {
+        "READY": "Klar",
+        "UNINSTALLED": "Avinstallert"
+      },
+      "downloadGameAddon": "Last ned addon",
+      "downloading": "Laster ned...",
+      "runAddon": "Kjør addon",
+      "addonWarning": "Advarsel for tillegg",
+      "warnings": {
+        "lol-mr-1": "Advanced Addon gjør det mulig å lese mye mer data takket være minnelesing. Minnelesing kan behandles som juks, selv om slike verktøy har eksistert i årevis og Riot ikke henviser til dem, og vi har ikke hørt om tilfeller der tilskuere har blitt utestengt for dette. Likevel bruker du League of Legends Advanced Addon på egen risiko.",
+        "lol-mr-2": "Ikke bruk LoL Advanced Addon under normal spilling, det brukes bare til å se på spillet!"
+      },
+      "nodejsWarning": "NodeJS og NPM må være installert for de fleste tillegg"
+    },
+    "navbar": {
+      "huds": "HUDs",
+      "aco": "Scout AI",
+      "addons": "Tillegg",
+      "ar": "AR",
+      "live": "Direkte",
+      "quick": "Hurtig",
+      "professionalOnly": "Kun for Professional-abonnement",
+      "nonFreeOnly": "Kun for betalte abonnement",
+      "cameras": "Kameraer",
+      "hi": "Hei, {{username}}!",
+      "yourPlan": "Ditt abonnement",
+      "signals": "Signaler",
+      "validFrom": "Gyldig fra",
+      "validUntil": "Gyldig til",
+      "nextPayment": "Neste betaling",
+      "logout": "Logg ut",
+      "arg": "Replays"
+    },
+    "signals": {
+      "removal": {
+        "title": "Slett forhåndsinnstilling",
+        "areYouSure": "Er du sikker på at du vil slette forhåndsinnstillingen \"{{name}}\"?"
+      },
+      "edit": {
+        "title": "Gi nytt navn til forhåndsinnstilling",
+        "placeholder": "Forhåndsinnstilt navn"
+      },
+      "create": {
+        "title": "Opprett en ny forhåndsinnstilling",
+        "placeholder": "Forhåndsinnstilt navn"
+      },
+      "activate": "{{ name }} er ikke aktiv",
+      "deactivate": "{{ name }} er aktiv",
+      "addBranch": "Legg til gren",
+      "event": "Hendelse",
+      "addEvent": "Legg til hendelse",
+      "selectEvent": "Velg hendelse",
+      "preset": "Forhåndsinnstilling",
+      "addPreset": "Legg til en ny forhåndsinnstilling",
+      "requirements": "Krav",
+      "active": "Aktiv:",
+      "companionAddress": "Ledsageradresse",
+      "filtering": {
+        "noFiltering": "Ingen filtrering tilgjengelig",
+        "orientationAny": "Orientering: Hvilken som helst",
+        "orientationLeft": "Orientering: Venstre",
+        "orientationRight": "Orientering: Høyre",
+        "sideAny": "Side Hvilken som helst",
+        "side": "Side",
+        "teamAny": "Lag Hvilket som helst",
+        "playerAny": "Spiller: Hvilken som helst"
+      }
+    },
+    "quick": {
+      "uploadImage": "Last opp bilde",
+      "teamLogo": "Lagets logo",
+      "backToLHM": "Tilbake til LHM",
+      "next": "Neste",
+      "back": "Tilbake",
+      "newPlayer": "Opprett ny spiller",
+      "startSession": "Start ny økt",
+      "exit": "Avslutt raskt",
+      "fillWithLive": "Fyll med Direkte-data",
+      "unnamedTeam": "Ikke navngitt lag",
+      "dismiss": "Avvis",
+      "launchHUD": "Start HUD",
+      "uploadAvatar": "Last opp avatar",
+      "selectHUD": "Velg HUD",
+      "preview": "Forhåndsvisning",
+      "unlink": "Opphev kobling",
+      "playerExists": {
+        "info": "Det finnes allerede en spiller med denne {{playerIdentifierName}}.",
+        "overwrite": "Vil du overskrive dataene deres med denne?",
+        "overwriteTitle": "Overskrive?",
+        "decline": "Nei, la meg endre det",
+        "accept": "Ja, overskriv"
+      },
+      "success": {
+        "title": "HUD-en din er konfigurert og startet",
+        "opened": "HUD-en ble åpnet i et eget vindu.",
+        "borderless": "Du kan bruke Fullskjern i vindu-modus i spillet og fange HUD-skjermen direkte",
+        "display": "eller legge den til som en ny skjermkilde i kringkastingsprogramvaren.",
+        "userGuide": "Hvis du har problemer, kan du gå til brukerveiledningen.",
+        "started": "Spillet har startet"
+      }
+    },
+    "tournaments": {
+      "overview": "Oversikt",
+      "edit": "Rediger en turnering",
+      "page": "Turneringsside",
+      "create": "Opprett ny turnering",
+      "name": "Turneringsnavn",
+      "uploadLogo": "Last opp turneringslogo",
+      "logoInfo": "Turneringens logo vil være tilgjengelig under kampen",
+      "singleElimBracket": "Single elimination oppsett",
+      "doubleElimBracket": "Double elimination oppsett",
+      "swiss": "Monrad oppsett (Swiss)",
+      "group": "Gruppespill",
+      "playoffs": "Sluttspill",
+      "playoffType": "Type sluttspill",
+      "soon": "Snart",
+      "groupType": "Gruppetype",
+      "participants": "Deltakere",
+      "then": "deretter",
+      "amountOfTeams": "Antall lag",
+      "amountOfRounds": "Antall runder",
+      "bindMatch": "Fest kamp til oppsettet",
+      "teamOrderList": "Rekkefølgeliste for lag"
+    },
+    "match": {
+      "matches": "Kamper",
+      "seriesWins": "Seire i serien",
+      "live": "Direkte",
+      "edit": "Rediger kamp",
+      "editTeam": "Rediger lag",
+      "emptyTeam": "Tomt lag",
+      "enableFearlessDraft": "Aktiver Fearless Draft",
+      "disableFearlessDraft": "Deaktiver Fearless Draft",
+      "blue": "Blå",
+      "red": "Rød",
+      "scoreModal": {
+        "unsetWin": "Uinnstilt seier",
+        "setWin": "Sett-seier",
+        "teamLogo": "Lagets logo"
+      },
+      "toggleLive": "Direkte",
+      "tabs": {
+        "ended": "avsluttet",
+        "current": "nåværende",
+        "future": "Fremtidige"
+      },
+      "columns": {
+        "match": "Kamp",
+        "score": "Poengsum",
+        "date": "Dato",
+        "time": "Klokkeslett"
+      },
+      "wins": "SEIRE",
+      "wrongTeamSelected": "Feil lag valgt",
+      "vetoType": {
+        "pick": "valg",
+        "ban": "vrak",
+        "decider": "avgjørende"
+      },
+      "editVeto": "Rediger Veto",
+      "vetoSide": {
+        "left": "venstre",
+        "right": "høyre"
+      },
+      "vetoDescription": {
+        "pick": "{{teamName}} velger {{mapName}}",
+        "ban": "{{teamName}} vraker {{mapName}}"
+      },
+      "chooseTeam": "Velg lag",
+      "vetoSidepick": {
+        "normal": ", {{secondTeamName}} velger {{side}} side",
+        "decider": "{{mapName}} avgjørende"
+      },
+      "vetoUrlModal": {
+        "title": "Generer Veto app-lenke",
+        "deleteUrls": "Slett nettadresser",
+        "generateUrls": "Generer URL-er",
+        "readyToGenerate": "Klar til å generere",
+        "observerUrl": "URL for observatør",
+        "firstToPick": "Først til å velge"
+      },
+      "pickBothTeams": "Velg begge lag for å sette veto",
+      "setScore": "Angi poengsum",
+      "resetScore": "Tilbakestill poengsum",
+      "questionOpponentPick": "Velger motstanderen side?",
+      "reversedSides": "Omvendte sider",
+      "mapList": "Kartliste",
+      "generateGet5Config": "Generer Get5 Config"
+    },
+    "credits": {
+      "header": "Medvirkende",
+      "applicationAndAPI": "Applikasjons- og HUD-API",
+      "testingAndDebugging": "Testing og feilsøking",
+      "customRadarBy": "Tilpasset radar av",
+      "initialLayoutIdea": "Opprinnelig layout-idé",
+      "feedbackAndIdeas": "Tilbakemeldinger og ideer"
+    },
+    "arg": {
+      "safeband": "Sikkerhetsbånd",
+      "beforeKill": "Før drap",
+      "useHLAE": "Bruk HLAE?",
+      "afterKill": "Etter drap",
+      "saveClips": "Lagre klippene?",
+      "delayConfig": "Forsinkelse konfigurasjon",
+      "computerId": "Datamaskin-ID",
+      "turnOff": "Slå av",
+      "turnOn": "Slå på",
+      "priority": {
+        "multi": "Prioriter flere drap",
+        "headshots": "Prioriter hodeskudd",
+        "teamkills": "Prioriter drap av lagkamerater"
+      },
+      "mixer": {
+        "label": "Mixer",
+        "activeNdi": "NDI Replay Source",
+        "mixer": "Mixer",
+        "address": "Adresse",
+        "vMixInput": "vMix Input",
+        "verifyConnection": "Oppsett",
+        "setup": "Connect & Setup",
+        "ip": "IP",
+        "port": "Port",
+        "password": "Passord",
+        "disconnect": "Koble fra",
+        "switchInputs": "Automatisk inngangsbryter"
+      },
+      "replay": {
+        "replayModeTitle": "Replay Mode",
+        "replayModeContent": "Denne LHM-en kjører nå i avspillingsmodus. For å endre parametere for avspilling og mikser, se på ARG-fanen på hoved-PC-en",
+        "installObsNdiPlugin": "Installer OBS NDI Plugin",
+        "thisPcCode": "Denne PC-koden",
+        "chooseYourMixer": "Velg mikseren din",
+        "noInput": "Ingen inngang",
+        "stepCode": {
+          "noVmixRunning": "Det ser ut til at du ikke har noen vMix i gang. Du må starte den før du starter oppsettet",
+          "vmixBadResponse": "Vi kunne ikke koble til vMixen din :C",
+          "noReplay": "Opprett Instant Replay-inngang ved å klikke på Add Input > Instant Replay. Sett Kamera 1 til Utgang 2. Klikk OK",
+          "showInputs": "Velg inngangen som er ditt forsinkede spill. Hvis du ikke har lagt den til ennå, gjør det, og klikk på Oppdater",
+          "finish": "Oppsettet av vMix er ferdig!"
         },
-        "titles": {
-            "players": "Spillere",
-            "teams": "Lag",
-            "arg": "Auto Replay Generator",
-            "aco": "Autofilmatisk Observer",
-            "ar": "Utvidet virkelighet",
-            "cgpanel": "CG-modus",
-            "huds": "HUD-er",
-            "matches": "Kamper",
-            "tournaments": "Turneringer",
-            "live": "Direkte",
-            "cameras": "Kameraer",
-            "addons": "Tillegg",
-            "settings": "Innstillinger",
-            "credits": "Medvirkende",
-            "quick": "Hurtig"
+        "modeModal": {
+          "title": "LHM Replay-modus",
+          "youAreStartingArg": "Du starter ARG med to tilkoblede LHM-er",
+          "whichModeDoYou": "Hvilken modus ønsker du å bruke for avspillingsgenerering?",
+          "ndiSourceForDelayedGame": "NDI-kilde for forsinket spill",
+          "pickSource": "PICK SOURCE",
+          "setSource": "Angi kilde",
+          "refreshSources": "Oppdater kilder"
         },
-        "aco": {
-            "disabled": "Deaktivert",
-            "aco1": "ACO",
-            "acoAI": "ACO AI",
-            "acoAIScout": "ACO AI + Scout AI",
-            "scoutOnly": "Scout AI",
-            "map": "Kart",
-            "area": "Område",
-            "addNewArea": "Legg til nytt område",
-            "showInfo": "Vis info",
-            "hideInfo": "Skjul info",
-            "areaCreation": "Opprettelse av område",
-            "createArea": "+ Legg til et nytt område",
-            "addConfig": "+ Legg til en ny konfigurasjon",
-            "areaConfigurations": "Områdekonfigurasjoner",
-            "stateCreatingNew": "[opprette et nytt område]",
-            "priority": "prioritet",
-            "inGameName": "Navn i spillet",
-            "manualControl": "Manuell kontroll",
-            "areaConfigurationsPlaceholder": "Velg et område for å se konfigurasjonene",
-            "enableDirector": "Aktiver regissør",
-            "disabledDescription": "All kontroll gis til deg og observatørene dine.",
-            "aco1Description": "En balanse mellom kontroll og automatisering.\nHjelp observatørene dine med et sett manuelt skrevne instruksjoner for ACO.",
-            "aco-aiDescription": "Len deg tilbake mens de avanserte algoritmene i ACO AI styrer sendingen din.",
-            "aco-ai-scoutDescription": "La vårt nyeste system for kampforutsigelse ta styringen.\nKommer snart.",
-            "saveArea": "Lagre område",
-            "areaName": "Navn",
-            "areaNamePlaceholder": "Navn på område",
-            "areaPriority": "Prioritet",
-            "areaPriorityPlaceholder": "Prioritet for området",
-            "addConfigHeader": "Legg til en ny konfigurasjon i dette området",
-            "addConfigPlaceholder": "Angi en kommando som skal utføres i dette området",
-            "scoutCinematic": "Bruk Cinematic Scout",
-            "timeRemaining": "Gjenværende AI-tid for speider",
-            "aco-ai-scoutDescription-disconnected": "La vårt nyeste AI-kampobservatørsystem ta styringen.\\nScout-servere kan være utilgjengelige for øyeblikket.",
-            "scoutServerUnavailable": "LHM kan ikke koble til Scout AI-serverne.\nPrøv igjen om noen minutter.",
-            "cs2Warning": "ACO og ACO AI er foreløpig ikke tilgjengelig for den nylig lanserte Counter-Strike 2.\nCS2 mangler viktige funksjoner som LHM trenger for at disse funksjonene skal fungere akkurat nå.",
-            "cs2ScoutAndARGWarning": "På grunn av manglende tastefunksjoner i CS2 krever {{ feature }} nå at granat-tastebindingene i spillet er satt til standardverdiene (talltastene 1-0 på tastaturet) for å fungere korrekt.\n\nMangelen på nødvendige kommandoer i CS2 hindrer LHM i å bytte spiller automatisk, så LHM sender nå tastetrykk til spillet manuelt, så sørg for at spillet er fokusert under bruk av {{ feature }}.",
-            "scoutPredict": "Aktivere Predict",
-            "telnetWarning": "For å bruke Telnet må CS2 startes med Workshop Tools. Du kan gjøre det ved å aktivere alternativet \"Killfeed / Tools\" i HUD-fanen og klikke på knappen \"Run Game\".",
-            "telnet": "Aktiver Telnet"
+        "requestModal": {
+          "title": "LHM Replay Request",
+          "anotherLhmInTheLocal": "En annen LHM i det lokale nettverket ønsker at denne PC-en skal brukes som avspillingsmaskin",
+          "doYouWish": "Ønsker du å godta den innkommende tilkoblingen?"
+        }
+      }
+    },
+    "settings": {
+      "logIn": "Logg inn",
+      "email": "E-post",
+      "password": "Passord",
+      "noAccount": "Har du ikke en konto?",
+      "registerNow": "Registrer deg nå!",
+      "forgot": "Har du glemt passordet?",
+      "Not logged in": "Ikke logget inn",
+      "You need to pass your one-time token": "Du må oppgi engangskoden ditt",
+      "serversUnreachable": "Det ser ut til at serverne våre ikke kan nås. Vennligst prøv igjen om noen minutter",
+      "preInstalled": "Bruk forhåndsinstallert",
+      "cloudSynchronization": "Sky-synkronisering",
+      "hudConfigCloudSynchronization": "Sky-synkronisering av HUD-innstillinger",
+      "hudTogglesCloudSynchronization": "HUD slår på sky-synkronisering",
+      "valorantWindowTitleOverride": "Valorant Window Title Override",
+      "valorantServerMode": "Datainnsamlingsmodus",
+      "valorantReadLanguage": "Valorant Game Language",
+      "valorantReadTeamMode": "Valorant Match Type",
+      "valorantMinimalisticGUI": "Minimalistisk",
+      "valorantIngameInterfaceType": "Valorant In-game Interface Type",
+      "valorantUsernameLanguage": "Valorant Brukernavn Tegnsett",
+      "leagueOfLegendsGameLanguage": "League of Legends In-game Font",
+      "openValorantScoreboardAutomatically": "Åpne Valorant Scoreboard automatisk",
+      "autoHUDUpload": "Automatisk opplasting av HUD-er til skyen",
+      "language": "Språk",
+      "dota2Assets": "*",
+      "autoHalfSwitch": "Automatisk halvbryter (eksperimentell)",
+      "autoSwitch": "Auto-bryter",
+      "header": "Innstillinger",
+      "subheaders": {
+        "lhm": "LHM",
+        "cloud": "LHM Cloud",
+        "additional": "Ytterligere"
+      },
+      "f1": {
+        "add": "Legg til integrasjon",
+        "integration": "F1-integrering",
+        "notInstalled": "F1 ikke installert"
+      },
+      "halfTimeBehaviour": {
+        "label": "Oppførsel i halvtimen",
+        "none": "Ingen",
+        "switch": "Bytt lag (venstre <-> høyre)",
+        "keep": "Force keep teams' sides"
+      },
+      "rocketleague": {
+        "integration": "RL-integrering",
+        "status": {
+          "busy": "Opptatt...",
+          "bakkesModNotInstalled": "BakkesMod ikke installert",
+          "sosNotInstalled": "SOS Plugin ikke installert",
+          "notConfigured": "Ikke konfigurert",
+          "installed": "Installert"
         },
-        "players": {
-            "edit": "Rediger en spiller",
-            "uploadProfile": "Bilde",
-            "avatarInfo": "Avatar som skal brukes til spillerbilder i stedet for standardbildet fra Steam",
-            "addPlayer": "Legg til spiller",
-            "importPlayersTitle": "Importer spillere",
-            "downloadNamesFile": "Last ned navnefil",
-            "importPlayersExcel": "Bruk vårt ferdiglagde Excel-ark til å importere mange spillere samtidig.",
-            "exportPlayers": "Eksporter",
-            "avatar": "Avatar"
+        "refresh": "Oppdater",
+        "install": "Installer"
+      },
+      "serverClient": {
+        "client": "Klient (lokalt nettverk)",
+        "server": "Server (lokalt nettverk)",
+        "client_global": "Klient (Utenfor lokalt nettverk)",
+        "server_global": "Server (Utenfor lokalt nettverk)"
+      },
+      "languages": {
+        "default_latin": "Standard (Latin)",
+        "chinese_simplified": "Kinesisk (forenklet)",
+        "chinese": "Kinesisk",
+        "english": "Engelsk",
+        "korean": "Koreansk",
+        "japanese": "Japansk",
+        "russian": "Russisk",
+        "arabic": "Arabisk",
+        "german": "Tysk",
+        "polish": "Polsk",
+        "spanish": "Spansk",
+        "portuguese_brasil": "Portugisisk (Brasil)",
+        "turkish": "Tyrkisk",
+        "indonesian": "Indonesisk"
+      },
+      "gsi": {
+        "loadingAbout": "Laster inn data om GameState-filer...",
+        "loadingData": "Laster inn GameState-data...",
+        "loadingFileData": "Laster inn data om GameState-filer..."
+      },
+      "config": {
+        "loadingAbout": "Laster inn data om cfg-filer...",
+        "loadingFileData": "Laster inn data om konfigurasjonsfiler..."
+      },
+      "input": {
+        "steamAPIKey": "Steam API-nøkkel",
+        "GSIPort": "GSI-port",
+        "GSIToken": "GSI-token"
+      },
+      "updater": {
+        "version": "Versjon",
+        "installing": "Installerer...",
+        "downloading": "Laster ned... {{percent}}%",
+        "install": "Installer oppdatering",
+        "latest": "Siste"
+      },
+      "entry": {
+        "keybinds": {
+          "keybinds": "Hurtigtaster",
+          "hardRefreshHUD": "Hard oppdatering av HUD",
+          "argToggle": "Av/På ARG",
+          "dota2ARG": "Spill Dota 2 ARG",
+          "reverseSide": "Omvendte sider",
+          "refreshHud": "Oppdater HUD",
+          "toggleDirector": "Av/På ACO-direktør",
+          "toggleScoutPredict": "Vis/skjul speiderforutsigelse",
+          "toggleScoutCinematic": "Veksle Scout Cinematic"
         },
-        "teams": {
-            "edit": "Rediger et lag",
-            "uploadLogo": "Logo",
-            "logoInfo": "Logo som skal brukes for laget, om mulig i den angitte HUD-en",
-            "addTeam": "Legg til lag",
-            "exportTeams": "Eksporter",
-            "importTeamsTitle": "Importer lag",
-            "importTeamsExcel": "Bruk vårt ferdiglagde Excel-ark til å importere mange lag samtidig.",
-            "logo": "Logo"
+        "streamDeck": {
+          "unavailable": "Ikke tilgjengelig"
         },
-        "live": {
-            "replaceUsernames": "Erstatt brukernavn",
-            "header": "Direkte",
-            "noGame": "Ingen kamp er Direkte for øyeblikket",
-            "tip": "Spillere i kamp, klikk for å legge til en spiller i spillerlisten."
+        "HLAE": {
+          "path": "HLAE-Bane",
+          "setPath": "Angi HLAE-bane"
         },
-        "cameras": {
-            "generatePassword": "Generer passord",
-            "sendToPlayers": "Send dette til spillerne dine",
-            "fillFromLive": "Fyll ut fra Direkte-fanen",
-            "resetLink": "Tilbakestill lenke"
+        "AFX": {
+          "path": "AFX CEF HUD Interop",
+          "setPath": "Angi AFX-bane"
         },
-        "addons": {
-            "upload": "Last opp tillegg",
-            "status": {
-                "READY": "Klar",
-                "UNINSTALLED": "Avinstallert"
-            },
-            "downloadGameAddon": "Last ned addon",
-            "downloading": "Laster ned...",
-            "runAddon": "Kjør addon",
-            "addonWarning": "Advarsel for tillegg",
-            "warnings": {
-                "lol-mr-1": "Advanced Addon gjør det mulig å lese mye mer data takket være minnelesing. Minnelesing kan behandles som juks, selv om slike verktøy har eksistert i årevis og Riot ikke henviser til dem, og vi har ikke hørt om tilfeller der tilskuere har blitt utestengt for dette. Likevel bruker du League of Legends Advanced Addon på egen risiko.",
-                "lol-mr-2": "Ikke bruk LoL Advanced Addon under normal spilling, det brukes bare til å se på spillet!"
-            }
+        "GSI": {
+          "status": "GameState-integrasjon",
+          "add": "Legg til GSI-fil"
         },
-        "navbar": {
-            "huds": "HUDs",
-            "aco": "ACO & Scout",
-            "addons": "Tillegg",
-            "ar": "AR",
-            "live": "Direkte",
-            "quick": "Hurtig",
-            "professionalOnly": "Kun for Professional-abonnement",
-            "nonFreeOnly": "Kun for betalte abonnement",
-            "cameras": "Kameraer",
-            "hi": "Hei, {{username}}!",
-            "yourPlan": "Ditt abonnement",
-            "validFrom": "Gyldig fra",
-            "validUntil": "Gyldig til",
-            "nextPayment": "Neste betaling",
-            "logout": "Logg ut"
-        },
-        "quick": {
-            "uploadImage": "Last opp bilde",
-            "teamLogo": "Lagets logo",
-            "backToLHM": "Tilbake til LHM",
-            "next": "Neste",
-            "back": "Tilbake",
-            "newPlayer": "Opprett ny spiller",
-            "startSession": "Start ny økt",
-            "exit": "Avslutt raskt",
-            "fillWithLive": "Fyll med Direkte-data",
-            "unnamedTeam": "Ikke navngitt lag",
-            "dismiss": "Avvis",
-            "launchHUD": "Start HUD",
-            "uploadAvatar": "Last opp avatar",
-            "selectHUD": "Velg HUD",
-            "preview": "Forhåndsvisning",
-            "unlink": "Opphev kobling",
-            "playerExists": {
-                "info": "Det finnes allerede en spiller med denne {{playerIdentifierName}}.",
-                "overwrite": "Vil du overskrive dataene deres med denne?",
-                "overwriteTitle": "Overskrive?",
-                "decline": "Nei, la meg endre det",
-                "accept": "Ja, overskriv"
-            },
-            "success": {
-                "title": "HUD-en din er konfigurert og startet",
-                "opened": "HUD-en ble åpnet i et eget vindu.",
-                "borderless": "Du kan bruke Fullskjern i vindu-modus i spillet og fange HUD-skjermen direkte",
-                "display": "eller legge den til som en ny skjermkilde i kringkastingsprogramvaren.",
-                "userGuide": "Hvis du har problemer, kan du gå til brukerveiledningen.",
-                "started": "Spillet har startet"
-            }
-        },
-        "tournaments": {
-            "overview": "Oversikt",
-            "edit": "Rediger en turnering",
-            "page": "Turneringsside",
-            "create": "Opprett ny turnering",
-            "name": "Turneringsnavn",
-            "uploadLogo": "Last opp turneringslogo",
-            "logoInfo": "Turneringens logo vil være tilgjengelig under kampen",
-            "singleElimBracket": "Single elimination oppsett",
-            "doubleElimBracket": "Double elimination oppsett",
-            "swiss": "Monrad oppsett (Swiss)",
-            "group": "Gruppespill",
-            "playoffs": "Sluttspill",
-            "playoffType": "Type sluttspill",
-            "soon": "Snart",
-            "groupType": "Gruppetype",
-            "participants": "Deltakere",
-            "then": "deretter",
-            "amountOfTeams": "Antall lag",
-            "amountOfRounds": "Antall runder",
-            "bindMatch": "Fest kamp til oppsettet",
-            "teamOrderList": "Rekkefølgeliste for lag"
-        },
-        "match": {
-            "matches": "Kamper",
-            "seriesWins": "Seire i serien",
-            "live": "Direkte",
-            "edit": "Rediger kamp",
-            "editTeam": "Rediger lag",
-            "emptyTeam": "Tomt lag",
-            "scoreModal": {
-                "unsetWin": "Uinnstilt seier",
-                "setWin": "Sett-seier",
-                "teamLogo": "Lagets logo"
-            },
-            "toggleLive": "Direkte",
-            "tabs": {
-                "ended": "avsluttet",
-                "current": "nåværende",
-                "future": "Fremtidige"
-            },
-            "columns": {
-                "match": "Kamp",
-                "score": "Poengsum",
-                "date": "Dato",
-                "time": "Klokkeslett"
-            },
-            "wins": "SEIRE",
-            "wrongTeamSelected": "Feil lag valgt",
-            "vetoType": {
-                "pick": "valg",
-                "ban": "vrak",
-                "decider": "avgjørende"
-            },
-            "vetoSide": {
-                "left": "venstre",
-                "right": "høyre"
-            },
-            "vetoDescription": {
-                "pick": "{{teamName}} velger {{mapName}}",
-                "ban": "{{teamName}} vraker {{mapName}}"
-            },
-            "chooseTeam": "Velg lag",
-            "vetoSidepick": {
-                "normal": ", {{secondTeamName}} velger {{side}} side",
-                "decider": "{{mapName}} avgjørende"
-            },
-            "pickBothTeams": "Velg begge lag for å sette veto",
-            "setScore": "Angi poengsum",
-            "resetScore": "Tilbakestill poengsum",
-            "questionOpponentPick": "Velger motstanderen side?",
-            "reversedSides": "Omvendte sider",
-            "mapList": "Kartliste",
-            "generateGet5Config": "Generer Get5 Config"
+        "config": {
+          "status": "Konfigurasjoner",
+          "add": "Legg til konfigurasjonsfiler"
         },
         "credits": {
-            "header": "Medvirkende",
-            "applicationAndAPI": "Applikasjons- og HUD-API",
-            "testingAndDebugging": "Testing og feilsøking",
-            "customRadarBy": "Tilpasset radar av",
-            "initialLayoutIdea": "Opprinnelig layout-idé",
-            "feedbackAndIdeas": "Tilbakemeldinger og ideer"
+          "credits": "Medvirkende",
+          "seeNow": "Se nå"
         },
-        "arg": {
-            "safeband": "Sikkerhetsbånd",
-            "beforeKill": "Før drap",
-            "useHLAE": "Bruk HLAE?",
-            "afterKill": "Etter drap",
-            "saveClips": "Lagre klippene?",
-            "delayConfig": "Forsinkelse konfigurasjon",
-            "computerId": "Datamaskin-ID",
-            "turnOff": "Slå av",
-            "turnOn": "Slå på",
-            "priority": {
-                "multi": "Prioriter flere drap",
-                "headshots": "Prioriter hodeskudd",
-                "teamkills": "Prioriter drap av lagkamerater"
-            }
+        "downloads": {
+          "downloads": "Nedlastinger",
+          "GSIConfig": "GSI-konfigurasjon",
+          "HUDConfigs": "HUD-konfigurasjoner",
+          "exportDB": "Eksporter DB"
         },
-        "settings": {
-            "logIn": "Logg inn",
-            "email": "E-post",
-            "password": "Passord",
-            "noAccount": "Har du ikke en konto?",
-            "registerNow": "Registrer deg nå!",
-            "forgot": "Har du glemt passordet?",
-            "Not logged in": "Ikke logget inn",
-            "You need to pass your one-time token": "Du må oppgi engangskoden ditt",
-            "preInstalled": "Bruk forhåndsinstallert",
-            "cloudSynchronization": "Sky-synkronisering",
-            "language": "Språk",
-            "dota2Assets": "*",
-            "autoSwitch": "Auto-bryter",
-            "header": "Innstillinger",
-            "f1": {
-                "add": "Legg til integrasjon",
-                "integration": "F1-integrering",
-                "notInstalled": "F1 ikke installert"
-            },
-            "rocketleague": {
-                "integration": "RL-integrering",
-                "status": {
-                    "busy": "Opptatt...",
-                    "bakkesModNotInstalled": "BakkesMod ikke installert",
-                    "sosNotInstalled": "SOS Plugin ikke installert",
-                    "notConfigured": "Ikke konfigurert",
-                    "installed": "Installert"
-                },
-                "refresh": "Oppdater",
-                "install": "Installer"
-            },
-            "gsi": {
-                "loadingAbout": "Laster inn data om GameState-filer...",
-                "loadingData": "Laster inn GameState-data...",
-                "loadingFileData": "Laster inn data om GameState-filer..."
-            },
-            "config": {
-                "loadingAbout": "Laster inn data om cfg-filer...",
-                "loadingFileData": "Laster inn data om konfigurasjonsfiler..."
-            },
-            "input": {
-                "steamAPIKey": "Steam API-nøkkel",
-                "GSIPort": "GSI-port",
-                "GSIToken": "GSI-token"
-            },
-            "updater": {
-                "version": "Versjon",
-                "installing": "Installerer...",
-                "downloading": "Laster ned... {{percent}}%",
-                "install": "Installer oppdatering",
-                "latest": "Siste"
-            },
-            "entry": {
-                "keybinds": {
-                    "keybinds": "Hurtigtaster",
-                    "hardRefreshHUD": "Hard oppdatering av HUD",
-                    "argToggle": "Av/På ARG",
-                    "dota2ARG": "Spill Dota 2 ARG",
-                    "reverseSide": "Omvendte sider",
-                    "refreshHud": "Oppdater HUD",
-                    "toggleDirector": "Av/På ACO-direktør"
-                },
-                "streamDeck": {
-                    "unavailable": "Ikke tilgjengelig"
-                },
-                "HLAE": {
-                    "path": "HLAE-Bane",
-                    "setPath": "Angi HLAE-bane"
-                },
-                "AFX": {
-                    "path": "AFX CEF HUD Interop",
-                    "setPath": "Angi AFX-bane"
-                },
-                "GSI": {
-                    "status": "GameState-integrasjon",
-                    "add": "Legg til GSI-fil"
-                },
-                "config": {
-                    "status": "Konfigurasjoner",
-                    "add": "Legg til konfigurasjonsfiler"
-                },
-                "credits": {
-                    "credits": "Medvirkende",
-                    "seeNow": "Se nå"
-                },
-                "downloads": {
-                    "downloads": "Nedlastinger",
-                    "GSIConfig": "GSI-konfigurasjon",
-                    "HUDConfigs": "HUD-konfigurasjoner",
-                    "exportDB": "Eksporter DB"
-                },
-                "import": {
-                    "import": "Importer"
-                },
-                "readerCode": {
-                    "readerCode": "Leserkode"
-                },
-                "newToLHM": {
-                    "seeNow": "Se nå",
-                    "toggleInSidebar": "Veksle i sidepanelet",
-                    "show": "Vis \"Ny i LHM\""
-                }
-            },
-            "hudConfigCloudSynchronization": "Sky-synkronisering av HUD-innstillinger",
-            "autoHUDUpload": "Automatisk opplasting av HUD-er til skyen",
-            "hudTogglesCloudSynchronization": "HUD slår på sky-synkronisering"
+        "import": {
+          "import": "Importer"
         },
-        "ar": {
-            "add": "Last opp AR-modul",
-            "toggle": "Av/På AR-modul",
-            "openDirectory": "Åpne modulkatalogen",
-            "deleteLocally": "Slett AR-modul"
-        },
-        "huds": {
-            "header": "HUD-er",
-            "config": {
-                "customRadar": "Radar",
-                "embeddedHUD": "Innebygd HUD",
-                "autoexecute": "Automatisk execute",
-                "console": "Konsoll",
-                "add": "Legg til HUD",
-                "runGame": "KJØR SPILL",
-                "pauseTest": "PAUSE TEST",
-                "runTest": "KJØR TEST",
-                "openDirectory": "Åpne HUD-katalogen",
-                "playTestLoop": "Spill av testsløyfe",
-                "ar": "AR",
-                "goToKeybinds": "Konfigurer hurtigtaster",
-                "more": "Mer",
-                "hlaeIsRequired": "Du må ha CS:GO som kjører med HLAE",
-                "proOrEntrpriseIsRequired": "Du må ha et Professional- eller Enterprise-abonnement",
-                "hlaeAndHigherPlanIsRequired": "Du må ha CS:GO som kjører med HLAE og et Professional- eller Enterprise-abonnement",
-                "customKillfeed": "Killfeed / Verktøy",
-                "killfeedOffset": "Killfeed-forskyvning",
-                "scout": "Speider-AI"
-            },
-            "sort": {
-                "custom": "Tilpasset",
-                "newest": "Nyeste",
-                "oldest": "Eldste"
-            },
-            "fields": {
-                "missing": "Manglende felt",
-                "fieldOfType": "Felt \"{{field}}\" av typen \"{{type}}\"",
-                "fieldNamePlaceholder": "Feltnavn",
-                "inputType": "Inndatatype",
-                "values": {
-                    "text": "Tekst",
-                    "team": "Lag",
-                    "image": "Bilde",
-                    "match": "Kamp",
-                    "player": "Spiller",
-                    "color": "Farge"
-                },
-                "visible": "Synlig",
-                "manageCustom": "Administrer egendefinerte felt",
-                "addNew": "+ Legg til nytt felt"
-            },
-            "includes": {
-                "customRadar": "Inkluderer egendefinert radar",
-                "customKillfeed": "Inkluderer tilpasset killfeed"
-            },
-            "removal": {
-                "title": "Fjerner {{hud}}",
-                "areYouSure": "Er du sikker på at du vil fjerne {{hud}}?"
-            },
-            "actions": {
-                "toggleUrl": "Av/På HUD-URL",
-                "settings": "Gå til HUD-innstillinger",
-                "shortcut": "Snarvei",
-                "overlay": "Start HUD-overlay",
-                "upload": "Last opp HUD",
-                "uploading": "Laster opp...",
-                "delete": "Slett",
-                "deleteLocally": "Slett HUD lokalt",
-                "deleteFromCloud": "Slett HUD fra skyen",
-                "downloading": "Laster ned...",
-                "toggleHUD": "Veksle HUD (kun innebygd)",
-                "clickToCopy": "Klikk for å kopiere",
-                "createShortcut": "Opprett snarvei på skrivebordet",
-                "toggleHUDKeybinds": "Veksle mellom HUD-tastebindinger (for nettleserkilde)"
-            },
-            "warning": {
-                "specifyHLAEPath": "Angi HLAE-banen i Innstillinger for å bruke tilpassede killfeeds",
-                "specifyAFXInteropPath": "Angi AFX Interop-bane i Innstillinger for å bruke AFX-modus",
-                "specifyAFXModeInfo": "Når du bruker AFX-modus, klikker du på bryteren etter at du har blitt med i kampen - du trenger ikke å starte overlegget.",
-                "csgoHUDinCS2": "Denne HUD-en er laget for CS:GO. Det er ikke garantert at alle funksjonene vil fungere på samme måte i CS2."
-            },
-            "error": {
-                "title": "Kan ikke legge til HUD",
-                "config": "LHM klarte ikke å lese konfigurasjonsfilen for HUD.",
-                "upload": "LHM klarte ikke å laste opp HUD til skyen. Prøv igjen senere.",
-                "generic": "Noe gikk galt. Prøv igjen senere.",
-                "archive": "LHM klarte ikke å lese arkivfilen.",
-                "space": "Du har ikke nok skyplass i arbeidsområdet du bruker. Oppgrader abonnementet eller slett noen av skyressursene dine."
-            }
-        },
-        "app": {
-            "changeGame": "Endre spill",
-            "cloud": {
-                "isActive": "Skyen er aktiv",
-                "isNotActive": "Skyen er ikke aktiv"
-            }
-        },
-        "helpers": {
-            "learnMore": "Lær mer",
-            "onlyInProPlus": {
-                "title": "Oppgrader abonnementet ditt",
-                "info": "Denne funksjonaliteten er bare tilgjengelig for brukere av Professional- og Enterprise-abonnementene.\nOppgrader abonnementet ditt for å låse den opp."
-            },
-            "huds": {
-                "tab": {
-                    "title": "HUD-fanen",
-                    "info": "HUD-fanen brukes til å administrere HUD-er og konfigurasjon av spillstart."
-                },
-                "radar": {
-                    "title": "Radar",
-                    "info": "Hvis du aktiverer dette alternativet og kjører spillet med konfigurasjonen nedenfor eller bruker knappen \"Kjør spill\", deaktiveres radaren i spillet for å bruke den egendefinerte radaren som er innebygd i HUD-ene."
-                },
-                "embeddedHUD": {
-                    "title": "Innebygd HUD",
-                    "info": "Hvis du aktiverer dette alternativet, kobles LHM til CS:GO-renderingsprosessen, slik at HUD-en din blir en del av spillet i stedet for et separat overlegg. For å starte en HUD i innebygd modus bruker du bryteren ved siden av HUD-en.\nBruk av innebygd modus er nødvendig for AR. Det kan også redusere spillets ytelse.\nDette alternativet starter CS:GO i usikker modus - du vil ikke kunne bli med på VAC-beskyttede servere (f.eks. Faceit, matchmaking) med mindre du er GOTV-tilskuer mens det er aktivert."
-                },
-                "playTestLoop": {
-                    "title": "Spill testsløyfe",
-                    "info": "Hvis du aktiverer dette alternativet, spilles testdataene av i en loop slik at de aldri slutter. Dette er nyttig for å teste HUD-ene dine."
-                },
-                "ar": {
-                    "title": "AR",
-                    "info": "Hvis du aktiverer dette alternativet og kjører spillet med konfigurasjonen nedenfor eller bruker knappen \"Kjør spill\", kan du bruke AR-moduler.\nDette alternativet starter CS:GO i usikker modus - du vil ikke kunne bli med på VAC-beskyttede servere (f.eks. Faceit, matchmaking) med mindre du er GOTV-tilskuer mens det er aktivert."
-                },
-                "autoExecute": {
-                    "title": "Automatisk execute",
-                    "info": "knappen \"Kjør spill\" starter spillet med konfigurasjonen nedenfor når dette alternativet er aktivert."
-                },
-                "xray": {
-                    "title": "XRay",
-                    "info": "Med dette alternativet kan du angi egendefinerte farger for boksene rundt spillerne i spillet."
-                },
-                "runTest": {
-                    "title": "Kjør test",
-                    "info": "Med denne funksjonen kan du simulere en spilldatastrøm for å teste HUD-en eller konfigurasjonen."
-                },
-                "killfeed": {
-                    "title": "Killfeed / Verktøy",
-                    "info": "Hvis du aktiverer dette alternativet og kjører spillet med konfigurasjonen nedenfor eller ved å bruke knappen \"Kjør spill\", deaktiveres killfeed i spillet for å bruke den tilpassede killfeeden som er innebygd i HUD-ene dine.\nDette alternativet starter CS:GO i usikker modus - du vil ikke kunne bli med på VAC-beskyttede servere (f.eks. Faceit, matchmaking) med mindre du er GOTV-tilskuer mens det er aktivert."
-                },
-                "killfeedOffset": {
-                    "title": "Killfeed-offset",
-                    "info": "Hvis du aktiverer dette alternativet, settes safezoney til 0,8 for å ta høyde for tilpassede HUD-elementer i øverste høyre hjørne"
-                },
-                "launchParams": {
-                    "title": "Startparametere",
-                    "info": "Du kan angi lanseringsparametere for spillet her, i stedet for innstillingene i Steam"
-                },
-                "scout": {
-                    "title": "Speider AI",
-                    "info": "Hvis du aktiverer dette alternativet, starter CS2 med VConsole2, noe som kan hindre deg i å bli med på servere med mindre det er riktig konfigurert."
-                },
-                "previewDescriptions": {
-                    "premium": {
-                        "leagueoflegends": "Premium HUD for League of Legends tilfører det som mangler i spillets observatør-HUD og gjør det enda bedre. En enorm mengde data, ekstra statistikk og skjermbilder, vakker grafikk integrert i spillgrensesnittet skaper en helt ny og unik opplevelse. Premium HUD for League of Legends er en kvalitet som kan observeres på de mest berømte arrangementene, fra nå av tilgjengelig for alle.",
-                        "cs2": "Med PREMIUM HUD tar vi neste skritt mot målet om å bygge en skybasert løsning som er superenkel å bruke, og som med bare noen få klikk tar seg av alle trinn i organiseringen av esportsturneringer - inkludert grafikk i toppklasse!\nPREMIUM HUD er tilgjengelig for alle brukere av Personal, Professional og Enterprise Plan.",
-                        "dota2": "Premium HUD for Dota 2 er vårt første skritt mot å revolusjonere MOBA-kringkastingsbransjen. Målet vårt var å få absolutt alle til å dra nytte av denne integrasjonen. Enten du er en nykommer på e-sport-scenen eller allerede har din egen merkevare og velprøvde løsninger, er vi sikre på at Premium HUD vil gi deg en opplevelse som verken du eller publikum har sett før i andre sendinger.",
-                        "csgo": "Med PREMIUM HUD tar vi neste skritt mot målet om å bygge en skybasert løsning som er superenkel å bruke, og som med bare noen få klikk tar seg av alle trinn i organiseringen av esportsturneringer - inkludert førsteklasses grafikk!\nPREMIUM HUD er tilgjengelig for alle brukere av Personal, Professional og Enterprise Plan.",
-                        "rocketleague": "Helt fra starten av ønsket vi å bygge en løsning som hjelper esport med å fokusere på esport - og sørge for å utnytte den enorme mengden eksisterende data som esport genererer for seere, spillere og arrangører. Da vi begynte å lykkes på det området, la vi til automatisering og skybasert på listen - for å sikre at arrangører kan fokusere på seere, spillere og lag i stedet for å stille inn alt manuelt og bekymre seg for om alt vil fungere."
-                    },
-                    "ultra": {
-                        "dota2": "Det fantes ingen løsning på markedet som ga tilleggsinformasjon, smeltet inn i grensesnittet fra spillet og var tilgjengelig for alle med et superenkelt oppsett. Ultra HUD for Dota 2 endret alt dette. LHMs avanserte støtte for Dota 2 de siste månedene har gjort det mulig for oss å forbedre alt vi har tilbudt så langt - det var slik Ultra HUD ble til.\nDen første og største oppgraderingen du kommer til å legge merke til, er utseendet på HUD-en - fra nå av er den både allsidig og perfekt tilpasset Dota 2, uten at det går på bekostning av det visuelle. Dette gjør Ultra HUD til den perfekte løsningen for alle, uavhengig av egen merkevarebygging og forventninger. Det er rett og slett en nesten ny del av spillet.",
-                        "cs2": "Counter-Strike 2 er en ny frisk start. Ultra HUD er et omfattende overlay som dekker behovene og stilen som CS2 har brakt med seg. Det raske og enkle oppsettet av Ultra HUD tilpasser seg dine behov og forbedrer arrangementene dine fullstendig. Sendingen din - akkurat som Counter-Strike - er klar for en ny æra.\nUltra HUD er tilgjengelig for alle brukere av Professional LHM Plan og Enterprise Plan med 3 eller flere seter."
-                    }
-                }
-            },
-            "teams": {
-                "tab": {
-                    "title": "Lag",
-                    "info": "Lag-fanen brukes til å administrere lag som vises og brukes i HUD-er og andre LHM-funksjoner."
-                }
-            },
-            "players": {
-                "tab": {
-                    "title": "Spillere",
-                    "info": "Spillere-fanen brukes til å administrere spillere som vises og brukes i HUD-er og andre LHM-funksjoner."
-                }
-            },
-            "matches": {
-                "tab": {
-                    "title": "Kamper",
-                    "info": "Kamper-fanen brukes til å administrere kamper som vises og brukes i HUD-er og andre LHM-funksjoner"
-                }
-            },
-            "tournaments": {
-                "tab": {
-                    "title": "Turneringer",
-                    "info": "Turneringer-fanen brukes til å administrere turneringer som vises og brukes i HUD-er og andre LHM-funksjoner."
-                }
-            },
-            "cgMode": {
-                "tab": {
-                    "title": "CG-modus",
-                    "info": "CG-modus inneholder de viktigste modulene for kringkasting i et kompakt format.\nFra denne fanen kan du administrere kamper, lag, spillere og direktesendinger på ett enkelt skjermbilde.\nDu kan skjule unødvendige faner ved hjelp av knappen \"Skjul\" over hver seksjon."
-                }
-            },
-            "arg": {
-                "tab": {
-                    "title": "Automatisk Replay Generator",
-                    "info": "Modulen Auto Replay Generator (ARG) genererer repriser som kan vises mellom rundene eller ved slutten av en kamp.\nHusk at vMix er nødvendig for å konfigurere ARG på riktig måte. vMix er ikke et gratis program, og ARG er først og fremst beregnet på produksjonsteam som allerede bruker vMix."
-                },
-                "safeband": {
-                    "title": "Safeband",
-                    "info": "Sikkerhetsbånd-alternativene bestemmer hvor lang tid (i millisekunder) før og etter et kill hvert klipp skal inneholde."
-                },
-                "useHLAE": {
-                    "title": "Bruke HLAE?",
-                    "info": "Ved å bruke HLAE kan ARG analysere mer data i spillet, noe som gir bedre drapsprognoser."
-                },
-                "delayConfig": {
-                    "title": "Forsinkelseskonfigurasjon",
-                    "info": "Forsinkelseskonfigurasjon angir hvor mye GOTV-observatøren er forsinket (i sekunder)."
-                },
-                "saveClips": {
-                    "title": "Lagre klippene?",
-                    "info": "Hvis du aktiverer dette alternativet, beholder vMix alle klippene som er generert av ARG, i stedet for å slette dem."
-                },
-                "computerID": {
-                    "title": "Datamaskin-ID",
-                    "info": "ID som brukes av ARG, nødvendig for vellykket tilkobling."
-                }
-            },
-            "aco": {
-                "tab": {
-                    "title": "Autofilmatisk Observatør",
-                    "info": "Med ACO-modulen kan du bruke forhåndsdefinerte kamerabevegelser til å følge handlingen i spillet.\nACO bruker kunstig intelligens til å finne de viktigste hendelsene som skjer i spillet til enhver tid."
-                },
-                "area": {
-                    "title": "Område",
-                    "info": "Områder er regioner på kartet som du binder konfigurasjonene dine til. Hvis det er mange spillere i et gitt område, vil en av konfigurasjonene som er lagt til i området, bli utført i CS:GO-klienten.\nFor å legge til et område klikker du på knappen \"+\" og velger ønsket område på kartet ved å klikke på hjørnene."
-                },
-                "manualControl": {
-                    "title": "Manuell kontroll",
-                    "info": "Bruk panelet for manuell kontroll til å velge et område som skal vises for hånd.\nSiden dette er en ekstern side som åpnes i nettleseren din, kan du også besøke den fra smarttelefonen eller nettbrettet (hvis du er i samme lokale nettverk).\nHvis du klikker eller trykker på et område i det manuelle kontrollpanelet, kjøres konfigurasjonen i CS:GO-klienten."
-                },
-                "areaCreation": {
-                    "title": "Opprettelse av område",
-                    "info": "Klikk på kartet for å definere hjørnene i området.\nBruk angre-knappen hvis du har gjort en feil."
-                },
-                "directorSwitch": {
-                    "title": "Aktiver Director",
-                    "info": "Når bryteren er slått på, starter ACO automatisk opp. Du kan også bruke tastekombinasjon (standard: ALT + K)."
-                },
-                "scoutDirectorSwitch": {
-                    "title": "Aktiver regissør",
-                    "info": "Når bryteren er slått på, starter Scout AI automatisk opp. Du kan også bruke tastekombinasjonen (standard: ALT + K)."
-                },
-                "scoutCinematic": {
-                    "title": "Filmmodus for speider-AI",
-                    "info": "I denne modusen vil Scout AI fungere sammen med ACO AI for å gi en best mulig observasjonsopplevelse. Uten denne modusen gir Scout AI bare POV-kamera, uten oversiktsbilder.\nDenne modusen kan bare brukes hvis ACO AI støtter kartet kampen spilles på."
-                },
-                "timeRemaining": {
-                    "title": "Din månedlige Scout AI-kvote",
-                    "info": "Din tilgjengelige tid til å bruke Scout AI-servere. Den oppdateres for hver måned av abonnementet ditt."
-                },
-                "scoutPredict": {
-                    "title": "Speiderforutsigelse",
-                    "info": "Scout gir mulighet for automatiserte, AI-baserte live-forutsigelser. Hvis dette alternativet er aktivert, vil disse spådommene bli sendt til HUD-ene dine i viktige øyeblikk for å gi bedre innsikt i spillet."
-                },
-                "telnet": {
-                    "info": "Telnet er en protokoll for kommunikasjon med CS2. Når den brukes, trenger du ikke å ha CS2-vinduet i fokus, ettersom LHM bytter spiller med eksterne kommandoer.",
-                    "title": "Telnet"
-                }
-            },
-            "ar": {
-                "tab": {
-                    "title": "Utvidet virkelighet",
-                    "info": "AR-modulstøtte gjør det mulig å vise egendefinerte 3D-objekter som om de var en del av spillet.\nAR bruker kameraposisjonsdata som lastes inn ved hjelp av GSI for å gjengi HTML- og CSS-baserte 3D-objekter over spillscenen."
-                }
-            },
-            "live": {
-                "tab": {
-                    "title": "Direkte",
-                    "info": "Når en direkte-kamp oppdages, fylles Direkte-fanen opp med data om den aktuelle kampen, for eksempel spillernes navn, ID-er og nåværende poengsum.\\nDirekte-fanen gir deg også rask tilgang til spillerredigering."
-                }
-            },
-            "cameras": {
-                "tab": {
-                    "title": "Kameraer",
-                    "info": "Med modulen kameraer kan du vise spillernes webkamerastrømmer i HUD-ene dine ved hjelp av LHM - du trenger ingen eksterne verktøy."
-                }
-            },
-            "addons": {
-                "tab": {
-                    "title": "Tillegg",
-                    "info": "Tillegg er en ny måte å lage kraftige integrasjoner med LHM på, og fungerer ved å tilby sandboxede Node.js-miljøer med CS:GO GSI-hendelsesemittere koblet til dem.\\nTakket være LHM Tillegg kan du fokusere på å skape en best mulig opplevelse for seerne, mens LHM tar seg av alt det tunge arbeidet."
-                }
-            },
-            "quick": {
-                "tab": {
-                    "title": "Rask",
-                    "info": "Med LHM Rask kan du raskt forberede hele spiller-, lag- og HUD-oppsettet fra ett sted, slik at du kan komme i gang med strømmingen med en gang."
-                }
-            },
-            "onlyInProPlusEnt3": {
-                "title": "Oppgrader planen din",
-                "info": "Denne funksjonaliteten er bare tilgjengelig for brukere av Professional- og Enterprise-abonnementer med minst 3 seter.\nOppgrader abonnementet ditt for å låse den opp."
-            },
-            "deviceLockWorkspace": {
-                "title": "Enhetsgrense overskredet",
-                "info": "Det ser ut til at arbeidsområdet brukes på flere enheter enn det abonnementet har plass til.\nVent til enhetslåsen utløper, eller oppgrader Enterprise-abonnementet for å få plass til flere enheter."
-            },
-            "close": "Lukk",
-            "previous": "Forrige",
-            "next": "Neste"
-        },
-        "modals": {
-            "imageTooLarge": {
-                "title": "Bildet er for stort",
-                "info": "Det valgte bildet er for stort. Størrelsesgrensen er {{limit}} MB."
-            },
-            "delete": {
-                "titleTeams": "Slett lag",
-                "titlePlayers": "Slett spillere",
-                "infoTeams": "Er du sikker på at du vil fjerne {{count}} lag?",
-                "infoPlayers": "Er du sikker på at du vil fjerne {{count}} spillere?",
-                "deleteWithPlayers": "Slett med spillere"
-            },
-            "steamApiKeyMissing": {
-                "title": "Steam API-nøkkel mangler",
-                "info": "Det ser ut til at du har lagt inn en egendefinert Steam-URL i SteamID-feltet. LHM krever Steam API-nøkkel for å støtte egendefinerte URL-er. Ønsker du å lagre likevel?"
-            }
-        },
-        "cloudification": {
-            "updateModalTitle": "Last opp HUD-ene dine til LHM Cloud",
-            "updateModalInfo1": "Fra og med LHM 4.9.0 er alle HUD-er fullstendig skybaserte. Det betyr at du nå kan bruke HUD-ene dine på alle enheter, og at de alltid vil være synkronisert.",
-            "updateModalInfo2": "For å fortsette å bruke LHM må du laste opp HUD-ene dine til LHM Cloud.",
-            "updateModalCloudWarning": "Noen av HUD-ene er for øyeblikket lagret komprimert i skyen. For å bruke dem må LHM laste dem ned og dekomprimere dem. Det kan føre til høyere bruk av Cloud-grensen.",
-            "updateModalNonuploadedHUDsStillInDirectory": "HUD-ene dine vil fortsatt være sikkerhetskopiert i HUD-katalogen din hvis du velger å ikke laste dem opp.",
-            "updateModalImporting": "Vi forbereder HUD-ene dine for deg...",
-            "actions": {
-                "uploadAll": "Last opp alle HUD-er til LHM Cloud",
-                "customize": "La meg velge hvilke HUD-er som skal lastes opp",
-                "confirm": "Bekreft og last opp"
-            },
-            "downloadAndUnpack": "Last ned og pakk ut HUD",
-            "spaceCompressedInCloud": "komprimert i skyen",
-            "spaceOnDisk": "på diskett"
+        "readerCode": {
+          "readerCode": "Leserkode"
         },
         "newToLHM": {
-            "games": {
-                "title": "Spillkonfigurasjon",
-                "description": "LHM støtter for øyeblikket CS2, Dota 2, League of Legends, Rocket League, Apex Legends og F1. Hvert spill som støttes, krever en enkel, men nødvendig konfigurasjon for å fungere korrekt med LHM.\nKlikk på Lær mer-knappen nedenfor for å finne ut hvordan du konfigurerer spillene du vil bruke med LHM."
-            },
-            "welcome": {
-                "title": "Velkommen til LHM!",
-                "description": "Er du ny i LHM? Her finner du noen grunnleggende tips for å komme i gang med å bruke programmet!"
-            },
-            "userGuide": {
-                "description": "Ta en titt på brukerveiledningen vår for å lære mer om hver av LHMs komponenter. Du finner beskrivelser, instruksjoner for hvordan du konfigurerer og bruker alle funksjonene, og svar på de vanligste spørsmålene. Hvis du har flere spørsmål, kan du bli med på [[vår Discord|discord]].",
-                "title": "Brukerveiledning"
-            },
-            "lhmHuds": {
-                "title": "LHM HUD-er",
-                "description": "Hver LHM-plan har innebygde HUD-er. Jo høyere plan, desto mer avanserte HUD-er. Klikk på navnene nedenfor for å finne ut mer om hver enkelt:\n\n- Standard HUD for alle støttede spill\n- Premium HUD for [[CS2|premiumCS2]], [[Dota 2|premiumDota2]], [[LoL|premiumLoL]], [[Rocket League|premiumRL]]\n- Ultra HUD for [[CS2|ultraCS2]] og [[Dota 2|ultraDota2]]"
-            },
-            "quick": {
-                "description": "Med LHM Quick kan du raskt konfigurere spillere og lag til å starte med HUD. Funksjonen er først og fremst beregnet på brukere som er kjent med hvordan LHM fungerer, slik at de kan komme i gang med en gang.\nFor øyeblikket støttes følgende spill i LHM Quick: CS2, CS:GO, Dota 2, League of Legends og Rocket League.\nKlikk på Lær mer-knappen nedenfor for å finne ut mer om LHM Quick.",
-                "title": "LHM Quick"
-            },
-            "huds": {
-                "title": "HUD-fanen",
-                "description": "HUD-fanen viser alle HUD-ene du har, både de innebygde og de du har lastet opp selv.\nFor å starte en HUD kan du starte overlayet i et eget vindu på systemet (knappen \"Start HUD overlay\") eller kopiere lenken og legge den til som en nettleserkilde i kringkastingsprogramvaren (knappen \"Toggle HUD url\")."
-            }
+          "show": "Vis \"Ny i LHM\"",
+          "seeNow": "Se nå"
         },
         "cta": {
-            "tryScoutAI": "Bruk vår AI-observatør og flere AI-kampforutsigelser!"
+          "cta": "Vis tilbud om Lexogrine Custom HUD-implementering i HUD-fanen"
         }
+      }
+    },
+    "ar": {
+      "add": "Last opp AR-modul",
+      "toggle": "Av/På AR-modul",
+      "openDirectory": "Åpne modulkatalogen",
+      "deleteLocally": "Slett AR-modul"
+    },
+    "huds": {
+      "header": "HUD-er",
+      "config": {
+        "customRadar": "Radar",
+        "customKillfeed": "Killfeed",
+        "embeddedHUD": "Innebygd HUD",
+        "killfeedOffset": "Killfeed-forskyvning",
+        "scout": "Speider-AI",
+        "autoexecute": "Automatisk execute",
+        "console": "Konsoll",
+        "add": "Legg til HUD",
+        "runGame": "KJØR SPILL",
+        "pauseTest": "PAUSE TEST",
+        "runTest": "KJØR TEST",
+        "clearOCRData": "Tøm OCR-data",
+        "openDirectory": "Åpne HUD-katalogen",
+        "playTestLoop": "Spill av testsløyfe",
+        "ar": "AR",
+        "goToKeybinds": "Konfigurer hurtigtaster",
+        "showOnlyActivePlayers": "Vis bare aktive spillere",
+        "more": "Mer",
+        "hlaeIsRequired": "Du må ha CS:GO som kjører med HLAE",
+        "proOrEntrpriseIsRequired": "Du må ha et Professional- eller Enterprise-abonnement",
+        "hlaeAndHigherPlanIsRequired": "Du må ha CS:GO som kjører med HLAE og et Professional- eller Enterprise-abonnement"
+      },
+      "sort": {
+        "custom": "Tilpasset",
+        "newest": "Nyeste",
+        "oldest": "Eldste"
+      },
+      "fields": {
+        "missing": "Manglende felt",
+        "fieldOfType": "Felt \"{{field}}\" av typen \"{{type}}\"",
+        "fieldNamePlaceholder": "Feltnavn",
+        "inputType": "Inndatatype",
+        "values": {
+          "text": "Tekst",
+          "team": "Lag",
+          "image": "Bilde",
+          "match": "Kamp",
+          "player": "Spiller",
+          "color": "Farge"
+        },
+        "visible": "Synlig",
+        "manageCustom": "Administrer egendefinerte felt",
+        "addNew": "+ Legg til nytt felt"
+      },
+      "includes": {
+        "customRadar": "Inkluderer egendefinert radar",
+        "customKillfeed": "Inkluderer tilpasset killfeed"
+      },
+      "removal": {
+        "title": "Fjerner {{hud}}",
+        "areYouSure": "Er du sikker på at du vil fjerne {{hud}}?"
+      },
+      "actions": {
+        "toggleUrl": "Av/På HUD-URL",
+        "settings": "Gå til HUD-innstillinger",
+        "shortcut": "Snarvei",
+        "overlay": "Start HUD-overlay",
+        "upload": "Last opp HUD",
+        "uploading": "Laster opp...",
+        "delete": "Slett",
+        "deleteLocally": "Slett HUD lokalt",
+        "deleteFromCloud": "Slett HUD fra skyen",
+        "downloading": "Laster ned...",
+        "toggleHUD": "Veksle HUD (kun innebygd)",
+        "toggleHUDKeybinds": "Veksle mellom HUD-tastebindinger (for nettleserkilde)",
+        "clickToCopy": "Klikk for å kopiere",
+        "createShortcut": "Opprett snarvei på skrivebordet"
+      },
+      "warning": {
+        "csgoHUDinCS2": "Denne HUD-en er laget for CS:GO. Det er ikke garantert at alle funksjonene vil fungere på samme måte i CS2.",
+        "specifyHLAEPath": "Angi HLAE-banen i Innstillinger for å bruke tilpassede killfeeds",
+        "specifyAFXInteropPath": "Angi AFX Interop-bane i Innstillinger for å bruke AFX-modus",
+        "specifyAFXModeInfo": "Når du bruker AFX-modus, klikker du på bryteren etter at du har blitt med i kampen - du trenger ikke å starte overlegget."
+      },
+      "error": {
+        "title": "Kan ikke legge til HUD",
+        "config": "LHM klarte ikke å lese konfigurasjonsfilen for HUD.",
+        "upload": "LHM klarte ikke å laste opp HUD til skyen. Prøv igjen senere.",
+        "generic": "Noe gikk galt. Prøv igjen senere.",
+        "archive": "LHM klarte ikke å lese arkivfilen.",
+        "source": "Det virker som om du laster opp kildekoden i stedet for den kompilerte HUD-en. Vennligst kompiler HUD før du laster opp.",
+        "space": "Du har ikke nok skyplass i arbeidsområdet du bruker. Oppgrader abonnementet eller slett noen av skyressursene dine."
+      }
+    },
+    "app": {
+      "changeGame": "Endre spill",
+      "cloud": {
+        "isActive": "Skyen er aktiv",
+        "isNotActive": "Skyen er ikke aktiv"
+      }
+    },
+    "cta": {
+      "orderPlan": "Bestill plan",
+      "orderCustomHUD": "Bestill din egen tilpassede HUD",
+      "orderCustomHUDName": {
+        "cs2": "Bestill din egen tilpassede HUD for CS2",
+        "csgo": "Bestill din egen tilpassede HUD for CS:GO",
+        "dota2": "Bestill din egen tilpassede HUD for Dota 2",
+        "leagueoflegends": "Bestill din egen tilpassede HUD for LoL",
+        "rocketleague": "Bestill din egen tilpassede HUD for Rocket League",
+        "apexlegends": "Bestill din egen tilpassede HUD for Apex Legends",
+        "valorant": "Bestill din egen tilpassede HUD for Valorant"
+      },
+      "getAQuote": "Få et tilbud",
+      "tryScoutAI": "Bruk vår AI-observatør og flere AI-kampforutsigelser!",
+      "newToLHM": "Er du ny på LHM?"
+    },
+    "helpers": {
+      "next": "Neste",
+      "previous": "Forrige",
+      "close": "Lukk",
+      "learnMore": "Lær mer",
+      "onlyInProPlus": {
+        "title": "Oppgrader abonnementet ditt",
+        "info": "Denne funksjonaliteten er bare tilgjengelig for brukere av Professional- og Enterprise-abonnementene.\nOppgrader abonnementet ditt for å låse den opp."
+      },
+      "onlyInProPlusEnt3": {
+        "title": "Oppgrader planen din",
+        "info": "Denne funksjonaliteten er bare tilgjengelig for brukere av Professional- og Enterprise-abonnementer med minst 3 seter.\nOppgrader abonnementet ditt for å låse den opp."
+      },
+      "deviceLockWorkspace": {
+        "title": "Enhetsgrense overskredet",
+        "info": "Det ser ut til at arbeidsområdet brukes på flere enheter enn det abonnementet har plass til.\nVent til enhetslåsen utløper, eller oppgrader Enterprise-abonnementet for å få plass til flere enheter."
+      },
+      "huds": {
+        "killfeedOffset": {
+          "title": "Killfeed-offset",
+          "info": "Hvis du aktiverer dette alternativet, settes safezoney til 0,8 for å ta høyde for tilpassede HUD-elementer i øverste høyre hjørne"
+        },
+        "previewDescriptions": {
+          "premium": {
+            "cs2": "Med PREMIUM HUD tar vi neste skritt mot målet om å bygge en skybasert løsning som er superenkel å bruke, og som med bare noen få klikk tar seg av alle trinn i organiseringen av esportsturneringer - inkludert grafikk i toppklasse!\nPREMIUM HUD er tilgjengelig for alle brukere av Personal, Professional og Enterprise Plan.",
+            "csgo": "Med PREMIUM HUD tar vi neste skritt mot målet om å bygge en skybasert løsning som er superenkel å bruke, og som med bare noen få klikk tar seg av alle trinn i organiseringen av esportsturneringer - inkludert førsteklasses grafikk!\nPREMIUM HUD er tilgjengelig for alle brukere av Personal, Professional og Enterprise Plan.",
+            "dota2": "Premium HUD for Dota 2 er vårt første skritt mot å revolusjonere MOBA-kringkastingsbransjen. Målet vårt var å få absolutt alle til å dra nytte av denne integrasjonen. Enten du er en nykommer på e-sport-scenen eller allerede har din egen merkevare og velprøvde løsninger, er vi sikre på at Premium HUD vil gi deg en opplevelse som verken du eller publikum har sett før i andre sendinger.",
+            "leagueoflegends": "Premium HUD for League of Legends tilfører det som mangler i spillets observatør-HUD og gjør det enda bedre. En enorm mengde data, ekstra statistikk og skjermbilder, vakker grafikk integrert i spillgrensesnittet skaper en helt ny og unik opplevelse. Premium HUD for League of Legends er en kvalitet som kan observeres på de mest berømte arrangementene, fra nå av tilgjengelig for alle.",
+            "rocketleague": "Helt fra starten av ønsket vi å bygge en løsning som hjelper esport med å fokusere på esport - og sørge for å utnytte den enorme mengden eksisterende data som esport genererer for seere, spillere og arrangører. Da vi begynte å lykkes på det området, la vi til automatisering og skybasert på listen - for å sikre at arrangører kan fokusere på seere, spillere og lag i stedet for å stille inn alt manuelt og bekymre seg for om alt vil fungere.",
+            "valorant": "Premium HUD for Valorant ble designet for å bevare spillets estetikk og samtidig implementere formler som har blitt brukt i FPS-spilloverlegg i årevis. Arrangementet av elementer i tilskuerens HUD er umiddelbart klart for betrakteren og blir en integrert del av spillet. Dette skyldes også den fantastiske grafikken som forsterker hele opplevelsen som denne observatør-HUD-en gir."
+          },
+          "ultra": {
+            "cs2": "Counter-Strike 2 er en ny frisk start. Ultra HUD er et omfattende overlay som dekker behovene og stilen som CS2 har brakt med seg. Det raske og enkle oppsettet av Ultra HUD tilpasser seg dine behov og forbedrer arrangementene dine fullstendig. Sendingen din - akkurat som Counter-Strike - er klar for en ny æra.\nUltra HUD er tilgjengelig for alle brukere av Professional LHM Plan og Enterprise Plan med 3 eller flere seter.",
+            "dota2": "Det fantes ingen løsning på markedet som ga tilleggsinformasjon, smeltet inn i grensesnittet fra spillet og var tilgjengelig for alle med et superenkelt oppsett. Ultra HUD for Dota 2 endret alt dette. LHMs avanserte støtte for Dota 2 de siste månedene har gjort det mulig for oss å forbedre alt vi har tilbudt så langt - det var slik Ultra HUD ble til.\nDen første og største oppgraderingen du kommer til å legge merke til, er utseendet på HUD-en - fra nå av er den både allsidig og perfekt tilpasset Dota 2, uten at det går på bekostning av det visuelle. Dette gjør Ultra HUD til den perfekte løsningen for alle, uavhengig av egen merkevarebygging og forventninger. Det er rett og slett en nesten ny del av spillet.",
+            "leagueoflegends": "League of Legends Ultra HUD er den komplekse tilskuer- og observatørløsningen for å tilby den høyeste grafikken for League of Legends esport-arrangementet med LHMs enkelhet. Tilgjengelig med bare noen få klikk, med dedikerte overlegg, animasjoner og tilpassede funksjoner for draft, kamp og etter kamp."
+          }
+        },
+        "scout": {
+          "title": "Speider AI",
+          "info": "Hvis du aktiverer dette alternativet, starter CS2 med VConsole2, noe som kan hindre deg i å bli med på servere med mindre det er riktig konfigurert."
+        },
+        "tab": {
+          "title": "HUD-fanen",
+          "info": "HUD-fanen brukes til å administrere HUD-er og konfigurasjon av spillstart."
+        },
+        "radar": {
+          "title": "Radar",
+          "info": "Hvis du aktiverer dette alternativet og kjører spillet med konfigurasjonen nedenfor eller bruker knappen \"Kjør spill\", deaktiveres radaren i spillet for å bruke den egendefinerte radaren som er innebygd i HUD-ene."
+        },
+        "killfeed": {
+          "title": "Killfeed",
+          "info": "Hvis du aktiverer dette alternativet og kjører spillet med konfigurasjonen nedenfor eller ved å bruke knappen \"Kjør spill\", deaktiveres killfeed i spillet for å bruke den tilpassede killfeeden som er innebygd i HUD-ene dine.\nDette alternativet starter CS:GO i usikker modus - du vil ikke kunne bli med på VAC-beskyttede servere (f.eks. Faceit, matchmaking) med mindre du er CSTV-tilskuer mens det er aktivert."
+        },
+        "embeddedHUD": {
+          "title": "Innebygd HUD",
+          "info": "Hvis du aktiverer dette alternativet, kobles LHM til CS:GO-renderingsprosessen, slik at HUD-en din blir en del av spillet i stedet for et separat overlegg. For å starte en HUD i innebygd modus bruker du bryteren ved siden av HUD-en.\nBruk av innebygd modus er nødvendig for AR. Det kan også redusere spillets ytelse.\nDette alternativet starter CS:GO i usikker modus - du vil ikke kunne bli med på VAC-beskyttede servere (f.eks. Faceit, matchmaking) med mindre du er CSTV-tilskuer mens det er aktivert."
+        },
+        "playTestLoop": {
+          "title": "Spill testsløyfe",
+          "info": "Hvis du aktiverer dette alternativet, spilles testdataene av i en loop slik at de aldri slutter. Dette er nyttig for å teste HUD-ene dine."
+        },
+        "ar": {
+          "title": "AR",
+          "info": "Hvis du aktiverer dette alternativet og kjører spillet med konfigurasjonen nedenfor eller bruker knappen \"Kjør spill\", kan du bruke AR-moduler.\nDette alternativet starter CS:GO i usikker modus - du vil ikke kunne bli med på VAC-beskyttede servere (f.eks. Faceit, matchmaking) med mindre du er CSTV-tilskuer mens det er aktivert."
+        },
+        "autoExecute": {
+          "title": "Automatisk execute",
+          "info": "knappen \"Kjør spill\" starter spillet med konfigurasjonen nedenfor når dette alternativet er aktivert."
+        },
+        "xray": {
+          "title": "XRay",
+          "info": "Med dette alternativet kan du angi egendefinerte farger for boksene rundt spillerne i spillet."
+        },
+        "runTest": {
+          "title": "Kjør test",
+          "info": "Med denne funksjonen kan du simulere en spilldatastrøm for å teste HUD-en eller konfigurasjonen."
+        },
+        "launchParams": {
+          "title": "Startparametere",
+          "info": "Du kan angi lanseringsparametere for spillet her, i stedet for innstillingene i Steam"
+        },
+        "clearOCRData": {
+          "title": "Tømmer OCR-data",
+          "info": "I tilfelle du ser en annen kamp med LHM Valorant-integrering, eller bare OCR leser feil data, kan du slette OCR-data, slik at LHM leser og analyserer alle data på nytt, og fyller alle feltene fra bunnen av."
+        }
+      },
+      "teams": {
+        "tab": {
+          "title": "Lag",
+          "info": "Lag-fanen brukes til å administrere lag som vises og brukes i HUD-er og andre LHM-funksjoner."
+        }
+      },
+      "players": {
+        "tab": {
+          "title": "Spillere",
+          "info": "Spillere-fanen brukes til å administrere spillere som vises og brukes i HUD-er og andre LHM-funksjoner."
+        },
+        "identification": {
+          "title": "Spilleridentifikasjon",
+          "info": "Dette feltet gjør det mulig for LHM å identifisere spillere i spillet og tilordne dem til informasjon som er lagret i LHM-databasen. Dette er nyttig for å vise spillernavn, avatarer og annen informasjon i HUD-er."
+        },
+        "steamBasedIdentification": "Spilleridentifikasjon (SteamID64)",
+        "usernameBasedIdentification": "Spilleridentifikasjon (navn i spillet)"
+      },
+      "matches": {
+        "tab": {
+          "title": "Kamper",
+          "info": "Kamper-fanen brukes til å administrere kamper som vises og brukes i HUD-er og andre LHM-funksjoner"
+        }
+      },
+      "tournaments": {
+        "tab": {
+          "title": "Turneringer",
+          "info": "Turneringer-fanen brukes til å administrere turneringer som vises og brukes i HUD-er og andre LHM-funksjoner."
+        }
+      },
+      "cgMode": {
+        "tab": {
+          "title": "CG-modus",
+          "info": "CG-modus inneholder de viktigste modulene for kringkasting i et kompakt format.\nFra denne fanen kan du administrere kamper, lag, spillere og direktesendinger på ett enkelt skjermbilde.\nDu kan skjule unødvendige faner ved hjelp av knappen \"Skjul\" over hver seksjon."
+        }
+      },
+      "arg": {
+        "tab": {
+          "title": "Automatisk Replay Generator",
+          "info": "Modulen Auto Replay Generator (ARG) genererer repriser som kan vises mellom rundene eller ved slutten av en kamp.\nHusk at vMix er nødvendig for å konfigurere ARG på riktig måte. vMix er ikke et gratis program, og ARG er først og fremst beregnet på produksjonsteam som allerede bruker vMix."
+        },
+        "safeband": {
+          "title": "Safeband",
+          "info": "Sikkerhetsbånd-alternativene bestemmer hvor lang tid (i millisekunder) før og etter et kill hvert klipp skal inneholde."
+        },
+        "useHLAE": {
+          "title": "Bruke HLAE?",
+          "info": "Ved å bruke HLAE kan ARG analysere mer data i spillet, noe som gir bedre drapsprognoser."
+        },
+        "delayConfig": {
+          "title": "Forsinkelseskonfigurasjon",
+          "info": "Forsinkelseskonfigurasjon angir hvor mye CSTV-observatøren er forsinket (i sekunder)."
+        },
+        "saveClips": {
+          "title": "Lagre klippene?",
+          "info": "Hvis du aktiverer dette alternativet, beholder vMix alle klippene som er generert av ARG, i stedet for å slette dem."
+        },
+        "computerID": {
+          "title": "Datamaskin-ID",
+          "info": "ID som brukes av ARG, nødvendig for vellykket tilkobling."
+        }
+      },
+      "aco": {
+        "telnet": {
+          "title": "Telnet",
+          "info": "Telnet er en protokoll for kommunikasjon med CS2. Når den brukes, trenger du ikke å ha CS2-vinduet i fokus, ettersom LHM bytter spiller med fjernkommandoer."
+        },
+        "tab": {
+          "title": "Autofilmatisk Observatør",
+          "info": "Med ACO-modulen kan du bruke forhåndsdefinerte kamerabevegelser til å følge handlingen i spillet.\nACO bruker kunstig intelligens til å finne de viktigste hendelsene som skjer i spillet til enhver tid."
+        },
+        "area": {
+          "title": "Område",
+          "info": "Områder er regioner på kartet som du binder konfigurasjonene dine til. Hvis det er mange spillere i et gitt område, vil en av konfigurasjonene som er lagt til i området, bli utført i CS:GO-klienten.\nFor å legge til et område klikker du på knappen \"+\" og velger ønsket område på kartet ved å klikke på hjørnene."
+        },
+        "manualControl": {
+          "title": "Manuell kontroll",
+          "info": "Bruk panelet for manuell kontroll til å velge et område som skal vises for hånd.\nSiden dette er en ekstern side som åpnes i nettleseren din, kan du også besøke den fra smarttelefonen eller nettbrettet (hvis du er i samme lokale nettverk).\nHvis du klikker eller trykker på et område i det manuelle kontrollpanelet, kjøres konfigurasjonen i CS:GO-klienten."
+        },
+        "areaCreation": {
+          "title": "Opprettelse av område",
+          "info": "Klikk på kartet for å definere hjørnene i området.\nBruk angre-knappen hvis du har gjort en feil."
+        },
+        "directorSwitch": {
+          "title": "Aktiver Director",
+          "info": "Når bryteren er slått på, starter ACO automatisk opp. Du kan også bruke tastekombinasjon (standard: ALT + K)."
+        },
+        "scoutDirectorSwitch": {
+          "title": "Aktiver regissør",
+          "info": "Når bryteren er slått på, starter Scout AI automatisk opp. Du kan også bruke tastekombinasjonen (standard: ALT + K)."
+        },
+        "scoutCinematic": {
+          "title": "Filmmodus for speider-AI",
+          "info": "I denne modusen vil Scout AI fungere sammen med ACO AI for å gi en best mulig observasjonsopplevelse. Uten denne modusen gir Scout AI bare POV-kamera, uten oversiktsbilder.\nDenne modusen kan bare brukes hvis ACO AI støtter kartet kampen spilles på."
+        },
+        "scoutPredict": {
+          "title": "Speiderforutsigelse",
+          "info": "Scout gir mulighet for automatiserte, AI-baserte live-forutsigelser. Hvis dette alternativet er aktivert, vil disse spådommene bli sendt til HUD-ene dine i viktige øyeblikk for å gi bedre innsikt i spillet."
+        },
+        "timeRemaining": {
+          "title": "Gjenværende tid av din månedlige Scout AI-kvote",
+          "info": "Din tilgjengelige tid til å bruke Scout AI-servere. Den oppdateres for hver måned av abonnementet ditt."
+        }
+      },
+      "ar": {
+        "tab": {
+          "title": "Utvidet virkelighet",
+          "info": "AR-modulstøtte gjør det mulig å vise egendefinerte 3D-objekter som om de var en del av spillet.\nAR bruker kameraposisjonsdata som lastes inn ved hjelp av GSI for å gjengi HTML- og CSS-baserte 3D-objekter over spillscenen."
+        }
+      },
+      "live": {
+        "tab": {
+          "title": "Direkte",
+          "info": "Når en direkte-kamp oppdages, fylles Direkte-fanen opp med data om den aktuelle kampen, for eksempel spillernes navn, ID-er og nåværende poengsum.\\nDirekte-fanen gir deg også rask tilgang til spillerredigering."
+        }
+      },
+      "cameras": {
+        "delay": {
+          "title": "Kameraforsinkelse",
+          "info": "Kameraforsinkelsen støttes for øyeblikket bare i offisielle, Lexogrine HUD-er: Ultra & Premium HUDs"
+        },
+        "tab": {
+          "title": "Kameraer",
+          "info": "Med modulen kameraer kan du vise spillernes webkamerastrømmer i HUD-ene dine ved hjelp av LHM - du trenger ingen eksterne verktøy."
+        }
+      },
+      "addons": {
+        "tab": {
+          "title": "Tillegg",
+          "info": "Addons er en ny måte å skape kraftige integrasjoner med LHM på, og fungerer ved å tilby sandboxede Node.js-miljøer med GSI-hendelsesemittere koblet til dem.\nTakket være LHM Addons kan du fokusere på å skape en best mulig opplevelse for seerne, mens LHM tar seg av alt det tunge arbeidet."
+        }
+      },
+      "quick": {
+        "tab": {
+          "title": "Rask",
+          "info": "Med LHM Rask kan du raskt forberede hele spiller-, lag- og HUD-oppsettet fra ett sted, slik at du kan komme i gang med strømmingen med en gang."
+        }
+      },
+      "signals": {
+        "cta": {
+          "title": "Trenger du å legge til flere hendelser?",
+          "info": "Oppgrader abonnementet ditt for å få tilgang til ubegrenset antall arrangementer med avanserte alternativer, som muligheten til å opprette arrangementsgrener og forhåndsinnstillinger!"
+        }
+      }
+    },
+    "modals": {
+      "imageTooLarge": {
+        "title": "Bildet er for stort",
+        "info": "Det valgte bildet er for stort. Størrelsesgrensen er {{limit}} MB."
+      },
+      "delete": {
+        "titleTeams": "Slett lag",
+        "titlePlayers": "Slett spillere",
+        "titleMatches": "Slett kamper",
+        "infoTeams": "Er du sikker på at du vil fjerne {{count}} lag?",
+        "infoPlayers": "Er du sikker på at du vil fjerne {{count}} spillere?",
+        "infoMatches": "Er du sikker på at du vil fjerne {{count}} kamper?",
+        "deleteWithPlayers": "Slett med spillere"
+      },
+      "steamApiKeyMissing": {
+        "title": "Steam API-nøkkel mangler",
+        "info": "Det ser ut til at du har lagt inn en egendefinert Steam-URL i SteamID-feltet. LHM krever Steam API-nøkkel for å støtte egendefinerte URL-er. Ønsker du å lagre likevel?"
+      }
+    },
+    "cloudification": {
+      "updateModalTitle": "Last opp HUD-ene dine til LHM Cloud",
+      "updateModalInfo1": "Fra og med LHM 4.9.0 er alle HUD-er fullstendig skybaserte. Det betyr at du nå kan bruke HUD-ene dine på alle enheter, og at de alltid vil være synkronisert.",
+      "updateModalInfo2": "For å fortsette å bruke LHM må du laste opp HUD-ene dine til LHM Cloud.",
+      "updateModalCloudWarning": "Noen av HUD-ene er for øyeblikket lagret komprimert i skyen. For å bruke dem må LHM laste dem ned og dekomprimere dem. Det kan føre til høyere bruk av Cloud-grensen.",
+      "updateModalNonuploadedHUDsStillInDirectory": "HUD-ene dine vil fortsatt være sikkerhetskopiert i HUD-katalogen din hvis du velger å ikke laste dem opp.",
+      "updateModalImporting": "Vi forbereder HUD-ene dine for deg...",
+      "actions": {
+        "uploadAll": "Last opp alle HUD-er til LHM Cloud",
+        "customize": "La meg velge hvilke HUD-er som skal lastes opp",
+        "confirm": "Bekreft og last opp"
+      },
+      "downloadAndUnpack": "Last ned og pakk ut HUD",
+      "spaceCompressedInCloud": "komprimert i skyen",
+      "spaceOnDisk": "på diskett",
+      "sizeLimitModalTitle": "Begrensning for skylagringsstørrelse",
+      "sizeLimitModalInfo1": "Operasjonen du ønsker å utføre, kan ikke utføres på grunn av skylagringsgrensen for kontoen din. For å fortsette må du slå av skylagringen eller slette unødvendige ressurser (HUD-er, lag, spillere, kamper, turneringer, ACO-baner). Kontroller",
+      "sizeLimitModalInfo2": "for å se din nåværende bruk og kapasitet for skylagring."
+    },
+    "synchronization": {
+      "noUploadedResources": "Det ser ut til at du ikke har lastet opp til skyen ennå. Du kan laste opp din nåværende database, eller deaktivere synkronisering på denne maskinen",
+      "noSyncLocal": "Din lokale database er ikke synkronisert med skylagringen. Du kan laste ned eller laste opp databasen eller deaktivere synkronisering. Vær oppmerksom på at nedlasting vil fjerne det du har på denne PC-en, og at opplasting vil SLETTE innholdet i skylagringen. Hva ønsker du å gjøre?",
+      "error": "Det har oppstått en feil, så for å forhindre tap av data har vi slått av synkroniseringen",
+      "modalTitle": "Synkronisering"
+    },
+    "workspaces": {
+      "pickModalTitle": "Velg arbeidsområdet ditt",
+      "pick": "Velg",
+      "unknownWorkspace": "Ukjent arbeidsområde"
+    },
+    "streamDeck": {
+      "modalTitle": "Vi oppdaget at du bruker Stream Deck",
+      "modalInfo": "vil du at LHM skal koble seg til det?"
+    },
+    "newToLHM": {
+      "games": {
+        "title": "Velkommen til LHM!",
+        "description": "Er du ny på LHM? Her finner du noen grunnleggende tips for å komme i gang med å bruke programmet!\n\nLHM støtter for øyeblikket CS2, Dota 2, League of Legends, Rocket League, Apex Legends og F1. Alle spillene som støttes, krever en enkel, men nødvendig konfigurasjon for å fungere korrekt med LHM.\nKlikk på Lær mer-knappen nedenfor for å finne ut hvordan du konfigurerer spillene du vil bruke med LHM."
+      },
+      "quick": {
+        "title": "LHM Quick",
+        "description": "Med LHM Quick kan du raskt konfigurere spillere og lag til å starte med HUD. Funksjonen er først og fremst beregnet på brukere som er kjent med hvordan LHM fungerer, slik at de kan komme i gang med en gang.\nFor øyeblikket støttes følgende spill i LHM Quick: CS2, CS:GO, Dota 2, League of Legends og Rocket League.\nKlikk på Lær mer-knappen nedenfor for å finne ut mer om LHM Quick."
+      },
+      "huds": {
+        "title": "HUD-fanen",
+        "description": "HUD-fanen viser alle HUD-ene du har, både de innebygde og de du har lastet opp selv.\nFor å starte en HUD kan du starte overlayet i et eget vindu på systemet (knappen \"Start HUD overlay\") eller kopiere lenken og legge den til som en nettleserkilde i kringkastingsprogramvaren (knappen \"Toggle HUD url\")."
+      },
+      "lhmHuds": {
+        "title": "LHM HUD-er",
+        "description": "Hver LHM-plan har innebygde HUD-er. Jo høyere plan, desto mer avanserte HUD-er. Klikk på navnene nedenfor for å finne ut mer om hver enkelt:\n\n- Standard HUD for alle støttede spill\n- Premium HUD for [[CS2|premiumCS2]], [[Dota 2|premiumDota2]], [[LoL|premiumLoL]], [[Rocket League|premiumRL]]\n- Ultra HUD for [[CS2|ultraCS2]] og [[Dota 2|ultraDota2]]"
+      },
+      "userGuide": {
+        "title": "Brukerveiledning",
+        "description": "Ta en titt på brukerveiledningen vår for å lære mer om hver av LHMs komponenter. Du finner beskrivelser, instruksjoner for hvordan du konfigurerer og bruker alle funksjonene, og svar på de vanligste spørsmålene. Hvis du har flere spørsmål, kan du bli med på [[vår Discord|discord]]."
+      }
     }
+  }
 }

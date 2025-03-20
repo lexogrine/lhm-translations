@@ -1,0 +1,1029 @@
+{
+  "translation": {
+    "common": {
+      "cgMode": "CG Mode",
+      "or": "o",
+      "close": "Isara",
+      "save": "I-save",
+      "saveAndSend": "I-save at ipadala",
+      "saveAndRestart": "I-save at i-restart",
+      "saveAndExit": "I-save at lumabas",
+      "loadingSuccess": "Matagumpay na na-load",
+      "loaded": "Na-load",
+      "notLoaded": "Hindi na-load",
+      "vs": "VS",
+      "noTeam": "Walang koponan",
+      "noPlayer": "Walang manlalaro",
+      "noMatch": "Hindi nahanap ang laban",
+      "noTournament": "Walang tournament",
+      "noValue": "Default",
+      "teamOne": "Team One",
+      "teamTwo": "Team Two",
+      "show": "Show",
+      "hide": "Itago",
+      "map": "Mapa",
+      "team": "Team",
+      "players": "Players",
+      "realName": "Real name",
+      "player": "Player",
+      "teams": "Teams",
+      "team1": "Team 1",
+      "team2": "Team 2",
+      "teamNumber": "TEAM #{{num}}",
+      "vetoNumber": "Veto {{{num}} }",
+      "delete": "Delete",
+      "edit": "Edit",
+      "live": "Live",
+      "match": "Match",
+      "goBack": "Bumalik",
+      "ct": "CT",
+      "t": "T",
+      "no": "Hindi",
+      "yes": "Oo",
+      "noDontAsk": "Hindi, huwag mo nang itanong",
+      "csgo": {
+        "ct": "CT",
+        "t": "T",
+        "no": "Hindi"
+      },
+      "cs2": {
+        "ct": "CT",
+        "t": "T",
+        "no": "Hindi"
+      },
+      "valorant": {
+        "ct": "DEF",
+        "t": "ATK",
+        "no": "Hindi"
+      },
+      "export": "I-export",
+      "cancel": "Kanselahin",
+      "next": "Susunod",
+      "finish": "Tapos",
+      "understand": "Naiintindihan ko",
+      "tournaments": "Tournaments",
+      "firstName": "First Name",
+      "lastName": "Apelyido",
+      "createNew": "Lumikha ng Bagong",
+      "nickname": "Nickname",
+      "ready": "Handa",
+      "country": "Bansa",
+      "manage": "Pamahalaan",
+      "import": "Import",
+      "teamName": "Pangalan ng Koponan",
+      "shortName": "Maikling Pangalan",
+      "search": "Paghahanap...",
+      "loading": "Naglo-load...",
+      "ok": "Ok",
+      "disconnect": "Idiskonekta",
+      "connect": "Kumonekta",
+      "refresh": "I-refresh",
+      "enable": "Paganahin",
+      "example": "Halimbawa",
+      "disable": "Huwag paganahin",
+      "download": "I-download",
+      "upload": "I-upload",
+      "accept": "Tanggapin",
+      "decline": "Tanggihan",
+      "downloadTemplate": "I-download ang template",
+      "clickAndCopy": "I-click at Kopyahin",
+      "swap": "Swap"
+    },
+    "chat": {
+      "title": "Support Chat",
+      "header": "Chat with Support",
+      "suggestionHeader": "Maaaring sagutin nito ang iyong tanong",
+      "outOfOfficeWarning": "Ang aming team ng suporta ay karaniwang available sa mga araw ng trabaho mula 9 AM hanggang 5 PM CEST. Maaari kaming magtagal bago tumugon sa labas ng mga oras na ito.",
+      "typeYourMessage": "I-type ang iyong mensahe dito..."
+    },
+    "blocker": {
+      "personal": "I-upgrade ang iyong LHM sa isang Personal, Propesyonal o Enterprise na plano upang makakuha ng ganap na access sa seksyong ito.",
+      "proPlus": "I-upgrade ang iyong LHM sa isang Propesyonal o Enterprise na plano upang makakuha ng ganap na access sa seksyong ito.",
+      "upgradeNow": "Mag-upgrade ngayon",
+      "featureDescription": {
+        "cgmode": "CG Mode ay isinasama ang pinakamahalagang mga module para sa mga pagpapatakbo ng pagsasahimpapawid sa isang compact na form. Mula sa tab na ito, maaari mong pamahalaan ang iyong mga laban, koponan, manlalaro, at Live na laro sa isang screen. I-upgrade ang iyong LHM sa isang Personal, Propesyonal o Enterprise na plano upang makakuha ng ganap na access sa seksyong ito.",
+        "arg": "Automatization ang susunod na hangganan - at dito sa Lexogrine determinado kaming tumawid dito! Ganap na ino-automate ng Auto Replay Generator ang replay system. ARG - batay sa tinukoy na pamantayan - sinusubaybayan ang bawat kaganapan sa laro upang awtomatikong makuha ang pinakamahahalagang sandali at magpakita ng mga nakamamanghang replay sa pagitan ng mga round. Ang kailangan mo lang magkaroon ay vMix o OBS. I-upgrade ang iyong LHM sa isang Personal, Propesyonal o Enterprise na plano upang makakuha ng ganap na access sa seksyong ito.",
+        "addons": "Ang mga addon ay isang bagong paraan upang lumikha ng mga pagsasama sa LHM. Hanggang sa puntong ito, tanging ang custom na code ng HUD ang may access sa feed ng data ng laro, na nangangahulugang anuman ang gusto mong gawin, kailangan itong gawin sa kapaligiran ng browser. Gumagana ang mga addon sa mga kapaligiran ng server - ang mga ito ay karaniwang NodeJS app na may isang GSI Event emitter na nakakabit sa kanila. Nangangahulugan ito na hindi mo kailangang gumawa ng custom na HTTP server na may parser para lamang makatanggap ng impormasyon mula sa mga sinusuportahang laro (CS2, Dota 2), mayroon ka ng lahat ng iyon sa labas ng kahon, para makapag-focus ka sa mga pagsasama at feature na gusto mo upang lumikha. I-upgrade ang iyong LHM sa isang Personal, Propesyonal o Enterprise na plano upang makakuha ng ganap na access sa seksyong ito.",
+        "aco": "Imposibleng makuha ang bawat aksyon sa isang perpektong paraan at mula sa isang perpektong pananaw - ngunit ang Scout ay talagang malapit doon. Ang aming sariling AI ay natututo mula sa libu-libong mga laro upang makuha ang mga pinaka-maanghang na kaganapan nang mag-isa, nang walang input ng tao. I-upgrade ang iyong LHM sa isang Personal na plano para makakuha ng access sa lahat ng Scout AI modules - Scout Vision, Scout Predict at Scout Cinematic.",
+        "cameras": "Ang aming camera system ay napakadaling gamitin at makakatipid sa iyo ng malaking halaga ng oras ng pag-setup - para sa mga organizer at para sa mga manlalaro. Walang labis na kumplikado at nakakaubos ng oras na pagsasaayos ng software ng produksyon, walang mga isyu sa hardware. Ikonekta ang camera at italaga ito sa isang player sa LHM. Ilunsad ang HUD at ngumiti sa madla. I-upgrade ang iyong LHM sa isang Personal, Propesyonal o Enterprise na plano para makakuha ng ganap na access sa seksyong ito. Ang",
+        "signals": "LHM Signals ay ang aming custom na pagsasama sa Bitfocus Companion app. Ang aming layunin ay tumulong sa automation ng predictable, in-game na mga kaganapan. Inaalagaan iyon ng mga signal, at nagbibigay-daan sa pag-trigger ng mga button ng Kasama sa mga tinukoy na kaganapan sa laro. I-upgrade ang iyong LHM sa isang Personal,Propesyonal o Enterprise na plano upang makakuha ng ganap na access sa seksyong ito."
+      }
+    },
+    "titles": {
+      "players": "Players",
+      "teams": "Teams",
+      "arg": "Replays",
+      "aco": "Scout AI",
+      "ar": "Augmented Reality",
+      "cgpanel": "CG Mode",
+      "huds": "HUDs",
+      "matches": "Matches",
+      "tournaments": "Tournaments",
+      "live": "Live",
+      "signals": "Signals",
+      "cameras": "Cameras",
+      "addons": "Addons",
+      "settings": "Settings",
+      "credits": "Credits",
+      "quick": "Quick",
+      "chat": "Support Chat"
+    },
+    "aco": {
+      "disabled": "Naka-disable",
+      "aco1": "ACO",
+      "acoAI": "ACO AI",
+      "acoAIScout": "ACO AI + Scout AI",
+      "scoutOnly": "Scout AI",
+      "cs2Warning": "ACO at ACO AI ay kasalukuyang hindi available para sa bagong inilabas na Counter-Strike 2. Nawawala ang CS2 ng mga pangunahing feature na kinakailangan ng LHM para gumana ang mga functionality na iyon ngayon.",
+      "cs2ScoutAndARGWarning": "Dahil sa nawawalang mga pangunahing tampok sa CS2, {{ feature }} ngayon ay nangangailangan ng in-game grenade keybindings na itakda sa kanilang mga default na halaga (number keys 1-0 sa keyboard) upang gumana nang tama. Ang kakulangan ng mga kinakailangang command sa CS2 ay pumipigil sa LHM na awtomatikong lumipat ng mga manlalaro, kaya ang LHM ay nagpapadala na ngayon ng mga keypress sa laro nang manu-mano, kaya't pakitiyak na ang laro ay nakatutok sa panahon ng {{ feature }} paggamit.",
+      "map": "Mapa",
+      "area": "Lugar",
+      "addNewArea": "Magdagdag ng bagong lugar",
+      "showInfo": "Ipakita ang impormasyon",
+      "hideInfo": "Itago ang impormasyon",
+      "areaCreation": "Paggawa ng lugar",
+      "createArea": "+ Magdagdag ng bagong lugar",
+      "addConfig": "+ Magdagdag ng bagong configuration",
+      "areaConfigurations": "Mga configuration ng lugar",
+      "stateCreatingNew": "[lumikha ng bago area]",
+      "priority": "priority",
+      "inGameName": "In-game name",
+      "manualControl": "Manual control",
+      "areaConfigurationsPlaceholder": "Pumili ng lugar para makita ang mga configuration nito",
+      "enableDirector": "Enable director",
+      "scoutPredict": "Enable Predict",
+      "telnet": "Enable Telnet",
+      "telnetWarning": "Para gamitin ang Telnet, CS2 dapat inilunsad gamit ang Workshop Tools. Magagawa mo ito sa pamamagitan ng pagpapagana ng opsyong \"Killfeed / Tools\" sa tab na HUDs at pag-click sa button na \"Run Game\".",
+      "cinematicWarning": "Upang magamit ang Scout Cinematic, dapat na ilunsad ang CS2 gamit ang Workshop Tools. Magagawa mo ito sa pamamagitan ng pagpapagana ng opsyong \"Killfeed / Tools\" sa tab na HUDs at pag-click sa button na \"Run Game\". Ang pagpapagana sa Scout Cinematic ay pipilitin din ang Scout Vision na tumakbo sa Direct mode.",
+      "disabledDescription": "Lahat ng kontrol ay ibinibigay sa iyo at sa iyong mga tagamasid.",
+      "aco1Description": "Isang balanse ng kontrol at automation. Tulungan ang iyong mga tagamasid sa isang hanay ng mga manu-manong nakasulat na tagubilin para sa ACO.",
+      "aco-aiDescription": "Umupo habang kinokontrol ng mga advanced na algorithm ng ACO AI ang iyong stream.",
+      "aco-ai-scoutDescription": "Hayaang panoorin ng AI match observer ang laro nang walang anumang input ng user.",
+      "aco-ai-scoutDescription-disconnected": "Hayaang panoorin ng AI match observer ang laro nang walang anumang input ng user.\\nMaaaring kasalukuyang hindi available ang mga server ng Scout.",
+      "scoutCinematicDescription": "Magpakita ng magagandang cinematic shot sa mga break ng laban.",
+      "scoutPredictDescription": "Ipakita ang mga hula sa resulta ng live na tugma sa mismong iyong stream.",
+      "scoutCinematic": "Gumamit ng Cinematic Scout",
+      "saveArea": "Save area",
+      "areaName": "Name",
+      "areaNamePlaceholder": "Area name",
+      "areaPriority": "Priority",
+      "areaPriorityPlaceholder": "Area priority",
+      "addConfigHeader": "Magdagdag ng bagong configuration sa lugar na ito",
+      "addConfigPlaceholder": "Maglagay ng command na isasagawa dito area",
+      "timeRemaining": "Available na oras",
+      "scoutServerUnavailable": "Hindi makakonekta ang LHM sa mga server ng Scout AI. Pakisubukang muli sa loob ng ilang minuto.",
+      "scoutSubtitle": "AI Observer",
+      "scoutGetMoreTime": "Magkaroon ng mas maraming oras",
+      "scoutDescription": "Natututo ang Scout AI mula sa libu-libong laro upang makuha ang mga pinaka-maanghang na kaganapan nang mag-isa, nang walang input ng tao.",
+      "scoutVisionControl": {
+        "label": "Game control mode",
+        "direct": {
+          "label": "Direkta",
+          "description": "Gumagamit ang Direct mode ng telnet para direktang kontrolin ang laro. Ito ang pinaka-maaasahang paraan upang makontrol ang laro, ngunit kailangan nitong ilunsad ang laro gamit ang Workshop Tools na naka-enable sa tab na DLC ng laro sa Steam."
+        },
+        "keybinds": {
+          "label": "Keyboard ### Keyboard mode ay ginagaya ang mga pagpindot sa key upang kontrolin ang laro. Wala itong mga karagdagang kinakailangan, ngunit kailangang nakatutok ang laro para makatanggap ng mga keypress, at ang mga in-game keybind na nauugnay sa kontrol ng camera ay kailangang itakda sa mga default.",
+          "description": "Manual takeover"
+        }
+      },
+      "scoutVisionTakeoverControl": {
+        "label": "Manual takeover"
+      },
+      "scoutCinematicTakeoverControl": {
+        "label": "Action Cinematic"
+      },
+      "scoutCinematicAction": {
+        "label": "Scout AI ay naka-pause dahil walang running game ang natukoy."
+      },
+      "scoutPausedTip": "Mag-edit ng player"
+    },
+    "players": {
+      "edit": "Larawan",
+      "uploadProfile": "Avatar na gagamitin para sa mga larawan ng player sa halip na ang default mula sa Steam",
+      "avatarInfo": "Magdagdag ng Manlalaro",
+      "addPlayer": "Mag-import ng mga Manlalaro",
+      "importPlayersTitle": "Mag-download ng Mga Pangalan ng file",
+      "downloadNamesFile": "Gamitin ang aming paunang inihanda Excel sheet upang madaling mag-import ng maraming manlalaro nang sabay-sabay.",
+      "importPlayersExcel": "I-export",
+      "exportPlayers": "Avatar",
+      "avatar": "Mag-edit ng team"
+    },
+    "teams": {
+      "edit": "Logo",
+      "uploadLogo": "Logo na gagamitin para sa team, kung maaari sa ibinigay na HUD",
+      "logoInfo": "Add Team",
+      "addTeam": "I-export ang",
+      "exportTeams": "Import Teams",
+      "importTeamsTitle": "Gamitin ang aming pre-prepared Excel sheet para madaling mag-import ng maraming team nang sabay-sabay.",
+      "importTeamsExcel": "Logo",
+      "logo": "Palitan ang mga username"
+    },
+    "live": {
+      "replaceUsernames": "Live",
+      "header": "Walang laro ang kasalukuyang live.",
+      "noGame": "Mga manlalarong kasalukuyang nasa laban, i-click upang magdagdag ng manlalaro sa listahan ng manlalaro.",
+      "tip": "Bumuo ng password"
+    },
+    "cameras": {
+      "generatePassword": "Ipadala ito sa iyong mga manlalaro",
+      "sendToPlayers": "Punan mula sa Live na tab",
+      "fillFromLive": "I-reset ang link",
+      "resetLink": "I-play ang Test Video",
+      "startTestVideo": "Ihinto ang Test Video",
+      "stopTestVideo": "Dapat ay mayroon kang larong tumatakbo upang maglaro ng pansubok na video at Pinuno ng mga manlalaro ang talahanayan sa itaas. Manood ng demo, o maglaro ng data ng pagsubok, at pumili ng test player",
+      "testVideoBlocker": "Test Player",
+      "testPlayer": "Mag-upload ng addon"
+    },
+    "addons": {
+      "upload": "Handa",
+      "status": {
+        "READY": "Na-uninstall",
+        "UNINSTALLED": "I-download ang addon"
+      },
+      "downloadGameAddon": "Nagda-download...",
+      "downloading": "Patakbuhin ang addon",
+      "runAddon": "Addon Warning",
+      "addonWarning": "Ginagawang posible ng Advanced Addon na magbasa ng higit pang data salamat sa memory reading. Ang pagbabasa ng memorya ay maaaring ituring bilang isang cheat, habang ang mga naturang tool ay umiral nang maraming taon at ang Riot ay hindi tumutukoy sa mga ito at wala kaming narinig na mga kaso ng mga manonood na pinagbawalan para dito. Gayunpaman, ginagamit mo ang League of Legends Advanced Addon sa iyong sariling peligro.",
+      "warnings": {
+        "lol-mr-1": "Huwag gumamit ng LoL Advanced Addon sa panahon ng normal na gameplay, ginagamit lang ito para panoorin ang laro!",
+        "lol-mr-2": "Ang NodeJS at NPM ay kinakailangang mai-install para sa karamihan ng mga addon"
+      },
+      "nodejsWarning": "HUDs"
+    },
+    "navbar": {
+      "huds": "Scout AI",
+      "aco": "Addons",
+      "addons": "AR",
+      "ar": "Live",
+      "live": "Mabilis",
+      "quick": "Propesyonal lang",
+      "professionalOnly": "Hindi libre",
+      "nonFreeOnly": "Mga Camera",
+      "cameras": "Kumusta, {{username}}!",
+      "hi": "Ang iyong plano",
+      "yourPlan": "Signals",
+      "signals": "Valid mula sa",
+      "validFrom": "Valid hanggang",
+      "validUntil": "Susunod na pagbabayad",
+      "nextPayment": "Log out",
+      "logout": "Replays",
+      "arg": "Tanggalin ang preset"
+    },
+    "signals": {
+      "removal": {
+        "title": "Sigurado ka bang gusto mong tanggalin ang preset na \"{{name}}\"?",
+        "areYouSure": "Rename preset"
+      },
+      "edit": {
+        "title": "Preset name",
+        "placeholder": "Lumikha ng bagong preset"
+      },
+      "create": {
+        "title": "Preset name",
+        "placeholder": "{{ name }} is not active"
+      },
+      "activate": "{{ name }} is active",
+      "deactivate": "Add Branch",
+      "addBranch": "Kaganapan",
+      "event": "Magdagdag ng Kaganapan",
+      "addEvent": "Piliin ang Kaganapan",
+      "selectEvent": "Preset",
+      "preset": "Magdagdag ng bagong preset",
+      "addPreset": "Mga Kinakailangan",
+      "requirements": "Aktibo:",
+      "active": "Kasamang Address",
+      "companionAddress": "Walang available na pag-filter",
+      "filtering": {
+        "noFiltering": "Oryentasyon: Anumang",
+        "orientationAny": "Oryentasyon: Kaliwa",
+        "orientationLeft": "Oryentasyon: Kanan",
+        "orientationRight": "Gilid: Anumang",
+        "sideAny": "Gilid:",
+        "side": "Koponan: Anumang",
+        "teamAny": "Manlalaro: Anumang",
+        "playerAny": "Mag-upload ng larawan"
+      }
+    },
+    "quick": {
+      "uploadImage": "Logo ng Koponan",
+      "teamLogo": "Bumalik sa LHM",
+      "backToLHM": "Susunod",
+      "next": "Bumalik",
+      "back": "Lumikha ng bagong manlalaro",
+      "newPlayer": "Magsimula ng Bagong Session",
+      "startSession": "Mabilis na Lumabas",
+      "exit": "Punan ng Live na data",
+      "fillWithLive": "Walang pangalan Koponan",
+      "unnamedTeam": "I-dismiss",
+      "dismiss": "Ilunsad ang HUD",
+      "launchHUD": "Mag-upload ng avatar",
+      "uploadAvatar": "Piliin ang HUD",
+      "selectHUD": "Preview",
+      "preview": "I-unlink",
+      "unlink": "Umiiral na ang isang player na may ganitong {{playerIdentifierName}}.",
+      "playerExists": {
+        "info": "Gusto mo bang i-overwrite ang kanilang data dito?",
+        "overwrite": "I-overwrite?",
+        "overwriteTitle": "Hindi, hayaan mong baguhin ko ito",
+        "decline": "Oo, i-overwrite",
+        "accept": "Ang iyong HUD ay na-configure at inilunsad"
+      },
+      "success": {
+        "title": "Ang HUD ay binuksan sa isang hiwalay na window.",
+        "opened": "Maaari mong gamitin ang Borderless mode sa laro at direktang makuha ang HUD screen",
+        "borderless": "o idagdag ito bilang isang bagong display source sa iyong broadcasting software.",
+        "display": "Sa kaso ng anumang mga problema bisitahin ang Gabay sa Gumagamit.",
+        "userGuide": "Nagsimula ang laro",
+        "started": "Pangkalahatang-ideya"
+      }
+    },
+    "tournaments": {
+      "overview": "Mag-edit ng paligsahan",
+      "edit": "Pahina ng paligsahan",
+      "page": "Gumawa ng bagong paligsahan",
+      "create": "Pangalan ng paligsahan",
+      "name": "Mag-upload ng logo ng torneo",
+      "uploadLogo": "Ang logo ng paligsahan ay magiging available sa laban",
+      "logoInfo": "Single Elimination Bracket",
+      "singleElimBracket": "Double Elimination Bracket",
+      "doubleElimBracket": "Swiss",
+      "swiss": "Group",
+      "group": "Play-offs",
+      "playoffs": "Playoff type",
+      "playoffType": "Malapit na",
+      "soon": "Uri ng grupo",
+      "groupType": "Mga Kalahok",
+      "participants": "pagkatapos",
+      "then": "Dami ng mga koponan",
+      "amountOfTeams": "Dami ng mga round",
+      "amountOfRounds": "Itali ang tugma sa bracket",
+      "bindMatch": "Listahan ng order ng mga koponan",
+      "teamOrderList": "Mga Tugma"
+    },
+    "match": {
+      "matches": "Panalo sa serye",
+      "seriesWins": "Live",
+      "live": "I-edit ang tugma",
+      "edit": "I-edit ang team",
+      "editTeam": "Empty team",
+      "emptyTeam": "Unset win",
+      "scoreModal": {
+        "unsetWin": "Set win",
+        "setWin": "Team Logo",
+        "teamLogo": "LIVE"
+      },
+      "toggleLive": "ended",
+      "tabs": {
+        "ended": "current",
+        "current": "future",
+        "future": "Match"
+      },
+      "columns": {
+        "match": "Score",
+        "score": "Petsa",
+        "date": "Oras",
+        "time": "PANALO"
+      },
+      "wins": "Maling team ang napili",
+      "wrongTeamSelected": "pick",
+      "vetoType": {
+        "pick": "ban",
+        "ban": "decider",
+        "decider": "Edit Veto"
+      },
+      "editVeto": "left",
+      "vetoSide": {
+        "left": "right",
+        "right": "{{teamName}} picks {{mapName}}"
+      },
+      "vetoDescription": {
+        "pick": "{{teamName}} bans {{mapName}}",
+        "ban": "Choose team"
+      },
+      "chooseTeam": ", {{secondTeamName}} chooses {{side}} side",
+      "vetoSidepick": {
+        "normal": "{{mapName}} decider",
+        "decider": "Bumuo ng Veto app link"
+      },
+      "vetoUrlModal": {
+        "title": "Tanggalin ang mga URL",
+        "deleteUrls": "Bumuo ng mga URL",
+        "generateUrls": "Handa nang bumuo ng",
+        "readyToGenerate": "Observer URL",
+        "observerUrl": "Unang pumili",
+        "firstToPick": "Pumili magkabilang koponan para magtakda ng mga vetos"
+      },
+      "pickBothTeams": "Magtakda ng marka",
+      "setScore": "I-reset ang marka",
+      "resetScore": "Pumili ba ng panig ang kalaban?",
+      "questionOpponentPick": "Baliktad na panig",
+      "reversedSides": "Listahan ng mapa",
+      "mapList": "Bumuo ng Get5 Config",
+      "generateGet5Config": "Mga Credit"
+    },
+    "credits": {
+      "header": "Application at HUD API",
+      "applicationAndAPI": "Pagsubok at Pag-debug",
+      "testingAndDebugging": "Custom na radar ng",
+      "customRadarBy": "Initial Layout Idea",
+      "initialLayoutIdea": "Feedback at Mga Ideya",
+      "feedbackAndIdeas": "Safety band"
+    },
+    "arg": {
+      "safeband": "Bago pumatay",
+      "beforeKill": "Gamitin ang HLAE?",
+      "useHLAE": "Pagkatapos patayin",
+      "afterKill": "I-save ang mga clip?",
+      "saveClips": "Delay config",
+      "delayConfig": "Computer id",
+      "computerId": "Turn off",
+      "turnOff": "Turn on",
+      "turnOn": "Prioritize multi kills",
+      "priority": {
+        "multi": "Prioritize headshots",
+        "headshots": "Prioritize team kills",
+        "teamkills": "Mixer"
+      },
+      "mixer": {
+        "label": "NDI Replay Source",
+        "activeNdi": "Panghalo",
+        "mixer": "Address",
+        "address": "vMix Input",
+        "vMixInput": "Setup",
+        "verifyConnection": "Connect & Setup",
+        "setup": "IP",
+        "ip": "Port",
+        "port": "Password",
+        "password": "Disconnect",
+        "disconnect": "Auto Input Switch",
+        "switchInputs": "Replay Mode"
+      },
+      "replay": {
+        "replayModeTitle": "Ang LHM na ito ay tumatakbo na ngayon sa Replay Mode. Upang baguhin ang mga parameter ng replay at mixer, tingnan ang tab na ARG sa Main PC",
+        "replayModeContent": "I-install ang OBS NDI Plugin",
+        "installObsNdiPlugin": "Itong PC code",
+        "thisPcCode": "Piliin ang iyong mixer",
+        "chooseYourMixer": "Walang input",
+        "noInput": "Parang wala kang vMix tumatakbo. Kailangan mong simulan ito bago mo simulan ang setup",
+        "stepCode": {
+          "noVmixRunning": "Hindi kami makakonekta sa iyong vMix :C",
+          "vmixBadResponse": "Lumikha ng Instant Replay input, sa pamamagitan ng pag-click sa Add Input > Instant Replay. Itakda ang Camera 1 sa Output 2. I-click ang OK",
+          "noReplay": "Pumili ng input na iyong naantala na laro. Kung hindi mo pa ito naidagdag, gawin ito, at i-click ang refresh",
+          "showInputs": "Tapos na ang iyong pag-setup ng vMix!",
+          "finish": "LHM Replay Mode"
+        },
+        "modeModal": {
+          "title": "Sinisimulan mo ang ARG sa dalawang konektadong LHM",
+          "youAreStartingArg": "Aling mode ang gusto mong gamitin para sa pagbuo ng replay?",
+          "whichModeDoYou": "NDI Source for Delayed Game",
+          "ndiSourceForDelayedGame": "PICK SOURCE",
+          "pickSource": "Set source",
+          "setSource": "Refresh sources",
+          "refreshSources": "LHM Replay Request"
+        },
+        "requestModal": {
+          "title": "Isa pang LHM sa local network ang gustong gamitin ang PC na ito bilang Replay machine",
+          "anotherLhmInTheLocal": "Gusto mo bang tanggapin ang papasok na koneksyon?",
+          "doYouWish": "Mag-log in"
+        }
+      }
+    },
+    "settings": {
+      "logIn": "Email",
+      "email": "Password",
+      "password": "Walang account?",
+      "noAccount": "Magrehistro na!",
+      "registerNow": "Nakalimutan ang password?",
+      "forgot": "Hindi naka-log in",
+      "Not logged in": "Kailangan mong ipasa ang iyong isang beses na token",
+      "You need to pass your one-time token": "Mukhang hindi maabot ang aming mga server. Pakisubukang muli sa loob ng ilang minuto",
+      "serversUnreachable": "Gamitin ang paunang naka-install",
+      "preInstalled": "Cloud Synchronization",
+      "cloudSynchronization": "HUD Settings Cloud Synchronization",
+      "hudConfigCloudSynchronization": "HUD Toggles Cloud Synchronization",
+      "hudTogglesCloudSynchronization": "Data Gathering Mode",
+      "valorantServerMode": "Valorant Game Language",
+      "valorantReadLanguage": "Valorant Match Type",
+      "valorantReadTeamMode": "Valorant In-game Interface Type",
+      "valorantIngameInterfaceType": "Awtomatikong buksan ang Valorant Scoreboard",
+      "openValorantScoreboardAutomatically": "Automatic HUDs upload to the cloud",
+      "autoHUDUpload": "Language",
+      "language": "Dota 2 Assets",
+      "dota2Assets": "Auto half switch (Experimental)",
+      "autoHalfSwitch": "Auto switch",
+      "autoSwitch": "Mga Setting",
+      "header": "LHM",
+      "subheaders": {
+        "lhm": "LHM Cloud",
+        "cloud": "Karagdagang",
+        "additional": "Magdagdag ng integration"
+      },
+      "f1": {
+        "add": "F1 Integration",
+        "integration": "Hindi naka-install ang F1",
+        "notInstalled": "Half Time Behavior"
+      },
+      "halfTimeBehaviour": {
+        "label": "Wala",
+        "none": "Lumipat ng team (kaliwa <-> kanan)",
+        "switch": "Pilitin panatilihin ang panig ng mga team",
+        "keep": "RL Integration"
+      },
+      "rocketleague": {
+        "integration": "Busy...",
+        "status": {
+          "busy": "BakkesMod not install",
+          "bakkesModNotInstalled": "Hindi naka-install ang SOS Plugin",
+          "sosNotInstalled": "Hindi naka-configure",
+          "notConfigured": "Naka-install",
+          "installed": "Refresh"
+        },
+        "refresh": "I-install",
+        "install": "Naglo-load ng data tungkol sa mga file ng GameState..."
+      },
+      "gsi": {
+        "loadingAbout": "Naglo-load ng data ng GameState...",
+        "loadingData": "Nilo-load ang data ng file ng GameState...",
+        "loadingFileData": "Naglo-load ng data tungkol sa mga cfg file..."
+      },
+      "config": {
+        "loadingAbout": "Naglo-load ng data ng config file...",
+        "loadingFileData": "Steam API Key"
+      },
+      "input": {
+        "steamAPIKey": "GSI Port",
+        "GSIPort": "GSI Token",
+        "GSIToken": "Bersyon"
+      },
+      "updater": {
+        "version": "Ini-install...",
+        "installing": "Nagda-download... {{percent}}%",
+        "downloading": "I-install ang update",
+        "install": "Pinakabagong",
+        "latest": "Keybinds"
+      },
+      "entry": {
+        "keybinds": {
+          "keybinds": "Hard refresh HUD",
+          "hardRefreshHUD": "I-toggle ang ARG",
+          "argToggle": "Maglaro ng Dota 2 ARG",
+          "dota2ARG": "Reverse sides",
+          "reverseSide": "Refresh HUD",
+          "refreshHud": "Toggle ACO Director",
+          "toggleDirector": "Toggle Scout Predict",
+          "toggleScoutPredict": "Toggle Scout Cinematic",
+          "toggleScoutCinematic": "Unavailable"
+        },
+        "streamDeck": {
+          "unavailable": "HLAE Path"
+        },
+        "HLAE": {
+          "path": "Itakda ang HLAE path",
+          "setPath": "AFX CEF HUD Interop"
+        },
+        "AFX": {
+          "path": "Itakda ang AFX path",
+          "setPath": "GameState Integration"
+        },
+        "GSI": {
+          "status": "Magdagdag ng GSI file",
+          "add": "Configs"
+        },
+        "config": {
+          "status": "Magdagdag ng mga config file",
+          "add": "Credits"
+        },
+        "credits": {
+          "credits": "Tingnan ngayon",
+          "seeNow": "Downloads"
+        },
+        "downloads": {
+          "downloads": "GSI config",
+          "GSIConfig": "HUD configs",
+          "HUDConfigs": "I-export ang DB",
+          "exportDB": "Import"
+        },
+        "import": {
+          "import": "Reader Code"
+        },
+        "readerCode": {
+          "readerCode": "Ipakita ang \"Bago sa LHM\""
+        },
+        "newToLHM": {
+          "show": "Tingnan ngayon",
+          "seeNow": "Ipakita ang alok sa pagpapatupad ng Lexogrine Custom HUD sa tab na HUD"
+        },
+        "cta": {
+          "cta": "Mag-upload ng AR module"
+        }
+      }
+    },
+    "ar": {
+      "add": "I-toggle ang AR Module",
+      "toggle": "Buksan ang direktoryo ng module",
+      "openDirectory": "Tanggalin ang AR module",
+      "deleteLocally": "HUDs"
+    },
+    "huds": {
+      "header": "Radar",
+      "config": {
+        "customRadar": "Killfeed / Tools",
+        "customKillfeed": "Naka-embed na HUD",
+        "embeddedHUD": "Killfeed Offset",
+        "killfeedOffset": "Scout AI",
+        "scout": "Auto-execute",
+        "autoexecute": "Console",
+        "console": "Add HUD",
+        "add": "Run game",
+        "runGame": "Pause test",
+        "pauseTest": "Run test",
+        "runTest": "I-clear ang OCR Data",
+        "clearOCRData": "Buksan ang direktoryo ng HUDs",
+        "openDirectory": "I-play ang test loop",
+        "playTestLoop": "AR",
+        "ar": "I-configure ang Keybinds",
+        "goToKeybinds": "Ipakita lamang ang mga aktibong manlalaro",
+        "showOnlyActivePlayers": "Higit pa",
+        "more": "Dapat mong magkaroon ng CS:GO na tumatakbo sa HLAE",
+        "hlaeIsRequired": "Dapat ay mayroon kang isang Propesyonal o Enterprise na plano",
+        "proOrEntrpriseIsRequired": "Dapat na mayroon kang CS:GO na tumatakbo sa HLAE at isang Propesyonal o Enterprise na plano",
+        "hlaeAndHigherPlanIsRequired": "Custom"
+      },
+      "sort": {
+        "custom": "Pinakabago",
+        "newest": "Pinakaluma",
+        "oldest": "Nawawalang mga field"
+      },
+      "fields": {
+        "missing": "Field \"{{field}}\" ng uri na \"{{type}}\"",
+        "fieldOfType": "Field name",
+        "fieldNamePlaceholder": "Input type",
+        "inputType": "Text",
+        "values": {
+          "text": "Koponan",
+          "team": "Larawan",
+          "image": "Tugma",
+          "match": "Manlalaro",
+          "player": "Kulay",
+          "color": "Nakikita"
+        },
+        "visible": "Pamahalaan ang mga custom na field",
+        "manageCustom": "+ Magdagdag ng bagong field",
+        "addNew": "May kasamang custom na radar"
+      },
+      "includes": {
+        "customRadar": "Isama ang custom na killfeed",
+        "customKillfeed": "Tinatanggal ang {{hud}}"
+      },
+      "removal": {
+        "title": "Sigurado ka bang gusto mong alisin ang {{hud}}?",
+        "areYouSure": "I-toggle ang URL ng HUD"
+      },
+      "actions": {
+        "toggleUrl": "Pumunta sa mga setting ng HUD",
+        "settings": "Shortcut",
+        "shortcut": "Simulan ang HUD overlay",
+        "overlay": "Mag-upload ng HUD",
+        "upload": "Nag-a-upload...",
+        "uploading": "Tanggalin",
+        "delete": "Tanggalin ang HUD nang lokal",
+        "deleteLocally": "Tanggalin ang HUD sa cloud",
+        "deleteFromCloud": "Nagda-download...",
+        "downloading": "I-toggle ang HUD (Naka-embed lang)",
+        "toggleHUD": "I-toggle ang HUD Keybinds (Para sa Pinagmulan ng Browser)",
+        "toggleHUDKeybinds": "I-click para kopyahin",
+        "clickToCopy": "Lumikha ng shortcut sa desktop",
+        "createShortcut": "Ang HUD na ito ay ginawa para sa CS:GO. Hindi ginagarantiyahan na ang lahat ng mga tampok nito ay gagana sa parehong paraan sa CS2."
+      },
+      "warning": {
+        "csgoHUDinCS2": "Tukuyin ang HLAE path sa Mga Setting upang magamit ang mga custom na killfeed",
+        "specifyHLAEPath": "Tukuyin ang AFX Interop path sa Mga Setting upang magamit ang AFX mode",
+        "specifyAFXInteropPath": "Kapag gumagamit ng AFX mode, pagkatapos sumali sa laban i-click ang toggle - hindi na kailangang magsimula ang overlay.",
+        "specifyAFXModeInfo": "Hindi maidagdag ang HUD"
+      },
+      "error": {
+        "title": "Hindi nabasa ng LHM ang config file ng HUD.",
+        "config": "Hindi na-upload ng LHM ang HUD sa cloud. Subukan itong muli mamaya.",
+        "upload": "Nagkaproblema. Subukan itong muli mamaya.",
+        "generic": "Hindi nabasa ng LHM ang archive file.",
+        "archive": "Mukhang nag-a-upload ka ng source code, sa halip na ang pinagsama-samang HUD. Paki-compile ang HUD bago i-upload.",
+        "source": "Wala kang sapat na Cloud Space sa workspace na iyong ginagamit. Mangyaring i-upgrade ang iyong plano o tanggalin ang ilan sa iyong mga mapagkukunan ng cloud.",
+        "space": "Change Game"
+      }
+    },
+    "app": {
+      "changeGame": "Cloud is active",
+      "cloud": {
+        "isActive": "Cloud is not active",
+        "isNotActive": "Order Plan"
+      }
+    },
+    "cta": {
+      "orderPlan": "Order your own custom HUD",
+      "orderCustomHUD": "Order your own custom HUD for CS2",
+      "orderCustomHUDName": {
+        "cs2": "Order your own custom HUD for CS:GO",
+        "csgo": "Order your own custom HUD for Dota 2",
+        "dota2": "Order your own custom HUD for LoL",
+        "leagueoflegends": "Order your own custom HUD for Rocket League",
+        "rocketleague": "Order your own custom HUD for Apex Legends",
+        "apexlegends": "Order iyong sariling custom na HUD para sa Valorant",
+        "valorant": "Kumuha ng quote"
+      },
+      "getAQuote": "Gamitin ang aming AI observer at maramihang AI match predictions!",
+      "tryScoutAI": "Bago sa LHM?",
+      "newToLHM": "Susunod"
+    },
+    "helpers": {
+      "next": "Nakaraang",
+      "previous": "Isara",
+      "close": "Matuto nang higit pa",
+      "learnMore": "I-upgrade ang iyong plano",
+      "onlyInProPlus": {
+        "title": "Available lang ang functionality na ito para sa mga user ng Professional at Enterprise plan. Mangyaring i-upgrade ang iyong plano upang i-unlock ito.",
+        "info": "I-upgrade ang iyong plan"
+      },
+      "onlyInProPlusEnt3": {
+        "title": "Available lang ang functionality na ito para sa mga user ng Professional at Enterprise plan na may hindi bababa sa 3 upuan. Mangyaring i-upgrade ang iyong plano upang i-unlock ito.",
+        "info": "Lumampas sa limitasyon ng device"
+      },
+      "deviceLockWorkspace": {
+        "title": "Mukhang ginagamit ang workspace sa mas maraming device kaysa sa dami ng upuan ng plano nito. Hintaying mag-expire ang lock ng device o i-upgrade ang iyong Enterprise plan para makapag-accomodate ng higit pang device.",
+        "info": "Killfeed Offset"
+      },
+      "huds": {
+        "killfeedOffset": {
+          "title": "Ang pag-enable sa opsyong ito ay magtatakda ng safezoney sa 0.8 para ma-accomodate ang mga custom na elemento ng HUD sa kanang sulok sa itaas",
+          "info": "Sa PREMIUM HUD ginagawa namin ang susunod na hakbang patungo sa layunin ng pagbuo ng napakadaling gamitin na cloud -based na solusyon na sa ilang pag-click lang ay inaalagaan ang bawat hakbang ng organisasyon ng esports tournament - kabilang ang mga top-tier na visual! Available ang PREMIUM HUD para sa lahat ng user ng Personal, Professional at Enterprise Plan."
+        },
+        "previewDescriptions": {
+          "premium": {
+            "cs2": "Sa PREMIUM HUD ginagawa namin ang susunod na hakbang tungo sa layunin ng pagbuo ng napakadaling gamitin na cloud-based na solusyon na sa ilang pag-click lang ay inaasikaso ang bawat hakbang ng organisasyon ng esports tournament - kabilang ang mga top-tier na visual! Available ang PREMIUM HUD para sa lahat ng user ng Personal, Professional at Enterprise Plan. Ang",
+            "csgo": "Premium HUD para sa Dota 2 ay ang aming unang hakbang sa pagbabago ng industriya ng MOBA broadcasting. Ang aming layunin ay gawing ganap na makinabang ang lahat mula sa pagsasamang ito. Baguhan ka man sa eksena ng esports o mayroon ka nang sariling brand at mga subok na solusyon, tiwala kaming maghahatid sa iyo ang Premium HUD ng karanasan na hindi mo pa nakita o ng iyong audience sa iba pang mga broadcast.",
+            "dota2": "Ang Premium HUD para sa League of Legends ay nagdaragdag ng kulang sa tagamasid na HUD ng laro at ginagawang mas mahusay ang mga bagay. Ang isang malaking halaga ng data, karagdagang mga istatistika at mga screen, magagandang visual na isinama sa interface ng laro ay lumikha ng isang ganap na bago at natatanging karanasan. Ang Premium HUD para sa League of Legends ay isang kalidad na makikita sa pinakasikat na mga kaganapan, mula ngayon ay magagamit sa lahat.",
+            "leagueoflegends": "Sa simula, gusto naming bumuo ng solusyon para matulungan ang mga esport na tumuon sa mga esport - at tiyaking gamitin ang napakaraming umiiral na data na nabubuo ng mga esport para sa mga manonood, manlalaro at organizer. Sa sandaling nagsimula na kaming matagumpay sa lugar na iyon, nagdagdag kami ng automation at cloud-based sa listahan - upang matiyak na ang mga organizer ay makakatuon sa mga manonood, manlalaro at team sa halip na manu-manong itakda ang lahat at mag-alala kung gagana ang lahat.",
+            "rocketleague": "Ang Premium HUD para sa Valorant ay idinisenyo upang mapanatili ang aesthetics ng laro habang nagpapatupad ng mga formula na ginamit sa mga overlay ng FPS game sa loob ng maraming taon. Ang pag-aayos ng mga elemento sa manonood na HUD ay agad na malinaw sa manonood at nagiging mahalagang bahagi ng laro.Ito ay dahil din sa mga magagandang visual na nagpapalakas sa buong karanasan na hatid ng tagamasid na HUD na ito. Ang",
+            "valorant": "Counter-Strike 2 ay isang bagong bagong simula. Ang Ultra HUD ay isang komprehensibong overlay upang matugunan ang mga pangangailangan at istilo na dinala ng CS2. Ang mabilis at madaling pag-setup ng Ultra HUD ay aangkop sa iyong mga pangangailangan at ganap na mapahusay ang iyong mga kaganapan. Ang iyong broadcast - tulad ng Counter-Strike - ay handa na para sa isang bagong panahon. Available ang Ultra HUD para sa lahat ng user ng Professional LHM Plan, gayundin sa mga user ng Enterprise Plan na may 3 o higit pang upuan."
+          },
+          "ultra": {
+            "cs2": "Walang solusyon sa merkado na nagbigay ng karagdagang impormasyon, pinagsama sa interface mula sa laro at naa-access ng lahat na may napakadaling setup. Binago ng Ultra HUD para sa Dota 2 ang lahat ng iyon. Ang advanced na suporta ng LHM sa Dota 2 sa nakalipas na ilang buwan ay nagbigay-daan sa amin na pagbutihin ang lahat ng inaalok namin sa ngayon - ganyan ang naging Ultra HUD. Ang una at pinakamalaking pag-upgrade na mapapansin mo ay ang hitsura ng HUD - mula ngayon, ito ay parehong maraming nalalaman at perpektong umakma sa layout ng Dota 2 ngunit hindi gumagawa ng anumang mga visual na kompromiso. Ginagawa nitong perpektong solusyon ang Ultra HUD para sa sinuman, anuman ang kanilang sariling pagba-brand at mga inaasahan. Ito ay isang halos bagong bahagi ng laro.",
+            "dota2": "Ang League of Legends Ultra HUD ay ang kumplikadong solusyon sa manonood at tagamasid upang mag-alok ng pinakamataas na visual para sa kaganapang esport ng League of Legends sa kadalian ng LHM. Available sa ilang pag-click lang, na may nakalaang draft, tugma, at post-match na mga overlay, animation, at custom na feature.",
+            "leagueoflegends": "Scout AI"
+          }
+        },
+        "scout": {
+          "title": "Ang pagpapagana sa opsyong ito ay maglulunsad ng CS2 sa VConsole2, na maaaring pumigil sa iyo sa pagsali sa mga server maliban kung maayos na na-configure.",
+          "info": "HUDs Tab"
+        },
+        "tab": {
+          "title": "HUDs tab ay ginagamit upang pamahalaan ang mga HUD at configuration ng paglulunsad ng laro.",
+          "info": "Radar"
+        },
+        "radar": {
+          "title": "Ang pagpapagana sa opsyong ito at pagpapatakbo ng laro gamit ang config na ipinakita sa ibaba o paggamit ng \"Run game\" na buton ay magdi-disable sa in-game radar upang magamit ang custom na radar na nakapaloob sa iyong mga HUD.",
+          "info": "Killfeed / Tools"
+        },
+        "killfeed": {
+          "title": "Ang pagpapagana sa opsyong ito at pagpapatakbo ng laro na may config na ipinakita sa ibaba o paggamit ng \"Run game\" na button ay magdi-disable sa in-game killfeed para magamit ang custom na killfeed na nakapaloob sa iyong mga HUD. Ilulunsad ng opsyong ito ang CS2 sa insecure mode - huwag sumali sa mga server na protektado ng VAC (hal. Faceit, matchmaking) maliban kung bilang isang manonood ng CSTV habang ito ay naka-enable.",
+          "info": "Naka-embed na HUD"
+        },
+        "embeddedHUD": {
+          "title": "Kapag na-enable ang opsyong ito, gagawing kabit ang LHM sa proseso ng pag-render ng CS:GO, na gagawing bahagi ng laro ang iyong HUD sa halip na isang hiwalay na overlay. Upang maglunsad ng HUD sa naka-embed na mode, gamitin ang toggle sa tabi ng HUD. Ang paggamit ng naka-embed na mode ay kinakailangan para sa AR. Maaari rin nitong bawasan ang pagganap ng laro. Ilulunsad ng opsyong ito ang CS:GO sa insecure mode - hindi ka makakasali sa mga server na protektado ng VAC (hal. Faceit, matchmaking) maliban kung bilang isang manonood ng CSTV habang naka-enable ito.",
+          "info": "I-play ang test loop"
+        },
+        "playTestLoop": {
+          "title": "Ang pag-enable sa opsyong ito ay magpe-play sa Test Data sa isang loop kaya hindi ito magtatapos. Ito ay kapaki-pakinabang para sa pagsubok sa iyong mga HUD.",
+          "info": "AR"
+        },
+        "ar": {
+          "title": "Ang pagpapagana sa opsyong ito at pagpapatakbo ng laro gamit ang config na ipinakita sa ibaba o paggamit ng \"Run game\" na button ay magbibigay-daan sa iyong gumamit ng mga AR module. Ilulunsad ng opsyong ito ang CS:GO sa insecure mode - hindi ka makakasali sa mga server na protektado ng VAC (hal. Faceit, matchmaking) maliban kung bilang isang manonood ng CSTV habang naka-enable ito. Ang",
+          "info": "Auto-execute"
+        },
+        "autoExecute": {
+          "title": "\"Run game\" button ay ilulunsad ang laro na may config na ipinakita sa ibaba kapag pinagana ang opsyong ito.",
+          "info": "XRay"
+        },
+        "xray": {
+          "title": "Sa opsyong ito maaari kang magtakda ng mga custom na kulay para sa mga hangganan ng player sa laro.",
+          "info": "Patakbuhin ang pagsubok"
+        },
+        "runTest": {
+          "title": "Hinahayaan ka ng functionality na ito na gayahin ang stream ng data ng laro upang subukan ang iyong HUD o configuration.",
+          "info": "Mga Parameter ng Paglunsad"
+        },
+        "launchParams": {
+          "title": "Maaari mong tukuyin ang Mga Parameter ng Paglunsad para sa laro dito, sa halip na mga setting nito sa Steam.",
+          "info": "Pag-clear ng OCR Data"
+        },
+        "clearOCRData": {
+          "title": "Sa kaso ng panonood ng ibang laban sa LHM Valorant integration, o OCR lang na nagbabasa ng maling data, maaari mong i-clear ang OCR data, na gagawing muli ang LHM na basahin at muling i-parse ang lahat ng data, punan ang lahat ng mga patlang mula sa simula.",
+          "info": "Mga Koponan"
+        }
+      },
+      "teams": {
+        "tab": {
+          "title": "Ang tab na Mga Koponan ay ginagamit upang pamahalaan ang mga pangkat na ipinapakita at ginagamit sa loob ng mga HUD at iba pang mga pagpapagana ng LHM.",
+          "info": "Players"
+        }
+      },
+      "players": {
+        "tab": {
+          "title": "Players tab ay ginagamit upang pamahalaan ang mga player na ipinapakita at ginagamit sa loob ng HUDs at iba pang LHM functionality.",
+          "info": "Matches"
+        }
+      },
+      "matches": {
+        "tab": {
+          "title": "Ang tab na Matches ay ginagamit upang pamahalaan ang mga tugmang ipinapakita at ginagamit sa loob ng mga HUD at iba pang LHM functionality.",
+          "info": "Tournaments"
+        }
+      },
+      "tournaments": {
+        "tab": {
+          "title": "Tournaments tab ay ginagamit upang pamahalaan ang mga tournament na ipinapakita at ginagamit sa loob ng HUDs at iba pang LHM functionality.",
+          "info": "CG Mode"
+        }
+      },
+      "cgMode": {
+        "tab": {
+          "title": "CG Mode ay isinasama ang pinakamahalagang module para sa mga pagpapatakbo ng pagsasahimpapawid sa isang compact form. Mula sa tab na ito, maaari mong pamahalaan ang iyong mga laban, koponan, manlalaro at live na laro sa isang screen. Maaari mong itago ang mga hindi kinakailangang tab gamit ang button na \"Itago\" sa itaas ng bawat seksyon.",
+          "info": "Replays"
+        }
+      },
+      "arg": {
+        "tab": {
+          "title": "Auto Replay Generator (ARG) module ay bumubuo ng mga replay na maaaring ipakita sa pagitan ng mga round o sa pagtatapos ng isang laro. Pakitandaan na kailangan ang vMix para sa wastong pagsasaayos ng ARG. Ang vMix ay hindi isang libreng application, at ang ARG mismo ay idinisenyo lalo na para sa mga production team na gumagamit na ng vMix.",
+          "info": "Safeband"
+        },
+        "safeband": {
+          "title": "Tinutukoy ng mga opsyon sa Safeband kung gaano karaming oras (sa millisecond) bago at pagkatapos ng isang pagpatay dapat maglaman ang bawat clip.",
+          "info": "Gumamit ng HLAE?"
+        },
+        "useHLAE": {
+          "title": "Ang paggamit ng HLAE ay magbibigay-daan sa ARG na magsuri ng higit pang in-game na data, na nagreresulta sa mas mahusay na mga hula sa pagpatay.",
+          "info": "Delay config"
+        },
+        "delayConfig": {
+          "title": "Delay config ay tumutukoy kung gaano naantala ang CSTV observer (sa mga segundo).",
+          "info": "I-save ang mga clip"
+        },
+        "saveClips": {
+          "title": "Ang pagpapagana sa opsyong ito ay gagawing panatilihin ng vMix ang lahat ng mga clip na nabuo ng ARG sa halip na tanggalin ang mga ito.",
+          "info": "Computer ID"
+        },
+        "computerID": {
+          "title": "ID na ginagamit ng ARG, kailangan para sa matagumpay na koneksyon.",
+          "info": "Telnet"
+        }
+      },
+      "aco": {
+        "telnet": {
+          "title": "Ang Telnet ay isang protocol para sa komunikasyon sa CS2. Habang ginagamit ito, hindi mo kailangang magkaroon ng CS2 window sa focus, dahil lilipat ng LHM ang mga manlalaro gamit ang mga remote na command.",
+          "info": "Scout AI"
+        },
+        "tab": {
+          "title": "Imposibleng makuha ang bawat aksyon sa isang perpektong paraan at mula sa isang perpektong pananaw - ngunit talagang malapit doon ang Scout. Ang aming sariling AI ay natututo mula sa libu-libong mga laro upang makuha ang mga pinaka-maanghang na kaganapan nang mag-isa, nang walang input ng tao.",
+          "info": "Lugar"
+        },
+        "area": {
+          "title": "Ang mga lugar ay mga rehiyon sa mapa kung saan mo ibi-bind ang iyong mga config. Kung maraming manlalaro sa ibinigay na lugar, isa sa mga config na idinagdag dito ay isasagawa sa loob ng CS:GO client. Upang magdagdag ng isang lugar, mag-click sa pindutang \"+\" at piliin ang nais na rehiyon sa mapa sa pamamagitan ng pag-click sa mga sulok nito.",
+          "info": "Manual na kontrol"
+        },
+        "manualControl": {
+          "title": "Gamitin ang Manual Control panel upang pumili ng anumang lugar na ipapakita sa pamamagitan ng kamay. Dahil isa itong panlabas na page na bumubukas sa iyong web browser, maaari mo rin itong bisitahin mula sa iyong smartphone o tablet (kung ikaw ay nasa parehong lokal na network). Ang pag-click o pag-tap sa isang lugar sa loob ng Manual Control panel ay isasagawa ang mga config nito sa CS:GO client.",
+          "info": "Paggawa ng lugar"
+        },
+        "areaCreation": {
+          "title": "Mag-click sa mapa upang tukuyin ang mga sulok ng iyong lugar. Gamitin ang button na i-undo kung nagkamali ka.",
+          "info": "Paganahin ang Direktor"
+        },
+        "directorSwitch": {
+          "title": "Kapag naka-on ang toggle, awtomatikong magsisimula ang ACO. Maaari mo ring gamitin ang keybind (default: ALT + K).",
+          "info": "Paganahin ang Direktor"
+        },
+        "scoutDirectorSwitch": {
+          "title": "Kapag naka-on ang toggle, awtomatikong magsisimula ang Scout AI. Maaari mo ring gamitin ang keybind (default: ALT + K).",
+          "info": "Scout AI Cinematic Mode"
+        },
+        "scoutCinematic": {
+          "title": "Sa mode na ito, gagana ang Scout AI kasama ng ACO AI, upang magbigay ng ganap na karanasan sa pagmamasid. Kung wala ito, magbibigay lang ang Scout AI ng POV camera, nang walang anumang mga overview shot. Naaangkop lang ang mode na ito kung sinusuportahan ng ACO AI ang isang mapa kung saan nilalaro ang laban.",
+          "info": "Scout Predict"
+        },
+        "scoutPredict": {
+          "title": "Scout ay nagbibigay-daan para sa automated, AI-based na live na hula. Kung pinagana ang opsyong ito, ipapadala ang mga hulang iyon sa iyong mga HUD sa mahahalagang sandali, upang magbigay ng mas mahusay na insight sa isang laro.",
+          "info": "Ang iyong buwanang Scout AI quota"
+        },
+        "timeRemaining": {
+          "title": "Ang iyong magagamit na oras upang gamitin ang mga server ng Scout AI. Nagre-refresh ito sa bawat buwan ng iyong subscription.",
+          "info": "Augmented Reality"
+        }
+      },
+      "ar": {
+        "tab": {
+          "title": "Ang suporta sa AR module ay nagbibigay-daan sa pagpapakita ng mga custom na 3D na bagay na parang bahagi sila ng laro. Gumagamit ang AR ng data ng posisyon ng camera na na-load gamit ang GSI para i-render ang iyong HTML at CSS-based na mga 3D na bagay sa eksena ng laro.",
+          "info": "Live"
+        }
+      },
+      "live": {
+        "tab": {
+          "title": "Kapag may nakitang live na laro, pupunuin ng tab na Live ang data tungkol sa kasalukuyang laban, gaya ng mga pangalan ng manlalaro, ID at kasalukuyang marka. Ang Live na tab ay nagbibigay din sa iyo ng mabilis na access sa pag-edit ng player.",
+          "info": "Camera Delay"
+        }
+      },
+      "cameras": {
+        "delay": {
+          "title": "Ang Camera Delay ay kasalukuyang sinusuportahan lamang sa opisyal, Lexogrine HUDs: Ultra & Premium HUDs",
+          "info": "Cameras"
+        },
+        "tab": {
+          "title": "Hinahayaan ka ng Cameras module na magpakita ng player webcam feeds sa loob ng iyong HUDs gamit ang LHM - walang external na tool ay kinakailangan. Ang",
+          "info": "Addons"
+        }
+      },
+      "addons": {
+        "tab": {
+          "title": "Ang mga addon ay isang bagong paraan upang lumikha ng mga mahuhusay na pagsasama sa LHM, na gumagana sa pamamagitan ng pagbibigay ng mga sandboxed Node.js na kapaligiran na may mga GSI na mga emitter ng kaganapan na nakakabit sa kanila sa labas ng kahon. Salamat sa LHM Addons, maaari mong ituon ang iyong mga pagsisikap sa paglikha ng pinakamahusay na posibleng karanasan para sa iyong mga manonood, kasama ang lahat ng mabibigat na gawaing ginawa ng LHM.",
+          "info": "Quick"
+        }
+      },
+      "quick": {
+        "tab": {
+          "title": "Nagbibigay-daan sa iyo ang LHM Quick na mabilis na ihanda ang iyong buong player, team at HUD setup mula sa isang lugar, na nagbibigay-daan sa iyong makapagsimula kaagad sa iyong stream.",
+          "info": "Masyadong malaki ang larawan"
+        }
+      }
+    },
+    "modals": {
+      "imageTooLarge": {
+        "title": "Masyadong malaki ang napiling larawan. Ang limitasyon sa laki ay {{limit}} MB.",
+        "info": "Tanggalin ang mga koponan"
+      },
+      "delete": {
+        "titleTeams": "Tanggalin ang mga manlalaro",
+        "titlePlayers": "Sigurado ka bang gusto mong alisin ang {{count}} mga koponan?",
+        "infoTeams": "Sigurado ka bang gusto mong alisin ang {{count}} na mga manlalaro?",
+        "infoPlayers": "Tanggalin kasama ang mga manlalaro",
+        "deleteWithPlayers": "Steam API Key Nawawala"
+      },
+      "steamApiKeyMissing": {
+        "title": "Mukhang naglagay ka ng custom na Steam URL sa SteamID field. Ang LHM ay nangangailangan ng Steam API Key upang suportahan ang mga custom na URL. Gusto mo pa rin bang makatipid?",
+        "info": "I-upload ang iyong mga HUD sa LHM Cloud"
+      }
+    },
+    "cloudification": {
+      "updateModalTitle": "Simula sa LHM 4.9.0, ganap na cloud-based ang lahat ng HUD. Nangangahulugan ito na magagamit mo na ngayon ang iyong mga HUD sa anumang device, at palaging mananatiling naka-sync ang iyong mga HUD.",
+      "updateModalInfo1": "Para magpatuloy sa paggamit ng LHM, kailangan mong i-upload ang iyong mga HUD sa LHM Cloud.",
+      "updateModalInfo2": "Ang ilan sa mga HUD ay kasalukuyang naka-save na naka-compress sa Cloud. Upang magamit ang mga ito, kakailanganing i-download ng LHM ang mga ito at i-decompress ang mga ito. Maaari itong magresulta sa mas mataas na paggamit ng limitasyon sa Cloud.",
+      "updateModalCloudWarning": "Ang iyong mga HUD ay iba-back up pa rin sa iyong direktoryo ng HUD, kung pipiliin mong huwag i-upload ang mga ito.",
+      "updateModalNonuploadedHUDsStillInDirectory": "Inihahanda namin ang iyong mga HUD para sa iyo...",
+      "updateModalImporting": "I-upload ang lahat ng HUD sa LHM Cloud",
+      "actions": {
+        "uploadAll": "Hayaan akong pumili kung aling mga HUD ang ia-upload",
+        "customize": "Kumpirmahin at ia-upload",
+        "confirm": "I-download at i-unpack ang HUD"
+      },
+      "downloadAndUnpack": "naka-compress sa cloud",
+      "spaceCompressedInCloud": "sa disk",
+      "spaceOnDisk": "Limit sa Laki ng Cloud Storage",
+      "sizeLimitModalTitle": "Ang operasyon na gusto mong gawin ay hindi maaaring mangyari dahil sa limitasyon ng Cloud Storage ng iyong account. Para magpatuloy, i-off ang Cloud Storage o i-delete ang mga hindi kinakailangang asset (HUDs, Teams, Players, Matches, Tournaments, ACO paths). Tingnan ang",
+      "sizeLimitModalInfo1": "para makita ang iyong kasalukuyang paggamit at kapasidad ng Cloud Storage.",
+      "sizeLimitModalInfo2": "Mukhang hindi ka pa nakakapag-upload sa cloud. Maaari mong i-upload ang iyong kasalukuyang database, o huwag paganahin ang pag-synchronize sa makinang ito"
+    },
+    "synchronization": {
+      "noUploadedResources": "Ang iyong lokal na database ay hindi naka-synchronize sa cloud storage. Maaari mong i-download o i-upload ang database o huwag paganahin ang pag-synchronize. Magkaroon ng kamalayan, ang pag-download na iyon ay mag-aalis ng kung ano ang kasalukuyan mong mayroon sa PC na ito, at ang pag-upload ay buburahin ang nilalaman ng cloud storage. Ano ang gusto mong gawin?",
+      "noSyncLocal": "Nagkaroon ng error, kaya para maiwasan ang pagkawala ng data, in-off namin ang pag-synchronize",
+      "error": "Synchronization",
+      "modalTitle": "Piliin ang iyong workspace"
+    },
+    "workspaces": {
+      "pickModalTitle": "Pumili",
+      "pick": "Hindi kilalang workspace",
+      "unknownWorkspace": "Natukoy namin na gumagamit ka ng Stream Deck"
+    },
+    "streamDeck": {
+      "modalTitle": "gusto mo bang kumonekta ang LHM dito?",
+      "modalInfo": "Welcome sa LHM!"
+    },
+    "newToLHM": {
+      "games": {
+        "title": "Bago sa LHM? Dito makikita mo ang ilang mga pangunahing tip upang makapagsimula sa paggamit ng application! Kasalukuyang sinusuportahan ng LHM ang CS2, Dota 2, League of Legends, Rocket League, Apex Legends at F1. Ang bawat suportadong laro ay nangangailangan ng simple ngunit kinakailangang configuration upang gumana nang maayos sa LHM. Mag-click sa Learn More button sa ibaba upang matutunan kung paano mag-set up ng anumang laro na gusto mong gamitin sa LHM.",
+        "description": "LHM Quick"
+      },
+      "quick": {
+        "title": "Nagbibigay-daan sa iyo ang LHM Quick na mabilis na i-configure ang mga manlalaro at koponan na ilulunsad sa HUD. Pangunahing nilayon ang feature para sa mga user na pamilyar sa kung paano gumagana ang LHM at para payagan silang makapagsimula kaagad. Sa kasalukuyan, ang mga laro na sinusuportahan sa LHM Quick ay CS2, CS:GO, Dota 2, League of Legends at Rocket League. Mag-click sa Learn More button sa ibaba upang matuto nang higit pa tungkol sa LHM Quick.",
+        "description": "HUDs tab"
+      },
+      "huds": {
+        "title": "Ipinapakita ng HUDs tab ang lahat ng HUDs na mayroon ka, parehong mga built-in at ang mga na-upload mo mismo. Upang magsimula ng HUD, maaari mong ilunsad ang overlay sa isang hiwalay na window sa iyong system (button na \"Start HUD overlay\") o kopyahin ang link at idagdag ito bilang pinagmumulan ng browser sa iyong broadcast software (\"Toggle HUD url\" na button).",
+        "description": "LHM HUDs"
+      },
+      "lhmHuds": {
+        "title": "Ang bawat LHM plan ay may mga built-in na HUD. Kung mas mataas ang plano, mas advanced ang mga HUD. Mag-click sa mga pangalan sa ibaba upang matuto nang higit pa tungkol sa bawat isa: - Default na HUD para sa anumang sinusuportahang laro - Premium HUD para sa [[CS2|premiumCS2]], [[Dota 2|premiumDota2]], [[LoL|premiumLoL]], [[Rocket League|premiumRL]] - Ultra HUD para sa [[CS2|ultraCS2]] at [[Dota 2|ultraDota2]]",
+        "description": "Gabay sa gumagamit"
+      },
+      "userGuide": {
+        "title": "Tingnan ang aming Gabay sa Gumagamit upang matuto nang higit pa tungkol sa bawat bahagi ng LHM. Makakahanap ka ng mga paglalarawan, mga tagubilin para sa pag-configure at paggamit ng lahat ng mga tampok, at mga sagot sa mga pinakakaraniwang tanong. Kung mayroon kang mga karagdagang tanong, sumali sa [[aming Discord|discord]]."
+      }
+    }
+  }
+}

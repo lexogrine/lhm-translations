@@ -1,0 +1,1030 @@
+{
+  "translation": {
+    "common": {
+      "cgMode": "CG rejimi",
+      "or": "yoki",
+      "close": "Yopish",
+      "save": "Saqlash",
+      "saveAndSend": "Saqlash va yuborish",
+      "saveAndRestart": "Saqlash va qayta ishga tushirish",
+      "saveAndExit": "Saqlash va chiqish",
+      "loadingSuccess": "Yuklash muvaffaqiyatli",
+      "loaded": "Yuklangan",
+      "notLoaded": "Yuklanmagan",
+      "vs": "VS",
+      "noTeam": "Jamoa yo'q",
+      "noPlayer": "O'yinchi yo'q",
+      "noMatch": "O'yin topilmadi",
+      "noTournament": "Turnir yo'q",
+      "noValue": "Birlamchi",
+      "teamOne": "Birinchi jamoa",
+      "teamTwo": "Ikkinchi jamoa",
+      "show": "Ko'rsatish",
+      "hide": "Yashirish",
+      "map": "Xarita",
+      "team": "Jamoa",
+      "players": "O'yinchilar",
+      "realName": "Haqiqiy ismi",
+      "player": "O'yinchi",
+      "teams": "Jamoalar",
+      "team1": "1-jamoa",
+      "team2": "2-jamoa",
+      "teamNumber": "JAMOA #{{num}}",
+      "vetoNumber": "Veto {{{num}} }",
+      "delete": "O'chirish",
+      "edit": "Tahrirlash",
+      "live": "Jonli",
+      "match": "Mos",
+      "goBack": "Orqaga qaytish",
+      "ct": "CT",
+      "t": "T",
+      "no": "Yo'q",
+      "yes": "Ha",
+      "noDontAsk": "Yo'q, so'ramang",
+      "csgo": {
+        "ct": "CT",
+        "t": "T",
+        "no": "Yo'q"
+      },
+      "cs2": {
+        "ct": "CT",
+        "t": "T",
+        "no": "Yo'q"
+      },
+      "valorant": {
+        "ct": "DEF",
+        "t": "ATK",
+        "no": "Yo'q"
+      },
+      "export": "Eksport",
+      "cancel": "Bekor qilish",
+      "next": "Keyingi",
+      "finish": "Tugatish",
+      "understand": "Tushundim",
+      "tournaments": "Turnirlar",
+      "firstName": "Ism",
+      "lastName": "Familiya",
+      "createNew": "Yangi yaratish",
+      "nickname": "Taxallus",
+      "ready": "Tayyor",
+      "country": "Mamlakat",
+      "manage": "Boshqarish",
+      "import": "Import",
+      "teamName": "Jamoa nomi",
+      "shortName": "Qisqa nom",
+      "search": "Qidirish...",
+      "loading": "Yuklanmoqda...",
+      "ok": "OK",
+      "disconnect": "Ulanishni uzish",
+      "connect": "Ulanish",
+      "refresh": "Yangilash",
+      "enable": "Yoqish",
+      "example": "Misol",
+      "disable": "O'chirish",
+      "download": "Yuklash",
+      "upload": "Yuklash",
+      "accept": "Qabul qilish",
+      "decline": "Rad etish",
+      "downloadTemplate": "Yuklash shablon",
+      "clickAndCopy": "bosing va nusxalash",
+      "swap": ""
+    },
+    "chat": {
+      "title": "Yordam suhbatini almashtiring",
+      "header": "Yordam bilan suhbat",
+      "suggestionHeader": "Bu sizning savolingizga javob berishi mumkin",
+      "outOfOfficeWarning": "Bizning qo'llab-quvvatlash guruhimiz odatda ish kunlari CEST bo'yicha 9:00 dan 17:00 gacha ishlaydi. Bu soatlardan tashqarida javob berish uchun ko‘proq vaqt ketishi mumkin.",
+      "typeYourMessage": "Xabaringizni shu yerga yozing..."
+    },
+    "blocker": {
+      "personal": "Ushbu bo'limga to'liq kirish uchun LHM-ni Shaxsiy, Professional yoki Korxona rejasiga yangilang.",
+      "proPlus": "Ushbu bo'limga to'liq kirish uchun LHM-ni Professional yoki Enterprise rejasiga yangilang.",
+      "upgradeNow": "Hozir yangilang",
+      "featureDescription": {
+        "cgmode": "CG Mode ixcham shaklda translyatsiya operatsiyalari uchun eng muhim modullarni o'z ichiga oladi. Ushbu yorliqda siz oʻyinlar, jamoalar, oʻyinchilar va jonli oʻyinlarni bitta ekranda boshqarishingiz mumkin. Ushbu bo'limga to'liq kirish uchun LHM-ni Shaxsiy, Professional yoki Korxona rejasiga yangilang.",
+        "arg": "Avtomatlashtirish keyingi chegara - va biz Leksogrinda uni kesib o'tishga qaror qildik! Avtomatik takrorlash generatori takrorlash tizimini to'liq avtomatlashtiradi. ARG - belgilangan mezonlar asosida - o'yindagi har bir voqeani kuzatib boradi va avtomatik ravishda eng muhim daqiqalarni qo'lga kiritadi va raundlar orasidagi hayajonli takrorlarni namoyish etadi. Sizga kerak bo'lgan narsa - vMix yoki OBS. Ushbu bo'limga to'liq kirish uchun LHM-ni Shaxsiy, Professional yoki Korxona rejasiga yangilang.",
+        "addons": "Qo'shimchalar LHM bilan integratsiyani yaratishning yangi usulidir. Shu paytgacha faqat maxsus HUD kodi o'yin ma'lumotlari tasmasiga kirish huquqiga ega edi, ya'ni siz nima qilishni xohlasangiz, u brauzer muhitida bajarilishi kerak edi. Qo'shimchalar server muhitida ishlaydi - ular asosan NodeJS ilovalari bo'lib, ularga GSI Event emitteri ulangan. Bu shuni anglatadiki, qo'llab-quvvatlanadigan o'yinlardan (CS2, Dota 2) ma'lumot olish uchun tahlil qiluvchi bilan maxsus HTTP serverini yaratishingiz shart emas, sizda bularning barchasi mavjud, shuning uchun siz o'zingiz xohlagan integratsiya va funksiyalarga e'tibor qaratishingiz mumkin. yaratish. Ushbu bo'limga to'liq kirish uchun LHM-ni Shaxsiy, Professional yoki Korxona rejasiga yangilang.",
+        "aco": "Har bir harakatni mukammal tarzda va ideal nuqtai nazardan suratga olishning iloji yo'q - lekin Skaut bunga juda yaqin keladi. Bizning sun'iy intellektimiz minglab o'yinlardan o'rganib, eng achchiq voqealarni inson ishtirokisiz o'z-o'zidan suratga oladi. Barcha Scout AI modullariga kirish uchun LHM-ni Shaxsiy rejaga yangilang - Scout Vision, Scout Predict va Scout Cinematic.",
+        "cameras": "Bizning kamera tizimimizdan foydalanish juda oson va tashkilotchilar uchun ham, o'yinchilar uchun ham katta miqdorda sozlash vaqtini tejaydi. Haddan tashqari murakkab va ko'p vaqt talab qiladigan ishlab chiqarish dasturiy ta'minoti konfiguratsiyasi, apparat bilan bog'liq muammolar yo'q. Kamerani ulang va uni LHM-dagi pleerga tayinlang. HUD-ni ishga tushiring va tomoshabinlarga tabassum qiling. Ushbu bo'limga to'liq kirish uchun LHM-ni Shaxsiy, Professional yoki Korxona rejasiga yangilang.",
+        "signals": "LHM Signals - bu Bitfocus Companion ilovasi bilan bizning maxsus integratsiyamiz. Maqsadimiz oldindan aytib bo'ladigan, o'yin ichidagi voqealarni avtomatlashtirishga yordam berishdir. Signallar bu haqda g'amxo'rlik qiladi va belgilangan o'yin voqealarida Companion tugmachalarini ishga tushirishga imkon beradi. LHM-ni shaxsiyga yangilang,Professional yoki Enterprise ushbu bo'limga to'liq kirishni rejalashtirmoqda."
+      }
+    },
+    "titles": {
+      "players": "O'yinchilar",
+      "teams": "Jamoalar",
+      "arg": "Takrorlashlar",
+      "aco": "Skaut AI",
+      "ar": "Kengaytirilgan reallik",
+      "cgpanel": "CG rejimi",
+      "huds": "HUDs",
+      "matches": "matchlar",
+      "tournaments": "Turnirlar",
+      "live": "Jonli",
+      "signals": "Signallar",
+      "cameras": "Kameralar",
+      "addons": "Qo'shimchalar",
+      "settings": "Sozlamalar",
+      "credits": "Kreditlar",
+      "quick": "Tez",
+      "chat": "Yordam suhbati"
+    },
+    "aco": {
+      "disabled": "Oʻchirilgan",
+      "aco1": "ACO",
+      "acoAI": "ACO AI",
+      "acoAIScout": "ACO AI + Scout AI",
+      "scoutOnly": "Scout AI",
+      "cs2Warning": "ACO va ACO AI hozirda yangi chiqarilgan Counter-Strike 2 uchun mavjud emas. CS2da LHM tomonidan ushbu funksiyalarning hozir ishlashi uchun talab qilinadigan asosiy funksiyalar etishmayapti.",
+      "cs2ScoutAndARGWarning": "CS2 da asosiy funksiyalar yoʻqligi sababli, {{ feature }} endi toʻgʻri ishlashi uchun oʻyin ichidagi granata tugmachalari standart qiymatlariga (klaviaturadagi 1-0 raqamli tugmalar) oʻrnatilishini talab qiladi. CS2 da kerakli buyruqlar yo'qligi LHM ning o'yinchilarni avtomatik ravishda almashtirishiga to'sqinlik qiladi, shuning uchun LHM endi o'yinga tugmachalarni bosishlarni qo'lda yuboradi, shuning uchun {{ feature }} foydalanish vaqtida o'yin diqqat markazida ekanligiga ishonch hosil qiling.",
+      "map": "Xarita",
+      "area": "Hudud",
+      "addNewArea": "Yangi maydon qo'shish",
+      "showInfo": "Ma'lumotni ko'rsatish",
+      "hideInfo": "Ma'lumotni yashirish",
+      "areaCreation": "Hudud yaratish",
+      "createArea": "+ Yangi hudud qo'shish",
+      "addConfig": "+ Yangi konfiguratsiya qo'shish",
+      "areaConfigurations": "Hudud konfiguratsiyalari",
+      "stateCreatingNew": "[yangisini yaratish hudud]",
+      "priority": "ustuvor",
+      "inGameName": "O'yin ichidagi nom",
+      "manualControl": "Qo'lda boshqarish",
+      "areaConfigurationsPlaceholder": "Konfiguratsiyalarini ko'rish uchun hududni tanlang",
+      "enableDirector": "Direktorni yoqish",
+      "scoutPredict": "Predict yoqish",
+      "telnet": "Telnetni yoqish",
+      "telnetWarning": "Telnetdan foydalanish uchun CS2 Workshop Tools bilan ishga tushirilishi kerak. Buni HUDs yorlig'ida \"Killfeed / Tools\" opsiyasini yoqish va \"O'yinni ishga tushirish\" tugmasini bosish orqali qilishingiz mumkin.",
+      "cinematicWarning": "Scout Cinematic-dan foydalanish uchun CS2 Workshop Tools bilan ishga tushirilishi kerak. Buni HUDs yorlig'ida \"Killfeed / Tools\" opsiyasini yoqish va \"O'yinni ishga tushirish\" tugmasini bosish orqali qilishingiz mumkin. Scout Cinematic yoqilsa, Scout Vision ham Direct rejimida ishlashga majbur bo‘ladi.",
+      "disabledDescription": "Barcha nazorat sizga va kuzatuvchilaringizga berilgan.",
+      "aco1Description": "Boshqarish va avtomatlashtirish balansi. Kuzatuvchilaringizga ACO uchun qo'lda yozilgan ko'rsatmalar to'plami bilan yordam bering.",
+      "aco-aiDescription": "ACO AI ning ilg‘or algoritmlari oqimingizni boshqarayotganda orqaga o‘tiring.",
+      "aco-ai-scoutDescription": "AI moslamasi kuzatuvchisiga hech qanday foydalanuvchi kiritmasdan o'yinni tomosha qilishiga imkon bering.",
+      "aco-ai-scoutDescription-disconnected": "AI moslamasi kuzatuvchisiga hech qanday foydalanuvchi kiritmasdan o‘yinni tomosha qilishiga imkon bering.\\nSkaut serverlari hozirda mavjud bo‘lmasligi mumkin.",
+      "scoutCinematicDescription": "O'yin tanaffuslarida chiroyli kinematik kadrlarni ko'rsating.",
+      "scoutPredictDescription": "Translatsiyangizda jonli oʻyin natijalari prognozlarini koʻrsating.",
+      "scoutCinematic": "Cinematic Scout-dan foydalaning",
+      "saveArea": "Hududni saqlash",
+      "areaName": "Ism",
+      "areaNamePlaceholder": "Hudud nomi",
+      "areaPriority": "Priority",
+      "areaPriorityPlaceholder": "Hududning ustuvorligi",
+      "addConfigHeader": "Bu hududga yangi konfiguratsiya qo'shing",
+      "addConfigPlaceholder": "Bunda bajariladigan buyruqni kiriting hudud",
+      "timeRemaining": "Mavjud vaqt",
+      "scoutServerUnavailable": "LHM Scout AI serverlariga ulana olmaydi. Iltimos, bir necha daqiqadan so‘ng qayta urinib ko‘ring.",
+      "scoutSubtitle": "AI Observer",
+      "scoutGetMoreTime": "Ko'proq vaqt oling",
+      "scoutDescription": "Skaut AI minglab o'yinlardan o'rganib, eng achchiq voqealarni inson ishtirokisiz o'z-o'zidan suratga oladi.",
+      "scoutVisionControl": {
+        "label": "O'yinni boshqarish rejimi",
+        "direct": {
+          "label": "To'g'ridan-to'g'ri",
+          "description": "To'g'ridan-to'g'ri rejim o'yinni bevosita boshqarish uchun telnetdan foydalanadi. Bu o'yinni boshqarishning eng ishonchli usuli, ammo u o'yinni Steam-dagi DLC yorlig'ida yoqilgan Workshop Tools bilan ishga tushirishni talab qiladi."
+        },
+        "keybinds": {
+          "label": "Klaviatura",
+          "description": "Klaviatura rejimi o'yinni boshqarish uchun tugmalarni bosishni taqlid qiladi. Unda qo'shimcha talablar yo'q, lekin tugmachalarni bosish uchun o'yin diqqat markazida bo'lishi kerak va kamerani boshqarish bilan bog'liq o'yin ichidagi tugmalar sukut bo'yicha o'rnatilishi kerak."
+        }
+      },
+      "scoutVisionTakeoverControl": {
+        "label": "Qo'lda egallash"
+      },
+      "scoutCinematicTakeoverControl": {
+        "label": "Qo'lda egallash"
+      },
+      "scoutCinematicAction": {
+        "label": "Action Cinematic"
+      },
+      "scoutPausedTip": "Scout AI to'xtatildi, chunki hech qanday ishlaydigan o'yin aniqlanmagan."
+    },
+    "players": {
+      "edit": "Oʻyinchini tahrirlash",
+      "uploadProfile": "Rasm",
+      "avatarInfo": "Steamʼdagi standart oʻrniga oʻyinchi tasvirlari uchun ishlatiladigan avatar",
+      "addPlayer": "Oʻyinchi qoʻshish",
+      "importPlayersTitle": "Oʻyinchilarni import qilish",
+      "downloadNamesFile": "Ismlar faylini yuklab olish",
+      "importPlayersExcel": "Oldindan tayyorlaganimizdan foydalaning. Bir vaqtning o'zida bir nechta o'yinchilarni osongina import qilish uchun Excel varag'i.",
+      "exportPlayers": "Eksport",
+      "avatar": "Avatar"
+    },
+    "teams": {
+      "edit": "Jamoani tahrirlash",
+      "uploadLogo": "Logo",
+      "logoInfo": "Jamoa uchun foydalanish uchun logotip, agar iloji bo'lsa, berilgan HUDda",
+      "addTeam": "Jamoa qo'shish",
+      "exportTeams": "Eksport",
+      "importTeamsTitle": "Jamoalarni import qilish",
+      "importTeamsExcel": "Bir vaqtning o'zida bir nechta jamoalarni osongina import qilish uchun oldindan tayyorlangan Excel varag'imizdan foydalaning.",
+      "logo": "Logo"
+    },
+    "live": {
+      "replaceUsernames": "Foydalanuvchi nomlarini almashtiring",
+      "header": "Jonli",
+      "noGame": "Hozirda jonli oʻyin yoʻq.",
+      "tip": "Hozirda oʻyinda boʻlgan oʻyinchilar, oʻyinchi roʻyxatiga oʻyinchi qoʻshish uchun bosing."
+    },
+    "cameras": {
+      "generatePassword": "Parol yarating",
+      "sendToPlayers": "Buni oʻyinchilaringizga yuboring",
+      "fillFromLive": "Jonli sahifadan toʻldiring",
+      "resetLink": "Havolani qayta oʻrnatish",
+      "startTestVideo": "Test videosini oʻynatish",
+      "stopTestVideo": "Sinov videosini toʻxtatish",
+      "testVideoBlocker": "Sinov videosini oʻynash uchun sizda oʻyin boʻlishi kerak va o'yinchilar yuqoridagi jadvalni to'ldirdi. Demo tomosha qiling yoki test maʼlumotlarini oʻynang va sinov pleyerini tanlang",
+      "testPlayer": "Test oʻyinchi"
+    },
+    "addons": {
+      "upload": "Qoʻshimchani yuklang",
+      "status": {
+        "READY": "Tayyor",
+        "UNINSTALLED": "Oʻchirildi"
+      },
+      "downloadGameAddon": "Yuklab oling.",
+      "downloading": "Yuklab olinmoqda...",
+      "runAddon": "Addonni ishga tushiring",
+      "addonWarning": "Addon Ogohlantirish",
+      "warnings": {
+        "lol-mr-1": "Kengaytirilgan qo'shimcha xotirani o'qish tufayli ko'proq ma'lumotlarni o'qish imkonini beradi. Xotirani o'qishni aldash deb hisoblash mumkin, bunday vositalar ko'p yillar davomida mavjud va Riot ularga murojaat qilmaydi va biz tomoshabinlarning buning uchun taqiqlangani haqida eshitmaganmiz. Shunga qaramay, siz o'zingizning xavf-xataringiz bo'yicha League of Legends Advanced Addon-dan foydalanasiz.",
+        "lol-mr-2": "LoL Advanced Addon-dan oddiy o'yin davomida foydalanmang, u faqat o'yinni tomosha qilish uchun ishlatiladi!"
+      },
+      "nodejsWarning": "NodeJS va NPM ko'pgina qo'shimchalar uchun o'rnatilishi talab qilinadi"
+    },
+    "navbar": {
+      "huds": "HUDs",
+      "aco": "Scout AI",
+      "addons": "qo'shimchalar",
+      "ar": "AR",
+      "live": "Live",
+      "quick": "Tezkor",
+      "professionalOnly": "Faqat professional",
+      "nonFreeOnly": "Bepul emas faqat",
+      "cameras": "Kameralar",
+      "hi": "Salom, {{username}}!",
+      "yourPlan": "Sizning rejangiz",
+      "signals": "Signallar",
+      "validFrom": "",
+      "validUntil": "dan boshlab amal qiladi",
+      "nextPayment": "Keyingi toʻlov",
+      "logout": "Chiqish",
+      "arg": "Takrorlashlar"
+    },
+    "signals": {
+      "removal": {
+        "title": "Oldindan sozlamalarni oʻchirish",
+        "areYouSure": "“{{name}}” oldindan oʻrnatilgan sozlamalarni oʻchirib tashlamoqchimisiz?"
+      },
+      "edit": {
+        "title": "Oldindan nomini oʻzgartirish",
+        "placeholder": "Oldindan oʻrnatilgan nom"
+      },
+      "create": {
+        "title": "Yangi oldindan oʻrnatishni yaratish",
+        "placeholder": "Oldindan oʻrnatilgan nom"
+      },
+      "activate": "{{ name }} faol emas",
+      "deactivate": "{{ name }} faol emas",
+      "addBranch": "Filial qoʻshish",
+      "event": "Voqea",
+      "addEvent": "Voqea qo'shish",
+      "selectEvent": "Voqea tanlash",
+      "preset": "Oldindan o'rnatilgan",
+      "addPreset": "Yangi oldindan o'rnatish",
+      "requirements": "Talablar",
+      "active": "Faol:",
+      "companionAddress": "Yordamchi manzil",
+      "filtering": {
+        "noFiltering": "Filtrlash mavjud emas",
+        "orientationAny": "Orientatsiya: Har qanday",
+        "orientationLeft": "Orientatsiya: Chap",
+        "orientationRight": "Orientatsiya: O'ng",
+        "sideAny": "Yon: Har qanday",
+        "side": "Yon:",
+        "teamAny": "Jamoa: Har qanday",
+        "playerAny": "O'yinchi: Har qanday"
+      }
+    },
+    "quick": {
+      "uploadImage": "Rasmni yuklash",
+      "teamLogo": "Jamoa logotipi",
+      "backToLHM": "LHM ga qaytish",
+      "next": "Keyingi",
+      "back": "Ortga",
+      "newPlayer": "Yangi o‘yinchi yaratish",
+      "startSession": "Yangi seansni boshlash",
+      "exit": "Chiqish Tez",
+      "fillWithLive": "Jonli maʼlumotlar bilan toʻldiring",
+      "unnamedTeam": "Nomsiz jamoa",
+      "dismiss": "Oʻchirib qoʻying",
+      "launchHUD": "HUDni ishga tushiring",
+      "uploadAvatar": "Avatarni yuklash",
+      "selectHUD": "HUD ni tanlang",
+      "preview": "Ko‘rib chiqish",
+      "unlink": "Aloqani uzish",
+      "playerExists": {
+        "info": "Bu {{playerIdentifierName}} o‘yinchisi allaqachon mavjud.",
+        "overwrite": "Bu bilan ularning ma'lumotlarini qayta yozmoqchimisiz?",
+        "overwriteTitle": "Ustiga yozilsinmi?",
+        "decline": "Yo'q, uni o'zgartirishga ruxsat bering",
+        "accept": "Ha, qayta yozing"
+      },
+      "success": {
+        "title": "HUD sozlangan va ishga tushirilgan",
+        "opened": "HUD alohida oynada ochilgan.",
+        "borderless": "Siz o'yinda Chegarasiz rejimidan foydalanishingiz va HUD ekranini to'g'ridan-to'g'ri",
+        "display": "olishingiz yoki uni translyatsiya dasturiga yangi displey manbai sifatida qo'shishingiz mumkin.",
+        "userGuide": "Har qanday muammo bo'lsa, foydalanuvchi qo'llanmasiga tashrif buyuring.",
+        "started": "O'yin boshlandi"
+      }
+    },
+    "tournaments": {
+      "overview": "Umumiy ko'rinish",
+      "edit": "Turnirni tahrirlash",
+      "page": "Turnir sahifasi",
+      "create": "Yangi turnir yaratish",
+      "name": "Turnir nomi",
+      "uploadLogo": "Turnir logotipini yuklash",
+      "logoInfo": "Turnir logotipi oʻyin davomida mavjud boʻladi",
+      "singleElimBracket": "Yakka tartibdagi oʻtish braketi",
+      "doubleElimBracket": "Juftlikdan oʻtish braketi",
+      "swiss": "Shveytsariya",
+      "group": "Guruh",
+      "playoffs": "Pley-off",
+      "playoffType": "Pley-off turi",
+      "soon": "Tez orada",
+      "groupType": "Guruh turi",
+      "participants": "Ishtirokchilar",
+      "then": "keyin",
+      "amountOfTeams": "Jamoalar soni",
+      "amountOfRounds": "Miqdori raundlar",
+      "bindMatch": "O'yinni qavsga bog'lang",
+      "teamOrderList": "Jamoalar tartibi ro'yxati"
+    },
+    "match": {
+      "matches": "O'yinlar",
+      "seriesWins": "Seriyadagi g'alabalar",
+      "live": "Jonli",
+      "edit": "Uchrashuvni tahrirlash",
+      "editTeam": "Jamoani tahrirlash",
+      "emptyTeam": "Bo'sh jamoa",
+      "scoreModal": {
+        "unsetWin": "Belgilanmagan g'alaba",
+        "setWin": "G'alabani belgilash",
+        "teamLogo": "Jamoa logotipi"
+      },
+      "toggleLive": "LIVE",
+      "tabs": {
+        "ended": "yakunlandi",
+        "current": "joriy",
+        "future": "kelajak"
+      },
+      "columns": {
+        "match": "O'yin",
+        "score": "Hisob",
+        "date": "Sana",
+        "time": "Vaqt"
+      },
+      "wins": "G'alaba",
+      "wrongTeamSelected": "Noto'g'ri tanlangan jamoa",
+      "vetoType": {
+        "pick": "tanlash",
+        "ban": "man",
+        "decider": "hal qiluvchi"
+      },
+      "editVeto": "Tahrirlash Veto",
+      "vetoSide": {
+        "left": "qoldi",
+        "right": "o'ng"
+      },
+      "vetoDescription": {
+        "pick": "{{teamName}} tanlaydi {{mapName}}",
+        "ban": "{{teamName}} taqiqlaydi {{mapName}}"
+      },
+      "chooseTeam": "jamoani tanlang",
+      "vetoSidepick": {
+        "normal": ", {{secondTeamName}} {{side}} tomonni tanlaydi",
+        "decider": "{{mapName}} hal qiluvchi"
+      },
+      "vetoUrlModal": {
+        "title": "Veto ilovasi havolasini yaratish",
+        "deleteUrls": "URL manzillarni oʻchirish",
+        "generateUrls": "URL manzillarini yaratish",
+        "readyToGenerate": "Yaratishga tayyor",
+        "observerUrl": "Kuzatuvchining URL manzili",
+        "firstToPick": "Birinchi bo'lib tanlang"
+      },
+      "pickBothTeams": "Veto qo'yish uchun ikkala jamoani tanlang",
+      "setScore": "Hisobni o'rnating",
+      "resetScore": "Hisobni qayta o'rnating",
+      "questionOpponentPick": "Raqib tomonni tanlaydimi?",
+      "reversedSides": "Teskari tomonlar",
+      "mapList": "Xarita roʻyxati",
+      "generateGet5Config": "Get5 Config yaratish"
+    },
+    "credits": {
+      "header": "Kreditlar",
+      "applicationAndAPI": "Ilova va HUD API",
+      "testingAndDebugging": "Sinov va disk raskadrovka",
+      "customRadarBy": "Maxsus radar tomonidan",
+      "initialLayoutIdea": "Dastlabki tartib g'oyasi",
+      "feedbackAndIdeas": "Fikr va g'oyalar"
+    },
+    "arg": {
+      "safeband": "Xavfsizlik bandi",
+      "beforeKill": "O'ldirishdan oldin",
+      "useHLAE": "HLAE ishlatilsinmi?",
+      "afterKill": "O'ldirgandan keyin",
+      "saveClips": "Kliplar saqlansinmi?",
+      "delayConfig": "Kechiktirish konfiguratsiyasi",
+      "computerId": "Kompyuter identifikatori",
+      "turnOff": "O'chirish",
+      "turnOn": "Yoqish",
+      "priority": {
+        "multi": "Ko'p sonli o'ldirishlarga ustunlik berish",
+        "headshots": "Headshotsga ustunlik berish",
+        "teamkills": "Jamoa o'ldirishlariga ustunlik berish"
+      },
+      "mixer": {
+        "label": "Mikser",
+        "activeNdi": "NDI Replay Source",
+        "mixer": "Mikser",
+        "address": "Manzil",
+        "vMixInput": "vMix Input",
+        "verifyConnection": "O'rnatish",
+        "setup": "Ulanish va sozlash",
+        "ip": "IP",
+        "port": "Port",
+        "password": "Parol",
+        "disconnect": "Ulanishni o'chirish",
+        "switchInputs": "Avtomatik kiritishni o'zgartirish"
+      },
+      "replay": {
+        "replayModeTitle": "Takrorlash rejimi",
+        "replayModeContent": "Bu LHM endi ishlaydi Takrorlash rejimida. Takrorlash va mikser parametrlarini o'zgartirish uchun asosiy kompyuterdagi ARG yorlig'iga qarang",
+        "installObsNdiPlugin": "OBS NDI plaginini o'rnating",
+        "thisPcCode": "Ushbu kompyuter kodini",
+        "chooseYourMixer": "Mikseringizni tanlang",
+        "noInput": "Kirish yo'q",
+        "stepCode": {
+          "noVmixRunning": "Sizda vMix yo'qdek. yugurish. Sozlashni boshlashdan oldin uni ishga tushirishingiz kerak",
+          "vmixBadResponse": "vMix ga ulana olmadik :C",
+          "noReplay": "Kiritish qo‘shish > Tezkor takrorlash ni bosish orqali Tezkor takrorlash kiritishni yarating. Kamera 1ni Chiqish 2 ga o‘rnating. OK tugmasini bosing",
+          "showInputs": "Kechiktirilgan o‘yiningiz bo‘lgan kiritishni tanlang. Agar siz uni hali qo'shmagan bo'lsangiz, buni bajaring va yangilash tugmasini bosing",
+          "finish": "vMix-ni sozlash tugallandi!"
+        },
+        "modeModal": {
+          "title": "LHM Replay Mode",
+          "youAreStartingArg": "Siz ARG-ni ikkita ulangan LHM bilan boshlayapsiz",
+          "whichModeDoYou": "Qaysi rejimdan takror ijro etish uchun foydalanmoqchisiz?",
+          "ndiSourceForDelayedGame": "Kechiktirilgan o'yin uchun NDI manbasi",
+          "pickSource": "MANBANI TANLASH",
+          "setSource": "Manbani o'rnatish",
+          "refreshSources": "Manbalarni yangilash"
+        },
+        "requestModal": {
+          "title": "LHM takrorlash so'rovi",
+          "anotherLhmInTheLocal": "Mahalliy tarmoqdagi boshqa LHM ushbu kompyuterni takrorlash mashinasi sifatida ishlatishni xohlaydi",
+          "doYouWish": "Kiruvchi ulanishni qabul qilmoqchimisiz?"
+        }
+      }
+    },
+    "settings": {
+      "logIn": "Kirish",
+      "email": "Elektron pochta",
+      "password": "Parol",
+      "noAccount": "Hisobingiz yo'qmi?",
+      "registerNow": "Hozir ro'yxatdan o'ting!",
+      "forgot": "Parolni unutdingizmi?",
+      "Not logged in": "Tizimga kirmagan",
+      "You need to pass your one-time token": "Bir martalik tokenni topshirishingiz kerak",
+      "serversUnreachable": "Bizning serverlarimizga kirish imkoni yo'qdek. Iltimos, bir necha daqiqadan so'ng qayta urinib ko'ring",
+      "preInstalled": "Oldindan o'rnatilgandan foydalaning",
+      "cloudSynchronization": "Bulutli sinxronizatsiya",
+      "hudConfigCloudSynchronization": "HUD sozlamalari Bulutli sinxronizatsiya",
+      "hudTogglesCloudSynchronization": "HUD bulutli sinxronizatsiyani almashtiradi",
+      "valorantServerMode": "Maʼlumot yigʻish rejimi",
+      "valorantReadLanguage": "Valorant oʻyin tili",
+      "valorantReadTeamMode": "Valorant match turi",
+      "valorantIngameInterfaceType": "Valorant oʻyin ichidagi interfeys turi",
+      "openValorantScoreboardAutomatically": "Valorant hisobini avtomatik ravishda ochish",
+      "autoHUDUpload": "Avtomatik HUDlar bulutga yuklanadi",
+      "language": "Til",
+      "dota2Assets": "Dota 2 Assets",
+      "autoHalfSwitch": "Avtomatik yarim almashtirish (Eksperimental)",
+      "autoSwitch": "Avtomatik almashtirish",
+      "header": "Sozlamalar",
+      "subheaders": {
+        "lhm": "LHM",
+        "cloud": "LHM Cloud",
+        "additional": "Qo'shimcha"
+      },
+      "f1": {
+        "add": "Integratsiyani qo'shish",
+        "integration": "F1 integratsiyasi",
+        "notInstalled": "F1 o'rnatilmagan"
+      },
+      "halfTimeBehaviour": {
+        "label": "Tanaffusdagi xatti-harakatlar",
+        "none": "Yo'q",
+        "switch": "Jamoalarni almashtirish (chapda <-> o'ngda)",
+        "keep": "Jamoalarning tomonlarini ushlab turishga majburlash"
+      },
+      "rocketleague": {
+        "integration": "RL integratsiyasi",
+        "status": {
+          "busy": "band...",
+          "bakkesModNotInstalled": "BakkesMod o'rnatilmagan",
+          "sosNotInstalled": "SOS plagini o'rnatilmagan",
+          "notConfigured": "Sozlanmagan",
+          "installed": "O'rnatilgan"
+        },
+        "refresh": "Yangilash",
+        "install": "O'rnatish"
+      },
+      "gsi": {
+        "loadingAbout": "Haqida ma'lumotlar yuklanmoqda GameState fayllari...",
+        "loadingData": "GameState ma'lumotlari yuklanmoqda...",
+        "loadingFileData": "GameState fayli ma'lumotlari yuklanmoqda..."
+      },
+      "config": {
+        "loadingAbout": "cfg fayllari haqidagi ma'lumotlar yuklanmoqda...",
+        "loadingFileData": "Konfiguratsiya fayli ma'lumotlari yuklanmoqda..."
+      },
+      "input": {
+        "steamAPIKey": "Steam API Kalit",
+        "GSIPort": "GSI port",
+        "GSIToken": "GSI tokeni"
+      },
+      "updater": {
+        "version": "Versiya",
+        "installing": "Oʻrnatilmoqda...",
+        "downloading": "Yuklanmoqda... {{percent}}%",
+        "install": "Yangilanishni oʻrnating",
+        "latest": "Oxirgi"
+      },
+      "entry": {
+        "keybinds": {
+          "keybinds": "Klaviaturalar",
+          "hardRefreshHUD": "Hard refresh HUD",
+          "argToggle": "Toggle ARG",
+          "dota2ARG": "Play Dota 2 ARG",
+          "reverseSide": "Teskari tomonlar",
+          "refreshHud": "HUDni yangilash",
+          "toggleDirector": "ACO direktorini almashtirish",
+          "toggleScoutPredict": "Scout Predict-ni almashtirish",
+          "toggleScoutCinematic": "Scout Cinematic-ni almashtirish"
+        },
+        "streamDeck": {
+          "unavailable": "Mavjud emas"
+        },
+        "HLAE": {
+          "path": "HLAE yo‘li",
+          "setPath": "HLAE yo‘lini o‘rnatish"
+        },
+        "AFX": {
+          "path": "AFX CEF HUD Interop",
+          "setPath": "AFX yo‘lini o‘rnatish"
+        },
+        "GSI": {
+          "status": "GameState integratsiyasi",
+          "add": "GSI faylini qo'shish"
+        },
+        "config": {
+          "status": "Konfiguratsiyalar",
+          "add": "Konfiguratsiya fayllarini qo'shish"
+        },
+        "credits": {
+          "credits": "Kreditlar",
+          "seeNow": "Hozir ko'ring"
+        },
+        "downloads": {
+          "downloads": "Yuklashlar",
+          "GSIConfig": "GSI konfiguratsiyasi",
+          "HUDConfigs": "HUD konfiguratsiyasi",
+          "exportDB": "JB eksporti"
+        },
+        "import": {
+          "import": "Import"
+        },
+        "readerCode": {
+          "readerCode": "O'qish kodi"
+        },
+        "newToLHM": {
+          "show": "\"LHM uchun yangi\" ni ko'rsating",
+          "seeNow": "Hozir ko'ring"
+        },
+        "cta": {
+          "cta": "HUDda Lexogrine Custom HUD joriy etish taklifini ko'rsating tab"
+        }
+      }
+    },
+    "ar": {
+      "add": "AR modulini yuklash",
+      "toggle": "AR modulini almashtirish",
+      "openDirectory": "modul katalogini ochish",
+      "deleteLocally": "AR modulini o‘chirish"
+    },
+    "huds": {
+      "header": "HUDs",
+      "config": {
+        "customRadar": "Radar",
+        "customKillfeed": "Killfeed / Asboblar",
+        "embeddedHUD": "O'rnatilgan HUD",
+        "killfeedOffset": "Killfeed Ofset",
+        "scout": "Scout AI",
+        "autoexecute": "Avtomatik bajarish",
+        "console": "Konsol",
+        "add": "HUD qo'shish",
+        "runGame": "O'yinni ishga tushirish",
+        "pauseTest": "Sinovni to'xtatib turish",
+        "runTest": "Sinovni bajarish",
+        "clearOCRData": "OCR maʼlumotlarini tozalash",
+        "openDirectory": "HUDs katalogini oching",
+        "playTestLoop": "Test siklini oʻynatish",
+        "ar": "AR",
+        "goToKeybinds": "Klaviaturalarni sozlash",
+        "showOnlyActivePlayers": "Faqat faol o'yinchilarni ko'rsatish",
+        "more": "Batafsil",
+        "hlaeIsRequired": "HLAE bilan ishlaydigan CS:GO bo'lishi kerak",
+        "proOrEntrpriseIsRequired": "Sizda Professional yoki Enterprise rejangiz bo'lishi kerak",
+        "hlaeAndHigherPlanIsRequired": "Sizda CS:GO dasturi bo'lishi kerak. HLAE va Professional yoki Enterprise rejasi"
+      },
+      "sort": {
+        "custom": "Maxsus",
+        "newest": "Eng yangi",
+        "oldest": "Eng eski"
+      },
+      "fields": {
+        "missing": "etishmayotgan maydonlar",
+        "fieldOfType": "\"{{field}}\" turidagi \"{{type}}\" maydoni",
+        "fieldNamePlaceholder": "Maydon nomi",
+        "inputType": "Kirish turi",
+        "values": {
+          "text": "Matn",
+          "team": "Jamoa",
+          "image": "Rasm",
+          "match": "Mos",
+          "player": "O'yinchi",
+          "color": "Rang"
+        },
+        "visible": "Ko'rinadigan",
+        "manageCustom": "Maxsus maydonlarni boshqarish",
+        "addNew": "+ Qo'shish yangi maydon"
+      },
+      "includes": {
+        "customRadar": "Maxsus radarni o'z ichiga oladi",
+        "customKillfeed": "Maxsus killfeedni o'z ichiga oladi"
+      },
+      "removal": {
+        "title": "O'chirish {{hud}}",
+        "areYouSure": "Haqiqatan ham {{hud}}-ni o'chirib tashlamoqchimisiz?"
+      },
+      "actions": {
+        "toggleUrl": "HUD URL manzilini almashtirish",
+        "settings": "HUD sozlamalariga o‘tish",
+        "shortcut": "Qisqa klavish",
+        "overlay": "HUD qoplamasini ishga tushirish",
+        "upload": "HUDni yuklash",
+        "uploading": "Yuklash...",
+        "delete": "O‘chirish",
+        "deleteLocally": "HUDni mahalliy sifatida o‘chirish",
+        "deleteFromCloud": "HUDni bulutdan o‘chirish",
+        "downloading": "Yuklab olinmoqda...",
+        "toggleHUD": "HUD-ni almashtirish (faqat o'rnatilgan)",
+        "toggleHUDKeybinds": "HUD tugmachalarini almashtirish (brauzer manbasi uchun)",
+        "clickToCopy": "Nusxa olish uchun bosing",
+        "createShortcut": "Ish stolida yorliq yaratish"
+      },
+      "warning": {
+        "csgoHUDinCS2": "Bu HUD CS:GO uchun yaratilgan. Uning barcha xususiyatlari CS2 da bir xil tarzda ishlashiga kafolat berilmaydi.",
+        "specifyHLAEPath": "Maxsus killfeedlardan foydalanish uchun Sozlamalarda HLAE yo‘lini belgilang",
+        "specifyAFXInteropPath": "AFX rejimidan foydalanish uchun Sozlamalarda AFX Interop yo‘lini ko‘rsating",
+        "specifyAFXModeInfo": "AFX rejimidan foydalanganda, o‘yinga qo‘shilgandan so‘ng o‘tish tugmachasini bosing – boshlash shart emas qoplama."
+      },
+      "error": {
+        "title": "HUD qo‘shib bo‘lmadi",
+        "config": "LHM HUD konfiguratsiya faylini o‘qiy olmadi.",
+        "upload": "LHM HUDni bulutga yuklay olmadi. Keyinroq qayta urinib ko‘ring.",
+        "generic": "Nimadir xato ketdi. Keyinroq qayta urinib ko‘ring.",
+        "archive": "LHM arxiv faylini o'qiy olmadi.",
+        "source": "Siz kompilyatsiya qilingan HUD o'rniga manba kodini yuklayotganga o'xshaysiz. Iltimos, yuklashdan oldin HUD ni kompilyatsiya qiling.",
+        "space": "Siz foydalanayotgan ish sohasida yetarlicha bulutli boʻsh joy yoʻq. Iltimos, rejangizni yangilang yoki bulutli resurslaringizning bir qismini oʻchirib tashlang."
+      }
+    },
+    "app": {
+      "changeGame": "Oʻyinni oʻzgartirish",
+      "cloud": {
+        "isActive": "Bulut faol",
+        "isNotActive": "Bulut faol emas"
+      }
+    },
+    "cta": {
+      "orderPlan": "Buyurtma rejasi",
+      "orderCustomHUD": "Oʻzingizning shaxsiy HUDʼingizga buyurtma bering",
+      "orderCustomHUDName": {
+        "cs2": "CS2 uchun shaxsiy HUDʼga buyurtma bering",
+        "csgo": "Oʻzingizning shaxsiy HUDʼingizga buyurtma bering. CS:GO",
+        "dota2": "Dota 2 uchun shaxsiy HUD-ga buyurtma bering",
+        "leagueoflegends": "LoL uchun shaxsiy HUD-ga buyurtma bering",
+        "rocketleague": "Rocket League uchun shaxsiy HUD-ga buyurtma bering",
+        "apexlegends": "Apex Legends uchun shaxsiy HUD",
+        "valorant": "Valorant uchun shaxsiy HUD-ga buyurtma bering"
+      },
+      "getAQuote": "Narx oling",
+      "tryScoutAI": "AI kuzatuvchimizdan va bir nechta AI moslik bashoratlaridan foydalaning!",
+      "newToLHM": "LHMda yangimisiz?"
+    },
+    "helpers": {
+      "next": "Keyingi",
+      "previous": "Oldingi",
+      "close": "Yopish",
+      "learnMore": "Batafsil maʼlumot",
+      "onlyInProPlus": {
+        "title": "Rejangizni yangilang",
+        "info": "Bu funksiya faqat Professional va Enterprise reja foydalanuvchilari uchun mavjud. Iltimos, uni qulfdan chiqarish uchun rejangizni yangilang."
+      },
+      "onlyInProPlusEnt3": {
+        "title": "Rejangizni yangilang",
+        "info": "Bu funksiya faqat kamida 3 oʻringa ega Professional va Enterprise tarif rejasi foydalanuvchilari uchun mavjud. Iltimos, uni qulfdan chiqarish uchun rejangizni yangilang."
+      },
+      "deviceLockWorkspace": {
+        "title": "Qurilma chegarasidan oshib ketdi",
+        "info": "Ish maydoni rejadagi o‘rindiqlar sonidan ko‘proq qurilmalarda ishlatilayotganga o‘xshaydi. Qurilma blokirovkasi tugashini kuting yoki koʻproq qurilmalarni joylashtirish uchun Korxona rejangizni yangilang."
+      },
+      "huds": {
+        "killfeedOffset": {
+          "title": "Killfeed Offset",
+          "info": "Ushbu parametr yoqilsa, yuqori o'ng burchakdagi maxsus HUD elementlarini joylashtirish uchun xavfsiz zona 0,8 ga o'rnatiladi"
+        },
+        "previewDescriptions": {
+          "premium": {
+            "cs2": "PREMIUM HUD bilan biz foydalanish uchun juda oson bulut yaratish maqsadi sari navbatdagi qadamni tashlamoqdamiz. Bir necha marta bosish bilan esport turnirini tashkil etishning har bir bosqichini, jumladan, yuqori darajadagi vizuallarni o'z ichiga oluvchi - asoslangan yechim! PREMIUM HUD barcha shaxsiy, professional va korporativ reja foydalanuvchilari uchun mavjud.",
+            "csgo": "PREMIUM HUD bilan biz bir necha marta bosish bilan esport turnirini tashkil etishning har bir bosqichini, jumladan, yuqori darajadagi ingl. PREMIUM HUD barcha shaxsiy, professional va korporativ reja foydalanuvchilari uchun mavjud.",
+            "dota2": "Dota 2 uchun Premium HUD - bu MOBA radioeshittirish sanoatini inqilob qilish yo'lidagi birinchi qadamimiz. Bizning maqsadimiz ushbu integratsiyadan mutlaqo barchaning foyda olishini ta'minlash edi. Esport sahnasiga yangi kelganmisiz yoki o‘z brendingiz va tasdiqlangan yechimlarga ega bo‘lasizmi, Premium HUD sizga na siz, na auditoriyangiz boshqa eshittirishlarda ko‘rmagan tajribani taqdim etishiga aminmiz.",
+            "leagueoflegends": "League of Legends uchun Premium HUD o‘yin kuzatuvchisi HUDda etishmayotgan narsalarni qo‘shadi va ishlarni yanada yaxshilaydi. Katta hajmdagi ma'lumotlar, qo'shimcha statistik ma'lumotlar va ekranlar, o'yin interfeysiga kiritilgan go'zal vizuallar butunlay yangi va noyob tajriba yaratadi. League of Legends uchun Premium HUD - bu eng mashhur tadbirlarda kuzatilishi mumkin bo'lgan sifat, bundan buyon hamma uchun mavjud.",
+            "rocketleague": "Biz boshidan e'tiborni e-sportga e'tibor qaratishga yordam beradigan yechim yaratmoqchi edik - va tomoshabinlar, o'yinchilar va tashkilotchilar uchun yaratilgan mavjud ma'lumotlarning katta miqdoridan foydalanishga ishonch hosil qiling. Ushbu sohada muvaffaqiyatga erishganimizdan so'ng, tashkilotchilar hamma narsani qo'lda sozlash va hamma narsa ishlaydimi deb tashvishlanish o'rniga tomoshabinlar, o'yinchilar va jamoalarga e'tibor qaratishlari uchun ro'yxatga avtomatlashtirish va bulutga asoslanganni qo'shdik.",
+            "valorant": "Valorant uchun Premium HUD yillar davomida FPS o'yin qoplamalarida qo'llanilgan formulalarni amalga oshirishda o'yinning estetikasini saqlab qolish uchun mo'ljallangan. Tomoshabin HUDdagi elementlarning joylashishi tomoshabinga darhol tushunarli bo'lib, o'yinning ajralmas qismiga aylanadi.Bu, shuningdek, ushbu kuzatuvchi HUD o'zi bilan olib keladigan butun tajribani kuchaytiradigan ajoyib vizuallar bilan bog'liq."
+          },
+          "ultra": {
+            "cs2": "Counter-Strike 2 - bu yangi boshlanish. Ultra HUD - bu CS2 taqdim etgan ehtiyojlar va uslublarni qondirish uchun keng qamrovli qoplama. Ultra HUD-ni tez va oson sozlash sizning ehtiyojlaringizga moslashadi va voqealaringizni to'liq yaxshilaydi. Sizning translyatsiyangiz xuddi Counter-Strike singari yangi davrga tayyor. Ultra HUD barcha Professional LHM Plan foydalanuvchilari, shuningdek, 3 yoki undan ortiq o'rindiqli Enterprise Plan foydalanuvchilari uchun mavjud.",
+            "dota2": "Bozorda qo'shimcha ma'lumot beruvchi, o'yin interfeysiga qo'shilgan va juda oson sozlash bilan hamma uchun ochiq bo'lgan yechim yo'q edi. Dota 2 uchun Ultra HUD bularning barchasini o'zgartirdi. So'nggi bir necha oy ichida LHM ning Dota 2 ni ilg'or qo'llab-quvvatlashi bizga hozirgacha taklif qilgan barcha narsani yaxshilashga imkon berdi - Ultra HUD shunday paydo bo'ldi. Siz sezadigan birinchi va eng katta yangilanish bu HUD ning ko‘rinishidir – bundan buyon u ko‘p qirrali va Dota 2 tartibini mukammal ravishda to‘ldiradi, lekin hech qanday vizual murosaga yo‘l qo‘ymaydi. Bu Ultra HUD-ni o'z brendi va umidlaridan qat'i nazar, har kim uchun mukammal yechimga aylantiradi. Bu shunchaki o'yinning deyarli yangi qismi.",
+            "leagueoflegends": "League of Legends Ultra HUD - bu LHM qulayligi bilan League of Legends esport tadbiri uchun eng yuqori vizual tasvirlarni taklif qiluvchi murakkab tomoshabin va kuzatuvchi yechim. Bir necha marta bosish bilan, maxsus qoralama, oʻyin va oʻyindan keyingi qoplamalar, animatsiyalar va moslashtirilgan funksiyalar bilan mavjud."
+          }
+        },
+        "scout": {
+          "title": "Scout AI",
+          "info": "Ushbu parametr yoqilsa, CS2 VConsole2 bilan ishga tushadi, bu esa to‘g‘ri sozlanmagan bo‘lsa, serverlarga qo‘shilishingizga xalaqit berishi mumkin."
+        },
+        "tab": {
+          "title": "HUDs yorlig'i",
+          "info": "HUDs yorlig'i HUD'larni va o'yinni ishga tushirish konfiguratsiyasini boshqarish uchun ishlatiladi."
+        },
+        "radar": {
+          "title": "Radar",
+          "info": "Bu opsiyani yoqish va oʻyinni quyida keltirilgan konfiguratsiya bilan ishga tushirish yoki “Oʻyinni ishga tushirish” tugmasidan foydalanish, HUDʼlarga oʻrnatilgan maxsus radardan foydalanish uchun oʻyin ichidagi radarni oʻchirib qoʻyadi."
+        },
+        "killfeed": {
+          "title": "Killfeed / Asboblar",
+          "info": "Ushbu opsiyani yoqish va o‘yinni quyida keltirilgan konfiguratsiya bilan ishga tushirish yoki “O‘yinni ishga tushirish” tugmasidan foydalanish HUD-larga o‘rnatilgan maxsus killfeed-dan foydalanish uchun o‘yin ichidagi killfeedni o‘chirib qo‘yadi. Bu opsiya CS2 ni xavfsiz rejimda ishga tushiradi - VAC bilan himoyalangan serverlarga (masalan, Faceit, matchmaking) qo‘shilmang, agar u yoqilgan bo‘lsa, CSTV tomoshabinlari sifatida."
+        },
+        "embeddedHUD": {
+          "title": "O‘rnatilgan HUD",
+          "info": "Ushbu parametr yoqilsa, LHM CS:GO render jarayoniga ulanadi va HUD alohida qoplama o‘rniga o‘yinning bir qismiga aylanadi. Hududni o'rnatilgan rejimda ishga tushirish uchun HUD yonidagi o'tish tugmasidan foydalaning. AR uchun oʻrnatilgan rejimdan foydalanish talab qilinadi. Bu, shuningdek, o'yin samaradorligini pasaytirishi mumkin. Bu opsiya CS:GO’ni xavfsiz rejimda ishga tushiradi – VAC bilan himoyalangan serverlarga (masalan, Faceit, matchmaking) qo‘shila olmaysiz, agar u yoqilgan bo‘lsa, CSTV tomoshabinlari sifatida."
+        },
+        "playTestLoop": {
+          "title": "Test siklini o'ynang",
+          "info": "Ushbu parametr yoqilsa, Test ma'lumotlari tsiklda o'ynaladi, shuning uchun u hech qachon tugamaydi. Bu sizning HUD'laringizni sinab ko'rish uchun foydalidir."
+        },
+        "ar": {
+          "title": "AR",
+          "info": "Ushbu parametrni yoqish va oʻyinni quyida keltirilgan konfiguratsiya bilan ishga tushirish yoki “Oʻyinni ishga tushirish” tugmasidan foydalanish AR modullaridan foydalanish imkonini beradi. Bu opsiya CS:GO’ni xavfsiz rejimda ishga tushiradi – VAC bilan himoyalangan serverlarga (masalan, Faceit, matchmaking) qo‘shila olmaysiz, agar u yoqilgan bo‘lsa, CSTV tomoshabinlari sifatida."
+        },
+        "autoExecute": {
+          "title": "Avtomatik bajarish",
+          "info": "\"O'yinni ishga tushirish\" tugmasi ushbu parametr yoqilganda, quyida keltirilgan konfiguratsiya bilan o'yinni ishga tushiradi."
+        },
+        "xray": {
+          "title": "XRay",
+          "info": "Ushbu parametr yordamida siz o'yindagi o'yinchi chegaralari uchun maxsus ranglarni o'rnatishingiz mumkin."
+        },
+        "runTest": {
+          "title": "Sinovni bajaring",
+          "info": "Bu funksiya HUD yoki konfiguratsiyani sinab ko‘rish uchun o‘yin ma’lumotlar oqimini simulyatsiya qilish imkonini beradi."
+        },
+        "launchParams": {
+          "title": "Ishga tushirish parametrlari",
+          "info": "O'yin uchun Steam sozlamalari o'rniga bu yerda ishga tushirish parametrlarini belgilashingiz mumkin."
+        },
+        "clearOCRData": {
+          "title": "OCR ma'lumotlarini tozalash",
+          "info": "Agar LHM Valorant integratsiyasi bilan boshqa o'yinni ko'rsangiz yoki shunchaki OCR noto'g'ri ma'lumotlarni o'qisa, siz OCR ma'lumotlarini o'chirib tashlashingiz mumkin, bu esa LHMni qayta o'qish va qayta tahlil qilish, barcha ma'lumotlarni to'ldirish imkonini beradi. dalalar noldan."
+        }
+      },
+      "teams": {
+        "tab": {
+          "title": "Jamoalar",
+          "info": "Jamoalar yorlig'i HUD va boshqa LHM funksiyalarida ko'rsatilgan va foydalaniladigan jamoalarni boshqarish uchun ishlatiladi."
+        }
+      },
+      "players": {
+        "tab": {
+          "title": "O'yinchilar",
+          "info": "O'yinchilar yorlig'i HUD va boshqa LHM funksiyalarida ko'rsatilgan va foydalaniladigan o'yinchilarni boshqarish uchun ishlatiladi."
+        }
+      },
+      "matches": {
+        "tab": {
+          "title": "Matches",
+          "info": "Matches yorlig'i HUD va boshqa LHM funksiyalarida ko'rsatilgan va foydalaniladigan mosliklarni boshqarish uchun ishlatiladi."
+        }
+      },
+      "tournaments": {
+        "tab": {
+          "title": "Turnirlar",
+          "info": "Turnirlar yorlig'i HUD va boshqa LHM funksiyalarida ko'rsatiladigan va foydalaniladigan turnirlarni boshqarish uchun ishlatiladi."
+        }
+      },
+      "cgMode": {
+        "tab": {
+          "title": "CG Mode",
+          "info": "CG Mode ixcham shaklda translyatsiya operatsiyalari uchun eng muhim modullarni o'z ichiga oladi. Ushbu yorliqda siz o'yinlaringizni, jamoalaringizni, o'yinchilaringizni va jonli o'yinni bitta ekranda boshqarishingiz mumkin. Har bir bo'lim ustidagi \"Yashirish\" tugmasi yordamida keraksiz yorliqlarni yashirishingiz mumkin."
+        }
+      },
+      "arg": {
+        "tab": {
+          "title": "Takrorlashlar",
+          "info": "Avtomatik takrorlash generatori (ARG) moduli turlar orasida yoki o'yin oxirida ko'rsatilishi mumkin bo'lgan takrorlashlarni hosil qiladi. To'g'ri ARG konfiguratsiyasi uchun vMix kerakligini yodda tuting. vMix bepul dastur emas va ARG o'zi asosan vMix-dan foydalanayotgan ishlab chiqarish guruhlari uchun mo'ljallangan."
+        },
+        "safeband": {
+          "title": "Safeband",
+          "info": "Safeband imkoniyatlari har bir klipni o'ldirishdan oldin va keyin qancha vaqtni (millisekundlarda) o'z ichiga olishi kerakligini aniqlaydi."
+        },
+        "useHLAE": {
+          "title": "HLAE ishlatilsinmi?",
+          "info": "HLAE-dan foydalanish ARG-ga ko'proq o'yin ichidagi ma'lumotlarni tahlil qilish imkonini beradi, natijada o'ldirishni bashorat qilish yaxshilanadi."
+        },
+        "delayConfig": {
+          "title": "Kechikish konfiguratsiyasi",
+          "info": "Kechikish konfiguratsiyasi CSTV kuzatuvchisi qancha kechikishini bildiradi (soniyalarda)."
+        },
+        "saveClips": {
+          "title": "Kliplarni saqlash",
+          "info": "Ushbu parametr yoqilsa, vMix ARG tomonidan yaratilgan barcha kliplarni o‘chirish o‘rniga saqlab qoladi."
+        },
+        "computerID": {
+          "title": "Kompyuter ID",
+          "info": "ARG tomonidan foydalaniladigan identifikator, muvaffaqiyatli ulanish uchun zarur."
+        }
+      },
+      "aco": {
+        "telnet": {
+          "title": "Telnet",
+          "info": "Telnet - bu CS2 bilan aloqa qilish protokoli. U ishlatilayotganda sizda CS2 oynasi diqqat markazida boʻlishi shart emas, chunki LHM oʻyinchilarni masofaviy buyruqlar bilan almashtiradi."
+        },
+        "tab": {
+          "title": "Skaut AI",
+          "info": "Har bir harakatni mukammal tarzda va ideal nuqtai nazardan suratga olishning iloji yo‘q, lekin Skaut bunga juda yaqin keladi. Bizning sun'iy intellektimiz minglab o'yinlardan o'rganib, eng achchiq voqealarni inson ishtirokisiz o'z-o'zidan suratga oladi."
+        },
+        "area": {
+          "title": "Maydon",
+          "info": "Hududlar xaritadagi siz konfiguratsiyalaringizni bog'laydigan hududlardir. Agar berilgan hududda ko'plab o'yinchilar bo'lsa, unga qo'shilgan konfiguratsiyalardan biri CS:GO mijozi ichida bajariladi. Hududni qo'shish uchun \"+\" tugmasini bosing va uning burchaklarini bosish orqali xaritada kerakli hududni tanlang."
+        },
+        "manualControl": {
+          "title": "Qo'lda boshqarish",
+          "info": "Qo'lda ko'rsatiladigan istalgan maydonni tanlash uchun Qo'lda boshqarish panelidan foydalaning. Bu veb-brauzeringizda ochiladigan tashqi sahifa bo'lgani uchun siz unga smartfon yoki planshetingizdan ham tashrif buyurishingiz mumkin (agar siz bir xil mahalliy tarmoqda bo'lsangiz). Qo'lda boshqarish paneli ichidagi maydonni bosish yoki bosish CS:GO mijozida uning konfiguratsiyasini amalga oshiradi."
+        },
+        "areaCreation": {
+          "title": "Hudud yaratish",
+          "info": "Hududingiz burchaklarini aniqlash uchun xaritaga bosing. Agar xatoga yo'l qo'ygan bo'lsangiz, bekor qilish tugmasidan foydalaning."
+        },
+        "directorSwitch": {
+          "title": "Direktorni yoqish",
+          "info": "O'chirish tugmasi yoqilganda, ACO avtomatik ravishda ishga tushadi. Klaviaturadan ham foydalanishingiz mumkin (standart: ALT + K)."
+        },
+        "scoutDirectorSwitch": {
+          "title": "Direktorni yoqing",
+          "info": "O'chirish tugmasi yoqilganda, Scout AI avtomatik ravishda ishga tushadi. Klaviaturadan ham foydalanishingiz mumkin (standart: ALT + K)."
+        },
+        "scoutCinematic": {
+          "title": "Scout AI Cinematic Mode",
+          "info": "Ushbu rejimda Scout AI to'liq kuzatish tajribasini ta'minlash uchun ACO AI bilan birga ishlaydi. Busiz, Scout AI hech qanday umumiy tasvirlarsiz faqat POV kamerasini taqdim etadi. Bu rejim faqat ACO AI o‘yin o‘ynaladigan xaritani qo‘llab-quvvatlasagina qo‘llaniladi."
+        },
+        "scoutPredict": {
+          "title": "Scout Predict",
+          "info": "Scout avtomatlashtirilgan, AIga asoslangan jonli bashorat qilish imkonini beradi. Agar bu parametr yoqilgan boʻlsa, oʻyin haqida yaxshiroq maʼlumot berish uchun ushbu bashoratlar muhim daqiqalarda sizning HUDʼingizga yuboriladi."
+        },
+        "timeRemaining": {
+          "title": "Sizning oylik Scout AI kvotangiz",
+          "info": "Scout AI serverlaridan foydalanish uchun bo'sh vaqtingiz. U obunangizning har oyi bilan yangilanadi."
+        }
+      },
+      "ar": {
+        "tab": {
+          "title": "Kengaytirilgan haqiqat",
+          "info": "AR modulini qo‘llab-quvvatlash moslashtirilgan 3D obyektlarni xuddi o‘yinning bir qismidek ko‘rsatish imkonini beradi. AR oʻyin sahnasida HTML va CSS-ga asoslangan 3D obyektlaringizni koʻrsatish uchun GSI yordamida yuklangan kamera joylashuvi maʼlumotlaridan foydalanadi."
+        }
+      },
+      "live": {
+        "tab": {
+          "title": "Jonli",
+          "info": "Jonli o'yin aniqlanganda, \"Jonli\" yorlig'i o'yinchi ismlari, identifikatorlari va joriy hisob kabi joriy o'yin haqidagi ma'lumotlarni to'ldiradi. \"Jonli\" yorlig'i sizga o'yinchini tahrirlashga ham tezkor kirish imkonini beradi."
+        }
+      },
+      "cameras": {
+        "delay": {
+          "title": "Kamerani kechiktirish",
+          "info": "Kamerani kechiktirish hozirda faqat rasmiy Lexogrine HUD-larda qo'llab-quvvatlanadi: Ultra va Premium HUD'lar"
+        },
+        "tab": {
+          "title": "Kameralar",
+          "info": "Kameralar moduli sizga LHM yordamida HUD'laringiz ichida o'yinchi veb-kamera tasmalarini ko'rsatish imkonini beradi - tashqi vositalarsiz talab qilinadi."
+        }
+      },
+      "addons": {
+        "tab": {
+          "title": "Qo'shimchalar",
+          "info": "Qo'shimchalar - bu LHM bilan kuchli integratsiyalarni yaratishning yangi usuli bo'lib, ular GSI hodisasi emitentlari bilan sinovdan o'tgan Node.js muhitlarini ularga qutidan tashqariga ulangan holda taqdim etish orqali ishlaydi. LHM qo'shimchalari tufayli siz barcha og'ir yuklarni LHM tomonidan bajarilgan holda tomoshabinlar uchun eng yaxshi tajribani yaratishga harakat qilishingiz mumkin."
+        }
+      },
+      "quick": {
+        "tab": {
+          "title": "Tez",
+          "info": "LHM Quick sizga bir joydan butun o‘yinchi, jamoa va HUD sozlamalarini tezda tayyorlash imkonini beradi, bu esa translatsiyani darhol boshlash imkonini beradi."
+        }
+      }
+    },
+    "modals": {
+      "imageTooLarge": {
+        "title": "Rasm juda katta",
+        "info": "Tanlangan rasm juda katta. Hajmi chegarasi {{limit}} MB."
+      },
+      "delete": {
+        "titleTeams": "Jamoalarni oʻchirish",
+        "titlePlayers": "Oʻyinchilarni oʻchirish",
+        "infoTeams": "Haqiqatan ham {{count}} ta jamoani olib tashlamoqchimisiz?",
+        "infoPlayers": "Haqiqatan ham {{count}} ta o‘yinchini olib tashlamoqchimisiz?",
+        "deleteWithPlayers": "O'yinchilar bilan o'chirish"
+      },
+      "steamApiKeyMissing": {
+        "title": "Steam API kaliti yo'q",
+        "info": "SteamID maydoniga maxsus Steam URL manzilini qo'yganga o'xshaysiz. LHM maxsus URL manzillarini qo‘llab-quvvatlash uchun Steam API kalitini talab qiladi. Baribir tejashni xohlaysizmi?"
+      }
+    },
+    "cloudification": {
+      "updateModalTitle": "HUD-laringizni LHM Cloud-ga yuklang",
+      "updateModalInfo1": "LHM 4.9.0 dan boshlab, barcha HUD-lar butunlay bulutga asoslangan. Bu shuni anglatadiki, endi siz HUD-laringizni istalgan qurilmada ishlatishingiz mumkin va HUD-laringiz doimo sinxronlashtiriladi.",
+      "updateModalInfo2": "LHM-dan foydalanishni davom ettirish uchun siz HUD-laringizni LHM Cloud-ga yuklashingiz kerak.",
+      "updateModalCloudWarning": "Ayrim HUDlar hozirda bulutda siqilgan holda saqlangan. Ulardan foydalanish uchun LHM ularni yuklab olishi va ularni ochishi kerak bo'ladi. Bu bulutdan foydalanishning yuqori chegarasiga olib kelishi mumkin.",
+      "updateModalNonuploadedHUDsStillInDirectory": "Agar siz ularni yuklamaslikni tanlasangiz, HUD’laringiz hali ham HUD katalogingizda zaxiralanadi.",
+      "updateModalImporting": "HUD'laringizni siz uchun tayyorlayapmiz...",
+      "actions": {
+        "uploadAll": "Barcha HUD-larni LHM Cloud-ga yuklang",
+        "customize": "Qaysi HUD-larni yuklashni tanlashga ruxsat bering",
+        "confirm": "Tasdiqlang va yuklang"
+      },
+      "downloadAndUnpack": "HUDni yuklab oling va oching",
+      "spaceCompressedInCloud": "siqilgan bulutda",
+      "spaceOnDisk": "diskda",
+      "sizeLimitModalTitle": "Bulutli saqlash hajmi chegarasi",
+      "sizeLimitModalInfo1": "Hisobingizdagi bulutli xotira chegarasi tufayli siz bajarmoqchi bo'lgan operatsiya amalga oshirilmaydi. Davom etish uchun bulutli xotirani o‘chiring yoki keraksiz aktivlarni (HUD, jamoalar, o‘yinchilar, o‘yinlar, turnirlar, ACO yo‘llari) o‘chirib tashlang. Joriy bulutli xotiradan foydalanish va sig‘imini ko‘rish uchun",
+      "sizeLimitModalInfo2": "belgisini belgilang."
+    },
+    "synchronization": {
+      "noUploadedResources": "Siz hali bulutga yuklamaganga o'xshaysiz. Siz joriy maʼlumotlar bazasini yuklashingiz yoki ushbu mashinada sinxronlashni oʻchirib qoʻyishingiz mumkin",
+      "noSyncLocal": "Mahalliy maʼlumotlar bazasi bulutli xotira bilan sinxronlashtirilmagan. Siz ma'lumotlar bazasini yuklab olishingiz yoki yuklashingiz yoki sinxronlashni o'chirib qo'yishingiz mumkin. E'tibor bering, yuklab olish ushbu kompyuterda mavjud bo'lgan narsalarni o'chirib tashlaydi va yuklash bulutli xotira tarkibini O'CHIRADI. Nima qilmoqchisiz?",
+      "error": "Xatolik yuz berdi, shuning uchun maʼlumotlar yoʻqolishining oldini olish uchun biz sinxronlashni oʻchirib qoʻydik",
+      "modalTitle": "Sinxronizatsiya"
+    },
+    "workspaces": {
+      "pickModalTitle": "Ish joyingizni tanlang",
+      "pick": "Tanlang",
+      "unknownWorkspace": "Nomaʼlum ish maydonini"
+    },
+    "streamDeck": {
+      "modalTitle": "Stream Deck ishlatayotganingizni aniqladik",
+      "modalInfo": "LHM unga ulanishini xohlaysizmi?"
+    },
+    "newToLHM": {
+      "games": {
+        "title": "LHM ga xush kelibsiz!",
+        "description": "LHMda yangimisiz? Bu yerda siz ilovadan foydalanishni boshlash uchun bir necha asosiy maslahatlarni topasiz! LHM hozirda CS2, Dota 2, League of Legends, Rocket League, Apex Legends va F1-ni qo'llab-quvvatlaydi. Har bir qo'llab-quvvatlanadigan o'yin LHM bilan to'g'ri ishlashi uchun oddiy, ammo kerakli konfiguratsiyani talab qiladi. LHM bilan foydalanmoqchi bo'lgan har qanday o'yinni qanday sozlashni o'rganish uchun quyidagi \"Ko'proq ma'lumot\" tugmasini bosing."
+      },
+      "quick": {
+        "title": "LHM Quick",
+        "description": "LHM Quick sizga o'yinchilar va jamoalarni HUD bilan ishga tushirish uchun tezda sozlash imkonini beradi. Bu xususiyat, birinchi navbatda, LHM qanday ishlashi bilan tanish bo'lgan foydalanuvchilar uchun mo'ljallangan va ularni darhol ishga tushirishga imkon beradi. Hozirda LHM Quick-da qo'llab-quvvatlanadigan o'yinlar CS2, CS:GO, Dota 2, League of Legends va Rocket League. LHM Quick haqida ko'proq ma'lumot olish uchun quyidagi \"Ko'proq ma'lumot\" tugmasini bosing."
+      },
+      "huds": {
+        "title": "HUDs yorlig'i",
+        "description": "HUDs yorlig'i sizda mavjud bo'lgan barcha HUD'larni, o'rnatilgan va o'zingiz yuklaganlarni ko'rsatadi. HUD-ni ishga tushirish uchun siz tizimingizda alohida oynada qoplamani ishga tushirishingiz mumkin (\"HUD qoplamasini ishga tushirish\" tugmasi) yoki havolani nusxalash va uni translyatsiya dasturiga brauzer manbai sifatida qo'shishingiz mumkin (\"HUD url-ni almashtirish\" tugmasi)."
+      },
+      "lhmHuds": {
+        "title": "LHM HUD'lari",
+        "description": "Har bir LHM rejasida o'rnatilgan HUDlar mavjud. Reja qanchalik baland bo'lsa, HUDlar shunchalik rivojlangan bo'ladi. Har biri haqida koʻproq bilish uchun quyidagi nomlarni bosing: - Qoʻllab-quvvatlanadigan har qanday oʻyin uchun standart HUD - [[CS2|premiumCS2]], [[Dota 2|premiumDota2]], [[LoL|premiumLoL]], [[Rocket uchun Premium HUD. League|premiumRL]] - [[CS2|ultraCS2]] va [[Dota 2|ultraDota2]] uchun Ultra HUD"
+      },
+      "userGuide": {
+        "title": "Foydalanuvchi qoʻllanmasi",
+        "description": "LHM komponentlarining har biri haqida koʻproq maʼlumot olish uchun foydalanuvchi qoʻllanmamiz bilan tanishib chiqing. Siz tavsiflar, barcha xususiyatlarni sozlash va ishlatish bo'yicha ko'rsatmalar va eng keng tarqalgan savollarga javoblarni topasiz. Qo'shimcha savollaringiz bo'lsa [[bizning Discord|discord]]ga qo'shiling."
+      }
+    }
+  }
+}

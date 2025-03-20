@@ -1,804 +1,1077 @@
 {
-    "translation": {
-        "common": {
-            "cgMode": "Mode CG",
-            "or": "ou",
-            "close": "Fermer",
-            "save": "Sauvegarder",
-            "saveAndSend": "sauvegarder et mettre à jour",
-            "loadingSuccess": "Chargé avec succès",
-            "loaded": "Chargé",
-            "notLoaded": "Non chargé",
-            "vs": "VS",
-            "noTeam": "Pas d'équipe",
-            "noPlayer": "Pas de joueur",
-            "noMatch": "match pas trouvé",
-            "noTournament": "Pas de tournoi",
-            "noValue": "Défaut",
-            "teamOne": "Équipe 1",
-            "teamTwo": "Équipe 2",
-            "show": "Ouvrir",
-            "hide": "Cacher",
-            "map": "Carte",
-            "team": "Équipe",
-            "players": "Joueurs",
-            "realName": "Nom",
-            "player": "Joueur",
-            "teams": "Équipes",
-            "team1": "Équipe 1",
-            "team2": "Équipe 2",
-            "teamNumber": "ÉQUIPE #{{num}}",
-            "vetoNumber": "Veto {{num}}",
-            "delete": "Supprimer",
-            "edit": "Modifier",
-            "live": "En direct",
-            "match": "Match",
-            "goBack": "Revenir en arrière",
-            "ct": "CT",
-            "t": "T",
-            "no": "Non",
-            "export": "Exportation",
-            "cancel": "Annuler",
-            "tournaments": "Tournois",
-            "firstName": "Prénom",
-            "lastName": "Nom de famille",
-            "createNew": "Créer",
-            "nickname": "Pseudo",
-            "ready": "Prêt",
-            "country": "Pays",
-            "manage": "Gérer",
-            "import": "Importer",
-            "teamName": "Nom de l'équipe",
-            "shortName": "nom raccourci",
-            "search": "Rechercher...",
-            "ok": "Ok",
-            "disconnect": "Déconnecter",
-            "connect": "Connecter",
-            "enable": "Activer",
-            "example": "Exemple",
-            "disable": "Désactiver",
-            "downloadTemplate": "Télécharger le modèle",
-            "clickAndCopy": "Cliquer et copier",
-            "download": "Télécharger",
-            "understand": "Je comprends"
+  "translation": {
+    "common": {
+      "cgMode": "Mode CG",
+      "or": "ou",
+      "close": "Fermer",
+      "save": "Sauvegarder",
+      "saveAndSend": "sauvegarder et mettre à jour",
+      "saveAndRestart": "Sauvegarder et redémarrer",
+      "saveAndExit": "Sauvegarder et quitter",
+      "loadingSuccess": "Chargé avec succès",
+      "loaded": "Chargé",
+      "notLoaded": "Non chargé",
+      "vs": "VS",
+      "noTeam": "Pas d'équipe",
+      "noPlayer": "Pas de joueur",
+      "noMatch": "match pas trouvé",
+      "noTournament": "Pas de tournoi",
+      "noValue": "Défaut",
+      "teamOne": "Équipe 1",
+      "teamTwo": "Équipe 2",
+      "show": "Ouvrir",
+      "hide": "Cacher",
+      "map": "Carte",
+      "team": "Équipe",
+      "players": "Joueurs",
+      "editDraft": "Projet d'édition",
+      "realName": "Nom",
+      "player": "Joueur",
+      "noDraftData": "Pas de données provisoires",
+      "champion": "Champion",
+      "teams": "Équipes",
+      "team1": "Équipe 1",
+      "team2": "Équipe 2",
+      "teamNumber": "ÉQUIPE #{{num}}",
+      "vetoNumber": "Veto {{num}}",
+      "delete": "Supprimer",
+      "edit": "Modifier",
+      "live": "En direct",
+      "match": "Match",
+      "goBack": "Revenir en arrière",
+      "ct": "CT",
+      "t": "T",
+      "no": "Non",
+      "yes": "Oui",
+      "noDontAsk": "Non, ne demande pas",
+      "csgo": {
+        "ct": "CT",
+        "t": "T",
+        "no": "Non"
+      },
+      "cs2": {
+        "ct": "CT",
+        "t": "T",
+        "no": "Non"
+      },
+      "valorant": {
+        "ct": "DEF",
+        "t": "ATK",
+        "no": "Non"
+      },
+      "export": "Exportation",
+      "cancel": "Annuler",
+      "next": "Suivant",
+      "finish": "Finir",
+      "understand": "Je comprends",
+      "tournaments": "Tournois",
+      "firstName": "Prénom",
+      "lastName": "Nom de famille",
+      "createNew": "Créer",
+      "nickname": "Pseudo",
+      "ready": "Prêt",
+      "country": "Pays",
+      "manage": "Gérer",
+      "import": "Importer",
+      "teamName": "Nom de l'équipe",
+      "shortName": "nom raccourci",
+      "search": "Rechercher...",
+      "loading": "Chargement...",
+      "ok": "Ok",
+      "disconnect": "Déconnecter",
+      "connect": "Connecter",
+      "refresh": "Rafraîchir",
+      "enable": "Activer",
+      "example": "Exemple",
+      "disable": "Désactiver",
+      "download": "Télécharger",
+      "upload": "Chargement",
+      "accept": "Accepter",
+      "decline": "Refuser",
+      "downloadTemplate": "Télécharger le modèle",
+      "clickAndCopy": "Cliquer et copier",
+      "swap": "Échange"
+    },
+    "chat": {
+      "title": "Support Chat",
+      "header": "Chat avec l'assistance",
+      "suggestionHeader": "Ceci pourrait répondre à votre question",
+      "outOfOfficeWarning": "Notre équipe d'assistance est généralement disponible les jours ouvrables de 9 heures à 17 heures CEST. En dehors de ces horaires, le délai de réponse peut être plus long.",
+      "typeYourMessage": "Tapez votre message ici..."
+    },
+    "blocker": {
+      "personal": "Mettez à niveau votre abonnement LHM à un forfait Personnel, Professionnel ou Entreprise pour obtenir un accès complet à cette section.",
+      "proPlus": "Mettez à niveau votre abonnement LHM à un forfait Professionnel ou Entreprise pour obtenir un accès complet à cette section.",
+      "upgradeNow": "Changer d'abonnement maintenant.",
+      "featureDescription": {
+        "cgmode": "Le mode CG incorpore les modules les plus essentiels pour les opérations de diffusion dans une forme compacte.\nDepuis cet onglet, vous pouvez gérer vos matchs, vos équipes, vos joueurs et le jeu en direct sur un seul écran.\nMettez à niveau votre LHM vers un plan Personnel, Professionnel ou Entreprise pour obtenir un accès complet à cette section.",
+        "arg": "L'automatisation est la prochaine frontière - et ici, à Lexogrine, nous sommes déterminés à la franchir ! Auto Replay Generator automatise entièrement le système de rediffusion. ARG - basé sur des critères définis - suit chaque événement du jeu pour capturer automatiquement les moments les plus cruciaux et afficher des rediffusions à couper le souffle entre les rounds. Tout ce dont vous avez besoin, c'est de vMix ou d'OBS.\nMettez à niveau votre LHM vers un plan Personnel, Professionnel ou Entreprise pour obtenir un accès complet à cette section.",
+        "addons": "Les addons sont une nouvelle façon de créer des intégrations avec LHM.\nJusqu'à présent, seul le code du HUD personnalisé avait accès au flux de données du jeu, ce qui signifiait que tout ce que vous vouliez faire, vous deviez le faire dans l'environnement du navigateur.\nLes addons fonctionnent sur des environnements serveur - ce sont essentiellement des applications NodeJS avec un émetteur d'événements GSI qui leur est rattaché. Cela signifie que vous n'avez pas besoin de créer un serveur HTTP personnalisé avec un parser juste pour recevoir des informations des jeux supportés (CS2, Dota 2), vous avez tout cela dans la boîte, vous pouvez donc vous concentrer sur les intégrations et les fonctionnalités que vous voulez créer.\nMettez à niveau votre LHM vers un plan Personnel, Professionnel ou Entreprise pour obtenir un accès complet à cette section.",
+        "aco": "Il est impossible de capturer chaque action d'une manière parfaite et d'un point de vue idéal, mais Scout s'en rapproche vraiment. Notre propre IA apprend de milliers de jeux pour capturer les événements les plus épicés par elle-même, sans intervention humaine.\nMettez à niveau votre LHM vers un plan personnel pour avoir accès à tous les modules Scout AI - Scout Vision, Scout Predict et Scout Cinematic.",
+        "cameras": "Notre système de caméra est super facile à utiliser et vous fera gagner énormément de temps d'installation - à la fois pour les organisateurs et pour les joueurs. Pas de configuration de logiciel de production excessivement compliquée et fastidieuse, pas de problèmes de matériel.\nConnectez la caméra et assignez-la à un joueur dans LHM. Lancez le HUD et souriez au public.\nMettez à niveau votre LHM vers un plan Personnel, Professionnel ou Entreprise pour obtenir un accès complet à cette section.",
+        "signals": "LHM Signals est notre intégration personnalisée avec l'application Bitfocus Companion.\nNotre objectif est d'aider à l'automatisation des événements prévisibles du jeu. Les signaux s'en chargent et permettent de déclencher des boutons Companion sur des événements de jeu spécifiques.\nMettez à niveau votre LHM vers un plan Personnel, Professionnel ou Entreprise pour obtenir un accès complet à cette section."
+      }
+    },
+    "titles": {
+      "players": "Joueurs",
+      "teams": "Équipes",
+      "arg": "Replays",
+      "aco": "Observateur cinématique automatique",
+      "ar": "Réalité augmentée",
+      "cgpanel": "Mode CG",
+      "huds": "HUDs",
+      "matches": "Matchs",
+      "tournaments": "Tournois",
+      "live": "Live",
+      "signals": "Signaux",
+      "cameras": "Caméras",
+      "addons": "Addons",
+      "settings": "Paramètres",
+      "credits": "Crédits",
+      "quick": "Rapide",
+      "chat": "Support Chat"
+    },
+    "aco": {
+      "disabled": "Désactivé",
+      "aco1": "ACO",
+      "acoAI": "ACO AI",
+      "acoAIScout": "ACO AI + Scout AI",
+      "scoutOnly": "Scout AI",
+      "cs2Warning": "ACO et ACO AI ne sont actuellement pas disponibles pour la toute nouvelle version de Counter-Strike 2.\nCS2 manque de fonctionnalités clés qui sont requises par LHM pour que ces fonctionnalités fonctionnent actuellement.",
+      "cs2ScoutAndARGWarning": "En raison des fonctionnalités manquantes dans CS2, {{ feature }} nécessite maintenant que les raccourcis clavier de la grenade dans le jeu soient réglés sur leurs valeurs par défaut (touches numériques 1-0 sur le clavier) afin de fonctionner correctement.\n\nLe manque de commandes nécessaires dans CS2 empêche LHM de changer de joueur automatiquement, donc LHM envoie maintenant des pressions de touches au jeu manuellement, donc assurez-vous que le jeu est concentré pendant l'utilisation de {{ feature }}.",
+      "map": "Carte",
+      "area": "Zone",
+      "addNewArea": "Ajouter une nouvelle zone",
+      "showInfo": "Afficher les informations",
+      "hideInfo": "Cacher les infos",
+      "areaCreation": "Création de zone",
+      "createArea": "+ Ajouter une nouvelle zone",
+      "addConfig": "+ Ajouter une nouvelle configuration",
+      "areaConfigurations": "Configurations des zones",
+      "stateCreatingNew": "[créer une nouvelle zone]",
+      "priority": "priorité",
+      "inGameName": "Nom dans le jeu",
+      "manualControl": "Contrôle manuel",
+      "areaConfigurationsPlaceholder": "Sélectionner une zone pour voir ses configurations",
+      "enableDirector": "Activer l'observateur",
+      "scoutPredict": "Permettre Prévoir",
+      "telnet": "Activer Telnet",
+      "telnetWarning": "Pour utiliser Telnet, CS2 doit être lancé avec Workshop Tools. Vous pouvez le faire en activant l'option \"Killfeed / Tools\" ; dans l'onglet HUDs et en cliquant sur le bouton \"Run Game\" ;.",
+      "cinematicWarning": "Pour utiliser Scout Cinematic, CS2 doit être lancé avec les outils du Workshop. Vous pouvez le faire en activant l’option « Killfeed / Tools » dans l’onglet HUDs et en cliquant sur le bouton « Run Game ». L’activation de la cinématique d’éclaireur forcera également l’exécution de Vision d’éclaireur en mode direct.",
+      "disabledDescription": "Tout le contrôle est donné à vous et à vos observateurs.\nAmusez-vous.",
+      "aco1Description": "Un équilibre entre contrôle et automatisation.\nAssistez vos observateurs avec un ensemble d'instructions écrites manuellement pour l'ACO.",
+      "aco-aiDescription": "Restez assis pendant que les algorithmes avancés de l'IA ACO contrôlent votre flux.",
+      "aco-ai-scoutDescription": "Laissez notre tout nouveau système de prédiction de match prendre le contrôle.\nBientôt disponible.",
+      "aco-ai-scoutDescription-disconnected": "Laissez notre tout nouveau système de prédiction de match prendre le volant.\\NLes serveurs de Scout peuvent être actuellement indisponibles.",
+      "scoutCinematicDescription": "Montrez de belles images cinématiques pendant les pauses de match.",
+      "scoutPredictDescription": "Affichez les pronostics de résultats de match en direct directement sur votre stream.",
+      "scoutCinematic": "Utiliser Cinematic Scout",
+      "saveArea": "Sauvegarder la zone",
+      "areaName": "Nom",
+      "areaNamePlaceholder": "Nom de la zone",
+      "areaPriority": "Priorité",
+      "areaPriorityPlaceholder": "Priorité de la zone",
+      "addConfigHeader": "Ajouter une nouvelle configuration à cette zone",
+      "addConfigPlaceholder": "Saisir une commande à exécuter dans cette zone",
+      "timeRemaining": "Temps d'IA de l'éclaireur restant",
+      "scoutServerUnavailable": "LHM ne peut pas se connecter aux serveurs Scout AI.\nVeuillez réessayer dans quelques minutes.",
+      "scoutSubtitle": "Observateur IA",
+      "scoutGetMoreTime": "Obtenez plus de temps",
+      "scoutDescription": "Scout AI apprend de milliers de jeux pour capturer les événements les plus épicés par elle-même, sans intervention humaine.",
+      "scoutVisionControl": {
+        "label": "Mode de contrôle du jeu",
+        "direct": {
+          "label": "Direct",
+          "description": "Le mode direct utilise telnet pour contrôler directement le jeu. C'est le moyen le plus fiable de contrôler le jeu, mais cela nécessite que le jeu soit lancé avec les outils d'atelier activés dans l'onglet DLC du jeu dans Steam."
         },
-        "blocker": {
-            "personal": "Mettez à niveau votre abonnement LHM à un forfait Personnel, Professionnel ou Entreprise pour obtenir un accès complet à cette section.",
-            "proPlus": "Mettez à niveau votre abonnement LHM à un forfait Professionnel ou Entreprise pour obtenir un accès complet à cette section.",
-            "upgradeNow": "Changer d'abonnement maintenant.",
-            "aco": "Passez votre LHM à un plan personnel pour accéder à ACO et Scout AI, ou à un plan professionnel/entreprise pour accéder en plus à ACO AI."
+        "keybinds": {
+          "label": "Clavier",
+          "description": "Le mode clavier simule les pressions sur les touches pour contrôler le jeu. Il n’y a pas d’exigences supplémentaires, mais le jeu doit être mis au point pour recevoir des pressions sur les touches, et les raccourcis clavier dans le jeu liés au contrôle de la caméra doivent être définis par défaut."
+        }
+      },
+      "scoutVisionTakeoverControl": {
+        "label": "Prise en charge manuelle"
+      },
+      "scoutCinematicTakeoverControl": {
+        "label": "Prise en charge manuelle"
+      },
+      "scoutCinematicAction": {
+        "label": "Action cinématique"
+      },
+      "scoutPausedTip": "L’IA de reconnaissance est en pause car aucun jeu de course n’a été détecté."
+    },
+    "players": {
+      "edit": "Modifier un joueur",
+      "uploadProfile": "Image",
+      "avatarInfo": "Avatar à utiliser pour les images des joueurs au lieu de l'image par défaut de Steam",
+      "addPlayer": "Ajouter un joueur",
+      "importPlayersTitle": "Importer des joueurs",
+      "downloadNamesFile": "Télécharger le fichier Noms",
+      "importPlayersExcel": "Utilisez notre feuille Excel préparée à l'avance pour importer facilement plusieurs joueurs à la fois.",
+      "exportPlayers": "Exporter",
+      "avatar": "Avatar"
+    },
+    "teams": {
+      "edit": "Modifier une équipe",
+      "uploadLogo": "Logo",
+      "logoInfo": "Logo à utiliser pour l'équipe, si possible dans le HUD donné",
+      "addTeam": "Ajouter une équipe",
+      "exportTeams": "Exporter",
+      "importTeamsTitle": "Importer des équipes",
+      "importTeamsExcel": "Utilisez notre feuille Excel préparée à l'avance pour importer facilement plusieurs équipes à la fois.",
+      "logo": "Logo"
+    },
+    "live": {
+      "replaceUsernames": "Remplacer les noms d'utilisateur",
+      "header": "Live",
+      "noGame": "Aucun jeu n'est actuellement en direct.",
+      "tip": "Joueurs actuellement en match, cliquez pour ajouter un joueur à la liste des joueurs."
+    },
+    "cameras": {
+      "generatePassword": "Générer un mot de passe",
+      "sendToPlayers": "Envoyez-le à vos joueurs",
+      "fillFromLive": "Remplir à partir de l'onglet Live",
+      "resetLink": "Réinitialiser le lien",
+      "startTestVideo": "Jouer une vidéo de test",
+      "stopTestVideo": "Arrêter la vidéo de test",
+      "testVideoBlocker": "Le jeu doit être en cours d'exécution pour que la vidéo de test soit jouée et que les joueurs soient inscrits dans le tableau ci-dessus. Regardez une démo, ou jouez les données de test, et choisissez le joueur de test",
+      "testPlayer": "Joueur test"
+    },
+    "addons": {
+      "upload": "Télécharger un addon",
+      "status": {
+        "READY": "Prêt",
+        "UNINSTALLED": "Désinstallé"
+      },
+      "downloadGameAddon": "Télécharger l'addon",
+      "downloading": "Téléchargement...",
+      "runAddon": "Exécuter l'addon",
+      "addonWarning": "Avertissement Addon",
+      "warnings": {
+        "lol-mr-1": "Advanced Addon permet de lire beaucoup plus de données grâce à la lecture de la mémoire. La lecture de mémoire peut être considérée comme une triche, alors que de tels outils existent depuis des années, que Riot n'y fait pas référence et que nous n'avons pas entendu parler de cas de spectateurs bannis pour cela. Néanmoins, vous utilisez League of Legends Advanced Addon à vos risques et périls.",
+        "lol-mr-2": "N'utilisez pas LoL Advanced Addon pendant le jeu normal, il ne sert qu'à regarder le jeu !"
+      },
+      "nodejsWarning": "NodeJS et NPM doivent être installés pour la plupart des addons"
+    },
+    "navbar": {
+      "huds": "HUDs",
+      "aco": "Scout AI",
+      "addons": "Addons",
+      "ar": "AR",
+      "live": "Live",
+      "quick": "Rapide",
+      "professionalOnly": "Professionnel uniquement",
+      "nonFreeOnly": "Non-libre uniquement",
+      "cameras": "Caméras",
+      "hi": "Bonjour, {{username}} !",
+      "yourPlan": "Votre abonnement",
+      "signals": "Signaux",
+      "validFrom": "Valable à partir de",
+      "validUntil": "Valable jusqu'au",
+      "nextPayment": "Paiement suivant",
+      "logout": "Déconnexion",
+      "arg": "Reprises"
+    },
+    "signals": {
+      "removal": {
+        "title": "Effacer la présélection",
+        "areYouSure": "Etes-vous sûr de vouloir supprimer le preset \"{{name}}\" ?"
+      },
+      "edit": {
+        "title": "Renommer le preset",
+        "placeholder": "Nom du préréglage"
+      },
+      "create": {
+        "title": "Créer un nouveau préréglage",
+        "placeholder": "Nom du préréglage"
+      },
+      "activate": "{{ name }} n'est pas actif",
+      "deactivate": "{{ name }} est actif",
+      "addBranch": "Ajouter une branche",
+      "event": "Événement",
+      "addEvent": "Ajouter un événement",
+      "selectEvent": "Sélectionner un événement",
+      "preset": "Prédéfinir",
+      "addPreset": "Ajouter un nouveau preset",
+      "requirements": "Exigences",
+      "active": "Actif :",
+      "companionAddress": "Adresse du compagnon",
+      "filtering": {
+        "noFiltering": "Pas de filtrage disponible",
+        "orientationAny": "Orientation : N'importe laquelle",
+        "orientationLeft": "Orientation : Gauche",
+        "orientationRight": "Orientation : Droite",
+        "sideAny": "Côté : N'importe lequel",
+        "side": "Côté :",
+        "teamAny": "Équipe : N'importe laquelle",
+        "playerAny": "Joueur : N'importe lequel"
+      }
+    },
+    "quick": {
+      "uploadImage": "Télécharger une image",
+      "teamLogo": "Logo de l'équipe",
+      "backToLHM": "Retour à LHM",
+      "next": "Suivant",
+      "back": "Retour",
+      "newPlayer": "Rajouter un joueur",
+      "startSession": "Démarrer une nouvelle session",
+      "exit": "Quitter rapidement",
+      "fillWithLive": "Remplir avec des données en direct",
+      "unnamedTeam": "Équipe sans nom",
+      "dismiss": "Rejeter",
+      "launchHUD": "Lancer le HUD",
+      "uploadAvatar": "Télécharger l'avatar",
+      "selectHUD": "Sélectionner l'HUD",
+      "preview": "Aperçu",
+      "unlink": "Détacher",
+      "playerExists": {
+        "info": "Un joueur portant ce {{playerIdentifierName}} existe déjà.",
+        "overwrite": "Voulez-vous remplacer ces données avec celle-ci?",
+        "overwriteTitle": "Remplacer?",
+        "decline": "Non, laissez-moi les modifier",
+        "accept": "Oui, remplacer"
+      },
+      "success": {
+        "title": "Votre HUD est configuré et lancé",
+        "opened": "Le HUD a été ouvert dans une fenêtre séparée.",
+        "borderless": "Vous pouvez utiliser le mode Borderless dans le jeu et capturer l'écran du HUD directement",
+        "display": "ou l'ajouter comme nouvelle source d'affichage à votre logiciel de diffusion.",
+        "userGuide": "En cas de problème, consultez le Guide de l'utilisateur.",
+        "started": "Jeu démarré"
+      }
+    },
+    "tournaments": {
+      "overview": "Vue d'ensemble",
+      "edit": "Modifier un tournoi",
+      "page": "Page du tournoi",
+      "create": "Créer un nouveau tournoi",
+      "name": "Nom du tournoi",
+      "uploadLogo": "Télécharger le logo du tournoi",
+      "logoInfo": "Le logo du tournoi sera disponible pendant le match",
+      "singleElimBracket": "Segment à élimination simple",
+      "doubleElimBracket": "Double Elimination Bracket",
+      "swiss": "Suisse",
+      "group": "Groupe",
+      "playoffs": "Play-offs",
+      "playoffType": "Type d'éliminatoires",
+      "soon": "Bientôt",
+      "groupType": "Type de groupe",
+      "participants": "Participants",
+      "then": "alors",
+      "amountOfTeams": "Nombre d'équipes",
+      "amountOfRounds": "Nombre de tours",
+      "bindMatch": "Lier le match à l'arbre",
+      "teamOrderList": "Liste d'ordre des équipes"
+    },
+    "match": {
+      "matches": "Matchs",
+      "seriesWins": "Séries gagnées",
+      "live": "Live",
+      "edit": "Modifier le match",
+      "editTeam": "Modifier l'équipe",
+      "emptyTeam": "Équipe vide",
+      "enableFearlessDraft": "Permettre le projet Fearless",
+      "disableFearlessDraft": "Désactiver le brouillon sans peur",
+      "blue": "Bleu",
+      "red": "Rouge",
+      "scoreModal": {
+        "unsetWin": "Victoire non définie",
+        "setWin": "Victoire sur l'ensemble",
+        "teamLogo": "Logo de l'équipe"
+      },
+      "toggleLive": "LIVE",
+      "tabs": {
+        "ended": "terminé",
+        "current": "actuel",
+        "future": "futur"
+      },
+      "columns": {
+        "match": "Match",
+        "score": "Score",
+        "date": "Date",
+        "time": "Heure"
+      },
+      "wins": "WINS",
+      "wrongTeamSelected": "Mauvaise équipe sélectionnée",
+      "vetoType": {
+        "pick": "choisir",
+        "ban": "ban",
+        "decider": "décideur"
+      },
+      "editVeto": "Editer Veto",
+      "vetoSide": {
+        "left": "gauche",
+        "right": "droite"
+      },
+      "vetoDescription": {
+        "pick": "{{teamName}} choisit {{mapName}}",
+        "ban": "{{teamName}} bannit {{mapName}}"
+      },
+      "chooseTeam": "Choisir l'équipe",
+      "vetoSidepick": {
+        "normal": "{{secondTeamName}} choisit le camp {{side}}",
+        "decider": "{{mapName}} Décideur"
+      },
+      "vetoUrlModal": {
+        "title": "Générer le lien de l'application Veto",
+        "deleteUrls": "Supprimer des URL",
+        "generateUrls": "Générer des URL",
+        "readyToGenerate": "Prêt à générer",
+        "observerUrl": "URL de l'observateur",
+        "firstToPick": "Premier à choisir"
+      },
+      "pickBothTeams": "Choisir les deux équipes pour fixer les vetos",
+      "setScore": "Fixer le score",
+      "resetScore": "Réinitialiser le score",
+      "questionOpponentPick": "L'adversaire choisit-il un camp ?",
+      "reversedSides": "Camps inversés",
+      "mapList": "Liste des cartes",
+      "generateGet5Config": "Générer une config Get5"
+    },
+    "credits": {
+      "header": "Crédits",
+      "applicationAndAPI": "Application et HUD API",
+      "testingAndDebugging": "Test et débogage",
+      "customRadarBy": "Radar personnalisé par",
+      "initialLayoutIdea": "Idée de mise en page initiale",
+      "feedbackAndIdeas": "Feedback & ; Idées"
+    },
+    "arg": {
+      "safeband": "Bande de sécurité",
+      "beforeKill": "Avant le kill",
+      "useHLAE": "Utiliser HLAE ?",
+      "afterKill": "Après le kill",
+      "saveClips": "Sauvegarder les clips ?",
+      "delayConfig": "Configuration du délai",
+      "computerId": "Identifiant de l'ordinateur",
+      "turnOff": "Éteindre",
+      "turnOn": "Allumer",
+      "priority": {
+        "multi": "Prorité aux multi kills",
+        "headshots": "Prorité aux headshots",
+        "teamkills": "priorité au tir allié"
+      },
+      "mixer": {
+        "label": "Mélangeur",
+        "activeNdi": "Source de relecture NDI",
+        "mixer": "Mélangeur",
+        "address": "Adresse",
+        "vMixInput": "entrée vMix",
+        "verifyConnection": "Configuration",
+        "setup": "Connect & ; Setup",
+        "ip": "IP",
+        "port": "Port",
+        "password": "Mot de passe",
+        "disconnect": "Déconnexion",
+        "switchInputs": "Commutateur d'entrée automatique"
+      },
+      "replay": {
+        "replayModeTitle": "Mode de relecture",
+        "replayModeContent": "Ce LHM fonctionne désormais en mode Replay. Pour modifier les paramètres du replay & ; mixer's, regardez l'onglet ARG sur le Main PC",
+        "installObsNdiPlugin": "Installer le plugin OBS NDI",
+        "thisPcCode": "Code de ce PC",
+        "chooseYourMixer": "Choisissez votre mélangeur",
+        "noInput": "Pas d'entrée",
+        "stepCode": {
+          "noVmixRunning": "Il semble que vous n'ayez pas de vMix en cours d'exécution. Vous devez le démarrer avant de commencer la configuration",
+          "vmixBadResponse": "Nous n'avons pas pu nous connecter à votre vMix :C",
+          "noReplay": "Créez l'entrée Instant Replay en cliquant sur Add Input > ; Instant Replay. Réglez la caméra 1 sur la sortie 2. Cliquez sur OK",
+          "showInputs": "Choisissez l'entrée qui correspond à votre jeu différé. Si vous ne l'avez pas encore ajouté, faites-le, et cliquez sur refresh",
+          "finish": "Votre configuration vMix est terminée !"
         },
-        "titles": {
-            "players": "Joueurs",
-            "teams": "Équipes",
-            "arg": "Générateur d'Auto Replay",
-            "aco": "Observateur cinématique automatique",
-            "ar": "Réalité augmentée",
-            "cgpanel": "Mode CG",
-            "huds": "HUDs",
-            "matches": "Matchs",
-            "tournaments": "Tournois",
-            "live": "Live",
-            "cameras": "Caméras",
-            "addons": "Addons",
-            "settings": "Paramètres",
-            "credits": "Crédits",
-            "quick": "Rapide"
+        "modeModal": {
+          "title": "Mode de relecture LHM",
+          "youAreStartingArg": "Vous démarrez un ARG avec deux LHMs connectés",
+          "whichModeDoYou": "Quel mode voulez-vous utiliser pour la génération des rediffusions ?",
+          "ndiSourceForDelayedGame": "Source NDI pour le jeu retardé",
+          "pickSource": "PICK SOURCE",
+          "setSource": "Set source",
+          "refreshSources": "Rafraîchir les sources"
         },
-        "aco": {
-            "disabled": "Désactivé",
-            "aco1": "ACO",
-            "acoAI": "ACO AI",
-            "acoAIScout": "ACO AI + Scout AI",
-            "scoutOnly": "Scout AI",
-            "map": "Carte",
-            "area": "Zone",
-            "addNewArea": "Ajouter une nouvelle zone",
-            "showInfo": "Afficher les informations",
-            "hideInfo": "Cacher les infos",
-            "areaCreation": "Création de zone",
-            "createArea": "+ Ajouter une nouvelle zone",
-            "addConfig": "+ Ajouter une nouvelle configuration",
-            "areaConfigurations": "Configurations des zones",
-            "stateCreatingNew": "[créer une nouvelle zone]",
-            "priority": "priorité",
-            "inGameName": "Nom dans le jeu",
-            "manualControl": "Contrôle manuel",
-            "areaConfigurationsPlaceholder": "Sélectionner une zone pour voir ses configurations",
-            "enableDirector": "Activer l'observateur",
-            "disabledDescription": "Tout le contrôle est donné à vous et à vos observateurs.",
-            "aco1Description": "Un équilibre entre contrôle et automatisation.\nAssistez vos observateurs avec un ensemble d'instructions écrites manuellement pour l'ACO.",
-            "aco-aiDescription": "Restez assis pendant que les algorithmes avancés de l'IA ACO contrôlent votre flux.",
-            "aco-ai-scoutDescription": "Laissez notre tout nouveau système de prédiction de match prendre le contrôle.\nBientôt disponible.",
-            "saveArea": "Sauvegarder la zone",
-            "areaName": "Nom",
-            "areaNamePlaceholder": "Nom de la zone",
-            "areaPriority": "Priorité",
-            "areaPriorityPlaceholder": "Priorité de la zone",
-            "addConfigHeader": "Ajouter une nouvelle configuration à cette zone",
-            "addConfigPlaceholder": "Saisir une commande à exécuter dans cette zone",
-            "aco-ai-scoutDescription-disconnected": "Laissez notre tout nouveau système de prédiction de match prendre le volant.\\NLes serveurs de Scout peuvent être actuellement indisponibles.",
-            "scoutCinematic": "Utiliser Cinematic Scout",
-            "timeRemaining": "Temps d'IA de l'éclaireur restant",
-            "scoutServerUnavailable": "LHM ne peut pas se connecter aux serveurs Scout AI.\nVeuillez réessayer dans quelques minutes.",
-            "cs2Warning": "ACO et ACO AI ne sont actuellement pas disponibles pour la toute nouvelle version de Counter-Strike 2.\nCS2 manque de fonctionnalités clés qui sont requises par LHM pour que ces fonctionnalités fonctionnent actuellement.",
-            "cs2ScoutAndARGWarning": "En raison des fonctionnalités manquantes dans CS2, {{ feature }} nécessite maintenant que les raccourcis clavier de la grenade dans le jeu soient réglés sur leurs valeurs par défaut (touches numériques 1-0 sur le clavier) afin de fonctionner correctement.\n\nLe manque de commandes nécessaires dans CS2 empêche LHM de changer de joueur automatiquement, donc LHM envoie maintenant des pressions de touches au jeu manuellement, donc assurez-vous que le jeu est concentré pendant l'utilisation de {{ feature }}.",
-            "scoutPredict": "Permettre Prévoir",
-            "telnetWarning": "Pour utiliser Telnet, CS2 doit être lancé avec Workshop Tools. Vous pouvez le faire en activant l'option \"Killfeed / Tools\" ; dans l'onglet HUDs et en cliquant sur le bouton \"Run Game\" ;.",
-            "telnet": "Activer Telnet"
+        "requestModal": {
+          "title": "Demande de relecture LHM",
+          "anotherLhmInTheLocal": "Un autre LHM du réseau local souhaite que ce PC soit utilisé comme machine de lecture",
+          "doYouWish": "Souhaitez-vous accepter la connexion entrante ?"
+        }
+      }
+    },
+    "settings": {
+      "logIn": "Se connecter",
+      "email": "email",
+      "password": "Mot de passe",
+      "noAccount": "Vous n'avez pas de compte ?",
+      "registerNow": "S'inscrire maintenant !",
+      "forgot": "Mot de passe oublié ?",
+      "Not logged in": "déconnecté",
+      "You need to pass your one-time token": "Vous devez transmettre votre jeton à usage unique",
+      "serversUnreachable": "Il semble que nos serveurs soient inaccessibles. Veuillez réessayer dans quelques minutes",
+      "preInstalled": "Utiliser la version préinstallée",
+      "cloudSynchronization": "Synchronisation dans le cloud",
+      "hudConfigCloudSynchronization": "HUD Settings Cloud Synchronization",
+      "hudTogglesCloudSynchronization": "HUD Toggles Cloud Synchronization (synchronisation des nuages)",
+      "valorantWindowTitleOverride": "Remplacement du titre de la fenêtre Valorant",
+      "valorantServerMode": "Mode de collecte des données",
+      "valorantReadLanguage": "Langue du jeu Valorant",
+      "valorantReadTeamMode": "Type de match Valorant",
+      "valorantMinimalisticGUI": "Minimaliste",
+      "valorantIngameInterfaceType": "Type d'interface de jeu Valorant",
+      "valorantUsernameLanguage": "Jeu de caractères Valorant Username",
+      "leagueOfLegendsGameLanguage": "League of Legends Police en jeu",
+      "openValorantScoreboardAutomatically": "Ouvrir automatiquement le tableau d'affichage de Valorant",
+      "autoHUDUpload": "Téléchargement automatique des HUDs sur le cloud",
+      "language": "Langue",
+      "dota2Assets": "Actifs Dota 2",
+      "autoHalfSwitch": "Changement automatique de moitié (expérimental)",
+      "autoSwitch": "Commutateur automatique",
+      "header": "Paramètres",
+      "subheaders": {
+        "lhm": "LHM",
+        "cloud": "Nuage LHM",
+        "additional": "Supplémentaire"
+      },
+      "f1": {
+        "add": "Ajouter une intégration",
+        "integration": "Intégration F1",
+        "notInstalled": "F1 non installé"
+      },
+      "halfTimeBehaviour": {
+        "label": "Comportement à la mi-temps",
+        "none": "Aucun",
+        "switch": "Changement d'équipe (gauche <-> droite)",
+        "keep": "Forcer le maintien des équipes ; côtés"
+      },
+      "rocketleague": {
+        "integration": "Intégration RL",
+        "status": {
+          "busy": "Occupé...",
+          "bakkesModNotInstalled": "BakkesMod n'est pas installé",
+          "sosNotInstalled": "SOS Plugin non installé",
+          "notConfigured": "Non configuré",
+          "installed": "Installé"
         },
-        "players": {
-            "edit": "Modifier un joueur",
-            "uploadProfile": "Image",
-            "avatarInfo": "Avatar à utiliser pour les images des joueurs au lieu de l'image par défaut de Steam",
-            "addPlayer": "Ajouter un joueur",
-            "importPlayersTitle": "Importer des joueurs",
-            "downloadNamesFile": "Télécharger le fichier Noms",
-            "importPlayersExcel": "Utilisez notre feuille Excel préparée à l'avance pour importer facilement plusieurs joueurs à la fois.",
-            "exportPlayers": "Exporter",
-            "avatar": "Avatar"
+        "refresh": "Rafraîchissement",
+        "install": "Installer"
+      },
+      "serverClient": {
+        "client": "Client (réseau local)",
+        "server": "Serveur (Réseau local)",
+        "client_global": "Client (hors réseau local)",
+        "server_global": "Serveur (en dehors du réseau local)"
+      },
+      "languages": {
+        "default_latin": "Défaut (latin)",
+        "chinese_simplified": "Chinois (simplifié)",
+        "chinese": "Chinois",
+        "english": "Anglais",
+        "korean": "Coréen",
+        "japanese": "Japonais",
+        "russian": "Russe",
+        "arabic": "Arabe",
+        "german": "Allemand",
+        "polish": "Polonais",
+        "spanish": "Espagnol",
+        "portuguese_brasil": "Portugais (Brasil)",
+        "turkish": "Turc",
+        "indonesian": "Indonésien"
+      },
+      "gsi": {
+        "loadingAbout": "Chargement des données sur les fichiers GameState...",
+        "loadingData": "Chargement des données GameState...",
+        "loadingFileData": "Chargement des données sur les fichiers GameState..."
+      },
+      "config": {
+        "loadingAbout": "Chargement des données relatives aux fichiers cfg...",
+        "loadingFileData": "Chargement des données du fichier config..."
+      },
+      "input": {
+        "steamAPIKey": "Clé API Steam",
+        "GSIPort": "Port GSI",
+        "GSIToken": "Token GSI"
+      },
+      "updater": {
+        "version": "Version",
+        "installing": "Installation...",
+        "downloading": "Téléchargement... {{percent}}%",
+        "install": "Installer la mise à jour",
+        "latest": "Dernière"
+      },
+      "entry": {
+        "keybinds": {
+          "keybinds": "Raccourcis clavier",
+          "hardRefreshHUD": "Hard refresh HUD",
+          "argToggle": "Basculer ARG",
+          "dota2ARG": "Jouer à Dota 2 ARG",
+          "reverseSide": "Inverser les camps",
+          "refreshHud": "Rafraîchir le HUD",
+          "toggleDirector": "Fermer l'ACO Director",
+          "toggleScoutPredict": "Toggle Scout Predict",
+          "toggleScoutCinematic": "Basculer Cinématique Scout"
         },
-        "teams": {
-            "edit": "Modifier une équipe",
-            "uploadLogo": "Logo",
-            "logoInfo": "Logo à utiliser pour l'équipe, si possible dans le HUD donné",
-            "addTeam": "Ajouter une équipe",
-            "exportTeams": "Exporter",
-            "importTeamsTitle": "Importer des équipes",
-            "importTeamsExcel": "Utilisez notre feuille Excel préparée à l'avance pour importer facilement plusieurs équipes à la fois.",
-            "logo": "Logo"
+        "streamDeck": {
+          "unavailable": "Indisponible"
         },
-        "live": {
-            "replaceUsernames": "Remplacer les noms d'utilisateur",
-            "header": "Live",
-            "noGame": "Aucun jeu n'est actuellement en direct.",
-            "tip": "Joueurs actuellement en match, cliquez pour ajouter un joueur à la liste des joueurs."
+        "HLAE": {
+          "path": "Chemin HLAE",
+          "setPath": "Définir le chemin HLAE"
         },
-        "cameras": {
-            "generatePassword": "Générer un mot de passe",
-            "sendToPlayers": "Envoyez-le à vos joueurs",
-            "fillFromLive": "Remplir à partir de l'onglet Live",
-            "resetLink": "Réinitialiser le lien"
+        "AFX": {
+          "path": "Interop AFX CEF HUD",
+          "setPath": "Définir le chemin AFX"
         },
-        "addons": {
-            "upload": "Télécharger un addon",
-            "status": {
-                "READY": "Prêt",
-                "UNINSTALLED": "Désinstallé"
-            },
-            "downloadGameAddon": "Télécharger l'addon",
-            "downloading": "Téléchargement...",
-            "runAddon": "Exécuter l'addon",
-            "addonWarning": "Avertissement Addon",
-            "warnings": {
-                "lol-mr-1": "Advanced Addon permet de lire beaucoup plus de données grâce à la lecture de la mémoire. La lecture de mémoire peut être considérée comme une triche, alors que de tels outils existent depuis des années, que Riot n'y fait pas référence et que nous n'avons pas entendu parler de cas de spectateurs bannis pour cela. Néanmoins, vous utilisez League of Legends Advanced Addon à vos risques et périls.",
-                "lol-mr-2": "N'utilisez pas LoL Advanced Addon pendant le jeu normal, il ne sert qu'à regarder le jeu !"
-            }
+        "GSI": {
+          "status": "Intégration de l'état du jeu",
+          "add": "Ajouter un fichier GSI"
         },
-        "navbar": {
-            "huds": "HUDs",
-            "aco": "Scout AI & ; ACO",
-            "addons": "Addons",
-            "ar": "AR",
-            "live": "Live",
-            "quick": "Rapide",
-            "professionalOnly": "Professionnel uniquement",
-            "nonFreeOnly": "Non-libre uniquement",
-            "cameras": "Caméras",
-            "hi": "Bonjour, {{username}} !",
-            "yourPlan": "Votre abonnement",
-            "validFrom": "Valable à partir de",
-            "validUntil": "Valable jusqu'au",
-            "nextPayment": "Paiement suivant",
-            "logout": "Déconnexion"
-        },
-        "quick": {
-            "uploadImage": "Télécharger une image",
-            "teamLogo": "Logo de l'équipe",
-            "backToLHM": "Retour à LHM",
-            "next": "Suivant",
-            "back": "Retour",
-            "newPlayer": "Rajouter un joueur",
-            "startSession": "Démarrer une nouvelle session",
-            "exit": "Quitter rapidement",
-            "fillWithLive": "Remplir avec des données en direct",
-            "unnamedTeam": "Équipe sans nom",
-            "dismiss": "Rejeter",
-            "launchHUD": "Lancer le HUD",
-            "uploadAvatar": "Télécharger l'avatar",
-            "selectHUD": "Sélectionner l'HUD",
-            "preview": "Aperçu",
-            "unlink": "Détacher",
-            "playerExists": {
-                "info": "Un joueur portant ce {{playerIdentifierName}} existe déjà.",
-                "overwrite": "Voulez-vous remplacer ces données avec celle-ci?",
-                "overwriteTitle": "Remplacer?",
-                "decline": "Non, laissez-moi les modifier",
-                "accept": "Oui, remplacer"
-            },
-            "success": {
-                "title": "Votre HUD est configuré et lancé",
-                "opened": "Le HUD a été ouvert dans une fenêtre séparée.",
-                "borderless": "Vous pouvez utiliser le mode Borderless dans le jeu et capturer l'écran du HUD directement",
-                "display": "ou l'ajouter comme nouvelle source d'affichage à votre logiciel de diffusion.",
-                "userGuide": "En cas de problème, consultez le Guide de l'utilisateur.",
-                "started": "Jeu démarré"
-            }
-        },
-        "tournaments": {
-            "overview": "Vue d'ensemble",
-            "edit": "Modifier un tournoi",
-            "page": "Page du tournoi",
-            "create": "Créer un nouveau tournoi",
-            "name": "Nom du tournoi",
-            "uploadLogo": "Télécharger le logo du tournoi",
-            "logoInfo": "Le logo du tournoi sera disponible pendant le match",
-            "singleElimBracket": "Segment à élimination simple",
-            "doubleElimBracket": "Double Elimination Bracket",
-            "swiss": "Suisse",
-            "group": "Groupe",
-            "playoffs": "Play-offs",
-            "playoffType": "Type d'éliminatoires",
-            "soon": "Bientôt",
-            "groupType": "Type de groupe",
-            "participants": "Participants",
-            "then": "alors",
-            "amountOfTeams": "Nombre d'équipes",
-            "amountOfRounds": "Nombre de tours",
-            "bindMatch": "Lier le match à l'arbre",
-            "teamOrderList": "Liste d'ordre des équipes"
-        },
-        "match": {
-            "matches": "Matchs",
-            "seriesWins": "Séries gagnées",
-            "live": "Live",
-            "edit": "Modifier le match",
-            "editTeam": "Modifier l'équipe",
-            "emptyTeam": "Équipe vide",
-            "scoreModal": {
-                "unsetWin": "Victoire non définie",
-                "setWin": "Victoire sur l'ensemble",
-                "teamLogo": "Logo de l'équipe"
-            },
-            "toggleLive": "LIVE",
-            "tabs": {
-                "ended": "terminé",
-                "current": "actuel",
-                "future": "futur"
-            },
-            "columns": {
-                "match": "Match",
-                "score": "Score",
-                "date": "Date",
-                "time": "Heure"
-            },
-            "wins": "WINS",
-            "wrongTeamSelected": "Mauvaise équipe sélectionnée",
-            "vetoType": {
-                "pick": "choisir",
-                "ban": "ban",
-                "decider": "décideur"
-            },
-            "vetoSide": {
-                "left": "gauche",
-                "right": "droite"
-            },
-            "vetoDescription": {
-                "pick": "{{teamName}} choisit {{mapName}}",
-                "ban": "{{teamName}} bannit {{mapName}}"
-            },
-            "chooseTeam": "Choisir l'équipe",
-            "vetoSidepick": {
-                "normal": "{{secondTeamName}} choisit le camp {{side}}",
-                "decider": "{{mapName}} Décideur"
-            },
-            "pickBothTeams": "Choisir les deux équipes pour fixer les vetos",
-            "setScore": "Fixer le score",
-            "resetScore": "Réinitialiser le score",
-            "questionOpponentPick": "L'adversaire choisit-il un camp ?",
-            "reversedSides": "Camps inversés",
-            "mapList": "Liste des cartes",
-            "generateGet5Config": "Générer une config Get5"
+        "config": {
+          "status": "Configs",
+          "add": "Ajouter des fichiers de configuration"
         },
         "credits": {
-            "header": "Crédits",
-            "applicationAndAPI": "Application et HUD API",
-            "testingAndDebugging": "Test et débogage",
-            "customRadarBy": "Radar personnalisé par",
-            "initialLayoutIdea": "Idée de mise en page initiale",
-            "feedbackAndIdeas": "Feedback & ; Idées"
+          "credits": "Crédits",
+          "seeNow": "Voir maintenant"
         },
-        "arg": {
-            "safeband": "Bande de sécurité",
-            "beforeKill": "Avant le kill",
-            "useHLAE": "Utiliser HLAE ?",
-            "afterKill": "Après le kill",
-            "saveClips": "Sauvegarder les clips ?",
-            "delayConfig": "Configuration du délai",
-            "computerId": "Identifiant de l'ordinateur",
-            "turnOff": "Éteindre",
-            "turnOn": "Allumer",
-            "priority": {
-                "multi": "Prorité aux multi kills",
-                "headshots": "Prorité aux headshots",
-                "teamkills": "priorité au tir allié"
-            }
+        "downloads": {
+          "downloads": "Téléchargements",
+          "GSIConfig": "GSI config",
+          "HUDConfigs": "HUD configs",
+          "exportDB": "Export DB"
         },
-        "settings": {
-            "logIn": "Se connecter",
-            "email": "email",
-            "password": "Mot de passe",
-            "noAccount": "Vous n'avez pas de compte ?",
-            "registerNow": "S'inscrire maintenant !",
-            "forgot": "Mot de passe oublié ?",
-            "Not logged in": "déconnecté",
-            "You need to pass your one-time token": "Vous devez transmettre votre jeton à usage unique",
-            "preInstalled": "Utiliser la version préinstallée",
-            "cloudSynchronization": "Synchronisation dans le cloud",
-            "language": "Langue",
-            "dota2Assets": "Actifs Dota 2",
-            "autoSwitch": "Commutateur automatique",
-            "header": "Paramètres",
-            "f1": {
-                "add": "Ajouter une intégration",
-                "integration": "Intégration F1",
-                "notInstalled": "F1 non installé"
-            },
-            "rocketleague": {
-                "integration": "Intégration RL",
-                "status": {
-                    "busy": "Occupé...",
-                    "bakkesModNotInstalled": "BakkesMod n'est pas installé",
-                    "sosNotInstalled": "SOS Plugin non installé",
-                    "notConfigured": "Non configuré",
-                    "installed": "Installé"
-                },
-                "refresh": "Rafraîchissement",
-                "install": "Installer"
-            },
-            "gsi": {
-                "loadingAbout": "Chargement des données sur les fichiers GameState...",
-                "loadingData": "Chargement des données GameState...",
-                "loadingFileData": "Chargement des données sur les fichiers GameState..."
-            },
-            "config": {
-                "loadingAbout": "Chargement des données relatives aux fichiers cfg...",
-                "loadingFileData": "Chargement des données du fichier config..."
-            },
-            "input": {
-                "steamAPIKey": "Clé API Steam",
-                "GSIPort": "Port GSI",
-                "GSIToken": "Token GSI"
-            },
-            "updater": {
-                "version": "Version",
-                "installing": "Installation...",
-                "downloading": "Téléchargement... {{percent}}%",
-                "install": "Installer la mise à jour",
-                "latest": "Dernière"
-            },
-            "entry": {
-                "keybinds": {
-                    "keybinds": "Raccourcis clavier",
-                    "hardRefreshHUD": "Hard refresh HUD",
-                    "argToggle": "Basculer ARG",
-                    "dota2ARG": "Jouer à Dota 2 ARG",
-                    "reverseSide": "Inverser les camps",
-                    "refreshHud": "Rafraîchir le HUD",
-                    "toggleDirector": "Fermer l'ACO Director"
-                },
-                "streamDeck": {
-                    "unavailable": "Indisponible"
-                },
-                "HLAE": {
-                    "path": "Chemin HLAE",
-                    "setPath": "Définir le chemin HLAE"
-                },
-                "AFX": {
-                    "path": "Interop AFX CEF HUD",
-                    "setPath": "Définir le chemin AFX"
-                },
-                "GSI": {
-                    "status": "Intégration de l'état du jeu",
-                    "add": "Ajouter un fichier GSI"
-                },
-                "config": {
-                    "status": "Configs",
-                    "add": "Ajouter des fichiers de configuration"
-                },
-                "credits": {
-                    "credits": "Crédits",
-                    "seeNow": "Voir maintenant"
-                },
-                "downloads": {
-                    "downloads": "Téléchargements",
-                    "GSIConfig": "GSI config",
-                    "HUDConfigs": "HUD configs",
-                    "exportDB": "Export DB"
-                },
-                "import": {
-                    "import": "Importer"
-                },
-                "readerCode": {
-                    "readerCode": "Code lecteur"
-                },
-                "newToLHM": {
-                    "seeNow": "Voir maintenant",
-                    "toggleInSidebar": "Basculer dans la barre latérale",
-                    "show": "Afficher \"New to LHM\" ;"
-                }
-            },
-            "hudConfigCloudSynchronization": "HUD Settings Cloud Synchronization",
-            "autoHUDUpload": "Téléchargement automatique des HUDs sur le cloud",
-            "hudTogglesCloudSynchronization": "HUD Toggles Cloud Synchronization (synchronisation des nuages)"
+        "import": {
+          "import": "Importer"
         },
-        "ar": {
-            "add": "Télécharger le module AR",
-            "toggle": "Basculer le module AR",
-            "openDirectory": "Ouvrir le répertoire du module",
-            "deleteLocally": "Supprimer le module AR"
-        },
-        "huds": {
-            "header": "HUDs",
-            "config": {
-                "customRadar": "Radar",
-                "embeddedHUD": "HUD intégré",
-                "autoexecute": "Auto-execute",
-                "console": "Console",
-                "add": "Ajouter HUD",
-                "runGame": "LANCER LE JEU",
-                "pauseTest": "PAUSE TEST",
-                "runTest": "LANCER UN TEST",
-                "openDirectory": "Ouvrir le répertoire HUDs",
-                "playTestLoop": "Jouer la boucle de test",
-                "ar": "AR",
-                "goToKeybinds": "Configurer les raccourcis clavier",
-                "more": "Plus",
-                "hlaeIsRequired": "Vous devez avoir CS:GO fonctionnant avec HLAE",
-                "proOrEntrpriseIsRequired": "Vous devez avoir un abonnement Professionnel ou Entreprise",
-                "hlaeAndHigherPlanIsRequired": "Vous devez avoir CS:GO fonctionnant avec HLAE et un abonnement Professional ou Enterprise",
-                "customKillfeed": "Killfeed / Outils",
-                "killfeedOffset": "Décalage Killfeed",
-                "scout": "Scout AI"
-            },
-            "sort": {
-                "custom": "Personnalisé",
-                "newest": "Plus récent",
-                "oldest": "Le plus ancien"
-            },
-            "fields": {
-                "missing": "Champs manquants",
-                "fieldOfType": "Champ \"{{field}}\" ; de type \"{{type}}\" ;",
-                "fieldNamePlaceholder": "Nom du champ",
-                "inputType": "Type d'entrée",
-                "values": {
-                    "text": "Texte",
-                    "team": "Équipe",
-                    "image": "Image",
-                    "match": "Match",
-                    "player": "Joueur",
-                    "color": "Couleur"
-                },
-                "visible": "Visible",
-                "manageCustom": "Gérer les champs personnalisés",
-                "addNew": "+ Ajouter un nouveau champ"
-            },
-            "includes": {
-                "customRadar": "Inclut le radar personnalisé",
-                "customKillfeed": "Inclut le killfeed personnalisé"
-            },
-            "removal": {
-                "title": "Suppression de {{hud}}",
-                "areYouSure": "Êtes-vous sûr de vouloir supprimer {{hud}} ?"
-            },
-            "actions": {
-                "toggleUrl": "Basculer l'URL HUD",
-                "settings": "Aller aux paramètres HUD",
-                "shortcut": "Raccourci",
-                "overlay": "Démarrer la superposition du HUD",
-                "upload": "Télécharger le HUD",
-                "uploading": "Téléchargement...",
-                "delete": "Supprimer",
-                "deleteLocally": "Supprimer le HUD localement",
-                "deleteFromCloud": "Supprimer le HUD du cloud",
-                "downloading": "Téléchargement...",
-                "toggleHUD": "Basculer le HUD (intégré uniquement)",
-                "clickToCopy": "Cliquer pour copier",
-                "createShortcut": "Créer un raccourci sur le bureau",
-                "toggleHUDKeybinds": "Toggle HUD Keybinds (For Browser Source)"
-            },
-            "warning": {
-                "specifyHLAEPath": "Spécifier le chemin d'accès à HLAE dans les paramètres afin d'utiliser les killfeeds personnalisés",
-                "specifyAFXInteropPath": "Spécifier le chemin d'accès à AFX Interop dans les paramètres afin d'utiliser le mode AFX",
-                "specifyAFXModeInfo": "Lors de l'utilisation du mode AFX, après avoir rejoint le match, cliquez sur la bascule - il n'est pas nécessaire de démarrer la superposition.",
-                "csgoHUDinCS2": "Ce HUD a été conçu pour CS:GO. Il n'est pas garanti que toutes ses fonctionnalités fonctionneront de la même manière dans CS2."
-            },
-            "error": {
-                "title": "Impossible d'ajouter le HUD",
-                "config": "LHM n'a pas pu lire le fichier de configuration du HUD.",
-                "upload": "LHM n'a pas pu télécharger le HUD sur le cloud. Réessayez plus tard.",
-                "generic": "Quelque chose s'est mal passé. Réessayez plus tard.",
-                "archive": "LHM n'a pas pu lire le fichier d'archive.",
-                "space": "Vous n'avez pas assez d'espace cloud dans l'espace de travail que vous utilisez. Veuillez mettre à niveau votre plan ou supprimer certaines de vos ressources cloud."
-            }
-        },
-        "app": {
-            "changeGame": "Changer le jeu",
-            "cloud": {
-                "isActive": "Connecté au cloud",
-                "isNotActive": "Déconnecté du cloud"
-            }
-        },
-        "helpers": {
-            "learnMore": "En savoir plus",
-            "onlyInProPlus": {
-                "title": "Améliorer votre abonnement",
-                "info": "Cette fonctionnalité n'est disponible que pour les utilisateurs des abonnements Professional et Enterprise.\\nVeuillez mettre à niveau votre abonnement pour la débloquer."
-            },
-            "huds": {
-                "tab": {
-                    "title": "Onglet HUDs",
-                    "info": "L'onglet HUDs est utilisé pour gérer les HUDs et la configuration du lancement du jeu."
-                },
-                "radar": {
-                    "title": "Radar",
-                    "info": "En activant cette option et en lançant le jeu avec la configuration présentée ci-dessous ou en utilisant le bouton \"Run game\" ; vous désactiverez le radar du jeu pour utiliser le radar personnalisé intégré à vos HUD."
-                },
-                "embeddedHUD": {
-                    "title": "HUD intégré",
-                    "info": "En activant cette option, LHM s'accrochera au processus de rendu de CS:GO, faisant de votre HUD une partie du jeu au lieu d'une surcouche séparée. Pour lancer un HUD en mode intégré, cliquez sur le bouton à côté du HUD.\\nL'utilisation du mode intégré est nécessaire pour l'AR. Elle peut également réduire les performances du jeu.\\nCette option lancera CS:GO en mode non sécurisé - vous ne pourrez pas rejoindre les serveurs protégés par VAC (par exemple Faceit, matchmaking), sauf en tant que spectateur GOTV lorsque cette option est activée."
-                },
-                "playTestLoop": {
-                    "title": "Jouer la boucle de test",
-                    "info": "En activant cette option, les données de test seront jouées en boucle et ne se termineront jamais. Ceci est utile pour tester vos HUDs."
-                },
-                "ar": {
-                    "title": "AR",
-                    "info": "Activer cette option et lancer le jeu avec la configuration présentée ci-dessous ou en utilisant le bouton \"Run game\" ; vous permettra d'utiliser les modules AR.\nCette option lancera CS:GO en mode non sécurisé - vous ne pourrez pas rejoindre les serveurs protégés par VAC (par exemple Faceit, matchmaking) sauf en tant que spectateur GOTV tant qu'elle est activée."
-                },
-                "autoExecute": {
-                    "title": "Auto-Execute",
-                    "info": "le bouton \"Lancer le jeu\" ; lancera le jeu avec la configuration présentée ci-dessous lorsque cette option est activée."
-                },
-                "xray": {
-                    "title": "XRay",
-                    "info": "Cette option permet de définir des couleurs personnalisées pour les bordures des joueurs dans le jeu."
-                },
-                "runTest": {
-                    "title": "Lancer un test",
-                    "info": "Cette fonctionnalité vous permet de simuler un flux de données de jeu pour tester votre HUD ou votre configuration."
-                },
-                "killfeed": {
-                    "title": "Killfeed / Outils",
-                    "info": "Activer cette option et lancer le jeu avec la configuration présentée ci-dessous ou en utilisant le bouton \"Run game\" ; désactivera le killfeed en jeu pour utiliser le killfeed personnalisé intégré à vos HUDs.\nCette option lancera CS:GO en mode non sécurisé - vous ne pourrez pas rejoindre les serveurs protégés par VAC (par exemple Faceit, matchmaking) à moins d'être un spectateur GOTV tant qu'elle est activée."
-                },
-                "killfeedOffset": {
-                    "title": "Killfeed Offset",
-                    "info": "En activant cette option, safezoney sera réglé sur 0.8 pour tenir compte des éléments HUD personnalisés dans le coin supérieur droit"
-                },
-                "launchParams": {
-                    "title": "Paramètres de lancement",
-                    "info": "Vous pouvez spécifier des paramètres de lancement pour le jeu ici, au lieu de ses paramètres dans la fenêtre de Steam"
-                },
-                "scout": {
-                    "title": "Scout AI",
-                    "info": "L'activation de cette option lancera CS2 avec VConsole2, ce qui pourrait vous empêcher de rejoindre des serveurs à moins d'être correctement configuré."
-                },
-                "previewDescriptions": {
-                    "premium": {
-                        "leagueoflegends": "Premium HUD pour League of Legends ajoute ce qui manque au HUD de l'observateur du jeu et l'améliore encore. Une énorme quantité de données, des statistiques et des écrans supplémentaires, des visuels magnifiques intégrés à l'interface du jeu créent une expérience complètement nouvelle et unique. Le Premium HUD pour League of Legends est une qualité que l'on peut observer lors des événements les plus célèbres, désormais accessible à tous.",
-                        "cs2": "Avec PREMIUM HUD, nous faisons un pas de plus vers notre objectif de construire une solution super facile à utiliser, basée sur le cloud, qui en quelques clics prend en charge toutes les étapes de l'organisation d'un tournoi esports - y compris les visuels de haut niveau !\nPREMIUM HUD est disponible pour tous les utilisateurs de Personal, Professional et Enterprise Plan.",
-                        "dota2": "Premium HUD pour Dota 2 est notre première étape dans la révolution de l'industrie de la diffusion MOBA. Notre objectif est de faire bénéficier tout le monde de cette intégration. Que vous soyez un nouveau venu sur la scène esports ou que vous ayez déjà votre propre marque et des solutions éprouvées, nous sommes convaincus que le Premium HUD vous apportera une expérience que ni vous ni votre public n'avez jamais vue auparavant sur d'autres diffusions.",
-                        "csgo": "Avec PREMIUM HUD, nous faisons un pas de plus vers l'objectif de construire une solution super facile à utiliser, basée sur le cloud, qui en quelques clics prend en charge chaque étape de l'organisation d'un tournoi esports - y compris les visuels de haut niveau !\nPREMIUM HUD est disponible pour tous les utilisateurs de Personal, Professional et Enterprise Plan.",
-                        "rocketleague": "Dès le début, nous avons voulu construire une solution pour aider les esports à se concentrer sur les esports - et s'assurer d'utiliser la grande quantité de données existantes que les esports génèrent pour les téléspectateurs, les joueurs et les organisateurs. Une fois que nous avons commencé à réussir dans ce domaine, nous avons ajouté l'automatisation et le cloud à la liste - pour s'assurer que les organisateurs peuvent se concentrer sur les téléspectateurs, les joueurs et les équipes au lieu de tout configurer manuellement et de s'inquiéter de savoir si tout fonctionnera."
-                    },
-                    "ultra": {
-                        "dota2": "Il n'existait aucune solution sur le marché qui fournissait des informations supplémentaires, se fondait dans l'interface du jeu et était accessible à tous avec une installation super facile. Ultra HUD pour Dota 2 a changé tout cela. Le support avancé de LHM'pour Dota 2 au cours des derniers mois nous a permis d'améliorer tout ce que nous avons proposé jusqu'à présent - c'est ainsi qu'Ultra HUD a vu le jour.\nLa première et la plus importante amélioration que vous remarquerez est l'apparence du HUD - désormais, il est à la fois polyvalent et parfaitement adapté à la configuration de Dota 2, sans faire de compromis sur le plan visuel. Cela fait de l'Ultra HUD la solution parfaite pour tous, indépendamment de leur propre marque et de leurs attentes. Il s'agit tout simplement d'une partie presque nouvelle du jeu.",
-                        "cs2": "Counter-Strike 2 est un nouveau départ. Ultra HUD est une superposition complète qui répond aux besoins et au style apportés par CS2. La configuration rapide et facile d'Ultra HUD s'adaptera à vos besoins et améliorera complètement vos événements. Votre diffusion - tout comme Counter-Strike - est prête pour une nouvelle ère.\nUltra HUD est disponible pour tous les utilisateurs du plan LHM professionnel, ainsi que pour les utilisateurs du plan Entreprise avec 3 sièges ou plus."
-                    }
-                }
-            },
-            "teams": {
-                "tab": {
-                    "title": "Équipes",
-                    "info": "L'onglet Équipes est utilisé pour gérer les équipes affichées et utilisées dans les HUD et autres fonctionnalités LHM."
-                }
-            },
-            "players": {
-                "tab": {
-                    "title": "Joueurs",
-                    "info": "L'onglet Joueurs permet de gérer les joueurs affichés et utilisés dans les HUD et autres fonctionnalités LHM."
-                }
-            },
-            "matches": {
-                "tab": {
-                    "title": "Matchs",
-                    "info": "L'onglet Matches permet de gérer les matchs affichés et utilisés dans les HUD et autres fonctionnalités LHM."
-                }
-            },
-            "tournaments": {
-                "tab": {
-                    "title": "Tournois",
-                    "info": "L'onglet Tournois permet de gérer les tournois affichés et utilisés dans les HUD et autres fonctionnalités LHM."
-                }
-            },
-            "cgMode": {
-                "tab": {
-                    "title": "Mode CG",
-                    "info": "Le mode CG incorpore les modules les plus essentiels pour les opérations de diffusion sous une forme compacte.\\nA partir de cet onglet, vous pouvez gérer vos matchs, vos équipes, vos joueurs et le jeu en direct sur un seul écran.\\nVous pouvez masquer les onglets inutiles à l'aide du bouton \"Cacher\" ; situé au-dessus de chaque section."
-                }
-            },
-            "arg": {
-                "tab": {
-                    "title": "Générateur de rediffusion automatique",
-                    "info": "Le module Auto Replay Generator (ARG) génère des rediffusions qui peuvent être affichées entre les rounds ou à la fin d'un match.\nN'oubliez pas que vMix est nécessaire pour configurer correctement ARG. vMix n'est pas une application gratuite, et ARG lui-même est conçu principalement pour les équipes de production qui utilisent déjà vMix."
-                },
-                "safeband": {
-                    "title": "Safeband",
-                    "info": "Les options Safeband déterminent le temps (en millisecondes) que doit contenir chaque clip avant et après un kill."
-                },
-                "useHLAE": {
-                    "title": "Utiliser HLAE ?",
-                    "info": "L'utilisation de HLAE permet à ARG d'analyser davantage de données en jeu, ce qui permet de mieux prédire les kills."
-                },
-                "delayConfig": {
-                    "title": "Configuration du délai",
-                    "info": "La configuration du délai spécifie le délai de l'observateur GOTV (en secondes)."
-                },
-                "saveClips": {
-                    "title": "Sauvegarde des clips",
-                    "info": "L'activation de cette option permet à vMix de conserver tous les clips générés par ARG au lieu de les supprimer."
-                },
-                "computerID": {
-                    "title": "Computer ID",
-                    "info": "ID utilisé par ARG, nécessaire pour une connexion réussie."
-                }
-            },
-            "aco": {
-                "tab": {
-                    "title": "Observateur cinématique automatique",
-                    "info": "Le module ACO vous permet d'utiliser des mouvements de caméra prédéfinis pour suivre l'action dans le jeu.\nACO utilise l'IA pour déterminer les événements les plus importants qui se déroulent dans le jeu à un moment donné."
-                },
-                "area": {
-                    "title": "Zone",
-                    "info": "Les zones sont des régions de la carte auxquelles vous liez vos configurations. S'il y a beaucoup de joueurs dans une zone donnée, l'une des configurations qui y sont ajoutées sera exécutée dans le client CS:GO.\nPour ajouter une zone, cliquez sur le bouton \"+\" ; et sélectionnez la région souhaitée sur la carte en cliquant sur ses coins."
-                },
-                "manualControl": {
-                    "title": "Contrôle manuel",
-                    "info": "Utilisez le panneau de contrôle manuel pour sélectionner manuellement une zone à afficher.\nComme il s'agit d'une page externe qui s'ouvre dans votre navigateur web, vous pouvez également la consulter à partir de votre smartphone ou de votre tablette (si vous vous trouvez dans le même réseau local).\nCliquer ou tapoter sur une zone dans le panneau de contrôle manuel exécutera ses configurations dans le client CS:GO."
-                },
-                "areaCreation": {
-                    "title": "Création de zone",
-                    "info": "Cliquez sur la carte pour définir les coins de votre zone.\nUtilisez le bouton d'annulation si vous avez fait une erreur."
-                },
-                "directorSwitch": {
-                    "title": "Activer le directeur",
-                    "info": "Lorsque la bascule est activée, l'ACO démarre automatiquement. Vous pouvez également utiliser le raccourci clavier (par défaut : ALT + K)."
-                },
-                "scoutDirectorSwitch": {
-                    "title": "Activer l'administrateur",
-                    "info": "Lorsque la bascule est activée, l'IA du Scout démarre automatiquement. Vous pouvez également utiliser le raccourci clavier (par défaut : ALT + K)."
-                },
-                "scoutCinematic": {
-                    "title": "Mode cinématique de l'IA des éclaireurs",
-                    "info": "Dans ce mode, l'IA scout travaille avec l'IA ACO, afin d'offrir une expérience d'observation optimale. Sans ce mode, Scout AI ne fournira qu'une caméra POV, sans aucune vue d'ensemble.\nCe mode n'est applicable que si l'IA ACO prend en charge la carte sur laquelle se déroule le match."
-                },
-                "timeRemaining": {
-                    "title": "Votre quota mensuel d'IA Scout",
-                    "info": "Votre temps disponible pour utiliser les serveurs Scout AI. Il est actualisé chaque mois de votre abonnement."
-                },
-                "scoutPredict": {
-                    "title": "Scout Predict",
-                    "info": "Scout permet de faire des prédictions automatisées en direct, basées sur l'IA. Si cette option est activée, ces prédictions seront envoyées à vos HUDs dans les moments importants, pour vous donner une meilleure vision du jeu."
-                },
-                "telnet": {
-                    "info": "Telnet est un protocole de communication avec le CS2. Lorsqu'il est utilisé, vous n'avez pas besoin d'avoir la fenêtre de CS2 en focus, car LHM changera de lecteur avec les commandes à distance.",
-                    "title": "Telnet"
-                }
-            },
-            "ar": {
-                "tab": {
-                    "title": "Réalité augmentée",
-                    "info": "La prise en charge du module de réalité augmentée permet d'afficher des objets 3D personnalisés comme s'ils faisaient partie du jeu.\nLa réalité augmentée utilise les données de position de la caméra chargées à l'aide de GSI pour rendre vos objets 3D HTML & ; CSS sur la scène du jeu."
-                }
-            },
-            "live": {
-                "tab": {
-                    "title": "Live",
-                    "info": "Lorsqu'un jeu en direct est détecté, l'onglet En direct se remplit de données sur le match en cours, telles que le nom et l'identifiant des joueurs et le score actuel.\nL'onglet Live vous permet également d'accéder rapidement à l'édition des joueurs."
-                }
-            },
-            "cameras": {
-                "tab": {
-                    "title": "Caméras",
-                    "info": "Le module Caméras vous permet d'afficher les flux des webcams des joueurs dans vos HUD à l'aide de LHM - aucun outil externe n'est nécessaire."
-                }
-            },
-            "addons": {
-                "tab": {
-                    "title": "Modules complémentaires",
-                    "info": "Les addons sont une nouvelle façon de créer des intégrations puissantes avec LHM, en fournissant des environnements Node.js en bac à sable avec des émetteurs d'événements CS:GO GSI qui y sont accrochés dès le départ.\nGrâce aux addons LHM, vous pouvez concentrer vos efforts sur la création de la meilleure expérience possible pour vos spectateurs, LHM se chargeant de tout le reste."
-                }
-            },
-            "quick": {
-                "tab": {
-                    "title": "Rapide",
-                    "info": "LHM Quick vous permet de préparer rapidement l'ensemble de la configuration de vos joueurs, de votre équipe et de votre HUD à partir d'un seul endroit, ce qui vous permet de démarrer votre stream immédiatement."
-                }
-            },
-            "onlyInProPlusEnt3": {
-                "title": "Améliorer votre plan",
-                "info": "Cette fonctionnalité n'est disponible que pour les utilisateurs des plans Professionnel et Entreprise disposant d'au moins 3 postes.\nVeuillez mettre à niveau votre plan pour la débloquer."
-            },
-            "deviceLockWorkspace": {
-                "title": "Limite de l'appareil dépassée",
-                "info": "Il semble que l'espace de travail soit utilisé sur plus d'appareils que le nombre de places prévues dans le plan.\nAttendez l'expiration du verrouillage de l'appareil ou mettez à niveau votre plan d'entreprise afin d'accueillir plus d'appareils."
-            },
-            "close": "Fermer",
-            "previous": "Précédent",
-            "next": "Suivant"
-        },
-        "modals": {
-            "imageTooLarge": {
-                "title": "Image trop grande",
-                "info": "L'image sélectionnée est trop grande. La limite de taille est de {{limit}} MO."
-            },
-            "delete": {
-                "titleTeams": "Supprimer les équipes",
-                "titlePlayers": "Supprimer les joueurs",
-                "infoTeams": "Êtes-vous sûr de vouloir supprimer les équipes {{count}} ?",
-                "infoPlayers": "Êtes-vous sûr de vouloir supprimer les joueurs de {{count}} ?",
-                "deleteWithPlayers": "Supprimer avec les joueurs"
-            },
-            "steamApiKeyMissing": {
-                "title": "Clé API Steam manquante",
-                "info": "Il semble que vous ayez mis une URL Steam personnalisée dans le champ SteamID. LHM a besoin de la clé API Steam pour prendre en charge les URL personnalisées. Souhaitez-vous quand même sauvegarder ?"
-            }
-        },
-        "cloudification": {
-            "updateModalTitle": "Téléchargez vos HUD sur LHM Cloud",
-            "updateModalInfo1": "À partir de LHM 4.9.0, tous les HUDs sont entièrement basés sur le cloud. Cela signifie que vous êtes maintenant en mesure d'utiliser vos HUDs sur n'importe quel appareil, et vos HUDs resteront toujours synchronisés.",
-            "updateModalInfo2": "Pour continuer à utiliser LHM, vous devez télécharger vos HUD sur LHM Cloud.",
-            "updateModalCloudWarning": "Certains HUD sont actuellement sauvegardés sous forme compressée dans le Cloud. Pour les utiliser, LHM devra les télécharger et les décompresser. Cela peut entraîner une augmentation de la limite d'utilisation du Cloud.",
-            "updateModalNonuploadedHUDsStillInDirectory": "Vos HUDs seront toujours sauvegardés dans votre répertoire HUD, si vous choisissez de ne pas les télécharger.",
-            "updateModalImporting": "Nous préparons vos HUDs pour vous...",
-            "actions": {
-                "uploadAll": "Télécharger tous les HUD sur LHM Cloud",
-                "customize": "Laissez-moi choisir les HUDs à télécharger",
-                "confirm": "Confirmer et télécharger"
-            },
-            "downloadAndUnpack": "Télécharger et décompresser le HUD",
-            "spaceCompressedInCloud": "compressé dans le nuage",
-            "spaceOnDisk": "sur disque"
+        "readerCode": {
+          "readerCode": "Code lecteur"
         },
         "newToLHM": {
-            "games": {
-                "title": "Configuration du jeu",
-                "description": "LHM supporte actuellement CS2, Dota 2, League of Legends, Rocket League, Apex Legends et F1. Chaque jeu pris en charge nécessite une configuration simple mais nécessaire pour fonctionner correctement avec LHM.\nCliquez sur le bouton En savoir plus ci-dessous pour apprendre à configurer tout jeu que vous souhaitez utiliser avec LHM."
-            },
-            "welcome": {
-                "title": "Bienvenue sur LHM !",
-                "description": "Vous êtes nouveau dans LHM ? Vous trouverez ici quelques conseils de base pour commencer à utiliser l'application !"
-            },
-            "userGuide": {
-                "description": "Consultez notre guide de l'utilisateur pour en savoir plus sur chacun des composants de LHM. Vous y trouverez des descriptions, des instructions pour configurer et utiliser toutes les fonctionnalités, ainsi que des réponses aux questions les plus courantes. Si vous avez d'autres questions, rejoignez [[notre Discord|discord]].",
-                "title": "Guide de l'utilisateur"
-            },
-            "lhmHuds": {
-                "title": "LHM HUDs",
-                "description": "Chaque plan LHM possède des HUD intégrés. Plus le plan est élevé, plus les HUD sont avancés. Cliquez sur les noms ci-dessous pour en savoir plus sur chacun d'entre eux :\n\n- HUD par défaut pour tout jeu pris en charge\n- HUD Premium pour [[CS2|premiumCS2]], [[Dota 2|premiumDota2]], [[LoL|premiumLoL]], [[Rocket League|premiumRL]]\n- Ultra HUD pour [[CS2|ultraCS2]] et [[Dota 2|ultraDota2]]"
-            },
-            "quick": {
-                "description": "LHM Quick vous permet de configurer rapidement les joueurs et les équipes à lancer avec HUD. Cette fonction est principalement destinée aux utilisateurs familiers avec le fonctionnement de LHM et leur permet de démarrer immédiatement.\nActuellement, les jeux pris en charge par LHM Quick sont CS2, CS:GO, Dota 2, League of Legends et Rocket League.\nCliquez sur le bouton En savoir plus ci-dessous pour en savoir plus sur LHM Quick.",
-                "title": "LHM Quick"
-            },
-            "huds": {
-                "title": "Onglet HUDs",
-                "description": "L'onglet HUDs affiche tous les HUDs que vous avez, à la fois ceux qui sont intégrés et ceux que vous avez téléchargés vous-même.\nPour lancer un HUD, vous pouvez lancer la superposition dans une fenêtre séparée sur votre système (bouton \"Start HUD overlay\" ;) ou copier le lien et l'ajouter comme source de navigateur dans votre logiciel de diffusion (bouton \"Toggle HUD url\" ;)."
-            }
+          "show": "Afficher \"New to LHM\" ;",
+          "seeNow": "Voir maintenant"
         },
         "cta": {
-            "tryScoutAI": "Utilisez notre observateur IA et plusieurs prédictions de match IA !"
+          "cta": "Afficher l'offre de mise en œuvre du HUD personnalisé de Lexogrine dans l'onglet HUD"
         }
+      }
+    },
+    "ar": {
+      "add": "Télécharger le module AR",
+      "toggle": "Basculer le module AR",
+      "openDirectory": "Ouvrir le répertoire du module",
+      "deleteLocally": "Supprimer le module AR"
+    },
+    "huds": {
+      "header": "HUDs",
+      "config": {
+        "customRadar": "Radar",
+        "customKillfeed": "Killfeed",
+        "embeddedHUD": "HUD intégré",
+        "killfeedOffset": "Décalage Killfeed",
+        "scout": "Scout AI",
+        "autoexecute": "Auto-execute",
+        "console": "Console",
+        "add": "Ajouter HUD",
+        "runGame": "LANCER LE JEU",
+        "pauseTest": "PAUSE TEST",
+        "runTest": "LANCER UN TEST",
+        "clearOCRData": "Effacer les données OCR",
+        "openDirectory": "Ouvrir le répertoire HUDs",
+        "playTestLoop": "Jouer la boucle de test",
+        "ar": "AR",
+        "goToKeybinds": "Configurer les raccourcis clavier",
+        "showOnlyActivePlayers": "Afficher uniquement les joueurs actifs",
+        "more": "Plus",
+        "hlaeIsRequired": "Vous devez avoir CS:GO fonctionnant avec HLAE",
+        "proOrEntrpriseIsRequired": "Vous devez avoir un abonnement Professionnel ou Entreprise",
+        "hlaeAndHigherPlanIsRequired": "Vous devez avoir CS:GO fonctionnant avec HLAE et un abonnement Professional ou Enterprise"
+      },
+      "sort": {
+        "custom": "Personnalisé",
+        "newest": "Plus récent",
+        "oldest": "Le plus ancien"
+      },
+      "fields": {
+        "missing": "Champs manquants",
+        "fieldOfType": "Champ \"{{field}}\" ; de type \"{{type}}\" ;",
+        "fieldNamePlaceholder": "Nom du champ",
+        "inputType": "Type d'entrée",
+        "values": {
+          "text": "Texte",
+          "team": "Équipe",
+          "image": "Image",
+          "match": "Match",
+          "player": "Joueur",
+          "color": "Couleur"
+        },
+        "visible": "Visible",
+        "manageCustom": "Gérer les champs personnalisés",
+        "addNew": "+ Ajouter un nouveau champ"
+      },
+      "includes": {
+        "customRadar": "Inclut le radar personnalisé",
+        "customKillfeed": "Inclut le killfeed personnalisé"
+      },
+      "removal": {
+        "title": "Suppression de {{hud}}",
+        "areYouSure": "Êtes-vous sûr de vouloir supprimer {{hud}} ?"
+      },
+      "actions": {
+        "toggleUrl": "Basculer l'URL HUD",
+        "settings": "Aller aux paramètres HUD",
+        "shortcut": "Raccourci",
+        "overlay": "Démarrer la superposition du HUD",
+        "upload": "Télécharger le HUD",
+        "uploading": "Téléchargement...",
+        "delete": "Supprimer",
+        "deleteLocally": "Supprimer le HUD localement",
+        "deleteFromCloud": "Supprimer le HUD du cloud",
+        "downloading": "Téléchargement...",
+        "toggleHUD": "Basculer le HUD (intégré uniquement)",
+        "toggleHUDKeybinds": "Toggle HUD Keybinds (For Browser Source)",
+        "clickToCopy": "Cliquer pour copier",
+        "createShortcut": "Créer un raccourci sur le bureau"
+      },
+      "warning": {
+        "csgoHUDinCS2": "Ce HUD a été conçu pour CS:GO. Il n'est pas garanti que toutes ses fonctionnalités fonctionneront de la même manière dans CS2.",
+        "specifyHLAEPath": "Spécifier le chemin d'accès à HLAE dans les paramètres afin d'utiliser les killfeeds personnalisés",
+        "specifyAFXInteropPath": "Spécifier le chemin d'accès à AFX Interop dans les paramètres afin d'utiliser le mode AFX",
+        "specifyAFXModeInfo": "Lors de l'utilisation du mode AFX, après avoir rejoint le match, cliquez sur la bascule - il n'est pas nécessaire de démarrer la superposition."
+      },
+      "error": {
+        "title": "Impossible d'ajouter le HUD",
+        "config": "LHM n'a pas pu lire le fichier de configuration du HUD.",
+        "upload": "LHM n'a pas pu télécharger le HUD sur le cloud. Réessayez plus tard.",
+        "generic": "Quelque chose s'est mal passé. Réessayez plus tard.",
+        "archive": "LHM n'a pas pu lire le fichier d'archive.",
+        "source": "Il semble que vous téléchargiez le code source au lieu du HUD compilé. Veuillez compiler le HUD avant de le télécharger.",
+        "space": "Vous n'avez pas assez d'espace cloud dans l'espace de travail que vous utilisez. Veuillez mettre à niveau votre plan ou supprimer certaines de vos ressources cloud."
+      }
+    },
+    "app": {
+      "changeGame": "Changer le jeu",
+      "cloud": {
+        "isActive": "Connecté au cloud",
+        "isNotActive": "Déconnecté du cloud"
+      }
+    },
+    "cta": {
+      "orderPlan": "Commander un plan",
+      "orderCustomHUD": "Commandez votre propre HUD personnalisé",
+      "orderCustomHUDName": {
+        "cs2": "Commandez votre propre HUD personnalisé pour CS2",
+        "csgo": "Commandez votre propre HUD personnalisé pour CS:GO",
+        "dota2": "Commandez votre propre HUD personnalisé pour Dota 2",
+        "leagueoflegends": "Commandez votre propre HUD personnalisé pour LoL",
+        "rocketleague": "Commandez votre propre HUD personnalisé pour Rocket League",
+        "apexlegends": "Commandez votre propre HUD personnalisé pour Apex Legends",
+        "valorant": "Commandez votre propre HUD personnalisé pour Valorant"
+      },
+      "getAQuote": "Obtenir un devis",
+      "tryScoutAI": "Utilisez notre observateur de l'IA et les prédictions de match de l'IA !",
+      "newToLHM": "Nouveau sur LHM ?"
+    },
+    "helpers": {
+      "next": "Suivant",
+      "previous": "Précédent",
+      "close": "Fermer",
+      "learnMore": "En savoir plus",
+      "onlyInProPlus": {
+        "title": "Améliorer votre abonnement",
+        "info": "Cette fonctionnalité n'est disponible que pour les utilisateurs des abonnements Professional et Enterprise.\\nVeuillez mettre à niveau votre abonnement pour la débloquer."
+      },
+      "onlyInProPlusEnt3": {
+        "title": "Améliorer votre plan",
+        "info": "Cette fonctionnalité n'est disponible que pour les utilisateurs des plans Professionnel et Entreprise disposant d'au moins 3 postes.\nVeuillez mettre à niveau votre plan pour la débloquer."
+      },
+      "deviceLockWorkspace": {
+        "title": "Limite de l'appareil dépassée",
+        "info": "Il semble que l'espace de travail soit utilisé sur plus d'appareils que le nombre de places prévues dans le plan.\nAttendez l'expiration du verrouillage de l'appareil ou mettez à niveau votre plan d'entreprise afin d'accueillir plus d'appareils."
+      },
+      "huds": {
+        "killfeedOffset": {
+          "title": "Killfeed Offset",
+          "info": "En activant cette option, safezoney sera réglé sur 0.8 pour tenir compte des éléments HUD personnalisés dans le coin supérieur droit"
+        },
+        "previewDescriptions": {
+          "premium": {
+            "cs2": "Avec PREMIUM HUD, nous faisons un pas de plus vers l'objectif de construire une solution super facile à utiliser, basée sur le cloud, qui en quelques clics prend en charge toutes les étapes de l'organisation d'un tournoi esports - y compris les visuels de haut niveau !\nPREMIUM HUD est disponible pour tous les utilisateurs de Personal, Professional et Enterprise Plan.",
+            "csgo": "Avec PREMIUM HUD, nous faisons un pas de plus vers l'objectif de construire une solution super facile à utiliser, basée sur le cloud, qui en quelques clics prend en charge chaque étape de l'organisation d'un tournoi esports - y compris les visuels de haut niveau !\nPREMIUM HUD est disponible pour tous les utilisateurs de Personal, Professional et Enterprise Plan.",
+            "dota2": "Premium HUD pour Dota 2 est notre première étape dans la révolution de l'industrie de la diffusion MOBA. Notre objectif est de faire bénéficier tout le monde de cette intégration. Que vous soyez un nouveau venu sur la scène esports ou que vous ayez déjà votre propre marque et des solutions éprouvées, nous sommes convaincus que le Premium HUD vous apportera une expérience que ni vous ni votre public n'avez jamais vue auparavant sur d'autres diffusions.",
+            "leagueoflegends": "Premium HUD pour League of Legends ajoute ce qui manque au HUD de l'observateur du jeu et l'améliore encore. Une énorme quantité de données, des statistiques et des écrans supplémentaires, des visuels magnifiques intégrés à l'interface du jeu créent une expérience complètement nouvelle et unique. Le Premium HUD pour League of Legends est une qualité que l'on peut observer lors des événements les plus célèbres, désormais accessible à tous.",
+            "rocketleague": "Dès le début, nous avons voulu construire une solution pour aider les esports à se concentrer sur les esports - et s'assurer d'utiliser la grande quantité de données existantes que les esports génèrent pour les téléspectateurs, les joueurs et les organisateurs. Une fois que nous avons commencé à réussir dans ce domaine, nous avons ajouté l'automatisation et le cloud à la liste - pour s'assurer que les organisateurs peuvent se concentrer sur les téléspectateurs, les joueurs et les équipes au lieu de tout régler manuellement et de s'inquiéter de savoir si tout fonctionnera.",
+            "valorant": "Le HUD Premium pour Valorant a été conçu pour préserver l'esthétique du jeu tout en appliquant des formules utilisées depuis des années dans les overlays des jeux FPS. La disposition des éléments dans le HUD du spectateur est immédiatement claire pour l'observateur et fait partie intégrante du jeu. Ceci est également dû aux merveilleux visuels qui renforcent l'expérience globale que ce HUD d'observateur apporte avec lui."
+          },
+          "ultra": {
+            "cs2": "Counter-Strike 2 est un nouveau départ. Ultra HUD est une superposition complète qui répond aux besoins et au style apportés par CS2. La configuration rapide et facile d'Ultra HUD s'adaptera à vos besoins et améliorera complètement vos événements. Votre diffusion - tout comme Counter-Strike - est prête pour une nouvelle ère.\nUltra HUD est disponible pour tous les utilisateurs du plan LHM professionnel, ainsi que pour les utilisateurs du plan Entreprise avec 3 sièges ou plus.",
+            "dota2": "Il n'existait aucune solution sur le marché qui fournissait des informations supplémentaires, se fondait dans l'interface du jeu et était accessible à tous avec une installation super facile. Ultra HUD pour Dota 2 a changé tout cela. Le support avancé de LHM'pour Dota 2 au cours des derniers mois nous a permis d'améliorer tout ce que nous avons proposé jusqu'à présent - c'est ainsi qu'Ultra HUD a vu le jour.\nLa première et la plus importante amélioration que vous remarquerez est l'apparence du HUD - désormais, il est à la fois polyvalent et parfaitement adapté à la configuration de Dota 2, sans faire de compromis sur le plan visuel. Cela fait de l'Ultra HUD la solution parfaite pour tous, indépendamment de leur propre marque et de leurs attentes. Il s'agit tout simplement d'une partie presque nouvelle du jeu.",
+            "leagueoflegends": "League of Legends Ultra HUD est la solution complexe pour les spectateurs et les observateurs qui offre les meilleurs visuels pour l'événement esport League of Legends avec la facilité du LHM. Disponible en quelques clics, avec des superpositions, des animations et des fonctions personnalisées dédiées aux matchs de draft, de match et d'après-match."
+          }
+        },
+        "scout": {
+          "title": "Scout AI",
+          "info": "L'activation de cette option lancera CS2 avec VConsole2, ce qui pourrait vous empêcher de rejoindre des serveurs à moins d'être correctement configuré."
+        },
+        "tab": {
+          "title": "Onglet HUDs",
+          "info": "L'onglet HUDs est utilisé pour gérer les HUDs et la configuration du lancement du jeu."
+        },
+        "radar": {
+          "title": "Radar",
+          "info": "En activant cette option et en lançant le jeu avec la configuration présentée ci-dessous ou en utilisant le bouton \"Run game\" ; vous désactiverez le radar du jeu pour utiliser le radar personnalisé intégré à vos HUD."
+        },
+        "killfeed": {
+          "title": "Killfeed",
+          "info": "Activer cette option et lancer le jeu avec la configuration présentée ci-dessous ou en utilisant le bouton \"Run game\" ; désactivera le killfeed en jeu pour utiliser le killfeed personnalisé intégré à vos HUDs.\nCette option lancera CS:GO en mode non sécurisé - vous ne pourrez pas rejoindre les serveurs protégés par VAC (par exemple Faceit, matchmaking) à moins d'être un spectateur CSTV tant qu'elle est activée."
+        },
+        "embeddedHUD": {
+          "title": "HUD intégré",
+          "info": "En activant cette option, LHM s'accrochera au processus de rendu de CS:GO, faisant de votre HUD une partie du jeu au lieu d'une surcouche séparée. Pour lancer un HUD en mode intégré, cliquez sur le bouton à côté du HUD.\\nL'utilisation du mode intégré est nécessaire pour l'AR. Elle peut également réduire les performances du jeu.\\nCette option lancera CS:GO en mode non sécurisé - vous ne pourrez pas rejoindre les serveurs protégés par VAC (par exemple Faceit, matchmaking), sauf en tant que spectateur CSTV lorsque cette option est activée."
+        },
+        "playTestLoop": {
+          "title": "Jouer la boucle de test",
+          "info": "En activant cette option, les données de test seront jouées en boucle et ne se termineront jamais. Ceci est utile pour tester vos HUDs."
+        },
+        "ar": {
+          "title": "AR",
+          "info": "Activer cette option et lancer le jeu avec la configuration présentée ci-dessous ou en utilisant le bouton \"Run game\" ; vous permettra d'utiliser les modules AR.\nCette option lancera CS:GO en mode non sécurisé - vous ne pourrez pas rejoindre les serveurs protégés par VAC (par exemple Faceit, matchmaking) sauf en tant que spectateur CSTV tant qu'elle est activée."
+        },
+        "autoExecute": {
+          "title": "Auto-Execute",
+          "info": "le bouton \"Lancer le jeu\" ; lancera le jeu avec la configuration présentée ci-dessous lorsque cette option est activée."
+        },
+        "xray": {
+          "title": "XRay",
+          "info": "Cette option permet de définir des couleurs personnalisées pour les bordures des joueurs dans le jeu."
+        },
+        "runTest": {
+          "title": "Lancer un test",
+          "info": "Cette fonctionnalité vous permet de simuler un flux de données de jeu pour tester votre HUD ou votre configuration."
+        },
+        "launchParams": {
+          "title": "Paramètres de lancement",
+          "info": "Vous pouvez spécifier des paramètres de lancement pour le jeu ici, au lieu de ses paramètres dans la fenêtre de Steam"
+        },
+        "clearOCRData": {
+          "title": "Effacer les données OCR",
+          "info": "Si vous regardez un match différent avec l'intégration de LHM Valorant, ou si l'OCR lit des données erronées, vous pouvez effacer les données de l'OCR, ce qui permet à LHM de relire et d'analyser à nouveau toutes les données, en remplissant tous les champs à partir de zéro."
+        }
+      },
+      "teams": {
+        "tab": {
+          "title": "Équipes",
+          "info": "L'onglet Équipes est utilisé pour gérer les équipes affichées et utilisées dans les HUD et autres fonctionnalités LHM."
+        }
+      },
+      "players": {
+        "tab": {
+          "title": "Joueurs",
+          "info": "L'onglet Joueurs permet de gérer les joueurs affichés et utilisés dans les HUD et autres fonctionnalités LHM."
+        },
+        "identification": {
+          "title": "Identification du joueur",
+          "info": "Ce champ permet au LHM d'identifier les joueurs dans le jeu et de les faire correspondre aux informations stockées dans la base de données LHM. Ceci est utile pour afficher les noms des joueurs, les avatars et d'autres informations dans les HUD."
+        },
+        "steamBasedIdentification": "Identification du joueur (SteamID64)",
+        "usernameBasedIdentification": "Identification du joueur (nom du jeu)"
+      },
+      "matches": {
+        "tab": {
+          "title": "Matchs",
+          "info": "L'onglet Matches permet de gérer les matchs affichés et utilisés dans les HUD et autres fonctionnalités LHM."
+        }
+      },
+      "tournaments": {
+        "tab": {
+          "title": "Tournois",
+          "info": "L'onglet Tournois permet de gérer les tournois affichés et utilisés dans les HUD et autres fonctionnalités LHM."
+        }
+      },
+      "cgMode": {
+        "tab": {
+          "title": "Mode CG",
+          "info": "Le mode CG incorpore les modules les plus essentiels pour les opérations de diffusion sous une forme compacte.\\nA partir de cet onglet, vous pouvez gérer vos matchs, vos équipes, vos joueurs et le jeu en direct sur un seul écran.\\nVous pouvez masquer les onglets inutiles à l'aide du bouton \"Cacher\" ; situé au-dessus de chaque section."
+        }
+      },
+      "arg": {
+        "tab": {
+          "title": "Générateur de rediffusion automatique",
+          "info": "Le module Auto Replay Generator (ARG) génère des rediffusions qui peuvent être affichées entre les rounds ou à la fin d'un match.\nN'oubliez pas que vMix est nécessaire pour configurer correctement ARG. vMix n'est pas une application gratuite, et ARG lui-même est conçu principalement pour les équipes de production qui utilisent déjà vMix."
+        },
+        "safeband": {
+          "title": "Safeband",
+          "info": "Les options Safeband déterminent le temps (en millisecondes) que doit contenir chaque clip avant et après un kill."
+        },
+        "useHLAE": {
+          "title": "Utiliser HLAE ?",
+          "info": "L'utilisation de HLAE permet à ARG d'analyser davantage de données en jeu, ce qui permet de mieux prédire les kills."
+        },
+        "delayConfig": {
+          "title": "Configuration du délai",
+          "info": "La configuration du délai spécifie le délai de l'observateur CSTV (en secondes)."
+        },
+        "saveClips": {
+          "title": "Sauvegarde des clips",
+          "info": "L'activation de cette option permet à vMix de conserver tous les clips générés par ARG au lieu de les supprimer."
+        },
+        "computerID": {
+          "title": "Computer ID",
+          "info": "ID utilisé par ARG, nécessaire pour une connexion réussie."
+        }
+      },
+      "aco": {
+        "telnet": {
+          "title": "Telnet",
+          "info": "Telnet est un protocole de communication avec CS2. Lorsqu'il est utilisé, vous n'avez pas besoin d'avoir la fenêtre de CS2 en ligne de mire, car LHM changera de joueur avec des commandes à distance."
+        },
+        "tab": {
+          "title": "Observateur cinématique automatique",
+          "info": "Le module ACO vous permet d'utiliser des mouvements de caméra prédéfinis pour suivre l'action dans le jeu.\nACO utilise l'IA pour déterminer les événements les plus importants qui se déroulent dans le jeu à un moment donné."
+        },
+        "area": {
+          "title": "Zone",
+          "info": "Les zones sont des régions de la carte auxquelles vous liez vos configurations. S'il y a beaucoup de joueurs dans une zone donnée, l'une des configurations qui y sont ajoutées sera exécutée dans le client CS:GO.\nPour ajouter une zone, cliquez sur le bouton \"+\" ; et sélectionnez la région souhaitée sur la carte en cliquant sur ses coins."
+        },
+        "manualControl": {
+          "title": "Contrôle manuel",
+          "info": "Utilisez le panneau de contrôle manuel pour sélectionner manuellement une zone à afficher.\nComme il s'agit d'une page externe qui s'ouvre dans votre navigateur web, vous pouvez également la consulter à partir de votre smartphone ou de votre tablette (si vous vous trouvez dans le même réseau local).\nCliquer ou tapoter sur une zone dans le panneau de contrôle manuel exécutera ses configurations dans le client CS:GO."
+        },
+        "areaCreation": {
+          "title": "Création de zone",
+          "info": "Cliquez sur la carte pour définir les coins de votre zone.\nUtilisez le bouton d'annulation si vous avez fait une erreur."
+        },
+        "directorSwitch": {
+          "title": "Activer le directeur",
+          "info": "Lorsque la bascule est activée, l'ACO démarre automatiquement. Vous pouvez également utiliser le raccourci clavier (par défaut : ALT + K)."
+        },
+        "scoutDirectorSwitch": {
+          "title": "Activer l'administrateur",
+          "info": "Lorsque la bascule est activée, l'IA du Scout démarre automatiquement. Vous pouvez également utiliser le raccourci clavier (par défaut : ALT + K)."
+        },
+        "scoutCinematic": {
+          "title": "Mode cinématique de l'IA des éclaireurs",
+          "info": "Dans ce mode, l'IA scout travaille avec l'IA ACO, afin d'offrir une expérience d'observation optimale. Sans ce mode, Scout AI ne fournira qu'une caméra POV, sans aucune vue d'ensemble.\nCe mode n'est applicable que si l'IA ACO prend en charge la carte sur laquelle se déroule le match."
+        },
+        "scoutPredict": {
+          "title": "Scout Predict",
+          "info": "Scout permet de faire des prédictions automatisées en direct, basées sur l'IA. Si cette option est activée, ces prédictions seront envoyées à vos HUDs dans les moments importants, pour vous donner une meilleure vision du jeu."
+        },
+        "timeRemaining": {
+          "title": "Temps restant de votre quota mensuel de Scout AI",
+          "info": "Votre temps disponible pour utiliser les serveurs Scout AI. Il est actualisé chaque mois de votre abonnement."
+        }
+      },
+      "ar": {
+        "tab": {
+          "title": "Réalité augmentée",
+          "info": "La prise en charge du module de réalité augmentée permet d'afficher des objets 3D personnalisés comme s'ils faisaient partie du jeu.\nLa réalité augmentée utilise les données de position de la caméra chargées à l'aide de GSI pour rendre vos objets 3D HTML & ; CSS sur la scène du jeu."
+        }
+      },
+      "live": {
+        "tab": {
+          "title": "Live",
+          "info": "Lorsqu'un jeu en direct est détecté, l'onglet En direct se remplit de données sur le match en cours, telles que le nom et l'identifiant des joueurs et le score actuel.\nL'onglet Live vous permet également d'accéder rapidement à l'édition des joueurs."
+        }
+      },
+      "cameras": {
+        "delay": {
+          "title": "Délai de la caméra",
+          "info": "Le délai de la caméra n'est actuellement pris en charge que dans les HUD officiels de Lexogrine : Ultra & ; Premium HUDs"
+        },
+        "tab": {
+          "title": "Caméras",
+          "info": "Le module Caméras vous permet d'afficher les flux des webcams des joueurs dans vos HUD à l'aide de LHM - aucun outil externe n'est nécessaire."
+        }
+      },
+      "addons": {
+        "tab": {
+          "title": "Modules complémentaires",
+          "info": "Les addons sont une nouvelle façon de créer de puissantes intégrations avec LHM, en fournissant des environnements Node.js en bac à sable avec des émetteurs d'événements GSI accrochés à eux dès la sortie de la boîte.\nGrâce aux addons LHM, vous pouvez concentrer vos efforts sur la création de la meilleure expérience possible pour vos spectateurs, LHM se chargeant de tout le reste."
+        }
+      },
+      "quick": {
+        "tab": {
+          "title": "Rapide",
+          "info": "LHM Quick vous permet de préparer rapidement l'ensemble de la configuration de vos joueurs, de votre équipe et de votre HUD à partir d'un seul endroit, ce qui vous permet de démarrer votre stream immédiatement."
+        }
+      },
+      "signals": {
+        "cta": {
+          "title": "Besoin d'ajouter d'autres événements ?",
+          "info": "Passez à un plan supérieur pour avoir accès à un nombre illimité d'événements avec des options avancées comme la possibilité de créer des branches d'événements et des préréglages !"
+        }
+      }
+    },
+    "modals": {
+      "imageTooLarge": {
+        "title": "Image trop grande",
+        "info": "L'image sélectionnée est trop grande. La limite de taille est de {{limit}} MO."
+      },
+      "delete": {
+        "titleTeams": "Supprimer les équipes",
+        "titlePlayers": "Supprimer les joueurs",
+        "titleMatches": "Effacer les correspondances",
+        "infoTeams": "Êtes-vous sûr de vouloir supprimer les équipes {{count}} ?",
+        "infoPlayers": "Êtes-vous sûr de vouloir supprimer les joueurs de {{count}} ?",
+        "infoMatches": "Êtes-vous sûr de vouloir supprimer les correspondances {{count}} ?",
+        "deleteWithPlayers": "Supprimer avec les joueurs"
+      },
+      "steamApiKeyMissing": {
+        "title": "Clé API Steam manquante",
+        "info": "Il semble que vous ayez mis une URL Steam personnalisée dans le champ SteamID. LHM a besoin de la clé API Steam pour prendre en charge les URL personnalisées. Souhaitez-vous quand même sauvegarder ?"
+      }
+    },
+    "cloudification": {
+      "updateModalTitle": "Téléchargez vos HUD sur LHM Cloud",
+      "updateModalInfo1": "À partir de LHM 4.9.0, tous les HUDs sont entièrement basés sur le cloud. Cela signifie que vous êtes maintenant en mesure d'utiliser vos HUDs sur n'importe quel appareil, et vos HUDs resteront toujours synchronisés.",
+      "updateModalInfo2": "Pour continuer à utiliser LHM, vous devez télécharger vos HUD sur LHM Cloud.",
+      "updateModalCloudWarning": "Certains HUD sont actuellement sauvegardés sous forme compressée dans le Cloud. Pour les utiliser, LHM devra les télécharger et les décompresser. Cela peut entraîner une augmentation de la limite d'utilisation du Cloud.",
+      "updateModalNonuploadedHUDsStillInDirectory": "Vos HUDs seront toujours sauvegardés dans votre répertoire HUD, si vous choisissez de ne pas les télécharger.",
+      "updateModalImporting": "Nous préparons vos HUDs pour vous...",
+      "actions": {
+        "uploadAll": "Télécharger tous les HUD sur LHM Cloud",
+        "customize": "Laissez-moi choisir les HUDs à télécharger",
+        "confirm": "Confirmer et télécharger"
+      },
+      "downloadAndUnpack": "Télécharger et décompresser le HUD",
+      "spaceCompressedInCloud": "compressé dans le nuage",
+      "spaceOnDisk": "sur disque",
+      "sizeLimitModalTitle": "Limite de la taille du stockage dans le cloud",
+      "sizeLimitModalInfo1": "L'opération que vous souhaitez effectuer ne peut pas se produire en raison de la limite de stockage dans le nuage de votre compte. Pour continuer, désactivez le stockage dans le cloud ou supprimez les ressources inutiles (HUD, équipes, joueurs, matchs, tournois, chemins ACO). Vérifier",
+      "sizeLimitModalInfo2": "pour connaître votre utilisation et votre capacité actuelles de stockage dans le nuage."
+    },
+    "synchronization": {
+      "noUploadedResources": "Il semble que vous n'ayez pas encore téléchargé votre base de données sur le cloud. Vous pouvez télécharger votre base de données actuelle ou désactiver la synchronisation sur cette machine",
+      "noSyncLocal": "Votre base de données locale n'est pas synchronisée avec le stockage en nuage. Vous pouvez télécharger la base de données ou désactiver la synchronisation. Sachez que le téléchargement supprimera ce que vous avez actuellement sur ce PC, et que le téléchargement EFFACERA le contenu du stockage sur le cloud. Que voulez-vous faire ?",
+      "error": "Il y a eu une erreur, donc pour éviter la perte de données, nous avons désactivé la synchronisation",
+      "modalTitle": "Synchronisation"
+    },
+    "workspaces": {
+      "pickModalTitle": "Choisissez votre espace de travail",
+      "pick": "Choisir",
+      "unknownWorkspace": "Espace de travail inconnu"
+    },
+    "streamDeck": {
+      "modalTitle": "Nous avons détecté que vous utilisez Stream Deck",
+      "modalInfo": "voulez-vous que LHM s'y connecte ?"
+    },
+    "newToLHM": {
+      "games": {
+        "title": "Bienvenue sur LHM !",
+        "description": "Vous êtes nouveau sur LHM ? Vous trouverez ici quelques conseils de base pour commencer à utiliser l'application !\n\nLHM supporte actuellement CS2, Dota 2, League of Legends, Rocket League, Apex Legends et F1. Chaque jeu pris en charge nécessite une configuration simple mais nécessaire pour fonctionner correctement avec LHM.\nCliquez sur le bouton En savoir plus ci-dessous pour apprendre à configurer le jeu que vous souhaitez utiliser avec LHM."
+      },
+      "quick": {
+        "title": "LHM Quick",
+        "description": "LHM Quick vous permet de configurer rapidement les joueurs et les équipes à lancer avec HUD. Cette fonction est principalement destinée aux utilisateurs familiers avec le fonctionnement de LHM et leur permet de démarrer immédiatement.\nActuellement, les jeux pris en charge par LHM Quick sont CS2, CS:GO, Dota 2, League of Legends et Rocket League.\nCliquez sur le bouton En savoir plus ci-dessous pour en savoir plus sur LHM Quick."
+      },
+      "huds": {
+        "title": "Onglet HUDs",
+        "description": "L'onglet HUDs affiche tous les HUDs que vous avez, à la fois ceux qui sont intégrés et ceux que vous avez téléchargés vous-même.\nPour lancer un HUD, vous pouvez lancer la superposition dans une fenêtre séparée sur votre système (bouton \"Start HUD overlay\" ;) ou copier le lien et l'ajouter comme source de navigateur dans votre logiciel de diffusion (bouton \"Toggle HUD url\" ;)."
+      },
+      "lhmHuds": {
+        "title": "LHM HUDs",
+        "description": "Chaque plan LHM possède des HUD intégrés. Plus le plan est élevé, plus les HUD sont avancés. Cliquez sur les noms ci-dessous pour en savoir plus sur chacun d'entre eux :\n\n- HUD par défaut pour tout jeu pris en charge\n- HUD Premium pour [[CS2|premiumCS2]], [[Dota 2|premiumDota2]], [[LoL|premiumLoL]], [[Rocket League|premiumRL]]\n- Ultra HUD pour [[CS2|ultraCS2]] et [[Dota 2|ultraDota2]]"
+      },
+      "userGuide": {
+        "title": "Guide de l'utilisateur",
+        "description": "Consultez notre guide de l'utilisateur pour en savoir plus sur chacun des composants de LHM. Vous y trouverez des descriptions, des instructions pour configurer et utiliser toutes les fonctionnalités, ainsi que des réponses aux questions les plus courantes. Si vous avez d'autres questions, rejoignez [[notre Discord|discord]]."
+      }
     }
+  }
 }

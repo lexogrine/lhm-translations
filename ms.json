@@ -1,0 +1,1023 @@
+{
+  "translation": {
+    "common": {
+      "cgMode": "Mod CG",
+      "or": "atau",
+      "close": "Tutup",
+      "save": "Simpan",
+      "saveAndSend": "Simpan dan hantar",
+      "saveAndRestart": "Simpan dan mulakan semula",
+      "saveAndExit": "Simpan dan keluar",
+      "loadingSuccess": "Berjaya dimuatkan",
+      "loaded": "Dimuatkan",
+      "notLoaded": "Tidak dimuatkan",
+      "vs": "VS",
+      "noTeam": "Tiada pasukan",
+      "noPlayer": "Tiada pemain",
+      "noMatch": "Perlawanan tidak ditemui",
+      "noTournament": "Tiada kejohanan",
+      "noValue": "Lalai",
+      "teamOne": "Pasukan Satu",
+      "teamTwo": "Pasukan Dua",
+      "show": "Tunjukkan",
+      "hide": "Sembunyi",
+      "map": "Peta",
+      "team": "Pasukan",
+      "players": "Pemain",
+      "realName": "Nama sebenar",
+      "player": "Pemain",
+      "teams": "Pasukan",
+      "team1": "Pasukan 1",
+      "team2": "Pasukan 2",
+      "teamNumber": "PASUKAN #{{num}}",
+      "vetoNumber": "Veto {{{num}} }",
+      "delete": "Padam",
+      "edit": "Edit",
+      "live": "Langsung",
+      "match": "Padankan",
+      "goBack": "Balik",
+      "ct": "CT",
+      "t": "T",
+      "no": "Tidak",
+      "yes": "Ya",
+      "noDontAsk": "Tidak, jangan tanya",
+      "csgo": {
+        "ct": "CT",
+        "t": "T",
+        "no": "Tidak"
+      },
+      "cs2": {
+        "ct": "CT",
+        "t": "T",
+        "no": "Tidak"
+      },
+      "valorant": {
+        "ct": "DEF",
+        "t": "ATK",
+        "no": "Tidak"
+      },
+      "export": "Eksport",
+      "cancel": "Batal",
+      "next": "Seterusnya",
+      "finish": "Selesai",
+      "understand": "Saya faham",
+      "tournaments": "Kejohanan",
+      "firstName": "Nama Pertama",
+      "lastName": "Nama Akhir",
+      "createNew": "Buat Baharu",
+      "nickname": "Nama Panggilan",
+      "ready": "Sedia",
+      "country": "Negara",
+      "manage": "Urus",
+      "import": "Import",
+      "teamName": "Nama Pasukan",
+      "shortName": "Nama Pendek",
+      "search": "Cari...",
+      "loading": "Memuatkan...",
+      "ok": "Ok",
+      "disconnect": "Putuskan sambungan",
+      "connect": "Sambung",
+      "refresh": "Muat semula",
+      "enable": "Dayakan",
+      "example": "Contoh",
+      "disable": "Lumpuhkan",
+      "download": "Muat turun",
+      "upload": "Muat Naik",
+      "accept": "Terima",
+      "decline": "Tolak",
+      "downloadTemplate": "Muat turun templat",
+      "clickAndCopy": "Klik & Salin",
+      "swap": "Tukar"
+    },
+    "chat": {
+      "title": "Sembang Sokongan",
+      "header": "Sembang dengan Sokongan",
+      "suggestionHeader": "Ini mungkin menjawab soalan anda",
+      "outOfOfficeWarning": "Pasukan sokongan kami biasanya tersedia pada hari bekerja dari 9 PG hingga 5 PTG CEST. Kami mungkin mengambil masa yang lebih lama untuk bertindak balas di luar waktu tersebut.",
+      "typeYourMessage": "Taip mesej anda di sini..."
+    },
+    "blocker": {
+      "personal": "Tingkatkan LHM anda kepada pelan Peribadi, Profesional atau Perusahaan untuk mendapatkan akses penuh ke bahagian ini.",
+      "proPlus": "Tingkatkan LHM anda kepada pelan Profesional atau Perusahaan untuk mendapatkan akses penuh kepada bahagian ini.",
+      "upgradeNow": "Naik taraf sekarang",
+      "featureDescription": {
+        "cgmode": "Mod CG menggabungkan modul paling penting untuk operasi penyiaran dalam bentuk yang padat. Daripada tab ini, anda boleh mengurus perlawanan, pasukan, pemain dan permainan Langsung anda pada satu skrin. Naik taraf LHM anda kepada pelan Peribadi, Profesional atau Perusahaan untuk mendapatkan akses penuh kepada bahagian ini.",
+        "arg": "Automatisasi ialah sempadan seterusnya - dan di sini di Lexogrine kami bertekad untuk melintasinya! Penjana Main Semula Auto mengautomasikan sepenuhnya sistem main semula. ARG - berdasarkan kriteria yang ditetapkan - menjejaki setiap acara dalam permainan untuk menangkap momen paling penting secara automatik dan memaparkan ulang tayang yang menakjubkan antara pusingan. Apa yang anda perlukan ialah vMix atau OBS. Naik taraf LHM anda kepada pelan Peribadi, Profesional atau Perusahaan untuk mendapatkan akses penuh kepada bahagian ini.",
+        "addons": "Addons ialah cara baharu untuk mencipta penyepaduan dengan LHM. Sehingga ketika ini, hanya kod HUD tersuai yang mempunyai akses kepada suapan data permainan, yang bermaksud apa sahaja yang anda mahu lakukan, ia perlu dilakukan dalam persekitaran penyemak imbas. Addons berfungsi pada persekitaran pelayan - ia pada dasarnya adalah aplikasi NodeJS dengan pemancar Acara GSI yang disambungkan ke dalamnya. Ini bermakna anda tidak perlu membuat pelayan HTTP tersuai dengan penghurai hanya untuk menerima maklumat daripada permainan yang disokong (CS2, Dota 2), anda mempunyai semua itu di luar kotak, jadi anda boleh menumpukan pada penyepaduan dan ciri yang anda inginkan untuk mencipta. Naik taraf LHM anda kepada pelan Peribadi, Profesional atau Perusahaan untuk mendapatkan akses penuh kepada bahagian ini.",
+        "aco": "Adalah mustahil untuk menangkap setiap tindakan dengan cara yang sempurna dan dari perspektif yang ideal - tetapi Scout sangat dekat dengan itu. AI kami sendiri belajar daripada beribu-ribu permainan untuk menangkap acara paling pedas dengan sendirinya, tanpa input manusia. Tingkatkan LHM anda kepada pelan Peribadi untuk mendapatkan akses kepada semua modul AI Pengakap - Visi Pengakap, Ramalan Pengakap dan Sinematik Pengakap.",
+        "cameras": "Sistem kamera kami sangat mudah digunakan dan akan menjimatkan banyak masa persediaan - untuk penganjur dan pemain. Tiada konfigurasi perisian pengeluaran yang terlalu rumit dan memakan masa, tiada masalah perkakasan. Sambungkan kamera dan berikannya kepada pemain dalam LHM. Lancarkan HUD dan senyum kepada penonton. Naik taraf LHM anda kepada pelan Peribadi, Profesional atau Perusahaan untuk mendapatkan akses penuh kepada bahagian ini.",
+        "signals": "Isyarat LHM ialah penyepaduan tersuai kami dengan aplikasi Bitfocus Companion. Matlamat kami adalah untuk membantu dengan automasi acara dalam permainan yang boleh diramal. Isyarat menjaganya dan membenarkan untuk mencetuskan butang Companion pada acara permainan tertentu. Naik taraf LHM anda kepada Peribadi,Profesional atau Perusahaan merancang untuk mendapatkan akses penuh ke bahagian ini."
+      }
+    },
+    "titles": {
+      "players": "Pemain",
+      "teams": "Pasukan",
+      "arg": "Main semula",
+      "aco": "Scout AI",
+      "ar": "Augmented Reality",
+      "cgpanel": "Mod CG",
+      "huds": "HUD",
+      "matches": "Perlawanan",
+      "tournaments": "Kejohanan",
+      "live": "Langsung",
+      "signals": "Isyarat",
+      "cameras": "Kamera",
+      "addons": "Addons",
+      "settings": "Tetapan",
+      "credits": "Kredit",
+      "quick": "Pantas",
+      "chat": "Sembang Sokongan"
+    },
+    "aco": {
+      "disabled": "Dilumpuhkan",
+      "aco1": "ACO",
+      "acoAI": "ACO AI",
+      "acoAIScout": "ACO AI + Scout AI",
+      "scoutOnly": "Scout AI",
+      "cs2Warning": "ACO dan ACO AI tidak tersedia pada masa ini untuk Counter-Strike yang baru dikeluarkan 2. CS2 tiada ciri utama yang diperlukan oleh LHM agar fungsi tersebut berfungsi sekarang.",
+      "cs2ScoutAndARGWarning": "Kerana tiada ciri utama dalam CS2, {{ feature }} kini memerlukan ikatan kekunci bom tangan dalam permainan ditetapkan kepada nilai lalainya (kekunci nombor 1-0 pada papan kekunci) untuk berfungsi dengan betul. Kekurangan arahan yang diperlukan dalam CS2 menghalang LHM daripada menukar pemain secara automatik, jadi LHM kini menghantar tekanan kekunci kepada permainan secara manual, jadi sila pastikan permainan difokuskan semasa penggunaan {{ feature }}.",
+      "map": "Peta",
+      "area": "Kawasan",
+      "addNewArea": "Tambah kawasan baharu",
+      "showInfo": "Tunjukkan maklumat",
+      "hideInfo": "Sembunyikan maklumat",
+      "areaCreation": "Ciptaan kawasan",
+      "createArea": "+ Tambah kawasan baharu",
+      "addConfig": "+ Tambah konfigurasi baharu",
+      "areaConfigurations": "Konfigurasi kawasan",
+      "stateCreatingNew": "[mencipta baharu kawasan]",
+      "priority": "keutamaan",
+      "inGameName": "Nama dalam permainan",
+      "manualControl": "Kawalan manual",
+      "areaConfigurationsPlaceholder": "Pilih kawasan untuk melihat konfigurasinya",
+      "enableDirector": "Dayakan pengarah",
+      "scoutPredict": "Dayakan Ramalan",
+      "telnet": "Dayakan Telnet",
+      "telnetWarning": "Untuk menggunakan Telnet, CS2 mestilah dilancarkan dengan Alat Bengkel. Anda boleh melakukannya dengan mendayakan pilihan \"Killfeed / Tools\" dalam tab HUDs dan mengklik butang \"Run Game\".",
+      "cinematicWarning": "Untuk menggunakan Scout Cinematic, CS2 mesti dilancarkan dengan Alat Bengkel. Anda boleh melakukannya dengan mendayakan pilihan \"Killfeed / Tools\" dalam tab HUDs dan mengklik butang \"Run Game\". Mendayakan Scout Cinematic juga akan memaksa Scout Vision berjalan dalam mod Langsung.",
+      "disabledDescription": "Semua kawalan diberikan kepada anda dan pemerhati anda.",
+      "aco1Description": "Keseimbangan kawalan dan automasi. Bantu pemerhati anda dengan satu set arahan bertulis manual untuk ACO.",
+      "aco-aiDescription": "Duduk sementara algoritma lanjutan ACO AI mengawal strim anda.",
+      "aco-ai-scoutDescription": "Biarkan pemerhati perlawanan AI menonton permainan tanpa sebarang input pengguna.",
+      "aco-ai-scoutDescription-disconnected": "Biarkan pemerhati perlawanan AI menyaksikan permainan tanpa sebarang input pengguna.\\nPelayan Pengakap mungkin tidak tersedia pada masa ini.",
+      "scoutCinematicDescription": "Tunjukkan tangkapan sinematik yang cantik semasa rehat perlawanan.",
+      "scoutPredictDescription": "Paparkan ramalan keputusan perlawanan secara langsung terus pada strim anda.",
+      "scoutCinematic": "Gunakan Pengakap Sinematik",
+      "saveArea": "Simpan kawasan",
+      "areaName": "Nama",
+      "areaNamePlaceholder": "Nama kawasan",
+      "areaPriority": "Keutamaan",
+      "areaPriorityPlaceholder": "Keutamaan kawasan",
+      "addConfigHeader": "Tambah konfigurasi baharu pada kawasan ini",
+      "addConfigPlaceholder": "Masukkan arahan untuk dilaksanakan dalam ini kawasan",
+      "timeRemaining": "Masa tersedia",
+      "scoutServerUnavailable": "LHM tidak dapat menyambung ke pelayan Scout AI. Sila cuba lagi dalam beberapa minit.",
+      "scoutSubtitle": "AI Observer",
+      "scoutGetMoreTime": "Dapatkan lebih banyak masa",
+      "scoutDescription": "Scout AI belajar daripada beribu-ribu permainan untuk menangkap acara paling pedas dengan sendirinya, tanpa input manusia.",
+      "scoutVisionControl": {
+        "label": "Mod kawalan permainan",
+        "direct": {
+          "label": "Terus",
+          "description": "Mod langsung menggunakan telnet untuk mengawal permainan secara langsung. Ini adalah cara yang paling boleh dipercayai untuk mengawal permainan, tetapi ia memerlukan permainan untuk dilancarkan dengan Alat Bengkel didayakan dalam tab DLC permainan dalam Steam. __# Papan kekunci __# Mod papan kekunci mensimulasikan tekanan kekunci untuk mengawal permainan. Ia tidak mempunyai keperluan tambahan, tetapi permainan perlu difokuskan untuk menerima tekanan kekunci, dan ikatan kekunci dalam permainan yang berkaitan dengan kawalan kamera perlu ditetapkan kepada lalai."
+        },
+        "keybinds": {
+          "label": "Pengambilalihan manual",
+          "description": "Pengambilalihan manual"
+        }
+      },
+      "scoutVisionTakeoverControl": {
+        "label": "Sinematik Tindakan"
+      },
+      "scoutCinematicTakeoverControl": {
+        "label": "Scout AI dijeda kerana tiada permainan larian dikesan."
+      },
+      "scoutCinematicAction": {
+        "label": "Edit pemain"
+      },
+      "scoutPausedTip": "Gambar"
+    },
+    "players": {
+      "edit": "Avatar untuk digunakan untuk imej pemain dan bukannya lalai daripada Steam",
+      "uploadProfile": "Tambah Pemain",
+      "avatarInfo": "Import Pemain",
+      "addPlayer": "Muat Turun fail Nama",
+      "importPlayersTitle": "Gunakan kami yang telah disediakan terlebih dahulu Helaian Excel untuk mengimport banyak pemain sekaligus dengan mudah.",
+      "downloadNamesFile": "Eksport",
+      "importPlayersExcel": "Avatar",
+      "exportPlayers": "Edit pasukan",
+      "avatar": "Logo"
+    },
+    "teams": {
+      "edit": "Logo untuk digunakan untuk pasukan, jika boleh dalam HUD yang diberikan",
+      "uploadLogo": "Tambah Pasukan",
+      "logoInfo": "Eksport",
+      "addTeam": "Pasukan Import",
+      "exportTeams": "Gunakan helaian Excel kami yang telah disediakan untuk mengimport dengan mudah banyak pasukan sekaligus.",
+      "importTeamsTitle": "Logo",
+      "importTeamsExcel": "Gantikan nama pengguna",
+      "logo": "Langsung"
+    },
+    "live": {
+      "replaceUsernames": "Tiada permainan sedang disiarkan pada masa ini.",
+      "header": "Pemain sedang dalam perlawanan, klik untuk menambah pemain ke senarai pemain.",
+      "noGame": "Jana kata laluan",
+      "tip": "Hantar ini kepada pemain anda"
+    },
+    "cameras": {
+      "generatePassword": "Isi dari tab Langsung",
+      "sendToPlayers": "Tetapkan semula pautan",
+      "fillFromLive": "Mainkan Video Ujian",
+      "resetLink": "Hentikan Video Ujian",
+      "startTestVideo": "Anda mesti mempunyai permainan yang sedang berjalan untuk memainkan video ujian dan pemain mengisi jadual di atas. Tonton demo atau mainkan data ujian dan pilih pemain ujian",
+      "stopTestVideo": "Pemain Ujian",
+      "testVideoBlocker": "Muat naik alat tambah",
+      "testPlayer": "Sedia"
+    },
+    "addons": {
+      "upload": "Dinyahpasang",
+      "status": {
+        "READY": "Muat turun addon",
+        "UNINSTALLED": "Memuat turun..."
+      },
+      "downloadGameAddon": "Jalankan addon",
+      "downloading": "Addon Warning",
+      "runAddon": "Advanced Addon membolehkan anda membaca lebih banyak data terima kasih kepada pembacaan memori. Pembacaan memori boleh dianggap sebagai penipuan, manakala alat sedemikian telah wujud selama bertahun-tahun dan Riot tidak merujuk kepada mereka dan kami tidak pernah mendengar tentang kes penonton diharamkan untuk ini. Namun begitu, anda menggunakan Addon Lanjutan League of Legends atas risiko anda sendiri.",
+      "addonWarning": "Jangan gunakan LoL Advanced Addon semasa permainan biasa, ia hanya digunakan untuk menyaksikan permainan!",
+      "warnings": {
+        "lol-mr-1": "NodeJS dan NPM diperlukan untuk dipasang untuk kebanyakan addon",
+        "lol-mr-2": "HUD"
+      },
+      "nodejsWarning": "Scout AI"
+    },
+    "navbar": {
+      "huds": "Addons",
+      "aco": "AR",
+      "addons": "Live",
+      "ar": "Quick",
+      "live": "Profesional sahaja",
+      "quick": "Tidak bebas hanya",
+      "professionalOnly": "Kamera",
+      "nonFreeOnly": "Hai, {{username}}!",
+      "cameras": "Pelan anda",
+      "hi": "Isyarat",
+      "yourPlan": "Sah dari",
+      "signals": "Sah sehingga",
+      "validFrom": "Pembayaran seterusnya",
+      "validUntil": "Log keluar",
+      "nextPayment": "Main semula",
+      "logout": "Padam pratetap",
+      "arg": "Adakah anda pasti mahu memadamkan pratetap \"{{name}}\"?"
+    },
+    "signals": {
+      "removal": {
+        "title": "Namakan semula pratetap",
+        "areYouSure": "Nama pratetap"
+      },
+      "edit": {
+        "title": "Cipta pratetap baharu",
+        "placeholder": "Nama pratetap"
+      },
+      "create": {
+        "title": "{{ name }} tidak aktif",
+        "placeholder": "{{ name }} aktif"
+      },
+      "activate": "Tambah Cawangan",
+      "deactivate": "Acara",
+      "addBranch": "Tambah Acara",
+      "event": "Pilih Acara",
+      "addEvent": "Pratetap",
+      "selectEvent": "Tambah pratetap baharu",
+      "preset": "Keperluan",
+      "addPreset": "Aktif:",
+      "requirements": "Alamat Pengiring",
+      "active": "Tiada penapisan tersedia",
+      "companionAddress": "Orientasi: Mana-mana",
+      "filtering": {
+        "noFiltering": "Orientasi: Kiri",
+        "orientationAny": "Orientasi: Kanan",
+        "orientationLeft": "Sisi: Mana-mana",
+        "orientationRight": "Sisi:",
+        "sideAny": "Pasukan: Mana-mana",
+        "side": "Pemain: Mana-mana",
+        "teamAny": "Muat naik imej",
+        "playerAny": "Logo Pasukan"
+      }
+    },
+    "quick": {
+      "uploadImage": "Kembali ke LHM",
+      "teamLogo": "Seterusnya",
+      "backToLHM": "Kembali",
+      "next": "Cipta pemain baharu",
+      "back": "Mulakan Sesi Baharu",
+      "newPlayer": "Keluar Pantas",
+      "startSession": "Isi dengan data Langsung",
+      "exit": "Tanpa Nama Pasukan",
+      "fillWithLive": "Tolak",
+      "unnamedTeam": "Lancarkan HUD",
+      "dismiss": "Muat naik avatar",
+      "launchHUD": "Pilih HUD",
+      "uploadAvatar": "Pratonton",
+      "selectHUD": "Nyahpaut",
+      "preview": "Pemain dengan {{playerIdentifierName}} ini sudah wujud.",
+      "unlink": "Adakah anda mahu menulis ganti data mereka dengan ini?",
+      "playerExists": {
+        "info": "Tulis ganti?",
+        "overwrite": "Tidak, izinkan saya menukarnya",
+        "overwriteTitle": "Ya, tulis ganti",
+        "decline": "HUD anda dikonfigurasikan dan dilancarkan",
+        "accept": "HUD telah dibuka dalam tetingkap yang berasingan."
+      },
+      "success": {
+        "title": "Anda boleh menggunakan mod Tanpa Sempadan dalam permainan dan menangkap skrin HUD secara terus",
+        "opened": "atau menambahnya sebagai sumber paparan baharu pada perisian penyiaran anda.",
+        "borderless": "Sekiranya terdapat sebarang masalah, lawati Panduan Pengguna.",
+        "display": "Permainan dimulakan",
+        "userGuide": "Gambaran keseluruhan",
+        "started": "Edit kejohanan"
+      }
+    },
+    "tournaments": {
+      "overview": "Halaman kejohanan",
+      "edit": "Cipta kejohanan baharu",
+      "page": "Nama kejohanan",
+      "create": "Muat naik logo kejohanan",
+      "name": "Logo kejohanan akan tersedia semasa perlawanan",
+      "uploadLogo": "Kurungan Penyingkiran Tunggal",
+      "logoInfo": "Pendakap Penyingkiran Berganda",
+      "singleElimBracket": "Switzerland",
+      "doubleElimBracket": "Kumpulan",
+      "swiss": "Play-off",
+      "group": "Jenis Playoff",
+      "playoffs": "Tidak lama lagi",
+      "playoffType": "Jenis kumpulan",
+      "soon": "Peserta",
+      "groupType": "kemudian",
+      "participants": "Jumlah pasukan",
+      "then": "Jumlah pusingan",
+      "amountOfTeams": "Ikat perlawanan kepada kurungan",
+      "amountOfRounds": "Senarai pesanan pasukan",
+      "bindMatch": "Perlawanan",
+      "teamOrderList": "Siri menang"
+    },
+    "match": {
+      "matches": "Langsung",
+      "seriesWins": "Edit padanan",
+      "live": "Edit pasukan",
+      "edit": "Pasukan kosong",
+      "editTeam": "Unset menang",
+      "emptyTeam": "Set win",
+      "scoreModal": {
+        "unsetWin": "Logo Pasukan",
+        "setWin": "LIVE",
+        "teamLogo": "tamat"
+      },
+      "toggleLive": "semasa",
+      "tabs": {
+        "ended": "masa depan",
+        "current": "Perlawanan",
+        "future": "Markah"
+      },
+      "columns": {
+        "match": "Tarikh",
+        "score": "Masa",
+        "date": "MENANG",
+        "time": "Pasukan yang salah dipilih"
+      },
+      "wins": "pilih",
+      "wrongTeamSelected": "larangan",
+      "vetoType": {
+        "pick": "penentu",
+        "ban": "Edit Veto",
+        "decider": "kiri"
+      },
+      "editVeto": "kanan",
+      "vetoSide": {
+        "left": "{{teamName}} pilih {{mapName}}",
+        "right": "{{teamName}} larang {{mapName}}"
+      },
+      "vetoDescription": {
+        "pick": "Pilih pasukan",
+        "ban": ", {{secondTeamName}} pilih {{side}} sebelah"
+      },
+      "chooseTeam": "{{mapName}} penentu",
+      "vetoSidepick": {
+        "normal": "Jana pautan aplikasi Veto",
+        "decider": "Padam URL"
+      },
+      "vetoUrlModal": {
+        "title": "Jana URL",
+        "deleteUrls": "Sedia untuk menjana",
+        "generateUrls": "URL Pemerhati",
+        "readyToGenerate": "Pertama untuk memilih",
+        "observerUrl": "Pilih kedua-dua pasukan untuk menetapkan vetos",
+        "firstToPick": "Set markah"
+      },
+      "pickBothTeams": "Set semula markah",
+      "setScore": "Adakah pihak lawan memilih sebelah?",
+      "resetScore": "Bahagian terbalik",
+      "questionOpponentPick": "Senarai peta",
+      "reversedSides": "Jana Konfigurasi Get5",
+      "mapList": "Kredit",
+      "generateGet5Config": "Aplikasi dan API HUD"
+    },
+    "credits": {
+      "header": "Menguji dan Menyahpepijat",
+      "applicationAndAPI": "Radar tersuai oleh",
+      "testingAndDebugging": "Idea Susun Atur Awal",
+      "customRadarBy": "Maklum Balas & Idea",
+      "initialLayoutIdea": "Jalur keselamatan",
+      "feedbackAndIdeas": "Sebelum membunuh"
+    },
+    "arg": {
+      "safeband": "Gunakan HLAE?",
+      "beforeKill": "Selepas membunuh",
+      "useHLAE": "Simpan klip?",
+      "afterKill": "Konfigurasi kelewatan",
+      "saveClips": "Id komputer",
+      "delayConfig": "Matikan",
+      "computerId": "Hidupkan",
+      "turnOff": "Utamakan berbilang pembunuhan",
+      "turnOn": "Utamakan tangkapan kepala",
+      "priority": {
+        "multi": "Utamakan pembunuhan pasukan",
+        "headshots": "Pengadun",
+        "teamkills": "Sumber Main Semula NDI"
+      },
+      "mixer": {
+        "label": "Pengadun",
+        "activeNdi": "Alamat",
+        "mixer": "vMix Input",
+        "address": "Persediaan",
+        "vMixInput": "Sambung & Persediaan",
+        "verifyConnection": "IP",
+        "setup": "Port",
+        "ip": "Kata laluan",
+        "port": "Putuskan sambungan",
+        "password": "Suis Input Auto",
+        "disconnect": "Mod Replay",
+        "switchInputs": "LHM ini kini berjalan dalam Mod Main Semula. Untuk mengubah suai parameter main semula & pengadun, lihat tab ARG pada PC Utama"
+      },
+      "replay": {
+        "replayModeTitle": "Pasang Pemalam OBS NDI",
+        "replayModeContent": "Kod PC ini",
+        "installObsNdiPlugin": "Pilih pengadun anda",
+        "thisPcCode": "Tiada input",
+        "chooseYourMixer": "Nampaknya anda tidak mempunyai vMix berlari. Anda perlu memulakannya sebelum anda memulakan persediaan",
+        "noInput": "Kami tidak dapat menyambung ke vMix anda :C",
+        "stepCode": {
+          "noVmixRunning": "Cipta input Main Semula Segera, dengan mengklik Tambah Input > Main Semula Segera. Tetapkan Kamera 1 kepada Output 2. Klik OK",
+          "vmixBadResponse": "Pilih input yang merupakan permainan tertunda anda. Jika anda belum menambahkannya lagi, lakukannya dan klik muat semula",
+          "noReplay": "Persediaan vMix anda telah selesai!",
+          "showInputs": "Mod Main Semula LHM",
+          "finish": "Anda sedang memulakan ARG dengan dua LHM yang disambungkan"
+        },
+        "modeModal": {
+          "title": "Mod manakah yang anda mahu gunakan untuk penjanaan main semula?",
+          "youAreStartingArg": "Sumber NDI untuk Permainan Tertunda",
+          "whichModeDoYou": "PILIH SUMBER",
+          "ndiSourceForDelayedGame": "Tetapkan sumber",
+          "pickSource": "Muat semula sumber",
+          "setSource": "Permintaan Main Semula LHM",
+          "refreshSources": "LHM lain dalam rangkaian tempatan mahu PC ini digunakan sebagai mesin Main Semula"
+        },
+        "requestModal": {
+          "title": "Adakah anda ingin menerima sambungan masuk?",
+          "anotherLhmInTheLocal": "Log masuk",
+          "doYouWish": "E-mel"
+        }
+      }
+    },
+    "settings": {
+      "logIn": "Kata laluan",
+      "email": "Tiada akaun?",
+      "password": "Daftar sekarang!",
+      "noAccount": "Terlupa kata laluan?",
+      "registerNow": "Tidak log masuk",
+      "forgot": "Anda perlu lulus token sekali anda",
+      "Not logged in": "Nampaknya pelayan kami tidak dapat dihubungi. Sila cuba lagi dalam beberapa minit",
+      "You need to pass your one-time token": "Gunakan prapasang",
+      "serversUnreachable": "Penyegerakan Awan",
+      "preInstalled": "Tetapan HUD Penyegerakan Awan",
+      "cloudSynchronization": "HUD Menogol Penyegerakan Awan",
+      "hudConfigCloudSynchronization": "Mod Pengumpulan Data",
+      "hudTogglesCloudSynchronization": "Bahasa Permainan Valorant",
+      "valorantServerMode": "Jenis Padanan Valorant",
+      "valorantReadLanguage": "Jenis Antaramuka Dalam Permainan Valorant",
+      "valorantReadTeamMode": "Buka Papan Skor Valorant secara automatik",
+      "valorantIngameInterfaceType": "HUD automatik memuat naik ke awan",
+      "openValorantScoreboardAutomatically": "Bahasa",
+      "autoHUDUpload": "Aset Dota 2",
+      "language": "Suis separuh automatik (Percubaan)",
+      "dota2Assets": "Suis automatik",
+      "autoHalfSwitch": "Tetapan",
+      "autoSwitch": "LHM",
+      "header": "Awan LHM",
+      "subheaders": {
+        "lhm": "Tambahan",
+        "cloud": "Tambah penyepaduan",
+        "additional": "Penyepaduan F1"
+      },
+      "f1": {
+        "add": "F1 tidak dipasang",
+        "integration": "Kelakuan Separuh Masa",
+        "notInstalled": "Tiada"
+      },
+      "halfTimeBehaviour": {
+        "label": "Tukar pasukan (kiri <-> kanan)",
+        "none": "Paksa kekalkan sisi pasukan",
+        "switch": "Integrasi RL",
+        "keep": "Sibuk..."
+      },
+      "rocketleague": {
+        "integration": "BakkesMod tidak dipasang",
+        "status": {
+          "busy": "Pemalam SOS tidak dipasang",
+          "bakkesModNotInstalled": "Tidak dikonfigurasikan",
+          "sosNotInstalled": "Dipasang",
+          "notConfigured": "Muat semula",
+          "installed": "Pasang"
+        },
+        "refresh": "Memuatkan data tentang fail GameState...",
+        "install": "Memuatkan data GameState..."
+      },
+      "gsi": {
+        "loadingAbout": "Memuatkan data fail GameState...",
+        "loadingData": "Memuatkan data tentang fail cfg...",
+        "loadingFileData": "Memuatkan data fail konfigurasi..."
+      },
+      "config": {
+        "loadingAbout": "Kunci API Stim",
+        "loadingFileData": "Port GSI"
+      },
+      "input": {
+        "steamAPIKey": "Token GSI",
+        "GSIPort": "Versi",
+        "GSIToken": "Memasang..."
+      },
+      "updater": {
+        "version": "Memuat turun... {{percent}}%",
+        "installing": "Kemas kini pemasangan",
+        "downloading": "Terkini",
+        "install": "Keybinds",
+        "latest": "Muat semula keras HUD"
+      },
+      "entry": {
+        "keybinds": {
+          "keybinds": "Togol ARG",
+          "hardRefreshHUD": "Main Dota 2 ARG",
+          "argToggle": "Bahagian belakang",
+          "dota2ARG": "Muat semula HUD",
+          "reverseSide": "Togol Pengarah ACO",
+          "refreshHud": "Togol Ramalan Pengakap",
+          "toggleDirector": "Togol Sinematik Pengakap",
+          "toggleScoutPredict": "Tidak Tersedia",
+          "toggleScoutCinematic": "Laluan HLAE"
+        },
+        "streamDeck": {
+          "unavailable": "Tetapkan laluan HLAE"
+        },
+        "HLAE": {
+          "path": "AFX CEF HUD Interop",
+          "setPath": "Tetapkan laluan AFX"
+        },
+        "AFX": {
+          "path": "GameState Integration",
+          "setPath": "Tambah fail GSI"
+        },
+        "GSI": {
+          "status": "Konfig",
+          "add": "Tambah fail konfigurasi"
+        },
+        "config": {
+          "status": "Kredit",
+          "add": "Lihat sekarang"
+        },
+        "credits": {
+          "credits": "Muat turun",
+          "seeNow": "Konfigurasi GSI"
+        },
+        "downloads": {
+          "downloads": "Konfigurasi HUD",
+          "GSIConfig": "Eksport DB",
+          "HUDConfigs": "Import",
+          "exportDB": "Kod Pembaca"
+        },
+        "import": {
+          "import": "Tunjukkan \"Baru kepada LHM\""
+        },
+        "readerCode": {
+          "readerCode": "Lihat sekarang"
+        },
+        "newToLHM": {
+          "show": "Tunjukkan tawaran pelaksanaan HUD Tersuai Lexogrine dalam tab HUD",
+          "seeNow": "Muat naik modul AR"
+        },
+        "cta": {
+          "cta": "Togol Modul AR"
+        }
+      }
+    },
+    "ar": {
+      "add": "Buka direktori modul",
+      "toggle": "Padam modul AR",
+      "openDirectory": "HUD",
+      "deleteLocally": "Radar"
+    },
+    "huds": {
+      "header": "Killfeed / Tools",
+      "config": {
+        "customRadar": "HUD terbenam",
+        "customKillfeed": "Killfeed Offset",
+        "embeddedHUD": "Scout AI",
+        "killfeedOffset": "Auto-execute",
+        "scout": "Console",
+        "autoexecute": "Add HUD",
+        "console": "Run game",
+        "add": "Jeda ujian",
+        "runGame": "Run test",
+        "pauseTest": "Kosongkan Data OCR",
+        "runTest": "Buka direktori HUDs",
+        "clearOCRData": "Mainkan gelung ujian",
+        "openDirectory": "AR",
+        "playTestLoop": "Konfigurasi Ikatan Kunci",
+        "ar": "Tunjukkan pemain aktif sahaja",
+        "goToKeybinds": "Lagi",
+        "showOnlyActivePlayers": "Anda mesti mempunyai CS:GO berjalan dengan HLAE",
+        "more": "Anda mesti mempunyai pelan Profesional atau Perusahaan",
+        "hlaeIsRequired": "Anda mesti mempunyai CS:GO berjalan dengan HLAE dan pelan Profesional atau Perusahaan",
+        "proOrEntrpriseIsRequired": "Tersuai",
+        "hlaeAndHigherPlanIsRequired": "Terbaru"
+      },
+      "sort": {
+        "custom": "Terlama",
+        "newest": "Medan tiada __# Medan \"{{field}}\" jenis \"{{type}}\"",
+        "oldest": "Nama medan"
+      },
+      "fields": {
+        "missing": "Jenis input",
+        "fieldOfType": "Teks",
+        "fieldNamePlaceholder": "Pasukan",
+        "inputType": "Imej",
+        "values": {
+          "text": "Padanan",
+          "team": "Pemain",
+          "image": "Warna",
+          "match": "Kelihatan",
+          "player": "Urus medan tersuai",
+          "color": "+ Tambah medan baharu"
+        },
+        "visible": "Termasuk radar tersuai",
+        "manageCustom": "Sertakan suapan bunuh tersuai",
+        "addNew": "Mengalih keluar {{hud}}"
+      },
+      "includes": {
+        "customRadar": "Adakah anda pasti mahu mengalih keluar {{hud}}?",
+        "customKillfeed": "Togol URL HUD"
+      },
+      "removal": {
+        "title": "Pergi ke tetapan HUD",
+        "areYouSure": "Pintasan"
+      },
+      "actions": {
+        "toggleUrl": "Mulakan tindanan HUD",
+        "settings": "Muat naik HUD",
+        "shortcut": "Memuat naik...",
+        "overlay": "Padam",
+        "upload": "Padam HUD secara setempat",
+        "uploading": "Padam HUD daripada awan",
+        "delete": "Memuat turun...",
+        "deleteLocally": "Togol HUD (Terbenam sahaja)",
+        "deleteFromCloud": "Togol Ikatan Kekunci HUD (Untuk Sumber Penyemak Imbas)",
+        "downloading": "Klik untuk menyalin",
+        "toggleHUD": "Cipta pintasan pada desktop",
+        "toggleHUDKeybinds": "HUD ini ialah dibuat untuk CS:GO. Ia tidak dijamin bahawa semua cirinya akan berfungsi dengan cara yang sama dalam CS2.",
+        "clickToCopy": "Tentukan laluan HLAE dalam Tetapan untuk menggunakan suapan tersuai",
+        "createShortcut": "Tentukan laluan Interop AFX dalam Tetapan untuk menggunakan mod AFX"
+      },
+      "warning": {
+        "csgoHUDinCS2": "Apabila menggunakan mod AFX, selepas menyertai perlawanan klik pada togol - tidak perlu bermula lapisan itu.",
+        "specifyHLAEPath": "Tidak dapat menambah HUD",
+        "specifyAFXInteropPath": "LHM tidak dapat membaca fail konfigurasi HUD.",
+        "specifyAFXModeInfo": "LHM tidak dapat memuat naik HUD ke awan. Cuba lagi nanti."
+      },
+      "error": {
+        "title": "Sesuatu telah berlaku. Cuba lagi nanti.",
+        "config": "LHM tidak dapat membaca fail arkib.",
+        "upload": "Nampaknya anda sedang memuat naik kod sumber, bukannya HUD yang disusun. Sila susun HUD sebelum memuat naik.",
+        "generic": "Anda tidak mempunyai Ruang Awan yang mencukupi dalam ruang kerja yang anda gunakan. Sila tingkatkan rancangan anda atau padamkan beberapa sumber awan anda.",
+        "archive": "Tukar Permainan",
+        "source": "Awan aktif",
+        "space": "Awan tidak aktif"
+      }
+    },
+    "app": {
+      "changeGame": "Pelan Pesanan",
+      "cloud": {
+        "isActive": "Pesan HUD tersuai anda sendiri",
+        "isNotActive": "Pesan HUD tersuai anda sendiri untuk CS2"
+      }
+    },
+    "cta": {
+      "orderPlan": "Pesan HUD tersuai anda sendiri untuk CS:GO",
+      "orderCustomHUD": "Pesan HUD tersuai anda sendiri untuk Dota 2",
+      "orderCustomHUDName": {
+        "cs2": "Tempah HUD tersuai anda sendiri untuk LoL",
+        "csgo": "Tempah HUD tersuai anda sendiri untuk Liga Roket",
+        "dota2": "Tempah HUD tersuai anda sendiri untuk Apex Legends",
+        "leagueoflegends": "Pesanan awak HUD tersuai sendiri untuk Valorant",
+        "rocketleague": "Dapatkan sebut harga",
+        "apexlegends": "Gunakan pemerhati AI kami dan pelbagai ramalan padanan AI!",
+        "valorant": "Baru menggunakan LHM?"
+      },
+      "getAQuote": "Seterusnya",
+      "tryScoutAI": "Sebelumnya",
+      "newToLHM": "Tutup"
+    },
+    "helpers": {
+      "next": "Ketahui lebih lanjut",
+      "previous": "Tingkatkan pelan anda",
+      "close": "Fungsi ini hanya tersedia untuk pengguna pelan Profesional dan Perusahaan. Sila tingkatkan pelan anda untuk membuka kuncinya.",
+      "learnMore": "Naik taraf pelan anda",
+      "onlyInProPlus": {
+        "title": "Fungsi ini hanya tersedia untuk pengguna pelan Profesional dan Perusahaan dengan sekurang-kurangnya 3 tempat duduk. Sila tingkatkan pelan anda untuk membuka kuncinya.",
+        "info": "Had peranti melebihi"
+      },
+      "onlyInProPlusEnt3": {
+        "title": "Nampaknya ruang kerja sedang digunakan pada lebih banyak peranti daripada jumlah tempat duduk yang ada pada rancangannya. Tunggu sehingga kunci peranti tamat tempoh atau tingkatkan pelan Perusahaan anda untuk memuatkan lebih banyak peranti.",
+        "info": "Killfeed Offset"
+      },
+      "deviceLockWorkspace": {
+        "title": "Mendayakan pilihan ini akan menetapkan safezoney kepada 0.8 untuk menampung elemen HUD tersuai di penjuru atas sebelah kanan",
+        "info": "Dengan HUD PREMIUM kami mengambil langkah seterusnya ke arah matlamat membina awan yang sangat mudah digunakan -penyelesaian berasaskan yang dengan hanya beberapa klik mengurus setiap langkah organisasi kejohanan esports - termasuk visual peringkat teratas! HUD PREMIUM tersedia untuk semua pengguna Rancangan Peribadi, Profesional dan Perusahaan."
+      },
+      "huds": {
+        "killfeedOffset": {
+          "title": "Dengan HUD PREMIUM kami mengambil langkah seterusnya ke arah matlamat membina penyelesaian berasaskan awan yang sangat mudah digunakan yang dengan hanya beberapa klik mengurus setiap langkah penganjuran kejohanan esukan - termasuk visual peringkat teratas! HUD PREMIUM tersedia untuk semua pengguna Rancangan Peribadi, Profesional dan Perusahaan.",
+          "info": "HUD Premium untuk Dota 2 ialah langkah pertama kami untuk merevolusikan industri penyiaran MOBA. Matlamat kami adalah untuk menjadikan semua orang mendapat manfaat daripada penyepaduan ini. Sama ada anda pendatang baru dalam kancah sukan atau sudah mempunyai jenama anda sendiri dan penyelesaian yang terbukti, kami yakin bahawa HUD Premium akan membawakan anda pengalaman yang tidak pernah anda atau penonton anda lihat sebelum ini dalam siaran lain."
+        },
+        "previewDescriptions": {
+          "premium": {
+            "cs2": "HUD Premium untuk League of Legends menambah apa yang tiada daripada HUD pemerhati permainan dan menjadikan perkara lebih baik. Sejumlah besar data, statistik dan skrin tambahan, visual yang cantik disepadukan ke dalam antara muka permainan mencipta pengalaman yang benar-benar baharu dan unik. HUD Premium untuk League of Legends ialah kualiti yang boleh diperhatikan pada acara paling terkenal, mulai sekarang tersedia untuk semua orang.",
+            "csgo": "Dari awal, kami ingin membina penyelesaian untuk membantu esports memfokuskan pada esport - dan pastikan anda menggunakan sejumlah besar data sedia ada yang dijana oleh esports untuk penonton, pemain dan penganjur. Sebaik sahaja kami mula berjaya dalam bidang itu, kami menambah automasi dan berasaskan awan pada senarai - untuk memastikan penganjur boleh memberi tumpuan kepada penonton, pemain dan pasukan dan bukannya menetapkan semuanya secara manual dan bimbang jika semuanya akan berfungsi.",
+            "dota2": "HUD Premium untuk Valorant direka untuk mengekalkan estetika permainan sambil melaksanakan formula yang telah digunakan dalam tindanan permainan FPS selama bertahun-tahun. Susunan elemen dalam HUD penonton jelas kepada penonton dan menjadi bahagian penting dalam permainan.Ini juga disebabkan oleh visual indah yang menyerlahkan keseluruhan pengalaman yang dibawa oleh pemerhati HUD ini.",
+            "leagueoflegends": "Counter-Strike 2 ialah permulaan baharu yang baharu. Ultra HUD ialah tindanan komprehensif untuk memenuhi keperluan dan gaya yang dibawa oleh CS2. Persediaan Ultra HUD yang cepat dan mudah akan menyesuaikan diri dengan keperluan anda dan meningkatkan acara anda sepenuhnya. Siaran anda - sama seperti Counter-Strike - sedia untuk era baharu. Ultra HUD tersedia untuk semua pengguna Pelan LHM Profesional, serta pengguna Pelan Perusahaan dengan 3 atau lebih tempat duduk.",
+            "rocketleague": "Tiada penyelesaian di pasaran yang memberikan maklumat tambahan, digabungkan ke dalam antara muka daripada permainan dan boleh diakses oleh semua orang dengan persediaan yang sangat mudah. Ultra HUD untuk Dota 2 mengubah semua itu. Sokongan lanjutan LHM terhadap Dota 2 sejak beberapa bulan lalu telah membolehkan kami menambah baik semua yang kami tawarkan setakat ini - begitulah wujudnya Ultra HUD. Peningkatan pertama dan terbesar yang anda akan perhatikan ialah rupa HUD - mulai sekarang, ia serba boleh dan melengkapkan reka letak Dota 2 dengan sempurna tetapi tidak membuat sebarang kompromi visual. Ini menjadikan Ultra HUD penyelesaian yang sempurna untuk sesiapa sahaja, tanpa mengira penjenamaan dan jangkaan mereka sendiri. Ia hanyalah bahagian yang hampir baru dalam permainan.",
+            "valorant": "League of Legends Ultra HUD ialah penyelesaian penonton dan pemerhati yang kompleks untuk menawarkan visual tertinggi untuk acara esport League of Legends dengan kemudahan LHM. Tersedia dengan hanya beberapa klik, dengan draf khusus, padanan dan tindanan, animasi dan ciri tersuai selepas perlawanan."
+          },
+          "ultra": {
+            "cs2": "Scout AI",
+            "dota2": "Mendayakan pilihan ini akan melancarkan CS2 dengan VConsole2, yang mungkin menghalang anda daripada menyertai pelayan melainkan dikonfigurasikan dengan betul.",
+            "leagueoflegends": "Tab HUD"
+          }
+        },
+        "scout": {
+          "title": "Tab HUD digunakan untuk mengurus HUD dan konfigurasi pelancaran permainan.",
+          "info": "Radar"
+        },
+        "tab": {
+          "title": "Mendayakan pilihan ini dan menjalankan permainan dengan konfigurasi yang dibentangkan di bawah atau menggunakan butang \"Jalankan permainan\" akan melumpuhkan radar dalam permainan untuk menggunakan radar tersuai yang terbina dalam HUD anda.",
+          "info": "Killfeed / Tools"
+        },
+        "radar": {
+          "title": "Mendayakan pilihan ini dan menjalankan permainan dengan konfigurasi yang dibentangkan di bawah atau menggunakan butang \"Run game\" akan melumpuhkan killfeed dalam permainan untuk menggunakan killfeed tersuai yang terbina dalam HUD anda. Pilihan ini akan melancarkan CS2 dalam mod tidak selamat - jangan sertai pelayan yang dilindungi VAC (cth Faceit, mencari jodoh) melainkan sebagai penonton CSTV semasa ia didayakan.",
+          "info": "HUD Terbenam"
+        },
+        "killfeed": {
+          "title": "Mendayakan pilihan ini akan menjadikan LHM disambungkan ke dalam proses pemaparan CS:GO, menjadikan HUD anda sebagai sebahagian daripada permainan dan bukannya tindanan berasingan. Untuk melancarkan HUD dalam mod terbenam, gunakan togol di sebelah HUD. Menggunakan mod terbenam diperlukan untuk AR. Ia juga mungkin mengurangkan prestasi permainan. Pilihan ini akan melancarkan CS:GO dalam mod tidak selamat - anda tidak akan dapat menyertai pelayan yang dilindungi VAC (cth Faceit, mencari jodoh) melainkan sebagai penonton CSTV semasa ia didayakan.",
+          "info": "Mainkan gelung ujian"
+        },
+        "embeddedHUD": {
+          "title": "Mendayakan pilihan ini akan memainkan Data Ujian dalam gelung supaya ia tidak pernah tamat. Ini berguna untuk menguji HUD anda.",
+          "info": "AR"
+        },
+        "playTestLoop": {
+          "title": "Mendayakan pilihan ini dan menjalankan permainan dengan konfigurasi yang dibentangkan di bawah atau menggunakan butang \"Jalankan permainan\" akan membolehkan anda menggunakan modul AR. Pilihan ini akan melancarkan CS:GO dalam mod tidak selamat - anda tidak akan dapat menyertai pelayan yang dilindungi VAC (cth Faceit, mencari jodoh) melainkan sebagai penonton CSTV semasa ia didayakan.",
+          "info": "Autolaksana __# Butang \"Jalankan permainan\" akan melancarkan permainan dengan konfigurasi yang dibentangkan di bawah apabila pilihan ini didayakan."
+        },
+        "ar": {
+          "title": "XRay",
+          "info": "Dengan pilihan ini anda boleh menetapkan warna tersuai untuk sempadan pemain dalam permainan."
+        },
+        "autoExecute": {
+          "title": "Jalankan ujian",
+          "info": "Fungsi ini membolehkan anda mensimulasikan aliran data permainan untuk menguji HUD atau konfigurasi anda."
+        },
+        "xray": {
+          "title": "Parameter Pelancaran",
+          "info": "Anda boleh menentukan Parameter Pelancaran untuk permainan di sini, bukannya tetapannya dalam Steam."
+        },
+        "runTest": {
+          "title": "Membersihkan Data OCR",
+          "info": "Sekiranya anda menonton perlawanan berbeza dengan penyepaduan LHM Valorant, atau hanya OCR membaca data yang salah, anda boleh mengosongkan data OCR, menjadikan LHM membaca semula dan menghuraikan semula semua data sekali lagi, mengisi semua bidang dari awal."
+        },
+        "launchParams": {
+          "title": "Pasukan",
+          "info": "Tab pasukan digunakan untuk mengurus pasukan yang dipaparkan dan digunakan dalam HUD dan fungsi LHM yang lain."
+        },
+        "clearOCRData": {
+          "title": "Pemain",
+          "info": "Tab pemain digunakan untuk mengurus pemain yang dipaparkan dan digunakan dalam HUD dan fungsi LHM yang lain."
+        }
+      },
+      "teams": {
+        "tab": {
+          "title": "Padanan",
+          "info": "Tab Padanan digunakan untuk mengurus padanan yang dipaparkan dan digunakan dalam HUD dan fungsi LHM yang lain."
+        }
+      },
+      "players": {
+        "tab": {
+          "title": "Kejohanan",
+          "info": "Tab Kejohanan digunakan untuk mengurus kejohanan yang dipaparkan dan digunakan dalam HUD dan fungsi LHM yang lain."
+        }
+      },
+      "matches": {
+        "tab": {
+          "title": "Mod CG",
+          "info": "Mod CG menggabungkan modul yang paling penting untuk operasi penyiaran dalam bentuk yang padat. Daripada tab ini, anda boleh mengurus perlawanan, pasukan, pemain dan permainan langsung anda pada satu skrin. Anda boleh menyembunyikan tab yang tidak diperlukan menggunakan butang \"Sembunyikan\" di atas setiap bahagian."
+        }
+      },
+      "tournaments": {
+        "tab": {
+          "title": "Replays",
+          "info": "Modul Auto Replay Generator (ARG) menjana main semula yang boleh dipaparkan antara pusingan atau pada penghujung permainan. Sila ingat bahawa vMix diperlukan untuk konfigurasi ARG yang betul. vMix bukan aplikasi percuma, dan ARG sendiri direka terutamanya untuk pasukan pengeluaran yang sudah menggunakan vMix."
+        }
+      },
+      "cgMode": {
+        "tab": {
+          "title": "Safeband",
+          "info": "Pilihan Safeband menentukan berapa banyak masa (dalam milisaat) sebelum dan selepas membunuh setiap klip harus mengandungi."
+        }
+      },
+      "arg": {
+        "tab": {
+          "title": "Gunakan HLAE?",
+          "info": "Menggunakan HLAE akan membolehkan ARG menganalisis lebih banyak data dalam permainan, menghasilkan ramalan pembunuhan yang lebih baik."
+        },
+        "safeband": {
+          "title": "Konfigurasi kelewatan",
+          "info": "Konfigurasi kelewatan menentukan berapa banyak pemerhati CSTV ditangguhkan (dalam beberapa saat)."
+        },
+        "useHLAE": {
+          "title": "Simpan klip",
+          "info": "Mendayakan pilihan ini akan menjadikan vMix menyimpan semua klip yang dijana oleh ARG dan bukannya memadamkannya."
+        },
+        "delayConfig": {
+          "title": "ID Komputer",
+          "info": "ID yang digunakan oleh ARG, diperlukan untuk sambungan yang berjaya."
+        },
+        "saveClips": {
+          "title": "Telnet",
+          "info": "Telnet ialah protokol untuk komunikasi dengan CS2. Semasa ia digunakan, anda tidak perlu mempunyai tetingkap CS2 dalam fokus, kerana LHM akan menukar pemain dengan arahan jauh."
+        },
+        "computerID": {
+          "title": "Scout AI",
+          "info": "Mustahil untuk menangkap setiap tindakan dengan cara yang sempurna dan dari perspektif yang ideal - tetapi Scout sangat dekat dengan itu. AI kami sendiri belajar daripada beribu-ribu permainan untuk menangkap acara paling pedas dengan sendirinya, tanpa input manusia."
+        }
+      },
+      "aco": {
+        "telnet": {
+          "title": "Kawasan",
+          "info": "Kawasan ialah kawasan pada peta yang anda ikatkan konfigurasi anda. Jika terdapat ramai pemain dalam kawasan yang diberikan, salah satu konfigurasi yang ditambahkan padanya akan dilaksanakan di dalam klien CS:GO. Untuk menambah kawasan, klik pada butang \"+\" dan pilih kawasan yang dikehendaki pada peta dengan mengklik pada sudutnya."
+        },
+        "tab": {
+          "title": "Kawalan manual",
+          "info": "Gunakan panel Kawalan Manual untuk memilih mana-mana kawasan untuk dipaparkan dengan tangan. Kerana ini adalah halaman luaran yang dibuka dalam penyemak imbas web anda, anda boleh melawatinya dari telefon pintar atau tablet anda juga (jika anda berada dalam rangkaian tempatan yang sama). Mengklik atau mengetik pada kawasan di dalam panel Kawalan Manual akan melaksanakan konfigurasinya dalam klien CS:GO."
+        },
+        "area": {
+          "title": "Penciptaan kawasan",
+          "info": "Klik pada peta untuk menentukan sudut kawasan anda. Gunakan butang buat asal jika anda membuat kesilapan."
+        },
+        "manualControl": {
+          "title": "Dayakan Pengarah",
+          "info": "Apabila togol dihidupkan, ACO dimulakan secara automatik. Anda juga boleh menggunakan keybind (lalai: ALT + K)."
+        },
+        "areaCreation": {
+          "title": "Dayakan Pengarah",
+          "info": "Apabila togol dihidupkan, AI Pengakap dimulakan secara automatik. Anda juga boleh menggunakan keybind (lalai: ALT + K)."
+        },
+        "directorSwitch": {
+          "title": "Mod Sinematik Scout AI",
+          "info": "Dalam mod ini, Scout AI akan bekerjasama dengan ACO AI, untuk memberikan pengalaman memerhati sepenuhnya. Tanpa itu, Scout AI hanya akan menyediakan kamera POV, tanpa sebarang tangkapan gambaran keseluruhan. Mod ini hanya terpakai jika ACO AI menyokong peta perlawanan dimainkan."
+        },
+        "scoutDirectorSwitch": {
+          "title": "Predict Scout",
+          "info": "Scout membenarkan ramalan langsung berasaskan AI secara automatik. Jika pilihan ini didayakan, ramalan tersebut akan dihantar ke HUD anda pada detik-detik penting, untuk memberikan cerapan yang lebih baik tentang permainan."
+        },
+        "scoutCinematic": {
+          "title": "Kuota AI Scout bulanan anda",
+          "info": "Masa tersedia anda untuk menggunakan pelayan Scout AI. Ia disegarkan dengan setiap bulan langganan anda."
+        },
+        "scoutPredict": {
+          "title": "Augmented Reality",
+          "info": "Sokongan modul AR membenarkan untuk memaparkan objek 3D tersuai seolah-olah ia adalah sebahagian daripada permainan. AR menggunakan data kedudukan kamera yang dimuatkan menggunakan GSI untuk memaparkan objek 3D berasaskan HTML & CSS anda ke atas latar permainan."
+        },
+        "timeRemaining": {
+          "title": "Langsung",
+          "info": "Apabila permainan langsung dikesan, tab Langsung mengisi data tentang perlawanan semasa, seperti nama pemain, ID dan skor semasa. Tab Langsung memberi anda akses pantas kepada pengeditan pemain juga."
+        }
+      },
+      "ar": {
+        "tab": {
+          "title": "Kelewatan Kamera",
+          "info": "Kelewatan Kamera pada masa ini hanya disokong secara rasmi, Lexogrine HUD: HUD Ultra & Premium"
+        }
+      },
+      "live": {
+        "tab": {
+          "title": "Kamera",
+          "info": "Modul Kamera membolehkan anda memaparkan suapan kamera web pemain di dalam HUD anda menggunakan LHM - tiada alat luaran diperlukan."
+        }
+      },
+      "cameras": {
+        "delay": {
+          "title": "Addons",
+          "info": "Addons ialah cara baharu untuk mencipta integrasi berkuasa dengan LHM, berfungsi dengan menyediakan persekitaran Node.js kotak pasir dengan pemancar peristiwa GSI yang disambungkan ke dalamnya di luar kotak. Terima kasih kepada LHM Addons, anda boleh menumpukan usaha anda untuk mencipta pengalaman yang terbaik untuk penonton anda, dengan semua beban berat dilakukan oleh LHM."
+        },
+        "tab": {
+          "title": "Quick",
+          "info": "LHM Quick membolehkan anda menyediakan seluruh pemain, pasukan dan persediaan HUD anda dengan cepat dari satu tempat, membolehkan anda memulakan strim anda dengan segera."
+        }
+      },
+      "addons": {
+        "tab": {
+          "title": "Imej terlalu besar",
+          "info": "Imej yang dipilih terlalu besar. Had saiz ialah {{limit}} MB."
+        }
+      },
+      "quick": {
+        "tab": {
+          "title": "Padam pasukan",
+          "info": "Padam pemain"
+        }
+      }
+    },
+    "modals": {
+      "imageTooLarge": {
+        "title": "Adakah anda pasti mahu mengalih keluar {{count}} pasukan? ## Adakah anda pasti mahu mengalih keluar {{count}} pemain?",
+        "info": "Padam dengan pemain"
+      },
+      "delete": {
+        "titleTeams": "Kunci API Steam Tiada",
+        "titlePlayers": "Nampaknya anda meletakkan URL Steam tersuai dalam medan SteamID. LHM memerlukan Kunci API Steam untuk menyokong URL tersuai. Adakah anda ingin menyimpan juga?",
+        "infoTeams": "Muat naik HUD anda ke LHM Cloud",
+        "infoPlayers": "Bermula dengan LHM 4.9.0, semua HUD adalah berasaskan awan sepenuhnya. Ini bermakna anda kini boleh menggunakan HUD anda pada mana-mana peranti dan HUD anda akan sentiasa kekal selaras.",
+        "deleteWithPlayers": "Untuk terus menggunakan LHM, anda perlu memuat naik HUD anda ke LHM Cloud."
+      },
+      "steamApiKeyMissing": {
+        "title": "Beberapa HUD sedang disimpan dimampatkan dalam Awan. Untuk menggunakannya, LHM perlu memuat turunnya dan menyahmampatnya. Ia mungkin menyebabkan penggunaan had Awan yang lebih tinggi.",
+        "info": "HUD anda masih akan disandarkan dalam direktori HUD anda, jika anda memilih untuk tidak memuat naiknya."
+      }
+    },
+    "cloudification": {
+      "updateModalTitle": "Kami sedang menyediakan HUD anda untuk anda...",
+      "updateModalInfo1": "Muat naik semua HUD ke LHM Cloud",
+      "updateModalInfo2": "Biar saya pilih HUD yang hendak dimuat naik",
+      "updateModalCloudWarning": "Sahkan dan muat naik",
+      "updateModalNonuploadedHUDsStillInDirectory": "Muat turun dan nyahpek HUD",
+      "updateModalImporting": "dimampatkan dalam awan",
+      "actions": {
+        "uploadAll": "pada cakera",
+        "customize": "Had Saiz Storan Awan",
+        "confirm": "Operasi yang anda ingin lakukan tidak boleh berlaku disebabkan oleh had Storan Awan akaun anda. Untuk meneruskan, matikan Storan Awan atau padamkan aset yang tidak diperlukan (HUD, Pasukan, Pemain, Perlawanan, Kejohanan, laluan ACO). Semak"
+      },
+      "downloadAndUnpack": "untuk melihat penggunaan dan kapasiti Storan Awan semasa anda.",
+      "spaceCompressedInCloud": "Nampaknya anda belum memuat naik ke cloud lagi. Anda boleh memuat naik pangkalan data semasa anda, atau melumpuhkan penyegerakan pada mesin ini",
+      "spaceOnDisk": "Pangkalan data tempatan anda tidak disegerakkan dengan storan awan. Anda boleh memuat turun atau memuat naik pangkalan data atau melumpuhkan penyegerakan. Harap maklum, muat turun itu akan mengalih keluar apa yang anda ada pada PC ini pada masa ini, dan muat naik akan MENGHAPUSKAN kandungan storan awan. nak buat apa?",
+      "sizeLimitModalTitle": "Terdapat ralat, jadi untuk mengelakkan kehilangan data, kami mematikan penyegerakan",
+      "sizeLimitModalInfo1": "Penyegerakan",
+      "sizeLimitModalInfo2": "Pilih ruang kerja anda"
+    },
+    "synchronization": {
+      "noUploadedResources": "Pilih",
+      "noSyncLocal": "Ruang kerja tidak diketahui",
+      "error": "Kami mengesan anda menggunakan Stream Deck",
+      "modalTitle": "adakah anda mahu LHM menyambungkannya?"
+    },
+    "workspaces": {
+      "pickModalTitle": "Selamat datang ke LHM!",
+      "pick": "Baru menggunakan LHM? Di sini anda akan menemui beberapa petua asas untuk mula menggunakan aplikasi! LHM kini menyokong CS2, Dota 2, League of Legends, Rocket League, Apex Legends dan F1. Setiap permainan yang disokong memerlukan konfigurasi yang mudah tetapi perlu untuk berfungsi dengan betul dengan LHM. Klik pada butang Ketahui Lebih Lanjut di bawah untuk mengetahui cara menyediakan sebarang permainan yang anda mahu gunakan dengan LHM.",
+      "unknownWorkspace": "LHM Quick"
+    },
+    "streamDeck": {
+      "modalTitle": "LHM Quick membolehkan anda mengkonfigurasi pemain dan pasukan dengan pantas untuk dilancarkan dengan HUD. Ciri ini ditujukan terutamanya untuk pengguna yang biasa dengan cara LHM berfungsi dan untuk membolehkan mereka bermula dengan segera. Pada masa ini, permainan yang disokong dalam LHM Quick ialah CS2, CS:GO, Dota 2, League of Legends dan Rocket League. Klik pada butang Ketahui Lebih Lanjut di bawah untuk mengetahui lebih lanjut tentang LHM Quick.",
+      "modalInfo": "Tab HUD"
+    },
+    "newToLHM": {
+      "games": {
+        "title": "Tab HUD memaparkan semua HUD yang anda miliki, kedua-dua yang terbina dalam dan yang telah anda muat naik sendiri. Untuk memulakan HUD, anda boleh melancarkan tindanan dalam tetingkap berasingan pada sistem anda (butang \"Mulakan tindanan HUD\") atau salin pautan dan tambahkannya sebagai sumber penyemak imbas dalam perisian siaran anda (butang \"Togol url HUD\").",
+        "description": "HUD LHM"
+      },
+      "quick": {
+        "title": "Setiap pelan LHM mempunyai HUD terbina dalam. Lebih tinggi rancangan, lebih maju HUD. Klik pada nama di bawah untuk mengetahui lebih lanjut tentang setiap satu: - HUD lalai untuk mana-mana permainan yang disokong - HUD Premium untuk [[CS2|premiumCS2]], [[Dota 2|premiumDota2]], [[LoL|premiumLoL]], [[Roket Liga|premiumRL]] - Ultra HUD untuk [[CS2|ultraCS2]] dan [[Dota 2|ultraDota2]]",
+        "description": "Panduan pengguna"
+      },
+      "huds": {
+        "title": "Lihat Panduan Pengguna kami untuk mengetahui lebih lanjut tentang setiap komponen LHM. Anda akan menemui penerangan, arahan untuk mengkonfigurasi dan menggunakan semua ciri serta jawapan kepada soalan yang paling biasa. Jika anda mempunyai soalan tambahan, sertai [[Discord|discord kami]]."
+      },
+      "lhmHuds": {},
+      "userGuide": {}
+    }
+  }
+}
