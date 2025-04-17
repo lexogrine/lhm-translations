@@ -1010,7 +1010,8 @@
         "infoTeams": "1}} 팀을 삭제하시겠습니까?",
         "infoPlayers": "2}} 플레이어를 삭제하시겠습니까?",
         "infoMatches": "0}} 경기를 삭제하시겠습니까?",
-        "deleteWithPlayers": "플레이어와 함께 삭제"
+        "deleteWithPlayers": "플레이어와 함께 삭제",
+        "deleteAll": "모두 삭제 ({{count}})"
       },
       "steamApiKeyMissing": {
         "title": "Steam API 키 누락",

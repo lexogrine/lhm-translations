@@ -1010,7 +1010,8 @@
         "infoTeams": "{{limit}} takımları kaldırmak istediğinizden emin misiniz?",
         "infoPlayers": "{{count}} oyuncuları kaldırmak istediğinizden emin misiniz?",
         "infoMatches": "{{count}} eşleşmelerini kaldırmak istediğinizden emin misiniz?",
-        "deleteWithPlayers": "Oyuncularla silin"
+        "deleteWithPlayers": "Oyuncularla silin",
+        "deleteAll": "Tümünü Sil ({{count}})"
       },
       "steamApiKeyMissing": {
         "title": "Steam API Anahtarı Eksik",

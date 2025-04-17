@@ -1010,7 +1010,8 @@
 				"infoTeams": "Are you sure you want to remove {{count}} teams?",
 				"infoPlayers": "Are you sure you want to remove {{count}} players?",
 				"infoMatches": "Are you sure you want to remove {{count}} matches?",
-				"deleteWithPlayers": "Delete with players"
+				"deleteWithPlayers": "Delete with players",
+				"deleteAll": "Delete All ({{count}})"
 			},
 			"steamApiKeyMissing": {
 				"title": "Steam API Key Missing",

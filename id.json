@@ -1010,7 +1010,8 @@
         "infoTeams": "Apakah Anda yakin ingin menghapus tim {{count}}?",
         "infoPlayers": "Apakah Anda yakin ingin menghapus {{count}} pemain?",
         "infoMatches": "Apakah Anda yakin ingin menghapus pertandingan {{count}}?",
-        "deleteWithPlayers": "Hapus dengan pemain"
+        "deleteWithPlayers": "Hapus dengan pemain",
+        "deleteAll": "Hapus Semua ({{count}})"
       },
       "steamApiKeyMissing": {
         "title": "Kunci API Steam Hilang",

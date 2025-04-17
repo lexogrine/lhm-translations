@@ -1010,7 +1010,8 @@
         "infoTeams": "Czy na pewno chcesz usunąć {{count}} drużyn?",
         "infoPlayers": "Czy na pewno chcesz usunąć {{count}} zawodników?",
         "infoMatches": "Czy na pewno chcesz usunąć mecze {{count}}?",
-        "deleteWithPlayers": "Usuń z graczami"
+        "deleteWithPlayers": "Usuń z graczami",
+        "deleteAll": "Usuń wszystko ({{count}})"
       },
       "steamApiKeyMissing": {
         "title": "Brak klucza API Steam",

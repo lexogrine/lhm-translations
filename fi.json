@@ -1010,7 +1010,8 @@
         "infoTeams": "Haluatko varmasti poistaa {{count}} joukkueet?",
         "infoPlayers": "Haluatko varmasti poistaa {{count}} pelaajat?",
         "infoMatches": "Haluatko varmasti poistaa {{count}} ottelut?",
-        "deleteWithPlayers": "Poista pelaajat"
+        "deleteWithPlayers": "Poista pelaajat",
+        "deleteAll": "Poista kaikki ({{count}})"
       },
       "steamApiKeyMissing": {
         "title": "Steam API-avain puuttuu",

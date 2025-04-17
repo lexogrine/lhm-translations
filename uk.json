@@ -1010,7 +1010,8 @@
         "infoTeams": "Ви впевнені, що хочете видалити {{count}} команд?",
         "infoPlayers": "Ви впевнені, що хочете видалити {{count}} гравців?",
         "infoMatches": "Ви дійсно хочете видалити матчі {{count}}?",
-        "deleteWithPlayers": "Видалити з гравцями"
+        "deleteWithPlayers": "Видалити з гравцями",
+        "deleteAll": "Видалити все ({{count}})"
       },
       "steamApiKeyMissing": {
         "title": "Відсутній ключ API Steam",

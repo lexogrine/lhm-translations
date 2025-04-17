@@ -1010,7 +1010,8 @@
         "infoTeams": "¿Estás seguro de que quieres eliminar {{count}} equipos?",
         "infoPlayers": "¿Estás seguro de que quieres eliminar {{count}} jugadores?",
         "infoMatches": "¿Estás seguro de que quieres eliminar {{count}} partidas?",
-        "deleteWithPlayers": "Eliminar con jugadores"
+        "deleteWithPlayers": "Eliminar con jugadores",
+        "deleteAll": "Borrar todo ({{count}})"
       },
       "steamApiKeyMissing": {
         "title": "Falta la Clave API de Steam",

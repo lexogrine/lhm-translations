@@ -1010,7 +1010,8 @@
         "infoTeams": "Tem a certeza que quer remover as equipas?",
         "infoPlayers": "Tem a certeza que quer remover {{count}} jogadores?",
         "infoMatches": "Tens a certeza que queres apagar os jogos {{count}}?",
-        "deleteWithPlayers": "Apagar com jogadores"
+        "deleteWithPlayers": "Apagar com jogadores",
+        "deleteAll": "Apagar tudo ({{count}})"
       },
       "steamApiKeyMissing": {
         "title": "Chave API do Steam em falta",

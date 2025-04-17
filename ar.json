@@ -1010,7 +1010,8 @@
         "infoTeams": "حذف الفرق",
         "infoPlayers": "حذف اللاعبين",
         "infoMatches": "هل أنت متأكد من رغبتك في إزالة {{count}} من المباريات؟",
-        "deleteWithPlayers": "هل أنت متأكد من رغبتك في حذف {{count}} فريقاً؟"
+        "deleteWithPlayers": "هل أنت متأكد من رغبتك في حذف {{count}} فريقاً؟",
+        "deleteAll": "حذف الكل ({{count}}})"
       },
       "steamApiKeyMissing": {
         "title": "هل أنت متأكد من رغبتك في إزالة undefined لاعباً؟",

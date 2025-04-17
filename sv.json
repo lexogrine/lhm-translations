@@ -1010,7 +1010,8 @@
         "infoTeams": "Är du säker på att du vill ta bort {{count}} lag?",
         "infoPlayers": "Är du säker på att du vill ta bort {{count}} spelare?",
         "infoMatches": "Är du säker att du vill ta bort {{count}} matcher?",
-        "deleteWithPlayers": "Ta bort med spelare"
+        "deleteWithPlayers": "Ta bort med spelare",
+        "deleteAll": "Radera alla ({{count}})"
       },
       "steamApiKeyMissing": {
         "title": "Steam API-nyckel saknas",

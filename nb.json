@@ -1010,7 +1010,8 @@
         "infoTeams": "Er du sikker på at du vil fjerne {{count}} lag?",
         "infoPlayers": "Er du sikker på at du vil fjerne {{count}} spillere?",
         "infoMatches": "Er du sikker på at du vil fjerne {{count}} kamper?",
-        "deleteWithPlayers": "Slett med spillere"
+        "deleteWithPlayers": "Slett med spillere",
+        "deleteAll": "Slett alle ({{count}})"
       },
       "steamApiKeyMissing": {
         "title": "Steam API-nøkkel mangler",

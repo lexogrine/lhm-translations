@@ -1010,7 +1010,8 @@
         "infoTeams": "本当に{{count}}チームを削除しますか？",
         "infoPlayers": "本当に{{count}}選手を削除しますか？",
         "infoMatches": "本当に{{count}}マッチを削除しますか？",
-        "deleteWithPlayers": "選手と一緒に削除"
+        "deleteWithPlayers": "選手と一緒に削除",
+        "deleteAll": "すべて削除 ({{count}})"
       },
       "steamApiKeyMissing": {
         "title": "Steam API Key Missing",

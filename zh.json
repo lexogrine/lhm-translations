@@ -1010,7 +1010,8 @@
         "infoTeams": "您确定要删除 {{count}} 球队吗？",
         "infoPlayers": "您确定要删除{{count}}名球员吗？",
         "infoMatches": "您确定要删除 {{count}} 匹配吗？",
-        "deleteWithPlayers": "删除球员"
+        "deleteWithPlayers": "删除球员",
+        "deleteAll": "全部删除（{{count}}"
       },
       "steamApiKeyMissing": {
         "title": "缺少 Steam API 密钥",
