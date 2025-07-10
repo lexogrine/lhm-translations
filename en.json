@@ -118,7 +118,7 @@
 			"bottom-right": "Bottom Right",
 			"image": "Image",
 			"any-player": "No player",
-
+			"any-side": "No side",
 			"position": "Position",
 			"duration": "Duration (s)",
 			"trigger": "Trigger",
