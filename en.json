@@ -107,7 +107,27 @@
 			"contrast-fair-label": "Fair Contrast",
 			"contrast-fair-message": "Contrast is weak; some viewers might struggle reading the text.",
 			"contrast-poor-label": "Poor Contrast",
-			"contrast-poor-message": "Contrast is too low; the text may be hard to read!"
+			"contrast-poor-message": "Contrast is too low; the text may be hard to read!",
+			"notice": "Notice:",
+			"notice-content": "Please select HUD THEME as CUSTOM COLORS to enable custom color modification."
+		},
+		"signals-ads": {
+			"top-left": "Top Left",
+			"top-right": "Top Right",
+			"bottom-left": "Bottom Left",
+			"bottom-right": "Bottom Right",
+			"image": "Image",
+			"position": "Position",
+			"duration": "Duration (s)",
+			"trigger": "Trigger",
+			"player": "Player",
+			"team": "Team",
+			"Side": "Side",
+			"add-new-ad": "Add New Ad",
+			"select-position": "Select Position",
+			"select-trigger": "Select Trigger",
+			"select-player": "Select Player",
+			"select-side": "Select Side"
 		},
 		"blocker": {
 			"personal": "Upgrade your LHM to a Personal, Professional or Enterprise plan to get full access to this section.",
