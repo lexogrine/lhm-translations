@@ -370,9 +370,9 @@
 			"edit": "Edit match",
 			"editTeam": "Edit team",
 			"emptyTeam": "Empty team",
-			"enableFearlessDraft":"Enable Fearless Draft",
-			"disableFearlessDraft":"Disable Fearless Draft",
-			"blue":"Blue",
+			"enableFearlessDraft": "Enable Fearless Draft",
+			"disableFearlessDraft": "Disable Fearless Draft",
+			"blue": "Blue",
 			"red": "Red",
 			"scoreModal": {
 				"unsetWin": "Unset win",
@@ -726,6 +726,8 @@
 				"toggleHUD": "Toggle HUD (Embedded only)",
 				"toggleHUDKeybinds": "Toggle HUD Keybinds (For Browser Source)",
 				"clickToCopy": "Click to copy",
+				"linkCopied": "Link copied to clipboard",
+				"openingOverlay": "Opening HUD in overlay...",
 				"createShortcut": "Create shortcut on desktop"
 			},
 			"warning": {
