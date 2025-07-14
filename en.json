@@ -99,6 +99,39 @@
 			"outOfOfficeWarning": "Our support team is usually available on workdays from 9 AM to 5 PM CEST. We may take longer to respond outside of these hours.",
 			"typeYourMessage": "Type your message here..."
 		},
+		"color-picker": {
+			"contrast-excellent-label": "Excellent Contrast!",
+			"contrast-excellent-message": "Your viewers will see the text clearly on this background.",
+			"contrast-good-label": "Good Contrast",
+			"contrast-good-message": "Contrast is good, but it could be improved for better readability.",
+			"contrast-fair-label": "Fair Contrast",
+			"contrast-fair-message": "Contrast is weak; some viewers might struggle reading the text.",
+			"contrast-poor-label": "Poor Contrast",
+			"contrast-poor-message": "Contrast is too low; the text may be hard to read!",
+			"notice": "Notice:",
+			"notice-content": "Please select HUD THEME as CUSTOM COLORS to enable custom color modification."
+		},
+		"signals-ads": {
+			"top-left": "Top Left",
+			"top-right": "Top Right",
+			"bottom-left": "Bottom Left",
+			"bottom-right": "Bottom Right",
+			"image": "Image",
+			"any-player": "Any player",
+			"any-side": "Any side",
+			"any-team": "Any team",
+			"position": "Position",
+			"duration": "Duration (s)",
+			"trigger": "Trigger",
+			"player": "Player",
+			"team": "Team",
+			"side": "Side",
+			"add-new-ad": "Add New Ad",
+			"select-position": "Select Position",
+			"select-trigger": "Select Trigger",
+			"select-player": "Select Player",
+			"select-side": "Select Side"
+		},
 		"blocker": {
 			"personal": "Upgrade your LHM to a Personal, Professional or Enterprise plan to get full access to this section.",
 			"proPlus": "Upgrade your LHM to a Professional or Enterprise plan to get full access to this section.",
@@ -283,7 +316,9 @@
 			},
 			"create": {
 				"title": "Create a new preset",
-				"placeholder": "Preset name"
+				"placeholder": "Preset name",
+				"clone": "Copy from current preset",
+				"createNew": "Create empty"
 			},
 			"activate": "{{ name }} is not active",
 			"deactivate": "{{ name }} is active",
