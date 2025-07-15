@@ -24,8 +24,11 @@
       "map": "แผนที่",
       "team": "ทีม",
       "players": "ผู้เล่น",
+      "editDraft": "แก้ไขฉบับร่าง",
       "realName": "ชื่อจริง",
       "player": "ผู้เล่น",
+      "noDraftData": "ไม่มีข้อมูลฉบับร่าง",
+      "champion": "แชมเปี้ยน",
       "teams": "ทีม",
       "team1": "ทีม 1",
       "team2": "ทีม 2",
@@ -95,6 +98,39 @@
       "suggestionHeader": "นี่อาจตอบคำถามของคุณได้",
       "outOfOfficeWarning": "ทีมสนับสนุนของเราพร้อมให้บริการในวันทำการตั้งแต่ 9.00 น. ถึง 17.00 น. CEST เราอาจใช้เวลานานกว่าปกติในการตอบกลับนอกเวลาเหล่านี้",
       "typeYourMessage": "พิมพ์ข้อความของคุณที่นี่..."
+    },
+    "color-picker": {
+      "contrast-excellent-label": "คอนทราสต์ยอดเยี่ยม!",
+      "contrast-excellent-message": "ผู้ชมจะมองเห็นข้อความได้ชัดเจนบนพื้นหลังนี้",
+      "contrast-good-label": "คอนทราสต์ดี",
+      "contrast-good-message": "คอนทราสต์ดี แต่ควรปรับปรุงเพื่อให้อ่านง่ายขึ้น",
+      "contrast-fair-label": "คอนทราสต์ปานกลาง",
+      "contrast-fair-message": "คอนทราสต์อ่อน ผู้ชมบางคนอาจอ่านข้อความได้ยาก",
+      "contrast-poor-label": "คอนทราสต์ต่ำ",
+      "contrast-poor-message": "คอนทราสต์ต่ำเกินไป ข้อความอาจอ่านยาก!",
+      "notice": "ประกาศ:",
+      "notice-content": "โปรดเลือกธีม HUD เป็นสีที่กำหนดเอง เพื่อเปิดใช้งานการปรับแต่งสีแบบกำหนดเอง"
+    },
+    "signals-ads": {
+      "top-left": "ซ้ายบน",
+      "top-right": "ขวาบน",
+      "bottom-left": "ซ้ายล่าง",
+      "bottom-right": "ขวาล่าง",
+      "image": "รูปภาพ",
+      "any-player": "ผู้เล่นใดก็ได้",
+      "any-side": "ฝ่ายใดก็ได้",
+      "any-team": "ทีมใดก็ได้",
+      "position": "ตำแหน่ง",
+      "duration": "ระยะเวลา (วินาที)",
+      "trigger": "ทริกเกอร์",
+      "player": "ผู้เล่น",
+      "team": "ทีม",
+      "side": "ฝั่ง",
+      "add-new-ad": "เพิ่มโฆษณาใหม่",
+      "select-position": "เลือกตำแหน่ง",
+      "select-trigger": "เลือกทริกเกอร์",
+      "select-player": "เลือกผู้เล่น",
+      "select-side": "เลือกฝั่ง"
     },
     "blocker": {
       "personal": "อัปเกรด LHM ของคุณเป็นแผนส่วนบุคคล มืออาชีพ หรือองค์กร เพื่อเข้าถึงส่วนนี้ได้เต็มรูปแบบ",
@@ -280,7 +316,9 @@
       },
       "create": {
         "title": "สร้างค่าที่ตั้งไว้ล่วงหน้าใหม่",
-        "placeholder": "ชื่อค่าที่ตั้งไว้ล่วงหน้า"
+        "placeholder": "ชื่อค่าที่ตั้งไว้ล่วงหน้า",
+        "clone": "คัดลอกจากพรีเซ็ตปัจจุบัน",
+        "createNew": "สร้างช่องว่าง"
       },
       "activate": "{{ name }} ไม่ทำงาน",
       "deactivate": "{{ name }} ไม่ทำงาน",
@@ -367,6 +405,10 @@
       "edit": "แก้ไขการแข่งขัน",
       "editTeam": "แก้ไขทีม",
       "emptyTeam": "ทีมว่าง",
+      "enableFearlessDraft": "เปิดใช้งาน Fearless Draft",
+      "disableFearlessDraft": "ปิดใช้งาน Fearless Draft",
+      "blue": "สีน้ำเงิน",
+      "red": "สีแดง",
       "scoreModal": {
         "unsetWin": "ยกเลิกการตั้งค่าชัยชนะ",
         "setWin": "กำหนดชัยชนะ",
@@ -502,10 +544,14 @@
       "cloudSynchronization": "การซิงโครไนซ์คลาวด์",
       "hudConfigCloudSynchronization": "การตั้งค่า HUD การซิงโครไนซ์คลาวด์",
       "hudTogglesCloudSynchronization": "HUD สลับการซิงโครไนซ์คลาวด์",
+      "valorantWindowTitleOverride": "การแทนที่ชื่อหน้าต่าง Valorant",
       "valorantServerMode": "โหมดการรวบรวมข้อมูล",
       "valorantReadLanguage": "ภาษาเกม Valorant",
       "valorantReadTeamMode": "ประเภทการจับคู่ Valorant",
+      "valorantMinimalisticGUI": "มินิมอล",
       "valorantIngameInterfaceType": "ประเภทอินเทอร์เฟซในเกม Valorant",
+      "valorantUsernameLanguage": "ชื่อผู้ใช้ Valorant ตัวละคร ชุด",
+      "leagueOfLegendsGameLanguage": "ฟอนต์ในเกม League of Legends",
       "openValorantScoreboardAutomatically": "เปิดกระดานคะแนน Valorant โดยอัตโนมัติ",
       "autoHUDUpload": "อัปโหลด HUD อัตโนมัติไปยังคลาวด์",
       "language": "ภาษา",
@@ -541,6 +587,28 @@
         "refresh": "รีเฟรช",
         "install": "ติดตั้ง"
       },
+      "serverClient": {
+        "client": "ไคลเอนต์ (เครือข่ายท้องถิ่น)",
+        "server": "เซิร์ฟเวอร์ (เครือข่ายท้องถิ่น)",
+        "client_global": "ไคลเอนต์ (นอกเครือข่ายท้องถิ่น)",
+        "server_global": "เซิร์ฟเวอร์ (นอกเครือข่ายท้องถิ่น)"
+      },
+      "languages": {
+        "default_latin": "ค่าเริ่มต้น (ละติน)",
+        "chinese_simplified": "จีน (ตัวย่อ)",
+        "chinese": "จีน",
+        "english": "อังกฤษ",
+        "korean": "เกาหลี",
+        "japanese": "ญี่ปุ่น",
+        "russian": "รัสเซีย",
+        "arabic": "อาหรับ",
+        "german": "เยอรมัน",
+        "polish": "โปแลนด์",
+        "spanish": "สเปน",
+        "portuguese_brasil": "โปรตุเกส (บราซิล)",
+        "turkish": "ตุรกี",
+        "indonesian": "อินโดนีเซีย"
+      },
       "gsi": {
         "loadingAbout": "กำลังโหลดข้อมูลเกี่ยวกับไฟล์ GameState...",
         "loadingData": "กำลังโหลดข้อมูล GameState...",
@@ -570,6 +638,7 @@
           "dota2ARG": "เล่น Dota 2 ARG",
           "reverseSide": "ด้านข้าง",
           "refreshHud": "รีเฟรช HUD",
+          "toggleDirector": "สลับการมองเห็นของ Scout",
           "toggleScoutPredict": "สลับ Scout Predict",
           "toggleScoutCinematic": "สลับ Scout Cinematic"
         },
@@ -692,6 +761,8 @@
         "toggleHUD": "สลับ HUD (แบบฝังเท่านั้น)",
         "toggleHUDKeybinds": "สลับการผูกปุ่ม HUD (สำหรับแหล่งที่มาของเบราว์เซอร์)",
         "clickToCopy": "คลิกเพื่อคัดลอก",
+        "linkCopied": "คัดลอกลิงก์ไปยังคลิปบอร์ดแล้ว",
+        "openingOverlay": "กำลังเปิด HUD ในโอเวอร์เลย์...",
         "createShortcut": "สร้างทางลัดบนเดสก์ท็อป"
       },
       "warning": {
@@ -829,7 +900,13 @@
         "tab": {
           "title": "ผู้เล่น",
           "info": "แท็บผู้เล่นใช้ในการจัดการผู้เล่นที่แสดงและใช้งานใน HUD และฟังก์ชันการทำงานอื่นๆ ของ LHM"
-        }
+        },
+        "identification": {
+          "title": "การระบุตัวตนผู้เล่น",
+          "info": "ช่องนี้ช่วยให้ LHM สามารถระบุตัวตนผู้เล่นในเกม และเชื่อมโยงกับข้อมูลที่เก็บไว้ในฐานข้อมูล LHM ซึ่งมีประโยชน์สำหรับการแสดงชื่อผู้เล่น อวาตาร์ และข้อมูลอื่นๆ ใน HUD"
+        },
+        "steamBasedIdentification": "การระบุตัวตนผู้เล่น (SteamID64)",
+        "usernameBasedIdentification": "การระบุตัวตนผู้เล่น (ชื่อในเกม)"
       },
       "matches": {
         "tab": {
@@ -950,6 +1027,12 @@
           "title": "Addons",
           "info": "Addons เป็นวิธีใหม่ในการสร้างการผสานรวมที่ทรงพลังกับ LHM โดยทำงานโดยจัดเตรียมสภาพแวดล้อม Node.js แบบแซนด์บ็อกซ์พร้อมตัวปล่อยเหตุการณ์ GSI ที่เชื่อมต่อไว้ตั้งแต่ต้น ขอบคุณ LHM Addons คุณสามารถมุ่งความพยายามไปที่การสร้างประสบการณ์ที่ดีที่สุดสำหรับผู้ชมของคุณ โดยที่ LHM ทำทุกอย่างให้"
         }
+      },
+      "signals": {
+        "cta": {
+          "title": "ต้องการเพิ่มกิจกรรมเพิ่มเติมหรือไม่",
+          "info": "อัปเกรดแพ็กเกจของคุณเพื่อเข้าถึงกิจกรรมแบบไม่จำกัด พร้อมตัวเลือกขั้นสูง เช่น ความสามารถในการสร้างสาขากิจกรรมและพรีเซ็ต!"
+        }
       }
     },
     "modals": {
@@ -960,9 +1043,12 @@
       "delete": {
         "titleTeams": "รูปภาพใหญ่เกินไป",
         "titlePlayers": "รูปภาพที่เลือกมีขนาดใหญ่เกินไป ขนาดจำกัดคือ {{limit}} MB",
+        "titleMatches": "ลบรายการที่ตรงกัน",
         "infoTeams": "ลบทีม",
         "infoPlayers": "ลบผู้เล่น",
-        "deleteWithPlayers": "คุณแน่ใจหรือไม่ว่าต้องการลบทีม {{count}} ทีม"
+        "infoMatches": "คุณแน่ใจหรือไม่ว่าต้องการลบรายการที่ตรงกัน {{count}} รายการ?",
+        "deleteWithPlayers": "คุณแน่ใจหรือไม่ว่าต้องการลบทีม {{count}} ทีม",
+        "deleteAll": "ลบทั้งหมด ({{count}})"
       },
       "steamApiKeyMissing": {
         "title": "คุณแน่ใจหรือไม่ว่าต้องการลบผู้เล่น {{count}} คน",

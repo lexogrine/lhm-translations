@@ -24,8 +24,11 @@
       "map": "რუკა",
       "team": "გუნდი",
       "players": "მოთამაშეები",
+      "editDraft": "ვერსიის რედაქტირება",
       "realName": "ნამდვილი სახელი",
       "player": "მოთამაშე",
+      "noDraftData": "ვერსიის მონაცემები არ არის",
+      "champion": "ჩემპიონი",
       "teams": "გუნდები",
       "team1": "გუნდი 1",
       "team2": "გუნდი 2",
@@ -95,6 +98,39 @@
       "suggestionHeader": "ეს შეიძლება უპასუხოს თქვენს შეკითხვას",
       "outOfOfficeWarning": "ჩვენი მხარდაჭერის გუნდი ჩვეულებრივ ხელმისაწვდომია სამუშაო დღეებში დილის 9 საათიდან საღამოს 5 საათამდე CEST. ამ საათების მიღმა პასუხს შესაძლოა მეტი დრო დაგვჭირდეს.",
       "typeYourMessage": "ჩაწერეთ თქვენი შეტყობინება აქ..."
+    },
+    "color-picker": {
+      "contrast-excellent-label": "შესანიშნავი კონტრასტი!",
+      "contrast-excellent-message": "თქვენი მაყურებელი ამ ფონზე ტექსტს ნათლად დაინახავს.",
+      "contrast-good-label": "კარგი კონტრასტი",
+      "contrast-good-message": "კონტრასტი კარგია, მაგრამ უკეთესი წაკითხვისთვის მისი გაუმჯობესება შესაძლებელია.",
+      "contrast-fair-label": "დაბალი კონტრასტი",
+      "contrast-fair-message": "კონტრასტი სუსტია; ზოგიერთ მაყურებელს შეიძლება ტექსტის წაკითხვა გაუჭირდეს.",
+      "contrast-poor-label": "ცუდი კონტრასტი",
+      "contrast-poor-message": "კონტრასტი ძალიან დაბალია; ტექსტი შეიძლება ძნელად წასაკითხი იყოს!",
+      "notice": "შენიშვნა:",
+      "notice-content": "გთხოვთ, აირჩიოთ HUD თემა, როგორც CUSTOM COLORS, რათა ჩართოთ custom ფერების მოდიფიცირება."
+    },
+    "signals-ads": {
+      "top-left": "ზედა მარცხენა კუთხე",
+      "top-right": "ზედა მარჯვენა კუთხე",
+      "bottom-left": "ქვედა მარცხენა კუთხე",
+      "bottom-right": "ქვედა მარჯვენა კუთხე",
+      "image": "სურათი",
+      "any-player": "ნებისმიერი მოთამაშე",
+      "any-side": "ნებისმიერი მხარე",
+      "any-team": "ნებისმიერი გუნდი",
+      "position": "პოზიცია",
+      "duration": "ხანგრძლივობა(ები)",
+      "trigger": "ტრიგერი",
+      "player": "მოთამაშე",
+      "team": "გუნდი",
+      "side": "მხარე",
+      "add-new-ad": "ახალი რეკლამის დამატება",
+      "select-position": "პოზიციის არჩევა",
+      "select-trigger": "ტრიგერის არჩევა",
+      "select-player": "მოთამაშის არჩევა",
+      "select-side": "მხარეის არჩევა"
     },
     "blocker": {
       "personal": "განაახლეთ თქვენი LHM პერსონალურ, პროფესიონალურ ან საწარმოს გეგმაზე, რომ მიიღოთ სრული წვდომა ამ განყოფილებაზე.",
@@ -280,7 +316,9 @@
       },
       "create": {
         "title": "ახალი წინასწარ დაყენების შექმნა",
-        "placeholder": "წინასწარ დაყენებული სახელი"
+        "placeholder": "წინასწარ დაყენებული სახელი",
+        "clone": "მიმდინარე წინასწარ დაყენებული სიიდან კოპირება",
+        "createNew": "ცარიელი ვარიანტის შექმნა"
       },
       "activate": "{{ name }} არ არის აქტიური",
       "deactivate": "{{ name }} აქტიურია",
@@ -367,6 +405,10 @@
       "edit": "მატჩის რედაქტირება",
       "editTeam": "გუნდის რედაქტირება",
       "emptyTeam": "ცარიელი გუნდი",
+      "enableFearlessDraft": "Fearless Draft-ის ჩართვა",
+      "disableFearlessDraft": "Fearless Draft-ის გამორთვა",
+      "blue": "ლურჯი",
+      "red": "წითელი",
       "scoreModal": {
         "unsetWin": "Unset win",
         "setWin": "Set win",
@@ -502,10 +544,14 @@
       "cloudSynchronization": "მონაცემთა შეგროვების რეჟიმი",
       "hudConfigCloudSynchronization": "Valorant თამაშის ენა",
       "hudTogglesCloudSynchronization": "Valorant მატჩის ტიპი",
+      "valorantWindowTitleOverride": "Valorant-ის ფანჯრის სათაურის გადაფარვა",
       "valorantServerMode": "Valorant თამაშში ინტერფეისის ტიპი",
       "valorantReadLanguage": "ავტომატურად ღია Valorant",
       "valorantReadTeamMode": "ავტომატური HUD-ების ატვირთვა ღრუბელში",
+      "valorantMinimalisticGUI": "მინიმალისტური",
       "valorantIngameInterfaceType": "ენა",
+      "valorantUsernameLanguage": "Valorant-ის მომხმარებლის სახელის სიმბოლოების ნაკრები",
+      "leagueOfLegendsGameLanguage": "League of Legends თამაშში შრიფტი",
       "openValorantScoreboardAutomatically": "Dota 2 აქტივები",
       "autoHUDUpload": "ავტომატური ნახევრად გადართვა (ექსპერიმენტული)",
       "language": "ავტომატური გადართვა",
@@ -541,6 +587,28 @@
         "refresh": "იტვირთება GameState მონაცემები...",
         "install": "იტვირთება GameState ფაილის მონაცემები..."
       },
+      "serverClient": {
+        "client": "კლიენტი (ადგილობრივი ქსელი)",
+        "server": "სერვერი (ადგილობრივი ქსელი)",
+        "client_global": "კლიენტი (ადგილობრივი ქსელის გარეთ)",
+        "server_global": "სერვერი (ადგილობრივი ქსელის გარეთ)"
+      },
+      "languages": {
+        "default_latin": "ნაგულისხმევი (ლათინური)",
+        "chinese_simplified": "ჩინური (გამარტივებული)",
+        "chinese": "ჩინური",
+        "english": "ინგლისური",
+        "korean": "კორეული",
+        "japanese": "იაპონური",
+        "russian": "რუსული",
+        "arabic": "არაბული",
+        "german": "გერმანული",
+        "polish": "პოლონური",
+        "spanish": "ესპანური",
+        "portuguese_brasil": "პორტუგალიური (ბრაზილია)",
+        "turkish": "თურქული",
+        "indonesian": "ინდონეზიური"
+      },
       "gsi": {
         "loadingAbout": "იტვირთება მონაცემები cfg ფაილების შესახებ...",
         "loadingData": "კონფიგურაციის ფაილის მონაცემების ჩატვირთვა...",
@@ -567,7 +635,12 @@
           "keybinds": "Play Dota 2 ARG",
           "hardRefreshHUD": "უკანა მხარეები",
           "argToggle": "განაახლეთ HUD",
-          "dota2ARG": "გადართეთ ACO დირექტორი"
+          "dota2ARG": "გადართეთ ACO დირექტორი",
+          "reverseSide": "უკანა მხარეები",
+          "refreshHud": "HUD-ის განახლება",
+          "toggleDirector": "Scout Vision-ის გადართვა",
+          "toggleScoutPredict": "Scout Predict-ის გადართვა",
+          "toggleScoutCinematic": "Scout Cinematic-ის გადართვა"
         },
         "streamDeck": {
           "unavailable": "AFX CEF HUD Interop"
@@ -688,6 +761,8 @@
         "toggleHUD": "შექმენით მალსახმობი დესკტოპზე",
         "toggleHUDKeybinds": "ეს HUD შეიქმნა CS:GO-სთვის. გარანტირებული არ არის, რომ მისი ყველა ფუნქცია ერთნაირად იმუშავებს CS2-ში.",
         "clickToCopy": "მიუთითეთ HLAE ბილიკი პარამეტრებში, რათა გამოიყენოთ მორგებული killfeeds. გადაფარვა.",
+        "linkCopied": "ბმული კოპირებულია ბუფერში",
+        "openingOverlay": "HUD იხსნება გადაფარვაში...",
         "createShortcut": "HUD-ის დამატება შეუძლებელია"
       },
       "warning": {
@@ -825,7 +900,13 @@
         "tab": {
           "title": "Tournaments ჩანართი გამოიყენება HUD-ებში და სხვა LHM ფუნქციებში ნაჩვენები და გამოყენებული ტურნირების სამართავად.",
           "info": "CG რეჟიმი"
-        }
+        },
+        "identification": {
+          "title": "მოთამაშის იდენტიფიკაცია",
+          "info": "ეს ველი საშუალებას აძლევს LHM-ს ამოიცნოს მოთამაშეები თამაშში და მიაბას ისინი LHM მონაცემთა ბაზაში შენახულ ინფორმაციას. ეს სასარგებლოა მოთამაშეების სახელების, ავატარების და სხვა ინფორმაციის HUD-ებში საჩვენებლად."
+        },
+        "steamBasedIdentification": "მოთამაშის იდენტიფიკაცია (SteamID64)",
+        "usernameBasedIdentification": "მოთამაშის იდენტიფიკაცია (თამაშში სახელი)"
       },
       "matches": {
         "tab": {
@@ -946,6 +1027,12 @@
           "title": "მოთამაშეების წაშლა",
           "info": "დარწმუნებული ხართ, რომ გსურთ წაშალოთ {{count}} გუნდი?"
         }
+      },
+      "signals": {
+        "cta": {
+          "title": "გჭირდებათ მეტი მოვლენის დამატება?",
+          "info": "განაახლეთ თქვენი გეგმა, რათა მიიღოთ წვდომა შეუზღუდავ ღონისძიებებზე გაფართოებული ვარიანტებით, როგორიცაა ღონისძიებების განშტოებების და წინასწარ დაყენებული პარამეტრების შექმნის შესაძლებლობა!"
+        }
       }
     },
     "modals": {
@@ -956,9 +1043,12 @@
       "delete": {
         "titleTeams": "Steam API გასაღები აკლია",
         "titlePlayers": "როგორც ჩანს, თქვენ დააყენეთ SteamID ველში მორგებული Steam URL. LHM მოითხოვს Steam API Key-ს მორგებული URL-ების მხარდასაჭერად. მაინც გინდა გადარჩენა?",
+        "titleMatches": "შესაბამებების წაშლა",
         "infoTeams": "ატვირთეთ თქვენი HUD-ები LHM Cloud-ში",
         "infoPlayers": "LHM 4.9.0-დან დაწყებული, ყველა HUD მთლიანად ღრუბელზეა დაფუძნებული. ეს ნიშნავს, რომ ახლა თქვენ შეგიძლიათ გამოიყენოთ თქვენი HUD-ები ნებისმიერ მოწყობილობაზე და თქვენი HUD ყოველთვის დარჩება სინქრონიზებული.",
-        "deleteWithPlayers": "LHM-ის გამოყენების გასაგრძელებლად, თქვენ უნდა ატვირთოთ თქვენი HUD-ები LHM Cloud-ში."
+        "infoMatches": "დარწმუნებული ხართ, რომ გსურთ {{count}} შესატყვისის წაშლა?",
+        "deleteWithPlayers": "LHM-ის გამოყენების გასაგრძელებლად, თქვენ უნდა ატვირთოთ თქვენი HUD-ები LHM Cloud-ში.",
+        "deleteAll": "ყველას წაშლა ({{count}})"
       },
       "steamApiKeyMissing": {
         "title": "ზოგიერთი HUD ამჟამად შენახულია Cloud-ში შეკუმშული. მათი გამოსაყენებლად, LHM-ს მოუწევს მათი ჩამოტვირთვა და დეკომპრესია. ამან შეიძლება გამოიწვიოს Cloud ლიმიტის უფრო მაღალი გამოყენება.",

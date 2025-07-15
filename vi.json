@@ -24,8 +24,11 @@
       "map": "Bản đồ",
       "team": "Đội",
       "players": "Người chơi",
+      "editDraft": "Chỉnh sửa bản nháp",
       "realName": "Tên thật",
       "player": "Người chơi",
+      "noDraftData": "Không có dữ liệu bản nháp",
+      "champion": "Champion",
       "teams": "Đội",
       "team1": "Đội 1",
       "team2": "Đội 2",
@@ -95,6 +98,39 @@
       "suggestionHeader": "Điều này có thể trả lời câu hỏi của bạn",
       "outOfOfficeWarning": "Nhóm hỗ trợ của chúng tôi thường làm việc từ 9 giờ sáng đến 5 giờ chiều theo giờ CEST vào các ngày trong tuần. Chúng tôi có thể mất nhiều thời gian hơn để phản hồi ngoài những giờ này.",
       "typeYourMessage": "Nhập tin nhắn của bạn tại đây..."
+    },
+    "color-picker": {
+      "contrast-excellent-label": "Độ tương phản tuyệt vời!",
+      "contrast-excellent-message": "Người xem sẽ thấy rõ chữ trên nền này.",
+      "contrast-good-label": "Độ tương phản tốt",
+      "contrast-good-message": "Độ tương phản tốt, nhưng có thể cải thiện để dễ đọc hơn.",
+      "contrast-fair-label": "Độ tương phản trung bình",
+      "contrast-fair-message": "Độ tương phản yếu; một số người xem có thể gặp khó khăn khi đọc chữ.",
+      "contrast-poor-label": "Độ tương phản kém",
+      "contrast-poor-message": "Độ tương phản quá thấp; chữ có thể khó đọc!",
+      "notice": "Lưu ý:",
+      "notice-content": "Vui lòng chọn CHỦ ĐỀ HUD là MÀU TÙY CHỈNH để cho phép tùy chỉnh màu sắc."
+    },
+    "signals-ads": {
+      "top-left": "Trên cùng bên trái",
+      "top-right": "Trên cùng bên phải",
+      "bottom-left": "Dưới cùng bên trái",
+      "bottom-right": "Dưới cùng bên phải",
+      "image": "Hình ảnh",
+      "any-player": "Bất kỳ người chơi nào",
+      "any-side": "Bất kỳ phe nào",
+      "any-team": "Bất kỳ đội nào",
+      "position": "Vị trí",
+      "duration": "Thời lượng (giây)",
+      "trigger": "Kích hoạt",
+      "player": "Người chơi",
+      "team": "Đội",
+      "side": "Phía",
+      "add-new-ad": "Thêm quảng cáo mới",
+      "select-position": "Chọn vị trí",
+      "select-trigger": "Chọn kích hoạt",
+      "select-player": "Chọn người chơi",
+      "select-side": "Chọn phe"
     },
     "blocker": {
       "personal": "Nâng cấp LHM lên gói Cá nhân, Chuyên nghiệp hoặc Doanh nghiệp để toàn quyền truy cập vào mục này.",
@@ -280,7 +316,9 @@
       },
       "create": {
         "title": "Tạo cài đặt trước mới",
-        "placeholder": "Tên cài đặt trước"
+        "placeholder": "Tên cài đặt trước",
+        "clone": "Sao chép từ cài đặt trước hiện tại",
+        "createNew": "Tạo trống"
       },
       "activate": "{{ name }} không hoạt động",
       "deactivate": "{{ name }} đang hoạt động",
@@ -367,6 +405,10 @@
       "edit": "Chỉnh sửa trận đấu",
       "editTeam": "Chỉnh sửa đội",
       "emptyTeam": "Đội trống",
+      "enableFearlessDraft": "Bật Fearless Draft",
+      "disableFearlessDraft": "Tắt Fearless Draft",
+      "blue": "Xanh dương",
+      "red": "Đỏ",
       "scoreModal": {
         "unsetWin": "Hủy cài đặt thắng",
         "setWin": "Đặt thắng ",
@@ -502,10 +544,14 @@
       "cloudSynchronization": "Đồng bộ hóa đám mây",
       "hudConfigCloudSynchronization": "Cài đặt HUD Đồng bộ hóa đám mây",
       "hudTogglesCloudSynchronization": "HUD chuyển đổi đồng bộ hóa đám mây",
+      "valorantWindowTitleOverride": "Ghi đè tiêu đề cửa sổ Valorant",
       "valorantServerMode": "Chế độ thu thập dữ liệu",
       "valorantReadLanguage": "Ngôn ngữ trò chơi Valorant",
       "valorantReadTeamMode": "Loại trận đấu Valorant",
+      "valorantMinimalisticGUI": "Tối giản",
       "valorantIngameInterfaceType": "Loại giao diện trong trò chơi Valorant",
+      "valorantUsernameLanguage": "Bộ ký tự tên người dùng Valorant",
+      "leagueOfLegendsGameLanguage": "Phông chữ trong trò chơi Liên Minh Huyền Thoại",
       "openValorantScoreboardAutomatically": "Tự ​​động mở bảng điểm Valorant",
       "autoHUDUpload": "HUD tự động tải lên đám mây",
       "language": "Ngôn ngữ",
@@ -541,6 +587,28 @@
         "refresh": "Làm mới",
         "install": "Cài đặt"
       },
+      "serverClient": {
+        "client": "Máy khách (Cục bộ Mạng)",
+        "server": "Máy chủ (Mạng cục bộ)",
+        "client_global": "Máy khách (Ngoài mạng cục bộ)",
+        "server_global": "Máy chủ (Ngoài mạng cục bộ)"
+      },
+      "languages": {
+        "default_latin": "Mặc định (Tiếng Latinh)",
+        "chinese_simplified": "Tiếng Trung (Giản thể)",
+        "chinese": "Tiếng Trung",
+        "english": "Tiếng Anh",
+        "korean": "Tiếng Hàn",
+        "japanese": "Tiếng Nhật",
+        "russian": "Tiếng Nga",
+        "arabic": "Tiếng Ả Rập",
+        "german": "Tiếng Đức",
+        "polish": "Tiếng Ba Lan",
+        "spanish": "Tiếng Tây Ban Nha",
+        "portuguese_brasil": "Tiếng Bồ Đào Nha (Brasil)",
+        "turkish": "Tiếng Thổ Nhĩ Kỳ",
+        "indonesian": "Tiếng Indonesia"
+      },
       "gsi": {
         "loadingAbout": "Đang tải dữ liệu các tệp GameState...",
         "loadingData": "Đang tải dữ liệu GameState...",
@@ -570,6 +638,7 @@
           "dota2ARG": "Sử dụng Dota 2 ARG",
           "reverseSide": "Đổi side",
           "refreshHud": "Làm mới HUD",
+          "toggleDirector": "Chuyển đổi Tầm nhìn Trinh sát",
           "toggleScoutPredict": "Chuyển đổi Dự đoán Hướng đạo",
           "toggleScoutCinematic": "Chuyển đổi Scout Cinematic"
         },
@@ -692,6 +761,8 @@
         "toggleHUD": "Chuyển đổi HUD (Embedded only)",
         "toggleHUDKeybinds": "Chuyển đổi liên kết phím HUD (Dành cho nguồn trình duyệt)",
         "clickToCopy": "Nhấn để sao chép",
+        "linkCopied": "Liên kết đã sao chép vào bảng tạm",
+        "openingOverlay": "Đang mở HUD trong lớp phủ...",
         "createShortcut": "Tạo lối tắt trên màn hình"
       },
       "warning": {
@@ -829,7 +900,13 @@
         "tab": {
           "title": "Người chơi",
           "info": "Tab Người chơi được sử dụng để quản lý hiển thị người chơi và sử dụng trong HUD hoặc các chức năng khác."
-        }
+        },
+        "identification": {
+          "title": "Nhận dạng người chơi",
+          "info": "Trường này cho phép LHM nhận dạng người chơi trong trò chơi và ánh xạ họ với thông tin được lưu trữ trong cơ sở dữ liệu LHM. Điều này hữu ích để hiển thị tên người chơi, ảnh đại diện và các thông tin khác trong HUD."
+        },
+        "steamBasedIdentification": "Nhận dạng người chơi (SteamID64)",
+        "usernameBasedIdentification": "Nhận dạng người chơi (Tên trong trò chơi)"
       },
       "matches": {
         "tab": {
@@ -950,6 +1027,12 @@
           "title": "Nhanh",
           "info": "LHM Nhanh cho phép bạn chuẩn bị người chơi, đội và thiết lập HUD một các nhanh chóng, giúp bạn băt đầu trực tiếp nhanh chóng."
         }
+      },
+      "signals": {
+        "cta": {
+          "title": "Cần thêm sự kiện?",
+          "info": "Nâng cấp gói của bạn để có quyền truy cập vào các sự kiện không giới hạn với các tùy chọn nâng cao như khả năng tạo nhánh sự kiện và cài đặt trước!"
+        }
       }
     },
     "modals": {
@@ -960,9 +1043,12 @@
       "delete": {
         "titleTeams": "Xóa đội",
         "titlePlayers": "Xóa người chơi",
+        "titleMatches": "Xóa kết quả khớp",
         "infoTeams": "Bạn có chắc chắn muốn xóa {{count}} nhóm không?",
         "infoPlayers": "Bạn có chắc chắn muốn xóa {{count}} người chơi không?",
-        "deleteWithPlayers": "Xóa với người chơi"
+        "infoMatches": "Bạn có chắc chắn muốn xóa {{count}} kết quả khớp không?",
+        "deleteWithPlayers": "Xóa với người chơi",
+        "deleteAll": "Xóa tất cả ({{count}})"
       },
       "steamApiKeyMissing": {
         "title": "Thiếu khóa API Steam",

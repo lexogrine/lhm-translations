@@ -99,6 +99,39 @@
       "outOfOfficeWarning": "Nuestro equipo de soporte suele estar disponible los días laborables de 9 AM a 5 PM CEST. Es posible que tardemos más en responder fuera de este horario.",
       "typeYourMessage": "Escriba su mensaje aquí..."
     },
+    "color-picker": {
+      "contrast-excellent-label": "¡Excelente contraste!",
+      "contrast-excellent-message": "Tus espectadores verán el texto con claridad sobre este fondo.",
+      "contrast-good-label": "Buen contraste",
+      "contrast-good-message": "El contraste es bueno, pero podría mejorarse para una mejor legibilidad.",
+      "contrast-fair-label": "Contraste regular",
+      "contrast-fair-message": "El contraste es débil; algunos espectadores podrían tener dificultades para leer el texto.",
+      "contrast-poor-label": "Contraste deficiente",
+      "contrast-poor-message": "El contraste es demasiado bajo; el texto puede ser difícil de leer.",
+      "notice": "Aviso:",
+      "notice-content": "Selecciona TEMA DEL HUD como COLORES PERSONALIZADOS para habilitar la modificación de color personalizada. #__#\nArriba a la izquierda"
+    },
+    "signals-ads": {
+      "top-left": "Arriba a la derecha",
+      "top-right": "Abajo a la izquierda",
+      "bottom-left": "Abajo a la derecha",
+      "bottom-right": "Imagen",
+      "image": "Cualquier jugador",
+      "any-player": "Cualquier equipo",
+      "any-side": "Posición",
+      "any-team": "Duración (s)",
+      "position": "Activador",
+      "duration": "Jugador",
+      "trigger": "Equipo",
+      "player": "Equipo",
+      "team": "Añadir nuevo anuncio",
+      "side": "Seleccionar posición",
+      "add-new-ad": "Seleccionar activador",
+      "select-position": "Seleccionar jugador",
+      "select-trigger": "Seleccionar equipo",
+      "select-player": "Copiar del preajuste actual",
+      "select-side": "Crear vacío"
+    },
     "blocker": {
       "personal": "Actualiza tu LHM a un plan Personal, Profesional o Enterprise para obtener acceso completo a esta sección.",
       "proPlus": "Actualiza tu LHM a un plan Profesional o Enterprise para tener acceso completo a esta sección.",
@@ -283,7 +316,9 @@
       },
       "create": {
         "title": "Crear un nuevo preajuste",
-        "placeholder": "Nombre de la preselección"
+        "placeholder": "Nombre de la preselección",
+        "clone": "Activar/desactivar la visión del ojeador",
+        "createNew": "Enlace copiado al portapapeles"
       },
       "activate": "{{ name }} no está activo",
       "deactivate": "{{ name }} está activo",
@@ -603,6 +638,7 @@
           "dota2ARG": "Jugar Dota 2 ARG",
           "reverseSide": "Invertir bandos",
           "refreshHud": "Actualizar HUD",
+          "toggleDirector": "Abriendo el HUD en la superposición...",
           "toggleScoutPredict": "Alternar predicción de explorador",
           "toggleScoutCinematic": "Alternar cinemática de Scout"
         },

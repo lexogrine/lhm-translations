@@ -99,6 +99,39 @@
       "outOfOfficeWarning": "Tim dukungan kami biasanya tersedia pada hari kerja mulai pukul 9 pagi hingga 5 sore WIB. Kami mungkin memerlukan waktu lebih lama untuk merespons di luar jam tersebut.",
       "typeYourMessage": "Ketik pesan Anda di sini..."
     },
+    "color-picker": {
+      "contrast-excellent-label": "Kontras Luar Biasa!",
+      "contrast-excellent-message": "Penonton Anda akan melihat teks dengan jelas pada latar belakang ini.",
+      "contrast-good-label": "Kontras Baik",
+      "contrast-good-message": "Kontrasnya bagus, tetapi perlu ditingkatkan agar lebih mudah dibaca.",
+      "contrast-fair-label": "Kontras Cukup",
+      "contrast-fair-message": "Kontrasnya lemah; beberapa penonton mungkin kesulitan membaca teks.",
+      "contrast-poor-label": "Kontras Buruk",
+      "contrast-poor-message": "Kontras terlalu rendah; teks mungkin sulit dibaca!",
+      "notice": "Perhatian:",
+      "notice-content": "Harap pilih TEMA HUD sebagai WARNA KHUSUS untuk mengaktifkan modifikasi warna khusus."
+    },
+    "signals-ads": {
+      "top-left": "Kiri Atas",
+      "top-right": "Kanan Atas",
+      "bottom-left": "Kiri Bawah",
+      "bottom-right": "Kanan Bawah",
+      "image": "Gambar",
+      "any-player": "Pemain mana saja",
+      "any-side": "Sisi mana saja",
+      "any-team": "Tim mana saja",
+      "position": "Posisi",
+      "duration": "Durasi (dtk)",
+      "trigger": "Pemicu",
+      "player": "Pemain",
+      "team": "Tim",
+      "side": "Sisi",
+      "add-new-ad": "Tambah Iklan Baru",
+      "select-position": "Pilih Posisi",
+      "select-trigger": "Pilih Pemicu",
+      "select-player": "Pilih Pemain",
+      "select-side": "Pilih Sisi"
+    },
     "blocker": {
       "personal": "Tingkatkan LHM Anda ke paket Personal, Professional, atau Enterprise untuk mendapatkan akses penuh ke bagian ini.",
       "proPlus": "Tingkatkan LHM Anda ke paket Profesional atau Enterprise untuk mendapatkan akses penuh ke bagian ini.",
@@ -283,7 +316,9 @@
       },
       "create": {
         "title": "Membuat preset baru",
-        "placeholder": "Nama preset"
+        "placeholder": "Nama preset",
+        "clone": "Salin dari prasetel saat ini",
+        "createNew": "Buat kosong"
       },
       "activate": "{{ name }} tidak aktif",
       "deactivate": "{{ name }} aktif",
@@ -603,6 +638,7 @@
           "dota2ARG": "Mainkan Dota 2 ARG",
           "reverseSide": "Membalikkan sisi",
           "refreshHud": "Refresh HUD",
+          "toggleDirector": "Alihkan Scout Vision",
           "toggleScoutPredict": "Beralih ke Prediksi Pengintai",
           "toggleScoutCinematic": "Beralih ke Sinematik Pramuka"
         },
@@ -725,6 +761,8 @@
         "toggleHUD": "Mengalihkan HUD (Hanya tertanam)",
         "toggleHUDKeybinds": "Mengalihkan Pengalihan Tombol HUD (Untuk Sumber Peramban)",
         "clickToCopy": "Klik untuk menyalin",
+        "linkCopied": "Tautan disalin ke papan klip",
+        "openingOverlay": "Membuka HUD di overlay...",
         "createShortcut": "Membuat pintasan di desktop"
       },
       "warning": {

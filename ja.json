@@ -99,6 +99,39 @@
       "outOfOfficeWarning": "サポートチームは通常、平日の午前9時から午後5時（米国東部標準時）まで対応しています。営業時間外の対応にはお時間をいただく場合があります。",
       "typeYourMessage": "ここにメッセージを入力してください。"
     },
+    "color-picker": {
+      "contrast-excellent-label": "コントラストが素晴らしい！",
+      "contrast-excellent-message": "この背景なら、視聴者はテキストをはっきりと見ることができます。",
+      "contrast-good-label": "良いコントラスト",
+      "contrast-good-message": "コントラストは良好ですが、読みやすさを向上させるために改善の余地があります。",
+      "contrast-fair-label": "普通コントラスト",
+      "contrast-fair-message": "コントラストが弱いため、視聴者によってはテキストが読みにくい場合があります。",
+      "contrast-poor-label": "悪いコントラスト",
+      "contrast-poor-message": "コントラストが低すぎるため、テキストが読みにくい可能性があります。",
+      "notice": "注意:",
+      "notice-content": "カスタムカラーの変更を有効にするには、HUDテーマで「カスタムカラー」を選択してください。"
+    },
+    "signals-ads": {
+      "top-left": "左上",
+      "top-right": "右上",
+      "bottom-left": "左下",
+      "bottom-right": "右下",
+      "image": "画像",
+      "any-player": "任意の選手",
+      "any-side": "任意のサイド",
+      "any-team": "任意のチーム",
+      "position": "ポジション",
+      "duration": "表示時間（秒）",
+      "trigger": "トリガー",
+      "player": "選手",
+      "team": "チーム",
+      "side": "サイド",
+      "add-new-ad": "新しい広告を追加",
+      "select-position": "ポジションを選択",
+      "select-trigger": "トリガーを選択",
+      "select-player": "選手を選択",
+      "select-side": "サイドを選択"
+    },
     "blocker": {
       "personal": "LHMをパーソナル、プロフェッショナル、またはエンタープライズプランにアップグレードすると、このセクションにフルアクセスできます。",
       "proPlus": "LHMをプロフェッショナルまたはエンタープライズプランにアップグレードすると、このセクションにフルアクセスできます。",
@@ -283,7 +316,9 @@
       },
       "create": {
         "title": "新規プリセット作成",
-        "placeholder": "プリセット名"
+        "placeholder": "プリセット名",
+        "clone": "現在のプリセットからコピー",
+        "createNew": "空を作成"
       },
       "activate": "{{ name }} はアクティブではない",
       "deactivate": "{{ name }}}はアクティブ",
@@ -603,6 +638,7 @@
           "dota2ARG": "Dota 2 ARG をプレイ",
           "reverseSide": "逆サイド",
           "refreshHud": "HUDをリフレッシュ",
+          "toggleDirector": "スカウトビジョンを切り替え",
           "toggleScoutPredict": "Toggle スカウト予測",
           "toggleScoutCinematic": "Toggle スカウトシネマティック"
         },
@@ -725,6 +761,8 @@
         "toggleHUD": "HUDの切り替え (埋め込みのみ)",
         "toggleHUDKeybinds": "HUDキーバインド切り替え（ブラウザソース用）",
         "clickToCopy": "クリックしてコピー",
+        "linkCopied": "リンクをクリップボードにコピーしました",
+        "openingOverlay": "オーバーレイでHUDを開いています…",
         "createShortcut": "デスクトップにショートカットを作成"
       },
       "warning": {

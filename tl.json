@@ -24,8 +24,11 @@
       "map": "Mapa",
       "team": "Team",
       "players": "Players",
+      "editDraft": "I-edit ang Draft",
       "realName": "Real name",
       "player": "Player",
+      "noDraftData": "Walang draft data",
+      "champion": "Kampeon",
       "teams": "Teams",
       "team1": "Team 1",
       "team2": "Team 2",
@@ -95,6 +98,39 @@
       "suggestionHeader": "Maaaring sagutin nito ang iyong tanong",
       "outOfOfficeWarning": "Ang aming team ng suporta ay karaniwang available sa mga araw ng trabaho mula 9 AM hanggang 5 PM CEST. Maaari kaming magtagal bago tumugon sa labas ng mga oras na ito.",
       "typeYourMessage": "I-type ang iyong mensahe dito..."
+    },
+    "color-picker": {
+      "contrast-excellent-label": "Napakahusay na Contrast!",
+      "contrast-excellent-message": "Malinaw na makikita ng iyong mga manonood ang teksto sa background na ito.",
+      "contrast-good-label": "Magandang Contrast",
+      "contrast-good-message": "Maganda ang contrast, ngunit maaari itong mapabuti para sa mas mahusay na pagiging madaling mabasa.",
+      "contrast-fair-label": "Fair Contrast",
+      "contrast-fair-message": "Ang kaibahan ay mahina; ang ilang mga manonood ay maaaring nahihirapang basahin ang teksto.",
+      "contrast-poor-label": "Hindi magandang Contrast",
+      "contrast-poor-message": "Masyadong mababa ang contrast; baka mahirap basahin ang text!",
+      "notice": "Paunawa:",
+      "notice-content": "Pakipili ang HUD THEME bilang CUSTOM COLORS para paganahin ang custom na pagbabago ng kulay."
+    },
+    "signals-ads": {
+      "top-left": "Kaliwa sa itaas",
+      "top-right": "Kanan sa itaas",
+      "bottom-left": "Kaliwa sa ibaba",
+      "bottom-right": "Kanan sa ibaba",
+      "image": "Imahe",
+      "any-player": "Kahit sinong player",
+      "any-side": "Kahit saang panig",
+      "any-team": "Kahit anong team",
+      "position": "Posisyon",
+      "duration": "(mga) tagal",
+      "trigger": "Trigger",
+      "player": "Manlalaro",
+      "team": "Koponan",
+      "side": "Gilid",
+      "add-new-ad": "Magdagdag ng Bagong Ad",
+      "select-position": "Piliin ang Posisyon",
+      "select-trigger": "Piliin ang Trigger",
+      "select-player": "Piliin ang Manlalaro",
+      "select-side": "Piliin ang Gilid"
     },
     "blocker": {
       "personal": "I-upgrade ang iyong LHM sa isang Personal, Propesyonal o Enterprise na plano upang makakuha ng ganap na access sa seksyong ito.",
@@ -280,7 +316,9 @@
       },
       "create": {
         "title": "Preset name",
-        "placeholder": "{{ name }} is not active"
+        "placeholder": "{{ name }} is not active",
+        "clone": "Kopyahin mula sa kasalukuyang preset",
+        "createNew": "Lumikha ng walang laman"
       },
       "activate": "{{ name }} is active",
       "deactivate": "Add Branch",
@@ -367,6 +405,10 @@
       "edit": "I-edit ang team",
       "editTeam": "Empty team",
       "emptyTeam": "Unset win",
+      "enableFearlessDraft": "I-enable ang Fearless Draft",
+      "disableFearlessDraft": "Huwag paganahin ang Fearless Draft",
+      "blue": "Asul",
+      "red": "Pula",
       "scoreModal": {
         "unsetWin": "Set win",
         "setWin": "Team Logo",
@@ -502,10 +544,14 @@
       "cloudSynchronization": "HUD Settings Cloud Synchronization",
       "hudConfigCloudSynchronization": "HUD Toggles Cloud Synchronization",
       "hudTogglesCloudSynchronization": "Data Gathering Mode",
+      "valorantWindowTitleOverride": "Override sa Pamagat ng Valorant Window",
       "valorantServerMode": "Valorant Game Language",
       "valorantReadLanguage": "Valorant Match Type",
       "valorantReadTeamMode": "Valorant In-game Interface Type",
+      "valorantMinimalisticGUI": "Minimalistic",
       "valorantIngameInterfaceType": "Awtomatikong buksan ang Valorant Scoreboard",
+      "valorantUsernameLanguage": "Set ng Character ng Valorant Username",
+      "leagueOfLegendsGameLanguage": "League of Legends In-game Font",
       "openValorantScoreboardAutomatically": "Automatic HUDs upload to the cloud",
       "autoHUDUpload": "Language",
       "language": "Dota 2 Assets",
@@ -541,6 +587,28 @@
         "refresh": "I-install",
         "install": "Naglo-load ng data tungkol sa mga file ng GameState..."
       },
+      "serverClient": {
+        "client": "Kliyente (Lokal na network)",
+        "server": "Server (Lokal na network)",
+        "client_global": "Kliyente (Sa labas ng lokal na network)",
+        "server_global": "Server (Sa labas ng lokal na network)"
+      },
+      "languages": {
+        "default_latin": "Default (Latin)",
+        "chinese_simplified": "Chinese (Pinasimple)",
+        "chinese": "Intsik",
+        "english": "Ingles",
+        "korean": "Koreano",
+        "japanese": "Hapon",
+        "russian": "Ruso",
+        "arabic": "Arabic",
+        "german": "Aleman",
+        "polish": "Polish",
+        "spanish": "Espanyol",
+        "portuguese_brasil": "Portuges (Brasil)",
+        "turkish": "Turkish",
+        "indonesian": "Indonesian"
+      },
       "gsi": {
         "loadingAbout": "Naglo-load ng data ng GameState...",
         "loadingData": "Nilo-load ang data ng file ng GameState...",
@@ -564,6 +632,9 @@
       },
       "entry": {
         "keybinds": {
+          "keybinds": "Keybinds",
+          "hardRefreshHUD": "Hard refresh HUD",
+          "argToggle": "I-toggle ang ARG",
           "dota2ARG": "Reverse sides",
           "reverseSide": "Reverse sides",
           "refreshHud": "Refresh HUD",
@@ -690,6 +761,8 @@
         "toggleHUD": "I-toggle ang HUD Keybinds (Para sa Pinagmulan ng Browser)",
         "toggleHUDKeybinds": "I-click para kopyahin",
         "clickToCopy": "Lumikha ng shortcut sa desktop",
+        "linkCopied": "Nakopya ang link sa clipboard",
+        "openingOverlay": "Binubuksan ang HUD sa overlay...",
         "createShortcut": "Ang HUD na ito ay ginawa para sa CS:GO. Hindi ginagarantiyahan na ang lahat ng mga tampok nito ay gagana sa parehong paraan sa CS2."
       },
       "warning": {
@@ -827,7 +900,13 @@
         "tab": {
           "title": "Players tab ay ginagamit upang pamahalaan ang mga player na ipinapakita at ginagamit sa loob ng HUDs at iba pang LHM functionality.",
           "info": "Matches"
-        }
+        },
+        "identification": {
+          "title": "Pagkakakilanlan ng manlalaro",
+          "info": "Ang field na ito ay nagbibigay-daan para sa LHM na makilala ang mga manlalaro sa laro, at imapa ang mga ito sa impormasyong nakaimbak sa LHM database. Ito ay kapaki-pakinabang para sa pagpapakita ng mga pangalan ng manlalaro, avatar, at iba pang impormasyon sa mga HUD."
+        },
+        "steamBasedIdentification": "Pagkakakilanlan ng manlalaro (SteamID64)",
+        "usernameBasedIdentification": "Pagkakakilanlan ng manlalaro (In-game name)"
       },
       "matches": {
         "tab": {
@@ -948,6 +1027,12 @@
           "title": "Nagbibigay-daan sa iyo ang LHM Quick na mabilis na ihanda ang iyong buong player, team at HUD setup mula sa isang lugar, na nagbibigay-daan sa iyong makapagsimula kaagad sa iyong stream.",
           "info": "Masyadong malaki ang larawan"
         }
+      },
+      "signals": {
+        "cta": {
+          "title": "Kailangang magdagdag ng higit pang mga kaganapan?",
+          "info": "I-upgrade ang iyong plano para magkaroon ng access sa walang limitasyong mga event na may mga advanced na opsyon tulad ng kakayahang gumawa ng mga branch ng event at preset!"
+        }
       }
     },
     "modals": {
@@ -958,9 +1043,12 @@
       "delete": {
         "titleTeams": "Tanggalin ang mga manlalaro",
         "titlePlayers": "Sigurado ka bang gusto mong alisin ang {{count}} mga koponan?",
+        "titleMatches": "Tanggalin ang mga tugma",
         "infoTeams": "Sigurado ka bang gusto mong alisin ang {{count}} na mga manlalaro?",
         "infoPlayers": "Tanggalin kasama ang mga manlalaro",
-        "deleteWithPlayers": "Steam API Key Nawawala"
+        "infoMatches": "Sigurado ka bang gusto mong alisin ang {{count}} mga tugma?",
+        "deleteWithPlayers": "Steam API Key Nawawala",
+        "deleteAll": "Tanggalin Lahat ({{count}})"
       },
       "steamApiKeyMissing": {
         "title": "Mukhang naglagay ka ng custom na Steam URL sa SteamID field. Ang LHM ay nangangailangan ng Steam API Key upang suportahan ang mga custom na URL. Gusto mo pa rin bang makatipid?",
@@ -1019,7 +1107,8 @@
         "description": "Gabay sa gumagamit"
       },
       "userGuide": {
-        "title": "Tingnan ang aming Gabay sa Gumagamit upang matuto nang higit pa tungkol sa bawat bahagi ng LHM. Makakahanap ka ng mga paglalarawan, mga tagubilin para sa pag-configure at paggamit ng lahat ng mga tampok, at mga sagot sa mga pinakakaraniwang tanong. Kung mayroon kang mga karagdagang tanong, sumali sa [[aming Discord|discord]]."
+        "title": "Tingnan ang aming Gabay sa Gumagamit upang matuto nang higit pa tungkol sa bawat bahagi ng LHM. Makakahanap ka ng mga paglalarawan, mga tagubilin para sa pag-configure at paggamit ng lahat ng mga tampok, at mga sagot sa mga pinakakaraniwang tanong. Kung mayroon kang mga karagdagang tanong, sumali sa [[aming Discord|discord]].",
+        "description": "Tingnan ang aming Gabay sa Gumagamit upang matuto nang higit pa tungkol sa bawat bahagi ng LHM. Makakahanap ka ng mga paglalarawan, mga tagubilin para sa pag-configure at paggamit ng lahat ng mga tampok, at mga sagot sa mga pinakakaraniwang tanong. Kung mayroon kang mga karagdagang tanong, sumali sa [[aming Discord|discord]]."
       }
     }
   }

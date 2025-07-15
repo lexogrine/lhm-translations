@@ -99,6 +99,39 @@
       "outOfOfficeWarning": "我们的支持团队通常在工作日的上午 9 点到下午 5 点（欧洲中部时间）提供服务。在这些时间之外，我们可能需要更长的时间来回复您的问题。",
       "typeYourMessage": "在此输入您的信息..."
     },
+    "color-picker": {
+      "contrast-excellent-label": "对比度极佳！",
+      "contrast-excellent-message": "在此背景下，您的观看者将清晰地看到文字。",
+      "contrast-good-label": "对比度良好",
+      "contrast-good-message": "对比度良好，但可以改进以提高可读性。",
+      "contrast-fair-label": "对比度一般",
+      "contrast-fair-message": "对比度较弱；部分观看者可能难以阅读文字。",
+      "contrast-poor-label": "对比度较差",
+      "contrast-poor-message": "对比度过低；文字可能难以阅读！",
+      "notice": "注意：",
+      "notice-content": "请选择“HUD主题”为“自定义颜色”以启用自定义颜色修改。"
+    },
+    "signals-ads": {
+      "top-left": "左上角",
+      "top-right": "右上角",
+      "bottom-left": "左下角",
+      "bottom-right": "右下角",
+      "image": "图片",
+      "any-player": "任意球员",
+      "any-side": "任意阵营",
+      "any-team": "任意球队",
+      "position": "位置",
+      "duration": "时长（秒）",
+      "trigger": "触发器",
+      "player": "球员",
+      "team": "球队",
+      "side": "阵营",
+      "add-new-ad": "添加新广告",
+      "select-position": "选择位置",
+      "select-trigger": "选择触发器",
+      "select-player": "选择球员",
+      "select-side": "选择阵营"
+    },
     "blocker": {
       "personal": "将您的 LHM 升级到个人、专业或企业计划，即可完全访问此部分。",
       "proPlus": "将您的 LHM 升级到专业版或企业版，以获得对本部分的完整访问权限。",
@@ -283,7 +316,9 @@
       },
       "create": {
         "title": "创建新预置",
-        "placeholder": "预置名称"
+        "placeholder": "预置名称",
+        "clone": "从当前预设复制",
+        "createNew": "创建空白"
       },
       "activate": "{{ name }}未激活",
       "deactivate": "{{ name }}已激活",
@@ -603,6 +638,7 @@
           "dota2ARG": "玩 Dota 2 ARG",
           "reverseSide": "反面",
           "refreshHud": "刷新 HUD",
+          "toggleDirector": "切换球探视野",
           "toggleScoutPredict": "Toggle Scout 预测",
           "toggleScoutCinematic": "Toggle Scout 电影"
         },
@@ -725,6 +761,8 @@
         "toggleHUD": "切换 HUD（仅限嵌入式系统）",
         "toggleHUDKeybinds": "切换 HUD 按钮绑定（适用于浏览器来源）",
         "clickToCopy": "点击复制",
+        "linkCopied": "链接已复制到剪贴板",
+        "openingOverlay": "正在覆盖层中打开HUD...",
         "createShortcut": "在桌面上创建快捷方式"
       },
       "warning": {
