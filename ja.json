@@ -603,7 +603,6 @@
           "dota2ARG": "Dota 2 ARG をプレイ",
           "reverseSide": "逆サイド",
           "refreshHud": "HUDをリフレッシュ",
-          "toggleDirector": "ACO ディレクターの切り替え",
           "toggleScoutPredict": "Toggle スカウト予測",
           "toggleScoutCinematic": "Toggle スカウトシネマティック"
         },

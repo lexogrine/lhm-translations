@@ -569,10 +569,7 @@
           "argToggle": "Bahagian belakang",
           "dota2ARG": "Muat semula HUD",
           "reverseSide": "Togol Pengarah ACO",
-          "refreshHud": "Togol Ramalan Pengakap",
-          "toggleDirector": "Togol Sinematik Pengakap",
-          "toggleScoutPredict": "Tidak Tersedia",
-          "toggleScoutCinematic": "Laluan HLAE"
+          "refreshHud": "Togol Ramalan Pengakap"
         },
         "streamDeck": {
           "unavailable": "Tetapkan laluan HLAE"

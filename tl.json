@@ -564,18 +564,15 @@
       },
       "entry": {
         "keybinds": {
-          "keybinds": "Hard refresh HUD",
-          "hardRefreshHUD": "I-toggle ang ARG",
-          "argToggle": "Maglaro ng Dota 2 ARG",
           "dota2ARG": "Reverse sides",
-          "reverseSide": "Refresh HUD",
-          "refreshHud": "Toggle ACO Director",
-          "toggleDirector": "Toggle Scout Predict",
-          "toggleScoutPredict": "Toggle Scout Cinematic",
-          "toggleScoutCinematic": "Unavailable"
+          "reverseSide": "Reverse sides",
+          "refreshHud": "Refresh HUD",
+          "toggleDirector": "Toggle Scout Vision",
+          "toggleScoutPredict": "Toggle Scout Predict",
+          "toggleScoutCinematic": "Toggle Scout Cinematic"
         },
         "streamDeck": {
-          "unavailable": "HLAE Path"
+          "unavailable": "Unavailable"
         },
         "HLAE": {
           "path": "Itakda ang HLAE path",

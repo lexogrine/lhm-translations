@@ -603,7 +603,6 @@
           "dota2ARG": "Jouer à Dota 2 ARG",
           "reverseSide": "Inverser les camps",
           "refreshHud": "Rafraîchir le HUD",
-          "toggleDirector": "Fermer l'ACO Director",
           "toggleScoutPredict": "Toggle Scout Predict",
           "toggleScoutCinematic": "Basculer Cinématique Scout"
         },

@@ -603,7 +603,6 @@
           "dota2ARG": "도타 2 플레이 ARG",
           "reverseSide": "반대쪽",
           "refreshHud": "HUD 새로고침",
-          "toggleDirector": "ACO 디렉터 토글",
           "toggleScoutPredict": "스카웃 예측 토글(Toggle Scout Predict)",
           "toggleScoutCinematic": "스카웃 시네마틱 토글"
         },

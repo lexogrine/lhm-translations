@@ -567,12 +567,7 @@
           "keybinds": "Play Dota 2 ARG",
           "hardRefreshHUD": "უკანა მხარეები",
           "argToggle": "განაახლეთ HUD",
-          "dota2ARG": "გადართეთ ACO დირექტორი",
-          "reverseSide": "გადართეთ სკაუტი პროგნოზირება",
-          "refreshHud": "გადართვა Scout Cinematic",
-          "toggleDirector": "მიუწვდომელია",
-          "toggleScoutPredict": "HLAE Path",
-          "toggleScoutCinematic": "Set HLAE გზა"
+          "dota2ARG": "გადართეთ ACO დირექტორი"
         },
         "streamDeck": {
           "unavailable": "AFX CEF HUD Interop"

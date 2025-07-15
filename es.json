@@ -603,7 +603,6 @@
           "dota2ARG": "Jugar Dota 2 ARG",
           "reverseSide": "Invertir bandos",
           "refreshHud": "Actualizar HUD",
-          "toggleDirector": "Activar Director ACO",
           "toggleScoutPredict": "Alternar predicción de explorador",
           "toggleScoutCinematic": "Alternar cinemática de Scout"
         },
