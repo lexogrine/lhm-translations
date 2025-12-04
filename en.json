@@ -404,9 +404,14 @@
 			"availableTeams": "Available teams",
 			"selectedTeams": "Selected teams",
 			"qualifiedTeams": "Qualified teams",
+			"qualified": "Qualified",
+			"eliminated": "Eliminated",
 			"groupFinished": "The group stage has finished. You can now create the playoffs - this step can only be performed once.",
 			"createPlayoffs": "Create playoffs",
-			"stageInProgress": "The group stage is still in progress. Playoff creation will be available once the group stage has finished."
+			"stageInProgress": "The group stage is still in progress. Playoff creation will be available once the group stage has finished.",
+			"missingMatches": "Missing Matches Detected",
+			"matchesDeleted": "Some matches have been deleted. Click below to restore all matches from the first missing round.",
+			"restoreAllMatches": "Restore all matches"
 		},
 		"match": {
 			"matches": "Matches",
