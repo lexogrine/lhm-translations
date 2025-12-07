@@ -99,6 +99,39 @@
       "outOfOfficeWarning": "지원팀은 보통 평일 오전 9시부터 오후 5시(동부표준시)까지 운영됩니다. 이 시간 외에는 답변에 시간이 더 걸릴 수 있습니다.",
       "typeYourMessage": "여기에 메시지를 입력하세요..."
     },
+    "color-picker": {
+      "contrast-excellent-label": "뛰어난 대비!",
+      "contrast-excellent-message": "시청자는 이 배경에서 텍스트를 선명하게 볼 수 있습니다.",
+      "contrast-good-label": "양호한 대비",
+      "contrast-good-message": "대비는 좋지만 가독성을 위해 개선할 수 있습니다.",
+      "contrast-fair-label": "보통 대비",
+      "contrast-fair-message": "대비가 약해서 일부 시청자는 텍스트를 읽는 데 어려움을 겪을 수 있습니다.",
+      "contrast-poor-label": "나쁨 대비",
+      "contrast-poor-message": "대비가 너무 낮아 텍스트를 읽기 어려울 수 있습니다!",
+      "notice": "주의:",
+      "notice-content": "사용자 지정 색상 수정을 활성화하려면 HUD 테마를 사용자 지정 색상으로 선택하세요."
+    },
+    "signals-ads": {
+      "top-left": "왼쪽 상단",
+      "top-right": "오른쪽 상단",
+      "bottom-left": "왼쪽 하단",
+      "bottom-right": "오른쪽 하단",
+      "image": "이미지",
+      "any-player": "모든 플레이어",
+      "any-side": "모든 팀",
+      "any-team": "포지션",
+      "position": "기간(초)",
+      "duration": "트리거",
+      "trigger": "플레이어",
+      "player": "팀",
+      "team": "진영",
+      "side": "새 광고 추가",
+      "add-new-ad": "포지션 선택",
+      "select-position": "트리거 선택",
+      "select-trigger": "플레이어 선택",
+      "select-player": "진영 선택",
+      "select-side": "현재 프리셋에서 복사"
+    },
     "blocker": {
       "personal": "이 섹션에 대한 전체 액세스 권한을 얻으려면 LHM을 개인, 프로페셔널 또는 엔터프라이즈 요금제로 업그레이드하세요.",
       "proPlus": "이 섹션에 대한 전체 액세스 권한을 얻으려면 LHM을 Professional 또는 Enterprise 플랜으로 업그레이드하세요.",
@@ -283,7 +316,9 @@
       },
       "create": {
         "title": "새 프리셋 만들기",
-        "placeholder": "프리셋 이름"
+        "placeholder": "프리셋 이름",
+        "clone": "빈 프리셋 만들기",
+        "createNew": "스카우트 시야 전환"
       },
       "activate": "{{ name }}이 활성화되지 않았습니다",
       "deactivate": "{{ name }} 활성화됨",
@@ -603,6 +638,7 @@
           "dota2ARG": "도타 2 플레이 ARG",
           "reverseSide": "반대쪽",
           "refreshHud": "HUD 새로고침",
+          "toggleDirector": "링크가 클립보드에 복사되었습니다.",
           "toggleScoutPredict": "스카웃 예측 토글(Toggle Scout Predict)",
           "toggleScoutCinematic": "스카웃 시네마틱 토글"
         },
@@ -725,6 +761,7 @@
         "toggleHUD": "HUD 토글(임베디드만 해당)",
         "toggleHUDKeybinds": "HUD 키바인드 토글 (브라우저 소스용)",
         "clickToCopy": "클릭하여 복사",
+        "linkCopied": "오버레이에서 HUD를 여는 중...",
         "createShortcut": "바탕화면에 바로 가기 만들기"
       },
       "warning": {

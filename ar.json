@@ -99,6 +99,39 @@
       "outOfOfficeWarning": "يتوفر فريق الدعم لدينا عادةً في أيام العمل من الساعة 9 صباحًا إلى 5 مساءً بتوقيت وسط أوروبا. قد نستغرق وقتاً أطول للرد خارج هذه الساعات.",
       "typeYourMessage": "اكتب رسالتك هنا..."
     },
+    "color-picker": {
+      "contrast-excellent-label": "تباين ممتاز!",
+      "contrast-excellent-message": "سيتمكن المشاهدون من رؤية النص بوضوح على هذه الخلفية.",
+      "contrast-good-label": "تباين جيد",
+      "contrast-good-message": "التباين جيد، ولكن يمكن تحسينه لتحسين قابلية القراءة.",
+      "contrast-fair-label": "تباين مقبول",
+      "contrast-fair-message": "التباين ضعيف؛ قد يجد بعض المشاهدين صعوبة في قراءة النص.",
+      "contrast-poor-label": "تباين ضعيف",
+      "contrast-poor-message": "التباين منخفض جدًا؛ قد يصعب قراءة النص!",
+      "notice": "ملاحظة:",
+      "notice-content": "يرجى اختيار سمة HUD كألوان مخصصة لتمكين تعديل الألوان المخصصة."
+    },
+    "signals-ads": {
+      "top-left": "أعلى اليسار",
+      "top-right": "أعلى اليمين",
+      "bottom-left": "أسفل اليسار",
+      "bottom-right": "أسفل اليمين",
+      "image": "صورة",
+      "any-player": "أي لاعب",
+      "any-side": "أي جانب",
+      "any-team": "أي فريق",
+      "position": "الموقع",
+      "duration": "المدة (ثوانٍ)",
+      "trigger": "المُشغِّل",
+      "player": "اللاعب",
+      "team": "الفريق",
+      "side": "الجانب",
+      "add-new-ad": "إضافة إعلان جديد",
+      "select-position": "تحديد الموقع",
+      "select-trigger": "تحديد المُشغِّل",
+      "select-player": "تحديد اللاعب",
+      "select-side": "تحديد الجانب"
+    },
     "blocker": {
       "personal": "قم بترقية LHM الخاص بك إلى خطة شخصية أو احترافية أو خطة مؤسسية للحصول على وصول كامل إلى هذا القسم.",
       "proPlus": "قم بترقية LHM الخاص بك إلى خطة احترافية أو خطة مؤسسية للحصول على وصول كامل إلى هذا القسم.",
@@ -283,7 +316,9 @@
       },
       "create": {
         "title": "إنشاء إعداد مسبق جديد",
-        "placeholder": "اسم الإعداد المسبق"
+        "placeholder": "اسم الإعداد المسبق",
+        "clone": "نسخ من الإعداد المسبق الحالي",
+        "createNew": "إنشاء فارغ"
       },
       "activate": "{{ name }} غير نشط",
       "deactivate": "{{{ name }} نشط",
@@ -603,6 +638,7 @@
           "dota2ARG": "التحديث الثابت HUD",
           "reverseSide": "تبديل ARG",
           "refreshHud": "لعب Dota 2 ARG",
+          "toggleDirector": "تبديل رؤية الكشاف",
           "toggleScoutPredict": "تحديث HUD",
           "toggleScoutCinematic": "تبديل مدير ACO"
         },
@@ -725,6 +761,8 @@
         "toggleHUD": "حذف HUD من السحابة",
         "toggleHUDKeybinds": "جارٍ التحميل...",
         "clickToCopy": "تبديل HUD (مضمن فقط)",
+        "linkCopied": "تم نسخ الرابط إلى الحافظة",
+        "openingOverlay": "جارٍ فتح شاشة العرض في التراكب...",
         "createShortcut": "تبديل روابط مفاتيح HUD (لمصدر المتصفح)"
       },
       "warning": {

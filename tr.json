@@ -99,6 +99,39 @@
       "outOfOfficeWarning": "Destek ekibimiz genellikle iş günlerinde sabah 9'dan akşam 5'e kadar hizmet vermektedir. Bu saatler dışında yanıt vermemiz daha uzun sürebilir.",
       "typeYourMessage": "Mesajınızı buraya yazın..."
     },
+    "color-picker": {
+      "contrast-excellent-label": "Mükemmel Kontrast!",
+      "contrast-excellent-message": "İzleyicileriniz bu arka plandaki metni net bir şekilde görecek.",
+      "contrast-good-label": "İyi Kontrast",
+      "contrast-good-message": "Kontrast iyi, ancak daha iyi okunabilirlik için geliştirilebilir.",
+      "contrast-fair-label": "Orta Kontrast",
+      "contrast-fair-message": "Kontrast zayıf; bazı izleyiciler metni okumakta zorlanabilir.",
+      "contrast-poor-label": "Zayıf Kontrast",
+      "contrast-poor-message": "Kontrast çok düşük; metni okumak zor olabilir!",
+      "notice": "Uyarı:",
+      "notice-content": "Özel renk değişikliğini etkinleştirmek için lütfen HUD TEMASI'nı ÖZEL RENKLER olarak seçin. #__#\nSol Üst"
+    },
+    "signals-ads": {
+      "top-left": "Sağ Üst",
+      "top-right": "Sol Alt",
+      "bottom-left": "Sağ Alt",
+      "bottom-right": "Görsel",
+      "image": "Herhangi bir oyuncu",
+      "any-player": "Herhangi bir taraf",
+      "any-side": "Herhangi bir takım",
+      "any-team": "Pozisyon",
+      "position": "Süre (sn)",
+      "duration": "Tetikleyici",
+      "trigger": "Oyuncu",
+      "player": "Takım",
+      "team": "Taraf",
+      "side": "Yeni Reklam Ekle",
+      "add-new-ad": "Pozisyon Seç",
+      "select-position": "Tetikleyici Seç",
+      "select-trigger": "Oyuncu Seç",
+      "select-player": "Taraf Seç",
+      "select-side": "Geçerli ön ayardan kopyala"
+    },
     "blocker": {
       "personal": "Bu bölüme tam erişim elde etmek için LHM'nizi Kişisel, Profesyonel veya Kurumsal plana yükseltin.",
       "proPlus": "Bu bölüme tam erişim elde etmek için LHM'nizi Profesyonel veya Kurumsal plana yükseltin.",
@@ -283,7 +316,9 @@
       },
       "create": {
         "title": "Yeni bir ön ayar oluşturma",
-        "placeholder": "Ön ayar adı"
+        "placeholder": "Ön ayar adı",
+        "clone": "Boş oluştur",
+        "createNew": "Scout Vision'ı Aç/Kapat"
       },
       "activate": "{{ name }} aktif değil",
       "deactivate": "{{ name }} aktif",
@@ -603,6 +638,7 @@
           "dota2ARG": "Dota 2 ARG oynayın",
           "reverseSide": "Ters taraflar",
           "refreshHud": "HUD'ı Yenile",
+          "toggleDirector": "Bağlantı panoya kopyalandı",
           "toggleScoutPredict": "Toggle Scout Tahmin Et",
           "toggleScoutCinematic": "İzci Sinematiğini Değiştir"
         },
@@ -725,6 +761,7 @@
         "toggleHUD": "Toggle HUD (Yalnızca Yerleşik)",
         "toggleHUDKeybinds": "HUD Tuş Bağlamalarını Değiştir (Tarayıcı Kaynağı İçin)",
         "clickToCopy": "Kopyalamak için tıklayın",
+        "linkCopied": "Kaplamada HUD açılıyor...",
         "createShortcut": "Masaüstünde kısayol oluşturma"
       },
       "warning": {

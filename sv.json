@@ -99,6 +99,39 @@
       "outOfOfficeWarning": "Vårt supportteam är vanligtvis tillgängligt på vardagar från 9:00 till 17:00 CEST. Det kan ta längre tid att svara utanför dessa tider.",
       "typeYourMessage": "Skriv ditt meddelande här..."
     },
+    "color-picker": {
+      "contrast-excellent-label": "Utmärkt kontrast!",
+      "contrast-excellent-message": "Dina tittare kommer att se texten tydligt mot denna bakgrund.",
+      "contrast-good-label": "Bra kontrast",
+      "contrast-good-message": "Kontrasten är bra, men den kan förbättras för bättre läsbarhet.",
+      "contrast-fair-label": "God kontrast",
+      "contrast-fair-message": "Kontrasten är svag; vissa tittare kan ha svårt att läsa texten.",
+      "contrast-poor-label": "Dålig kontrast",
+      "contrast-poor-message": "Kontrasten är för låg; texten kan vara svår att läsa!",
+      "notice": "Obs:",
+      "notice-content": "Välj HUD-TEMA som ANPASSADE FÄRGER för att aktivera anpassad färgmodifiering."
+    },
+    "signals-ads": {
+      "top-left": "Överst till vänster",
+      "top-right": "Överst till höger",
+      "bottom-left": "Nederst till vänster",
+      "bottom-right": "Nederst till höger",
+      "image": "Bild",
+      "any-player": "Valfri spelare",
+      "any-side": "Valfri sida",
+      "any-team": "Valfritt lag",
+      "position": "Position",
+      "duration": "Varaktighet (s)",
+      "trigger": "Utlösare",
+      "player": "Spelare",
+      "team": "Lag",
+      "side": "Sida",
+      "add-new-ad": "Lägg till ny annons",
+      "select-position": "Välj position",
+      "select-trigger": "Välj utlösare",
+      "select-player": "Välj spelare",
+      "select-side": "Välj sida"
+    },
     "blocker": {
       "personal": "Uppgradera din LHM till en personlig, professionell eller företagsplan för att få full tillgång till det här avsnittet.",
       "proPlus": "Uppgradera din LHM till en Professional- eller Enterprise-plan för att få full tillgång till detta avsnitt.",
@@ -283,7 +316,9 @@
       },
       "create": {
         "title": "Skapa en ny förinställning",
-        "placeholder": "Förinställt namn"
+        "placeholder": "Förinställt namn",
+        "clone": "Kopiera från aktuell förinställning",
+        "createNew": "Skapa tom"
       },
       "activate": "{{ name }} är inte aktiv",
       "deactivate": "{{ name }} är aktiv",
@@ -603,6 +638,7 @@
           "dota2ARG": "Spela Dota 2 ARG",
           "reverseSide": "Omvända sidor",
           "refreshHud": "Uppdatera HUD",
+          "toggleDirector": "Växla scoutvision",
           "toggleScoutPredict": "Växla Scout Predict",
           "toggleScoutCinematic": "Växla Scout Cinematic"
         },
@@ -725,6 +761,8 @@
         "toggleHUD": "Växla HUD (endast inbäddad)",
         "toggleHUDKeybinds": "Växla HUD-tangentbindningar (för webbläsarkälla)",
         "clickToCopy": "Klicka för att kopiera",
+        "linkCopied": "Länk kopierad till urklipp",
+        "openingOverlay": "Öppnar HUD i överlägg...",
         "createShortcut": "Skapa genväg på skrivbordet"
       },
       "warning": {

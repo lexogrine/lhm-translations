@@ -99,6 +99,39 @@
       "outOfOfficeWarning": "A nossa equipa de suporte está normalmente disponível nos dias úteis das 9:00 às 17:00 CEST. Poderemos demorar mais tempo a responder fora deste horário.",
       "typeYourMessage": "Escreva a sua mensagem aqui..."
     },
+    "color-picker": {
+      "contrast-excellent-label": "Contraste Excelente!",
+      "contrast-excellent-message": "Seus espectadores verão o texto claramente neste fundo.",
+      "contrast-good-label": "Bom Contraste",
+      "contrast-good-message": "O contraste é bom, mas poderia ser melhorado para melhor legibilidade.",
+      "contrast-fair-label": "Contraste Razoável",
+      "contrast-fair-message": "O contraste é fraco; alguns espectadores podem ter dificuldade para ler o texto.",
+      "contrast-poor-label": "Contraste Ruim",
+      "contrast-poor-message": "O contraste é muito baixo; o texto pode ser difícil de ler!",
+      "notice": "Aviso:",
+      "notice-content": "Selecione TEMA HUD como CORES PERSONALIZADAS para habilitar a modificação de cores personalizada."
+    },
+    "signals-ads": {
+      "top-left": "Superior Esquerdo",
+      "top-right": "Superior Direito",
+      "bottom-left": "Inferior Esquerdo",
+      "bottom-right": "Inferior Direito",
+      "image": "Imagem",
+      "any-player": "Qualquer jogador",
+      "any-side": "Qualquer lado",
+      "any-team": "Qualquer time",
+      "position": "Posição",
+      "duration": "Duração (s)",
+      "trigger": "Gatilho",
+      "player": "Jogador",
+      "team": "Time",
+      "side": "Lado",
+      "add-new-ad": "Adicionar Novo Anúncio",
+      "select-position": "Selecionar Posição",
+      "select-trigger": "Selecionar Gatilho",
+      "select-player": "Selecionar Jogador",
+      "select-side": "Selecionar Lado"
+    },
     "blocker": {
       "personal": "Actualize o seu LHM para um plano Pessoal, Profissional ou Empresarial para obter acesso total a esta secção.",
       "proPlus": "Actualize o seu LHM para um plano Profissional ou Empresarial para obter acesso total a esta secção.",
@@ -283,7 +316,9 @@
       },
       "create": {
         "title": "Criar uma nova predefinição",
-        "placeholder": "Nome da predefinição"
+        "placeholder": "Nome da predefinição",
+        "clone": "Copiar da predefinição atual",
+        "createNew": "Criar vazio"
       },
       "activate": "{Não está ativo",
       "deactivate": "{Está ativo",
@@ -603,6 +638,7 @@
           "dota2ARG": "Jogar Dota 2 ARG",
           "reverseSide": "Inverter lados",
           "refreshHud": "Atualizar HUD",
+          "toggleDirector": "Alternar Visão do Scout",
           "toggleScoutPredict": "Alternar previsão de olheiros",
           "toggleScoutCinematic": "Alternar a cinemática do Scout"
         },
@@ -725,6 +761,8 @@
         "toggleHUD": "Alternar HUD (apenas incorporado)",
         "toggleHUDKeybinds": "Alternar as teclas do HUD (para a fonte do navegador)",
         "clickToCopy": "Clicar para copiar",
+        "linkCopied": "Link copiado para a área de transferência",
+        "openingOverlay": "Abrindo HUD na sobreposição...",
         "createShortcut": "Criar atalho no ambiente de trabalho"
       },
       "warning": {

@@ -99,6 +99,39 @@
       "outOfOfficeWarning": "Tukitiimimme on tavallisesti käytettävissä arkisin klo 9-17 CEST. Vastaaminen voi kestää kauemmin näiden aikojen ulkopuolella.",
       "typeYourMessage": "Kirjoita viestisi tähän..."
     },
+    "color-picker": {
+      "contrast-excellent-label": "Erinomainen kontrasti!\n\nKatsojasi näkevät tekstin selvästi tällä taustalla.\n\n___#\nHyvä kontrasti",
+      "contrast-excellent-message": "Kontrasti on hyvä, mutta sitä voitaisiin parantaa luettavuuden parantamiseksi.\n\n___#\nKohtuullinen kontrasti",
+      "contrast-good-label": "Kontrasti on heikko; joillakin katsojilla voi olla vaikeuksia tekstin lukemisessa.",
+      "contrast-good-message": "Huono kontrasti",
+      "contrast-fair-label": "Kontrasti on liian matala; tekstiä voi olla vaikea lukea!",
+      "contrast-fair-message": "Huomautus:",
+      "contrast-poor-label": "Valitse HUD-TEEMA MUKAUTETUT VÄRIT -asetukseksi ottaaksesi käyttöön mukautetun värien muokkaamisen.",
+      "contrast-poor-message": "Ylävasen",
+      "notice": "Yläoikea",
+      "notice-content": "Alavasen"
+    },
+    "signals-ads": {
+      "top-left": "Alaoikea",
+      "top-right": "Kuva",
+      "bottom-left": "Mikä tahansa pelaaja",
+      "bottom-right": "Mikä tahansa puoli",
+      "image": "Mikä tahansa joukkue",
+      "any-player": "Sijainti",
+      "any-side": "Kesto (s)",
+      "any-team": "Liipaisin",
+      "position": "Pelaaja",
+      "duration": "Joukkue",
+      "trigger": "Sijainti",
+      "player": "Lisää uusi mainos",
+      "team": "Valitse pelipaikka",
+      "side": "Valitse liipaisin",
+      "add-new-ad": "Valitse pelaaja",
+      "select-position": "Valitse puoli",
+      "select-trigger": "Kopioi nykyisestä esiasetuksesta",
+      "select-player": "Luo tyhjä",
+      "select-side": "Vaihda tiedustelunäkymä"
+    },
     "blocker": {
       "personal": "Päivitä LHM:si Personal-, Professional- tai Enterprise-tilaukseen saadaksesi täydet käyttöoikeudet tähän osioon.",
       "proPlus": "Päivitä LHM:si Professional- tai Enterprise-tilaukseen saadaksesi täydet käyttöoikeudet tähän osioon.",
@@ -283,7 +316,9 @@
       },
       "create": {
         "title": "Luo uusi esiasetus",
-        "placeholder": "Esiasetuksen nimi"
+        "placeholder": "Esiasetuksen nimi",
+        "clone": "Linkki kopioitu leikepöydälle",
+        "createNew": "Avataan HUD-näyttökuva..."
       },
       "activate": "{{ name }} ei ole aktiivinen",
       "deactivate": "{{ name }} on aktiivinen",

@@ -24,8 +24,11 @@
       "map": "Xarita",
       "team": "Jamoa",
       "players": "O'yinchilar",
+      "editDraft": "Qoralamani tahrirlash",
       "realName": "Haqiqiy ismi",
       "player": "O'yinchi",
+      "noDraftData": "Qoralama maʼlumotlari yoʻq",
+      "champion": "Chempion",
       "teams": "Jamoalar",
       "team1": "1-jamoa",
       "team2": "2-jamoa",
@@ -95,6 +98,39 @@
       "suggestionHeader": "Bu sizning savolingizga javob berishi mumkin",
       "outOfOfficeWarning": "Bizning qo'llab-quvvatlash guruhimiz odatda ish kunlari CEST bo'yicha 9:00 dan 17:00 gacha ishlaydi. Bu soatlardan tashqarida javob berish uchun ko‘proq vaqt ketishi mumkin.",
       "typeYourMessage": "Xabaringizni shu yerga yozing..."
+    },
+    "color-picker": {
+      "contrast-excellent-label": "Ajoyib kontrast!",
+      "contrast-excellent-message": "Tomoshabinlaringiz ushbu fonda matnni aniq ko'radi.",
+      "contrast-good-label": "Yaxshi kontrast",
+      "contrast-good-message": "Kontrast yaxshi, lekin yaxshi o'qilishi uchun uni yaxshilash mumkin.",
+      "contrast-fair-label": "Adolatli kontrast",
+      "contrast-fair-message": "Kontrast zaif; Ba'zi tomoshabinlar matnni o'qishda qiynalishi mumkin.",
+      "contrast-poor-label": "Yomon kontrast",
+      "contrast-poor-message": "Kontrast juda past; matnni o'qish qiyin bo'lishi mumkin!",
+      "notice": "Eslatma:",
+      "notice-content": "Maxsus rangni oʻzgartirishni yoqish uchun HUD MAVZUSINI MAXSUS RANGLAR sifatida tanlang."
+    },
+    "signals-ads": {
+      "top-left": "Yuqori chap",
+      "top-right": "Yuqori oʻng",
+      "bottom-left": "Pastki chap",
+      "bottom-right": "Pastki oʻng",
+      "image": "Rasm",
+      "any-player": "Har qanday o'yinchi",
+      "any-side": "Har qanday tomon",
+      "any-team": "Har qanday jamoa",
+      "position": "Lavozim",
+      "duration": "Davomiylik (lar)",
+      "trigger": "Trigger",
+      "player": "O'yinchi",
+      "team": "Jamoa",
+      "side": "Yon",
+      "add-new-ad": "Yangi e'lon qo'shish",
+      "select-position": "Pozitsiyani tanlang",
+      "select-trigger": "Trigger-ni tanlang",
+      "select-player": "O'yinchini tanlang",
+      "select-side": "Yonni tanlang"
     },
     "blocker": {
       "personal": "Ushbu bo'limga to'liq kirish uchun LHM-ni Shaxsiy, Professional yoki Korxona rejasiga yangilang.",
@@ -280,7 +316,9 @@
       },
       "create": {
         "title": "Yangi oldindan oʻrnatishni yaratish",
-        "placeholder": "Oldindan oʻrnatilgan nom"
+        "placeholder": "Oldindan oʻrnatilgan nom",
+        "clone": "Joriy sozlamalardan nusxa ko'chiring",
+        "createNew": "Bo'sh joy yarating"
       },
       "activate": "{{ name }} faol emas",
       "deactivate": "{{ name }} faol emas",
@@ -367,6 +405,10 @@
       "edit": "Uchrashuvni tahrirlash",
       "editTeam": "Jamoani tahrirlash",
       "emptyTeam": "Bo'sh jamoa",
+      "enableFearlessDraft": "Fearless Draft-ni yoqing",
+      "disableFearlessDraft": "Fearless Draft-ni o'chirib qo'ying",
+      "blue": "Moviy",
+      "red": "Qizil",
       "scoreModal": {
         "unsetWin": "Belgilanmagan g'alaba",
         "setWin": "G'alabani belgilash",
@@ -502,10 +544,14 @@
       "cloudSynchronization": "Bulutli sinxronizatsiya",
       "hudConfigCloudSynchronization": "HUD sozlamalari Bulutli sinxronizatsiya",
       "hudTogglesCloudSynchronization": "HUD bulutli sinxronizatsiyani almashtiradi",
+      "valorantWindowTitleOverride": "Valorant oynasi sarlavhasini bekor qilish",
       "valorantServerMode": "Maʼlumot yigʻish rejimi",
       "valorantReadLanguage": "Valorant oʻyin tili",
       "valorantReadTeamMode": "Valorant match turi",
+      "valorantMinimalisticGUI": "Minimalistik",
       "valorantIngameInterfaceType": "Valorant oʻyin ichidagi interfeys turi",
+      "valorantUsernameLanguage": "Valorant foydalanuvchi nomi belgilar to'plami",
+      "leagueOfLegendsGameLanguage": "League of Legends o'yin ichidagi shrift",
       "openValorantScoreboardAutomatically": "Valorant hisobini avtomatik ravishda ochish",
       "autoHUDUpload": "Avtomatik HUDlar bulutga yuklanadi",
       "language": "Til",
@@ -541,6 +587,28 @@
         "refresh": "Yangilash",
         "install": "O'rnatish"
       },
+      "serverClient": {
+        "client": "Mijoz (mahalliy tarmoq)",
+        "server": "Server (mahalliy tarmoq)",
+        "client_global": "Mijoz (mahalliy tarmoqdan tashqari)",
+        "server_global": "Server (mahalliy tarmoqdan tashqarida)"
+      },
+      "languages": {
+        "default_latin": "Standart (lotin)",
+        "chinese_simplified": "Xitoy (soddalashtirilgan)",
+        "chinese": "Xitoy",
+        "english": "Ingliz",
+        "korean": "koreys",
+        "japanese": "yapon",
+        "russian": "rus",
+        "arabic": "arabcha",
+        "german": "nemis",
+        "polish": "polyak",
+        "spanish": "ispancha",
+        "portuguese_brasil": "Portugal (Braziliya)",
+        "turkish": "turkcha",
+        "indonesian": "indonez"
+      },
       "gsi": {
         "loadingAbout": "Haqida ma'lumotlar yuklanmoqda GameState fayllari...",
         "loadingData": "GameState ma'lumotlari yuklanmoqda...",
@@ -570,6 +638,7 @@
           "dota2ARG": "Play Dota 2 ARG",
           "reverseSide": "Teskari tomonlar",
           "refreshHud": "HUDni yangilash",
+          "toggleDirector": "Scout Vision-ni o'zgartirish",
           "toggleScoutPredict": "Scout Predict-ni almashtirish",
           "toggleScoutCinematic": "Scout Cinematic-ni almashtirish"
         },
@@ -692,6 +761,8 @@
         "toggleHUD": "HUD-ni almashtirish (faqat o'rnatilgan)",
         "toggleHUDKeybinds": "HUD tugmachalarini almashtirish (brauzer manbasi uchun)",
         "clickToCopy": "Nusxa olish uchun bosing",
+        "linkCopied": "Havola vaqtinchalik xotiraga nusxalandi",
+        "openingOverlay": "HUD qoplamada ochilmoqda...",
         "createShortcut": "Ish stolida yorliq yaratish"
       },
       "warning": {
@@ -829,7 +900,13 @@
         "tab": {
           "title": "O'yinchilar",
           "info": "O'yinchilar yorlig'i HUD va boshqa LHM funksiyalarida ko'rsatilgan va foydalaniladigan o'yinchilarni boshqarish uchun ishlatiladi."
-        }
+        },
+        "identification": {
+          "title": "O'yinchi identifikatsiyasi",
+          "info": "Bu maydon LHM-ga o'yindagi o'yinchilarni aniqlash va ularni LHM ma'lumotlar bazasida saqlangan ma'lumotlarga joylashtirish imkonini beradi. Bu HUD-larda o'yinchi nomlari, avatarlari va boshqa ma'lumotlarni ko'rsatish uchun foydalidir."
+        },
+        "steamBasedIdentification": "O'yinchi identifikatsiyasi (SteamID64)",
+        "usernameBasedIdentification": "O'yinchi identifikatori (o'yin ichidagi ism)"
       },
       "matches": {
         "tab": {
@@ -950,6 +1027,12 @@
           "title": "Tez",
           "info": "LHM Quick sizga bir joydan butun o‘yinchi, jamoa va HUD sozlamalarini tezda tayyorlash imkonini beradi, bu esa translatsiyani darhol boshlash imkonini beradi."
         }
+      },
+      "signals": {
+        "cta": {
+          "title": "Yana tadbirlar qo‘shish kerakmi?",
+          "info": "Tadbirlar boʻlimlari va oldindan sozlashlarni yaratish kabi ilgʻor imkoniyatlar bilan cheksiz tadbirlarga kirish uchun rejangizni yangilang!"
+        }
       }
     },
     "modals": {
@@ -960,9 +1043,12 @@
       "delete": {
         "titleTeams": "Jamoalarni oʻchirish",
         "titlePlayers": "Oʻyinchilarni oʻchirish",
+        "titleMatches": "Mosliklarni o'chirish",
         "infoTeams": "Haqiqatan ham {{count}} ta jamoani olib tashlamoqchimisiz?",
         "infoPlayers": "Haqiqatan ham {{count}} ta o‘yinchini olib tashlamoqchimisiz?",
-        "deleteWithPlayers": "O'yinchilar bilan o'chirish"
+        "infoMatches": "Haqiqatan ham {{count}} ta moslikni olib tashlamoqchimisiz?",
+        "deleteWithPlayers": "O'yinchilar bilan o'chirish",
+        "deleteAll": "Hammasini oʻchirish ({{count}})"
       },
       "steamApiKeyMissing": {
         "title": "Steam API kaliti yo'q",

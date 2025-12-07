@@ -99,6 +99,39 @@
       "outOfOfficeWarning": "Unser Support-Team ist in der Regel werktags von 9.00 bis 17.00 Uhr MESZ erreichbar. Außerhalb dieser Zeiten kann es länger dauern, bis wir antworten.",
       "typeYourMessage": "Geben Sie Ihre Nachricht hier ein..."
     },
+    "color-picker": {
+      "contrast-excellent-label": "Hervorragender Kontrast!",
+      "contrast-excellent-message": "Ihre Betrachter sehen den Text auf diesem Hintergrund deutlich.",
+      "contrast-good-label": "Guter Kontrast",
+      "contrast-good-message": "Der Kontrast ist gut, könnte aber für eine bessere Lesbarkeit verbessert werden.",
+      "contrast-fair-label": "Mittelmäßiger Kontrast",
+      "contrast-fair-message": "Der Kontrast ist schwach; manche Betrachter könnten Schwierigkeiten haben, den Text zu lesen.",
+      "contrast-poor-label": "Schlechter Kontrast",
+      "contrast-poor-message": "Der Kontrast ist zu niedrig; der Text könnte schwer lesbar sein!",
+      "notice": "Hinweis:",
+      "notice-content": "Bitte wählen Sie unter HUD-DESIGN die Option „BENUTZERDEFINIERTE FARBEN“, um die benutzerdefinierte Farbanpassung zu ermöglichen."
+    },
+    "signals-ads": {
+      "top-left": "Oben links",
+      "top-right": "Oben rechts",
+      "bottom-left": "Unten links",
+      "bottom-right": "Unten rechts",
+      "image": "Bild",
+      "any-player": "Beliebiger Spieler",
+      "any-side": "Beliebige Seite",
+      "any-team": "Beliebiges Team",
+      "position": "Position",
+      "duration": "Dauer (s)",
+      "trigger": "Auslöser",
+      "player": "Spieler",
+      "team": "Team",
+      "side": "Seite",
+      "add-new-ad": "Neue Anzeige hinzufügen",
+      "select-position": "Position auswählen",
+      "select-trigger": "Auslöser auswählen",
+      "select-player": "Spieler auswählen",
+      "select-side": "Seite auswählen"
+    },
     "blocker": {
       "personal": "Stufe deinen LHM Plan auf einen Personal, Professional oder Enterprise Plan auf, um vollen Zugriff auf diesen Bereich zu erhalten",
       "proPlus": "Stufe deinen LHM Plan auf einen Professional oder Enterprise Plan auf, um vollen Zugriff auf diesen Bereich zu erhalten",
@@ -283,7 +316,9 @@
       },
       "create": {
         "title": "Eine neue Voreinstellung erstellen",
-        "placeholder": "Voreinstellungsname"
+        "placeholder": "Voreinstellungsname",
+        "clone": "Von aktueller Vorgabe kopieren",
+        "createNew": "Leer erstellen"
       },
       "activate": "{{ name }} ist nicht aktiv",
       "deactivate": "{{ name }} ist aktiv",
@@ -603,6 +638,7 @@
           "dota2ARG": "Dota 2 ARG spielen",
           "reverseSide": "Seiten umkehren",
           "refreshHud": "HUD aktualisieren",
+          "toggleDirector": "Scout-Ansicht umschalten",
           "toggleScoutPredict": "Toggle Scout Predict",
           "toggleScoutCinematic": "Toggle Scout Cinematic"
         },
@@ -725,6 +761,8 @@
         "toggleHUD": "HUD umschalten (nur eingebettet)",
         "toggleHUDKeybinds": "HUD Keybinds umschalten (für Browserquelle)",
         "clickToCopy": "Zum Kopieren klicken",
+        "linkCopied": "Link in die Zwischenablage kopiert",
+        "openingOverlay": "HUD im Overlay öffnen...",
         "createShortcut": "Verknüpfung auf dem Desktop erstellen"
       },
       "warning": {

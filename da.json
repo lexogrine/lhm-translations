@@ -99,6 +99,39 @@
       "outOfOfficeWarning": "Vores supportteam er normalt tilgængeligt på hverdage fra kl. 9.00 til 17.00 CEST. Det kan tage længere tid at svare uden for dette tidsrum.",
       "typeYourMessage": "Skriv din besked her..."
     },
+    "color-picker": {
+      "contrast-excellent-label": "Fremragende kontrast!",
+      "contrast-excellent-message": "Dine seere vil se teksten tydeligt på denne baggrund.",
+      "contrast-good-label": "God kontrast",
+      "contrast-good-message": "Kontrasten er god, men den kunne forbedres for bedre læsbarhed.",
+      "contrast-fair-label": "Rimelig kontrast",
+      "contrast-fair-message": "Kontrasten er svag; nogle seere kan have svært ved at læse teksten.",
+      "contrast-poor-label": "Dårlig kontrast",
+      "contrast-poor-message": "Kontrasten er for lav; teksten kan være svær at læse!",
+      "notice": "Bemærk:",
+      "notice-content": "Vælg venligst HUD-TEMA som BRUGERDEFINEREDE FARVER for at aktivere brugerdefineret farveændring."
+    },
+    "signals-ads": {
+      "top-left": "Øverst til venstre",
+      "top-right": "Øverst til højre",
+      "bottom-left": "Nederst til venstre",
+      "bottom-right": "Nederst til højre",
+      "image": "Billede",
+      "any-player": "Enhver spiller",
+      "any-side": "Enhver side",
+      "any-team": "Ethvert hold",
+      "position": "Position",
+      "duration": "Varighed (s)",
+      "trigger": "Trigger",
+      "player": "Spiller",
+      "team": "Hold",
+      "side": "Side",
+      "add-new-ad": "Tilføj ny annonce",
+      "select-position": "Vælg position",
+      "select-trigger": "Vælg trigger",
+      "select-player": "Vælg spiller",
+      "select-side": "Vælg side"
+    },
     "blocker": {
       "personal": "Opgrader din LHM til en Personal-, Professional- eller Enterpriseplan for at få fuld adgang til dette område.",
       "proPlus": "Opgrader din LHM til en Professional- eller Enterpriseplan for at få fuld adgang til dette område.",
@@ -283,7 +316,9 @@
       },
       "create": {
         "title": "Opret en ny forudindstilling",
-        "placeholder": "Forudindstillet navn"
+        "placeholder": "Forudindstillet navn",
+        "clone": "Kopier fra nuværende forudindstilling",
+        "createNew": "Opret tom"
       },
       "activate": "{{ name }} er ikke aktiv",
       "deactivate": "{{ name }} er aktiv",
@@ -603,6 +638,7 @@
           "dota2ARG": "Spil Dota 2 ARG",
           "reverseSide": "Skift sider",
           "refreshHud": "Opdater HUD",
+          "toggleDirector": "Slå spejdersyn til/fra",
           "toggleScoutPredict": "Skift spejderforudsigelse",
           "toggleScoutCinematic": "Skift spejder filmisk"
         },
@@ -725,6 +761,8 @@
         "toggleHUD": "Skift HUD (kun embedded)",
         "toggleHUDKeybinds": "Toggle HUD Keybinds (til browserkilde)",
         "clickToCopy": "Klik for at kopiere",
+        "linkCopied": "Link kopieret til udklipsholder",
+        "openingOverlay": "Åbner HUD i overlay...",
         "createShortcut": "Opret genvej på skrivebordet"
       },
       "warning": {

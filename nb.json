@@ -99,6 +99,39 @@
       "outOfOfficeWarning": "Kundestøtteteamet vårt er vanligvis tilgjengelig på hverdager fra kl. 09.00 til 17.00 CEST. Det kan ta lengre tid å svare utenom disse tidene.",
       "typeYourMessage": "Skriv inn meldingen din her..."
     },
+    "color-picker": {
+      "contrast-excellent-label": "Utmerket kontrast!",
+      "contrast-excellent-message": "Seerne dine vil se teksten tydelig mot denne bakgrunnen.",
+      "contrast-good-label": "God kontrast",
+      "contrast-good-message": "Kontrasten er god, men den kan forbedres for bedre lesbarhet.",
+      "contrast-fair-label": "God kontrast",
+      "contrast-fair-message": "Kontrasten er svak; noen seere kan ha problemer med å lese teksten.",
+      "contrast-poor-label": "Dårlig kontrast",
+      "contrast-poor-message": "Kontrasten er for lav; teksten kan være vanskelig å lese!",
+      "notice": "Merknad:",
+      "notice-content": "Velg HUD-TEMA som TILPASSEDE FARGER for å aktivere tilpasset fargeendring."
+    },
+    "signals-ads": {
+      "top-left": "Øverst til venstre",
+      "top-right": "Øverst til høyre",
+      "bottom-left": "Nederst til venstre",
+      "bottom-right": "Nederst til høyre",
+      "image": "Bilde",
+      "any-player": "Hvilken som helst spiller",
+      "any-side": "Hvilket som helst lag",
+      "any-team": "Posisjon",
+      "position": "Varighet (s)",
+      "duration": "Utløser",
+      "trigger": "Spiller",
+      "player": "Lag",
+      "team": "Side",
+      "side": "Legg til ny annonse",
+      "add-new-ad": "Velg posisjon",
+      "select-position": "Velg utløser",
+      "select-trigger": "Velg spiller",
+      "select-player": "Velg side",
+      "select-side": "Kopier fra gjeldende forhåndsinnstilling"
+    },
     "blocker": {
       "personal": "Oppgrader LHM til en Personal-, Professional- eller Enterprise-abonnement for å få full tilgang til denne delen.",
       "proPlus": "Oppgrader LHM til et Professional- eller Enterprise-abonnement for å få full tilgang til denne delen.",
@@ -283,7 +316,9 @@
       },
       "create": {
         "title": "Opprett en ny forhåndsinnstilling",
-        "placeholder": "Forhåndsinnstilt navn"
+        "placeholder": "Forhåndsinnstilt navn",
+        "clone": "Opprett tom",
+        "createNew": "Veksle speidervisjon"
       },
       "activate": "{{ name }} er ikke aktiv",
       "deactivate": "{{ name }} er aktiv",
@@ -603,6 +638,7 @@
           "dota2ARG": "Spill Dota 2 ARG",
           "reverseSide": "Omvendte sider",
           "refreshHud": "Oppdater HUD",
+          "toggleDirector": "Lenke kopiert til utklippstavlen",
           "toggleScoutPredict": "Vis/skjul speiderforutsigelse",
           "toggleScoutCinematic": "Veksle Scout Cinematic"
         },
@@ -725,6 +761,7 @@
         "toggleHUD": "Veksle HUD (kun innebygd)",
         "toggleHUDKeybinds": "Veksle mellom HUD-tastebindinger (for nettleserkilde)",
         "clickToCopy": "Klikk for å kopiere",
+        "linkCopied": "Åpner HUD i overlegg...",
         "createShortcut": "Opprett snarvei på skrivebordet"
       },
       "warning": {

@@ -24,8 +24,11 @@
       "map": "Peta",
       "team": "Pasukan",
       "players": "Pemain",
+      "editDraft": "Edit Draf",
       "realName": "Nama sebenar",
       "player": "Pemain",
+      "noDraftData": "Tiada data draf",
+      "champion": "juara",
       "teams": "Pasukan",
       "team1": "Pasukan 1",
       "team2": "Pasukan 2",
@@ -95,6 +98,39 @@
       "suggestionHeader": "Ini mungkin menjawab soalan anda",
       "outOfOfficeWarning": "Pasukan sokongan kami biasanya tersedia pada hari bekerja dari 9 PG hingga 5 PTG CEST. Kami mungkin mengambil masa yang lebih lama untuk bertindak balas di luar waktu tersebut.",
       "typeYourMessage": "Taip mesej anda di sini..."
+    },
+    "color-picker": {
+      "contrast-excellent-label": "Kontras Cemerlang!",
+      "contrast-excellent-message": "Penonton anda akan melihat teks dengan jelas pada latar belakang ini.",
+      "contrast-good-label": "Kontras yang Baik",
+      "contrast-good-message": "Kontras adalah baik, tetapi ia boleh dipertingkatkan untuk kebolehbacaan yang lebih baik.",
+      "contrast-fair-label": "Kontras Adil",
+      "contrast-fair-message": "Kontras adalah lemah; sesetengah penonton mungkin sukar membaca teks.",
+      "contrast-poor-label": "Kontras Lemah",
+      "contrast-poor-message": "Kontras terlalu rendah; teks mungkin sukar dibaca!",
+      "notice": "Notis:",
+      "notice-content": "Sila pilih TEMA HUD sebagai WARNA TERSUAI untuk mendayakan pengubahsuaian warna tersuai."
+    },
+    "signals-ads": {
+      "top-left": "Atas Kiri",
+      "top-right": "Atas Kanan",
+      "bottom-left": "Bawah Kiri",
+      "bottom-right": "Bawah Kanan",
+      "image": "Imej",
+      "any-player": "Mana-mana pemain",
+      "any-side": "Mana-mana pihak",
+      "any-team": "Mana-mana pasukan",
+      "position": "kedudukan",
+      "duration": "Tempoh",
+      "trigger": "Pencetus",
+      "player": "Pemain",
+      "team": "Pasukan",
+      "side": "sebelah",
+      "add-new-ad": "Tambah Iklan Baharu",
+      "select-position": "Pilih Kedudukan",
+      "select-trigger": "Pilih Pencetus",
+      "select-player": "Pilih Pemain",
+      "select-side": "Pilih Sisi"
     },
     "blocker": {
       "personal": "Tingkatkan LHM anda kepada pelan Peribadi, Profesional atau Perusahaan untuk mendapatkan akses penuh ke bahagian ini.",
@@ -280,7 +316,9 @@
       },
       "create": {
         "title": "{{ name }} tidak aktif",
-        "placeholder": "{{ name }} aktif"
+        "placeholder": "{{ name }} aktif",
+        "clone": "Salin daripada pratetap semasa",
+        "createNew": "Buat kosong"
       },
       "activate": "Tambah Cawangan",
       "deactivate": "Acara",
@@ -367,6 +405,10 @@
       "edit": "Pasukan kosong",
       "editTeam": "Unset menang",
       "emptyTeam": "Set win",
+      "enableFearlessDraft": "Dayakan Draf Tanpa Ketakutan",
+      "disableFearlessDraft": "Lumpuhkan Draf Takut",
+      "blue": "Biru",
+      "red": "Merah",
       "scoreModal": {
         "unsetWin": "Logo Pasukan",
         "setWin": "LIVE",
@@ -502,10 +544,14 @@
       "cloudSynchronization": "HUD Menogol Penyegerakan Awan",
       "hudConfigCloudSynchronization": "Mod Pengumpulan Data",
       "hudTogglesCloudSynchronization": "Bahasa Permainan Valorant",
+      "valorantWindowTitleOverride": "Penggantian Tajuk Tetingkap Valorant",
       "valorantServerMode": "Jenis Padanan Valorant",
       "valorantReadLanguage": "Jenis Antaramuka Dalam Permainan Valorant",
       "valorantReadTeamMode": "Buka Papan Skor Valorant secara automatik",
+      "valorantMinimalisticGUI": "Minimalis",
       "valorantIngameInterfaceType": "HUD automatik memuat naik ke awan",
+      "valorantUsernameLanguage": "Set Aksara Nama Pengguna Valorant",
+      "leagueOfLegendsGameLanguage": "Fon Dalam Permainan League of Legends",
       "openValorantScoreboardAutomatically": "Bahasa",
       "autoHUDUpload": "Aset Dota 2",
       "language": "Suis separuh automatik (Percubaan)",
@@ -541,6 +587,28 @@
         "refresh": "Memuatkan data tentang fail GameState...",
         "install": "Memuatkan data GameState..."
       },
+      "serverClient": {
+        "client": "Pelanggan (Rangkaian setempat)",
+        "server": "Pelayan (Rangkaian tempatan)",
+        "client_global": "Pelanggan (Di luar rangkaian tempatan)",
+        "server_global": "Pelayan (Di luar rangkaian tempatan)"
+      },
+      "languages": {
+        "default_latin": "Lalai (Latin)",
+        "chinese_simplified": "Cina (Mudah)",
+        "chinese": "cina",
+        "english": "Inggeris",
+        "korean": "Korea",
+        "japanese": "Jepun",
+        "russian": "bahasa Rusia",
+        "arabic": "bahasa arab",
+        "german": "Jerman",
+        "polish": "Poland",
+        "spanish": "bahasa Sepanyol",
+        "portuguese_brasil": "Portugis (Brasil)",
+        "turkish": "bahasa Turki",
+        "indonesian": "Indonesia"
+      },
       "gsi": {
         "loadingAbout": "Memuatkan data fail GameState...",
         "loadingData": "Memuatkan data tentang fail cfg...",
@@ -569,7 +637,10 @@
           "argToggle": "Bahagian belakang",
           "dota2ARG": "Muat semula HUD",
           "reverseSide": "Togol Pengarah ACO",
-          "refreshHud": "Togol Ramalan Pengakap"
+          "refreshHud": "Togol Ramalan Pengakap",
+          "toggleDirector": "Togol Visi Pengakap",
+          "toggleScoutPredict": "Togol Ramalan Pengakap",
+          "toggleScoutCinematic": "Togol Scout Cinematic"
         },
         "streamDeck": {
           "unavailable": "Tetapkan laluan HLAE"
@@ -690,6 +761,8 @@
         "toggleHUD": "Cipta pintasan pada desktop",
         "toggleHUDKeybinds": "HUD ini ialah dibuat untuk CS:GO. Ia tidak dijamin bahawa semua cirinya akan berfungsi dengan cara yang sama dalam CS2.",
         "clickToCopy": "Tentukan laluan HLAE dalam Tetapan untuk menggunakan suapan tersuai",
+        "linkCopied": "Pautan disalin ke papan keratan",
+        "openingOverlay": "Membuka HUD dalam tindanan...",
         "createShortcut": "Tentukan laluan Interop AFX dalam Tetapan untuk menggunakan mod AFX"
       },
       "warning": {
@@ -827,7 +900,13 @@
         "tab": {
           "title": "Kejohanan",
           "info": "Tab Kejohanan digunakan untuk mengurus kejohanan yang dipaparkan dan digunakan dalam HUD dan fungsi LHM yang lain."
-        }
+        },
+        "identification": {
+          "title": "Pengenalan pemain",
+          "info": "Medan ini membolehkan LHM mengenal pasti pemain dalam permainan, dan memetakan mereka kepada maklumat yang disimpan dalam pangkalan data LHM. Ini berguna untuk memaparkan nama pemain, avatar dan maklumat lain dalam HUD."
+        },
+        "steamBasedIdentification": "Pengenalan pemain (SteamID64)",
+        "usernameBasedIdentification": "Pengenalan pemain (nama dalam permainan)"
       },
       "matches": {
         "tab": {
@@ -948,6 +1027,12 @@
           "title": "Padam pasukan",
           "info": "Padam pemain"
         }
+      },
+      "signals": {
+        "cta": {
+          "title": "Perlu menambah lebih banyak acara?",
+          "info": "Tingkatkan rancangan anda untuk mendapatkan akses kepada acara tanpa had dengan pilihan lanjutan seperti keupayaan untuk membuat cawangan acara dan pratetap!"
+        }
       }
     },
     "modals": {
@@ -958,9 +1043,12 @@
       "delete": {
         "titleTeams": "Kunci API Steam Tiada",
         "titlePlayers": "Nampaknya anda meletakkan URL Steam tersuai dalam medan SteamID. LHM memerlukan Kunci API Steam untuk menyokong URL tersuai. Adakah anda ingin menyimpan juga?",
+        "titleMatches": "Padamkan padanan",
         "infoTeams": "Muat naik HUD anda ke LHM Cloud",
         "infoPlayers": "Bermula dengan LHM 4.9.0, semua HUD adalah berasaskan awan sepenuhnya. Ini bermakna anda kini boleh menggunakan HUD anda pada mana-mana peranti dan HUD anda akan sentiasa kekal selaras.",
-        "deleteWithPlayers": "Untuk terus menggunakan LHM, anda perlu memuat naik HUD anda ke LHM Cloud."
+        "infoMatches": "Adakah anda pasti mahu mengalih keluar {{count}} padanan?",
+        "deleteWithPlayers": "Untuk terus menggunakan LHM, anda perlu memuat naik HUD anda ke LHM Cloud.",
+        "deleteAll": "Padamkan Semua ({{count}})"
       },
       "steamApiKeyMissing": {
         "title": "Beberapa HUD sedang disimpan dimampatkan dalam Awan. Untuk menggunakannya, LHM perlu memuat turunnya dan menyahmampatnya. Ia mungkin menyebabkan penggunaan had Awan yang lebih tinggi.",
@@ -1011,10 +1099,17 @@
         "description": "Panduan pengguna"
       },
       "huds": {
-        "title": "Lihat Panduan Pengguna kami untuk mengetahui lebih lanjut tentang setiap komponen LHM. Anda akan menemui penerangan, arahan untuk mengkonfigurasi dan menggunakan semua ciri serta jawapan kepada soalan yang paling biasa. Jika anda mempunyai soalan tambahan, sertai [[Discord|discord kami]]."
+        "title": "Lihat Panduan Pengguna kami untuk mengetahui lebih lanjut tentang setiap komponen LHM. Anda akan menemui penerangan, arahan untuk mengkonfigurasi dan menggunakan semua ciri serta jawapan kepada soalan yang paling biasa. Jika anda mempunyai soalan tambahan, sertai [[Discord|discord kami]].",
+        "description": "Tab HUD memaparkan semua HUD yang anda miliki, kedua-dua yang terbina dalam dan yang telah anda muat naik sendiri.\nUntuk memulakan HUD, anda boleh melancarkan tindanan dalam tetingkap berasingan pada sistem anda (butang \"Mulakan tindanan HUD\") atau salin pautan dan tambahkannya sebagai sumber penyemak imbas dalam perisian siaran anda (butang \"Togol url HUD\")."
       },
-      "lhmHuds": {},
-      "userGuide": {}
+      "lhmHuds": {
+        "title": "HUD LHM",
+        "description": "Setiap pelan LHM mempunyai HUD terbina dalam. Lebih tinggi rancangan, lebih maju HUD. Klik pada nama di bawah untuk mengetahui lebih lanjut tentang setiap satu:\n\n- HUD lalai untuk mana-mana permainan yang disokong\n- HUD Premium untuk [[CS2|premiumCS2]], [[Dota 2|premiumDota2]], [[LoL|premiumLoL]], [[Rocket League|premiumRL]]\n- Ultra HUD untuk [[CS2|ultraCS2]] dan [[Dota 2|ultraDota2]]"
+      },
+      "userGuide": {
+        "title": "Panduan pengguna",
+        "description": "Lihat Panduan Pengguna kami untuk mengetahui lebih lanjut tentang setiap komponen LHM. Anda akan menemui penerangan, arahan untuk mengkonfigurasi dan menggunakan semua ciri serta jawapan kepada soalan yang paling biasa. Jika anda mempunyai soalan tambahan, sertai [[Discord|discord kami]]."
+      }
     }
   }
 }

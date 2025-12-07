@@ -99,6 +99,39 @@
       "outOfOfficeWarning": "Notre équipe d'assistance est généralement disponible les jours ouvrables de 9 heures à 17 heures CEST. En dehors de ces horaires, le délai de réponse peut être plus long.",
       "typeYourMessage": "Tapez votre message ici..."
     },
+    "color-picker": {
+      "contrast-excellent-label": "Excellent contraste !",
+      "contrast-excellent-message": "Vos spectateurs verront clairement le texte sur cet arrière-plan.",
+      "contrast-good-label": "Bon contraste",
+      "contrast-good-message": "Le contraste est bon, mais il pourrait être amélioré pour une meilleure lisibilité.",
+      "contrast-fair-label": "Contraste correct",
+      "contrast-fair-message": "Le contraste est faible ; certains spectateurs pourraient avoir du mal à lire le texte.",
+      "contrast-poor-label": "Contraste faible",
+      "contrast-poor-message": "Le contraste est trop faible ; le texte peut être difficile à lire !",
+      "notice": "Remarque :",
+      "notice-content": "Veuillez sélectionner le THÈME HUD comme COULEURS PERSONNALISÉES pour activer la modification des couleurs."
+    },
+    "signals-ads": {
+      "top-left": "En haut à gauche",
+      "top-right": "En haut à droite",
+      "bottom-left": "En bas à gauche",
+      "bottom-right": "En bas à droite",
+      "image": "Image",
+      "any-player": "N'importe quel joueur",
+      "any-side": "N'importe quel camp",
+      "any-team": "N'importe quelle équipe",
+      "position": "Poste",
+      "duration": "Durée (s)",
+      "trigger": "Déclencheur",
+      "player": "Joueur",
+      "team": "Équipe",
+      "side": "Campagne",
+      "add-new-ad": "Ajouter une nouvelle publicité",
+      "select-position": "Sélectionner un poste",
+      "select-trigger": "Sélectionner un déclencheur",
+      "select-player": "Sélectionner un joueur",
+      "select-side": "Sélectionner un camp"
+    },
     "blocker": {
       "personal": "Mettez à niveau votre abonnement LHM à un forfait Personnel, Professionnel ou Entreprise pour obtenir un accès complet à cette section.",
       "proPlus": "Mettez à niveau votre abonnement LHM à un forfait Professionnel ou Entreprise pour obtenir un accès complet à cette section.",
@@ -283,7 +316,9 @@
       },
       "create": {
         "title": "Créer un nouveau préréglage",
-        "placeholder": "Nom du préréglage"
+        "placeholder": "Nom du préréglage",
+        "clone": "Copier à partir du préréglage actuel",
+        "createNew": "Créer un vide"
       },
       "activate": "{{ name }} n'est pas actif",
       "deactivate": "{{ name }} est actif",
@@ -603,6 +638,7 @@
           "dota2ARG": "Jouer à Dota 2 ARG",
           "reverseSide": "Inverser les camps",
           "refreshHud": "Rafraîchir le HUD",
+          "toggleDirector": "Activer/désactiver la vision de reconnaissance",
           "toggleScoutPredict": "Toggle Scout Predict",
           "toggleScoutCinematic": "Basculer Cinématique Scout"
         },
@@ -725,6 +761,8 @@
         "toggleHUD": "Basculer le HUD (intégré uniquement)",
         "toggleHUDKeybinds": "Toggle HUD Keybinds (For Browser Source)",
         "clickToCopy": "Cliquer pour copier",
+        "linkCopied": "Lien copié dans le presse-papiers",
+        "openingOverlay": "Ouverture de l'ATH en superposition...",
         "createShortcut": "Créer un raccourci sur le bureau"
       },
       "warning": {

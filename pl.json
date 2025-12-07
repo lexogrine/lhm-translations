@@ -99,6 +99,39 @@
       "outOfOfficeWarning": "Nasz zespół wsparcia jest zazwyczaj dostępny w dni robocze w godzinach od 9:00 do 17:00 czasu środkowoeuropejskiego. Odpowiedź poza tymi godzinami może zająć więcej czasu.",
       "typeYourMessage": "Wpisz wiadomość tutaj..."
     },
+    "color-picker": {
+      "contrast-excellent-label": "Doskonały kontrast!",
+      "contrast-excellent-message": "Twoi czytelnicy zobaczą tekst wyraźnie na tym tle.",
+      "contrast-good-label": "Dobry kontrast",
+      "contrast-good-message": "Kontrast jest dobry, ale można go poprawić dla lepszej czytelności.",
+      "contrast-fair-label": "Dobry kontrast",
+      "contrast-fair-message": "Słaby kontrast; niektórzy czytelnicy mogą mieć trudności z odczytaniem tekstu.",
+      "contrast-poor-label": "Słaby kontrast",
+      "contrast-poor-message": "Kontrast jest zbyt niski; tekst może być trudny do odczytania!",
+      "notice": "Uwaga:",
+      "notice-content": "Wybierz MOTYW HUD jako KOLORY NIESTANDARDOWE, aby umożliwić modyfikację kolorów."
+    },
+    "signals-ads": {
+      "top-left": "Lewy górny róg",
+      "top-right": "Prawy górny róg",
+      "bottom-left": "Lewy dolny róg",
+      "bottom-right": "Prawy dolny róg",
+      "image": "Obraz",
+      "any-player": "Dowolny gracz",
+      "any-side": "Dowolna strona",
+      "any-team": "Dowolna drużyna",
+      "position": "Pozycja",
+      "duration": "Czas trwania (s)",
+      "trigger": "Wyzwalacz",
+      "player": "Zawodnik",
+      "team": "Drużyna",
+      "side": "Strona",
+      "add-new-ad": "Dodaj nową reklamę",
+      "select-position": "Wybierz pozycję",
+      "select-trigger": "Wybierz wyzwalacz",
+      "select-player": "Wybierz gracza",
+      "select-side": "Wybierz stronę"
+    },
     "blocker": {
       "personal": "Uaktualnij LHM do planu Personal, Professional lub Enterprise, aby uzyskać pełny dostęp do tej sekcji.",
       "proPlus": "Uaktualnij LHM do planu Professional lub Enterprise, aby uzyskać pełny dostęp do tej sekcji.",
@@ -283,7 +316,9 @@
       },
       "create": {
         "title": "Tworzenie nowego ustawienia wstępnego",
-        "placeholder": "Nazwa ustawienia wstępnego"
+        "placeholder": "Nazwa ustawienia wstępnego",
+        "clone": "Kopiuj z bieżącego ustawienia wstępnego",
+        "createNew": "Utwórz puste"
       },
       "activate": "{{ name }} nie jest aktywne",
       "deactivate": "{{ name }} jest aktywne",
@@ -603,6 +638,7 @@
           "dota2ARG": "Zagraj w Dota 2 ARG",
           "reverseSide": "Odwróć strony",
           "refreshHud": "Odśwież HUD",
+          "toggleDirector": "Przełącz pole widzenia zwiadowcy",
           "toggleScoutPredict": "Przełącz Przewidywania Skauta",
           "toggleScoutCinematic": "Przełącz filmik Skauta"
         },
@@ -725,6 +761,8 @@
         "toggleHUD": "Przełączanie HUD (tylko wbudowane)",
         "toggleHUDKeybinds": "Przełączanie powiązań klawiszy HUD (dla źródła przeglądarki)",
         "clickToCopy": "Kliknij, aby skopiować",
+        "linkCopied": "Link skopiowany do schowka",
+        "openingOverlay": "Otwieranie HUD-a w nakładce...",
         "createShortcut": "Utwórz skrót na pulpicie"
       },
       "warning": {
