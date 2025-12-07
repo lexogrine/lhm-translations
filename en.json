@@ -268,7 +268,8 @@
 			"startTestVideo": "Play Test Video",
 			"stopTestVideo": "Stop Test Video",
 			"testVideoBlocker": "You must have game running to play test video and players filled in the table above. Watch a demo, or play test data, and pick test player",
-			"testPlayer": "Test Player"
+			"testPlayer": "Test Player",
+			"camerasQuality": "Camera Stream Quality"
 		},
 		"addons": {
 			"upload": "Upload addon",
@@ -1010,6 +1011,10 @@
 				"delay": {
 					"title": "Camera Delay",
 					"info": "The Camera Delay is currently only supported in official, Lexogrine HUDs: Ultra & Premium HUDs"
+				},
+				"quality": {
+					"title": "Camera Stream Quality",
+					"info": "Higher quality camera streams can cause stutter on some computers and internet connections."
 				},
 				"tab": {
 					"title": "Cameras",
