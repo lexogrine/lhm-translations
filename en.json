@@ -96,8 +96,8 @@
 			"decline": "Decline",
 			"downloadTemplate": "Download template",
 			"clickAndCopy": "Click & Copy",
-			"swap": "Swap",
-			"deleteAll": "Delete All"
+			"swap": "Swap"
+			
 		},
 		"chat": {
 			"title": "Support Chat",
@@ -394,7 +394,8 @@
 			"create": "Create new tournament",
 			"name": "Tournament name",
 			"groupAndPlayoffs": "Group & playoffs",
-			"playoffsCreated": "Playoffs have been successfully created",
+			"noMatchesInStage": "No matches in this stage",
+			"playoffsCreated": "Playoffs have been successfully created ",
 			"champion": "Champion",
 			"bracket": "Bracket",
 			"setScore": "Set score",
@@ -429,8 +430,8 @@
 			"stageInProgress": "The group stage is still in progress. Playoff creation will be available once the group stage has finished.",
 			"missingMatches": "Missing Matches Detected",
 			"matchesDeleted": "Some matches have been deleted. Click below to restore all matches from the first missing round.",
-			"restoreAllMatches": "Restore all matches",
-			"noMatchesInStage": "No matches in the selected"
+			"restoreAllMatches": "Restore all matches"
+			
 		},
 		"match": {
 			"matches": "Matches",
@@ -1146,7 +1147,6 @@
 				"infoPlayers": "Are you sure you want to remove {{count}} players?",
 				"infoTournaments": "Are you sure you want to remove {{count}} tournaments?",
 				"infoMatches": "Are you sure you want to remove {{count}} matches?",
-				"infoTournaments": "Are you sure you want to remove {{count}} tournaments?",
 				"deleteWithPlayers": "Delete with players",
 				"deleteAll": "Delete All ({{count}})",
 				"single": {
