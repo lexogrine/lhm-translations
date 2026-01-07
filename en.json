@@ -425,7 +425,8 @@
 			"stageInProgress": "The group stage is still in progress. Playoff creation will be available once the group stage has finished.",
 			"missingMatches": "Missing Matches Detected",
 			"matchesDeleted": "Some matches have been deleted. Click below to restore all matches from the first missing round.",
-			"restoreAllMatches": "Restore all matches"
+			"restoreAllMatches": "Restore all matches",
+			"noMatchesInStage": "No matches in the selected"
 		},
 		"match": {
 			"matches": "Matches",
