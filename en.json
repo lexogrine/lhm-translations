@@ -1083,7 +1083,11 @@
 				"infoTournaments": "Are you sure you want to remove {{count}} tournaments?",
 				"infoMatches": "Are you sure you want to remove {{count}} matches?",
 				"deleteWithPlayers": "Delete with players",
-				"deleteAll": "Delete All ({{count}})"
+				"deleteAll": "Delete All ({{count}})",
+				"single": {
+					"titleTournament": "Delete {{name}} tournament",
+					"infoTournament": "Are you sure you want to remove {{name}} tournament?"
+				}
 			},
 			"steamApiKeyMissing": {
 				"title": "Steam API Key Missing",
