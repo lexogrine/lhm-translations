@@ -413,6 +413,7 @@
 			"amountOfRounds": "Amount of rounds",
 			"bindMatch": "Bind match to bracket",
 			"defaultBo": "Default Best Of Format",
+			"defaultBoEdit": "Default Best Of Format (For New Matches)",
 			"teamOrderList": "Teams order list",
 			"tournamentStructure": "Tournament structure",
 			"availableTeams": "Available teams",
