@@ -90,7 +90,8 @@
 			"decline": "Decline",
 			"downloadTemplate": "Download template",
 			"clickAndCopy": "Click & Copy",
-			"swap": "Swap"
+			"swap": "Swap",
+			"deleteAll": "Delete All"
 		},
 		"chat": {
 			"title": "Support Chat",
@@ -189,8 +190,8 @@
 			"enableDirector": "Enable director",
 			"scoutPredict": "Enable Predict",
 			"telnet": "Enable Telnet",
-			"telnetWarning": "To use Telnet, CS2 must be launched with Workshop Tools. You can do it by enabling \"Killfeed / Tools\" option in the HUDs tab and clicking \"Run Game\" button.",
-			"cinematicWarning": "To use Scout Cinematic, CS2 must be launched with Workshop Tools. You can do it by enabling \"Killfeed / Tools\" option in the HUDs tab and clicking \"Run Game\" button. Enabling Scout Cinematic will also force Scout Vision to run in Direct mode.",
+			"telnetWarning": "To use Telnet, CS2 must be launched with Workshop Tools. You can do it by enabling \"Scout AI\" option in the HUDs tab and clicking \"Run Game\" button.",
+			"cinematicWarning": "To use Scout Cinematic, CS2 must be launched with Workshop Tools. You can do it by enabling \"Scout AI\" option in the HUDs tab and clicking \"Run Game\" button. Enabling Scout Cinematic will also force Scout Vision to run in Direct mode.",
 			"disabledDescription": "All control is given to you and your observers.",
 			"aco1Description": "A balance of control and automation.\nAssist your observers with a set of manually written instructions for ACO.\n",
 			"aco-aiDescription": "Sit back while the advanced algorithms of ACO AI control your stream.",
@@ -242,7 +243,8 @@
 			"downloadNamesFile": "Download Names file",
 			"importPlayersExcel": "Use our pre-prepared Excel sheet to easily import many players at once.",
 			"exportPlayers": "Export",
-			"avatar": "Avatar"
+			"avatar": "Avatar",
+			"setAsCoach": "Set as coach"
 		},
 		"teams": {
 			"edit": "Edit a team",
@@ -696,7 +698,7 @@
 			"header": "HUDs",
 			"config": {
 				"customRadar": "Radar",
-				"customKillfeed": "Killfeed / Tools",
+				"customKillfeed": "Custom Killfeed",
 				"embeddedHUD": "Embedded HUD",
 				"killfeedOffset": "Killfeed Offset",
 				"scout": "Scout AI",
@@ -843,7 +845,7 @@
 				},
 				"scout": {
 					"title": "Scout AI",
-					"info": "Enabling this option will launch CS2 with VConsole2, which might prevent you from joining servers unless properly configured."
+					"info": "This option requires Workshop Tools and runs HLAE.\nEnabling this option will let LHM use Scout Cinematic, as well as use Scout Vision in direct mode.\nThis option will launch CS2 in insecure mode - do not join VAC-protected servers (e.g. Faceit, matchmaking) unless as a CSTV spectator while it is enabled."
 				},
 				"tab": {
 					"title": "HUDs Tab",
@@ -854,8 +856,8 @@
 					"info": "Enabling this option and running the game with the config presented below or using the \"Run game\" button will disable the in-game radar to use the custom radar built into your HUDs."
 				},
 				"killfeed": {
-					"title": "Killfeed / Tools",
-					"info": "Enabling this option and running the game with the config presented below or using the \"Run game\" button will disable the in-game killfeed to use the custom killfeed built into your HUDs.\nThis option will launch CS2 in insecure mode - do not join VAC-protected servers (e.g. Faceit, matchmaking) unless as a CSTV spectator while it is enabled."
+					"title": "Custom Killfeed",
+					"info": "This option requires Workshop Tools and runs HLAE. \nEnabling this option and running the game with the config presented below or using the \"Run game\" button will disable the in-game killfeed to use the custom killfeed built into your HUDs.\nThis option will launch CS2 in insecure mode - do not join VAC-protected servers (e.g. Faceit, matchmaking) unless as a CSTV spectator while it is enabled."
 				},
 				"embeddedHUD": {
 					"title": "Embedded HUD",
@@ -1044,9 +1046,11 @@
 				"titleTeams": "Delete teams",
 				"titlePlayers": "Delete players",
 				"titleMatches": "Delete matches",
+				"titleTournaments": "Delete tournaments",
 				"infoTeams": "Are you sure you want to remove {{count}} teams?",
 				"infoPlayers": "Are you sure you want to remove {{count}} players?",
 				"infoMatches": "Are you sure you want to remove {{count}} matches?",
+				"infoTournaments": "Are you sure you want to remove {{count}} tournaments?",
 				"deleteWithPlayers": "Delete with players",
 				"deleteAll": "Delete All ({{count}})"
 			},
