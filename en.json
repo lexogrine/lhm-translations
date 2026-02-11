@@ -5,6 +5,9 @@
 			"or": "or",
 			"close": "Close",
 			"save": "Save",
+			"confirm": "Confirm",
+			"qualified": "Qualified",
+			"eliminated": "Eliminated",
 			"saveAndSend": "Save and send",
 			"saveAndRestart": "Save and restart",
 			"saveAndExit": "Save and exit",
@@ -35,6 +38,7 @@
 			"teamNumber": "TEAM #{{num}}",
 			"vetoNumber": "Veto {{num}}",
 			"delete": "Delete",
+			"delete-all": "Delete all",
 			"edit": "Edit",
 			"live": "Live",
 			"match": "Match",
@@ -43,6 +47,7 @@
 			"t": "T",
 			"no": "No",
 			"yes": "Yes",
+			"deleteAll": "Delete All",
 			"noDontAsk": "No, don't ask",
 			"csgo": {
 				"ct": "CT",
@@ -270,7 +275,11 @@
 			"startTestVideo": "Play Test Video",
 			"stopTestVideo": "Stop Test Video",
 			"testVideoBlocker": "You must have game running to play test video and players filled in the table above. Watch a demo, or play test data, and pick test player",
-			"testPlayer": "Test Player"
+			"testPlayer": "Test Player",
+			"delay": "Camera Delay in seconds",
+			"cameraQuality": "Camera Stream Quality",
+			"cameraWarningPlayer": "Connection to at least one of the players, marked by yellow dot, is obstructed by symmetric NAT. Usually it results in camera stream connection issues. It is recommended for the player to change the network connection and refresh the Camera page.",
+			"cameraWarningUser": "Your connection is obstructed by symmetric NAT. Usually it results in camera stream connection issues. It is recommended to change the network connection and restart LHM."
 		},
 		"addons": {
 			"upload": "Upload addon",
@@ -383,6 +392,11 @@
 			"page": "Tournament page",
 			"create": "Create new tournament",
 			"name": "Tournament name",
+			"groupAndPlayoffs": "Group & playoffs",
+			"playoffsCreated": "Playoffs have been successfully created",
+			"champion": "Champion",
+			"bracket": "Bracket",
+			"setScore": "Set score",
 			"uploadLogo": "Upload tournament logo",
 			"logoInfo": "Logo of the tournament will be available during the match",
 			"singleElimBracket": "Single Elimination Bracket",
@@ -391,6 +405,8 @@
 			"group": "Group",
 			"playoffs": "Play-offs",
 			"playoffType": "Playoff type",
+			"playoffsOnly": "Play-offs only",
+			"grouppAndPlayoffs": "Group + Play-offs",
 			"soon": "Soon",
 			"groupType": "Group type",
 			"participants": "Participants",
@@ -398,7 +414,22 @@
 			"amountOfTeams": "Amount of teams",
 			"amountOfRounds": "Amount of rounds",
 			"bindMatch": "Bind match to bracket",
-			"teamOrderList": "Teams order list"
+			"defaultBo": "Default Best Of Format",
+			"defaultBoEdit": "Default Best Of Format (For New Matches)",
+			"teamOrderList": "Teams order list",
+			"tournamentStructure": "Tournament structure",
+			"availableTeams": "Available teams",
+			"selectedTeams": "Selected teams",
+			"qualifiedTeams": "Qualified teams",
+			"qualified": "Qualified",
+			"eliminated": "Eliminated",
+			"groupFinished": "The group stage has finished. You can now create the playoffs - this step can only be performed once.",
+			"createPlayoffs": "Create playoffs",
+			"stageInProgress": "The group stage is still in progress. Playoff creation will be available once the group stage has finished.",
+			"missingMatches": "Missing Matches Detected",
+			"matchesDeleted": "Some matches have been deleted. Click below to restore all matches from the first missing round.",
+			"restoreAllMatches": "Restore all matches",
+			"noMatchesInStage": "No matches in the selected"
 		},
 		"match": {
 			"matches": "Matches",
@@ -640,7 +671,7 @@
 					"dota2ARG": "Play Dota 2 ARG",
 					"reverseSide": "Reverse sides",
 					"refreshHud": "Refresh HUD",
-					"toggleDirector": "Toggle ACO Director",
+					"toggleDirector": "Toggle Scout Vision",
 					"toggleScoutPredict": "Toggle Scout Predict",
 					"toggleScoutCinematic": "Toggle Scout Cinematic"
 				},
@@ -1013,6 +1044,10 @@
 					"title": "Camera Delay",
 					"info": "The Camera Delay is currently only supported in official, Lexogrine HUDs: Ultra & Premium HUDs"
 				},
+				"quality": {
+					"title": "Camera Stream Quality",
+					"info": "Higher quality camera streams can cause stutter on some computers and internet connections."
+				},
 				"tab": {
 					"title": "Cameras",
 					"info": "The Cameras module lets you display player webcam feeds inside your HUDs using LHM - no external tools are required."
@@ -1049,10 +1084,15 @@
 				"titleTournaments": "Delete tournaments",
 				"infoTeams": "Are you sure you want to remove {{count}} teams?",
 				"infoPlayers": "Are you sure you want to remove {{count}} players?",
+				"infoTournaments": "Are you sure you want to remove {{count}} tournaments?",
 				"infoMatches": "Are you sure you want to remove {{count}} matches?",
 				"infoTournaments": "Are you sure you want to remove {{count}} tournaments?",
 				"deleteWithPlayers": "Delete with players",
-				"deleteAll": "Delete All ({{count}})"
+				"deleteAll": "Delete All ({{count}})",
+				"single": {
+					"titleTournament": "Delete {{name}} tournament",
+					"infoTournament": "Are you sure you want to remove {{name}} tournament?"
+				}
 			},
 			"steamApiKeyMissing": {
 				"title": "Steam API Key Missing",
