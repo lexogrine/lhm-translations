@@ -66,6 +66,7 @@
 			},
 			"export": "Export",
 			"cancel": "Cancel",
+			"remindLater": "Remind later",
 			"next": "Next",
 			"finish": "Finish",
 			"understand": "I understand",
@@ -797,6 +798,65 @@
 				"linkCopied": "Link copied to clipboard",
 				"openingOverlay": "Opening HUD in overlay...",
 				"createShortcut": "Create shortcut on desktop"
+			},
+			"share": {
+				"actions": {
+					"share": "Share"
+				},
+				"modal": {
+					"title": "Share HUD",
+					"description": "Send this HUD to another user by email.",
+					"disclaimer": "The recipient will see your LHM username when they receive this share.",
+					"workspaceOwnerDisclaimer": "This HUD belongs to workspace \"{{workspace}}\". Because you are not the workspace owner, the invitation will be sent on behalf of the main Enterprise account.",
+					"emailLabel": "Recipient email",
+					"emailPlaceholder": "name@example.com",
+					"expiryLabel": "Access duration",
+					"expiry": {
+						"week": "7 days",
+						"month": "30 days",
+						"custom": "Custom date",
+						"never": "No expiration"
+					},
+					"customExpiryWarning": "After the selected expiration date, the HUD may remain available for up to one hour.",
+					"submit": "Send invite"
+				},
+				"pending": {
+					"title": "Pending HUD share invitations",
+					"description": "You received a shared HUD invitation:",
+					"unknownSender": "Unknown sender",
+					"unnamedHud": "Unnamed HUD",
+					"unknownGame": "Unknown game",
+					"game": "Game: {{game}}",
+					"size": "Size: {{size}}",
+					"sharedBy": "Shared by {{sender}}",
+					"acceptToWorkspace": "Accept to workspace",
+					"acceptToWorkspaces": "Accept to workspaces",
+					"mainWorkspace": "My account",
+					"workspaceUnavailableTitle": "Workspace unavailable",
+					"acceptingInfo": "Please wait while we copy the shared HUD to your selected workspace(s).",
+					"expiresAt": "Expires: {{expiresAt}}",
+					"upgradeRequired": "This HUD is larger than your current plan storage limit. Upgrade your plan to accept it.",
+					"enterpriseStorageRequired": "This workspace does not have enough storage for this HUD. Remove some workspace data to accept the HUD.",
+					"enterpriseSelectionLimit": "This workspace shares storage with your other selected enterprise workspaces. Remove some data or deselect another workspace to accept the HUD.",
+					"notEnoughFreeSpace": "You don't have enough free cloud space to accept this HUD right now. Free up space to accept the HUD.",
+					"never": "Never",
+					"progress": "Invitation {{current}} of {{total}}"
+				},
+				"meta": {
+					"sharedBy": "Shared by {{sender}}",
+					"unknownSender": "Unknown sender",
+					"expiresAt": "Expires {{expiresAt}}"
+				},
+				"notifications": {
+					"created": "HUD sharing invitation sent successfully.",
+					"error": "Unable to send the sharing invitation. Please try again.",
+					"manageShares": "Manage shares",
+					"errors": {
+						"SHARE_LIMIT_REACHED": "Maximum number of active shares reached.",
+						"SHARE_SELF": "You cannot share a HUD with yourself.",
+						"SHARE_ALREADY_EXISTS": "This HUD is already shared with that user."
+					}
+				}
 			},
 			"warning": {
 				"csgoHUDinCS2": "This HUD was made for CS:GO. It is not guaranteed that all of its features will work in the same manner in CS2.",
