@@ -593,6 +593,11 @@
 			"dota2Assets": "Dota 2 Assets",
 			"autoHalfSwitch": "Auto half switch (Experimental)",
 			"autoSwitch": "Auto switch",
+			"overrideCS2PlayerKeybinds": "Override CS2 player keybinds",
+			"overrideCS2PlayerKeybindsModal": {
+				"title": "CS2 keybind override",
+				"info": "This setting unbinds keys 1-0 in CS2 while it's enabled. Turn this setting off to restore those keybinds."
+			},
 			"header": "Settings",
 			"subheaders": {
 				"lhm": "LHM",
