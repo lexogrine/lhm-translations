@@ -97,7 +97,6 @@
 			"downloadTemplate": "Download template",
 			"clickAndCopy": "Click & Copy",
 			"swap": "Swap"
-			
 		},
 		"chat": {
 			"title": "Support Chat",
@@ -431,7 +430,6 @@
 			"missingMatches": "Missing Matches Detected",
 			"matchesDeleted": "Some matches have been deleted. Click below to restore all matches from the first missing round.",
 			"restoreAllMatches": "Restore all matches"
-			
 		},
 		"match": {
 			"matches": "Matches",
@@ -562,7 +560,8 @@
 					"title": "LHM Replay Request",
 					"anotherLhmInTheLocal": "Another LHM in the local network wants this PC to be used as Replay machine",
 					"doYouWish": "Do you wish to accept the incoming connection?"
-				}
+				},
+				"vmixConfiguration": "Configure VMix"
 			}
 		},
 		"settings": {
@@ -579,6 +578,7 @@
 			"cloudSynchronization": "Cloud Synchronization",
 			"hudConfigCloudSynchronization": "HUD Settings Cloud Synchronization",
 			"hudTogglesCloudSynchronization": "HUD Toggles Cloud Synchronization",
+			"sharedConfigCloudSynchronization": "Shared Config Cloud Synchronization",
 			"valorantWindowTitleOverride": "Valorant Window Title Override",
 			"valorantServerMode": "Data Gathering Mode",
 			"valorantReadLanguage": "Valorant Game Language",
@@ -594,6 +594,11 @@
 			"autoHalfSwitch": "Auto half switch (Experimental)",
 			"autoSwitch": "Auto switch",
 			"overrideCS2PlayerKeybinds": "Override CS2 player keybinds",
+			"overrideCS2PlayerKeybindsOptions": {
+				"no": "No",
+				"focused": "Yes, when CS2 window is focused",
+				"always": "Yes, always"
+			},
 			"overrideCS2PlayerKeybindsModal": {
 				"title": "CS2 keybind override",
 				"info": "This setting unbinds keys 1-0 in CS2 while it's enabled. Turn this setting off to restore those keybinds."
@@ -919,6 +924,12 @@
 			"deviceLockWorkspace": {
 				"title": "Device limit exceeded",
 				"info": "It seems like the workspace is being used on more devices than the amount of seats its plan has.\nWait for the device lock to expire or upgrade your Enterprise plan to accomodate more devices."
+			},
+			"settings": {
+				"sharedConfigSync": {
+					"title": "Shared config synchronization",
+					"info": "This synchronizes shared config data between your devices and workspace. Currently it includes XRAY colors and XRAY enabled/disabled state, and it may include more shared settings in the future."
+				}
 			},
 			"huds": {
 				"killfeedOffset": {
