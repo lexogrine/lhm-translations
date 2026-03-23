@@ -272,6 +272,7 @@
         "players": "Players",
         "observed-player": "Observed player",
         "killfeed": "Killfeed",
+        "round-history": "Round History",
         "mapseries": "Map Series",
         "asset": "Asset",
         "winbox": "WinBox",
@@ -279,6 +280,10 @@
         "tournament-info": "Tournament Info",
         "scout": "Scout",
         "radar": "Radar",
+        "anims-plant": "Anims Plant",
+        "anims-defuse-short": "Anims Defuse Short",
+        "anims-defuse-long": "Anims Defuse Long",
+        "anims-defuse": "Anims Defuse",
         "anims": "Anims"
       },
       "huds": {
@@ -289,7 +294,9 @@
       },
       "layouts": {
         "vertical": "Vertical",
-        "horizontal": "Horizontal"
+        "horizontal": "Horizontal",
+        "horizontal-top": "Horizontal Top",
+        "horizontal-bottom": "Horizontal Bottom"
       },
       "positions": {
         "left-players": "Left Players",
