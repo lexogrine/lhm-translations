@@ -162,7 +162,8 @@
       "settings": "Asetukset",
       "credits": "Krediitit",
       "quick": "Nopea",
-      "chat": "Tukikeskustelu"
+      "chat": "Tukikeskustelu",
+      "composer": "Composer"
     },
     "aco": {
       "disabled": "Disabloitu",

@@ -162,7 +162,8 @@
       "settings": "Настройки",
       "credits": "Кредиты",
       "quick": "Quick",
-      "chat": "Чат поддержки"
+      "chat": "Чат поддержки",
+      "composer": "Composer"
     },
     "aco": {
       "disabled": "Отключено",

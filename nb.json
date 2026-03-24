@@ -162,7 +162,8 @@
       "settings": "Innstillinger",
       "credits": "Medvirkende",
       "quick": "Hurtig",
-      "chat": "Support Chat"
+      "chat": "Support Chat",
+      "composer": "Composer"
     },
     "aco": {
       "disabled": "Deaktivert",

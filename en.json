@@ -169,7 +169,8 @@
       "settings": "Settings",
       "credits": "Credits",
       "quick": "Quick",
-      "chat": "Support Chat"
+      "chat": "Support Chat",
+      "composer": "Composer"
     },
     "aco": {
       "disabled": "Disabled",
