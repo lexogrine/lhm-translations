@@ -653,6 +653,8 @@
       "cloudSynchronization": "Cloud Synchronization",
       "hudConfigCloudSynchronization": "HUD Settings Cloud Synchronization",
       "hudTogglesCloudSynchronization": "HUD Toggles Cloud Synchronization",
+      "sharedConfigCloudSynchronization": "Shared Config Cloud Synchronization",
+      "sharedConfigSync": "Shared Config Cloud Synchronization",
       "valorantWindowTitleOverride": "Valorant Window Title Override",
       "valorantServerMode": "Data Gathering Mode",
       "valorantReadLanguage": "Valorant Game Language",
@@ -667,6 +669,16 @@
       "dota2Assets": "Dota 2 Assets",
       "autoHalfSwitch": "Auto half switch (Experimental)",
       "autoSwitch": "Auto switch",
+      "overrideCS2PlayerKeybinds": "Override CS2 Player Keybinds",
+      "overrideCS2PlayerKeybindsOptions": {
+        "no": "No",
+        "focused": "When LHM is focused",
+        "always": "Always"
+      },
+      "overrideCS2PlayerKeybindsModal": {
+        "title": "Override CS2 Player Keybinds",
+        "info": "This option sets CS2 keybinds 1-0 to match observer player slots shown on the HUD, which is useful when coaches are present on the server.\nTo reset the keybinds, you must turn this option off while CS2 is running."
+      },
       "header": "Settings",
       "subheaders": {
         "lhm": "LHM",
@@ -1209,6 +1221,10 @@
         }
       },
       "settings": {
+        "sharedConfigSync": {
+          "title": "Shared Config Cloud Synchronization",
+          "info": "When enabled, Shared Config sections (for example XRAY settings) are synchronized with LHM Cloud, so they can stay consistent across your devices/workspaces.\nDisable this if you want to keep Shared Config changes local only."
+        },
         "ipAddressOverride": {
           "title": "IP Address Override",
           "info": "Use this only if LHM detects a wrong private network address (for example when a VPN is active).\nSet the local IP address that your HUD/browser sources should use.\nRestart LHM after changing this value for it to take effect."
