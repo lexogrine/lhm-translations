@@ -769,7 +769,8 @@
         "config": {
           "status": "Configs",
           "add": "Add config files",
-          "overrideIp": "IP Address Override"
+          "overrideIp": "IP Address Override",
+          "slowMode": "Slow Mode"
         },
         "credits": {
           "credits": "Credits",
@@ -1211,6 +1212,10 @@
         "ipAddressOverride": {
           "title": "IP Address Override",
           "info": "Use this only if LHM detects a wrong private network address (for example when a VPN is active).\nSet the local IP address that your HUD/browser sources should use.\nRestart LHM after changing this value for it to take effect."
+        },
+        "slowMode": {
+          "title": "Slow Mode",
+          "info": "Slow Mode sends API requests through a queue to reduce burst traffic. This can help in restrictive country-wide firewall environments.\nRestart LHM after changing this value for it to take effect."
         }
       }
     },
