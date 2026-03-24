@@ -146,7 +146,7 @@
         "cgmode": "CG Mode incorporates the most essential modules for broadcasting operations in a compact form.\nFrom this tab, you can manage your matches, teams, players, and Live game on one screen.\nUpgrade your LHM to a Personal, Professional or Enterprise plan to get full access to this section.",
         "arg": "Automatization is the next frontier - and here in Lexogrine we are determined to cross it! Auto Replay Generator fully automates the replay system. ARG - based on defined criteria - tracks every event in the game to automatically capture the most crucial moments and display breathtaking replays between the rounds. All you need to have is vMix or OBS.\nUpgrade your LHM to a Personal, Professional or Enterprise plan to get full access to this section.",
         "addons": "Addons are a new way to create integrations with LHM.\nUp until this point, only the custom HUD's code had access to game data feed, which meant whatever you wanted to do, it had to be done in the browser environment.\nAddons work on server environments - they are basically NodeJS apps with a GSI Event emitter hooked into them. It means that you don't need to create a custom HTTP server with a parser just to receive information from supported games (CS2, Dota 2), you have all that out of the box, so you can focus on integrations and features you want to create.\nUpgrade your LHM to a Personal, Professional or Enterprise plan to get full access to this section.",
-        "composer": "Composer lets you build and customize your HUD layout with drag-and-drop controls and visual presets.\nUpgrade your LHM with access to UltraHUD to use this section.",
+        "composer": "Composer lets you build and customize your HUD layout with drag-and-drop controls and visual presets.\nUpgrade your LHM to a Professional or Enterprise plan with at least 3 seats to get full access to this section.",
         "aco": "It's impossible to capture every action in a perfect way and from an ideal perspective - but Scout comes really close to that. Our own AI learns from thousands of games to capture the most spicy events on its own, without human input.\nUpgrade your LHM to a Personal plan to get access to all Scout AI modules - Scout Vision, Scout Predict and Scout Cinematic.",
         "cameras": "Our camera system is super easy to use and will save you a huge amount of setup time - both for organizers and for players. No excessively complicated and time-consuming production software configuration, no hardware issues.\nConnect the camera and assign it to a player in LHM. Launch the HUD and smile at the audience.\nUpgrade your LHM to a Personal, Professional or Enterprise plan to get full access to this section.",
         "signals": "LHM Signals is our custom integration with Bitfocus Companion app.\nOur goal is to help with automation of predictable, in-game events. Signals take care of that, and allow to trigger Companion buttons on specified game events.\nUpgrade your LHM to a Personal, Professional or Enterprise plan to get full access to this section."
@@ -767,7 +767,8 @@
         },
         "config": {
           "status": "Configs",
-          "add": "Add config files"
+          "add": "Add config files",
+          "overrideIp": "IP Address Override"
         },
         "credits": {
           "credits": "Credits",
@@ -1203,6 +1204,12 @@
         "cta": {
           "title": "Need to add more events?",
           "info": "Upgrade your plan to get access to unlimited events with advanced options like ability to create event branches and presets!"
+        }
+      },
+      "settings": {
+        "ipAddressOverride": {
+          "title": "IP Address Override",
+          "info": "Use this only if LHM detects a wrong private network address (for example when a VPN is active).\nSet the local IP address that your HUD/browser sources should use.\nRestart LHM after changing this value for it to take effect."
         }
       }
     },
