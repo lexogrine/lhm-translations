@@ -162,7 +162,8 @@
       "settings": "설정",
       "credits": "크레딧",
       "quick": "Quick",
-      "chat": "지원 채팅"
+      "chat": "지원 채팅",
+      "composer": "Composer"
     },
     "aco": {
       "disabled": "Disabled",

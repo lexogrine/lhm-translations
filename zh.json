@@ -162,7 +162,8 @@
       "settings": "设置",
       "credits": "积分",
       "quick": "快速",
-      "chat": "支持聊天"
+      "chat": "支持聊天",
+      "composer": "Composer"
     },
     "aco": {
       "disabled": "禁用",
