@@ -817,6 +817,11 @@
     },
     "huds": {
       "header": "HUDs",
+      "workshopToolsModal": {
+        "title": "CS2 Workshop Tools Not Found",
+        "info": "Counter-Strike 2 Workshop Tools (Steam app 2279721) were not detected. They are recommended when launching CS2 with Killfeed or Scout AI enabled.",
+        "launchAnyway": "Launch Anyway"
+      },
       "config": {
         "customRadar": "Radar",
         "customKillfeed": "Custom Killfeed",
