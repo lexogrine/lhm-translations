@@ -239,7 +239,8 @@
       "scoutCinematicAction": {
         "label": "Action Cinematic"
       },
-      "scoutPausedTip": "Scout AI is paused because no running game was detected."
+      "scoutPausedTip": "Scout AI is paused because no running game was detected.",
+      "xrayWarning": "For X-ray to work correctly, CS2 must be launched with Scout/X-Ray option turned on."
     },
     "composer": {
       "componentsTitle": "Components",
@@ -819,7 +820,7 @@
       "header": "HUDs",
       "workshopToolsModal": {
         "title": "CS2 Workshop Tools Not Found",
-        "info": "Counter-Strike 2 Workshop Tools DLC was not detected. It is required to use with LHM when launching CS2 with Killfeed or Scout AI enabled. It is recommended to download it through Steam and trying again.",
+        "info": "Counter-Strike 2 Workshop Tools DLC was not detected. It is required to use with LHM when launching CS2 with Killfeed or Scout AI enabled. It is recommended to download it through Steam and to try again.",
         "launchAnyway": "Launch Anyway"
       },
       "config": {
@@ -1069,7 +1070,7 @@
           "info": "\"Run game\" button will launch the game with the config presented below when this option is enabled."
         },
         "xray": {
-          "title": "XRay",
+          "title": "X-Ray",
           "info": "With this option you can set custom colors for player borders in the game."
         },
         "runTest": {
@@ -1236,7 +1237,7 @@
       "settings": {
         "sharedConfigSync": {
           "title": "Shared Config Cloud Synchronization",
-          "info": "When enabled, Shared Config sections (for example XRAY settings) are synchronized with LHM Cloud, so they can stay consistent across your devices/workspaces.\nDisable this if you want to keep Shared Config changes local only."
+          "info": "When enabled, Shared Config sections (for example X-Ray settings) are synchronized with LHM Cloud, so they can stay consistent across your devices/workspaces.\nDisable this if you want to keep Shared Config changes local only."
         },
         "ipAddressOverride": {
           "title": "IP Address Override",
