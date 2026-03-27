@@ -850,6 +850,14 @@
         "newest": "Newest",
         "oldest": "Oldest"
       },
+      "categories": {
+        "createTitle": "Create Category",
+        "renameTitle": "Rename Category",
+        "deleteTitle": "Delete {{name}} category",
+        "name": "Category name",
+        "ungrouped": "Ungrouped",
+        "deleteInfo": "Are you sure you want to remove {{name}} category? This action will not remove any HUDs."
+      },
       "fields": {
         "missing": "Missing fields",
         "fieldOfType": "Field \"{{field}}\" of type \"{{type}}\"",
