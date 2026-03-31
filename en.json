@@ -171,7 +171,8 @@
       "credits": "Credits",
       "quick": "Quick",
       "chat": "Support Chat",
-      "composer": "Composer"
+      "composer": "Composer",
+      "xray": "X-Ray"
     },
     "aco": {
       "disabled": "Disabled",
