@@ -149,7 +149,8 @@
         "composer": "Composer lets you build and customize your HUD layout with drag-and-drop controls and visual presets.\nUpgrade your LHM to a Professional or Enterprise plan with at least 3 seats to get full access to this section.",
         "aco": "It's impossible to capture every action in a perfect way and from an ideal perspective - but Scout comes really close to that. Our own AI learns from thousands of games to capture the most spicy events on its own, without human input.\nUpgrade your LHM to a Personal plan to get access to all Scout AI modules - Scout Vision, Scout Predict and Scout Cinematic.",
         "cameras": "Our camera system is super easy to use and will save you a huge amount of setup time - both for organizers and for players. No excessively complicated and time-consuming production software configuration, no hardware issues.\nConnect the camera and assign it to a player in LHM. Launch the HUD and smile at the audience.\nUpgrade your LHM to a Personal, Professional or Enterprise plan to get full access to this section.",
-        "signals": "LHM Signals is our custom integration with Bitfocus Companion app.\nOur goal is to help with automation of predictable, in-game events. Signals take care of that, and allow to trigger Companion buttons on specified game events.\nUpgrade your LHM to a Personal, Professional or Enterprise plan to get full access to this section."
+        "signals": "LHM Signals is our custom integration with Bitfocus Companion app.\nOur goal is to help with automation of predictable, in-game events. Signals take care of that, and allow to trigger Companion buttons on specified game events.\nUpgrade your LHM to a Personal, Professional or Enterprise plan to get full access to this section.",
+        "xray": "LHM X-RAY lets you customize CS2 X-RAY colors - players outlines, names and grenade trails, setting differently them per team.\nUpgrade your LHM to a Personal, Professional or Enterprise plan to get full access to this section."
       }
     },
     "titles": {
@@ -678,7 +679,7 @@
       },
       "overrideCS2PlayerKeybindsModal": {
         "title": "Override CS2 Player Keybinds",
-        "info": "This option sets CS2 keybinds 1-0 to match observer player slots shown on the HUD, which is useful when coaches are present on the server.\nTo reset the keybinds, you must turn this option off while CS2 is running."
+        "info": "This option sets CS2 keybinds 1-0 to match observer player slots shown on the HUD, which is useful when coaches are present on the server.\nTo store the keybinds, you must turn this option off while CS2 is running."
       },
       "header": "Settings",
       "subheaders": {
