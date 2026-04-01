@@ -409,7 +409,9 @@
         "title": "Create a new preset",
         "placeholder": "Preset name",
         "clone": "Copy from current preset",
-        "createNew": "Create empty"
+        "createNew": "Create empty",
+        "createFromDefault": "Create default",
+        "createBlank": "Create blank"
       },
       "activate": "{{ name }} is not active",
       "deactivate": "{{ name }} is active",
