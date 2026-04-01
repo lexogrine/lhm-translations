@@ -242,7 +242,7 @@
         "label": "Action Cinematic"
       },
       "scoutPausedTip": "Scout AI is paused because no running game was detected.",
-      "xrayWarning": "For X-ray to work correctly, CS2 must be launched with Scout/X-Ray option turned on."
+      "xrayWarning": "For X-Ray to work correctly, CS2 must be launched with Scout/X-Ray option turned on."
     },
     "composer": {
       "componentsTitle": "Components",
