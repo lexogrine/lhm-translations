@@ -657,6 +657,7 @@
       "cloudSynchronization": "Cloud Synchronization",
       "hudConfigCloudSynchronization": "HUD Settings Cloud Synchronization",
       "hudTogglesCloudSynchronization": "HUD Toggles Cloud Synchronization",
+      "hudOrdersCloudSynchronization": "HUD Orders Cloud Synchronization",
       "sharedConfigCloudSynchronization": "Shared Config Cloud Synchronization",
       "sharedConfigSync": "Shared Config Cloud Synchronization",
       "valorantWindowTitleOverride": "Valorant Window Title Override",
