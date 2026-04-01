@@ -150,7 +150,7 @@
         "aco": "It's impossible to capture every action in a perfect way and from an ideal perspective - but Scout comes really close to that. Our own AI learns from thousands of games to capture the most spicy events on its own, without human input.\nUpgrade your LHM to a Personal plan to get access to all Scout AI modules - Scout Vision, Scout Predict and Scout Cinematic.",
         "cameras": "Our camera system is super easy to use and will save you a huge amount of setup time - both for organizers and for players. No excessively complicated and time-consuming production software configuration, no hardware issues.\nConnect the camera and assign it to a player in LHM. Launch the HUD and smile at the audience.\nUpgrade your LHM to a Personal, Professional or Enterprise plan to get full access to this section.",
         "signals": "LHM Signals is our custom integration with Bitfocus Companion app.\nOur goal is to help with automation of predictable, in-game events. Signals take care of that, and allow to trigger Companion buttons on specified game events.\nUpgrade your LHM to a Personal, Professional or Enterprise plan to get full access to this section.",
-        "xray": "LHM X-RAY lets you customize CS2 X-RAY colors - players outlines, names and grenade trails, setting differently them per team.\nUpgrade your LHM to a Personal, Professional or Enterprise plan to get full access to this section."
+        "xray": "LHM X-RAY lets you customize CS2 X-RAY colors - players outlines, names and grenade trails, setting them differently per team.\nUpgrade your LHM to a Personal, Professional or Enterprise plan to get full access to this section."
       }
     },
     "titles": {
@@ -655,9 +655,9 @@
       "serversUnreachable": "It seems that our servers are unreachable. Please try again in a few minutes",
       "preInstalled": "Use pre-installed",
       "cloudSynchronization": "Cloud Synchronization",
-      "hudConfigCloudSynchronization": "HUD Settings Cloud Synchronization",
+      "hudConfigCloudSynchronization": "Composer and HUD Settings Cloud Synchronization",
       "hudTogglesCloudSynchronization": "HUD Toggles Cloud Synchronization",
-      "hudOrdersCloudSynchronization": "HUD Orders Cloud Synchronization",
+      "hudOrdersCloudSynchronization": "HUDs Order Cloud Synchronization",
       "sharedConfigCloudSynchronization": "Shared Config Cloud Synchronization",
       "sharedConfigSync": "Shared Config Cloud Synchronization",
       "valorantWindowTitleOverride": "Valorant Window Title Override",
