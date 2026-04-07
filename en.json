@@ -285,11 +285,11 @@
         "tournament-info": "Tournament Info",
         "scout": "Scout Predict",
         "radar": "Radar",
-        "anims-plant": "Anims Plant",
-        "anims-defuse-short": "Anims Defuse Short",
-        "anims-defuse-long": "Anims Defuse Long",
-        "anims-defuse": "Anims Defuse",
-        "anims": "Anims"
+        "anims-plant": "Animation Plant",
+        "anims-defuse-short": "Animation Defuse Short",
+        "anims-defuse-long": "Animation Defuse Long",
+        "anims-defuse": "Animation Defuse",
+        "anims": "Animation"
       },
       "huds": {
         "ultrahud": "Ultra HUD",
