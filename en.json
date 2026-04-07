@@ -256,6 +256,7 @@
       "layout": "Layout",
       "position": "Position",
       "fontFamily": "Font Family",
+      "fileTooLarge": "File is too large. Maximum size is {{limit}} MB.",
       "fontSize": "Font Size",
       "uhudMatchbarTeamNameFontSize": "Team Name Font Size",
       "uhudMatchbarScoreFontSize": "Score Font Size",
