@@ -205,7 +205,7 @@
       "aco1Description": "Um equilíbrio entre controlo e automação.\nAjudem os vossos observadores com um conjunto de instruções escritas manualmente para o ACO.",
       "aco-aiDescription": "Sente-se enquanto os algoritmos avançados do ACO AI controlam o seu fluxo.",
       "aco-ai-scoutDescription": "Deixa o nosso mais recente sistema de previsão de jogos assumir o controlo.\nEm breve.",
-      "aco-ai-scoutDescription-disconnected": "Deixa que o nosso mais recente sistema de observação de jogos com IA assuma o comando. Os servidores Scout podem estar indisponíveis de momento.",
+      "aco-ai-scoutDescription-disconnected": "Deixe o observador de IA assistir à partida sem qualquer intervenção do utilizador.\nOs servidores Scout podem estar indisponíveis no momento.",
       "scoutCinematicDescription": "Mostre belas cenas cinematográficas durante os intervalos das partidas.",
       "scoutPredictDescription": "Exiba previsões de resultados de partidas ao vivo diretamente na sua transmissão.",
       "scoutCinematic": "Usa o Cinematic Scout",
@@ -523,11 +523,11 @@
         "placeholder": "Nome da predefinição",
         "clone": "Copiar da predefinição atual",
         "createNew": "Criar vazio",
-        "createFromDefault": "Criar em branco",
-        "createBlank": "Grupo & Playoffs"
+        "createFromDefault": "Criar padrão",
+        "createBlank": "Criar em branco"
       },
-      "activate": "{Não está ativo",
-      "deactivate": "{Está ativo",
+      "activate": "{{ name }} não está ativo",
+      "deactivate": "{{ name }} está ativo",
       "addBranch": "Adicionar ramo",
       "event": "Evento",
       "addEvent": "Adicionar evento",
@@ -672,8 +672,8 @@
       },
       "chooseTeam": "Escolher equipa",
       "vetoSidepick": {
-        "normal": "escolhe o lado {{secondTeamName}}",
-        "decider": "{Decisão"
+        "normal": "{{secondTeamName}} escolhe o lado {{side}}",
+        "decider": "{{mapName}} desempate"
       },
       "vetoUrlModal": {
         "title": "Gerar link da aplicação Veto",
@@ -972,11 +972,11 @@
       },
       "categories": {
         "createTitle": "Renomear categoria",
-        "renameTitle": "Excluir categoria {{name}}",
-        "deleteTitle": "Nome da categoria",
+        "renameTitle": "Renomear categoria",
+        "deleteTitle": "Excluir categoria {{name}}",
         "name": "Desagrupar",
-        "ungrouped": "Tem certeza de que deseja remover a categoria {{name}}? Esta ação não removerá nenhum HUD.",
-        "deleteInfo": "Compartilhar"
+        "ungrouped": "Desagrupar",
+        "deleteInfo": "Tem certeza de que deseja remover a categoria {{name}}? Esta ação não removerá nenhum HUD."
       },
       "fields": {
         "missing": "Campos em falta",
@@ -1028,8 +1028,8 @@
         "modal": {
           "title": "Enviar este HUD para outro usuário por e-mail.",
           "description": "O destinatário verá seu nome de usuário do LHM ao receber este compartilhamento.",
-          "disclaimer": "Este HUD pertence ao espaço de trabalho \"{{workspace}}\". Como você não é o proprietário do espaço de trabalho, o convite será enviado em nome da conta principal da empresa.",
-          "workspaceOwnerDisclaimer": "E-mail do destinatário",
+          "disclaimer": "O destinatário verá seu nome de usuário do LHM ao receber este compartilhamento.",
+          "workspaceOwnerDisclaimer": "Este HUD pertence ao espaço de trabalho \"{{workspace}}\". Como você não é o proprietário do espaço de trabalho, o convite será enviado em nome da conta principal da empresa.",
           "emailLabel": "nome@exemplo.com",
           "emailPlaceholder": "Duração do acesso",
           "expiryLabel": "7 dias",
@@ -1047,27 +1047,27 @@
           "description": "Remetente desconhecido",
           "unknownSender": "HUD sem nome",
           "unnamedHud": "Jogo desconhecido",
-          "unknownGame": "Jogo: {{game}}",
-          "game": "Tamanho: {{size}}",
-          "size": "Compartilhado por {{sender}}",
-          "sharedBy": "Aceitar no espaço de trabalho",
+          "unknownGame": "Jogo desconhecido",
+          "game": "Jogo: {{game}}",
+          "size": "Tamanho: {{size}}",
+          "sharedBy": "Compartilhado por {{sender}}",
           "acceptToWorkspace": "Aceitar nos espaços de trabalho",
           "acceptToWorkspaces": "Minha conta",
           "mainWorkspace": "Espaço de trabalho indisponível",
           "workspaceUnavailableTitle": "Aguarde enquanto copiamos o HUD compartilhado para o(s) espaço(s) de trabalho selecionado(s).",
-          "acceptingInfo": "Expira em: {{expiresAt}}",
-          "expiresAt": "Este HUD é maior que o limite de armazenamento do seu plano atual. Atualize seu plano para aceitá-lo.",
+          "acceptingInfo": "Aguarde enquanto copiamos o HUD compartilhado para o(s) espaço(s) de trabalho selecionado(s).",
+          "expiresAt": "Expira em: {{expiresAt}}",
           "upgradeRequired": "Este espaço de trabalho não tem armazenamento suficiente para este HUD. Remova alguns dados do espaço de trabalho para aceitar o HUD.",
           "enterpriseStorageRequired": "Este espaço de trabalho compartilha armazenamento com seus outros espaços de trabalho corporativos selecionados. Remova alguns dados ou desmarque outro espaço de trabalho para aceitar o HUD.",
           "enterpriseSelectionLimit": "Você não tem espaço livre suficiente na nuvem para aceitar este HUD no momento. Libere espaço para aceitar o HUD.",
           "notEnoughFreeSpace": "Nunca",
-          "never": "Convite {{current}} de {{total}}",
-          "progress": "Compartilhado por {{sender}}"
+          "never": "Nunca",
+          "progress": "Convite {{current}} de {{total}}"
         },
         "meta": {
-          "sharedBy": "Remetente desconhecido",
-          "unknownSender": "Expira em {{expiresAt}}",
-          "expiresAt": "Convite de compartilhamento de HUD enviado com sucesso."
+          "sharedBy": "Compartilhado por {{sender}}",
+          "unknownSender": "Remetente desconhecido",
+          "expiresAt": "Expira em {{expiresAt}}"
         },
         "notifications": {
           "created": "Não foi possível enviar o convite de compartilhamento. Tente novamente.",
@@ -1377,10 +1377,10 @@
         "titleTeams": "Eliminar equipas",
         "titlePlayers": "Apagar jogadores",
         "titleMatches": "Eliminar partidas",
-        "titleTournaments": "Tem certeza de que deseja remover {{count}} torneios?",
+        "titleTournaments": "Eliminar torneios",
         "infoTeams": "Tem a certeza que quer remover as equipas?",
         "infoPlayers": "Tem a certeza que quer remover {{count}} jogadores?",
-        "infoTournaments": "Excluir torneio {{name}}",
+        "infoTournaments": "Tem a certeza de que quer remover {{count}} torneios?",
         "infoMatches": "Tens a certeza que queres apagar os jogos {{count}}?",
         "deleteWithPlayers": "Apagar com jogadores",
         "deleteAll": "Apagar tudo ({{count}})",

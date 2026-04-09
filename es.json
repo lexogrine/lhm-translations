@@ -205,7 +205,7 @@
       "aco1Description": "Equilibrio entre control y automatización.\nAyude a sus observadores con un conjunto de instrucciones escritas manualmente para ACO.",
       "aco-aiDescription": "Siéntese mientras los avanzados algoritmos de la IA de ACO controlan su retransmisión.",
       "aco-ai-scoutDescription": "Deje que nuestro nuevo sistema de predicción de partidos tome el timón.\nPróximamente.",
-      "aco-ai-scoutDescription-disconnected": "Deje que nuestro último sistema de observación de partidos de inteligencia artificial tome el timón.",
+      "aco-ai-scoutDescription-disconnected": "Deja que el observador de IA siga la partida sin intervención del usuario.\nLos servidores de Scout pueden no estar disponibles en este momento.",
       "scoutCinematicDescription": "Muestra hermosas tomas cinematográficas durante los descansos de los partidos.",
       "scoutPredictDescription": "Muestra predicciones de resultados de partidos en vivo directamente en tu transmisión.",
       "scoutCinematic": "Usar explorador cinematográfico",
@@ -363,8 +363,8 @@
         "sponsorImage": "Archivo de recursos",
         "assetFile": "Ninguna imagen seleccionada",
         "noImagesSelected": "1 imagen seleccionada",
-        "oneImageSelected": "{{count}} imágenes seleccionadas",
-        "imagesSelected": "Archivo de planta",
+        "oneImageSelected": "1 imagen seleccionada",
+        "imagesSelected": "{{count}} imágenes seleccionadas",
         "plantFile": "Archivo corto de desactivación",
         "defuseShortFile": "Archivo largo de desactivación",
         "defuseLongFile": "Personalizado"
@@ -659,7 +659,7 @@
       "vetoType": {
         "pick": "pick",
         "ban": "ban",
-        "decider": "decider"
+        "decider": "desempate"
       },
       "editVeto": "Editar Veto",
       "vetoSide": {
@@ -673,7 +673,7 @@
       "chooseTeam": "Elige equipo",
       "vetoSidepick": {
         "normal": "{{secondTeamName}} elige equipo {{side}}",
-        "decider": "decider"
+        "decider": "{{mapName}} decisivo"
       },
       "vetoUrlModal": {
         "title": "Generar enlace de aplicación Veto",
@@ -971,12 +971,12 @@
         "oldest": "Más antiguo"
       },
       "categories": {
-        "createTitle": "Eliminar la categoría {{name}}",
-        "renameTitle": "Nombre de la categoría",
-        "deleteTitle": "Desagrupada",
-        "name": "¿Está seguro de que desea eliminar la categoría {{name}}? Esta acción no eliminará ningún HUD.",
-        "ungrouped": "Enlace copiado al portapapeles",
-        "deleteInfo": "Abriendo HUD en superposición..."
+        "createTitle": "Crear categoría",
+        "renameTitle": "Renombrar categoría",
+        "deleteTitle": "Eliminar categoría",
+        "name": "Nombre de la categoría",
+        "ungrouped": "Sin agrupar",
+        "deleteInfo": "¿Está seguro de que desea eliminar la categoría {{name}}? Esta acción no eliminará ningún HUD."
       },
       "fields": {
         "missing": "Campos que faltan",
@@ -1017,66 +1017,66 @@
         "toggleHUD": "Alternar HUD (sólo incrustado)",
         "toggleHUDKeybinds": "Activar combinaciones de teclas del HUD (para fuente de navegador)",
         "clickToCopy": "Haga clic para copiar",
-        "linkCopied": "Compartir",
-        "openingOverlay": "Compartir HUD",
+        "linkCopied": "Enlace copiado al portapapeles",
+        "openingOverlay": "Abriendo HUD en superposición...",
         "createShortcut": "Crear acceso directo en el escritorio"
       },
       "share": {
         "actions": {
-          "share": "Enviar este HUD a otro usuario por correo electrónico."
+          "share": "Compartir"
         },
         "modal": {
-          "title": "El destinatario verá su nombre de usuario de LHM al recibir este correo compartido.",
-          "description": "Este HUD pertenece al espacio de trabajo \"{{workspace}}\". Dado que usted no es el propietario del espacio de trabajo, la invitación se enviará en nombre de la cuenta principal de Enterprise.",
-          "disclaimer": "Correo electrónico del destinatario",
-          "workspaceOwnerDisclaimer": "nombre@ejemplo.com",
-          "emailLabel": "Duración del acceso",
-          "emailPlaceholder": "7 días",
-          "expiryLabel": "30 días",
+          "title": "Compartir HUD",
+          "description": "Enviar este HUD a otro usuario por correo electrónico.",
+          "disclaimer": "El destinatario verá tu nombre de usuario de LHM al recibir esta compartición.",
+          "workspaceOwnerDisclaimer": "Este HUD pertenece al espacio de trabajo \"{{workspace}}\". Como no eres el propietario del espacio de trabajo, la invitación se enviará en nombre de la cuenta principal de Enterprise.",
+          "emailLabel": "Correo electrónico del destinatario",
+          "emailPlaceholder": "name@example.com",
+          "expiryLabel": "Duración del acceso",
           "expiry": {
-            "week": "Fecha personalizada",
-            "month": "Sin fecha de caducidad",
-            "custom": "Tras la fecha de caducidad seleccionada, el HUD puede permanecer disponible hasta una hora.",
-            "never": "Enviar invitación"
+            "week": "7 días",
+            "month": "30 días",
+            "custom": "Fecha personalizada",
+            "never": "Sin fecha de caducidad"
           },
-          "customExpiryWarning": "Invitaciones para compartir HUD pendientes",
-          "submit": "Recibiste una invitación para compartir HUD:"
+          "customExpiryWarning": "Después de la fecha de caducidad seleccionada, el HUD puede permanecer disponible hasta una hora.",
+          "submit": "Enviar invitación"
         },
         "pending": {
-          "title": "Remitente desconocido",
-          "description": "HUD sin nombre",
-          "unknownSender": "Juego desconocido",
-          "unnamedHud": "Juego: {{game}}",
-          "unknownGame": "Tamaño: {{size}}",
-          "game": "Compartido por {{sender}}",
-          "size": "Aceptar en el espacio de trabajo",
-          "sharedBy": "Aceptar en los espacios de trabajo",
-          "acceptToWorkspace": "Mi cuenta",
-          "acceptToWorkspaces": "Espacio de trabajo no disponible",
-          "mainWorkspace": "Espera mientras copiamos el HUD compartido a tu(s) espacio(s) de trabajo seleccionado(s). #__#\nCaduca: {{expiresAt}}",
-          "workspaceUnavailableTitle": "Este HUD supera el límite de almacenamiento de tu plan actual. Actualiza tu plan para aceptarlo.",
-          "acceptingInfo": "Este espacio de trabajo no tiene suficiente espacio de almacenamiento para este HUD. Elimina algunos datos del espacio de trabajo para aceptarlo.",
-          "expiresAt": "Este espacio de trabajo comparte almacenamiento con otros espacios de trabajo empresariales seleccionados. Elimina algunos datos o deselecciona otro espacio de trabajo para aceptar el HUD.",
-          "upgradeRequired": "No tienes suficiente espacio libre en la nube para aceptar este HUD ahora mismo. Libera espacio para aceptarlo.",
-          "enterpriseStorageRequired": "Nunca",
-          "enterpriseSelectionLimit": "Invitación {{current}} de {{total}}",
-          "notEnoughFreeSpace": "Compartido por {{sender}}",
-          "never": "Remitente desconocido",
-          "progress": "Caduca: {{expiresAt}}"
+          "title": "Invitaciones pendientes para compartir HUD",
+          "description": "Has recibido una invitación para compartir HUD:",
+          "unknownSender": "Remitente desconocido",
+          "unnamedHud": "HUD sin nombre",
+          "unknownGame": "Juego desconocido",
+          "game": "Juego: {{game}}",
+          "size": "Tamaño: {{size}}",
+          "sharedBy": "Compartido por {{sender}}",
+          "acceptToWorkspace": "Aceptar en el espacio de trabajo",
+          "acceptToWorkspaces": "Aceptar en los espacios de trabajo",
+          "mainWorkspace": "Mi cuenta",
+          "workspaceUnavailableTitle": "Espacio de trabajo no disponible",
+          "acceptingInfo": "Espera mientras copiamos el HUD compartido a tu(s) espacio(s) de trabajo seleccionado(s).",
+          "expiresAt": "Caduca: {{expiresAt}}",
+          "upgradeRequired": "Este HUD supera el límite de almacenamiento de tu plan actual. Actualiza tu plan para aceptarlo.",
+          "enterpriseStorageRequired": "Este espacio de trabajo no tiene suficiente almacenamiento para este HUD. Elimina algunos datos del espacio de trabajo para aceptarlo.",
+          "enterpriseSelectionLimit": "Este espacio de trabajo comparte almacenamiento con otros espacios de trabajo empresariales seleccionados. Elimina algunos datos o deselecciona otro espacio de trabajo para aceptar el HUD.",
+          "notEnoughFreeSpace": "No tienes suficiente espacio libre en la nube para aceptar este HUD ahora mismo. Libera espacio para aceptarlo.",
+          "never": "Nunca",
+          "progress": "Invitación {{current}} de {{total}}"
         },
         "meta": {
-          "sharedBy": "Invitación para compartir HUD enviada correctamente.",
-          "unknownSender": "No se pudo enviar la invitación para compartir. Inténtalo de nuevo. #__#\nGestionar acciones",
-          "expiresAt": "Se ha alcanzado el número máximo de acciones activas."
+          "sharedBy": "Compartido por {{sender}}",
+          "unknownSender": "Remitente desconocido",
+          "expiresAt": "Caduca {{expiresAt}}"
         },
         "notifications": {
-          "created": "No puedes compartir un HUD contigo mismo.",
-          "error": "Este HUD ya está compartido con ese usuario.",
-          "manageShares": "Calidad de la transmisión de la cámara",
+          "created": "Invitación para compartir HUD enviada correctamente.",
+          "error": "No se pudo enviar la invitación para compartir. Inténtalo de nuevo.",
+          "manageShares": "Gestionar comparticiones",
           "errors": {
-            "SHARE_LIMIT_REACHED": "Las transmisiones de cámara de mayor calidad pueden causar interrupciones en algunos ordenadores y conexiones a internet.",
-            "SHARE_SELF": "Sincronización de la configuración compartida en la nube",
-            "SHARE_ALREADY_EXISTS": "Cuando está habilitada, las secciones de configuración compartida (por ejemplo, la configuración de rayos X) se sincronizan con LHM Cloud, para que se mantengan consistentes en todos tus dispositivos/espacios de trabajo.\n\nDesactiva esta opción si quieres que los cambios de configuración compartida se guarden solo localmente."
+            "SHARE_LIMIT_REACHED": "Se ha alcanzado el número máximo de comparticiones activas.",
+            "SHARE_SELF": "No puedes compartir un HUD contigo mismo.",
+            "SHARE_ALREADY_EXISTS": "Este HUD ya está compartido con ese usuario."
           }
         }
       },

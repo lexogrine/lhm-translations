@@ -975,8 +975,8 @@
         "renameTitle": "Start alligevel",
         "deleteTitle": "Opret kategori",
         "name": "Omdøb kategori",
-        "ungrouped": "Slet kategori {{name}}",
-        "deleteInfo": "Kategorinavn"
+        "ungrouped": "Omdøb kategori",
+        "deleteInfo": "Slet kategori {{name}}"
       },
       "fields": {
         "missing": "Manglende felter",

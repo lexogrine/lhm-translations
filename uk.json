@@ -169,7 +169,7 @@
       "addons": "Аддони",
       "settings": "Налаштування",
       "credits": "Титри",
-      "quick": "Швидше",
+      "quick": "Швидко",
       "chat": "Чат підтримки",
       "composer": "Composer",
       "xray": "X-Ray"
@@ -275,7 +275,7 @@
         "tournament-info": "Інформація про турнір",
         "scout": "Прогноз скаута",
         "radar": "Радар",
-        "anims-plant": "Анімаційний рослинний комплекс",
+        "anims-plant": "Анімація встановлення бомби",
         "anims-defuse-short": "Анімація «Знешкодження» (коротка)",
         "anims-defuse-long": "Анімація «Знешкодження» (довга)",
         "anims-defuse": "Анімація Знешкодження",
@@ -355,7 +355,7 @@
       "labels": {
         "border": "МЕЖА",
         "background": "ТЛО",
-        "counterTerrorists": "КОНТРІТЕРОРИСТИ",
+        "counterTerrorists": "КОНТРТЕРОРИСТИ",
         "terrorists": "ТЕРОРИСТИ"
       },
       "files": {
@@ -365,12 +365,12 @@
         "noImagesSelected": "Зображення не вибрано",
         "oneImageSelected": "Вибрано 1 зображення",
         "imagesSelected": "Вибрано {{count}} зображень",
-        "plantFile": "Файл рослин",
-        "defuseShortFile": "Знешкодити короткий файл",
-        "defuseLongFile": "Знешкодити довгий файл"
+        "plantFile": "Файл встановлення",
+        "defuseShortFile": "Файл знешкодження (короткий)",
+        "defuseLongFile": "Файл знешкодження (довгий)"
       },
       "options": {
-        "custom": "Налаштування",
+        "custom": "Користувацький",
         "cover": "Обкладинка",
         "contain": "Містити",
         "none": "Немає",
@@ -388,7 +388,7 @@
         "bulkVisibilityPerformance": "Тимчасове рендеринг усіх компонентів Composer одночасно може знизити продуктивність попереднього перегляду на слабкіших комп'ютерах. Це очікується під час налаштування та не повинно впливати на продуктивність після завершення налаштування HUD."
       },
       "placeholders": {
-        "search": "Компоненти пошуку...",
+        "search": "Пошук компонентів...",
         "customCss": "/* власні стилі */"
       },
       "radar": {
@@ -462,9 +462,9 @@
     "cameras": {
       "generatePassword": "Згенерувати пароль",
       "sendToPlayers": "Надішліть його своїм гравцям",
-      "fillFromLive": "Заповнити з вкладки \"Прямий ефір",
+      "fillFromLive": "Заповнити з вкладки \"Live\"",
       "resetLink": "Скинути посилання",
-      "startTestVideo": "Прослухати тестове відео",
+      "startTestVideo": "Відтворити тестове відео",
       "stopTestVideo": "Зупинити тестове відео",
       "testVideoBlocker": "Для відтворення тестового відео у вас повинна бути запущена гра і гравці, заповнені в таблиці вище. Подивіться демо, або пограйте в тестові дані, і виберіть тестового гравця",
       "testPlayer": "Тестовий гравець",
@@ -496,11 +496,11 @@
       "composer": "Композитор",
       "ar": "AR",
       "live": "Прямий ефір",
-      "quick": "Швидше!",
+      "quick": "Швидко",
       "professionalOnly": "Тільки для професіоналів",
       "nonFreeOnly": "Тільки платно",
       "cameras": "Камери",
-      "hi": "Привіт!",
+      "hi": "Привіт, {{username}}!",
       "yourPlan": "Твій план",
       "signals": "Сигнали",
       "validFrom": "Дійсний з",
@@ -566,7 +566,7 @@
       "preview": "Попередній перегляд",
       "unlink": "Від'єднати зв'язок",
       "playerExists": {
-        "info": "Гравець з таким {{username}} вже існує.",
+        "info": "Гравець з таким {{playerIdentifierName}} вже існує.",
         "overwrite": "Ви хочете перезаписати його дані цим?",
         "overwriteTitle": "Замінити?",
         "decline": "Ні, давай я змінюватиму",
@@ -667,13 +667,13 @@
         "right": "праворуч"
       },
       "vetoDescription": {
-        "pick": "{{playerIdentifierName}} вибирає {{teamName}}",
-        "ban": "{{mapName}} забороняє {{teamName}}"
+        "pick": "{{teamName}} обирає {{mapName}}",
+        "ban": "{{teamName}} банить {{mapName}}"
       },
       "chooseTeam": "Виберіть команду",
       "vetoSidepick": {
-        "normal": "{{mapName}} обирає сторону {{secondTeamName}}",
-        "decider": "{{side}} приймає рішення"
+        "normal": "{{secondTeamName}} обирає сторону {{side}}",
+        "decider": "{{mapName}} вирішальна"
       },
       "vetoUrlModal": {
         "title": "Згенерувати посилання на додаток Veto",
@@ -867,7 +867,7 @@
       "updater": {
         "version": "Версія",
         "installing": "Встановлення...",
-        "downloading": "Завантаження... {{mapName}}%",
+        "downloading": "Завантаження... {{percent}}%",
         "install": "Встановити оновлення",
         "latest": "Останнє"
       },
@@ -960,7 +960,7 @@
         "ar": "AR",
         "goToKeybinds": "Налаштування сполучень клавіш",
         "showOnlyActivePlayers": "Показувати тільки активних гравців",
-        "more": "More",
+        "more": "Більше",
         "hlaeIsRequired": "У вас має бути запущено CS:GO з HLAE",
         "proOrEntrpriseIsRequired": "У вас має бути тарифний план Professional або Enterprise",
         "hlaeAndHigherPlanIsRequired": "У вас має бути запущено CS:GO з HLAE та тарифним планом Professional або Enterprise"
@@ -973,14 +973,14 @@
       "categories": {
         "createTitle": "Створити категорію",
         "renameTitle": "Перейменувати категорію",
-        "deleteTitle": "Видалити категорію {{name}}",
+        "deleteTitle": "Видалити категорію",
         "name": "Назва категорії",
         "ungrouped": "Розгруповано",
         "deleteInfo": "Ви впевнені, що хочете видалити категорію {{name}}? Ця дія не видалить жодних HUD."
       },
       "fields": {
         "missing": "Пропущені поля",
-        "fieldOfType": "Поле \"{{percent}}\" типу \"{{field}}\"",
+        "fieldOfType": "Поле \"{{field}}\" типу \"{{type}}\"",
         "fieldNamePlaceholder": "Назва поля",
         "inputType": "Тип вводу",
         "values": {
@@ -1000,7 +1000,7 @@
         "customKillfeed": "Включити користувацьку стрічку вбивств"
       },
       "removal": {
-        "title": "Видалення {{type}}",
+        "title": "Видалити {{hud}}",
         "areYouSure": "Ви впевнені, що хочете видалити {{hud}}?"
       },
       "actions": {

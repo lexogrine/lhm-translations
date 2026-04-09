@@ -363,8 +363,8 @@
         "sponsorImage": "アセットファイル",
         "assetFile": "画像が選択されていません",
         "noImagesSelected": "画像が1枚選択されています",
-        "oneImageSelected": "{{count}}枚の画像が選択されています",
-        "imagesSelected": "プラントファイル",
+        "oneImageSelected": "画像が1枚選択されています",
+        "imagesSelected": "{{count}}枚の画像が選択されています",
         "plantFile": "ディフューズ ショートファイル",
         "defuseShortFile": "ディフューズ ロングファイル",
         "defuseLongFile": "カスタム"

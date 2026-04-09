@@ -256,8 +256,8 @@
       "uhudPlayersNameFontSize": "Tilaston fonttikoko",
       "uhudPlayersStatsFontSize": "Terveystietojen fonttikoko",
       "uhudPlayersHealthFontSize": "Näkyvä",
-      "visible": "Säveltäjän esikatselu {{component}}",
-      "previewTitle": "Ottelupalkki",
+      "visible": "Näkyvä",
+      "previewTitle": "Säveltäjän esikatselu {{component}}",
       "components": {
         "matchbar": "Vasen pelaajat",
         "left-player": "Oikea pelaajat",
@@ -363,8 +363,8 @@
         "sponsorImage": "Resurssitiedosto",
         "assetFile": "Ei valittua kuvaa",
         "noImagesSelected": "1 kuva valittu",
-        "oneImageSelected": "{{count}} kuvaa valittu",
-        "imagesSelected": "Kasvitiedosto",
+        "oneImageSelected": "1 kuva valittu",
+        "imagesSelected": "{{count}} kuvaa valittu",
         "plantFile": "Poista lyhyt tiedosto",
         "defuseShortFile": "Poista pitkä tiedosto",
         "defuseLongFile": "Mukautettu"
@@ -972,8 +972,8 @@
       },
       "categories": {
         "createTitle": "Ryhmittämätön",
-        "renameTitle": "Haluatko varmasti poistaa kategorian {{name}}? Tämä toiminto ei poista HUDeja.",
-        "deleteTitle": "Linkki kopioitu leikepöydälle",
+        "renameTitle": "Ryhmittämätön",
+        "deleteTitle": "Haluatko varmasti poistaa kategorian {{name}}? Tämä toiminto ei poista HUDeja.",
         "name": "Avataan HUDia päällekkäin...",
         "ungrouped": "Jaa",
         "deleteInfo": "Jaa HUD"

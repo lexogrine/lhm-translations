@@ -256,8 +256,8 @@
       "uhudPlayersNameFontSize": "Saiz Fon Statistik",
       "uhudPlayersStatsFontSize": "Saiz Fon Kesihatan",
       "uhudPlayersHealthFontSize": "Kelihatan",
-      "visible": "Pratonton Komposer {{component}}",
-      "previewTitle": "Palang Padanan",
+      "visible": "Kelihatan",
+      "previewTitle": "Pratonton Komposer {{component}}",
       "components": {
         "matchbar": "Pemain Kiri",
         "left-player": "Pemain Kanan",

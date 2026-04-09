@@ -205,7 +205,7 @@
       "aco1Description": "Równowaga między kontrolą a automatyzacją.\nPomóż swoim obserwatorom z zestawem ręcznie napisanych instrukcji dla ACO.",
       "aco-aiDescription": "Usiądź wygodnie, podczas gdy zaawansowane algorytmy ACO AI kontrolują twój strumień.",
       "aco-ai-scoutDescription": "Pozwól naszemu najnowszemu systemowi przewidywania meczów przejąć stery.\nJuż wkrótce.",
-      "aco-ai-scoutDescription-disconnected": "Pozwól naszemu najnowszemu systemowi obserwacji meczów AI przejąć stery. Serwery Scout mogą być obecnie niedostępne.",
+      "aco-ai-scoutDescription-disconnected": "Pozwól obserwatorowi AI prowadzić mecz bez ingerencji użytkownika.\nSerwery Scout mogą być obecnie niedostępne.",
       "scoutCinematicDescription": "Pokazuj piękne ujęcia filmowe podczas przerw meczowych.",
       "scoutPredictDescription": "Wyświetlaj prognozy wyników meczów na żywo bezpośrednio w swojej transmisji.",
       "scoutCinematic": "Użyj Cinematic Scout",
@@ -329,106 +329,106 @@
         "notAdded": "Wariant"
       },
       "fields": {
-        "variant": "Styl",
-        "style": "Style",
-        "styles": "Układ",
-        "layout": "Rodzina czcionek",
-        "fontFamily": "Wzór globalny",
-        "globalPattern": "Krycie wzoru globalnego",
-        "globalPatternOpacity": "Dopasowanie obrazu tła",
-        "backgroundImageFit": "Promień obramowania",
-        "borderRadius": "Szerokość obramowania",
-        "borderWidth": "Styl obramowania",
-        "borderStyle": "Pozycja X",
-        "positionX": "Pozycja Y",
-        "positionY": "Wyśrodkuj w poziomie",
-        "centerHorizontally": "Wyśrodkuj Pionowo",
-        "centerVertically": "Skala",
-        "scale": "Indeks Z",
-        "zIndex": "Bieżąca warstwa",
-        "currentLayer": "Wyrównanie",
-        "align": "Niestandardowy CSS",
-        "customCss": "Czas trwania",
-        "duration": "Limit",
-        "limit": "GRANICA"
+        "variant": "Wariant",
+        "style": "Styl",
+        "styles": "Style",
+        "layout": "Układ",
+        "fontFamily": "Rodzina czcionek",
+        "globalPattern": "Wzór globalny",
+        "globalPatternOpacity": "Krycie wzoru globalnego",
+        "backgroundImageFit": "Dopasowanie obrazu tła",
+        "borderRadius": "Promień obramowania",
+        "borderWidth": "Szerokość obramowania",
+        "borderStyle": "Styl obramowania",
+        "positionX": "Pozycja X",
+        "positionY": "Pozycja Y",
+        "centerHorizontally": "Wyśrodkuj w poziomie",
+        "centerVertically": "Wyśrodkuj w pionie",
+        "scale": "Skala",
+        "zIndex": "Indeks Z",
+        "currentLayer": "Bieżąca warstwa",
+        "align": "Wyrównanie",
+        "customCss": "Niestandardowy CSS",
+        "duration": "Czas trwania",
+        "limit": "Limit"
       },
       "labels": {
-        "border": "TŁO",
-        "background": "ANTYTERRORYŚCI",
-        "counterTerrorists": "TERRORYŚCI",
-        "terrorists": "Nie wybrano pliku"
+        "border": "OBRAMOWANIE",
+        "background": "TŁO",
+        "counterTerrorists": "ANTYTERRORYŚCI",
+        "terrorists": "TERRORYŚCI"
       },
       "files": {
-        "noFileSelected": "Obraz sponsora",
-        "sponsorImage": "Plik zasobu",
-        "assetFile": "Nie wybrano obrazów",
-        "noImagesSelected": "Wybrano 1 obraz",
-        "oneImageSelected": "Wybrano {{count}} obrazów",
-        "imagesSelected": "Plik roślin",
-        "plantFile": "Rozbroj plik krótki",
-        "defuseShortFile": "Rozbroj plik długi",
-        "defuseLongFile": "Niestandardowy"
+        "noFileSelected": "Nie wybrano pliku",
+        "sponsorImage": "Obraz sponsora",
+        "assetFile": "Plik zasobu",
+        "noImagesSelected": "Nie wybrano obrazów",
+        "oneImageSelected": "Wybrano 1 obraz",
+        "imagesSelected": "Wybrano {{count}} obrazów",
+        "plantFile": "Plik podłożenia",
+        "defuseShortFile": "Plik rozbrojenia (krótkie)",
+        "defuseLongFile": "Plik rozbrojenia (długie)"
       },
       "options": {
-        "custom": "Okładka",
-        "cover": "Zawiera",
-        "contain": "Brak",
-        "none": "Góra",
-        "top": "Lewa",
-        "left": "Środek",
-        "center": "Prawa",
-        "right": "Dół",
-        "bottom": "Przód",
-        "front": "Informacje o wydajności"
+        "custom": "Niestandardowy",
+        "cover": "Wypełnij",
+        "contain": "Dopasuj",
+        "none": "Brak",
+        "top": "Góra",
+        "left": "Lewa",
+        "center": "Środek",
+        "right": "Prawa",
+        "bottom": "Dół",
+        "front": "Przód"
       },
       "tooltips": {
-        "performanceInformation": "Pomoc dotycząca niestandardowych zmiennych kolorów CSS",
-        "customCssColorVariablesHelp": "Aby użyć koloru zespołu w niestandardowym kodzie CSS, użyj zmiennej CSS: var(--color-new-t).",
-        "customCss": "Tymczasowe renderowanie wszystkich komponentów Composera jednocześnie może obniżyć wydajność podglądu na słabszych komputerach. Jest to oczekiwane podczas konfiguracji i nie powinno mieć wpływu na wydajność po zakończeniu konfiguracji interfejsu HUD.",
-        "bulkVisibilityPerformance": "Szukaj komponentów..."
+        "performanceInformation": "Informacje o wydajności",
+        "customCssColorVariablesHelp": "Pomoc dotycząca niestandardowych zmiennych kolorów CSS",
+        "customCss": "Aby użyć koloru drużyny w niestandardowym CSS, użyj zmiennej CSS: var(--color-new-t).",
+        "bulkVisibilityPerformance": "Tymczasowe renderowanie wszystkich komponentów Composera jednocześnie może obniżyć wydajność podglądu na słabszych komputerach. Jest to oczekiwane podczas konfiguracji i nie powinno mieć wpływu na wydajność po zakończeniu konfiguracji HUD-a."
       },
       "placeholders": {
-        "search": "/* style niestandardowe */",
-        "customCss": "Użyj awatara"
+        "search": "Szukaj komponentów...",
+        "customCss": "/* style niestandardowe */"
       },
       "radar": {
-        "useAvatar": "Rozmiar gracza",
-        "playerSize": "Przezroczystość radaru",
-        "radarOpacity": "Użyj gradientu",
-        "useGradient": "Wariant animacji granatu",
-        "grenadeAnimationVariant": "Znacznik martwego gracza",
-        "deadPlayerMarker": "Włączone pomijanie gradientu",
-        "gradientOverrideEnabled": "Kolor stopu gradientu",
-        "gradientStopColor": "Włączone powiększanie tłumu",
-        "crowdZoomEnabled": "Kolor niosącego bombę",
-        "bombCarrierColor": "Kolor dymu",
-        "smokeColor": "Kolor błysku",
-        "flashColor": "Kolor granatu",
-        "grenadeColor": "Kolor koktajlu Mołotowa",
-        "molotovColor": "Kolor bomby",
-        "bombColor": "Maksymalna szerokość podłóż"
+        "useAvatar": "Użyj awatara",
+        "playerSize": "Rozmiar gracza",
+        "radarOpacity": "Przezroczystość radaru",
+        "useGradient": "Użyj gradientu",
+        "grenadeAnimationVariant": "Wariant animacji granatu",
+        "deadPlayerMarker": "Znacznik martwego gracza",
+        "gradientOverrideEnabled": "Włącz nadpisanie gradientu",
+        "gradientStopColor": "Kolor punktu końcowego gradientu",
+        "crowdZoomEnabled": "Włącz przybliżenie tłumu",
+        "bombCarrierColor": "Kolor niosącego bombę",
+        "smokeColor": "Kolor dymu",
+        "flashColor": "Kolor flasha",
+        "grenadeColor": "Kolor granatu",
+        "molotovColor": "Kolor mołotowa",
+        "bombColor": "Kolor bomby"
       },
       "anims": {
-        "plantMaxWidth": "Maksymalna wysokość podłóż",
-        "plantMaxHeight": "Maksymalna szerokość rozbrojenia",
-        "defuseMaxWidth": "Maksymalna wysokość rozbrojenia",
-        "defuseMaxHeight": "(cel ~5 s)",
-        "targetFiveSeconds": "(docelowo ~10 s)",
-        "targetTenSeconds": "Domyślnie"
+        "plantMaxWidth": "Maksymalna szerokość podłożenia",
+        "plantMaxHeight": "Maksymalna wysokość podłożenia",
+        "defuseMaxWidth": "Maksymalna szerokość rozbrojenia",
+        "defuseMaxHeight": "Maksymalna wysokość rozbrojenia",
+        "targetFiveSeconds": "(docelowo ~5 s)",
+        "targetTenSeconds": "(docelowo ~10 s)"
       },
       "radarVariants": {
-        "default": "Ciemny",
-        "dark": "Czysty",
-        "clean": "Wysoki kontrast",
-        "high-contrast": "Domyślne"
+        "default": "Domyślny",
+        "dark": "Ciemny",
+        "clean": "Czysty",
+        "high-contrast": "Wysoki kontrast"
       },
       "radarGrenadeAnimationVariants": {
-        "default": "Karton",
-        "carton": "Zanikanie"
+        "default": "Domyślny",
+        "carton": "Karton"
       },
       "radarDeadPlayerMarkers": {
-        "fade": "Drużyna X",
-        "team-x": "Ustaw jako trenera"
+        "fade": "Zanikanie",
+        "team-x": "Drużyna X"
       }
     },
     "players": {
@@ -441,14 +441,14 @@
       "importPlayersExcel": "Skorzystaj z naszego wstępnie przygotowanego arkusza Excel, aby łatwo zaimportować wielu graczy jednocześnie.",
       "exportPlayers": "Eksportuj",
       "avatar": "Awatar",
-      "setAsCoach": "Opóźnienie kamery w sekundach"
+      "setAsCoach": "Ustaw jako trenera"
     },
     "teams": {
       "edit": "Edytuj zespół",
       "uploadLogo": "Logo",
       "logoInfo": "Logo, które ma być używane dla drużyny, jeśli to możliwe w danym HUD",
       "addTeam": "Dodaj drużynę",
-      "exportTeams": "Importuj",
+      "exportTeams": "Eksportuj",
       "importTeamsTitle": "Importuj drużyny",
       "importTeamsExcel": "Skorzystaj z naszego wstępnie przygotowanego arkusza Excel, aby łatwo zaimportować wiele drużyn jednocześnie.",
       "logo": "Logo"
@@ -468,10 +468,10 @@
       "stopTestVideo": "Zatrzymaj wideo testowe",
       "testVideoBlocker": "Musisz mieć uruchomioną grę, aby odtworzyć wideo testowe i graczy wypełnionych w powyższej tabeli. Obejrzyj demo lub odtwórz dane testowe i wybierz gracza testowego",
       "testPlayer": "Gracz testowy",
-      "delay": "Jakość strumienia kamery",
-      "cameraQuality": "Połączenie z co najmniej jednym z graczy, oznaczonym żółtą kropką, jest blokowane przez symetryczny NAT. Zwykle powoduje to problemy z połączeniem strumienia kamery. Zaleca się, aby gracz zmienił połączenie sieciowe i odświeżył stronę kamery.",
-      "cameraWarningPlayer": "Twoje połączenie jest blokowane przez symetryczny NAT. Zwykle powoduje to problemy z połączeniem strumienia kamery. Zaleca się zmianę połączenia sieciowego i ponowne uruchomienie LHM.",
-      "cameraWarningUser": "Utwórz domyślne"
+      "delay": "Opóźnienie kamery w sekundach",
+      "cameraQuality": "Jakość strumienia kamery",
+      "cameraWarningPlayer": "Połączenie z co najmniej jednym z graczy, oznaczonym żółtą kropką, jest blokowane przez symetryczny NAT. Zwykle powoduje to problemy z połączeniem strumienia kamery. Zaleca się, aby gracz zmienił połączenie sieciowe i odświeżył stronę kamery.",
+      "cameraWarningUser": "Twoje połączenie jest blokowane przez symetryczny NAT. Zwykle powoduje to problemy z połączeniem strumienia kamery. Zaleca się zmianę połączenia sieciowego i ponowne uruchomienie LHM."
     },
     "addons": {
       "upload": "Prześlij dodatek",
@@ -971,12 +971,12 @@
         "oldest": "Najstarsze"
       },
       "categories": {
-        "createTitle": "Nazwa kategorii",
-        "renameTitle": "Niepogrupowane",
-        "deleteTitle": "Czy na pewno chcesz usunąć kategorię {{name}}? Ta czynność nie usunie żadnych HUD-ów.",
-        "name": "Udostępnij",
-        "ungrouped": "Udostępnij HUD",
-        "deleteInfo": "Wyślij ten HUD innemu użytkownikowi e-mailem."
+        "createTitle": "Utwórz kategorię",
+        "renameTitle": "Zmień nazwę kategorii",
+        "deleteTitle": "Usuń kategorię",
+        "name": "Nazwa",
+        "ungrouped": "Niepogrupowane",
+        "deleteInfo": "Czy na pewno chcesz usunąć kategorię {{name}}? Ta czynność nie usunie żadnych HUD-ów."
       },
       "fields": {
         "missing": "Brakujące pola",
@@ -1023,60 +1023,60 @@
       },
       "share": {
         "actions": {
-          "share": "Odbiorca zobaczy Twoją nazwę użytkownika LHM po otrzymaniu tego udostępnienia."
+          "share": "Udostępnij"
         },
         "modal": {
-          "title": "Ten HUD należy do obszaru roboczego „{{workspace}}”. Ponieważ nie jesteś właścicielem obszaru roboczego, zaproszenie zostanie wysłane w imieniu głównego konta Enterprise.",
-          "description": "Adres e-mail odbiorcy",
-          "disclaimer": "name@example.com",
-          "workspaceOwnerDisclaimer": "Czas trwania dostępu",
-          "emailLabel": "7 dni",
-          "emailPlaceholder": "30 dni",
-          "expiryLabel": "Data niestandardowa",
+          "title": "Udostępnij HUD",
+          "description": "Wyślij ten HUD innemu użytkownikowi e-mailem.",
+          "disclaimer": "Odbiorca zobaczy Twoją nazwę użytkownika LHM po otrzymaniu tego udostępnienia.",
+          "workspaceOwnerDisclaimer": "Ten HUD należy do obszaru roboczego \"{{workspace}}\". Ponieważ nie jesteś właścicielem obszaru roboczego, zaproszenie zostanie wysłane w imieniu głównego konta Enterprise.",
+          "emailLabel": "Adres e-mail odbiorcy",
+          "emailPlaceholder": "name@example.com",
+          "expiryLabel": "Czas trwania dostępu",
           "expiry": {
-            "week": "Brak daty ważności",
-            "month": "Po wybranej dacie ważności HUD może pozostać dostępny przez maksymalnie godzinę.",
-            "custom": "Wyślij zaproszenie",
-            "never": "Oczekujące zaproszenia do udostępniania HUD-a"
+            "week": "7 dni",
+            "month": "30 dni",
+            "custom": "Data niestandardowa",
+            "never": "Bez daty wygaśnięcia"
           },
-          "customExpiryWarning": "Otrzymano zaproszenie do udostępniania HUD-a:",
-          "submit": "Nieznany nadawca"
+          "customExpiryWarning": "Po wybranej dacie wygaśnięcia HUD może pozostać dostępny przez maksymalnie godzinę.",
+          "submit": "Wyślij zaproszenie"
         },
         "pending": {
-          "title": "HUD bez nazwy",
-          "description": "Nieznana gra",
-          "unknownSender": "Gra: {{game}}",
-          "unnamedHud": "Rozmiar: {{size}}",
-          "unknownGame": "Udostępnione przez {{sender}}",
-          "game": "Zaakceptuj w obszarze roboczym",
-          "size": "Zaakceptuj w obszarach roboczych",
-          "sharedBy": "Moje konto",
-          "acceptToWorkspace": "Obszar roboczy niedostępny",
-          "acceptToWorkspaces": "Proszę czekać, aż skopiujemy udostępniony HUD do wybranych obszarów roboczych.",
-          "mainWorkspace": "Wygasa: {{expiresAt}}",
-          "workspaceUnavailableTitle": "Ten HUD jest większy niż limit pamięci Twojego obecnego planu. Zaktualizuj swój plan, aby go zaakceptować.",
-          "acceptingInfo": "Ten obszar roboczy nie ma wystarczającej ilości pamięci dla tego HUD-a. Usuń niektóre dane obszaru roboczego, aby zaakceptować HUD.",
-          "expiresAt": "Ten obszar roboczy współdzieli pamięć masową z innymi wybranymi obszarami roboczymi przedsiębiorstwa. Usuń niektóre dane lub odznacz inny obszar roboczy, aby zaakceptować HUD.",
-          "upgradeRequired": "Nie masz teraz wystarczająco dużo wolnego miejsca w chmurze, aby zaakceptować ten HUD. Zwolnij miejsce, aby zaakceptować HUD.",
-          "enterpriseStorageRequired": "Nigdy",
-          "enterpriseSelectionLimit": "Zaproszenie {{current}} z {{total}}",
-          "notEnoughFreeSpace": "Udostępnione przez {{sender}}",
-          "never": "Nieznany nadawca",
-          "progress": "Wygasa {{expiresAt}}"
+          "title": "Oczekujące zaproszenia do udostępniania HUD-a",
+          "description": "Otrzymano zaproszenie do udostępniania HUD-a:",
+          "unknownSender": "Nieznany nadawca",
+          "unnamedHud": "HUD bez nazwy",
+          "unknownGame": "Nieznana gra",
+          "game": "Gra: {{game}}",
+          "size": "Rozmiar: {{size}}",
+          "sharedBy": "Udostępnione przez {{sender}}",
+          "acceptToWorkspace": "Zaakceptuj w obszarze roboczym",
+          "acceptToWorkspaces": "Zaakceptuj w obszarach roboczych",
+          "mainWorkspace": "Moje konto",
+          "workspaceUnavailableTitle": "Obszar roboczy niedostępny",
+          "acceptingInfo": "Proszę czekać, aż skopiujemy udostępniony HUD do wybranych obszarów roboczych.",
+          "expiresAt": "Wygasa: {{expiresAt}}",
+          "upgradeRequired": "Ten HUD jest większy niż limit pamięci Twojego obecnego planu. Zaktualizuj plan, aby go zaakceptować.",
+          "enterpriseStorageRequired": "Ten obszar roboczy nie ma wystarczającej ilości pamięci dla tego HUD-a. Usuń część danych obszaru roboczego, aby zaakceptować HUD.",
+          "enterpriseSelectionLimit": "Ten obszar roboczy współdzieli pamięć z innymi wybranymi obszarami roboczymi Enterprise. Usuń część danych lub odznacz inny obszar roboczy, aby zaakceptować HUD.",
+          "notEnoughFreeSpace": "Nie masz wystarczająco dużo wolnego miejsca w chmurze, aby teraz zaakceptować ten HUD. Zwolnij miejsce, aby go zaakceptować.",
+          "never": "Nigdy",
+          "progress": "Zaproszenie {{current}} z {{total}}"
         },
         "meta": {
-          "sharedBy": "Zaproszenie do udostępniania HUD zostało pomyślnie wysłane.",
-          "unknownSender": "Nie można wysłać zaproszenia do udostępniania. Spróbuj ponownie.",
-          "expiresAt": "Zarządzaj udostępnieniami"
+          "sharedBy": "Udostępnione przez {{sender}}",
+          "unknownSender": "Nieznany nadawca",
+          "expiresAt": "Wygasa {{expiresAt}}"
         },
         "notifications": {
-          "created": "Osiągnięto maksymalną liczbę aktywnych udostępnień.",
-          "error": "Nie możesz udostępnić HUD sobie.",
-          "manageShares": "Ten HUD jest już udostępniony danemu użytkownikowi.",
+          "created": "Zaproszenie do udostępniania HUD-a zostało pomyślnie wysłane.",
+          "error": "Nie udało się wysłać zaproszenia do udostępniania. Spróbuj ponownie.",
+          "manageShares": "Zarządzaj udostępnieniami",
           "errors": {
-            "SHARE_LIMIT_REACHED": "Jakość strumienia kamery",
-            "SHARE_SELF": "Wyższa jakość strumienia kamery może powodować zacinanie się obrazu na niektórych komputerach i połączeniach internetowych.",
-            "SHARE_ALREADY_EXISTS": "Synchronizacja współdzielonej konfiguracji z chmurą"
+            "SHARE_LIMIT_REACHED": "Osiągnięto maksymalną liczbę aktywnych udostępnień.",
+            "SHARE_SELF": "Nie możesz udostępnić HUD-a samemu sobie.",
+            "SHARE_ALREADY_EXISTS": "Ten HUD jest już udostępniony temu użytkownikowi."
           }
         }
       },

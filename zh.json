@@ -204,8 +204,8 @@
       "disabledDescription": "所有控制权都交给你和你的观察员。\\n玩得开心",
       "aco1Description": "控制与自动化的平衡。\\n为您的观察员提供一套人工编写的 ACO 指令。",
       "aco-aiDescription": "坐等 ACO 人工智能的先进算法控制您的数据流。",
-      "aco-ai-scoutDescription": "让我们最新的比赛预测系统掌舵。\\n即将推出",
-      "aco-ai-scoutDescription-disconnected": "让我们最新的人工智能比赛观察系统来控制方向盘。",
+      "aco-ai-scoutDescription": "坐等 ACO 人工智能的先进算法控制您的数据流。",
+      "aco-ai-scoutDescription-disconnected": "让我们最新的比赛预测系统掌舵。\\n即将推出",
       "scoutCinematicDescription": "在比赛休息期间展示精美的电影镜头。",
       "scoutPredictDescription": "直接在直播中显示现场比赛结果预测。",
       "scoutCinematic": "使用电影侦察",
@@ -363,8 +363,8 @@
         "sponsorImage": "资源文件",
         "assetFile": "未选择图片",
         "noImagesSelected": "已选择 1 张图片",
-        "oneImageSelected": "已选择 {{count}} 张图片",
-        "imagesSelected": "植物文件",
+        "oneImageSelected": "已选择 1 张图片",
+        "imagesSelected": "已选择 {{count}} 张图片",
         "plantFile": "拆弹短文件",
         "defuseShortFile": "拆弹长文件",
         "defuseLongFile": "自定义"
@@ -971,16 +971,16 @@
         "oldest": "最旧"
       },
       "categories": {
-        "createTitle": "类别名称",
-        "renameTitle": "取消分组",
-        "deleteTitle": "您确定要删除 {{name}} 类别吗？此操作不会删除任何 HUD。",
-        "name": "共享",
-        "ungrouped": "共享 HUD",
-        "deleteInfo": "通过电子邮件将此 HUD 发送给其他用户。"
+        "createTitle": "创建类别",
+        "renameTitle": "重命名类别",
+        "deleteTitle": "删除类别",
+        "name": "名称",
+        "ungrouped": "未分组",
+        "deleteInfo": "您确定要删除 {{name}} 类别吗？此操作不会删除任何 HUD。"
       },
       "fields": {
         "missing": "缺失字段",
-        "fieldOfType": "字段 \"{{{field}}\" 类型 \"{{type}}\"；",
+        "fieldOfType": "字段 \"{{field}}\" 的类型为 \"{{type}}\"",
         "fieldNamePlaceholder": "字段名称",
         "inputType": "输入类型",
         "values": {
@@ -1023,60 +1023,60 @@
       },
       "share": {
         "actions": {
-          "share": "收件人收到此共享时将看到您的 LHM 用户名。"
+          "share": "共享"
         },
         "modal": {
-          "title": "此 HUD 属于工作区“{{workspace}}”。由于您不是工作区所有者，因此邀请将代表主企业帐户发送。",
-          "description": "收件人邮箱",
-          "disclaimer": "name@example.com",
-          "workspaceOwnerDisclaimer": "访问期限",
-          "emailLabel": "7 天",
-          "emailPlaceholder": "30 天",
-          "expiryLabel": "自定义日期",
+          "title": "共享 HUD",
+          "description": "通过电子邮件将此 HUD 发送给其他用户。",
+          "disclaimer": "收件人在收到此共享时会看到您的 LHM 用户名。",
+          "workspaceOwnerDisclaimer": "此 HUD 属于工作区 \"{{workspace}}\"。由于您不是该工作区所有者，邀请将以主企业账户名义发送。",
+          "emailLabel": "收件人邮箱",
+          "emailPlaceholder": "name@example.com",
+          "expiryLabel": "访问时长",
           "expiry": {
-            "week": "无过期时间",
-            "month": "在选定的过期日期之后，HUD 最多可保留一小时。",
-            "custom": "发送邀请",
-            "never": "待处理的 HUD 共享邀请"
+            "week": "7 天",
+            "month": "30 天",
+            "custom": "自定义日期",
+            "never": "无到期时间"
           },
-          "customExpiryWarning": "您收到了一条共享 HUD 邀请：",
-          "submit": "未知发件人"
+          "customExpiryWarning": "在所选到期日期之后，HUD 最多可能再可用一小时。",
+          "submit": "发送邀请"
         },
         "pending": {
-          "title": "未命名 HUD",
-          "description": "未知游戏",
-          "unknownSender": "游戏：{{game}}",
-          "unnamedHud": "大小：{{size}}",
-          "unknownGame": "共享者：{{sender}}",
-          "game": "接受到工作区",
-          "size": "接受到工作区",
-          "sharedBy": "我的帐户",
-          "acceptToWorkspace": "工作区不可用",
-          "acceptToWorkspaces": "请稍候，我们正在将共享 HUD 复制到您选择的工作区。",
-          "mainWorkspace": "过期时间：{{expiresAt}}",
-          "workspaceUnavailableTitle": "此 HUD 超出您当前套餐的存储空间限制。请升级您的套餐以接收它。",
-          "acceptingInfo": "此工作区没有足够的存储空间来容纳此 HUD。请移除一些工作区数据以接收此 HUD。",
-          "expiresAt": "此工作区与您选择的其他企业工作区共享存储空间。请移除一些数据或取消选择其他工作区以接收此 HUD。",
-          "upgradeRequired": "您目前没有足够的可用云空间来接收此 HUD。请释放空间以接收此 HUD。",
-          "enterpriseStorageRequired": "永不",
-          "enterpriseSelectionLimit": "邀请 {{current}}，共 {{total}} 个",
-          "notEnoughFreeSpace": "共享者 {{sender}}",
-          "never": "未知发件人",
-          "progress": "过期时间：{{expiresAt}}"
+          "title": "待处理的 HUD 共享邀请",
+          "description": "您收到了一条共享 HUD 邀请：",
+          "unknownSender": "未知发送者",
+          "unnamedHud": "未命名 HUD",
+          "unknownGame": "未知游戏",
+          "game": "游戏：{{game}}",
+          "size": "大小：{{size}}",
+          "sharedBy": "共享者：{{sender}}",
+          "acceptToWorkspace": "接受到工作区",
+          "acceptToWorkspaces": "接受到多个工作区",
+          "mainWorkspace": "我的帐户",
+          "workspaceUnavailableTitle": "工作区不可用",
+          "acceptingInfo": "请稍候，我们正在将共享 HUD 复制到您选择的工作区。",
+          "expiresAt": "过期时间：{{expiresAt}}",
+          "upgradeRequired": "此 HUD 超出您当前套餐的存储限制。请升级套餐以接收它。",
+          "enterpriseStorageRequired": "此工作区没有足够存储空间来容纳此 HUD。请删除部分工作区数据后再接收。",
+          "enterpriseSelectionLimit": "此工作区与您选择的其他企业工作区共享存储。请删除部分数据或取消选择其他工作区后再接收。",
+          "notEnoughFreeSpace": "您当前没有足够可用云空间来接收此 HUD。请先释放空间。",
+          "never": "永不",
+          "progress": "邀请 {{current}} / {{total}}"
         },
         "meta": {
-          "sharedBy": "HUD 共享邀请已成功发送。",
-          "unknownSender": "无法发送共享邀请。请重试。",
-          "expiresAt": "管理共享"
+          "sharedBy": "共享者：{{sender}}",
+          "unknownSender": "未知发送者",
+          "expiresAt": "{{expiresAt}} 过期"
         },
         "notifications": {
-          "created": "已达到最大活动共享数量。",
-          "error": "您无法与自己共享 HUD。",
-          "manageShares": "此 HUD 已与该用户共享。",
+          "created": "HUD 共享邀请已成功发送。",
+          "error": "无法发送共享邀请。请重试。",
+          "manageShares": "管理共享",
           "errors": {
-            "SHARE_LIMIT_REACHED": "摄像头视频流质量",
-            "SHARE_SELF": "更高的摄像头视频流质量可能会导致某些计算机和网络连接出现卡顿。",
-            "SHARE_ALREADY_EXISTS": "共享配置云同步"
+            "SHARE_LIMIT_REACHED": "已达到最大活动共享数量。",
+            "SHARE_SELF": "您不能将 HUD 共享给自己。",
+            "SHARE_ALREADY_EXISTS": "该 HUD 已与该用户共享。"
           }
         }
       },

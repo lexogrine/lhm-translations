@@ -256,8 +256,8 @@
       "uhudPlayersNameFontSize": "Ukuran Huruf Statistik",
       "uhudPlayersStatsFontSize": "Ukuran Huruf Kesehatan",
       "uhudPlayersHealthFontSize": "Terlihat",
-      "visible": "Pratinjau Komposer {{component}}",
-      "previewTitle": "Matchbar",
+      "visible": "Terlihat",
+      "previewTitle": "Pratinjau Komposer {{component}}",
       "components": {
         "matchbar": "Pemain Kiri",
         "left-player": "Pemain Kanan",
@@ -363,8 +363,8 @@
         "sponsorImage": "Berkas aset",
         "assetFile": "Tidak ada gambar yang dipilih",
         "noImagesSelected": "1 gambar dipilih",
-        "oneImageSelected": "{{count}} gambar dipilih",
-        "imagesSelected": "Berkas Rencana",
+        "oneImageSelected": "1 gambar dipilih",
+        "imagesSelected": "{{count}} gambar dipilih",
         "plantFile": "Berkas Penjinakan Bom Pendek",
         "defuseShortFile": "Berkas Penjinakan Bom Panjang",
         "defuseLongFile": "Kustom"
@@ -972,11 +972,11 @@
       },
       "categories": {
         "createTitle": "Ubah Nama Kategori",
-        "renameTitle": "Hapus kategori {{name}}",
-        "deleteTitle": "Nama kategori",
+        "renameTitle": "Ubah Nama Kategori",
+        "deleteTitle": "Hapus kategori {{name}}",
         "name": "Tidak dikelompokkan",
-        "ungrouped": "Apakah Anda yakin ingin menghapus kategori {{name}}? Tindakan ini tidak akan menghapus HUD apa pun.",
-        "deleteInfo": "Bagikan"
+        "ungrouped": "Tidak dikelompokkan",
+        "deleteInfo": "Apakah Anda yakin ingin menghapus kategori {{name}}? Tindakan ini tidak akan menghapus HUD apa pun."
       },
       "fields": {
         "missing": "Bidang yang hilang",
@@ -1028,8 +1028,8 @@
         "modal": {
           "title": "Kirim HUD ini ke pengguna lain melalui email.",
           "description": "Penerima akan melihat nama pengguna LHM Anda saat mereka menerima pembagian ini.",
-          "disclaimer": "HUD ini milik ruang kerja \"{{workspace}}\". Karena Anda bukan pemilik ruang kerja, undangan akan dikirim atas nama akun Enterprise utama.",
-          "workspaceOwnerDisclaimer": "Email Penerima",
+          "disclaimer": "Penerima akan melihat nama pengguna LHM Anda saat mereka menerima pembagian ini.",
+          "workspaceOwnerDisclaimer": "HUD ini milik ruang kerja \"{{workspace}}\". Karena Anda bukan pemilik ruang kerja, undangan akan dikirim atas nama akun Enterprise utama.",
           "emailLabel": "name@example.com",
           "emailPlaceholder": "Durasi Akses",
           "expiryLabel": "7 hari",
@@ -1047,27 +1047,27 @@
           "description": "Pengirim Tidak Dikenal",
           "unknownSender": "HUD Tanpa Nama",
           "unnamedHud": "Game Tidak Dikenal",
-          "unknownGame": "Game: {{game}}",
-          "game": "Ukuran: {{size}}",
-          "size": "Dibagikan oleh {{sender}}",
-          "sharedBy": "Terima ke Ruang Kerja",
+          "unknownGame": "Game Tidak Dikenal",
+          "game": "Game: {{game}}",
+          "size": "Ukuran: {{size}}",
+          "sharedBy": "Dibagikan oleh {{sender}}",
           "acceptToWorkspace": "Terima ke Ruang Kerja",
           "acceptToWorkspaces": "Akun Saya",
           "mainWorkspace": "Ruang Kerja Tidak Tersedia",
           "workspaceUnavailableTitle": "Mohon tunggu sementara kami menyalin HUD yang dibagikan ke ruang kerja yang Anda pilih.",
-          "acceptingInfo": "Berakhir: {{expiresAt}}",
-          "expiresAt": "HUD ini lebih besar dari batas penyimpanan paket Anda saat ini. Tingkatkan paket Anda untuk menerimanya.",
+          "acceptingInfo": "Mohon tunggu sementara kami menyalin HUD yang dibagikan ke ruang kerja yang Anda pilih.",
+          "expiresAt": "Berakhir: {{expiresAt}}",
           "upgradeRequired": "Ruang kerja ini tidak memiliki cukup penyimpanan untuk HUD ini. Hapus beberapa data ruang kerja untuk menerima HUD.",
           "enterpriseStorageRequired": "Ruang kerja ini berbagi penyimpanan dengan ruang kerja perusahaan lain yang Anda pilih. Hapus beberapa data atau batalkan pilihan ruang kerja lain untuk menerima HUD.",
           "enterpriseSelectionLimit": "Anda tidak memiliki cukup ruang cloud kosong untuk menerima HUD ini saat ini. Kosongkan ruang untuk menerima HUD.",
           "notEnoughFreeSpace": "Tidak Pernah",
-          "never": "Undangan {{current}} dari {{total}}",
-          "progress": "Dibagikan oleh {{sender}}"
+          "never": "Tidak Pernah",
+          "progress": "Undangan {{current}} dari {{total}}"
         },
         "meta": {
-          "sharedBy": "Pengirim tidak dikenal",
-          "unknownSender": "Berakhir {{expiresAt}}",
-          "expiresAt": "Undangan berbagi HUD berhasil dikirim."
+          "sharedBy": "Dibagikan oleh {{sender}}",
+          "unknownSender": "Pengirim tidak dikenal",
+          "expiresAt": "Berakhir {{expiresAt}}"
         },
         "notifications": {
           "created": "Tidak dapat mengirim undangan berbagi. Silakan coba lagi.",

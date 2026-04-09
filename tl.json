@@ -256,8 +256,8 @@
       "uhudPlayersNameFontSize": "Laki ng Font ng Istatistika",
       "uhudPlayersStatsFontSize": "Laki ng Font ng Kalusugan",
       "uhudPlayersHealthFontSize": "Nakikita",
-      "visible": "Preview ng Kompositor {{component}}",
-      "previewTitle": "Matchbar",
+      "visible": "Nakikita",
+      "previewTitle": "Preview ng Kompositor {{component}}",
       "components": {
         "matchbar": "Mga Manlalaro sa Kaliwa",
         "left-player": "Mga Manlalaro sa Kanan",
@@ -499,8 +499,8 @@
       "quick": "Propesyonal lang",
       "professionalOnly": "Hindi libre",
       "nonFreeOnly": "Mga Camera",
-      "cameras": "Kumusta, {{username}}!",
-      "hi": "Ang iyong plano",
+      "cameras": "Mga Camera",
+      "hi": "Kumusta, {{username}}!",
       "yourPlan": "Signals",
       "signals": "Valid mula sa",
       "validFrom": "Valid hanggang",
@@ -511,8 +511,8 @@
     },
     "signals": {
       "removal": {
-        "title": "Sigurado ka bang gusto mong tanggalin ang preset na \"{{name}}\"?",
-        "areYouSure": "Rename preset"
+        "title": "Tanggalin ang preset",
+        "areYouSure": "Sigurado ka bang gusto mong tanggalin ang preset na \"{{name}}\"?"
       },
       "edit": {
         "title": "Preset name",
@@ -564,9 +564,9 @@
       "uploadAvatar": "Piliin ang HUD",
       "selectHUD": "Preview",
       "preview": "I-unlink",
-      "unlink": "Umiiral na ang isang player na may ganitong {{playerIdentifierName}}.",
+      "unlink": "I-unlink",
       "playerExists": {
-        "info": "Gusto mo bang i-overwrite ang kanilang data dito?",
+        "info": "Umiiral na ang isang player na may ganitong {{playerIdentifierName}}.",
         "overwrite": "I-overwrite?",
         "overwriteTitle": "Hindi, hayaan mong baguhin ko ito",
         "decline": "Oo, i-overwrite",
@@ -668,12 +668,12 @@
       },
       "vetoDescription": {
         "pick": "{{teamName}} bans {{mapName}}",
-        "ban": "Choose team"
+        "ban": "{{teamName}} bans {{mapName}}"
       },
-      "chooseTeam": ", {{secondTeamName}} chooses {{side}} side",
+      "chooseTeam": "Choose team",
       "vetoSidepick": {
-        "normal": "{{mapName}} decider",
-        "decider": "Bumuo ng Veto app link"
+        "normal": ", {{secondTeamName}} chooses {{side}} side",
+        "decider": "{{mapName}} decider"
       },
       "vetoUrlModal": {
         "title": "Tanggalin ang mga URL",
@@ -812,8 +812,8 @@
       },
       "halfTimeBehaviour": {
         "label": "Wala",
-        "none": "Lumipat ng team (kaliwa <-> kanan)",
-        "switch": "Pilitin panatilihin ang panig ng mga team",
+        "none": "Wala",
+        "switch": "Lumipat ng team (kaliwa <-> kanan)",
         "keep": "RL Integration"
       },
       "rocketleague": {
@@ -866,8 +866,8 @@
       },
       "updater": {
         "version": "Ini-install...",
-        "installing": "Nagda-download... {{percent}}%",
-        "downloading": "I-install ang update",
+        "installing": "Ini-install...",
+        "downloading": "Nagda-download... {{percent}}%",
         "install": "Pinakabagong",
         "latest": "Keybinds"
       },
@@ -975,12 +975,12 @@
         "renameTitle": "Ilunsad Pa Rin",
         "deleteTitle": "Gumawa ng Kategorya",
         "name": "Palitan ang Pangalan ng Kategorya",
-        "ungrouped": "Burahin ang kategoryang {{name}}",
-        "deleteInfo": "Pangalan ng kategorya"
+        "ungrouped": "Palitan ang Pangalan ng Kategorya",
+        "deleteInfo": "Burahin ang kategoryang {{name}}"
       },
       "fields": {
-        "missing": "Field \"{{field}}\" ng uri na \"{{type}}\"",
-        "fieldOfType": "Field name",
+        "missing": "Pangalan ng kategorya",
+        "fieldOfType": "Field \"{{field}}\" ng uri na \"{{type}}\"",
         "fieldNamePlaceholder": "Input type",
         "inputType": "Text",
         "values": {
@@ -1370,8 +1370,8 @@
     },
     "modals": {
       "imageTooLarge": {
-        "title": "Masyadong malaki ang napiling larawan. Ang limitasyon sa laki ay {{limit}} MB.",
-        "info": "Tanggalin ang mga koponan"
+        "title": "Gamitin lamang ito kung nakakita ang LHM ng maling private network address (halimbawa, kapag aktibo ang isang VPN).\nItakda ang lokal na IP address na dapat gamitin ng iyong mga pinagmumulan ng HUD/browser.\nI-restart ang LHM pagkatapos baguhin ang value na ito para magkabisa ito.",
+        "info": "Masyadong malaki ang napiling larawan. Ang limitasyon sa laki ay {{limit}} MB."
       },
       "delete": {
         "titleTeams": "Tanggalin ang mga manlalaro",
@@ -1442,8 +1442,8 @@
         "description": "LHM HUDs"
       },
       "lhmHuds": {
-        "title": "Ang bawat LHM plan ay may mga built-in na HUD. Kung mas mataas ang plano, mas advanced ang mga HUD. Mag-click sa mga pangalan sa ibaba upang matuto nang higit pa tungkol sa bawat isa: - Default na HUD para sa anumang sinusuportahang laro - Premium HUD para sa [[CS2|premiumCS2]], [[Dota 2|premiumDota2]], [[LoL|premiumLoL]], [[Rocket League|premiumRL]] - Ultra HUD para sa [[CS2|ultraCS2]] at [[Dota 2|ultraDota2]]",
-        "description": "Gabay sa gumagamit"
+        "title": "LHM HUDs",
+        "description": "Ang bawat LHM plan ay may mga built-in na HUD. Kung mas mataas ang plano, mas advanced ang mga HUD. Mag-click sa mga pangalan sa ibaba upang matuto nang higit pa tungkol sa bawat isa: - Default na HUD para sa anumang sinusuportahang laro - Premium HUD para sa [[CS2|premiumCS2]], [[Dota 2|premiumDota2]], [[LoL|premiumLoL]], [[Rocket League|premiumRL]] - Ultra HUD para sa [[CS2|ultraCS2]] at [[Dota 2|ultraDota2]]"
       },
       "userGuide": {
         "title": "Tingnan ang aming Gabay sa Gumagamit upang matuto nang higit pa tungkol sa bawat bahagi ng LHM. Makakahanap ka ng mga paglalarawan, mga tagubilin para sa pag-configure at paggamit ng lahat ng mga tampok, at mga sagot sa mga pinakakaraniwang tanong. Kung mayroon kang mga karagdagang tanong, sumali sa [[aming Discord|discord]].",

@@ -363,8 +363,8 @@
         "sponsorImage": "Fichier de ressource",
         "assetFile": "Aucune image sélectionnée",
         "noImagesSelected": "1 image sélectionnée",
-        "oneImageSelected": "{{count}} images sélectionnées",
-        "imagesSelected": "Fichier Plante",
+        "oneImageSelected": "1 image sélectionnée",
+        "imagesSelected": "{{count}} images sélectionnées",
         "plantFile": "Fichier Désamorçage court",
         "defuseShortFile": "Fichier Désamorçage long",
         "defuseLongFile": "Personnalisé"
