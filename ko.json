@@ -5,6 +5,9 @@
       "or": "또는",
       "close": "닫기",
       "save": "저장",
+      "confirm": "확인",
+      "qualified": "자격 있음",
+      "eliminated": "제거됨",
       "saveAndSend": "저장 및 보내기",
       "saveAndRestart": "저장하고 다시 시작",
       "saveAndExit": "저장하고 종료",
@@ -35,6 +38,7 @@
       "teamNumber": "TEAM #{{num}}",
       "vetoNumber": "거부권 {{num}}",
       "delete": "Delete",
+      "delete-all": "모두 삭제",
       "edit": "편집",
       "live": "라이브",
       "match": "경기",
@@ -43,6 +47,7 @@
       "t": "T",
       "no": "No",
       "yes": "예",
+      "deleteAll": "모두 삭제",
       "noDontAsk": "아니요, 묻지 마세요",
       "csgo": {
         "ct": "CT",
@@ -61,6 +66,7 @@
       },
       "export": "Export",
       "cancel": "취소",
+      "remindLater": "나중에 알림",
       "next": "다음",
       "finish": "Finish",
       "understand": "이해합니다",
@@ -140,9 +146,11 @@
         "cgmode": "CG 모드는 방송 운영에 가장 필수적인 모듈을 컴팩트한 형태로 통합한 기능입니다.\n이 탭에서 경기, 팀, 선수, 라이브 게임을 한 화면에서 관리할 수 있습니다.\n이 섹션에 대한 전체 액세스 권한을 얻으려면 LHM을 개인, 전문가 또는 기업 요금제로 업그레이드하세요.",
         "arg": "자동화는 다음 단계의 개척지이며, 렉소그린은 그 경계를 넘기 위해 최선을 다하고 있습니다! 자동 리플레이 생성기는 리플레이 시스템을 완전히 자동화합니다. ARG는 정의된 기준에 따라 게임의 모든 이벤트를 추적하여 가장 중요한 순간을 자동으로 캡처하고 라운드 사이에 숨막히는 리플레이를 표시합니다. VMix 또는 OBS만 있으면 됩니다.\n이 섹션에 대한 전체 액세스 권한을 얻으려면 LHM을 개인, 전문가 또는 기업 요금제로 업그레이드하세요.",
         "addons": "애드온은 LHM과의 통합을 만드는 새로운 방법입니다.\n지금까지는 커스텀 HUD 코드만 게임 데이터 피드에 액세스할 수 있었기 때문에 원하는 작업이 무엇이든 브라우저 환경에서 수행해야 했습니다.\n애드온은 서버 환경에서 작동하며, 기본적으로 GSI 이벤트 이미터가 연결된 NodeJS 앱입니다. 즉, 지원되는 게임(CS2, Dota 2)에서 정보를 받기 위해 파서가 있는 사용자 지정 HTTP 서버를 만들지 않아도 모든 것이 기본 제공되므로 원하는 통합과 기능에 집중할 수 있습니다.\n이 섹션에 대한 전체 액세스 권한을 얻으려면 LHM을 개인, 전문가 또는 기업 요금제로 업그레이드하세요.",
+        "composer": "컴포저를 사용하면 드래그 앤 드롭 컨트롤과 시각적 프리셋으로 HUD 레이아웃을 구성하고 사용자 지정할 수 있습니다.\n이 섹션의 모든 기능을 사용하려면 최소 3개의 시트가 포함된 LHM 프로페셔널 또는 엔터프라이즈 플랜으로 업그레이드하세요.",
         "aco": "모든 행동을 완벽한 방법과 이상적인 관점에서 포착하는 것은 불가능합니다 - 하지만 스카웃은 그것에 정말 가깝습니다. 우리의 AI는 수천 개의 게임에서 학습하여 인간의 개입 없이 가장 자극적인 이벤트를 스스로 캡처합니다.\nLHM을 개인 플랜으로 업그레이드하면 모든 스카우트 AI 모듈(스카우트 비전, 스카우트 예측, 스카우트 시네마틱)에 액세스할 수 있습니다.",
         "cameras": "소니의 카메라 시스템은 사용하기 매우 쉬우며, 주최자와 플레이어 모두 설정 시간을 크게 절약할 수 있습니다. 지나치게 복잡하고 시간이 많이 소요되는 프로덕션 소프트웨어 구성이나 하드웨어 문제도 없습니다.\n카메라를 연결하고 LHM에서 플레이어에게 할당합니다. HUD를 실행하고 관중을 향해 미소를 짓습니다.\n이 섹션에 대한 전체 액세스 권한을 얻으려면 LHM을 개인, 프로페셔널 또는 엔터프라이즈 요금제로 업그레이드하세요.",
-        "signals": "LHM 시그널은 비트포커스 컴패니언 앱과의 맞춤형 통합 기능입니다.\n저희의 목표는 예측 가능한 게임 내 이벤트의 자동화를 지원하는 것입니다. 시그널은 이를 처리하고 지정된 게임 이벤트에서 컴패니언 버튼을 트리거할 수 있도록 합니다.\n이 섹션에 대한 전체 액세스 권한을 얻으려면 LHM을 개인, 프로페셔널 또는 엔터프라이즈 요금제로 업그레이드하세요."
+        "signals": "LHM 시그널은 비트포커스 컴패니언 앱과의 맞춤형 통합 기능입니다.\n저희의 목표는 예측 가능한 게임 내 이벤트의 자동화를 지원하는 것입니다. 시그널은 이를 처리하고 지정된 게임 이벤트에서 컴패니언 버튼을 트리거할 수 있도록 합니다.\n이 섹션에 대한 전체 액세스 권한을 얻으려면 LHM을 개인, 프로페셔널 또는 엔터프라이즈 요금제로 업그레이드하세요.",
+        "xray": "LHM X-RAY를 사용하면 CS2 X-RAY 색상(플레이어 윤곽선, 이름, 수류탄 궤적)을 팀별로 다르게 설정하여 사용자 지정할 수 있습니다.\n\n이 섹션의 모든 기능을 사용하려면 LHM을 퍼스널, 프로페셔널 또는 엔터프라이즈 플랜으로 업그레이드하세요."
       }
     },
     "titles": {
@@ -163,7 +171,8 @@
       "credits": "크레딧",
       "quick": "Quick",
       "chat": "지원 채팅",
-      "composer": "Composer"
+      "composer": "Composer",
+      "xray": "X-Ray"
     },
     "aco": {
       "disabled": "Disabled",
@@ -232,7 +241,195 @@
       "scoutCinematicAction": {
         "label": "액션 시네마틱"
       },
-      "scoutPausedTip": "스카웃 AI는 실행 중인 게임이 감지되지 않았기 때문에 일시 중지되었습니다."
+      "scoutPausedTip": "스카웃 AI는 실행 중인 게임이 감지되지 않았기 때문에 일시 중지되었습니다.",
+      "xrayWarning": "X-Ray가 제대로 작동하려면 CS2를 실행할 때 정찰/X-Ray 옵션을 켜야 합니다."
+    },
+    "composer": {
+      "componentsSubtitle": "HUD 구성 요소 미리보기",
+      "usePlayerAvatar": "플레이어 아바타 사용",
+      "radarStyle": "레이더 스타일",
+      "position": "위치",
+      "fileTooLarge": "파일 크기가 너무 큽니다. 최대 크기는 {{limit}}MB입니다.",
+      "fontSize": "글꼴 크기",
+      "uhudMatchbarTeamNameFontSize": "팀 이름 글꼴 크기",
+      "uhudMatchbarScoreFontSize": "점수 글꼴 크기",
+      "uhudPlayersNameFontSize": "선수 이름 글꼴 크기",
+      "uhudPlayersStatsFontSize": "통계 글꼴 크기",
+      "uhudPlayersHealthFontSize": "체력 글꼴 크기",
+      "visible": "표시 여부",
+      "previewTitle": "작곡가 미리보기 {{component}}",
+      "components": {
+        "matchbar": "매치바",
+        "left-player": "왼쪽 선수",
+        "right-player": "오른쪽 선수",
+        "left-money": "왼쪽 자금",
+        "right-money": "오른쪽 자금",
+        "players": "선수 목록",
+        "observed-player": "관찰 중인 선수",
+        "killfeed": "킬피드",
+        "round-history": "라운드 기록",
+        "mapseries": "맵 시리즈",
+        "asset": "커스텀 에셋",
+        "winbox": "라운드 승리 표시기",
+        "sponsors": "스폰서",
+        "tournament-info": "토너먼트 정보",
+        "scout": "스카웃 예측",
+        "radar": "레이더",
+        "anims-plant": "폭탄 설치 애니메이션",
+        "anims-defuse-short": "폭탄 해체 애니메이션 (짧음)",
+        "anims-defuse-long": "폭탄 해체 애니메이션 긴",
+        "anims-defuse": "해제 애니메이션",
+        "anims": "애니메이션"
+      },
+      "huds": {
+        "ultrahud": "울트라 HUD",
+        "amberhud": "앰버 HUD",
+        "sapphirehud": "사파이어 HUD",
+        "neonhud": "네온 HUD",
+        "fullHud": "전체 HUD"
+      },
+      "layouts": {
+        "vertical": "세로",
+        "horizontal": "가로",
+        "horizontal-top": "가로 상단",
+        "horizontal-bottom": "가로 하단"
+      },
+      "positions": {
+        "left-players": "왼쪽 플레이어",
+        "right-players": "오른쪽 플레이어",
+        "left-players-top": "왼쪽 플레이어 상단",
+        "left-players-bottom": "왼쪽 플레이어 하단",
+        "right-players-top": "오른쪽 플레이어 상단",
+        "right-players-bottom": "오른쪽 플레이어 하단"
+      },
+      "sapphirePlayersHpFontSize": "HP 글꼴 크기",
+      "sapphirePlayersNameFontSize": "플레이어 이름 글꼴 크기",
+      "sapphirePlayersRoundDamageFontSize": "라운드 데미지 글꼴 크기",
+      "sapphirePlayersKdaFontSize": "KDA 글꼴 크기",
+      "killfeedPlayerNameFontSize": "킬피드 플레이어 이름 글꼴 크기",
+      "titles": {
+        "components": "구성 요소",
+        "settings": "설정",
+        "globalStyles": "전역 스타일"
+      },
+      "descriptions": {
+        "globalStyles": "구성 요소에 전역 스타일을 적용합니다."
+      },
+      "actions": {
+        "showAll": "모두 표시",
+        "hideAll": "모두 숨기기",
+        "showComponent": "구성 요소 표시",
+        "hideComponent": "구성 요소 숨기기",
+        "backToComponents": "구성 요소로 돌아가기",
+        "toBack": "맨 뒤로",
+        "toFront": "맨 앞으로"
+      },
+      "status": {
+        "added": "추가됨",
+        "notAdded": "추가되지 않음"
+      },
+      "fields": {
+        "variant": "변형",
+        "style": "스타일",
+        "styles": "스타일 목록",
+        "layout": "레이아웃",
+        "fontFamily": "글꼴 패밀리",
+        "globalPattern": "전역 패턴",
+        "globalPatternOpacity": "전역 패턴 불투명도",
+        "backgroundImageFit": "배경 이미지 맞춤",
+        "borderRadius": "테두리 반경",
+        "borderWidth": "테두리 너비",
+        "borderStyle": "테두리 스타일",
+        "positionX": "X 위치",
+        "positionY": "Y 위치",
+        "centerHorizontally": "가로 중앙 정렬",
+        "centerVertically": "세로 중앙 정렬",
+        "scale": "크기 조정",
+        "zIndex": "Z-인덱스",
+        "currentLayer": "현재 레이어",
+        "align": "정렬",
+        "customCss": "사용자 지정 CSS",
+        "duration": "기간",
+        "limit": "제한"
+      },
+      "labels": {
+        "border": "테두리",
+        "background": "배경",
+        "counterTerrorists": "대테러",
+        "terrorists": "테러리스트"
+      },
+      "files": {
+        "noFileSelected": "선택된 파일 없음",
+        "sponsorImage": "스폰서 이미지",
+        "assetFile": "자산 파일",
+        "noImagesSelected": "선택된 이미지 없음",
+        "oneImageSelected": "선택된 이미지 1개",
+        "imagesSelected": "선택된 이미지 {{count}}개",
+        "plantFile": "플랜트 파일",
+        "defuseShortFile": "디퓨즈 짧은 파일",
+        "defuseLongFile": "디퓨즈 긴 파일"
+      },
+      "options": {
+        "custom": "사용자 지정",
+        "cover": "표지",
+        "contain": "포함",
+        "none": "없음",
+        "top": "상단",
+        "left": "왼쪽",
+        "center": "중앙",
+        "right": "오른쪽",
+        "bottom": "하단",
+        "front": "전면"
+      },
+      "tooltips": {
+        "performanceInformation": "성능 정보",
+        "customCssColorVariablesHelp": "사용자 지정 CSS 색상 변수 도움말",
+        "customCss": "사용자 지정 CSS에서 팀 색상을 사용하려면 CSS 변수 `var(--color-new-t)`를 사용하세요.",
+        "bulkVisibilityPerformance": "Composer의 모든 구성 요소를 한 번에 렌더링하면 사양이 낮은 컴퓨터에서 미리 보기 성능이 저하될 수 있습니다. 이는 설정 과정에서 발생하는 현상이며, HUD 설정을 완료한 후에는 성능에 영향을 미치지 않습니다."
+      },
+      "placeholders": {
+        "search": "구성 요소 검색...",
+        "customCss": "/* 사용자 지정 스타일 */"
+      },
+      "radar": {
+        "useAvatar": "아바타 사용",
+        "playerSize": "플레이어 크기",
+        "radarOpacity": "레이더 투명도",
+        "useGradient": "그라디언트 사용",
+        "grenadeAnimationVariant": "수류탄 애니메이션 변형",
+        "deadPlayerMarker": "사망 플레이어 표시",
+        "gradientOverrideEnabled": "그라디언트 재정의 활성화",
+        "gradientStopColor": "그라디언트 정지 색상",
+        "crowdZoomEnabled": "군중 확대 활성화",
+        "bombCarrierColor": "폭탄 운반자 색상",
+        "smokeColor": "연막탄 색상",
+        "flashColor": "섬광탄 색상",
+        "grenadeColor": "수류탄 색상",
+        "molotovColor": "화염병 색상",
+        "bombColor": "폭탄 색상"
+      },
+      "anims": {
+        "plantMaxWidth": "설치 최대 너비",
+        "plantMaxHeight": "설치 최대 높이",
+        "defuseMaxWidth": "해체 최대 너비",
+        "defuseMaxHeight": "해체 최대 높이",
+        "targetFiveSeconds": "(목표 약 5초)",
+        "targetTenSeconds": "(목표 약 10초)"
+      },
+      "radarVariants": {
+        "default": "기본값",
+        "dark": "어둡게",
+        "clean": "깔끔하게",
+        "high-contrast": "고대비"
+      },
+      "radarGrenadeAnimationVariants": {
+        "default": "기본값",
+        "carton": "카톤"
+      },
+      "radarDeadPlayerMarkers": {
+        "fade": "페이드 효과",
+        "team-x": "팀 X"
+      }
     },
     "players": {
       "edit": "플레이어 편집",
@@ -243,7 +440,8 @@
       "downloadNamesFile": "이름 파일 다운로드",
       "importPlayersExcel": "미리 준비된 Excel 시트를 사용하여 많은 플레이어를 한 번에 쉽게 가져올 수 있습니다.",
       "exportPlayers": "내보내기",
-      "avatar": "아바타"
+      "avatar": "아바타",
+      "setAsCoach": "코치로 설정"
     },
     "teams": {
       "edit": "팀 편집",
@@ -269,7 +467,11 @@
       "startTestVideo": "테스트 영상 재생",
       "stopTestVideo": "테스트 비디오 중지",
       "testVideoBlocker": "테스트 영상을 재생하려면 게임이 실행 중이고 위 표에 플레이어가 채워져 있어야 합니다. 데모를 보거나 테스트 데이터를 재생하고 테스트 플레이어를 선택하세요",
-      "testPlayer": "테스트 플레이어"
+      "testPlayer": "테스트 플레이어",
+      "delay": "카메라 지연 시간(초)",
+      "cameraQuality": "카메라 스트림 품질",
+      "cameraWarningPlayer": "노란색 점으로 표시된 플레이어 중 하나 이상과의 연결이 대칭 NAT로 인해 차단되었습니다. 일반적으로 이로 인해 카메라 스트림 연결 문제가 발생합니다. 플레이어는 네트워크 연결을 변경하고 카메라 페이지를 새로 고치는 것이 좋습니다.",
+      "cameraWarningUser": "연결이 대칭 NAT로 인해 차단되었습니다. 일반적으로 이로 인해 카메라 스트림 연결 문제가 발생합니다. 네트워크 연결을 변경하고 LHM을 다시 시작하는 것이 좋습니다."
     },
     "addons": {
       "upload": "애드온 업로드",
@@ -291,6 +493,7 @@
       "huds": "HUD",
       "aco": "Scout AI",
       "addons": "애드온",
+      "composer": "작성자",
       "ar": "AR",
       "live": "Live",
       "quick": "Quick",
@@ -319,7 +522,9 @@
         "title": "새 프리셋 만들기",
         "placeholder": "프리셋 이름",
         "clone": "빈 프리셋 만들기",
-        "createNew": "스카우트 시야 전환"
+        "createNew": "스카우트 시야 전환",
+        "createFromDefault": "기본값 생성",
+        "createBlank": "빈 항목 생성"
       },
       "activate": "{{ name }}이 활성화되지 않았습니다",
       "deactivate": "{{ name }} 활성화됨",
@@ -382,6 +587,12 @@
       "page": "토너먼트 페이지",
       "create": "새 토너먼트 생성",
       "name": "토너먼트 이름",
+      "groupAndPlayoffs": "그룹 & 플레이오프",
+      "noMatchesInStage": "이 단계에는 경기가 없습니다",
+      "playoffsCreated": "플레이오프가 성공적으로 생성되었습니다",
+      "champion": "챔피언",
+      "bracket": "대진표",
+      "setScore": "세트 점수",
       "uploadLogo": "토너먼트 로고 업로드",
       "logoInfo": "토너먼트 로고는 경기 중에 사용할 수 있습니다",
       "singleElimBracket": "싱글 엘리미네이션 대진표",
@@ -390,6 +601,8 @@
       "group": "그룹",
       "playoffs": "플레이오프",
       "playoffType": "플레이오프 유형",
+      "playoffsOnly": "플레이오프만",
+      "grouppAndPlayoffs": "조별 리그 + 플레이오프",
       "soon": "Soon",
       "groupType": "그룹 유형",
       "participants": "참가자",
@@ -397,7 +610,21 @@
       "amountOfTeams": "팀 수",
       "amountOfRounds": "라운드 수",
       "bindMatch": "대진표에 경기 바인딩",
-      "teamOrderList": "팀 주문 목록"
+      "defaultBo": "기본 베스트 오브 포맷",
+      "defaultBoEdit": "기본 베스트 오브 포맷 (새로운 경기용)",
+      "teamOrderList": "팀 주문 목록",
+      "tournamentStructure": "토너먼트 구조",
+      "availableTeams": "참가 가능 팀",
+      "selectedTeams": "선택된 팀",
+      "qualifiedTeams": "예선 통과 팀",
+      "qualified": "예선 통과 팀",
+      "eliminated": "탈락 팀",
+      "groupFinished": "조별 리그가 종료되었습니다. 이제 플레이오프를 생성할 수 있습니다. 이 단계는 한 번만 수행할 수 있습니다.",
+      "createPlayoffs": "플레이오프 생성",
+      "stageInProgress": "조별 리그가 아직 진행 중입니다. 조별 리그가 종료되면 플레이오프 생성이 가능해집니다.",
+      "missingMatches": "누락된 경기 감지됨",
+      "matchesDeleted": "일부 경기가 삭제되었습니다. 아래를 클릭하여 누락된 첫 번째 라운드부터 모든 경기를 복원하세요.",
+      "restoreAllMatches": "모든 경기 복원"
     },
     "match": {
       "matches": "경기",
@@ -545,6 +772,9 @@
       "cloudSynchronization": "클라우드 동기화",
       "hudConfigCloudSynchronization": "HUD 설정 클라우드 동기화",
       "hudTogglesCloudSynchronization": "HUD 클라우드 동기화 토글",
+      "hudOrdersCloudSynchronization": "HUD 순서 클라우드 동기화",
+      "sharedConfigCloudSynchronization": "공유 설정 클라우드 동기화",
+      "sharedConfigSync": "공유 설정 클라우드 동기화",
       "valorantWindowTitleOverride": "용맹한 창 제목 재정의",
       "valorantServerMode": "데이터 수집 모드",
       "valorantReadLanguage": "용맹한 게임 언어",
@@ -559,6 +789,16 @@
       "dota2Assets": "도타 2 에셋",
       "autoHalfSwitch": "자동 하프 전환 (실험적)",
       "autoSwitch": "자동 전환",
+      "overrideCS2PlayerKeybinds": "CS2 플레이어 키 바인딩 재정의",
+      "overrideCS2PlayerKeybindsOptions": {
+        "no": "아니요",
+        "focused": "LHM이 활성화되었을 때",
+        "always": "항상"
+      },
+      "overrideCS2PlayerKeybindsModal": {
+        "title": "CS2 플레이어 키 바인딩 재정의",
+        "info": "이 옵션은 CS2 키 바인딩 1-0을 HUD에 표시되는 관전자 플레이어 슬롯과 일치하도록 설정합니다. 이는 코치가 서버에 있을 때 유용합니다.\n\n키 바인딩을 저장하려면 CS2가 실행 중인 동안 이 옵션을 꺼야 합니다."
+      },
       "header": "설정",
       "subheaders": {
         "lhm": "LHM",
@@ -660,7 +900,9 @@
         },
         "config": {
           "status": "Configs",
-          "add": "구성 파일 추가"
+          "add": "구성 파일 추가",
+          "overrideIp": "IP 주소 재정의",
+          "slowMode": "느린 모드"
         },
         "credits": {
           "credits": "크레딧",
@@ -695,12 +937,17 @@
     },
     "huds": {
       "header": "HUD",
+      "workshopToolsModal": {
+        "title": "CS2 워크샵 도구를 찾을 수 없음",
+        "info": "Counter-Strike 2 워크샵 도구 DLC가 감지되지 않았습니다. 킬피드 또는 스카웃 AI를 활성화한 상태로 CS2를 실행할 때 LHM과 함께 사용해야 합니다. 스팀을 통해 다운로드하여 다시 시도해 보시기 바랍니다.",
+        "launchAnyway": "그래도 실행"
+      },
       "config": {
         "customRadar": "레이더",
         "customKillfeed": "Killfeed",
         "embeddedHUD": "임베디드 HUD",
-        "scout": "Scout AI/XRAY",
         "killfeedOffset": "Killfeed Offset",
+        "scout": "Scout AI/XRAY",
         "autoexecute": "Auto-execute",
         "console": "콘솔",
         "add": "HUD 추가",
@@ -722,6 +969,14 @@
         "custom": "사용자 지정",
         "newest": "최신",
         "oldest": "Oldest"
+      },
+      "categories": {
+        "createTitle": "카테고리 생성",
+        "renameTitle": "카테고리 이름 변경",
+        "deleteTitle": "{{name}} 카테고리 삭제",
+        "name": "카테고리 이름",
+        "ungrouped": "그룹 해제됨",
+        "deleteInfo": "{{name}} 카테고리를 삭제하시겠습니까? 이 작업은 HUD를 삭제하지 않습니다."
       },
       "fields": {
         "missing": "누락된 필드",
@@ -763,7 +1018,67 @@
         "toggleHUDKeybinds": "HUD 키바인드 토글 (브라우저 소스용)",
         "clickToCopy": "클릭하여 복사",
         "linkCopied": "오버레이에서 HUD를 여는 중...",
+        "openingOverlay": "HUD를 오버레이 모드로 여는 중...",
         "createShortcut": "바탕화면에 바로 가기 만들기"
+      },
+      "share": {
+        "actions": {
+          "share": "공유"
+        },
+        "modal": {
+          "title": "HUD 공유",
+          "description": "이 HUD를 다른 사용자에게 이메일로 보냅니다.",
+          "disclaimer": "수신자는 이 공유를 받을 때 사용자의 LHM 사용자 이름을 보게 됩니다.",
+          "workspaceOwnerDisclaimer": "이 HUD는 워크스페이스 \"{{workspace}}\"에 속합니다. 사용자가 워크스페이스 소유자가 아니므로 기본 엔터프라이즈 계정을 대신하여 초대장이 전송됩니다.",
+          "emailLabel": "수신자 이메일",
+          "emailPlaceholder": "name@example.com",
+          "expiryLabel": "접근 기간",
+          "expiry": {
+            "week": "7일",
+            "month": "30일",
+            "custom": "사용자 지정 날짜",
+            "never": "만료 없음"
+          },
+          "customExpiryWarning": "선택한 만료일 이후에도 HUD는 최대 1시간 동안 이용 가능합니다.",
+          "submit": "초대 보내기"
+        },
+        "pending": {
+          "title": "대기 중인 HUD 공유 초대",
+          "description": "공유 HUD 초대를 받았습니다:",
+          "unknownSender": "알 수 없는 발신자",
+          "unnamedHud": "이름 없는 HUD",
+          "unknownGame": "알 수 없는 게임",
+          "game": "게임: {{game}}",
+          "size": "크기: {{size}}",
+          "sharedBy": "공유자: {{sender}}",
+          "acceptToWorkspace": "워크스페이스 수락",
+          "acceptToWorkspaces": "워크스페이스 수락",
+          "mainWorkspace": "내 계정",
+          "workspaceUnavailableTitle": "워크스페이스를 사용할 수 없습니다",
+          "acceptingInfo": "선택한 워크스페이스에 공유 HUD를 복사하는 동안 잠시 기다려 주세요.",
+          "expiresAt": "만료일: {{expiresAt}}",
+          "upgradeRequired": "이 HUD는 현재 플랜의 저장 용량 제한을 초과합니다. HUD를 수락하려면 플랜을 업그레이드하세요.",
+          "enterpriseStorageRequired": "이 워크스페이스에는 이 HUD를 저장할 공간이 부족합니다. HUD를 수락하려면 워크스페이스 데이터를 일부 삭제하세요.",
+          "enterpriseSelectionLimit": "이 워크스페이스는 선택한 다른 엔터프라이즈 워크스페이스와 저장 공간을 공유합니다. HUD를 수락하려면 데이터를 일부 삭제하거나 다른 워크스페이스를 선택 해제하세요.",
+          "notEnoughFreeSpace": "현재 이 HUD를 수락할 만큼 충분한 클라우드 공간이 없습니다. HUD를 수락하려면 공간을 확보하세요.",
+          "never": "안 함",
+          "progress": "초대 {{current}} (수신자: {{total}})"
+        },
+        "meta": {
+          "sharedBy": "공유자: {{sender}}",
+          "unknownSender": "알 수 없는 발신자",
+          "expiresAt": "만료일: {{expiresAt}}"
+        },
+        "notifications": {
+          "created": "HUD 공유 초대가 성공적으로 전송되었습니다.",
+          "error": "공유 초대를 보낼 수 없습니다. 다시 시도해 주세요.",
+          "manageShares": "공유 관리",
+          "errors": {
+            "SHARE_LIMIT_REACHED": "활성 공유 최대 개수에 도달했습니다.",
+            "SHARE_SELF": "본인과 HUD를 공유할 수 없습니다.",
+            "SHARE_ALREADY_EXISTS": "이 HUD는 이미 해당 사용자와 공유되었습니다."
+          }
+        }
       },
       "warning": {
         "csgoHUDinCS2": "이 HUD는 CS:GO용으로 제작되었습니다. 모든 기능이 CS2에서 동일한 방식으로 작동한다는 보장은 없습니다.",
@@ -1011,6 +1326,10 @@
           "title": "카메라 지연",
           "info": "카메라 지연은 현재 공식 Lexogrine HUD에서만 지원됩니다: 울트라 및 프리미엄 HUD"
         },
+        "quality": {
+          "title": "카메라 스트림 품질",
+          "info": "고화질 카메라 스트림은 일부 컴퓨터 및 인터넷 연결에서 끊김 현상을 일으킬 수 있습니다."
+        },
         "tab": {
           "title": "카메라",
           "info": "카메라 모듈을 사용하면 외부 도구 없이도 LHM을 사용하여 플레이어 웹캠 피드를 HUD에 표시할 수 있습니다."
@@ -1033,6 +1352,20 @@
           "title": "이벤트를 더 추가해야 하나요?",
           "info": "플랜을 업그레이드하여 이벤트 브랜치 및 사전 설정 생성 기능과 같은 고급 옵션으로 무제한 이벤트를 이용하세요!"
         }
+      },
+      "settings": {
+        "sharedConfigSync": {
+          "title": "공유 구성 클라우드 동기화",
+          "info": "이 옵션을 활성화하면 공유 구성 섹션(예: X-Ray 설정)이 LHM 클라우드와 동기화되어 모든 장치/워크스페이스에서 일관성을 유지합니다.\n공유 구성 변경 사항을 로컬에서만 유지하려면 이 옵션을 비활성화하십시오."
+        },
+        "ipAddressOverride": {
+          "title": "IP 주소 재정의",
+          "info": "LHM에서 잘못된 사설 네트워크 주소를 감지한 경우(예: VPN이 활성화된 경우)에만 사용하십시오.\n\nHUD/브라우저 소스에서 사용할 로컬 IP 주소를 설정하십시오.\n변경 사항을 적용하려면 LHM을 다시 시작하십시오."
+        },
+        "slowMode": {
+          "title": "느린 모드",
+          "info": "느린 모드는 API 요청을 큐를 통해 전송하여 버스트 트래픽을 줄입니다. 이는 국가 전체 방화벽이 있는 제한적인 환경에서 도움이 될 수 있습니다.\n변경 사항을 적용하려면 LHM을 다시 시작하십시오."
+        }
       }
     },
     "modals": {
@@ -1044,11 +1377,17 @@
         "titleTeams": "팀 삭제",
         "titlePlayers": "선수 삭제",
         "titleMatches": "경기 삭제",
+        "titleTournaments": "토너먼트 삭제",
         "infoTeams": "1}} 팀을 삭제하시겠습니까?",
         "infoPlayers": "2}} 플레이어를 삭제하시겠습니까?",
+        "infoTournaments": "{{count}}개의 토너먼트를 삭제하시겠습니까?",
         "infoMatches": "0}} 경기를 삭제하시겠습니까?",
         "deleteWithPlayers": "플레이어와 함께 삭제",
-        "deleteAll": "모두 삭제 ({{count}})"
+        "deleteAll": "모두 삭제 ({{count}})",
+        "single": {
+          "titleTournament": "{{name}}개의 토너먼트 삭제",
+          "infoTournament": "{{name}}개의 토너먼트를 삭제하시겠습니까?"
+        }
       },
       "steamApiKeyMissing": {
         "title": "Steam API 키 누락",

@@ -5,6 +5,9 @@
       "or": "eller",
       "close": "Luk",
       "save": "Gem",
+      "confirm": "Bekræft",
+      "qualified": "Kvalificeret",
+      "eliminated": "Elimineret",
       "saveAndSend": "Gem og send",
       "saveAndRestart": "Gem og genstart",
       "saveAndExit": "Gem og afslut",
@@ -35,6 +38,7 @@
       "teamNumber": "HOLD #",
       "vetoNumber": "Veto {{num}}",
       "delete": "Slet",
+      "delete-all": "Slet alle",
       "edit": "Rediger",
       "live": "Live",
       "match": "Kamp",
@@ -43,6 +47,7 @@
       "t": "T",
       "no": "Nej",
       "yes": "Ja",
+      "deleteAll": "Slet alle",
       "noDontAsk": "Nej, spørg ikke",
       "csgo": {
         "ct": "CT",
@@ -61,6 +66,7 @@
       },
       "export": "Eksporter",
       "cancel": "Annuller",
+      "remindLater": "Påmind senere",
       "next": "Næste",
       "finish": "Afslut",
       "understand": "Jeg forstår",
@@ -140,9 +146,11 @@
         "cgmode": "CG Mode indeholder de mest essentielle moduler til broadcasting i en kompakt form.\nFra denne fane kan du administrere dine kampe, hold, spillere og Live game på én skærm.\nOpgrader din LHM til en Personal-, Professional- eller Enterprise-plan for at få fuld adgang til denne sektion.",
         "arg": "Automatisering er den næste grænse - og her i Lexogrine er vi fast besluttede på at krydse den! Auto Replay Generator automatiserer replay-systemet fuldstændigt. ARG - baseret på definerede kriterier - sporer alle begivenheder i spillet for automatisk at fange de mest afgørende øjeblikke og vise betagende replays mellem runderne. Det eneste, du skal have, er vMix eller OBS.\nOpgrader din LHM til en Personal-, Professional- eller Enterprise-plan for at få fuld adgang til dette afsnit.",
         "addons": "Addons er en ny måde at skabe integrationer med LHM på.\nIndtil nu var det kun den brugerdefinerede HUD-kode, der havde adgang til spillets datafeed, hvilket betød, at uanset hvad du ønskede at gøre, skulle det gøres i browsermiljøet.\nAddons fungerer i servermiljøer - de er dybest set NodeJS-apps med en GSI Event-emitter koblet til dem. Det betyder, at du ikke behøver at oprette en brugerdefineret HTTP-server med en parser bare for at modtage oplysninger fra understøttede spil (CS2, Dota 2), du har alt det ud af boksen, så du kan fokusere på integrationer og funktioner, du ønsker at skabe.\nOpgrader din LHM til en Personal-, Professional- eller Enterprise-plan for at få fuld adgang til dette afsnit.",
+        "composer": "Composer lader dig opbygge og tilpasse dit HUD-layout med træk-og-slip-kontroller og visuelle forudindstillinger.\nOpgrader din LHM til en Professional- eller Enterprise-plan med mindst 3 pladser for at få fuld adgang til denne sektion.",
         "aco": "Det er umuligt at fange hver handling på en perfekt måde og fra et ideelt perspektiv - men Scout kommer virkelig tæt på det. Vores egen AI lærer af tusindvis af spil for at fange de mest krydrede begivenheder alene uden menneskelig input.\nOpgrader din LHM til en personlig plan for at få adgang til alle Scout AI-moduler - Scout Vision, Scout Predict og Scout Cinematic.",
         "cameras": "Vores kamerasystem er supernemt at bruge og vil spare dig for en masse opsætningstid - både for arrangører og for spillere. Ingen overdrevent kompliceret og tidskrævende produktionssoftwarekonfiguration, ingen hardwareproblemer.\nTilslut kameraet, og tildel det til en spiller i LHM. Start HUD og smil til publikum.\nOpgrader din LHM til en Personal, Professional eller Enterprise plan for at få fuld adgang til denne sektion.",
-        "signals": "LHM Signals er vores skræddersyede integration med Bitfocus Companion-appen.\nVores mål er at hjælpe med automatisering af forudsigelige begivenheder i spillet. Signals tager sig af det og gør det muligt at udløse Companion-knapper ved bestemte spilbegivenheder.\nOpgrader din LHM til en Personal-, Professional- eller Enterprise-plan for at få fuld adgang til dette afsnit."
+        "signals": "LHM Signals er vores skræddersyede integration med Bitfocus Companion-appen.\nVores mål er at hjælpe med automatisering af forudsigelige begivenheder i spillet. Signals tager sig af det og gør det muligt at udløse Companion-knapper ved bestemte spilbegivenheder.\nOpgrader din LHM til en Personal-, Professional- eller Enterprise-plan for at få fuld adgang til dette afsnit.",
+        "xray": "LHM X-RAY lader dig tilpasse CS2 X-RAY-farver - spillernes konturer, navne og granatspor, og indstille dem forskelligt pr. hold.\nOpgrader din LHM til en Personal-, Professional- eller Enterprise-plan for at få fuld adgang til denne sektion."
       }
     },
     "titles": {
@@ -163,7 +171,8 @@
       "credits": "Kreditter",
       "quick": "Hurtig",
       "chat": "Support-chat",
-      "composer": "Composer"
+      "composer": "Composer",
+      "xray": "X-Ray"
     },
     "aco": {
       "disabled": "Deaktiveret",
@@ -232,7 +241,195 @@
       "scoutCinematicAction": {
         "label": "Action Cinematic"
       },
-      "scoutPausedTip": "Scout AI er sat på pause, fordi der ikke blev registreret noget løbespil."
+      "scoutPausedTip": "Scout AI er sat på pause, fordi der ikke blev registreret noget løbespil.",
+      "xrayWarning": "For at X-Ray kan fungere korrekt, skal CS2 startes med Scout/X-Ray-funktionen aktiveret."
+    },
+    "composer": {
+      "componentsSubtitle": "Forhåndsvisning af HUD-komponent",
+      "usePlayerAvatar": "Brug spilleravatar",
+      "radarStyle": "Radarstil",
+      "position": "Position",
+      "fileTooLarge": "Filen er for stor. Maksimal størrelse er {{limit}} MB.",
+      "fontSize": "Skriftstørrelse",
+      "uhudMatchbarTeamNameFontSize": "Skriftstørrelse for holdnavn",
+      "uhudMatchbarScoreFontSize": "Skriftstørrelse for score",
+      "uhudPlayersNameFontSize": "Skriftstørrelse for spillernavn",
+      "uhudPlayersStatsFontSize": "Skriftstørrelse for statistik",
+      "uhudPlayersHealthFontSize": "Skriftstørrelse for helbred",
+      "visible": "Synlig",
+      "previewTitle": "Forhåndsvisning af komponist {{component}}",
+      "components": {
+        "matchbar": "Kamplinje",
+        "left-player": "Venstre spillere",
+        "right-player": "Højre spillere",
+        "left-money": "Venstre penge",
+        "right-money": "Højre penge",
+        "players": "Spillere",
+        "observed-player": "Observeret spiller",
+        "killfeed": "Drabfeed",
+        "round-history": "Rundehistorik",
+        "mapseries": "Kortserie",
+        "asset": "Brugerdefineret aktiv",
+        "winbox": "Rundegevinstindikator",
+        "sponsors": "Sponsorer",
+        "tournament-info": "Turneringsinfo",
+        "scout": "Spejderforudsigelse",
+        "radar": "Radar",
+        "anims-plant": "Animationsanlæg",
+        "anims-defuse-short": "Animation Afbryd kort",
+        "anims-defuse-long": "Animation Afbryd lang",
+        "anims-defuse": "Animation Afmonter",
+        "anims": "Animation"
+      },
+      "huds": {
+        "ultrahud": "Ultra HUD",
+        "amberhud": "Ravgul HUD",
+        "sapphirehud": "Safir HUD",
+        "neonhud": "Neon HUD",
+        "fullHud": "Fuld HUD"
+      },
+      "layouts": {
+        "vertical": "Lodret",
+        "horizontal": "Vandret",
+        "horizontal-top": "Vandret top",
+        "horizontal-bottom": "Vandret bund"
+      },
+      "positions": {
+        "left-players": "Venstre spillere",
+        "right-players": "Højre spillere",
+        "left-players-top": "Venstre spillere øverst",
+        "left-players-bottom": "Venstre spillere nederst",
+        "right-players-top": "Højre spillere øverst",
+        "right-players-bottom": "Højre spillere nederst"
+      },
+      "sapphirePlayersHpFontSize": "Højre spillere nederst",
+      "sapphirePlayersNameFontSize": "HP skriftstørrelse",
+      "sapphirePlayersRoundDamageFontSize": "Spillernavn skriftstørrelse",
+      "sapphirePlayersKdaFontSize": "Rund skade skriftstørrelse",
+      "killfeedPlayerNameFontSize": "KDA skriftstørrelse",
+      "titles": {
+        "components": "Killfeed spillernavn skriftstørrelse",
+        "settings": "Komponenter",
+        "globalStyles": "Indstillinger"
+      },
+      "descriptions": {
+        "globalStyles": "Globale stilarter"
+      },
+      "actions": {
+        "showAll": "Anvend globalt udseende på komponenter.",
+        "hideAll": "Vis alle",
+        "showComponent": "Skjul alle",
+        "hideComponent": "Vis komponent",
+        "backToComponents": "Skjul komponent",
+        "toBack": "Tilbage til komponenter",
+        "toFront": "Tilbage"
+      },
+      "status": {
+        "added": "Til forrest",
+        "notAdded": "Tilføjet"
+      },
+      "fields": {
+        "variant": "Ikke tilføjet",
+        "style": "Variant",
+        "styles": "Stil",
+        "layout": "Stil",
+        "fontFamily": "Stil",
+        "globalPattern": "Layout",
+        "globalPatternOpacity": "Skrifttypefamilie",
+        "backgroundImageFit": "Globalt mønster",
+        "borderRadius": "Global mønsteropacitet",
+        "borderWidth": "Tilpasning af baggrundsbillede",
+        "borderStyle": "Kantradius",
+        "positionX": "Kantbredde",
+        "positionY": "Kantstil",
+        "centerHorizontally": "Position X",
+        "centerVertically": "Position Y",
+        "scale": "Centrer vandret",
+        "zIndex": "Centrer lodret",
+        "currentLayer": "Skala",
+        "align": "Z-indeks",
+        "customCss": "Aktuelt lag",
+        "duration": "Juster",
+        "limit": "Brugerdefineret CSS"
+      },
+      "labels": {
+        "border": "Varighed",
+        "background": "Grænse",
+        "counterTerrorists": "KANT",
+        "terrorists": "BAGGRUND"
+      },
+      "files": {
+        "noFileSelected": "TERRORISTER",
+        "sponsorImage": "TERRORISTER",
+        "assetFile": "Ingen fil valgt",
+        "noImagesSelected": "Sponsorbillede",
+        "oneImageSelected": "Assetfil",
+        "imagesSelected": "Ingen billeder valgt",
+        "plantFile": "1 billede valgt",
+        "defuseShortFile": "{{count}} billeder valgt",
+        "defuseLongFile": "Plantfil"
+      },
+      "options": {
+        "custom": "Afbryd kort fil",
+        "cover": "Afbryd lang fil",
+        "contain": "Brugerdefineret",
+        "none": "Omslag",
+        "top": "Indeholder",
+        "left": "Ingen",
+        "center": "Øverst",
+        "right": "Venstre",
+        "bottom": "Midten",
+        "front": "Højre"
+      },
+      "tooltips": {
+        "performanceInformation": "Nederst",
+        "customCssColorVariablesHelp": "Forside",
+        "customCss": "Ydeevneinformation",
+        "bulkVisibilityPerformance": "Brugerdefinerede CSS-farvevariabler hjælper"
+      },
+      "placeholders": {
+        "search": "For at bruge teamfarve i brugerdefineret CSS skal du bruge CSS-variablen: var(--color-new-t).",
+        "customCss": "Midlertidig gengivelse af alle Composer-komponenter på én gang kan reducere forhåndsvisningens ydeevne på svagere maskiner. Dette forventes under opsætningen og burde ikke påvirke ydeevnen, når du er færdig med at konfigurere din HUD."
+      },
+      "radar": {
+        "useAvatar": "Søgekomponenter...",
+        "playerSize": "/* brugerdefinerede stilarter */",
+        "radarOpacity": "Brug avatar",
+        "useGradient": "Spillerstørrelse",
+        "grenadeAnimationVariant": "Radaropacitet",
+        "deadPlayerMarker": "Brug gradient",
+        "gradientOverrideEnabled": "Granatanimationsvariant",
+        "gradientStopColor": "Død spillermarkør",
+        "crowdZoomEnabled": "Gradientoverstyring aktiveret",
+        "bombCarrierColor": "Gradientstopfarve",
+        "smokeColor": "Mængdezoom aktiveret",
+        "flashColor": "Bombebærerfarve",
+        "grenadeColor": "Røgfarve",
+        "molotovColor": "Blitzfarve",
+        "bombColor": "Granatfarve"
+      },
+      "anims": {
+        "plantMaxWidth": "Molotovfarve",
+        "plantMaxHeight": "Bombefarve",
+        "defuseMaxWidth": "Maksimal bredde for anlæg",
+        "defuseMaxHeight": "Maksimal højde for anlæg",
+        "targetFiveSeconds": "Afmonter maks. bredde",
+        "targetTenSeconds": "Afmonter maks. højde"
+      },
+      "radarVariants": {
+        "default": "(mål ~5s)",
+        "dark": "(mål ~10s)",
+        "clean": "Standard",
+        "high-contrast": "Mørk"
+      },
+      "radarGrenadeAnimationVariants": {
+        "default": "Ren",
+        "carton": "Høj kontrast"
+      },
+      "radarDeadPlayerMarkers": {
+        "fade": "Standard",
+        "team-x": "Karton"
+      }
     },
     "players": {
       "edit": "Rediger en spiller",
@@ -243,7 +440,8 @@
       "downloadNamesFile": "Download navnefil",
       "importPlayersExcel": "Brug vores forberedte Excel-ark til nemt at importere mange spillere på én gang.",
       "exportPlayers": "Eksporter",
-      "avatar": "Avatar"
+      "avatar": "Avatar",
+      "setAsCoach": "Fade"
     },
     "teams": {
       "edit": "Rediger et hold",
@@ -269,7 +467,11 @@
       "startTestVideo": "Afspil testvideo",
       "stopTestVideo": "Stop testvideo",
       "testVideoBlocker": "Du skal have spillet kørende for at afspille testvideo og spillere, der er udfyldt i tabellen ovenfor. Se en demo, eller afspil testdata, og vælg testafspiller",
-      "testPlayer": "Testafspiller"
+      "testPlayer": "Testafspiller",
+      "delay": "Hold X",
+      "cameraQuality": "Indstil som træner",
+      "cameraWarningPlayer": "Kameraforsinkelse i sekunder",
+      "cameraWarningUser": "Kamerastreamkvalitet"
     },
     "addons": {
       "upload": "Upload addon",
@@ -291,6 +493,7 @@
       "huds": "HUDs",
       "aco": "Scout AI",
       "addons": "Addons",
+      "composer": "Forbindelse til mindst én af spillerne, markeret med en gul prik, er blokeret af symmetrisk NAT. Det resulterer normalt i problemer med kamerastreamforbindelsen. Det anbefales, at spilleren ændrer netværksforbindelsen og opdaterer kamerasiden.",
       "ar": "AR",
       "live": "Live",
       "quick": "Quick",
@@ -319,7 +522,9 @@
         "title": "Opret en ny forudindstilling",
         "placeholder": "Forudindstillet navn",
         "clone": "Kopier fra nuværende forudindstilling",
-        "createNew": "Opret tom"
+        "createNew": "Opret tom",
+        "createFromDefault": "Din forbindelse er blokeret af symmetrisk NAT. Det resulterer normalt i problemer med kamerastreamforbindelsen. Det anbefales at ændre netværksforbindelsen og genstarte LHM.",
+        "createBlank": "Composer"
       },
       "activate": "{{ name }} er ikke aktiv",
       "deactivate": "{{ name }} er aktiv",
@@ -382,6 +587,12 @@
       "page": "Turneringsside",
       "create": "Opret ny turnering",
       "name": "Turneringens navn",
+      "groupAndPlayoffs": "Opret standard",
+      "noMatchesInStage": "Opret tom",
+      "playoffsCreated": "Gruppe & slutspil",
+      "champion": "Ingen kampe i denne fase",
+      "bracket": "Slutspil er blevet oprettet",
+      "setScore": "Mester",
       "uploadLogo": "Upload turneringslogo",
       "logoInfo": "Turneringens logo vil være tilgængeligt under kampen",
       "singleElimBracket": "Enkelt eleminationsbracket",
@@ -390,6 +601,8 @@
       "group": "Gruppe",
       "playoffs": "Slutspil",
       "playoffType": "Slutspilstype",
+      "playoffsOnly": "Lag",
+      "grouppAndPlayoffs": "Sæt resultat",
       "soon": "Snart",
       "groupType": "Gruppetype",
       "participants": "Deltagere",
@@ -397,7 +610,21 @@
       "amountOfTeams": "Antal hold",
       "amountOfRounds": "Antal runder",
       "bindMatch": "Bind kamp til bracket",
-      "teamOrderList": "Liste over holdrækkefølge"
+      "defaultBo": "Kun slutspil",
+      "defaultBoEdit": "Gruppe + Slutspil",
+      "teamOrderList": "Liste over holdrækkefølge",
+      "tournamentStructure": "Standard Bedst Af Format",
+      "availableTeams": "Standard Bedst Af Format (For Nye Kampe)",
+      "selectedTeams": "Turneringsstruktur",
+      "qualifiedTeams": "Tilgængelige hold",
+      "qualified": "Udvalgte hold",
+      "eliminated": "Kvalificerede hold",
+      "groupFinished": "Kvalificerede",
+      "createPlayoffs": "Elimineret",
+      "stageInProgress": "Gruppespillet er afsluttet. Du kan nu oprette slutspillet - dette trin kan kun udføres én gang.",
+      "missingMatches": "Opret slutspil",
+      "matchesDeleted": "Gruppespillet er stadig i gang. Oprettelse af slutspil vil være tilgængelig, når gruppespillet er afsluttet.",
+      "restoreAllMatches": "Manglende kampe fundet"
     },
     "match": {
       "matches": "Kampe",
@@ -545,6 +772,9 @@
       "cloudSynchronization": "Cloudsynkronisering",
       "hudConfigCloudSynchronization": "Cloud-synkronisering af HUD-indstillinger",
       "hudTogglesCloudSynchronization": "HUD slår sky-synkronisering til",
+      "hudOrdersCloudSynchronization": "Nogle kampe er blevet slettet. Klik nedenfor for at gendanne alle kampe fra den første manglende runde.",
+      "sharedConfigCloudSynchronization": "Gendan alle matches",
+      "sharedConfigSync": "HUDs Order Cloud Synchronization",
       "valorantWindowTitleOverride": "Valorant Window Title Override",
       "valorantServerMode": "Dataindsamlingstilstand",
       "valorantReadLanguage": "Valorant Game Language",
@@ -559,6 +789,16 @@
       "dota2Assets": "Dota 2 Assets",
       "autoHalfSwitch": "Automatisk halvskift (eksperimentel)",
       "autoSwitch": "Auto skift",
+      "overrideCS2PlayerKeybinds": "Delt konfiguration Cloud Synchronization",
+      "overrideCS2PlayerKeybindsOptions": {
+        "no": "Delt konfiguration Cloud Synchronization",
+        "focused": "Tilsidesæt CS2-spillernøglebindinger",
+        "always": "Nej"
+      },
+      "overrideCS2PlayerKeybindsModal": {
+        "title": "Når LHM er i fokus",
+        "info": "Altid"
+      },
       "header": "Indstillinger",
       "subheaders": {
         "lhm": "LHM",
@@ -660,7 +900,9 @@
         },
         "config": {
           "status": "Konfigurationer",
-          "add": "Tilføj konfigurationsfiler"
+          "add": "Tilføj konfigurationsfiler",
+          "overrideIp": "Tilsidesæt CS2-spillernøglebindinger",
+          "slowMode": "Denne indstilling indstiller CS2-nøglebindinger 1-0 til at matche observatørspillerpladser vist på HUD'en, hvilket er nyttigt, når der er trænere til stede på serveren.\nFor at gemme nøglebindingerne skal du slå denne indstilling fra, mens CS2 kører."
         },
         "credits": {
           "credits": "Kreditter",
@@ -695,12 +937,17 @@
     },
     "huds": {
       "header": "HUDs",
+      "workshopToolsModal": {
+        "title": "Tilsidesæt IP-adresse",
+        "info": "Langsom tilstand",
+        "launchAnyway": "CS2 Workshop-værktøjer ikke fundet"
+      },
       "config": {
         "customRadar": "Radar",
         "customKillfeed": "Killfeed",
         "embeddedHUD": "Indbygget HUD",
-        "scout": "Scout AI/XRAY",
         "killfeedOffset": "Killfeed Offset",
+        "scout": "Scout AI/XRAY",
         "autoexecute": "Auto-execute",
         "console": "Konsol",
         "add": "Tilføj HUD",
@@ -722,6 +969,14 @@
         "custom": "Brugerdefineret",
         "newest": "Nyeste",
         "oldest": "Ældste"
+      },
+      "categories": {
+        "createTitle": "Counter-Strike 2 Workshop-værktøjer DLC blev ikke fundet. Det er påkrævet at bruge med LHM, når CS2 startes med Killfeed eller Scout AI aktiveret. Det anbefales at downloade det via Steam og prøve igen.",
+        "renameTitle": "Start alligevel",
+        "deleteTitle": "Opret kategori",
+        "name": "Omdøb kategori",
+        "ungrouped": "Slet kategori {{name}}",
+        "deleteInfo": "Kategorinavn"
       },
       "fields": {
         "missing": "Manglende felter",
@@ -765,6 +1020,65 @@
         "linkCopied": "Link kopieret til udklipsholder",
         "openingOverlay": "Åbner HUD i overlay...",
         "createShortcut": "Opret genvej på skrivebordet"
+      },
+      "share": {
+        "actions": {
+          "share": "Ungrupperet"
+        },
+        "modal": {
+          "title": "Er du sikker på, at du vil fjerne kategori {{name}}? Denne handling fjerner ikke nogen HUD'er.",
+          "description": "Del",
+          "disclaimer": "Del HUD",
+          "workspaceOwnerDisclaimer": "Send denne HUD til en anden bruger via e-mail.",
+          "emailLabel": "Modtageren vil se dit LHM-brugernavn, når de modtager denne deling.",
+          "emailPlaceholder": "Denne HUD tilhører arbejdsområdet \"{{workspace}}\". Da du ikke er ejer af arbejdsområdet, vil invitationen blive sendt på vegne af den primære Enterprise-konto.",
+          "expiryLabel": "Modtagers e-mail",
+          "expiry": {
+            "week": "navn@eksempel.com",
+            "month": "Adgangsvarighed",
+            "custom": "7 dage",
+            "never": "30 dage"
+          },
+          "customExpiryWarning": "Brugerdefineret dato",
+          "submit": "Ingen udløb"
+        },
+        "pending": {
+          "title": "Efter den valgte udløbsdato kan HUD'en forblive tilgængelig i op til en time.",
+          "description": "Send invitation",
+          "unknownSender": "Afventende HUD-delingsinvitationer",
+          "unnamedHud": "Du har modtaget en delt HUD-invitation:",
+          "unknownGame": "Ukendt afsender",
+          "game": "Unavngiven HUD",
+          "size": "Ukendt spil",
+          "sharedBy": "Spil: {{game}}",
+          "acceptToWorkspace": "Størrelse: {{size}}",
+          "acceptToWorkspaces": "Delt af {{sender}}",
+          "mainWorkspace": "Accepter til arbejdsområde",
+          "workspaceUnavailableTitle": "Accepter til arbejdsområder",
+          "acceptingInfo": "Min konto",
+          "expiresAt": "Arbejdsområde utilgængeligt",
+          "upgradeRequired": "Vent venligst, mens vi kopierer den delte HUD til dit/dine valgte arbejdsområde(r).",
+          "enterpriseStorageRequired": "Udløber: {{expiresAt}}",
+          "enterpriseSelectionLimit": "Denne HUD er større end din nuværende plans lagergrænse. Opgrader din plan for at acceptere den.",
+          "notEnoughFreeSpace": "Dette arbejdsområde har ikke nok lagerplads til denne HUD. Fjern nogle arbejdsområdedata for at acceptere HUD'en.",
+          "never": "Dette arbejdsområde deler lagerplads med dine andre valgte virksomhedsarbejdsområder. Fjern nogle data, eller fravælg et andet arbejdsområde for at acceptere HUD'en.",
+          "progress": "Du har ikke nok ledig cloudplads til at acceptere denne HUD lige nu. Frigør plads for at acceptere HUD'en."
+        },
+        "meta": {
+          "sharedBy": "Aldrig",
+          "unknownSender": "Invitation {{current}} af {{total}}",
+          "expiresAt": "Delt af {{sender}}"
+        },
+        "notifications": {
+          "created": "Ukendt afsender",
+          "error": "Udløber {{expiresAt}}",
+          "manageShares": "HUD-delingsinvitation sendt.",
+          "errors": {
+            "SHARE_LIMIT_REACHED": "Kan ikke sende delingsinvitationen. Prøv igen.",
+            "SHARE_SELF": "Administrer delinger",
+            "SHARE_ALREADY_EXISTS": "Maksimalt antal aktive delinger er nået."
+          }
+        }
       },
       "warning": {
         "csgoHUDinCS2": "Denne HUD er lavet til CS:GO. Det kan ikke garanteres, at alle dens funktioner vil fungere på samme måde i CS2.",
@@ -1012,6 +1326,10 @@
           "title": "Kameraforsinkelse",
           "info": "Kameraforsinkelsen understøttes i øjeblikket kun i officielle, Lexogrine HUD'er: Ultra & Premium HUDs"
         },
+        "quality": {
+          "title": "Du kan ikke dele en HUD med dig selv.",
+          "info": "Denne HUD er allerede delt med den pågældende bruger."
+        },
         "tab": {
           "title": "Kameraer",
           "info": "Med Kameraer modulet kan du vise spillernes webcam feeds i dine HUD'er ved hjælp af LHM - der kræves ingen eksterne værktøjer."
@@ -1034,6 +1352,20 @@
           "title": "Har du brug for at tilføje flere begivenheder?",
           "info": "Opgrader din plan for at få adgang til ubegrænsede begivenheder med avancerede muligheder som f.eks. muligheden for at oprette begivenhedsgrene og forudindstillinger!"
         }
+      },
+      "settings": {
+        "sharedConfigSync": {
+          "title": "Kamerastreamkvalitet",
+          "info": "Kamerastreams af højere kvalitet kan forårsage hakken på nogle computere og internetforbindelser."
+        },
+        "ipAddressOverride": {
+          "title": "Synkronisering af delt konfigurationscloud",
+          "info": "Når den er aktiveret, synkroniseres sektioner af delt konfiguration (f.eks. røntgenindstillinger) med LHM Cloud, så de kan forblive ensartede på tværs af dine enheder/arbejdsområder.\nDeaktiver dette, hvis du kun vil holde ændringer af delt konfiguration lokalt."
+        },
+        "slowMode": {
+          "title": "Tilsidesættelse af IP-adresse",
+          "info": "Brug kun dette, hvis LHM registrerer en forkert privat netværksadresse (f.eks. når en VPN er aktiv).\nAngiv den lokale IP-adresse, som dine HUD/browserkilder skal bruge.\nGenstart LHM efter at have ændret denne værdi, for at den kan træde i kraft."
+        }
       }
     },
     "modals": {
@@ -1045,11 +1377,17 @@
         "titleTeams": "Slet hold",
         "titlePlayers": "Slet spillere",
         "titleMatches": "Slet kampe",
+        "titleTournaments": "Langsom tilstand",
         "infoTeams": "Er du sikker på, at du vil fjerne {{count}} hold?",
         "infoPlayers": "Er du sikker på, at du vil fjerne {{count}} spillere?",
+        "infoTournaments": "Langsom tilstand sender API-anmodninger gennem en kø for at reducere burst-trafik. Dette kan hjælpe i restriktive, landsdækkende firewallmiljøer.\nGenstart LHM efter at have ændret denne værdi, for at den kan træde i kraft.",
         "infoMatches": "Er du sikker på, at du vil fjerne {{count}} kampe?",
         "deleteWithPlayers": "Slet med spillere",
-        "deleteAll": "Slet alle ({{count}})"
+        "deleteAll": "Slet alle ({{count}})",
+        "single": {
+          "titleTournament": "Slet turneringer",
+          "infoTournament": "Er du sikker på, at du vil fjerne {{count}} turneringer?"
+        }
       },
       "steamApiKeyMissing": {
         "title": "Steam API-nøgle mangler",

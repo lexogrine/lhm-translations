@@ -5,6 +5,9 @@
       "or": "lub",
       "close": "Zamknij",
       "save": "Zapisz",
+      "confirm": "Potwierdź",
+      "qualified": "Zakwalifikowany",
+      "eliminated": "Wyeliminowany",
       "saveAndSend": "Zapisz i wyślij",
       "saveAndRestart": "Zapisz i uruchom ponownie",
       "saveAndExit": "Zapisz i wyjdź",
@@ -35,6 +38,7 @@
       "teamNumber": "ZESPÓŁ #{{num}}",
       "vetoNumber": "Veto {{num}}",
       "delete": "Usuń",
+      "delete-all": "Usuń wszystko",
       "edit": "Edytuj",
       "live": "Na żywo",
       "match": "Mecz",
@@ -43,6 +47,7 @@
       "t": "T",
       "no": "Nie",
       "yes": "Tak",
+      "deleteAll": "Usuń wszystko",
       "noDontAsk": "Nie, nie pytaj",
       "csgo": {
         "ct": "CT",
@@ -61,6 +66,7 @@
       },
       "export": "Eksport",
       "cancel": "Anuluj",
+      "remindLater": "Przypomnij później",
       "next": "Dalej",
       "finish": "Zakończenie",
       "understand": "Rozumiem",
@@ -140,9 +146,11 @@
         "cgmode": "Tryb CG zawiera najważniejsze moduły do prowadzenia transmisji w kompaktowej formie.\nNa tej karcie można zarządzać meczami, drużynami, zawodnikami i grą na żywo na jednym ekranie.\nUaktualnij LHM do planu Personal, Professional lub Enterprise, aby uzyskać pełny dostęp do tej sekcji.",
         "arg": "Automatyzacja to kolejna granica - a my w Lexogrine jesteśmy zdeterminowani, by ją przekroczyć! Auto Replay Generator w pełni automatyzuje system powtórek. ARG - w oparciu o zdefiniowane kryteria - śledzi każde wydarzenie w grze, aby automatycznie uchwycić najważniejsze momenty i wyświetlać zapierające dech w piersiach powtórki między rundami. Wszystko, czego potrzebujesz, to vMix lub OBS.\nUaktualnij swój LHM do planu Personal, Professional lub Enterprise, aby uzyskać pełny dostęp do tej sekcji.",
         "addons": "Dodatki to nowy sposób tworzenia integracji z LHM.\nDo tej pory tylko niestandardowy kod HUD miał dostęp do danych z gry, co oznaczało, że cokolwiek chciałeś zrobić, musiało to być zrobione w środowisku przeglądarki.\nDodatki działają w środowiskach serwerowych - są to w zasadzie aplikacje NodeJS z emiterem zdarzeń GSI. Oznacza to, że nie musisz tworzyć niestandardowego serwera HTTP z parserem tylko po to, aby otrzymywać informacje z obsługiwanych gier (CS2, Dota 2), masz to wszystko po wyjęciu z pudełka, więc możesz skupić się na integracjach i funkcjach, które chcesz stworzyć.\nUaktualnij LHM do planu Personal, Professional lub Enterprise, aby uzyskać pełny dostęp do tej sekcji.",
+        "composer": "Kompozytor pozwala tworzyć i dostosowywać układ HUD za pomocą funkcji „przeciągnij i upuść” oraz gotowych ustawień wizualnych.\nUaktualnij swój LHM do planu Professional lub Enterprise z co najmniej 3 miejscami, aby uzyskać pełny dostęp do tej sekcji.",
         "aco": "Nie da się uchwycić każdej akcji w idealny sposób i z idealnej perspektywy - ale Scout jest naprawdę blisko tego. Nasza własna sztuczna inteligencja uczy się na podstawie tysięcy gier, aby samodzielnie uchwycić najbardziej pikantne wydarzenia, bez udziału człowieka.\nUlepsz swój LHM do planu osobistego, aby uzyskać dostęp do wszystkich modułów SI Skauta - Scout Vision, Scout Predict i Scout Cinematic.",
         "cameras": "Nasz system kamer jest bardzo łatwy w użyciu i pozwala zaoszczędzić mnóstwo czasu na konfigurację - zarówno organizatorom, jak i graczom. Bez nadmiernie skomplikowanej i czasochłonnej konfiguracji oprogramowania produkcyjnego, bez problemów sprzętowych.\nPodłącz kamerę i przypisz ją do zawodnika w LHM. Uruchom HUD i uśmiechnij się do publiczności.\nUaktualnij LHM do planu Personal, Professional lub Enterprise, aby uzyskać pełny dostęp do tej sekcji.",
-        "signals": "LHM Signals to nasza niestandardowa integracja z aplikacją Bitfocus Companion.\nNaszym celem jest pomoc w automatyzacji przewidywalnych zdarzeń w grze. Sygnały dbają o to i pozwalają wyzwalać przyciski Companion na określone zdarzenia w grze.\nUaktualnij swój LHM do planu Personal, Professional lub Enterprise, aby uzyskać pełny dostęp do tej sekcji."
+        "signals": "LHM Signals to nasza niestandardowa integracja z aplikacją Bitfocus Companion.\nNaszym celem jest pomoc w automatyzacji przewidywalnych zdarzeń w grze. Sygnały dbają o to i pozwalają wyzwalać przyciski Companion na określone zdarzenia w grze.\nUaktualnij swój LHM do planu Personal, Professional lub Enterprise, aby uzyskać pełny dostęp do tej sekcji.",
+        "xray": "LHM X-RAY pozwala dostosować kolory CS2 X-RAY — kontury graczy, nazwy i ślady granatów, ustawiając je inaczej dla każdej drużyny.\nUaktualnij swój LHM do planu Personal, Professional lub Enterprise, aby uzyskać pełny dostęp do tej sekcji."
       }
     },
     "titles": {
@@ -163,7 +171,8 @@
       "credits": "Twórcy",
       "quick": "Quick",
       "chat": "Czat wsparcia",
-      "composer": "Composer"
+      "composer": "Composer",
+      "xray": "X-Ray"
     },
     "aco": {
       "disabled": "Wyłączony",
@@ -232,31 +241,22 @@
       "scoutCinematicAction": {
         "label": "Film akcji"
       },
-      "scoutPausedTip": "SI Skauta jest wstrzymana, ponieważ nie wykryto uruchomionej gry."
+      "scoutPausedTip": "SI Skauta jest wstrzymana, ponieważ nie wykryto uruchomionej gry.",
+      "xrayWarning": "Aby X-Ray działał poprawnie, CS2 musi zostać uruchomiony z włączoną opcją Scout/X-Ray."
     },
     "composer": {
-      "componentsTitle": "Komponenty",
       "componentsSubtitle": "Podgląd komponentów HUD",
-      "searchPlaceholder": "Szukaj komponentów...",
-      "settingsTitle": "Ustawienia",
-      "backToComponents": "Wróć do komponentów",
       "usePlayerAvatar": "Użyj awatara gracza",
       "radarStyle": "Styl radaru",
-      "variant": "Wariant",
-      "layout": "Układ",
       "position": "Pozycja",
-      "fontFamily": "Rodzina czcionki",
+      "fileTooLarge": "Plik jest zbyt duży. Maksymalny rozmiar to {{limit}} MB. #__#\nKomponenty",
       "fontSize": "Rozmiar czcionki",
       "uhudMatchbarTeamNameFontSize": "Rozmiar czcionki nazwy drużyny",
       "uhudMatchbarScoreFontSize": "Rozmiar czcionki wyniku",
       "uhudPlayersNameFontSize": "Rozmiar czcionki nazwy gracza",
       "uhudPlayersStatsFontSize": "Rozmiar czcionki statystyk",
       "uhudPlayersHealthFontSize": "Rozmiar czcionki zdrowia",
-      "customCss": "Własny CSS",
-      "customCssPlaceholder": "/* własne style */",
       "visible": "Widoczny",
-      "showComponent": "Pokaż komponent",
-      "hideComponent": "Ukryj komponent",
       "previewTitle": "Podgląd Composera {{component}}",
       "components": {
         "matchbar": "Matchbar",
@@ -306,7 +306,130 @@
       "sapphirePlayersNameFontSize": "Rozmiar czcionki nazwy gracza",
       "sapphirePlayersRoundDamageFontSize": "Rozmiar czcionki obrażeń rundy",
       "sapphirePlayersKdaFontSize": "Rozmiar czcionki KDA",
-      "killfeedPlayerNameFontSize": "Rozmiar czcionki nazwy gracza w killfeedzie"
+      "killfeedPlayerNameFontSize": "Rozmiar czcionki nazwy gracza w killfeedzie",
+      "titles": {
+        "components": "Ustawienia",
+        "settings": "Style globalne",
+        "globalStyles": "Zastosuj globalny wygląd do komponentów."
+      },
+      "descriptions": {
+        "globalStyles": "Pokaż wszystko"
+      },
+      "actions": {
+        "showAll": "Ukryj wszystko",
+        "hideAll": "Pokaż komponent",
+        "showComponent": "Ukryj komponent",
+        "hideComponent": "Powrót do komponentów",
+        "backToComponents": "Do tyłu",
+        "toBack": "Do przodu",
+        "toFront": "Dodano"
+      },
+      "status": {
+        "added": "Nie dodano",
+        "notAdded": "Wariant"
+      },
+      "fields": {
+        "variant": "Styl",
+        "style": "Style",
+        "styles": "Układ",
+        "layout": "Rodzina czcionek",
+        "fontFamily": "Wzór globalny",
+        "globalPattern": "Krycie wzoru globalnego",
+        "globalPatternOpacity": "Dopasowanie obrazu tła",
+        "backgroundImageFit": "Promień obramowania",
+        "borderRadius": "Szerokość obramowania",
+        "borderWidth": "Styl obramowania",
+        "borderStyle": "Pozycja X",
+        "positionX": "Pozycja Y",
+        "positionY": "Wyśrodkuj w poziomie",
+        "centerHorizontally": "Wyśrodkuj Pionowo",
+        "centerVertically": "Skala",
+        "scale": "Indeks Z",
+        "zIndex": "Bieżąca warstwa",
+        "currentLayer": "Wyrównanie",
+        "align": "Niestandardowy CSS",
+        "customCss": "Czas trwania",
+        "duration": "Limit",
+        "limit": "GRANICA"
+      },
+      "labels": {
+        "border": "TŁO",
+        "background": "ANTYTERRORYŚCI",
+        "counterTerrorists": "TERRORYŚCI",
+        "terrorists": "Nie wybrano pliku"
+      },
+      "files": {
+        "noFileSelected": "Obraz sponsora",
+        "sponsorImage": "Plik zasobu",
+        "assetFile": "Nie wybrano obrazów",
+        "noImagesSelected": "Wybrano 1 obraz",
+        "oneImageSelected": "Wybrano {{count}} obrazów",
+        "imagesSelected": "Plik roślin",
+        "plantFile": "Rozbroj plik krótki",
+        "defuseShortFile": "Rozbroj plik długi",
+        "defuseLongFile": "Niestandardowy"
+      },
+      "options": {
+        "custom": "Okładka",
+        "cover": "Zawiera",
+        "contain": "Brak",
+        "none": "Góra",
+        "top": "Lewa",
+        "left": "Środek",
+        "center": "Prawa",
+        "right": "Dół",
+        "bottom": "Przód",
+        "front": "Informacje o wydajności"
+      },
+      "tooltips": {
+        "performanceInformation": "Pomoc dotycząca niestandardowych zmiennych kolorów CSS",
+        "customCssColorVariablesHelp": "Aby użyć koloru zespołu w niestandardowym kodzie CSS, użyj zmiennej CSS: var(--color-new-t).",
+        "customCss": "Tymczasowe renderowanie wszystkich komponentów Composera jednocześnie może obniżyć wydajność podglądu na słabszych komputerach. Jest to oczekiwane podczas konfiguracji i nie powinno mieć wpływu na wydajność po zakończeniu konfiguracji interfejsu HUD.",
+        "bulkVisibilityPerformance": "Szukaj komponentów..."
+      },
+      "placeholders": {
+        "search": "/* style niestandardowe */",
+        "customCss": "Użyj awatara"
+      },
+      "radar": {
+        "useAvatar": "Rozmiar gracza",
+        "playerSize": "Przezroczystość radaru",
+        "radarOpacity": "Użyj gradientu",
+        "useGradient": "Wariant animacji granatu",
+        "grenadeAnimationVariant": "Znacznik martwego gracza",
+        "deadPlayerMarker": "Włączone pomijanie gradientu",
+        "gradientOverrideEnabled": "Kolor stopu gradientu",
+        "gradientStopColor": "Włączone powiększanie tłumu",
+        "crowdZoomEnabled": "Kolor niosącego bombę",
+        "bombCarrierColor": "Kolor dymu",
+        "smokeColor": "Kolor błysku",
+        "flashColor": "Kolor granatu",
+        "grenadeColor": "Kolor koktajlu Mołotowa",
+        "molotovColor": "Kolor bomby",
+        "bombColor": "Maksymalna szerokość podłóż"
+      },
+      "anims": {
+        "plantMaxWidth": "Maksymalna wysokość podłóż",
+        "plantMaxHeight": "Maksymalna szerokość rozbrojenia",
+        "defuseMaxWidth": "Maksymalna wysokość rozbrojenia",
+        "defuseMaxHeight": "(cel ~5 s)",
+        "targetFiveSeconds": "(docelowo ~10 s)",
+        "targetTenSeconds": "Domyślnie"
+      },
+      "radarVariants": {
+        "default": "Ciemny",
+        "dark": "Czysty",
+        "clean": "Wysoki kontrast",
+        "high-contrast": "Domyślne"
+      },
+      "radarGrenadeAnimationVariants": {
+        "default": "Karton",
+        "carton": "Zanikanie"
+      },
+      "radarDeadPlayerMarkers": {
+        "fade": "Drużyna X",
+        "team-x": "Ustaw jako trenera"
+      }
     },
     "players": {
       "edit": "Edytuj gracza",
@@ -317,7 +440,8 @@
       "downloadNamesFile": "Pobierz plik Names",
       "importPlayersExcel": "Skorzystaj z naszego wstępnie przygotowanego arkusza Excel, aby łatwo zaimportować wielu graczy jednocześnie.",
       "exportPlayers": "Eksportuj",
-      "avatar": "Awatar"
+      "avatar": "Awatar",
+      "setAsCoach": "Opóźnienie kamery w sekundach"
     },
     "teams": {
       "edit": "Edytuj zespół",
@@ -343,7 +467,11 @@
       "startTestVideo": "Odtwórz wideo testowe",
       "stopTestVideo": "Zatrzymaj wideo testowe",
       "testVideoBlocker": "Musisz mieć uruchomioną grę, aby odtworzyć wideo testowe i graczy wypełnionych w powyższej tabeli. Obejrzyj demo lub odtwórz dane testowe i wybierz gracza testowego",
-      "testPlayer": "Gracz testowy"
+      "testPlayer": "Gracz testowy",
+      "delay": "Jakość strumienia kamery",
+      "cameraQuality": "Połączenie z co najmniej jednym z graczy, oznaczonym żółtą kropką, jest blokowane przez symetryczny NAT. Zwykle powoduje to problemy z połączeniem strumienia kamery. Zaleca się, aby gracz zmienił połączenie sieciowe i odświeżył stronę kamery.",
+      "cameraWarningPlayer": "Twoje połączenie jest blokowane przez symetryczny NAT. Zwykle powoduje to problemy z połączeniem strumienia kamery. Zaleca się zmianę połączenia sieciowego i ponowne uruchomienie LHM.",
+      "cameraWarningUser": "Utwórz domyślne"
     },
     "addons": {
       "upload": "Prześlij dodatek",
@@ -394,7 +522,9 @@
         "title": "Tworzenie nowego ustawienia wstępnego",
         "placeholder": "Nazwa ustawienia wstępnego",
         "clone": "Kopiuj z bieżącego ustawienia wstępnego",
-        "createNew": "Utwórz puste"
+        "createNew": "Utwórz puste",
+        "createFromDefault": "Utwórz puste",
+        "createBlank": "Grupa i play-offy"
       },
       "activate": "{{ name }} nie jest aktywne",
       "deactivate": "{{ name }} jest aktywne",
@@ -457,6 +587,12 @@
       "page": "Strona turnieju",
       "create": "Utwórz nowy turniej",
       "name": "Nazwa turnieju",
+      "groupAndPlayoffs": "Brak meczów na tym etapie",
+      "noMatchesInStage": "Play-offy zostały pomyślnie utworzone",
+      "playoffsCreated": "Mistrz",
+      "champion": "Drabina",
+      "bracket": "Ustaw wynik",
+      "setScore": "Tylko play-offy",
       "uploadLogo": "Prześlij logo turnieju",
       "logoInfo": "Logo turnieju będzie dostępne podczas meczu",
       "singleElimBracket": "Drabinka pojedynczej eliminacji",
@@ -465,6 +601,8 @@
       "group": "Grupa",
       "playoffs": "Play-offy",
       "playoffType": "Typ rozgrywek",
+      "playoffsOnly": "Grupa + play-offy",
+      "grouppAndPlayoffs": "Domyślny format Best of",
       "soon": "Wkrótce",
       "groupType": "Typ grupy",
       "participants": "Uczestnicy",
@@ -472,7 +610,21 @@
       "amountOfTeams": "Liczba zespołów",
       "amountOfRounds": "Liczba rund",
       "bindMatch": "Powiąż mecz z drabinką",
-      "teamOrderList": "Lista kolejności drużyn"
+      "defaultBo": "Domyślny format Best of (dla nowych meczów)",
+      "defaultBoEdit": "Struktura turnieju",
+      "teamOrderList": "Lista kolejności drużyn",
+      "tournamentStructure": "Dostępne drużyny",
+      "availableTeams": "Wybrane drużyny",
+      "selectedTeams": "Zakwalifikowane drużyny",
+      "qualifiedTeams": "Zakwalifikowane",
+      "qualified": "Wyeliminowane",
+      "eliminated": "Faza grupowa została zakończona. Możesz teraz utworzyć play-offy — ten krok można wykonać tylko raz.",
+      "groupFinished": "Utwórz play-offy",
+      "createPlayoffs": "Faza grupowa jest nadal w toku. Tworzenie play-offów będzie dostępne po zakończeniu fazy grupowej. #__#\nWykryto brakujące mecze",
+      "stageInProgress": "Niektóre mecze zostały usunięte. Kliknij poniżej, aby przywrócić wszystkie mecze z pierwszej brakującej rundy.",
+      "missingMatches": "Przywróć wszystkie mecze",
+      "matchesDeleted": "Synchronizacja kolejności HUD-ów z chmurą",
+      "restoreAllMatches": "Synchronizacja wspólnej konfiguracji z chmurą"
     },
     "match": {
       "matches": "Mecze",
@@ -620,6 +772,9 @@
       "cloudSynchronization": "Synchronizacja z chmurą",
       "hudConfigCloudSynchronization": "Synchronizacja ustawień HUD w chmurze",
       "hudTogglesCloudSynchronization": "HUD przełącza synchronizację chmury",
+      "hudOrdersCloudSynchronization": "Synchronizacja wspólnej konfiguracji z chmurą",
+      "sharedConfigCloudSynchronization": "Zastąp skróty klawiszowe graczy CS2",
+      "sharedConfigSync": "Nie",
       "valorantWindowTitleOverride": "Zastąpienie tytułu okna Valorant",
       "valorantServerMode": "Tryb zbierania danych",
       "valorantReadLanguage": "Waleczny język gry",
@@ -634,6 +789,16 @@
       "dota2Assets": "Dota 2 Assets",
       "autoHalfSwitch": "Automatyczny przełącznik połówkowy (eksperymentalny)",
       "autoSwitch": "Automatyczna zmiana drużyn",
+      "overrideCS2PlayerKeybinds": "Gdy LHM jest aktywny",
+      "overrideCS2PlayerKeybindsOptions": {
+        "no": "Zawsze",
+        "focused": "Zastąp skróty klawiszowe graczy CS2",
+        "always": "Ta opcja ustawia skróty klawiszowe CS2 na 1-0, aby dopasować je do slotów graczy obserwatorów wyświetlanych na HUD-ach, co jest przydatne, gdy na serwerze obecni są trenerzy.\nAby zapisać skróty klawiszowe, należy wyłączyć tę opcję podczas działania CS2. #__#\nNadpisanie adresu IP"
+      },
+      "overrideCS2PlayerKeybindsModal": {
+        "title": "Tryb wolny",
+        "info": "Nie znaleziono narzędzi warsztatowych CS2"
+      },
       "header": "Ustawienia",
       "subheaders": {
         "lhm": "LHM",
@@ -735,7 +900,9 @@
         },
         "config": {
           "status": "Konfiguracje",
-          "add": "Dodaj pliki konfiguracyjne"
+          "add": "Dodaj pliki konfiguracyjne",
+          "overrideIp": "Dodatek DLC do Counter-Strike 2 Workshop Tools nie został wykryty. Jest on wymagany do użycia z LHM podczas uruchamiania CS2 z włączonym Killfeed lub Scout AI. Zaleca się pobranie go ze Steam i ponowną próbę.",
+          "slowMode": "Uruchom mimo to"
         },
         "credits": {
           "credits": "Twórcy",
@@ -770,12 +937,17 @@
     },
     "huds": {
       "header": "HUDy",
+      "workshopToolsModal": {
+        "title": "Utwórz kategorię",
+        "info": "Zmień nazwę kategorii",
+        "launchAnyway": "Usuń kategorię {{name}}"
+      },
       "config": {
         "customRadar": "Radar",
         "customKillfeed": "Killfeed",
         "embeddedHUD": "Wbudowany HUD",
-        "scout": "Scout AI/XRAY",
         "killfeedOffset": "Killfeed Offset",
+        "scout": "Scout AI/XRAY",
         "autoexecute": "Auto-execute",
         "console": "Konsola",
         "add": "Dodaj HUD",
@@ -797,6 +969,14 @@
         "custom": "Niestandardowe",
         "newest": "Najnowsze",
         "oldest": "Najstarsze"
+      },
+      "categories": {
+        "createTitle": "Nazwa kategorii",
+        "renameTitle": "Niepogrupowane",
+        "deleteTitle": "Czy na pewno chcesz usunąć kategorię {{name}}? Ta czynność nie usunie żadnych HUD-ów.",
+        "name": "Udostępnij",
+        "ungrouped": "Udostępnij HUD",
+        "deleteInfo": "Wyślij ten HUD innemu użytkownikowi e-mailem."
       },
       "fields": {
         "missing": "Brakujące pola",
@@ -840,6 +1020,65 @@
         "linkCopied": "Link skopiowany do schowka",
         "openingOverlay": "Otwieranie HUD-a w nakładce...",
         "createShortcut": "Utwórz skrót na pulpicie"
+      },
+      "share": {
+        "actions": {
+          "share": "Odbiorca zobaczy Twoją nazwę użytkownika LHM po otrzymaniu tego udostępnienia."
+        },
+        "modal": {
+          "title": "Ten HUD należy do obszaru roboczego „{{workspace}}”. Ponieważ nie jesteś właścicielem obszaru roboczego, zaproszenie zostanie wysłane w imieniu głównego konta Enterprise.",
+          "description": "Adres e-mail odbiorcy",
+          "disclaimer": "name@example.com",
+          "workspaceOwnerDisclaimer": "Czas trwania dostępu",
+          "emailLabel": "7 dni",
+          "emailPlaceholder": "30 dni",
+          "expiryLabel": "Data niestandardowa",
+          "expiry": {
+            "week": "Brak daty ważności",
+            "month": "Po wybranej dacie ważności HUD może pozostać dostępny przez maksymalnie godzinę.",
+            "custom": "Wyślij zaproszenie",
+            "never": "Oczekujące zaproszenia do udostępniania HUD-a"
+          },
+          "customExpiryWarning": "Otrzymano zaproszenie do udostępniania HUD-a:",
+          "submit": "Nieznany nadawca"
+        },
+        "pending": {
+          "title": "HUD bez nazwy",
+          "description": "Nieznana gra",
+          "unknownSender": "Gra: {{game}}",
+          "unnamedHud": "Rozmiar: {{size}}",
+          "unknownGame": "Udostępnione przez {{sender}}",
+          "game": "Zaakceptuj w obszarze roboczym",
+          "size": "Zaakceptuj w obszarach roboczych",
+          "sharedBy": "Moje konto",
+          "acceptToWorkspace": "Obszar roboczy niedostępny",
+          "acceptToWorkspaces": "Proszę czekać, aż skopiujemy udostępniony HUD do wybranych obszarów roboczych.",
+          "mainWorkspace": "Wygasa: {{expiresAt}}",
+          "workspaceUnavailableTitle": "Ten HUD jest większy niż limit pamięci Twojego obecnego planu. Zaktualizuj swój plan, aby go zaakceptować.",
+          "acceptingInfo": "Ten obszar roboczy nie ma wystarczającej ilości pamięci dla tego HUD-a. Usuń niektóre dane obszaru roboczego, aby zaakceptować HUD.",
+          "expiresAt": "Ten obszar roboczy współdzieli pamięć masową z innymi wybranymi obszarami roboczymi przedsiębiorstwa. Usuń niektóre dane lub odznacz inny obszar roboczy, aby zaakceptować HUD.",
+          "upgradeRequired": "Nie masz teraz wystarczająco dużo wolnego miejsca w chmurze, aby zaakceptować ten HUD. Zwolnij miejsce, aby zaakceptować HUD.",
+          "enterpriseStorageRequired": "Nigdy",
+          "enterpriseSelectionLimit": "Zaproszenie {{current}} z {{total}}",
+          "notEnoughFreeSpace": "Udostępnione przez {{sender}}",
+          "never": "Nieznany nadawca",
+          "progress": "Wygasa {{expiresAt}}"
+        },
+        "meta": {
+          "sharedBy": "Zaproszenie do udostępniania HUD zostało pomyślnie wysłane.",
+          "unknownSender": "Nie można wysłać zaproszenia do udostępniania. Spróbuj ponownie.",
+          "expiresAt": "Zarządzaj udostępnieniami"
+        },
+        "notifications": {
+          "created": "Osiągnięto maksymalną liczbę aktywnych udostępnień.",
+          "error": "Nie możesz udostępnić HUD sobie.",
+          "manageShares": "Ten HUD jest już udostępniony danemu użytkownikowi.",
+          "errors": {
+            "SHARE_LIMIT_REACHED": "Jakość strumienia kamery",
+            "SHARE_SELF": "Wyższa jakość strumienia kamery może powodować zacinanie się obrazu na niektórych komputerach i połączeniach internetowych.",
+            "SHARE_ALREADY_EXISTS": "Synchronizacja współdzielonej konfiguracji z chmurą"
+          }
+        }
       },
       "warning": {
         "csgoHUDinCS2": "Ten HUD został stworzony dla CS:GO. Nie ma gwarancji, że wszystkie jego funkcje będą działać w ten sam sposób w CS2.",
@@ -1087,6 +1326,10 @@
           "title": "Opóźnienie kamery",
           "info": "Opóźnienie kamery jest obecnie obsługiwane tylko w oficjalnych HUD-ach Lexogrine: Ultra & Premium HUD"
         },
+        "quality": {
+          "title": "Po włączeniu, sekcje współdzielonej konfiguracji (na przykład ustawienia X-Ray) są synchronizowane z chmurą LHM, dzięki czemu mogą być spójne na wszystkich urządzeniach/obszarach roboczych.\nWyłącz tę opcję, jeśli chcesz, aby zmiany współdzielonej konfiguracji były wprowadzane lokalnie.",
+          "info": "Nadpisanie adresu IP"
+        },
         "tab": {
           "title": "Kamery",
           "info": "Moduł Kamery pozwala wyświetlać obraz z kamer internetowych graczy w HUD-ach przy użyciu LHM - nie są wymagane żadne zewnętrzne narzędzia."
@@ -1109,6 +1352,20 @@
           "title": "Chcesz dodać więcej wydarzeń?",
           "info": "Uaktualnij swój plan, aby uzyskać dostęp do nieograniczonej liczby wydarzeń z zaawansowanymi opcjami, takimi jak możliwość tworzenia gałęzi wydarzeń i ustawień wstępnych!"
         }
+      },
+      "settings": {
+        "sharedConfigSync": {
+          "title": "Użyj tego tylko wtedy, gdy LHM wykryje nieprawidłowy adres sieci prywatnej (na przykład, gdy aktywna jest sieć VPN).\nUstaw lokalny adres IP, którego powinny używać źródła HUD/przeglądarki.\nPo zmianie tej wartości uruchom ponownie LHM.",
+          "info": "Tryb wolny"
+        },
+        "ipAddressOverride": {
+          "title": "Tryb wolny wysyła żądania API przez kolejkę, aby zmniejszyć natężenie ruchu. Może to być pomocne w środowiskach z restrykcyjnymi zaporami sieciowymi obejmującymi cały kraj.\nPo zmianie tej wartości uruchom ponownie LHM.",
+          "info": "Usuń turnieje"
+        },
+        "slowMode": {
+          "title": "Czy na pewno chcesz usunąć {{count}} turniejów?",
+          "info": "Usuń {{name}} turniej"
+        }
       }
     },
     "modals": {
@@ -1120,11 +1377,13 @@
         "titleTeams": "Usuń zespoły",
         "titlePlayers": "Usuń graczy",
         "titleMatches": "Usuń mecze",
+        "titleTournaments": "Czy na pewno chcesz usunąć {{name}} turniej?",
         "infoTeams": "Czy na pewno chcesz usunąć {{count}} drużyn?",
         "infoPlayers": "Czy na pewno chcesz usunąć {{count}} zawodników?",
         "infoMatches": "Czy na pewno chcesz usunąć mecze {{count}}?",
         "deleteWithPlayers": "Usuń z graczami",
-        "deleteAll": "Usuń wszystko ({{count}})"
+        "deleteAll": "Usuń wszystko ({{count}})",
+        "single": {}
       },
       "steamApiKeyMissing": {
         "title": "Brak klucza API Steam",

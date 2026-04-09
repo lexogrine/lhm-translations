@@ -5,6 +5,9 @@
       "or": "或",
       "close": "關閉",
       "save": "保存",
+      "confirm": "确认",
+      "qualified": "合格",
+      "eliminated": "淘汰",
       "saveAndSend": "保存併發送",
       "saveAndRestart": "保存并重新启动",
       "saveAndExit": "保存并退出",
@@ -35,6 +38,7 @@
       "teamNumber": "队伍 #{{num}}",
       "vetoNumber": "否决票 {{{num}}",
       "delete": "删除",
+      "delete-all": "全部删除",
       "edit": "编辑",
       "live": "直播",
       "match": "匹配",
@@ -43,6 +47,7 @@
       "t": "T",
       "no": "无",
       "yes": "是的",
+      "deleteAll": "全部删除",
       "noDontAsk": "否，不要问",
       "csgo": {
         "ct": "CT",
@@ -61,6 +66,7 @@
       },
       "export": "出口",
       "cancel": "取消",
+      "remindLater": "稍后提醒",
       "next": "下一个",
       "finish": "完成",
       "understand": "我明白",
@@ -140,9 +146,11 @@
         "cgmode": "CG 模式以紧凑的形式整合了广播操作的最基本模块。\n通过此选项卡，您可以在一个屏幕上管理您的比赛、球队、球员和实时游戏。\n将您的 LHM 升级到个人、专业或企业计划，即可完全访问此部分。",
         "arg": "自动化是下一个前沿领域，Lexogrine 决心跨越它！自动回放生成器使回放系统完全自动化。ARG 根据定义的标准跟踪游戏中的每个事件，自动捕捉最关键的时刻，并在回合之间显示令人惊叹的回放。您只需拥有 vMix 或 OBS。\n将您的 LHM 升级到个人、专业或企业计划，即可完全访问此部分。",
         "addons": "插件是创建 LHM 集成的新方法。\n在此之前，只有自定义 HUD 代码可以访问游戏数据源，这意味着无论你想做什么，都必须在浏览器环境中完成。\n附加组件可在服务器环境中运行，它们基本上是带有 GSI 事件发射器的 NodeJS 应用程序。这意味着您不需要创建带有解析器的自定义 HTTP 服务器来接收来自受支持游戏（CS2、Dota 2）的信息，您已经拥有了开箱即用的所有功能，因此您可以专注于您想创建的集成和功能。\n将您的 LHM 升级到个人、专业或企业计划，即可完全访问本部分。",
+        "composer": "编辑器允许您使用拖放控件和视觉预设来构建和自定义 HUD 布局。\n\n将您的 LHM 升级到至少 3 个席位的专业版或企业版套餐，即可完全访问此部分。",
         "aco": "以完美的方式和理想的视角捕捉每一个动作是不可能的 - 但 Scout 真的接近这一点。我们自己的人工智能从数以千计的游戏中学习，无需人工输入，就可以自行捕捉最辣的事件。\n将您的 LHM 升级到个人计划，以访问所有 Scout AI 模块 - Scout Vision、Scout Predict 和 Scout Cinematic。",
         "cameras": "我们的摄像机系统超级易用，将为您节省大量的设置时间--无论是对于组织者还是对于玩家。没有过于复杂和耗时的制作软件配置，也没有硬件问题。\n在 LHM 中连接摄像机并分配给选手。启动 HUD，向观众微笑。\n将您的 LHM 升级到个人、专业或企业计划，即可完全访问本部分。",
-        "signals": "LHM Signals 是我们与 Bitfocus Companion 应用程序的定制集成。\n我们的目标是帮助实现游戏中可预测事件的自动化。信号可以解决这个问题，并允许在指定的游戏事件中触发同伴按钮。\n将您的 LHM 升级到个人、专业或企业计划，即可完全访问此部分。"
+        "signals": "LHM Signals 是我们与 Bitfocus Companion 应用程序的定制集成。\n我们的目标是帮助实现游戏中可预测事件的自动化。信号可以解决这个问题，并允许在指定的游戏事件中触发同伴按钮。\n将您的 LHM 升级到个人、专业或企业计划，即可完全访问此部分。",
+        "xray": "LHM X-RAY 允许您自定义 CS2 X-RAY 颜色——玩家轮廓、名称和手雷轨迹，并为每个队伍设置不同的颜色。\n\n将您的 LHM 升级到个人版、专业版或企业版套餐，即可完全访问此部分。"
       }
     },
     "titles": {
@@ -163,7 +171,8 @@
       "credits": "积分",
       "quick": "快速",
       "chat": "支持聊天",
-      "composer": "Composer"
+      "composer": "Composer",
+      "xray": "X-RAY"
     },
     "aco": {
       "disabled": "禁用",
@@ -232,7 +241,195 @@
       "scoutCinematicAction": {
         "label": "动作电影"
       },
-      "scoutPausedTip": "Scout AI 暂停，因为未检测到正在运行的游戏。"
+      "scoutPausedTip": "Scout AI 暂停，因为未检测到正在运行的游戏。",
+      "xrayWarning": "要使 X-RAY 正常工作，必须在启动 CS2 时启用侦察/X-RAY 选项。"
+    },
+    "composer": {
+      "componentsSubtitle": "HUD 组件预览",
+      "usePlayerAvatar": "使用玩家头像",
+      "radarStyle": "雷达样式",
+      "position": "位置",
+      "fileTooLarge": "文件过大。最大大小为 {{limit}} MB。",
+      "fontSize": "字体大小",
+      "uhudMatchbarTeamNameFontSize": "队伍名称字体大小",
+      "uhudMatchbarScoreFontSize": "比分字体大小",
+      "uhudPlayersNameFontSize": "玩家名称字体大小",
+      "uhudPlayersStatsFontSize": "统计数据字体大小",
+      "uhudPlayersHealthFontSize": "生命值字体大小",
+      "visible": "可见",
+      "previewTitle": "作曲家预览 {{component}}",
+      "components": {
+        "matchbar": "匹配栏",
+        "left-player": "左侧玩家",
+        "right-player": "右侧玩家",
+        "left-money": "左侧金钱",
+        "right-money": "右侧金钱",
+        "players": "玩家",
+        "observed-player": "观察到的玩家",
+        "killfeed": "击杀信息",
+        "round-history": "回合历史记录",
+        "mapseries": "地图系列",
+        "asset": "自定义素材",
+        "winbox": "回合胜利指示器",
+        "sponsors": "赞助商",
+        "tournament-info": "赛事信息",
+        "scout": "侦察预测",
+        "radar": "雷达",
+        "anims-plant": "安放炸弹动画",
+        "anims-defuse-short": "拆除炸弹动画（短）",
+        "anims-defuse-long": "拆除炸弹动画（长）",
+        "anims-defuse": "动画拆弹",
+        "anims": "动画"
+      },
+      "huds": {
+        "ultrahud": "超高清 HUD",
+        "amberhud": "琥珀色 HUD",
+        "sapphirehud": "蓝宝石色 HUD",
+        "neonhud": "霓虹色 HUD",
+        "fullHud": "完整 HUD"
+      },
+      "layouts": {
+        "vertical": "垂直",
+        "horizontal": "水平方向",
+        "horizontal-top": "水平顶部",
+        "horizontal-bottom": "水平底部"
+      },
+      "positions": {
+        "left-players": "左侧玩家",
+        "right-players": "右侧玩家",
+        "left-players-top": "左侧玩家顶部",
+        "left-players-bottom": "左侧玩家底部",
+        "right-players-top": "右侧玩家顶部",
+        "right-players-bottom": "右侧玩家底部"
+      },
+      "sapphirePlayersHpFontSize": "生命值字体大小",
+      "sapphirePlayersNameFontSize": "玩家名称字体大小",
+      "sapphirePlayersRoundDamageFontSize": "回合伤害字体大小",
+      "sapphirePlayersKdaFontSize": "KDA字体大小",
+      "killfeedPlayerNameFontSize": "击杀信息玩家名称字体大小",
+      "titles": {
+        "components": "组件",
+        "settings": "设置",
+        "globalStyles": "全局样式"
+      },
+      "descriptions": {
+        "globalStyles": "将全局样式应用于组件。"
+      },
+      "actions": {
+        "showAll": "全部显示",
+        "hideAll": "全部隐藏",
+        "showComponent": "显示组件",
+        "hideComponent": "隐藏组件",
+        "backToComponents": "返回组件",
+        "toBack": "置于底层",
+        "toFront": "置于顶层"
+      },
+      "status": {
+        "added": "已添加",
+        "notAdded": "未添加"
+      },
+      "fields": {
+        "variant": "变体",
+        "style": "样式",
+        "styles": "布局",
+        "layout": "字体",
+        "fontFamily": "全局图案",
+        "globalPattern": "全局图案不透明度",
+        "globalPatternOpacity": "背景图像适配",
+        "backgroundImageFit": "边框圆角",
+        "borderRadius": "边框宽度",
+        "borderWidth": "边框样式",
+        "borderStyle": "X 坐标",
+        "positionX": "Y 坐标",
+        "positionY": "水平居中",
+        "centerHorizontally": "垂直居中",
+        "centerVertically": "缩放",
+        "scale": "Z 轴索引",
+        "zIndex": "当前图层",
+        "currentLayer": "对齐方式",
+        "align": "自定义CSS",
+        "customCss": "持续时间",
+        "duration": "限制",
+        "limit": "边框"
+      },
+      "labels": {
+        "border": "背景",
+        "background": "反恐精英",
+        "counterTerrorists": "恐怖分子",
+        "terrorists": "未选择文件"
+      },
+      "files": {
+        "noFileSelected": "赞助商图片",
+        "sponsorImage": "资源文件",
+        "assetFile": "未选择图片",
+        "noImagesSelected": "已选择 1 张图片",
+        "oneImageSelected": "已选择 {{count}} 张图片",
+        "imagesSelected": "植物文件",
+        "plantFile": "拆弹短文件",
+        "defuseShortFile": "拆弹长文件",
+        "defuseLongFile": "自定义"
+      },
+      "options": {
+        "custom": "封面",
+        "cover": "包含",
+        "contain": "无",
+        "none": "顶部",
+        "top": "左侧",
+        "left": "中心",
+        "center": "右侧\n\n底部",
+        "right": "正面",
+        "bottom": "性能信息",
+        "front": "自定义 CSS 颜色变量帮助"
+      },
+      "tooltips": {
+        "performanceInformation": "要在自定义 CSS 中使用团队颜色，请使用 CSS 变量：var(--color-new-t)。",
+        "customCssColorVariablesHelp": "暂时一次性渲染所有 Composer 组件可能会降低低配置机器上的预览性能。这是设置过程中的正常现象，完成HUD配置后不会影响性能。",
+        "customCss": "搜索组件...",
+        "bulkVisibilityPerformance": "/* 自定义样式 */"
+      },
+      "placeholders": {
+        "search": "使用头像",
+        "customCss": "玩家大小"
+      },
+      "radar": {
+        "useAvatar": "雷达不透明度",
+        "playerSize": "使用渐变",
+        "radarOpacity": "手雷动画变体",
+        "useGradient": "死亡玩家标记",
+        "grenadeAnimationVariant": "启用渐变覆盖",
+        "deadPlayerMarker": "渐变停止颜色",
+        "gradientOverrideEnabled": "启用人群缩放",
+        "gradientStopColor": "炸弹携带者颜色",
+        "crowdZoomEnabled": "烟雾颜色",
+        "bombCarrierColor": "闪光颜色",
+        "smokeColor": "手雷颜色",
+        "flashColor": "燃烧瓶颜色",
+        "grenadeColor": "炸弹颜色",
+        "molotovColor": "安放炸弹最大宽度",
+        "bombColor": "安放炸弹最大高度"
+      },
+      "anims": {
+        "plantMaxWidth": "拆除炸弹最大宽度",
+        "plantMaxHeight": "拆除炸弹最大高度",
+        "defuseMaxWidth": "（目标约 5 秒）",
+        "defuseMaxHeight": "（目标约 10 秒）",
+        "targetFiveSeconds": "默认",
+        "targetTenSeconds": "暗"
+      },
+      "radarVariants": {
+        "default": "干净",
+        "dark": "高对比度",
+        "clean": "默认",
+        "high-contrast": "卡通"
+      },
+      "radarGrenadeAnimationVariants": {
+        "default": "淡入淡出",
+        "carton": "X 队"
+      },
+      "radarDeadPlayerMarkers": {
+        "fade": "设置为教练",
+        "team-x": "摄像头延迟（秒）"
+      }
     },
     "players": {
       "edit": "编辑玩家",
@@ -243,7 +440,8 @@
       "downloadNamesFile": "下载名称文件",
       "importPlayersExcel": "使用我们预先准备好的 Excel 表单，一次轻松导入多名球员。",
       "exportPlayers": "导出",
-      "avatar": "头像"
+      "avatar": "头像",
+      "setAsCoach": "摄像头流质量"
     },
     "teams": {
       "edit": "编辑团队",
@@ -269,7 +467,11 @@
       "startTestVideo": "播放测试视频",
       "stopTestVideo": "停止测试视频",
       "testVideoBlocker": "必须运行游戏才能播放测试视频，并在上表中填写玩家。观看演示或播放测试数据，然后选择测试球员",
-      "testPlayer": "测试球员"
+      "testPlayer": "测试球员",
+      "delay": "与至少一名玩家（黄色圆点标记）的连接受对称 NAT 阻碍。这通常会导致摄像头流连接问题。建议玩家更换网络连接并刷新摄像头页面。",
+      "cameraQuality": "您的连接受对称 NAT 阻碍。这通常会导致摄像头流连接问题。建议更换网络连接并重启 LHM。",
+      "cameraWarningPlayer": "合成器",
+      "cameraWarningUser": "创建默认设置"
     },
     "addons": {
       "upload": "上传插件",
@@ -291,6 +493,7 @@
       "huds": "HUD",
       "aco": "Scout AI",
       "addons": "附加组件",
+      "composer": "创建空白设置",
       "ar": "AR",
       "live": "直播",
       "quick": "快速",
@@ -319,7 +522,9 @@
         "title": "创建新预置",
         "placeholder": "预置名称",
         "clone": "从当前预设复制",
-        "createNew": "创建空白"
+        "createNew": "创建空白",
+        "createFromDefault": "组 &季后赛",
+        "createBlank": "此阶段无比赛"
       },
       "activate": "{{ name }}未激活",
       "deactivate": "{{ name }}已激活",
@@ -382,6 +587,12 @@
       "page": "锦标赛页面",
       "create": "创建新锦标赛",
       "name": "锦标赛名称",
+      "groupAndPlayoffs": "季后赛已成功创建",
+      "noMatchesInStage": "冠军",
+      "playoffsCreated": "对阵表",
+      "champion": "比分",
+      "bracket": "仅季后赛",
+      "setScore": "小组赛 + 季后赛",
       "uploadLogo": "上传锦标赛徽标",
       "logoInfo": "比赛徽标将在比赛中显示",
       "singleElimBracket": "单败淘汰赛",
@@ -390,6 +601,8 @@
       "group": "小组赛",
       "playoffs": "季后赛",
       "playoffType": "季后赛类型",
+      "playoffsOnly": "默认最佳赛制",
+      "grouppAndPlayoffs": "默认最佳赛制（适用于新比赛）",
       "soon": "很快",
       "groupType": "小组赛类型",
       "participants": "参与者",
@@ -397,7 +610,21 @@
       "amountOfTeams": "团队数量",
       "amountOfRounds": "回合数",
       "bindMatch": "将比赛绑定到包围圈",
-      "teamOrderList": "队伍顺序列表"
+      "defaultBo": "赛事结构",
+      "defaultBoEdit": "可用队伍",
+      "teamOrderList": "队伍顺序列表",
+      "tournamentStructure": "已选队伍",
+      "availableTeams": "已晋级队伍",
+      "selectedTeams": "已晋级队伍",
+      "qualifiedTeams": "已淘汰队伍",
+      "qualified": "小组赛已结束。您现在可以创建季后赛 - 此步骤只能执行一次。",
+      "eliminated": "创建季后赛",
+      "groupFinished": "小组赛仍在进行中。小组赛结束后，即可创建季后赛。",
+      "createPlayoffs": "检测到缺失比赛",
+      "stageInProgress": "部分比赛已被删除。点击下方按钮，恢复第一轮缺失的所有比赛。 #__#\n\n恢复所有比赛",
+      "missingMatches": "HUD 顺序云同步",
+      "matchesDeleted": "共享配置云同步",
+      "restoreAllMatches": "共享配置云同步"
     },
     "match": {
       "matches": "比赛",
@@ -545,6 +772,9 @@
       "cloudSynchronization": "云同步",
       "hudConfigCloudSynchronization": "HUD设置云同步",
       "hudTogglesCloudSynchronization": "HUD 切换云同步",
+      "hudOrdersCloudSynchronization": "覆盖 CS2 玩家按键绑定",
+      "sharedConfigCloudSynchronization": "否",
+      "sharedConfigSync": "当 LHM 处于焦点状态时",
       "valorantWindowTitleOverride": "Valorant 窗口标题覆盖",
       "valorantServerMode": "数据采集模式",
       "valorantReadLanguage": "Valorant 游戏语言",
@@ -559,6 +789,16 @@
       "dota2Assets": "多塔 2 资产",
       "autoHalfSwitch": "自动半场切换（实验性）",
       "autoSwitch": "自动切换",
+      "overrideCS2PlayerKeybinds": "始终",
+      "overrideCS2PlayerKeybindsOptions": {
+        "no": "覆盖 CS2 玩家按键绑定",
+        "focused": "此选项会将 CS2 的按键绑定 1-0 设置为与 HUD 上显示的观察者玩家位置相匹配，这在服务器上有教练时非常有用。\n\n要保存按键绑定，您必须在 CS2 运行时关闭此选项。",
+        "always": "IP 地址覆盖"
+      },
+      "overrideCS2PlayerKeybindsModal": {
+        "title": "慢速模式",
+        "info": "未找到 CS2 工作坊工具"
+      },
       "header": "设置",
       "subheaders": {
         "lhm": "LHM",
@@ -660,7 +900,9 @@
         },
         "config": {
           "status": "配置",
-          "add": "添加配置文件"
+          "add": "添加配置文件",
+          "overrideIp": "未检测到《反恐精英 2》工作坊工具 DLC。启用击杀信息或侦察兵 AI 启动 CS2 时，需要将其与 LHM 一起使用。建议通过 Steam 下载后再试一次。",
+          "slowMode": "仍然启动"
         },
         "credits": {
           "credits": "信用",
@@ -695,12 +937,17 @@
     },
     "huds": {
       "header": "HUD",
+      "workshopToolsModal": {
+        "title": "创建类别",
+        "info": "重命名类别",
+        "launchAnyway": "删除 {{name}} 类别"
+      },
       "config": {
         "customRadar": "雷达",
         "customKillfeed": "Killfeed",
         "embeddedHUD": "嵌入式 HUD",
-        "scout": "Scout AI/XRAY",
         "killfeedOffset": "Killfeed Offset",
+        "scout": "Scout AI/XRAY",
         "autoexecute": "Auto-execute",
         "console": "控制台",
         "add": "添加 HUD",
@@ -722,6 +969,14 @@
         "custom": "自定义",
         "newest": "最新",
         "oldest": "最旧"
+      },
+      "categories": {
+        "createTitle": "类别名称",
+        "renameTitle": "取消分组",
+        "deleteTitle": "您确定要删除 {{name}} 类别吗？此操作不会删除任何 HUD。",
+        "name": "共享",
+        "ungrouped": "共享 HUD",
+        "deleteInfo": "通过电子邮件将此 HUD 发送给其他用户。"
       },
       "fields": {
         "missing": "缺失字段",
@@ -765,6 +1020,65 @@
         "linkCopied": "链接已复制到剪贴板",
         "openingOverlay": "正在覆盖层中打开HUD...",
         "createShortcut": "在桌面上创建快捷方式"
+      },
+      "share": {
+        "actions": {
+          "share": "收件人收到此共享时将看到您的 LHM 用户名。"
+        },
+        "modal": {
+          "title": "此 HUD 属于工作区“{{workspace}}”。由于您不是工作区所有者，因此邀请将代表主企业帐户发送。",
+          "description": "收件人邮箱",
+          "disclaimer": "name@example.com",
+          "workspaceOwnerDisclaimer": "访问期限",
+          "emailLabel": "7 天",
+          "emailPlaceholder": "30 天",
+          "expiryLabel": "自定义日期",
+          "expiry": {
+            "week": "无过期时间",
+            "month": "在选定的过期日期之后，HUD 最多可保留一小时。",
+            "custom": "发送邀请",
+            "never": "待处理的 HUD 共享邀请"
+          },
+          "customExpiryWarning": "您收到了一条共享 HUD 邀请：",
+          "submit": "未知发件人"
+        },
+        "pending": {
+          "title": "未命名 HUD",
+          "description": "未知游戏",
+          "unknownSender": "游戏：{{game}}",
+          "unnamedHud": "大小：{{size}}",
+          "unknownGame": "共享者：{{sender}}",
+          "game": "接受到工作区",
+          "size": "接受到工作区",
+          "sharedBy": "我的帐户",
+          "acceptToWorkspace": "工作区不可用",
+          "acceptToWorkspaces": "请稍候，我们正在将共享 HUD 复制到您选择的工作区。",
+          "mainWorkspace": "过期时间：{{expiresAt}}",
+          "workspaceUnavailableTitle": "此 HUD 超出您当前套餐的存储空间限制。请升级您的套餐以接收它。",
+          "acceptingInfo": "此工作区没有足够的存储空间来容纳此 HUD。请移除一些工作区数据以接收此 HUD。",
+          "expiresAt": "此工作区与您选择的其他企业工作区共享存储空间。请移除一些数据或取消选择其他工作区以接收此 HUD。",
+          "upgradeRequired": "您目前没有足够的可用云空间来接收此 HUD。请释放空间以接收此 HUD。",
+          "enterpriseStorageRequired": "永不",
+          "enterpriseSelectionLimit": "邀请 {{current}}，共 {{total}} 个",
+          "notEnoughFreeSpace": "共享者 {{sender}}",
+          "never": "未知发件人",
+          "progress": "过期时间：{{expiresAt}}"
+        },
+        "meta": {
+          "sharedBy": "HUD 共享邀请已成功发送。",
+          "unknownSender": "无法发送共享邀请。请重试。",
+          "expiresAt": "管理共享"
+        },
+        "notifications": {
+          "created": "已达到最大活动共享数量。",
+          "error": "您无法与自己共享 HUD。",
+          "manageShares": "此 HUD 已与该用户共享。",
+          "errors": {
+            "SHARE_LIMIT_REACHED": "摄像头视频流质量",
+            "SHARE_SELF": "更高的摄像头视频流质量可能会导致某些计算机和网络连接出现卡顿。",
+            "SHARE_ALREADY_EXISTS": "共享配置云同步"
+          }
+        }
       },
       "warning": {
         "csgoHUDinCS2": "此 HUD 专为 CS:GO 制作。不保证其所有功能都能在 CS2 中以相同方式运行。",
@@ -1012,6 +1326,10 @@
           "title": "相机延迟",
           "info": "目前只有官方 Lexogrine HUD 支持相机延迟功能：高级 HUD"
         },
+        "quality": {
+          "title": "启用此功能后，共享配置部分（例如 X 光设置）将与 LHM 云端同步，从而确保它们在您的设备/工作区之间保持一致。\n\n如果您希望仅在本地更改共享配置，请禁用此功能。",
+          "info": "IP 地址覆盖"
+        },
         "tab": {
           "title": "摄像头",
           "info": "摄像头模块可让您使用 LHM 在 HUD 中显示球员网络摄像头画面，无需使用外部工具。"
@@ -1034,6 +1352,20 @@
           "title": "需要添加更多事件？",
           "info": "升级您的计划，即可使用无限量的活动和高级选项，如创建活动分支和预设！"
         }
+      },
+      "settings": {
+        "sharedConfigSync": {
+          "title": "仅当 LHM 检测到错误的私有网络地址时（例如 VPN 处于活动状态）才使用此功能。\n\n设置您的 HUD/浏览器源应使用的本地 IP 地址。\n\n更改此值后，请重启 LHM 以使更改生效。",
+          "info": "慢速模式"
+        },
+        "ipAddressOverride": {
+          "title": "慢速模式会将 API 请求通过队列发送，以减少突发流量。这有助于在防火墙限制严格的国家/地区环境中使用。\n\n更改此值后，请重启 LHM 以使更改生效。",
+          "info": "删除锦标赛"
+        },
+        "slowMode": {
+          "title": "您确定要删除 {{count}} 个锦标赛吗？",
+          "info": "删除 {{name}} 个锦标赛"
+        }
       }
     },
     "modals": {
@@ -1045,11 +1377,13 @@
         "titleTeams": "删除团队",
         "titlePlayers": "删除球员",
         "titleMatches": "删除匹配",
+        "titleTournaments": "您确定要删除 {{name}} 个锦标赛吗？",
         "infoTeams": "您确定要删除 {{count}} 球队吗？",
         "infoPlayers": "您确定要删除{{count}}名球员吗？",
         "infoMatches": "您确定要删除 {{count}} 匹配吗？",
         "deleteWithPlayers": "删除球员",
-        "deleteAll": "全部删除（{{count}}"
+        "deleteAll": "全部删除（{{count}}",
+        "single": {}
       },
       "steamApiKeyMissing": {
         "title": "缺少 Steam API 密钥",

@@ -5,6 +5,9 @@
       "or": "hoặc",
       "close": "Đóng",
       "save": "Lưu",
+      "confirm": "Xác nhận",
+      "qualified": "Đủ điều kiện",
+      "eliminated": "Bị loại",
       "saveAndSend": "Lưu và gửi",
       "saveAndRestart": "Lưu và khởi động lại",
       "saveAndExit": "Lưu và thoát",
@@ -35,6 +38,7 @@
       "teamNumber": "ĐỘI #{{num}}",
       "vetoNumber": "Lựa chọn {{num}}",
       "delete": "Xóa",
+      "delete-all": "Xóa tất cả",
       "edit": "Chỉnh sửa",
       "live": "Trực tiếp",
       "match": "Trận đấu",
@@ -43,6 +47,7 @@
       "t": "T",
       "no": "Không",
       "yes": "Có",
+      "deleteAll": "Xóa tất cả",
       "noDontAsk": "Không, đừng hỏi",
       "csgo": {
         "ct": "CT",
@@ -61,6 +66,7 @@
       },
       "export": "Xuất",
       "cancel": "Hủy bỏ",
+      "remindLater": "Nhắc lại sau",
       "next": "Tiếp theo",
       "finish": "Kết thúc",
       "understand": "Tôi hiểu",
@@ -140,9 +146,11 @@
         "cgmode": "Chế độ CG kết hợp các mô-đun cần thiết nhất cho các hoạt động phát sóng ở dạng nhỏ gọn.\nTừ tab này, bạn có thể quản lý các trận đấu, đội, người chơi và trò chơi Trực tiếp của mình trên một màn hình.\nNâng cấp LHM của bạn lên gói Cá nhân, Chuyên nghiệp hoặc Doanh nghiệp để có toàn quyền truy cập vào phần này.",
         "arg": "Tự động hóa là biên giới tiếp theo - và ở đây tại Lexogrine, chúng tôi quyết tâm vượt qua nó! Auto Replay Generator hoàn toàn tự động hóa hệ thống phát lại. ARG - dựa trên các tiêu chí được xác định - theo dõi mọi sự kiện trong trò chơi để tự động ghi lại những khoảnh khắc quan trọng nhất và hiển thị các bản phát lại ngoạn mục giữa các vòng. Tất cả những gì bạn cần có là vMix hoặc OBS.\nNâng cấp LHM của bạn lên gói Cá nhân, Chuyên nghiệp hoặc Doanh nghiệp để có toàn quyền truy cập vào phần này.",
         "addons": "Addons là một cách mới để tạo tích hợp với LHM.\nCho đến thời điểm này, chỉ có mã của HUD tùy chỉnh mới có quyền truy cập vào nguồn cấp dữ liệu trò chơi, có nghĩa là bất cứ điều gì bạn muốn làm, nó phải được thực hiện trong môi trường trình duyệt.\nAddons hoạt động trên môi trường máy chủ - về cơ bản chúng là các ứng dụng NodeJS với bộ phát Sự kiện GSI được nối vào chúng. Điều đó có nghĩa là bạn không cần phải tạo một máy chủ HTTP tùy chỉnh với trình phân tích cú pháp chỉ để nhận thông tin từ các trò chơi được hỗ trợ (CS2, Dota 2), bạn có tất cả những điều đó, vì vậy bạn có thể tập trung vào các tích hợp và tính năng bạn muốn tạo.\nNâng cấp LHM của bạn lên gói Cá nhân, Chuyên nghiệp hoặc Doanh nghiệp để có toàn quyền truy cập vào phần này.",
+        "composer": "Composer cho phép bạn xây dựng và tùy chỉnh bố cục HUD của mình bằng các điều khiển kéo và thả cùng các thiết lập hình ảnh có sẵn.\n\nNâng cấp LHM của bạn lên gói Chuyên nghiệp hoặc Doanh nghiệp với ít nhất 3 chỗ ngồi để có quyền truy cập đầy đủ vào phần này.",
         "aco": "Không thể nắm bắt mọi hành động một cách hoàn hảo và từ một góc độ lý tưởng - nhưng Scout thực sự tiến gần đến điều đó. AI của chúng ta học hỏi từ hàng ngàn trò chơi để tự mình ghi lại những sự kiện cay đắng nhất mà không cần sự tham gia của con người.\nNâng cấp LHM của bạn lên gói Cá nhân để có quyền truy cập vào tất cả các mô-đun AI Hướng đạo - Tầm nhìn Hướng đạo, Dự đoán Hướng đạo và Điện ảnh Hướng đạo.",
         "cameras": "Hệ thống camera của chúng tôi siêu dễ sử dụng và sẽ giúp bạn tiết kiệm một lượng lớn thời gian thiết lập - cho cả người tổ chức và người chơi. Không có cấu hình phần mềm sản xuất quá phức tạp và tốn thời gian, không có vấn đề về phần cứng.\nKết nối máy ảnh và gán nó cho một đầu phát trong LHM. Khởi động HUD và mỉm cười với khán giả.\nNâng cấp LHM của bạn lên gói Cá nhân, Chuyên nghiệp hoặc Doanh nghiệp để có toàn quyền truy cập vào phần này.",
-        "signals": "LHM Signals là tích hợp tùy chỉnh của chúng tôi với ứng dụng Bitfocus Companion. Mục tiêu của chúng tôi là giúp tự động hóa các sự kiện trong trò chơi có thể dự đoán được. Signals sẽ xử lý việc đó và cho phép kích hoạt các nút Companion trên các sự kiện trò chơi được chỉ định. Nâng cấp LHM của bạn lên gói Cá nhân, Chuyên nghiệp hoặc Doanh nghiệp để có quyền truy cập đầy đủ vào phần này."
+        "signals": "LHM Signals là tích hợp tùy chỉnh của chúng tôi với ứng dụng Bitfocus Companion. Mục tiêu của chúng tôi là giúp tự động hóa các sự kiện trong trò chơi có thể dự đoán được. Signals sẽ xử lý việc đó và cho phép kích hoạt các nút Companion trên các sự kiện trò chơi được chỉ định. Nâng cấp LHM của bạn lên gói Cá nhân, Chuyên nghiệp hoặc Doanh nghiệp để có quyền truy cập đầy đủ vào phần này.",
+        "xray": "LHM X-RAY cho phép bạn tùy chỉnh màu sắc CS2 X-RAY - đường viền người chơi, tên và vệt lựu đạn, thiết lập chúng khác nhau cho mỗi đội.\n\nNâng cấp LHM của bạn lên gói Cá nhân, Chuyên nghiệp hoặc Doanh nghiệp để có quyền truy cập đầy đủ vào phần này."
       }
     },
     "titles": {
@@ -163,7 +171,8 @@
       "credits": "Tác giả",
       "quick": "Nhanh",
       "chat": "Trò chuyện hỗ trợ",
-      "composer": "Composer"
+      "composer": "Composer",
+      "xray": "X-Ray"
     },
     "aco": {
       "disabled": "Vô hiệu hóa",
@@ -232,7 +241,195 @@
       "scoutCinematicAction": {
         "label": "Phim hành động"
       },
-      "scoutPausedTip": "Scout AI bị tạm dừng vì không có trò chơi đang chạy nào được phát hiện."
+      "scoutPausedTip": "Scout AI bị tạm dừng vì không có trò chơi đang chạy nào được phát hiện.",
+      "xrayWarning": "Để X-Ray hoạt động chính xác, CS2 phải được khởi chạy với tùy chọn Scout/X-Ray được bật."
+    },
+    "composer": {
+      "componentsSubtitle": "Xem trước thành phần HUD",
+      "usePlayerAvatar": "Sử dụng Ảnh đại diện người chơi",
+      "radarStyle": "Kiểu Radar",
+      "position": "Vị trí",
+      "fileTooLarge": "Tệp quá lớn. Kích thước tối đa là {{limit}} MB.",
+      "fontSize": "Cỡ chữ",
+      "uhudMatchbarTeamNameFontSize": "Cỡ chữ tên đội",
+      "uhudMatchbarScoreFontSize": "Cỡ chữ điểm số",
+      "uhudPlayersNameFontSize": "Cỡ chữ tên người chơi",
+      "uhudPlayersStatsFontSize": "Cỡ chữ thống kê",
+      "uhudPlayersHealthFontSize": "Cỡ chữ máu",
+      "visible": "Hiển thị",
+      "previewTitle": "Xem trước trình soạn thảo {{component}}",
+      "components": {
+        "matchbar": "Thanh trận đấu",
+        "left-player": "Người chơi bên trái",
+        "right-player": "Người chơi bên phải",
+        "left-money": "Tiền bên trái",
+        "right-money": "Tiền bên phải",
+        "players": "Người chơi",
+        "observed-player": "Người chơi được quan sát",
+        "killfeed": "Thông báo hạ gục",
+        "round-history": "Lịch sử vòng đấu",
+        "mapseries": "Chuỗi bản đồ",
+        "asset": "Tài sản tùy chỉnh",
+        "winbox": "Chỉ báo thắng vòng đấu",
+        "sponsors": "Nhà tài trợ",
+        "tournament-info": "Thông tin giải đấu",
+        "scout": "Dự đoán trinh sát",
+        "radar": "Radar",
+        "anims-plant": "Hoạt ảnh đặt bom",
+        "anims-defuse-short": "Hoạt ảnh gỡ bom ngắn",
+        "anims-defuse-long": "Hoạt ảnh gỡ bom dài\n#__# Gỡ bom",
+        "anims-defuse": "Hoạt ảnh",
+        "anims": "HUD Ultra"
+      },
+      "huds": {
+        "ultrahud": "HUD Amber",
+        "amberhud": "HUD Sapphire",
+        "sapphirehud": "HUD Neon",
+        "neonhud": "HUD Full",
+        "fullHud": "Dọc"
+      },
+      "layouts": {
+        "vertical": "Ngang",
+        "horizontal": "Ngang trên",
+        "horizontal-top": "Ngang dưới",
+        "horizontal-bottom": "Người chơi bên trái"
+      },
+      "positions": {
+        "left-players": "Người chơi bên phải",
+        "right-players": "Người chơi bên trái trên",
+        "left-players-top": "Người chơi bên trái dưới",
+        "left-players-bottom": "Người chơi bên phải trên",
+        "right-players-top": "Người chơi bên phải dưới",
+        "right-players-bottom": "Cỡ chữ HP"
+      },
+      "sapphirePlayersHpFontSize": "Cỡ chữ tên người chơi",
+      "sapphirePlayersNameFontSize": "Cỡ chữ sát thương vòng đấu",
+      "sapphirePlayersRoundDamageFontSize": "Cỡ chữ KDA",
+      "sapphirePlayersKdaFontSize": "Cỡ chữ tên người chơi trong bảng thông báo hạ gục",
+      "killfeedPlayerNameFontSize": "Các thành phần",
+      "titles": {
+        "components": "Cài đặt",
+        "settings": "Kiểu dáng toàn cầu",
+        "globalStyles": "Áp dụng giao diện toàn cầu cho các thành phần. #__#\nHiển thị tất cả"
+      },
+      "descriptions": {
+        "globalStyles": "Ẩn tất cả"
+      },
+      "actions": {
+        "showAll": "Hiển thị thành phần",
+        "hideAll": "Ẩn thành phần",
+        "showComponent": "Quay lại các thành phần",
+        "hideComponent": "Quay lại phía sau",
+        "backToComponents": "Quay lại phía trước",
+        "toBack": "Đã thêm",
+        "toFront": "Chưa thêm"
+      },
+      "status": {
+        "added": "Biến thể",
+        "notAdded": "Kiểu dáng"
+      },
+      "fields": {
+        "variant": "Kiểu dáng",
+        "style": "Bố cục",
+        "styles": "Họ phông chữ",
+        "layout": "Mẫu toàn cục",
+        "fontFamily": "Độ mờ mẫu toàn cục",
+        "globalPattern": "Vừa với hình nền",
+        "globalPatternOpacity": "Bán kính viền",
+        "backgroundImageFit": "Chiều rộng viền",
+        "borderRadius": "Kiểu viền",
+        "borderWidth": "Vị trí X",
+        "borderStyle": "Vị trí Y",
+        "positionX": "Căn giữa theo chiều ngang",
+        "positionY": "Căn giữa theo chiều dọc",
+        "centerHorizontally": "Tỷ lệ",
+        "centerVertically": "Chỉ số Z",
+        "scale": "Lớp hiện tại",
+        "zIndex": "Căn chỉnh",
+        "currentLayer": "Tùy chỉnh CSS",
+        "align": "Thời lượng",
+        "customCss": "Giới hạn",
+        "duration": "VIỀN",
+        "limit": "NỀN"
+      },
+      "labels": {
+        "border": "CHỐNG KHỦNG BỐ",
+        "background": "KHỦNG BỐ",
+        "counterTerrorists": "Chưa có tệp nào được chọn",
+        "terrorists": "Hình ảnh nhà tài trợ"
+      },
+      "files": {
+        "noFileSelected": "Tệp tài sản",
+        "sponsorImage": "Chưa có hình ảnh nào được chọn",
+        "assetFile": "Đã chọn 1 hình ảnh",
+        "noImagesSelected": "Đã chọn {{count}} hình ảnh",
+        "oneImageSelected": "Tệp Plant",
+        "imagesSelected": "Tệp Defuse ngắn",
+        "plantFile": "Tệp Defuse dài",
+        "defuseShortFile": "Tùy chỉnh",
+        "defuseLongFile": "Bìa"
+      },
+      "options": {
+        "custom": "Chứa",
+        "cover": "Không có",
+        "contain": "Trên cùng",
+        "none": "Trái",
+        "top": "Giữa",
+        "left": "Phải",
+        "center": "Dưới cùng",
+        "right": "Trước",
+        "bottom": "Thông tin hiệu suất",
+        "front": "Trợ giúp về biến màu CSS tùy chỉnh"
+      },
+      "tooltips": {
+        "performanceInformation": "Để sử dụng màu của đội trong CSS tùy chỉnh, hãy sử dụng biến CSS: var(--color-new-t).",
+        "customCssColorVariablesHelp": "Việc tạm thời hiển thị tất cả các thành phần Composer cùng một lúc có thể làm giảm hiệu suất xem trước trên các máy yếu hơn. Điều này là bình thường trong quá trình thiết lập và sẽ không ảnh hưởng đến hiệu suất sau khi bạn hoàn tất cấu hình HUD.\n\n#__# Tìm kiếm các thành phần...",
+        "customCss": "/* kiểu tùy chỉnh */",
+        "bulkVisibilityPerformance": "Sử dụng Avatar"
+      },
+      "placeholders": {
+        "search": "Kích thước người chơi",
+        "customCss": "Độ mờ Radar"
+      },
+      "radar": {
+        "useAvatar": "Sử dụng Gradient",
+        "playerSize": "Biến thể hoạt ảnh lựu đạn",
+        "radarOpacity": "Dấu hiệu người chơi đã chết",
+        "useGradient": "Đã bật ghi đè Gradient",
+        "grenadeAnimationVariant": "Màu dừng Gradient",
+        "deadPlayerMarker": "Đã bật thu phóng đám đông",
+        "gradientOverrideEnabled": "Màu người mang bom",
+        "gradientStopColor": "Màu khói",
+        "crowdZoomEnabled": "Màu chớp",
+        "bombCarrierColor": "Màu lựu đạn",
+        "smokeColor": "Màu bom xăng",
+        "flashColor": "Màu bom",
+        "grenadeColor": "Chiều rộng tối đa của cây",
+        "molotovColor": "Chiều cao tối đa của cây",
+        "bombColor": "Chiều rộng tối đa của vật gỡ bom"
+      },
+      "anims": {
+        "plantMaxWidth": "Chiều cao tối đa của vật gỡ bom",
+        "plantMaxHeight": "(mục tiêu ~5 giây)",
+        "defuseMaxWidth": "(mục tiêu ~10 giây)\n#__# Mặc định",
+        "defuseMaxHeight": "Tối",
+        "targetFiveSeconds": "Sạch",
+        "targetTenSeconds": "Độ tương phản cao"
+      },
+      "radarVariants": {
+        "default": "Mặc định",
+        "dark": "Carton",
+        "clean": "Mờ dần",
+        "high-contrast": "Đội X"
+      },
+      "radarGrenadeAnimationVariants": {
+        "default": "Đặt làm huấn luyện viên",
+        "carton": "Độ trễ camera (giây)"
+      },
+      "radarDeadPlayerMarkers": {
+        "fade": "Chất lượng luồng camera",
+        "team-x": "Kết nối đến ít nhất một trong số người chơi, được đánh dấu bằng chấm vàng, bị chặn bởi NAT đối xứng. Thường thì điều này dẫn đến sự cố kết nối luồng camera. Người chơi nên thay đổi kết nối mạng và làm mới trang Camera."
+      }
     },
     "players": {
       "edit": "Chỉnh sửa người chơi",
@@ -243,7 +440,8 @@
       "downloadNamesFile": "Tải xuống file tên người chơi",
       "importPlayersExcel": "Sử dụng bảng Excel đã được chuẩn bị sẵn để có thể nhập nhiều người chơi cùng một lúc.",
       "exportPlayers": "Xuất",
-      "avatar": "Ảnh đại diện"
+      "avatar": "Ảnh đại diện",
+      "setAsCoach": "Kết nối của bạn bị chặn bởi NAT đối xứng. Thường thì điều này dẫn đến sự cố kết nối luồng camera. Nên thay đổi kết nối mạng và khởi động lại LHM."
     },
     "teams": {
       "edit": "Chỉnh sửa đội",
@@ -269,7 +467,11 @@
       "startTestVideo": "Phát video thử nghiệm",
       "stopTestVideo": "Dừng video thử nghiệm",
       "testVideoBlocker": "Bạn phải chạy trò chơi để phát video thử nghiệm và người chơi được điền vào bảng ở trên. Xem bản demo hoặc chạy dữ liệu thử nghiệm và chọn trình phát thử nghiệm",
-      "testPlayer": "Trình phát thử nghiệm"
+      "testPlayer": "Trình phát thử nghiệm",
+      "delay": "Trình soạn thảo",
+      "cameraQuality": "Tạo mặc định",
+      "cameraWarningPlayer": "Tạo trống",
+      "cameraWarningUser": "Nhóm & Vòng loại trực tiếp"
     },
     "addons": {
       "upload": "Tải lên tiện ích bổ trợ",
@@ -291,6 +493,7 @@
       "huds": "HUDs",
       "aco": "Scout AI",
       "addons": "Bổ trợ",
+      "composer": "Không có trận đấu nào ở giai đoạn này",
       "ar": "AR",
       "live": "Trực tiếp",
       "quick": "Nhanh",
@@ -319,7 +522,9 @@
         "title": "Tạo cài đặt trước mới",
         "placeholder": "Tên cài đặt trước",
         "clone": "Sao chép từ cài đặt trước hiện tại",
-        "createNew": "Tạo trống"
+        "createNew": "Tạo trống",
+        "createFromDefault": "Vòng loại trực tiếp đã được tạo thành công",
+        "createBlank": "Nhà vô địch"
       },
       "activate": "{{ name }} không hoạt động",
       "deactivate": "{{ name }} đang hoạt động",
@@ -382,6 +587,12 @@
       "page": "Trang giải đấu",
       "create": "Tạo giải đấu mới",
       "name": "Tên giải đấu",
+      "groupAndPlayoffs": "Sơ đồ thi đấu",
+      "noMatchesInStage": "Tỷ số set",
+      "playoffsCreated": "Chỉ vòng loại trực tiếp",
+      "champion": "Vòng bảng + Vòng loại trực tiếp",
+      "bracket": "Thể thức Best Of mặc định",
+      "setScore": "Thể thức Best Of mặc định (Đối với các trận đấu mới)",
       "uploadLogo": "Tải lên logo giải đấu",
       "logoInfo": "Logo của giải đấu sẽ hiển thị trong trận đấu",
       "singleElimBracket": "Thể thức loại trực tiếp",
@@ -390,6 +601,8 @@
       "group": "Bảng",
       "playoffs": "Vòng Play-offs",
       "playoffType": "Thể thức Playoff",
+      "playoffsOnly": "Cấu trúc giải đấu",
+      "grouppAndPlayoffs": "Các đội có sẵn",
       "soon": "Sớm",
       "groupType": "Thể thức bảng",
       "participants": "Người tham gia",
@@ -397,7 +610,21 @@
       "amountOfTeams": "Số đội",
       "amountOfRounds": "Số vòng đấu",
       "bindMatch": "Gộp trận vào bảng đấu",
-      "teamOrderList": "Danh sách order các team"
+      "defaultBo": "Các đội đã được chọn",
+      "defaultBoEdit": "Các đội đủ điều kiện",
+      "teamOrderList": "Danh sách order các team",
+      "tournamentStructure": "Đủ điều kiện",
+      "availableTeams": "Bị loại",
+      "selectedTeams": "Vòng bảng đã kết thúc. Bạn có thể tạo vòng loại trực tiếp - bước này chỉ có thể được thực hiện một lần.",
+      "qualifiedTeams": "Tạo vòng loại trực tiếp",
+      "qualified": "Vòng bảng vẫn đang diễn ra. Việc tạo vòng loại trực tiếp sẽ khả dụng sau khi vòng bảng kết thúc.",
+      "eliminated": "Phát hiện các trận đấu bị thiếu",
+      "groupFinished": "Một số trận đấu đã bị xóa. Nhấp vào bên dưới để khôi phục tất cả các trận đấu từ vòng đầu tiên bị thiếu. #__#\nKhôi phục tất cả các trận đấu",
+      "createPlayoffs": "Đồng bộ hóa đám mây thứ tự HUD",
+      "stageInProgress": "Đồng bộ hóa đám mây cấu hình chia sẻ",
+      "missingMatches": "Đồng bộ hóa đám mây cấu hình chia sẻ",
+      "matchesDeleted": "Ghi đè phím tắt người chơi CS2",
+      "restoreAllMatches": "Không"
     },
     "match": {
       "matches": "Trận đấu",
@@ -545,6 +772,9 @@
       "cloudSynchronization": "Đồng bộ hóa đám mây",
       "hudConfigCloudSynchronization": "Cài đặt HUD Đồng bộ hóa đám mây",
       "hudTogglesCloudSynchronization": "HUD chuyển đổi đồng bộ hóa đám mây",
+      "hudOrdersCloudSynchronization": "Khi LHM được chọn",
+      "sharedConfigCloudSynchronization": "Luôn luôn",
+      "sharedConfigSync": "Ghi đè phím tắt người chơi CS2",
       "valorantWindowTitleOverride": "Ghi đè tiêu đề cửa sổ Valorant",
       "valorantServerMode": "Chế độ thu thập dữ liệu",
       "valorantReadLanguage": "Ngôn ngữ trò chơi Valorant",
@@ -559,6 +789,16 @@
       "dota2Assets": "Tài nguyên Dota 2",
       "autoHalfSwitch": "Tự ​​động đổi nửa trận (Thử nghiệm)",
       "autoSwitch": "Chuyển đổi tự động",
+      "overrideCS2PlayerKeybinds": "Tùy chọn này đặt các phím tắt CS2 từ 1-0 để khớp với các vị trí người chơi quan sát hiển thị trên HUD, điều này hữu ích khi có huấn luyện viên trên máy chủ.\n\nĐể lưu các phím tắt, bạn phải tắt tùy chọn này trong khi CS2 đang chạy.",
+      "overrideCS2PlayerKeybindsOptions": {
+        "no": "Ghi đè địa chỉ IP",
+        "focused": "Chế độ chậm",
+        "always": "Không tìm thấy công cụ CS2 Workshop"
+      },
+      "overrideCS2PlayerKeybindsModal": {
+        "title": "Không phát hiện thấy DLC Công cụ Counter-Strike 2 Workshop. Cần phải sử dụng DLC này với LHM khi khởi chạy CS2 với Killfeed hoặc Scout AI được bật. Bạn nên tải xuống thông qua Steam và thử lại.",
+        "info": "Khởi chạy dù sao đi nữa"
+      },
       "header": "Cài đặt",
       "subheaders": {
         "lhm": "LHM",
@@ -660,7 +900,9 @@
         },
         "config": {
           "status": "Cấu hình",
-          "add": "Thêm cấu hình"
+          "add": "Thêm cấu hình",
+          "overrideIp": "Tạo danh mục",
+          "slowMode": "Đổi tên danh mục"
         },
         "credits": {
           "credits": "Tác giả",
@@ -695,12 +937,17 @@
     },
     "huds": {
       "header": "HUDs",
+      "workshopToolsModal": {
+        "title": "Xóa danh mục {{name}}",
+        "info": "Tên danh mục",
+        "launchAnyway": "Bỏ nhóm"
+      },
       "config": {
         "customRadar": "Radar",
         "customKillfeed": "Killfeed",
         "embeddedHUD": "Embedded HUD",
-        "scout": "Scout AI/XRAY",
         "killfeedOffset": "Killfeed Offset",
+        "scout": "Scout AI/XRAY",
         "autoexecute": "Auto-execute",
         "console": "Console",
         "add": "Thêm HUD",
@@ -722,6 +969,14 @@
         "custom": "Tùy chính",
         "newest": "Mới nhất",
         "oldest": "Cũ nahát"
+      },
+      "categories": {
+        "createTitle": "Bạn có chắc chắn muốn xóa danh mục {{name}} không? Thao tác này sẽ không xóa bất kỳ HUD nào.",
+        "renameTitle": "Chia sẻ",
+        "deleteTitle": "Chia sẻ HUD",
+        "name": "Gửi HUD này cho người dùng khác qua email.",
+        "ungrouped": "Người nhận sẽ thấy tên người dùng LHM của bạn khi họ nhận được chia sẻ này.",
+        "deleteInfo": "HUD này thuộc về không gian làm việc \"{{workspace}}\". Vì bạn không phải là chủ sở hữu không gian làm việc, lời mời sẽ được gửi thay mặt cho tài khoản Doanh nghiệp chính."
       },
       "fields": {
         "missing": "Missing fields",
@@ -765,6 +1020,61 @@
         "linkCopied": "Liên kết đã sao chép vào bảng tạm",
         "openingOverlay": "Đang mở HUD trong lớp phủ...",
         "createShortcut": "Tạo lối tắt trên màn hình"
+      },
+      "share": {
+        "actions": {
+          "share": "Email người nhận"
+        },
+        "modal": {
+          "title": "name@example.com",
+          "description": "Thời gian truy cập",
+          "disclaimer": "7 ngày",
+          "workspaceOwnerDisclaimer": "30 ngày",
+          "emailLabel": "Ngày tùy chỉnh",
+          "emailPlaceholder": "Không hết hạn",
+          "expiryLabel": "Sau ngày hết hạn đã chọn, HUD có thể vẫn khả dụng trong tối đa một giờ.",
+          "expiry": {
+            "week": "Gửi lời mời",
+            "month": "Lời mời chia sẻ HUD đang chờ xử lý",
+            "custom": "Bạn đã nhận được lời mời chia sẻ HUD:",
+            "never": "Người gửi không xác định"
+          },
+          "customExpiryWarning": "HUD không tên",
+          "submit": "Trò chơi không xác định"
+        },
+        "pending": {
+          "title": "Trò chơi: {{game}}",
+          "description": "Kích thước: {{size}}",
+          "unknownSender": "Được chia sẻ bởi {{sender}}",
+          "unnamedHud": "Chấp nhận vào không gian làm việc",
+          "unknownGame": "Chấp nhận vào không gian làm việc",
+          "game": "Tài khoản của tôi",
+          "size": "Không gian làm việc không khả dụng",
+          "sharedBy": "Vui lòng đợi trong khi chúng tôi sao chép HUD được chia sẻ vào (các) không gian làm việc bạn đã chọn. #__#\nHết hạn: {{expiresAt}}",
+          "acceptToWorkspace": "HUD này lớn hơn giới hạn dung lượng lưu trữ của gói hiện tại của bạn. Hãy nâng cấp gói của bạn để chấp nhận nó.",
+          "acceptToWorkspaces": "Không gian làm việc này không có đủ dung lượng lưu trữ cho HUD này. Hãy xóa bớt dữ liệu trong không gian làm việc để chấp nhận HUD.",
+          "mainWorkspace": "Không gian làm việc này chia sẻ dung lượng lưu trữ với các không gian làm việc doanh nghiệp khác mà bạn đã chọn. Hãy xóa bớt dữ liệu hoặc bỏ chọn một không gian làm việc khác để chấp nhận HUD.",
+          "workspaceUnavailableTitle": "Bạn không có đủ dung lượng đám mây trống để chấp nhận HUD này ngay bây giờ. Hãy giải phóng dung lượng để chấp nhận HUD.",
+          "acceptingInfo": "Không bao giờ",
+          "expiresAt": "Lời mời {{current}} trong số {{total}}",
+          "upgradeRequired": "Được chia sẻ bởi {{sender}}",
+          "enterpriseStorageRequired": "Người gửi không xác định",
+          "enterpriseSelectionLimit": "Hết hạn {{expiresAt}}",
+          "notEnoughFreeSpace": "Lời mời chia sẻ HUD đã được gửi thành công.",
+          "never": "Không thể gửi lời mời chia sẻ. Vui lòng thử lại. #__#\nQuản lý lượt chia sẻ",
+          "progress": "Đã đạt số lượng lượt chia sẻ tối đa."
+        },
+        "meta": {
+          "sharedBy": "Bạn không thể chia sẻ HUD với chính mình.",
+          "unknownSender": "HUD này đã được chia sẻ với người dùng đó rồi.",
+          "expiresAt": "Chất lượng luồng camera\n#__# Luồng camera chất lượng cao hơn có thể gây giật hình trên một số máy tính và kết nối internet.\n\n#__# Đồng bộ hóa cấu hình chia sẻ trên đám mây\n#__# Khi được bật, các phần cấu hình chia sẻ (ví dụ: cài đặt X-Ray) sẽ được đồng bộ hóa với LHM Cloud, để chúng luôn nhất quán trên các thiết bị/không gian làm việc của bạn.\n\nTắt tùy chọn này nếu bạn muốn chỉ giữ các thay đổi cấu hình chia sẻ cục bộ.\n\n#__# Ghi đè địa chỉ IP\n#__# Chỉ sử dụng tùy chọn này nếu LHM phát hiện địa chỉ mạng riêng không chính xác (ví dụ: khi VPN đang hoạt động).\n\nĐặt địa chỉ IP cục bộ mà HUD/nguồn trình duyệt của bạn nên sử dụng.\n\nKhởi động lại LHM sau khi thay đổi giá trị này để có hiệu lực.\n\n#__# Chế độ chậm\n#__# Chế độ chậm gửi các yêu cầu API thông qua hàng đợi để giảm lưu lượng truy cập đột biến. Điều này có thể hữu ích trong môi trường tường lửa hạn chế trên toàn quốc.\n\nKhởi động lại LHM sau khi thay đổi giá trị này để có hiệu lực. #__#\nXóa giải đấu"
+        },
+        "notifications": {
+          "created": "Bạn có chắc chắn muốn xóa {{count}} giải đấu không?",
+          "error": "Xóa giải đấu {{name}}",
+          "manageShares": "Bạn có chắc chắn muốn xóa giải đấu {{name}} không?",
+          "errors": {}
+        }
       },
       "warning": {
         "csgoHUDinCS2": "HUD này được tạo cho CS: GO. Không đảm bảo rằng tất cả các tính năng của nó sẽ hoạt động theo cách tương tự trong CS2.",
@@ -1012,6 +1322,7 @@
           "title": "Độ trễ camera",
           "info": "Độ trễ camera hiện chỉ được hỗ trợ trong HUD Lexogrine chính thức: HUD Ultra & Premium"
         },
+        "quality": {},
         "tab": {
           "title": "Máy quay",
           "info": "Module Máy quay cho phép bạn hiển thị webcam người chơi ở trong HUD - không cần sử dụng công cụ bên ngoài"
@@ -1034,6 +1345,11 @@
           "title": "Cần thêm sự kiện?",
           "info": "Nâng cấp gói của bạn để có quyền truy cập vào các sự kiện không giới hạn với các tùy chọn nâng cao như khả năng tạo nhánh sự kiện và cài đặt trước!"
         }
+      },
+      "settings": {
+        "sharedConfigSync": {},
+        "ipAddressOverride": {},
+        "slowMode": {}
       }
     },
     "modals": {
@@ -1049,7 +1365,8 @@
         "infoPlayers": "Bạn có chắc chắn muốn xóa {{count}} người chơi không?",
         "infoMatches": "Bạn có chắc chắn muốn xóa {{count}} kết quả khớp không?",
         "deleteWithPlayers": "Xóa với người chơi",
-        "deleteAll": "Xóa tất cả ({{count}})"
+        "deleteAll": "Xóa tất cả ({{count}})",
+        "single": {}
       },
       "steamApiKeyMissing": {
         "title": "Thiếu khóa API Steam",

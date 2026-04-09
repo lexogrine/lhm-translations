@@ -5,6 +5,9 @@
       "or": "atau",
       "close": "Tutup",
       "save": "Simpan",
+      "confirm": "Sahkan",
+      "qualified": "Layak",
+      "eliminated": "Dihapuskan",
       "saveAndSend": "Simpan dan hantar",
       "saveAndRestart": "Simpan dan mulakan semula",
       "saveAndExit": "Simpan dan keluar",
@@ -35,6 +38,7 @@
       "teamNumber": "PASUKAN #{{num}}",
       "vetoNumber": "Veto {{{num}} }",
       "delete": "Padam",
+      "delete-all": "Padam semua",
       "edit": "Edit",
       "live": "Langsung",
       "match": "Padankan",
@@ -43,6 +47,7 @@
       "t": "T",
       "no": "Tidak",
       "yes": "Ya",
+      "deleteAll": "Padam Semua",
       "noDontAsk": "Tidak, jangan tanya",
       "csgo": {
         "ct": "CT",
@@ -61,6 +66,7 @@
       },
       "export": "Eksport",
       "cancel": "Batal",
+      "remindLater": "Ingatkan kemudian",
       "next": "Seterusnya",
       "finish": "Selesai",
       "understand": "Saya faham",
@@ -140,9 +146,11 @@
         "cgmode": "Mod CG menggabungkan modul paling penting untuk operasi penyiaran dalam bentuk yang padat. Daripada tab ini, anda boleh mengurus perlawanan, pasukan, pemain dan permainan Langsung anda pada satu skrin. Naik taraf LHM anda kepada pelan Peribadi, Profesional atau Perusahaan untuk mendapatkan akses penuh kepada bahagian ini.",
         "arg": "Automatisasi ialah sempadan seterusnya - dan di sini di Lexogrine kami bertekad untuk melintasinya! Penjana Main Semula Auto mengautomasikan sepenuhnya sistem main semula. ARG - berdasarkan kriteria yang ditetapkan - menjejaki setiap acara dalam permainan untuk menangkap momen paling penting secara automatik dan memaparkan ulang tayang yang menakjubkan antara pusingan. Apa yang anda perlukan ialah vMix atau OBS. Naik taraf LHM anda kepada pelan Peribadi, Profesional atau Perusahaan untuk mendapatkan akses penuh kepada bahagian ini.",
         "addons": "Addons ialah cara baharu untuk mencipta penyepaduan dengan LHM. Sehingga ketika ini, hanya kod HUD tersuai yang mempunyai akses kepada suapan data permainan, yang bermaksud apa sahaja yang anda mahu lakukan, ia perlu dilakukan dalam persekitaran penyemak imbas. Addons berfungsi pada persekitaran pelayan - ia pada dasarnya adalah aplikasi NodeJS dengan pemancar Acara GSI yang disambungkan ke dalamnya. Ini bermakna anda tidak perlu membuat pelayan HTTP tersuai dengan penghurai hanya untuk menerima maklumat daripada permainan yang disokong (CS2, Dota 2), anda mempunyai semua itu di luar kotak, jadi anda boleh menumpukan pada penyepaduan dan ciri yang anda inginkan untuk mencipta. Naik taraf LHM anda kepada pelan Peribadi, Profesional atau Perusahaan untuk mendapatkan akses penuh kepada bahagian ini.",
+        "composer": "Komposer membolehkan anda membina dan menyesuaikan susun atur HUD anda dengan kawalan seret dan lepas dan pratetap visual.\nTingkatkan LHM anda kepada pelan Profesional atau Perusahaan dengan sekurang-kurangnya 3 tempat duduk untuk mendapatkan akses penuh ke bahagian ini.",
         "aco": "Adalah mustahil untuk menangkap setiap tindakan dengan cara yang sempurna dan dari perspektif yang ideal - tetapi Scout sangat dekat dengan itu. AI kami sendiri belajar daripada beribu-ribu permainan untuk menangkap acara paling pedas dengan sendirinya, tanpa input manusia. Tingkatkan LHM anda kepada pelan Peribadi untuk mendapatkan akses kepada semua modul AI Pengakap - Visi Pengakap, Ramalan Pengakap dan Sinematik Pengakap.",
         "cameras": "Sistem kamera kami sangat mudah digunakan dan akan menjimatkan banyak masa persediaan - untuk penganjur dan pemain. Tiada konfigurasi perisian pengeluaran yang terlalu rumit dan memakan masa, tiada masalah perkakasan. Sambungkan kamera dan berikannya kepada pemain dalam LHM. Lancarkan HUD dan senyum kepada penonton. Naik taraf LHM anda kepada pelan Peribadi, Profesional atau Perusahaan untuk mendapatkan akses penuh kepada bahagian ini.",
-        "signals": "Isyarat LHM ialah penyepaduan tersuai kami dengan aplikasi Bitfocus Companion. Matlamat kami adalah untuk membantu dengan automasi acara dalam permainan yang boleh diramal. Isyarat menjaganya dan membenarkan untuk mencetuskan butang Companion pada acara permainan tertentu. Naik taraf LHM anda kepada Peribadi,Profesional atau Perusahaan merancang untuk mendapatkan akses penuh ke bahagian ini."
+        "signals": "Isyarat LHM ialah penyepaduan tersuai kami dengan aplikasi Bitfocus Companion. Matlamat kami adalah untuk membantu dengan automasi acara dalam permainan yang boleh diramal. Isyarat menjaganya dan membenarkan untuk mencetuskan butang Companion pada acara permainan tertentu. Naik taraf LHM anda kepada Peribadi,Profesional atau Perusahaan merancang untuk mendapatkan akses penuh ke bahagian ini.",
+        "xray": "LHM X-RAY membolehkan anda menyesuaikan warna X-RAY CS2 - garis besar pemain, nama dan jejak bom tangan, menetapkannya secara berbeza setiap pasukan.\nTingkatkan LHM anda kepada pelan Peribadi, Profesional atau Perusahaan untuk mendapatkan akses penuh ke bahagian ini."
       }
     },
     "titles": {
@@ -162,7 +170,9 @@
       "settings": "Tetapan",
       "credits": "Kredit",
       "quick": "Pantas",
-      "chat": "Sembang Sokongan"
+      "chat": "Sembang Sokongan",
+      "composer": "Komposer",
+      "xray": "X-Ray"
     },
     "aco": {
       "disabled": "Dilumpuhkan",
@@ -231,7 +241,195 @@
       "scoutCinematicAction": {
         "label": "Edit pemain"
       },
-      "scoutPausedTip": "Gambar"
+      "scoutPausedTip": "Gambar",
+      "xrayWarning": "Agar X-Ray berfungsi dengan betul, CS2 mesti dilancarkan dengan pilihan Scout/X-Ray dihidupkan."
+    },
+    "composer": {
+      "componentsSubtitle": "Pratonton komponen HUD",
+      "usePlayerAvatar": "Gunakan Avatar Pemain",
+      "radarStyle": "Gaya Radar",
+      "position": "Kedudukan",
+      "fileTooLarge": "Fail terlalu besar. Saiz maksimum ialah {{limit}} MB. #__#\nSaiz Fon",
+      "fontSize": "Nama Pasukan Saiz Fon",
+      "uhudMatchbarTeamNameFontSize": "Saiz Fon Skor",
+      "uhudMatchbarScoreFontSize": "Nama Pemain Saiz Fon",
+      "uhudPlayersNameFontSize": "Saiz Fon Statistik",
+      "uhudPlayersStatsFontSize": "Saiz Fon Kesihatan",
+      "uhudPlayersHealthFontSize": "Kelihatan",
+      "visible": "Pratonton Komposer {{component}}",
+      "previewTitle": "Palang Padanan",
+      "components": {
+        "matchbar": "Pemain Kiri",
+        "left-player": "Pemain Kanan",
+        "right-player": "Wang Kiri",
+        "left-money": "Wang Kanan",
+        "right-money": "Pemain",
+        "players": "Pemain yang diperhatikan",
+        "observed-player": "Suapan Pembunuh",
+        "killfeed": "Sejarah Pusingan",
+        "round-history": "Siri Peta",
+        "mapseries": "Aset Tersuai",
+        "asset": "Penunjuk kemenangan pusingan",
+        "winbox": "Penaja",
+        "sponsors": "Maklumat Kejohanan",
+        "tournament-info": "Ramalan Pengakap",
+        "scout": "Radar",
+        "radar": "Loji Animasi",
+        "anims-plant": "Animasi Nyah Pendek",
+        "anims-defuse-short": "Animasi Nyah Panjang",
+        "anims-defuse-long": "Animasi Nyahdayakan",
+        "anims-defuse": "Animasi",
+        "anims": "HUD Ultra"
+      },
+      "huds": {
+        "ultrahud": "HUD Amber",
+        "amberhud": "HUD Nilam",
+        "sapphirehud": "HUD Neon",
+        "neonhud": "HUD Penuh",
+        "fullHud": "Menegak"
+      },
+      "layouts": {
+        "vertical": "Mendatar",
+        "horizontal": "Mendatar Atas",
+        "horizontal-top": "Mendatar Bawah",
+        "horizontal-bottom": "Pemain Kiri"
+      },
+      "positions": {
+        "left-players": "Pemain Kanan",
+        "right-players": "Pemain Kiri Atas",
+        "left-players-top": "Pemain Kiri Bawah",
+        "left-players-bottom": "Pemain Kanan Atas",
+        "right-players-top": "Pemain Kanan Atas",
+        "right-players-bottom": "Pemain Kanan Bawah"
+      },
+      "sapphirePlayersHpFontSize": "Saiz Fon HP",
+      "sapphirePlayersNameFontSize": "Nama Pemain Saiz Fon",
+      "sapphirePlayersRoundDamageFontSize": "Saiz Fon Kerosakan Bulat",
+      "sapphirePlayersKdaFontSize": "Saiz Fon KDA",
+      "killfeedPlayerNameFontSize": "Nama Pemain Killfeed Saiz Fon",
+      "titles": {
+        "components": "Komponen",
+        "settings": "Tetapan",
+        "globalStyles": "Gaya Global"
+      },
+      "descriptions": {
+        "globalStyles": "Gunakan rupa global pada komponen."
+      },
+      "actions": {
+        "showAll": "Tunjukkan semua",
+        "hideAll": "Sembunyikan semua",
+        "showComponent": "Tunjukkan komponen",
+        "hideComponent": "Sembunyikan komponen",
+        "backToComponents": "Kembali ke Komponen",
+        "toBack": "Ke Belakang",
+        "toFront": "Ke Hadapan"
+      },
+      "status": {
+        "added": "Ditambah",
+        "notAdded": "Tidak ditambah"
+      },
+      "fields": {
+        "variant": "Varian",
+        "style": "Gaya",
+        "styles": "Gaya",
+        "layout": "Susun Atur",
+        "fontFamily": "Keluarga Fon",
+        "globalPattern": "Corak Global",
+        "globalPatternOpacity": "Kelegapan Corak Global",
+        "backgroundImageFit": "Padanan Imej Latar Belakang",
+        "borderRadius": "Jejari Sempadan",
+        "borderWidth": "Lebar Sempadan",
+        "borderStyle": "Gaya Sempadan",
+        "positionX": "Kedudukan X",
+        "positionY": "Kedudukan Y",
+        "centerHorizontally": "Tengah Secara Mendatar",
+        "centerVertically": "Tengah Secara Menegak",
+        "scale": "Skala",
+        "zIndex": "Indeks-Z",
+        "currentLayer": "Lapisan semasa",
+        "align": "Jajar",
+        "customCss": "Tersuai CSS",
+        "duration": "Tempoh",
+        "limit": "Had"
+      },
+      "labels": {
+        "border": "SEMPADAN",
+        "background": "LATAR BELAKANG",
+        "counterTerrorists": "PENGGANAS ANTARA",
+        "terrorists": "PENGGANAS"
+      },
+      "files": {
+        "noFileSelected": "Tiada fail dipilih",
+        "sponsorImage": "Imej penaja",
+        "assetFile": "Fail aset",
+        "noImagesSelected": "Tiada imej dipilih",
+        "oneImageSelected": "1 imej dipilih",
+        "imagesSelected": "{{count}} imej dipilih",
+        "plantFile": "Fail Tanaman",
+        "defuseShortFile": "Fail Pendek Dihapuskan",
+        "defuseLongFile": "Fail Panjang Dihapuskan"
+      },
+      "options": {
+        "custom": "Tersuai",
+        "cover": "Kulit",
+        "contain": "Kandungan",
+        "none": "Tiada",
+        "top": "Atas",
+        "left": "Kiri",
+        "center": "Tengah",
+        "right": "Kanan",
+        "bottom": "Bawah",
+        "front": "Hadapan"
+      },
+      "tooltips": {
+        "performanceInformation": "Maklumat prestasi",
+        "customCssColorVariablesHelp": "Pembolehubah warna CSS tersuai membantu",
+        "customCss": "Untuk menggunakan warna pasukan dalam CSS tersuai, gunakan pembolehubah CSS: var(--color-new-t).",
+        "bulkVisibilityPerformance": "Memaparkan setiap komponen Komposer buat sementara waktu boleh mengurangkan prestasi pratonton pada mesin yang lebih lemah. Ini dijangkakan semasa persediaan dan tidak akan menjejaskan prestasi selepas anda selesai mengkonfigurasi HUD anda."
+      },
+      "placeholders": {
+        "search": "Cari komponen...",
+        "customCss": "/* gaya tersuai */"
+      },
+      "radar": {
+        "useAvatar": "Gunakan Avatar",
+        "playerSize": "Saiz Pemain",
+        "radarOpacity": "Kelegapan Radar",
+        "useGradient": "Gunakan Kecerunan",
+        "grenadeAnimationVariant": "Varian Animasi Granat",
+        "deadPlayerMarker": "Penanda Pemain Mati",
+        "gradientOverrideEnabled": "Penggantian Kecerunan Didayakan",
+        "gradientStopColor": "Warna Hentian Kecerunan",
+        "crowdZoomEnabled": "Zum Orang Ramai Didayakan",
+        "bombCarrierColor": "Warna Pembawa Bom",
+        "smokeColor": "Warna Asap",
+        "flashColor": "Warna Kilat",
+        "grenadeColor": "Warna Granat",
+        "molotovColor": "Warna Molotov",
+        "bombColor": "Warna Bom"
+      },
+      "anims": {
+        "plantMaxWidth": "Lebar Maksimum Tumbuhan",
+        "plantMaxHeight": "Ketinggian Maksimum Tumbuhan",
+        "defuseMaxWidth": "Nyahkan Lebar Maksimum",
+        "defuseMaxHeight": "Nyahkan Ketinggian Maksimum",
+        "targetFiveSeconds": "(sasaran ~5s)",
+        "targetTenSeconds": "(sasaran ~10s)"
+      },
+      "radarVariants": {
+        "default": "Lalai",
+        "dark": "Gelap",
+        "clean": "Bersih",
+        "high-contrast": "Kontras Tinggi"
+      },
+      "radarGrenadeAnimationVariants": {
+        "default": "Lalai",
+        "carton": "Karton"
+      },
+      "radarDeadPlayerMarkers": {
+        "fade": "Pudar",
+        "team-x": "Pasukan X"
+      }
     },
     "players": {
       "edit": "Avatar untuk digunakan untuk imej pemain dan bukannya lalai daripada Steam",
@@ -242,7 +440,8 @@
       "downloadNamesFile": "Eksport",
       "importPlayersExcel": "Avatar",
       "exportPlayers": "Edit pasukan",
-      "avatar": "Logo"
+      "avatar": "Logo",
+      "setAsCoach": "Tetapkan sebagai jurulatih"
     },
     "teams": {
       "edit": "Logo untuk digunakan untuk pasukan, jika boleh dalam HUD yang diberikan",
@@ -268,7 +467,11 @@
       "startTestVideo": "Anda mesti mempunyai permainan yang sedang berjalan untuk memainkan video ujian dan pemain mengisi jadual di atas. Tonton demo atau mainkan data ujian dan pilih pemain ujian",
       "stopTestVideo": "Pemain Ujian",
       "testVideoBlocker": "Muat naik alat tambah",
-      "testPlayer": "Sedia"
+      "testPlayer": "Sedia",
+      "delay": "Kelewatan Kamera dalam saat",
+      "cameraQuality": "Kualiti Strim Kamera",
+      "cameraWarningPlayer": "Sambungan kepada sekurang-kurangnya salah seorang pemain, yang ditanda dengan titik kuning, terhalang oleh NAT simetri. Biasanya ia mengakibatkan masalah sambungan strim kamera. Adalah disyorkan untuk pemain menukar sambungan rangkaian dan menyegarkan semula halaman Kamera.",
+      "cameraWarningUser": "Sambungan anda terhalang oleh NAT simetri. Biasanya ia mengakibatkan masalah sambungan strim kamera. Adalah disyorkan untuk menukar sambungan rangkaian dan memulakan semula LHM."
     },
     "addons": {
       "upload": "Dinyahpasang",
@@ -290,6 +493,7 @@
       "huds": "Addons",
       "aco": "AR",
       "addons": "Live",
+      "composer": "Komposer",
       "ar": "Quick",
       "live": "Profesional sahaja",
       "quick": "Tidak bebas hanya",
@@ -318,7 +522,9 @@
         "title": "{{ name }} tidak aktif",
         "placeholder": "{{ name }} aktif",
         "clone": "Salin daripada pratetap semasa",
-        "createNew": "Buat kosong"
+        "createNew": "Buat kosong",
+        "createFromDefault": "Cipta lalai",
+        "createBlank": "Cipta kosong"
       },
       "activate": "Tambah Cawangan",
       "deactivate": "Acara",
@@ -381,6 +587,12 @@
       "page": "Nama kejohanan",
       "create": "Muat naik logo kejohanan",
       "name": "Logo kejohanan akan tersedia semasa perlawanan",
+      "groupAndPlayoffs": "Kumpulan & playoff",
+      "noMatchesInStage": "Tiada perlawanan dalam peringkat ini",
+      "playoffsCreated": "Playoff telah berjaya dicipta",
+      "champion": "Juara",
+      "bracket": "Kurungan",
+      "setScore": "Skor tetap",
       "uploadLogo": "Kurungan Penyingkiran Tunggal",
       "logoInfo": "Pendakap Penyingkiran Berganda",
       "singleElimBracket": "Switzerland",
@@ -389,6 +601,8 @@
       "group": "Jenis Playoff",
       "playoffs": "Tidak lama lagi",
       "playoffType": "Jenis kumpulan",
+      "playoffsOnly": "Playoff sahaja",
+      "grouppAndPlayoffs": "Kumpulan + Playoff",
       "soon": "Peserta",
       "groupType": "kemudian",
       "participants": "Jumlah pasukan",
@@ -396,7 +610,21 @@
       "amountOfTeams": "Ikat perlawanan kepada kurungan",
       "amountOfRounds": "Senarai pesanan pasukan",
       "bindMatch": "Perlawanan",
-      "teamOrderList": "Siri menang"
+      "defaultBo": "Format Terbaik Lalai",
+      "defaultBoEdit": "Format Terbaik Lalai (Untuk Perlawanan Baharu)",
+      "teamOrderList": "Siri menang",
+      "tournamentStructure": "Struktur kejohanan",
+      "availableTeams": "Pasukan yang tersedia",
+      "selectedTeams": "Pasukan terpilih",
+      "qualifiedTeams": "Pasukan yang layak",
+      "qualified": "Layak",
+      "eliminated": "Tersingkir",
+      "groupFinished": "Peringkat kumpulan telah selesai. Anda kini boleh mencipta playoff - langkah ini hanya boleh dilakukan sekali.",
+      "createPlayoffs": "Cipta playoff",
+      "stageInProgress": "Peringkat kumpulan masih dalam proses. Penciptaan playoff akan tersedia sebaik sahaja peringkat kumpulan selesai.",
+      "missingMatches": "Perlawanan Hilang Dikesan",
+      "matchesDeleted": "Beberapa perlawanan telah dipadamkan. Klik di bawah untuk memulihkan semua perlawanan daripada pusingan pertama yang hilang.",
+      "restoreAllMatches": "Pulihkan semua padanan"
     },
     "match": {
       "matches": "Langsung",
@@ -544,6 +772,9 @@
       "cloudSynchronization": "HUD Menogol Penyegerakan Awan",
       "hudConfigCloudSynchronization": "Mod Pengumpulan Data",
       "hudTogglesCloudSynchronization": "Bahasa Permainan Valorant",
+      "hudOrdersCloudSynchronization": "HUD Susun Penyegerakan Awan",
+      "sharedConfigCloudSynchronization": "Penyegerakan Awan Konfigurasi Dikongsi",
+      "sharedConfigSync": "Penyegerakan Awan Konfigurasi Dikongsi",
       "valorantWindowTitleOverride": "Penggantian Tajuk Tetingkap Valorant",
       "valorantServerMode": "Jenis Padanan Valorant",
       "valorantReadLanguage": "Jenis Antaramuka Dalam Permainan Valorant",
@@ -558,6 +789,16 @@
       "dota2Assets": "Suis automatik",
       "autoHalfSwitch": "Tetapan",
       "autoSwitch": "LHM",
+      "overrideCS2PlayerKeybinds": "Anti Ikatan Kekunci Pemain CS2",
+      "overrideCS2PlayerKeybindsOptions": {
+        "no": "Tidak",
+        "focused": "Apabila LHM difokuskan",
+        "always": "Sentiasa"
+      },
+      "overrideCS2PlayerKeybindsModal": {
+        "title": "Anti Ikatan Kekunci Pemain CS2",
+        "info": "Pilihan ini menetapkan ikatan kekunci CS2 1-0 untuk memadankan slot pemain pemerhati yang ditunjukkan pada HUD, yang berguna apabila jurulatih hadir di pelayan.\nUntuk menyimpan ikatan kekunci, anda mesti mematikan pilihan ini semasa CS2 berjalan."
+      },
       "header": "Awan LHM",
       "subheaders": {
         "lhm": "Tambahan",
@@ -659,7 +900,9 @@
         },
         "config": {
           "status": "Kredit",
-          "add": "Lihat sekarang"
+          "add": "Lihat sekarang",
+          "overrideIp": "Anti Alamat IP",
+          "slowMode": "Mod Perlahan"
         },
         "credits": {
           "credits": "Muat turun",
@@ -694,12 +937,17 @@
     },
     "huds": {
       "header": "Killfeed / Tools",
+      "workshopToolsModal": {
+        "title": "Alat Bengkel CS2 Tidak Ditemui",
+        "info": "DLC Alat Bengkel Counter-Strike 2 tidak dikesan. Ia diperlukan untuk digunakan dengan LHM semasa melancarkan CS2 dengan Killfeed atau Scout AI diaktifkan. Adalah disyorkan untuk memuat turunnya melalui Steam dan cuba lagi.",
+        "launchAnyway": "Lancarkan Walau Apa Pun"
+      },
       "config": {
         "customRadar": "HUD terbenam",
         "customKillfeed": "Killfeed Offset",
         "embeddedHUD": "Scout AI",
-        "scout": "Scout AI/XRAY",
         "killfeedOffset": "Killfeed Offset",
+        "scout": "Scout AI/XRAY",
         "autoexecute": "Auto-execute",
         "console": "Run game",
         "add": "Jeda ujian",
@@ -721,6 +969,14 @@
         "custom": "Terlama",
         "newest": "Medan tiada __# Medan \"{{field}}\" jenis \"{{type}}\"",
         "oldest": "Nama medan"
+      },
+      "categories": {
+        "createTitle": "Cipta Kategori",
+        "renameTitle": "Namakan Semula Kategori",
+        "deleteTitle": "Padam kategori {{name}}",
+        "name": "Nama kategori",
+        "ungrouped": "Tidak Berkumpulan",
+        "deleteInfo": "Adakah anda pasti mahu mengalih keluar kategori {{name}}? Tindakan ini tidak akan mengalih keluar sebarang HUD."
       },
       "fields": {
         "missing": "Jenis input",
@@ -764,6 +1020,65 @@
         "linkCopied": "Pautan disalin ke papan keratan",
         "openingOverlay": "Membuka HUD dalam tindanan...",
         "createShortcut": "Tentukan laluan Interop AFX dalam Tetapan untuk menggunakan mod AFX"
+      },
+      "share": {
+        "actions": {
+          "share": "Kongsi"
+        },
+        "modal": {
+          "title": "Kongsi HUD",
+          "description": "Hantar HUD ini kepada pengguna lain melalui e-mel.",
+          "disclaimer": "Penerima akan melihat nama pengguna LHM anda apabila mereka menerima perkongsian ini.",
+          "workspaceOwnerDisclaimer": "HUD ini milik ruang kerja \"{{workspace}}\". Oleh kerana anda bukan pemilik ruang kerja, jemputan akan dihantar bagi pihak akaun Perusahaan utama.",
+          "emailLabel": "E-mel penerima",
+          "emailPlaceholder": "name@example.com",
+          "expiryLabel": "Tempoh akses",
+          "expiry": {
+            "week": "7 hari",
+            "month": "30 hari",
+            "custom": "Tarikh tersuai",
+            "never": "Tiada tamat tempoh"
+          },
+          "customExpiryWarning": "Selepas tarikh tamat tempoh yang dipilih, HUD mungkin kekal tersedia sehingga satu jam.",
+          "submit": "Hantar jemputan"
+        },
+        "pending": {
+          "title": "Jemputan perkongsian HUD yang belum selesai",
+          "description": "Anda menerima jemputan HUD yang dikongsi:",
+          "unknownSender": "Penghantar tidak diketahui",
+          "unnamedHud": "HUD Tidak Dinamakan",
+          "unknownGame": "Permainan tidak diketahui",
+          "game": "Permainan: {{game}}",
+          "size": "Saiz: {{size}}",
+          "sharedBy": "Dikongsi oleh {{sender}}",
+          "acceptToWorkspace": "Terima ke ruang kerja",
+          "acceptToWorkspaces": "Terima ke ruang kerja",
+          "mainWorkspace": "Akaun saya",
+          "workspaceUnavailableTitle": "Ruang kerja tidak tersedia",
+          "acceptingInfo": "Sila tunggu sementara kami menyalin HUD yang dikongsi ke ruang kerja yang anda pilih.",
+          "expiresAt": "Tamat Tempoh: {{expiresAt}}",
+          "upgradeRequired": "HUD ini lebih besar daripada had storan pelan semasa anda. Tingkatkan pelan anda untuk menerimanya.",
+          "enterpriseStorageRequired": "Ruang kerja ini tidak mempunyai storan yang mencukupi untuk HUD ini. Alih keluar beberapa data ruang kerja untuk menerima HUD.",
+          "enterpriseSelectionLimit": "Ruang kerja ini berkongsi storan dengan ruang kerja perusahaan pilihan anda yang lain. Alih keluar beberapa data atau nyahpilih ruang kerja lain untuk menerima HUD.",
+          "notEnoughFreeSpace": "Anda tidak mempunyai ruang awan kosong yang mencukupi untuk menerima HUD ini sekarang. Kosongkan ruang untuk menerima HUD.",
+          "never": "Tidak pernah",
+          "progress": "Jemputan {{current}} daripada {{total}}"
+        },
+        "meta": {
+          "sharedBy": "Dikongsi oleh {{sender}}",
+          "unknownSender": "Penghantar tidak diketahui",
+          "expiresAt": "Tamat Tempoh {{expiresAt}}"
+        },
+        "notifications": {
+          "created": "Jemputan perkongsian HUD berjaya dihantar.",
+          "error": "Tidak dapat menghantar jemputan perkongsian. Sila cuba lagi.",
+          "manageShares": "Urus perkongsian",
+          "errors": {
+            "SHARE_LIMIT_REACHED": "Bilangan maksimum perkongsian aktif yang dicapai.",
+            "SHARE_SELF": "Anda tidak boleh berkongsi HUD dengan diri sendiri.",
+            "SHARE_ALREADY_EXISTS": "HUD ini telah dikongsi dengan pengguna tersebut."
+          }
+        }
       },
       "warning": {
         "csgoHUDinCS2": "Apabila menggunakan mod AFX, selepas menyertai perlawanan klik pada togol - tidak perlu bermula lapisan itu.",
@@ -1011,6 +1326,10 @@
           "title": "Addons",
           "info": "Addons ialah cara baharu untuk mencipta integrasi berkuasa dengan LHM, berfungsi dengan menyediakan persekitaran Node.js kotak pasir dengan pemancar peristiwa GSI yang disambungkan ke dalamnya di luar kotak. Terima kasih kepada LHM Addons, anda boleh menumpukan usaha anda untuk mencipta pengalaman yang terbaik untuk penonton anda, dengan semua beban berat dilakukan oleh LHM."
         },
+        "quality": {
+          "title": "Kualiti Strim Kamera",
+          "info": "Stir kamera berkualiti tinggi boleh menyebabkan kegagapan pada sesetengah komputer dan sambungan internet."
+        },
         "tab": {
           "title": "Quick",
           "info": "LHM Quick membolehkan anda menyediakan seluruh pemain, pasukan dan persediaan HUD anda dengan cepat dari satu tempat, membolehkan anda memulakan strim anda dengan segera."
@@ -1033,6 +1352,20 @@
           "title": "Perlu menambah lebih banyak acara?",
           "info": "Tingkatkan rancangan anda untuk mendapatkan akses kepada acara tanpa had dengan pilihan lanjutan seperti keupayaan untuk membuat cawangan acara dan pratetap!"
         }
+      },
+      "settings": {
+        "sharedConfigSync": {
+          "title": "Penyegerakan Awan Konfigurasi Kongsi",
+          "info": "Apabila diaktifkan, bahagian Konfigurasi Kongsi (contohnya tetapan X-Ray) disegerakkan dengan Awan LHM, supaya ia boleh kekal konsisten merentasi peranti/ruang kerja anda.\nLumpuhkan ini jika anda mahu mengekalkan perubahan Konfigurasi Kongsi setempat sahaja."
+        },
+        "ipAddressOverride": {
+          "title": "Penggantian Alamat IP",
+          "info": "Gunakan ini hanya jika LHM mengesan alamat rangkaian peribadi yang salah (contohnya apabila VPN aktif).\nTetapkan alamat IP tempatan yang harus digunakan oleh sumber HUD/pelayar anda.\nMulakan semula LHM selepas menukar nilai ini untuk ia berkuat kuasa."
+        },
+        "slowMode": {
+          "title": "Mod Perlahan",
+          "info": "Mod Perlahan menghantar permintaan API melalui barisan untuk mengurangkan trafik pecah. Ini boleh membantu dalam persekitaran tembok api seluruh negara yang ketat.\nMulakan semula LHM selepas menukar nilai ini untuk ia berkuat kuasa."
+        }
       }
     },
     "modals": {
@@ -1044,11 +1377,17 @@
         "titleTeams": "Kunci API Steam Tiada",
         "titlePlayers": "Nampaknya anda meletakkan URL Steam tersuai dalam medan SteamID. LHM memerlukan Kunci API Steam untuk menyokong URL tersuai. Adakah anda ingin menyimpan juga?",
         "titleMatches": "Padamkan padanan",
+        "titleTournaments": "Padam kejohanan",
         "infoTeams": "Muat naik HUD anda ke LHM Cloud",
         "infoPlayers": "Bermula dengan LHM 4.9.0, semua HUD adalah berasaskan awan sepenuhnya. Ini bermakna anda kini boleh menggunakan HUD anda pada mana-mana peranti dan HUD anda akan sentiasa kekal selaras.",
+        "infoTournaments": "Adakah anda pasti mahu mengalih keluar kejohanan {{count}}?",
         "infoMatches": "Adakah anda pasti mahu mengalih keluar {{count}} padanan?",
         "deleteWithPlayers": "Untuk terus menggunakan LHM, anda perlu memuat naik HUD anda ke LHM Cloud.",
-        "deleteAll": "Padamkan Semua ({{count}})"
+        "deleteAll": "Padamkan Semua ({{count}})",
+        "single": {
+          "titleTournament": "Padam kejohanan {{name}}",
+          "infoTournament": "Adakah anda pasti mahu mengalih keluar kejohanan {{name}}?"
+        }
       },
       "steamApiKeyMissing": {
         "title": "Beberapa HUD sedang disimpan dimampatkan dalam Awan. Untuk menggunakannya, LHM perlu memuat turunnya dan menyahmampatnya. Ia mungkin menyebabkan penggunaan had Awan yang lebih tinggi.",
