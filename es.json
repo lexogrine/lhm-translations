@@ -115,28 +115,28 @@
       "contrast-poor-label": "Contraste deficiente",
       "contrast-poor-message": "El contraste es demasiado bajo; el texto puede ser difícil de leer.",
       "notice": "Aviso:",
-      "notice-content": "Selecciona TEMA DEL HUD como COLORES PERSONALIZADOS para habilitar la modificación de color personalizada. #__#\nArriba a la izquierda"
+      "notice-content": "Selecciona TEMA DEL HUD como COLORES PERSONALIZADOS para habilitar la modificación de color personalizada."
     },
     "signals-ads": {
-      "top-left": "Arriba a la derecha",
-      "top-right": "Abajo a la izquierda",
-      "bottom-left": "Abajo a la derecha",
-      "bottom-right": "Imagen",
-      "image": "Cualquier jugador",
-      "any-player": "Cualquier equipo",
-      "any-side": "Posición",
-      "any-team": "Duración (s)",
-      "position": "Activador",
-      "duration": "Jugador",
-      "trigger": "Equipo",
-      "player": "Equipo",
-      "team": "Añadir nuevo anuncio",
-      "side": "Seleccionar posición",
-      "add-new-ad": "Seleccionar activador",
-      "select-position": "Seleccionar jugador",
-      "select-trigger": "Seleccionar equipo",
-      "select-player": "Copiar del preajuste actual",
-      "select-side": "Crear vacío"
+      "top-left": "Arriba a la izquierda",
+      "top-right": "Arriba a la derecha",
+      "bottom-left": "Abajo a la izquierda",
+      "bottom-right": "Abajo a la derecha",
+      "image": "Imagen",
+      "any-player": "Cualquier jugador",
+      "any-side": "Cualquier lado",
+      "any-team": "Cualquier equipo",
+      "position": "Posición",
+      "duration": "Duración (s)",
+      "trigger": "Disparador",
+      "player": "Jugador",
+      "team": "Equipo",
+      "side": "Lado",
+      "add-new-ad": "Añadir nuevo anuncio",
+      "select-position": "Seleccionar posición",
+      "select-trigger": "Seleccionar disparador",
+      "select-player": "Seleccionar jugador",
+      "select-side": "Seleccionar lado"
     },
     "blocker": {
       "personal": "Actualiza tu LHM a un plan Personal, Profesional o Enterprise para obtener acceso completo a esta sección.",
@@ -157,7 +157,7 @@
       "players": "Jugadores",
       "teams": "Equipos",
       "arg": "Replays",
-      "aco": "Planos automaticos de Observador",
+      "aco": "Scout AI",
       "ar": "Realidad Aumentada",
       "cgpanel": "Modo Compacto",
       "huds": "HUDs",
@@ -169,7 +169,7 @@
       "addons": "Complementos",
       "settings": "Ajustes",
       "credits": "Créditos",
-      "quick": "Modo rápido",
+      "quick": "Quick",
       "chat": "Chat de Soporte",
       "composer": "Composer",
       "xray": "X-Ray"
@@ -197,14 +197,14 @@
       "manualControl": "Control manual",
       "areaConfigurationsPlaceholder": "Seleccione un área para ver sus configuraciones",
       "enableDirector": "Habilitar director",
-      "scoutPredict": "Habilitar Predecir",
+      "scoutPredict": "Habilitar Predict",
       "telnet": "Activar Telnet",
-      "telnetWarning": "Para utilizar Telnet, CS2 debe iniciarse con Workshop Tools. Puedes hacerlo activando la opción \"Killfeed / Tools\" en la pestaña HUDs y pulsando el botón \"Run Game\".",
-      "cinematicWarning": "Para usar Scout Cinematic, CS2 debe iniciarse con Workshop Tools. Puedes hacerlo habilitando la opción \"Killfeed / Herramientas\" en la pestaña HUDs y haciendo clic en el botón \"Ejecutar juego\". Habilitar Cinemática de Explorador también obligará a Visión de Explorador a ejecutarse en modo Directo.",
-      "disabledDescription": "Todo el control es tuyo y de tus observadores.\nDiviértanse.",
+      "telnetWarning": "Para usar Telnet, CS2 debe iniciarse con Workshop Tools. Puedes hacerlo activando la opción \"Scout AI\" en la pestaña HUDs y haciendo clic en el botón \"Run Game\".",
+      "cinematicWarning": "Para usar Scout Cinematic, CS2 debe iniciarse con Workshop Tools. Puedes hacerlo activando la opción \"Scout AI\" en la pestaña HUDs y haciendo clic en el botón \"Run Game\". Activar Scout Cinematic también forzará a Scout Vision a ejecutarse en modo Direct.",
+      "disabledDescription": "Todo el control se te da a ti y a tus observadores.",
       "aco1Description": "Equilibrio entre control y automatización.\nAyude a sus observadores con un conjunto de instrucciones escritas manualmente para ACO.",
       "aco-aiDescription": "Siéntese mientras los avanzados algoritmos de la IA de ACO controlan su retransmisión.",
-      "aco-ai-scoutDescription": "Deje que nuestro nuevo sistema de predicción de partidos tome el timón.\nPróximamente.",
+      "aco-ai-scoutDescription": "Deja que el observador de IA siga la partida sin intervención del usuario.",
       "aco-ai-scoutDescription-disconnected": "Deja que el observador de IA siga la partida sin intervención del usuario.\nLos servidores de Scout pueden no estar disponibles en este momento.",
       "scoutCinematicDescription": "Muestra hermosas tomas cinematográficas durante los descansos de los partidos.",
       "scoutPredictDescription": "Muestra predicciones de resultados de partidos en vivo directamente en tu transmisión.",
@@ -216,7 +216,7 @@
       "areaPriorityPlaceholder": "Prioridad de área",
       "addConfigHeader": "Añadir una nueva configuración a esta área",
       "addConfigPlaceholder": "Introducir un comando a ejecutar en esta área",
-      "timeRemaining": "Tiempo restante AI Scout",
+      "timeRemaining": "Tiempo disponible",
       "scoutServerUnavailable": "LHM no puede conectarse a los servidores Scout AI.\nPor favor, inténtalo de nuevo en unos minutos.",
       "scoutSubtitle": "Observador de IA",
       "scoutGetMoreTime": "Consigue más tiempo",
@@ -257,23 +257,23 @@
       "uhudPlayersStatsFontSize": "Tamaño de fuente de las estadísticas",
       "uhudPlayersHealthFontSize": "Tamaño de fuente de la salud",
       "visible": "Visible",
-      "previewTitle": "Vista previa del compositor {{component}}",
+      "previewTitle": "Vista previa de Composer {{component}}",
       "components": {
-        "matchbar": "Barra de partida",
+        "matchbar": "Matchbar",
         "left-player": "Jugadores de la izquierda",
         "right-player": "Jugadores de la derecha",
         "left-money": "Dinero de la izquierda",
         "right-money": "Dinero de la derecha",
         "players": "Jugadores",
         "observed-player": "Jugador observado",
-        "killfeed": "Registro de bajas",
+        "killfeed": "Killfeed",
         "round-history": "Historial de rondas",
         "mapseries": "Serie de mapas",
         "asset": "Recurso personalizado",
         "winbox": "Indicador de victoria de ronda",
         "sponsors": "Patrocinadores",
         "tournament-info": "Información del torneo",
-        "scout": "Predicción del explorador",
+        "scout": "Scout Predict",
         "radar": "Radar",
         "anims-plant": "Animación de plantación",
         "anims-defuse-short": "Animación de desactivación (corta)",
@@ -313,122 +313,122 @@
         "globalStyles": "Estilos globales"
       },
       "descriptions": {
-        "globalStyles": "Aplicar estilo global a los componentes. #__#\nMostrar todo"
+        "globalStyles": "Aplicar apariencia global a los componentes."
       },
       "actions": {
-        "showAll": "Ocultar todo",
-        "hideAll": "Mostrar componente",
-        "showComponent": "Ocultar componente",
-        "hideComponent": "Volver a Componentes",
-        "backToComponents": "Atrás",
-        "toBack": "Adelante",
-        "toFront": "Añadido"
+        "showAll": "Mostrar todo",
+        "hideAll": "Ocultar todo",
+        "showComponent": "Mostrar componente",
+        "hideComponent": "Ocultar componente",
+        "backToComponents": "Volver a Componentes",
+        "toBack": "Enviar atrás",
+        "toFront": "Traer al frente"
       },
       "status": {
-        "added": "No añadido",
-        "notAdded": "Variante"
+        "added": "Añadido",
+        "notAdded": "No añadido"
       },
       "fields": {
-        "variant": "Estilo",
-        "style": "Estilos",
-        "styles": "Diseño",
-        "layout": "Familia de fuentes",
-        "fontFamily": "Patrón global",
-        "globalPattern": "Opacidad del patrón global",
-        "globalPatternOpacity": "Ajuste de la imagen de fondo",
-        "backgroundImageFit": "Radio del borde",
-        "borderRadius": "Ancho del borde",
-        "borderWidth": "Estilo del borde",
-        "borderStyle": "Posición X",
-        "positionX": "Posición Y",
-        "positionY": "Centrar horizontalmente",
-        "centerHorizontally": "Centrar verticalmente",
-        "centerVertically": "Escala",
-        "scale": "Índice Z",
-        "zIndex": "Capa actual",
-        "currentLayer": "Alinear",
-        "align": "Personalizado CSS",
-        "customCss": "Duración",
-        "duration": "Límite",
-        "limit": "BORDE"
+        "variant": "Variante",
+        "style": "Estilo",
+        "styles": "Estilos",
+        "layout": "Diseño",
+        "fontFamily": "Familia tipográfica",
+        "globalPattern": "Patrón global",
+        "globalPatternOpacity": "Opacidad del patrón global",
+        "backgroundImageFit": "Ajuste de imagen de fondo",
+        "borderRadius": "Radio del borde",
+        "borderWidth": "Ancho del borde",
+        "borderStyle": "Estilo del borde",
+        "positionX": "Posición X",
+        "positionY": "Posición Y",
+        "centerHorizontally": "Centrar horizontalmente",
+        "centerVertically": "Centrar verticalmente",
+        "scale": "Escala",
+        "zIndex": "Z-Index",
+        "currentLayer": "Capa actual",
+        "align": "Alinear",
+        "customCss": "CSS personalizado",
+        "duration": "Duración",
+        "limit": "Límite"
       },
       "labels": {
-        "border": "ANTECEDENTES",
-        "background": "ANTITERRORISTAS",
-        "counterTerrorists": "TERRORISTAS",
-        "terrorists": "Ningún archivo seleccionado"
+        "border": "BORDE",
+        "background": "FONDO",
+        "counterTerrorists": "ANTITERRORISTAS",
+        "terrorists": "TERRORISTAS"
       },
       "files": {
-        "noFileSelected": "Imagen del patrocinador",
-        "sponsorImage": "Archivo de recursos",
-        "assetFile": "Ninguna imagen seleccionada",
-        "noImagesSelected": "1 imagen seleccionada",
+        "noFileSelected": "Ningún archivo seleccionado",
+        "sponsorImage": "Imagen de patrocinador",
+        "assetFile": "Archivo de recurso",
+        "noImagesSelected": "Ninguna imagen seleccionada",
         "oneImageSelected": "1 imagen seleccionada",
         "imagesSelected": "{{count}} imágenes seleccionadas",
-        "plantFile": "Archivo corto de desactivación",
-        "defuseShortFile": "Archivo largo de desactivación",
-        "defuseLongFile": "Personalizado"
+        "plantFile": "Archivo de plantado",
+        "defuseShortFile": "Archivo de desactivación corta",
+        "defuseLongFile": "Archivo de desactivación larga"
       },
       "options": {
-        "custom": "Portada",
-        "cover": "Contenido",
-        "contain": "Ninguno",
-        "none": "Superior",
-        "top": "Izquierda",
-        "left": "Centro",
-        "center": "Derecha",
-        "right": "Inferior",
-        "bottom": "Frontal",
-        "front": "Información de rendimiento"
+        "custom": "Personalizado",
+        "cover": "Cubrir",
+        "contain": "Contener",
+        "none": "Ninguno",
+        "top": "Arriba",
+        "left": "Izquierda",
+        "center": "Centro",
+        "right": "Derecha",
+        "bottom": "Abajo",
+        "front": "Frente"
       },
       "tooltips": {
-        "performanceInformation": "Ayuda con las variables de color CSS personalizadas",
-        "customCssColorVariablesHelp": "Para usar el color del equipo en CSS personalizado, usa la variable CSS: var(--color-new-t). #__#\nLa renderización temporal de todos los componentes del Composer a la vez puede reducir el rendimiento de la vista previa en equipos menos potentes. Esto es normal durante la configuración y no debería afectar al rendimiento una vez que hayas terminado de configurar tu HUD.",
-        "customCss": "Buscar componentes...",
-        "bulkVisibilityPerformance": "/* estilos personalizados */"
+        "performanceInformation": "Información de rendimiento",
+        "customCssColorVariablesHelp": "Ayuda de variables de color CSS personalizadas",
+        "customCss": "Para usar el color del equipo en CSS personalizado, usa la variable CSS: var(--color-new-t).",
+        "bulkVisibilityPerformance": "Renderizar temporalmente todos los componentes de Composer a la vez puede reducir el rendimiento de la vista previa en equipos menos potentes. Esto es esperado durante la configuración y no debería afectar al rendimiento tras terminar de configurar tu HUD."
       },
       "placeholders": {
-        "search": "Usar avatar",
-        "customCss": "Tamaño del jugador"
+        "search": "Buscar componentes...",
+        "customCss": "/* estilos personalizados */"
       },
       "radar": {
-        "useAvatar": "Opacidad del radar",
-        "playerSize": "Usar degradado",
-        "radarOpacity": "Variante de animación de granada",
-        "useGradient": "Marcador de jugador muerto",
-        "grenadeAnimationVariant": "Anulación de degradado activada",
-        "deadPlayerMarker": "Color de parada del degradado",
-        "gradientOverrideEnabled": "Zoom de multitud activado",
-        "gradientStopColor": "Color del portador de bombas",
-        "crowdZoomEnabled": "Color del humo",
-        "bombCarrierColor": "Color del destello",
-        "smokeColor": "Color de la granada",
-        "flashColor": "Color del cóctel molotov",
-        "grenadeColor": "Color de la bomba",
-        "molotovColor": "Ancho máximo de la planta",
-        "bombColor": "Alto máximo de la planta"
+        "useAvatar": "Usar avatar",
+        "playerSize": "Tamaño del jugador",
+        "radarOpacity": "Opacidad del radar",
+        "useGradient": "Usar degradado",
+        "grenadeAnimationVariant": "Variante de animación de granada",
+        "deadPlayerMarker": "Marcador de jugador muerto",
+        "gradientOverrideEnabled": "Anulación de degradado activada",
+        "gradientStopColor": "Color de parada del degradado",
+        "crowdZoomEnabled": "Zoom de público activado",
+        "bombCarrierColor": "Color del portador de bomba",
+        "smokeColor": "Color del humo",
+        "flashColor": "Color del flash",
+        "grenadeColor": "Color de la granada",
+        "molotovColor": "Color del molotov",
+        "bombColor": "Color de la bomba"
       },
       "anims": {
-        "plantMaxWidth": "Ancho máximo de la desactivación",
-        "plantMaxHeight": "Alto máximo de la desactivación",
-        "defuseMaxWidth": "(objetivo ~5 s)",
-        "defuseMaxHeight": "(objetivo ~10 s)",
-        "targetFiveSeconds": "Predeterminado",
-        "targetTenSeconds": "Oscuro"
+        "plantMaxWidth": "Ancho máximo de plantado",
+        "plantMaxHeight": "Alto máximo de plantado",
+        "defuseMaxWidth": "Ancho máximo de desactivación",
+        "defuseMaxHeight": "Alto máximo de desactivación",
+        "targetFiveSeconds": "(objetivo ~5s)",
+        "targetTenSeconds": "(objetivo ~10s)"
       },
       "radarVariants": {
-        "default": "Limpio",
-        "dark": "Alto contraste",
-        "clean": "Predeterminado",
-        "high-contrast": "Cartón"
+        "default": "Predeterminado",
+        "dark": "Oscuro",
+        "clean": "Limpio",
+        "high-contrast": "Alto contraste"
       },
       "radarGrenadeAnimationVariants": {
-        "default": "Desvanecimiento",
-        "carton": "Equipo X"
+        "default": "Predeterminado",
+        "carton": "Cartón"
       },
       "radarDeadPlayerMarkers": {
-        "fade": "Establecer como entrenador",
-        "team-x": "Retardo de la cámara en segundos"
+        "fade": "Desvanecer",
+        "team-x": "Equipo X"
       }
     },
     "players": {
@@ -441,14 +441,14 @@
       "importPlayersExcel": "Utilice nuestra hoja Excel preparada de antemano para importar fácilmente muchos jugadores a la vez.",
       "exportPlayers": "Exportar",
       "avatar": "Avatar",
-      "setAsCoach": "Calidad de la transmisión de la cámara"
+      "setAsCoach": "Establecer como entrenador"
     },
     "teams": {
       "edit": "Editar un equipo",
       "uploadLogo": "Logo",
       "logoInfo": "Logotipo que se utilizará para el equipo, si es posible en el HUD dado",
       "addTeam": "Añadir equipo",
-      "exportTeams": "Importar",
+      "exportTeams": "Exportar",
       "importTeamsTitle": "Importar equipos",
       "importTeamsExcel": "Utilice nuestra hoja Excel preparada previamente para importar fácilmente muchos equipos a la vez.",
       "logo": "Logo"
@@ -468,10 +468,10 @@
       "stopTestVideo": "Detener vídeo de prueba",
       "testVideoBlocker": "Debes tener el juego en marcha para reproducir el vídeo de prueba y los jugadores rellenados en la tabla anterior. Ver una demo, o reproducir datos de prueba, y elegir jugador de prueba",
       "testPlayer": "Jugador de prueba",
-      "delay": "La conexión con al menos uno de los jugadores, marcado con un punto amarillo, está obstruida por NAT simétrico. Esto suele provocar problemas de conexión con la transmisión de la cámara. Se recomienda que el jugador cambie la conexión de red y actualice la página de la cámara.",
-      "cameraQuality": "Su conexión está obstruida por NAT simétrico. Esto suele provocar problemas de conexión con la transmisión de la cámara. Se recomienda cambiar la conexión de red y reiniciar LHM.",
-      "cameraWarningPlayer": "Compositor",
-      "cameraWarningUser": "Crear predeterminado"
+      "delay": "Retardo de cámara en segundos",
+      "cameraQuality": "Calidad de la transmisión de cámara",
+      "cameraWarningPlayer": "La conexión con al menos uno de los jugadores, marcado con un punto amarillo, está obstruida por NAT simétrica. Esto suele provocar problemas de conexión con la transmisión de cámara. Se recomienda que el jugador cambie la conexión de red y actualice la página de Cámara.",
+      "cameraWarningUser": "Tu conexión está obstruida por NAT simétrica. Esto suele provocar problemas de conexión con la transmisión de cámara. Se recomienda cambiar la conexión de red y reiniciar LHM."
     },
     "addons": {
       "upload": "Cargar complemento",
@@ -493,12 +493,12 @@
       "huds": "HUDs",
       "aco": "Scout AI",
       "addons": "Complementos",
-      "composer": "Crear en blanco",
+      "composer": "Composer",
       "ar": "RA",
       "live": "En vivo",
-      "quick": "Modo rápido",
+      "quick": "Quick",
       "professionalOnly": "Sólo profesional",
-      "nonFreeOnly": "Solo gratuito",
+      "nonFreeOnly": "Solo de pago",
       "cameras": "Cámaras",
       "hi": "¡Hola, {{username}}!",
       "yourPlan": "Tu plan",
@@ -507,7 +507,7 @@
       "validUntil": "Válido hasta",
       "nextPayment": "Próxima facturación",
       "logout": "Cerrar sesión",
-      "arg": "Repeticiones"
+      "arg": "Replays"
     },
     "signals": {
       "removal": {
@@ -521,10 +521,10 @@
       "create": {
         "title": "Crear un nuevo preajuste",
         "placeholder": "Nombre de la preselección",
-        "clone": "Activar/desactivar la visión del ojeador",
-        "createNew": "Enlace copiado al portapapeles",
-        "createFromDefault": "Grupo y Playoffs",
-        "createBlank": "No hay partidos en esta fase"
+        "clone": "Copiar desde preajuste actual",
+        "createNew": "Crear vacío",
+        "createFromDefault": "Crear predeterminado",
+        "createBlank": "Crear en blanco"
       },
       "activate": "{{ name }} no está activo",
       "deactivate": "{{ name }} está activo",
@@ -587,12 +587,12 @@
       "page": "Página de torneos",
       "create": "Crear un nuevo torneo",
       "name": "Nombre del torneo",
-      "groupAndPlayoffs": "Los playoffs se han creado correctamente",
-      "noMatchesInStage": "Campeón",
-      "playoffsCreated": "Cuadros",
-      "champion": "Resultado establecido",
-      "bracket": "Solo playoffs",
-      "setScore": "Grupo + Playoffs",
+      "groupAndPlayoffs": "Grupo y playoffs",
+      "noMatchesInStage": "No hay partidos en esta fase",
+      "playoffsCreated": "Los playoffs se han creado correctamente",
+      "champion": "Campeón",
+      "bracket": "Cuadro",
+      "setScore": "Establecer marcador",
       "uploadLogo": "Cargar logotipo del torneo",
       "logoInfo": "El logotipo del torneo estará disponible durante el partido",
       "singleElimBracket": "Cuadro de eliminación simple",
@@ -601,8 +601,8 @@
       "group": "Grupo",
       "playoffs": "Eliminatorias",
       "playoffType": "Tipo de eliminatoria",
-      "playoffsOnly": "Formato predeterminado de Mejor de",
-      "grouppAndPlayoffs": "Formato predeterminado de Mejor de (para nuevos partidos)",
+      "playoffsOnly": "Solo playoffs",
+      "grouppAndPlayoffs": "Grupo + playoffs",
       "soon": "Pronto",
       "groupType": "Tipo de grupo",
       "participants": "Participantes",
@@ -610,21 +610,21 @@
       "amountOfTeams": "Número de equipos",
       "amountOfRounds": "Número de rondas",
       "bindMatch": "Vincular partido a bracket",
-      "defaultBo": "Estructura del torneo",
-      "defaultBoEdit": "Equipos disponibles",
+      "defaultBo": "Formato Mejor de predeterminado",
+      "defaultBoEdit": "Formato Mejor de predeterminado (para nuevos partidos)",
       "teamOrderList": "Lista de orden de los equipos",
-      "tournamentStructure": "Equipos seleccionados",
-      "availableTeams": "Equipos clasificados",
-      "selectedTeams": "Clasificados",
-      "qualifiedTeams": "Eliminados",
-      "qualified": "La fase de grupos ha finalizado. Ahora puedes crear los playoffs; este paso solo se puede realizar una vez.",
-      "eliminated": "Crear playoffs",
-      "groupFinished": "La fase de grupos aún está en curso. La creación de playoffs estará disponible una vez que finalice la fase de grupos.",
-      "createPlayoffs": "Partidos faltantes detectados",
-      "stageInProgress": "Se han eliminado algunos partidos. Haz clic abajo para restaurar todas las partidas desde la primera ronda perdida.",
-      "missingMatches": "Restaurar todas las partidas",
-      "matchesDeleted": "Sincronización en la nube del orden de la interfaz",
-      "restoreAllMatches": "Sincronización en la nube de la configuración compartida"
+      "tournamentStructure": "Estructura del torneo",
+      "availableTeams": "Equipos disponibles",
+      "selectedTeams": "Equipos seleccionados",
+      "qualifiedTeams": "Equipos clasificados",
+      "qualified": "Clasificados",
+      "eliminated": "Eliminados",
+      "groupFinished": "La fase de grupos ha finalizado. Ahora puedes crear los playoffs: este paso solo se puede realizar una vez.",
+      "createPlayoffs": "Crear playoffs",
+      "stageInProgress": "La fase de grupos aún está en curso. La creación de playoffs estará disponible una vez finalice la fase de grupos.",
+      "missingMatches": "Se detectaron partidos faltantes",
+      "matchesDeleted": "Algunos partidos han sido eliminados. Haz clic abajo para restaurar todos los partidos desde la primera ronda faltante.",
+      "restoreAllMatches": "Restaurar todos los partidos"
     },
     "match": {
       "matches": "Partidos",
@@ -672,7 +672,7 @@
       },
       "chooseTeam": "Elige equipo",
       "vetoSidepick": {
-        "normal": "{{secondTeamName}} elige equipo {{side}}",
+        "normal": ", {{secondTeamName}} elige lado {{side}}",
         "decider": "{{mapName}} decisivo"
       },
       "vetoUrlModal": {
@@ -770,11 +770,11 @@
       "serversUnreachable": "Parece que nuestros servidores están inaccesibles. Por favor, inténtelo de nuevo en unos minutos",
       "preInstalled": "Usar preinstalado",
       "cloudSynchronization": "Sincronización en la nube",
-      "hudConfigCloudSynchronization": "HUD Settings Cloud Synchronization",
+      "hudConfigCloudSynchronization": "Sincronización en la nube de Composer y Ajustes de HUD",
       "hudTogglesCloudSynchronization": "HUD Alterna la Sincronización con la Nube",
-      "hudOrdersCloudSynchronization": "Sincronización en la nube de la configuración compartida",
-      "sharedConfigCloudSynchronization": "Anular las combinaciones de teclas del jugador de CS2",
-      "sharedConfigSync": "No",
+      "hudOrdersCloudSynchronization": "Sincronización en la nube del orden de HUDs",
+      "sharedConfigCloudSynchronization": "Sincronización en la nube de la configuración compartida",
+      "sharedConfigSync": "Sincronización en la nube de la configuración compartida",
       "valorantWindowTitleOverride": "Anulación del título de la ventana Valorant",
       "valorantServerMode": "Modo de recogida de datos",
       "valorantReadLanguage": "Lenguaje de Juego Valorant",
@@ -789,15 +789,15 @@
       "dota2Assets": "Activos Dota 2",
       "autoHalfSwitch": "Cambio de medio automático (Experimental)",
       "autoSwitch": "Cambio automático",
-      "overrideCS2PlayerKeybinds": "Cuando LHM está enfocado",
+      "overrideCS2PlayerKeybinds": "Anular atajos de teclas de jugador en CS2",
       "overrideCS2PlayerKeybindsOptions": {
-        "no": "Siempre",
-        "focused": "Anular las combinaciones de teclas del jugador de CS2",
-        "always": "Esta opción configura las combinaciones de teclas de CS2 del 1 al 0 para que coincidan con las ranuras de jugador observador que se muestran en la interfaz, lo cual es útil cuando hay entrenadores en el servidor.\n\nPara guardar las combinaciones de teclas, debes desactivar esta opción mientras CS2 se esté ejecutando."
+        "no": "No",
+        "focused": "Cuando LHM está enfocado",
+        "always": "Siempre"
       },
       "overrideCS2PlayerKeybindsModal": {
-        "title": "Anulación de la dirección IP",
-        "info": "Modo lento"
+        "title": "Anular atajos de teclas de jugador en CS2",
+        "info": "Esta opción configura los atajos de teclas 1-0 de CS2 para que coincidan con las ranuras de jugador observador mostradas en el HUD, lo cual es útil cuando hay entrenadores en el servidor.\nPara guardar los atajos de teclas, debes desactivar esta opción mientras CS2 está en ejecución."
       },
       "header": "Ajustes",
       "subheaders": {
@@ -879,7 +879,7 @@
           "dota2ARG": "Jugar Dota 2 ARG",
           "reverseSide": "Invertir bandos",
           "refreshHud": "Actualizar HUD",
-          "toggleDirector": "Abriendo el HUD en la superposición...",
+          "toggleDirector": "Alternar Scout Vision",
           "toggleScoutPredict": "Alternar predicción de explorador",
           "toggleScoutCinematic": "Alternar cinemática de Scout"
         },
@@ -901,8 +901,8 @@
         "config": {
           "status": "Configs",
           "add": "Añadir archivos config",
-          "overrideIp": "Herramientas del taller de CS2 no encontradas",
-          "slowMode": "No se detectó el DLC de herramientas del taller de Counter-Strike 2. Es necesario usarlo con LHM al iniciar CS2 con Killfeed o Scout AI activados. Se recomienda descargarlo a través de Steam e intentarlo de nuevo."
+          "overrideIp": "Anulación de dirección IP",
+          "slowMode": "Modo lento"
         },
         "credits": {
           "credits": "Créditos",
@@ -938,13 +938,13 @@
     "huds": {
       "header": "HUDs",
       "workshopToolsModal": {
-        "title": "Iniciar de todos modos",
-        "info": "Crear categoría",
-        "launchAnyway": "Cambiar nombre de categoría"
+        "title": "No se encontraron Workshop Tools de CS2",
+        "info": "No se detectó el DLC Counter-Strike 2 Workshop Tools. Es necesario para usar LHM al iniciar CS2 con Killfeed o Scout AI activados. Se recomienda descargarlo desde Steam y volver a intentarlo.",
+        "launchAnyway": "Iniciar de todos modos"
       },
       "config": {
         "customRadar": "Radar",
-        "customKillfeed": "Killfeed",
+        "customKillfeed": "Custom Killfeed",
         "embeddedHUD": "HUD integrado",
         "killfeedOffset": "Killfeed Offset",
         "scout": "Scout AI/XRAY",
@@ -973,7 +973,7 @@
       "categories": {
         "createTitle": "Crear categoría",
         "renameTitle": "Renombrar categoría",
-        "deleteTitle": "Eliminar categoría",
+        "deleteTitle": "Eliminar categoría {{name}}",
         "name": "Nombre de la categoría",
         "ungrouped": "Sin agrupar",
         "deleteInfo": "¿Está seguro de que desea eliminar la categoría {{name}}? Esta acción no eliminará ningún HUD."
@@ -1158,7 +1158,7 @@
         },
         "scout": {
           "title": "Scout AI",
-          "info": "Activando esta opción se iniciará CS2 con VConsole2, lo que podría impedirle unirse a servidores a menos que esté correctamente configurado."
+          "info": "Esta opción requiere Workshop Tools y ejecuta HLAE.\nAl activarla, LHM podrá usar Scout Cinematic y Scout Vision en modo direct.\nEsta opción iniciará CS2 en modo inseguro; no te unas a servidores protegidos por VAC (por ejemplo, Faceit, matchmaking), excepto como espectador CSTV mientras esté activada."
         },
         "tab": {
           "title": "Pestaña HUDs",
@@ -1169,8 +1169,8 @@
           "info": "Activando esta opción y ejecutando el juego con la configuración actual o usando el botón \"Ejecutar juego\" desactivará el radar del juego para usar el radar personalizado incorporado en tus HUDs."
         },
         "killfeed": {
-          "title": "Killfeed",
-          "info": "Activando esta opción y ejecutando el juego con la configuración presentada a continuación o usando el botón \"Ejecutar juego\" deshabilitará el killfeed del juego para usar el killfeed personalizado incorporado en tus HUDs.\nEsta opción iniciará CS:GO en modo inseguro: no podrás unirte a servidores protegidos por VAC (por ejemplo, Faceit, matchmaking) a menos que seas un espectador de CSTV mientras esté activada."
+          "title": "Custom Killfeed",
+          "info": "Esta opción requiere Workshop Tools y ejecuta HLAE.\nAl activarla y ejecutar el juego con la configuración mostrada abajo o usando el botón \"Ejecutar juego\", se desactivará el Killfeed del juego para usar el Custom Killfeed integrado en tus HUDs.\nEsta opción iniciará CS2 en modo inseguro; no te unas a servidores protegidos por VAC (por ejemplo, Faceit, matchmaking), excepto como espectador CSTV mientras esté activada."
         },
         "embeddedHUD": {
           "title": "HUD integrado",
@@ -1243,8 +1243,8 @@
       },
       "arg": {
         "tab": {
-          "title": "Generador de Repeticiones Automáticas",
-          "info": "El módulo Generador de Repeticiones Automáticas (GRA) genera repeticiones que pueden ser mostradas entre rondas o al final de una partida.\\nPor favor, tenga en cuenta que vMix es necesario para la correcta configuración de GRA. vMix no es una aplicación gratuita, y GRA en sí está diseñado principalmente para los equipos de producción que utilizan vMix."
+          "title": "Replays",
+          "info": "El módulo Auto Replay Generator (ARG) genera repeticiones que pueden mostrarse entre rondas o al final de una partida.\nTen en cuenta que vMix es necesario para una configuración correcta de ARG. vMix no es una aplicación gratuita, y ARG está diseñado principalmente para equipos de producción que ya usan vMix."
         },
         "safeband": {
           "title": "Margen de seguridad",
@@ -1252,7 +1252,7 @@
         },
         "useHLAE": {
           "title": "¿Usar HLAE?",
-          "info": "Usar HLAE permitirá a GRA analizar más datos del juego, lo que resultará en mejores predicciones de muerte."
+          "info": "Usar HLAE permitirá a ARG analizar más datos del juego, lo que dará lugar a mejores predicciones de bajas."
         },
         "delayConfig": {
           "title": "Retraso de configuración",
@@ -1260,7 +1260,7 @@
         },
         "saveClips": {
           "title": "Guardar clips",
-          "info": "Activando esta opción hará que vMix guarde todos los clips generados por GRA en lugar de borrarlos."
+          "info": "Al activar esta opción, vMix conservará todos los clips generados por ARG en lugar de eliminarlos."
         },
         "computerID": {
           "title": "ID del ordenador",
@@ -1273,8 +1273,8 @@
           "info": "Telnet es un protocolo de comunicación con CS2. Mientras se usa, no necesitas tener la ventana de CS2 en foco, ya que LHM cambiará de jugador con comandos remotos."
         },
         "tab": {
-          "title": "Planos automaticos de Observador",
-          "info": "El módulo ACO le permite utilizar rutas de cámara predefinidas para seguir la acción en el juego.\\nACO utiliza IA para determinar los eventos más importantes que ocurren en el juego en un momento dado."
+          "title": "Scout AI",
+          "info": "Es imposible capturar cada acción de forma perfecta y desde una perspectiva ideal, pero Scout se acerca mucho. Nuestra propia IA aprende de miles de partidas para capturar por sí sola los eventos más intensos, sin intervención humana."
         },
         "area": {
           "title": "Área",
@@ -1294,14 +1294,14 @@
         },
         "scoutDirectorSwitch": {
           "title": "Activar Director",
-          "info": "Cuando el conmutador está activado, la IA del Explorador se inicia automáticamente. También puedes usar la combinación de teclas (por defecto: ALT + K)."
+          "info": "Cuando el interruptor está activado, Scout AI se inicia automáticamente. También puedes usar la combinación de teclas (por defecto: ALT + K)."
         },
         "scoutCinematic": {
           "title": "Scout AI Modo Cinemático",
-          "info": "En este modo, la IA Scout trabajará junto con la IA ACO, para proporcionar la experiencia de observación más completa. Sin él, Scout AI sólo proporcionará cámara POV, sin ninguna toma de visión general.\nEste modo sólo es aplicable si la IA ACO soporta un mapa en el que se juega la partida."
+          "info": "En este modo, Scout AI trabajará junto con ACO AI para ofrecer la experiencia de observación más completa. Sin este modo, Scout AI solo proporcionará cámara POV, sin tomas generales.\nEste modo solo se aplica si ACO AI es compatible con el mapa en el que se juega la partida."
         },
         "scoutPredict": {
-          "title": "Scout Predecir",
+          "title": "Scout Predict",
           "info": "Scout permite predicciones en vivo automatizadas, basadas en IA. Si esta opción está activada, esas predicciones serán enviadas a tus HUDs en momentos importantes, para dar una mejor visión de una partida."
         },
         "timeRemaining": {
@@ -1327,8 +1327,8 @@
           "info": "El Retraso de Cámara sólo está soportado en los HUDs oficiales de Lexogrine: Ultra & HUDs Premium"
         },
         "quality": {
-          "title": "Anulación de la dirección IP",
-          "info": "Utiliza esta opción solo si LHM detecta una dirección de red privada incorrecta (por ejemplo, cuando una VPN está activa).\n\nEstablece la dirección IP local que deben usar las fuentes de tu HUD/navegador.\n\nReinicia LHM después de cambiar este valor para que surta efecto."
+          "title": "Calidad de transmisión de cámara",
+          "info": "La transmisión de cámara de mayor calidad puede causar tirones en algunos ordenadores y conexiones a internet."
         },
         "tab": {
           "title": "Cámaras",
@@ -1343,7 +1343,7 @@
       },
       "quick": {
         "tab": {
-          "title": "Modo rápido",
+          "title": "Quick",
           "info": "El Modo Rápido de LHM te permite preparar rápidamente toda la configuración de tus jugadores, equipo y HUD desde un solo lugar, permitiéndote comenzar tu transmisión de inmediato."
         }
       },
@@ -1355,16 +1355,16 @@
       },
       "settings": {
         "sharedConfigSync": {
-          "title": "Modo lento",
-          "info": "El modo lento envía las solicitudes de API a través de una cola para reducir el tráfico en ráfagas. Esto puede ser útil en entornos con cortafuegos restrictivos a nivel nacional. Reinicia LHM después de cambiar este valor para que surta efecto."
+          "title": "Sincronización en la nube de la configuración compartida",
+          "info": "Cuando está activado, las secciones de configuración compartida (por ejemplo, ajustes de X-Ray) se sincronizan con LHM Cloud para mantenerse consistentes entre dispositivos/espacios de trabajo.\nDesactívalo si quieres mantener los cambios de configuración compartida solo en local."
         },
         "ipAddressOverride": {
-          "title": "Eliminar torneos",
-          "info": "¿Estás seguro de que quieres eliminar {{count}} torneos?"
+          "title": "Anulación de dirección IP",
+          "info": "Usa esto solo si LHM detecta una dirección de red privada incorrecta (por ejemplo, con una VPN activa).\nEstablece la dirección IP local que deben usar tus fuentes de HUD/navegador.\nReinicia LHM después de cambiar este valor para que surta efecto."
         },
         "slowMode": {
-          "title": "Eliminar {{name}} torneo",
-          "info": "¿Estás seguro de que quieres eliminar {{name}} torneo?"
+          "title": "Modo lento",
+          "info": "El modo lento envía solicitudes de API a través de una cola para reducir picos de tráfico. Esto puede ayudar en entornos con cortafuegos nacionales restrictivos.\nReinicia LHM después de cambiar este valor para que surta efecto."
         }
       }
     },
@@ -1377,12 +1377,17 @@
         "titleTeams": "Borrar equipos",
         "titlePlayers": "Borrar jugadores",
         "titleMatches": "Borrar partidas",
+        "titleTournaments": "Borrar torneos",
         "infoTeams": "¿Estás seguro de que quieres eliminar {{count}} equipos?",
         "infoPlayers": "¿Estás seguro de que quieres eliminar {{count}} jugadores?",
+        "infoTournaments": "¿Estás seguro de que quieres eliminar {{count}} torneos?",
         "infoMatches": "¿Estás seguro de que quieres eliminar {{count}} partidas?",
         "deleteWithPlayers": "Eliminar con jugadores",
         "deleteAll": "Borrar todo ({{count}})",
-        "single": {}
+        "single": {
+          "titleTournament": "Eliminar torneo {{name}}",
+          "infoTournament": "¿Seguro que quieres eliminar el torneo {{name}}?"
+        }
       },
       "steamApiKeyMissing": {
         "title": "Falta la Clave API de Steam",
@@ -1429,8 +1434,8 @@
         "description": "¿Eres nuevo en LHM? Aquí encontrarás algunos consejos básicos para empezar a utilizar la aplicación\n\nActualmente, LHM es compatible con CS2, Dota 2, League of Legends, Rocket League, Apex Legends y F1. Cada juego compatible requiere una configuración sencilla pero necesaria para funcionar correctamente con LHM.\nHaz clic en el botón Más información de abajo para aprender a configurar cualquier juego que quieras usar con LHM."
       },
       "quick": {
-        "title": "LHM Rápido",
-        "description": "LHM Rápido te permite configurar rápidamente jugadores y equipos para lanzarlos con HUD. Esta función está pensada principalmente para usuarios familiarizados con el funcionamiento de LHM y para que puedan empezar a utilizarlo de inmediato.\nActualmente, los juegos compatibles con LHM Quick son CS2, CS:GO, Dota 2, League of Legends y Rocket League.\nHaz clic en el botón Más información para saber más sobre LHM Quick."
+        "title": "LHM Quick",
+        "description": "LHM Quick te permite configurar rápidamente jugadores y equipos para lanzarlos con HUD. Esta función está pensada principalmente para usuarios familiarizados con el funcionamiento de LHM y para que puedan empezar a utilizarlo de inmediato.\nActualmente, los juegos compatibles con LHM Quick son CS2, CS:GO, Dota 2, League of Legends y Rocket League.\nHaz clic en el botón Más información para saber más sobre LHM Quick."
       },
       "huds": {
         "title": "Pestaña HUDs",

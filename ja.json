@@ -22,7 +22,7 @@
       "noValue": "デフォルト",
       "teamOne": "チーム1",
       "teamTwo": "チーム2",
-      "show": "ショー",
+      "show": "表示",
       "hide": "非表示",
       "map": "地図",
       "team": "チーム",
@@ -46,25 +46,25 @@
       "ct": "CT",
       "t": "T",
       "no": "いいえ",
-      "yes": "噫",
+      "yes": "はい",
       "deleteAll": "すべて削除",
       "noDontAsk": "いいえ、聞きません",
       "csgo": {
         "ct": "CT",
         "t": "T",
-        "no": "＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿"
+        "no": "いいえ"
       },
       "cs2": {
         "ct": "CT",
         "t": "T",
-        "no": "＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿"
+        "no": "いいえ"
       },
       "valorant": {
         "ct": "デフ",
         "t": "ATK",
-        "no": "＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿"
+        "no": "いいえ"
       },
-      "export": "輸出",
+      "export": "エクスポート",
       "cancel": "キャンセル",
       "remindLater": "後で通知",
       "next": "次へ",
@@ -95,14 +95,14 @@
       "accept": "受け入れる",
       "decline": "辞退する",
       "downloadTemplate": "テンプレートのダウンロード",
-      "clickAndCopy": "コピー",
+      "clickAndCopy": "クリックしてコピー",
       "swap": "スワップ"
     },
     "chat": {
       "title": "サポートチャット",
       "header": "サポートチャット",
       "suggestionHeader": "あなたの質問にお答えします",
-      "outOfOfficeWarning": "サポートチームは通常、平日の午前9時から午後5時（米国東部標準時）まで対応しています。営業時間外の対応にはお時間をいただく場合があります。",
+      "outOfOfficeWarning": "サポートチームは通常、平日9:00〜17:00（CEST）に対応しています。これ以外の時間帯は返信に時間がかかる場合があります。",
       "typeYourMessage": "ここにメッセージを入力してください。"
     },
     "color-picker": {
@@ -144,10 +144,10 @@
       "upgradeNow": "今すぐアップグレード",
       "featureDescription": {
         "cgmode": "CGモードは放送操作に最も必要なモジュールをコンパクトにまとめたものです。\nこのタブでは、試合、チーム、選手、ライブゲームを1つの画面で管理できます。\nLHMをパーソナル、プロフェッショナル、またはエンタープライズプランにアップグレードすると、このセクションにフルアクセスできます。",
-        "arg": "自動化は次のフロンティアであり、ここLexogrineはそのフロンティアを越えようとしている！オートリプレイジェネレーターはリプレイシステムを完全に自動化します。ARGは定義された基準に基づいて、ゲームのすべてのイベントを追跡し、最も重要な瞬間を自動的にキャプチャし、ラウンドの間に息をのむようなリプレイを表示します。vMixまたはOBSがあれば大丈夫です。\nLHMをパーソナル、プロフェッショナル、またはエンタープライズプランにアップグレードすると、このセクションにフルアクセスできます。",
+        "arg": "自動化は次のフロンティアであり、ここLexogrineはその先へ進むことを目指しています。Auto Replay Generator はリプレイシステムを完全に自動化します。ARGは定義された基準に基づいてゲーム内のすべてのイベントを追跡し、最も重要な瞬間を自動でキャプチャしてラウンド間にリプレイを表示します。必要なのはvMixまたはOBSです。\nLHMをパーソナル、プロフェッショナル、またはエンタープライズプランにアップグレードすると、このセクションにフルアクセスできます。",
         "addons": "アドオンはLHMとの統合を作成する新しい方法です。\nこれまでは、カスタムHUD'sのコードだけがゲームデータフィードにアクセスできました。\nアドオンはサーバー環境で動作します。アドオンは基本的に、GSIイベントエミッターをフックしたNodeJSアプリです。つまり、サポートされているゲーム（CS2、Dota 2）から情報を受信するためだけに、パーサー付きのカスタムHTTPサーバーを作成する必要はありません。\nLHMをパーソナル、プロフェッショナル、またはエンタープライズプランにアップグレードすると、このセクションにフルアクセスできます。",
-        "composer": "コンポーザーを使用すると、ドラッグ＆ドロップ操作とビジュアルプリセットでHUDレイアウトを構築およびカスタマイズできます。\n\nこのセクションへのフルアクセスには、LHMを3シート以上のプロフェッショナルまたはエンタープライズプランにアップグレードする必要があります。",
-        "aco": "すべてのアクションを完璧な方法で、理想的な視点から捉えることは不可能ですが、スカウトはそれにとても近いところにあります。私たち自身のAIは、何千ものゲームから学習し、人間の入力なしに、最もスパイシーなイベントを独自にキャプチャします。\nLHMをパーソナルプランにアップグレードすると、すべてのスカウトAIモジュール(スカウトビジョン、スカウト予測、スカウトシネマティック)にアクセスできます。",
+        "composer": "Composerでは、ドラッグ＆ドロップ操作とビジュアルプリセットでHUDレイアウトを構築・カスタマイズできます。\nLHMを3シート以上のProfessionalまたはEnterpriseプランにアップグレードすると、このセクションにフルアクセスできます。",
+        "aco": "すべてのアクションを完璧に、理想的な視点から捉えることは不可能ですが、Scoutはそれに非常に近い動きをします。独自AIは何千もの試合から学習し、人の操作なしで重要な場面を捉えます。\nLHMをパーソナルプランにアップグレードすると、Scout AIの全モジュール（Scout Vision、Scout Predict、Scout Cinematic）を利用できます。",
         "cameras": "LHMのカメラシステムはとても使いやすく、オーガナイザーにとってもプレイヤーにとってもセットアップにかかる時間を大幅に節約できます。複雑で時間のかかるプロダクションソフトウェアの設定や、ハードウェアの問題もありません。\nカメラを接続し、LHMで選手に割り当てます。HUDを起動して観客に微笑みかけましょう。\nLHMをパーソナル、プロフェッショナル、エンタープライズプランにアップグレードすると、このセクションにフルアクセスできます。",
         "signals": "LHM Signals は、Bitfocus Companion アプリとのカスタム統合です。\n当社の目標は、予測可能なゲーム内イベントの自動化を支援することです。Signals がその役割を果たし、指定したゲームイベントでコンパニオンのボタンをトリガーすることができます。\nLHMをパーソナル、プロフェッショナル、またはエンタープライズプランにアップグレードすると、このセクションにフルアクセスできます。",
         "xray": "LHM X-RAYを使用すると、CS2 X-RAYの色（プレイヤーのアウトライン、名前、グレネードの軌跡）をカスタマイズし、チームごとに異なる設定にすることができます。\n\nこのセクションへのフルアクセスには、LHMをパーソナル、プロフェッショナル、またはエンタープライズプランにアップグレードする必要があります。"
@@ -156,8 +156,8 @@
     "titles": {
       "players": "プレイヤー",
       "teams": "チーム",
-      "arg": "オートリプレイジェネレーター",
-      "aco": "オートシネマティックオブザーバー",
+      "arg": "Replays",
+      "aco": "Scout AI",
       "ar": "拡張現実",
       "cgpanel": "CGモード",
       "huds": "HUD",
@@ -169,7 +169,7 @@
       "addons": "アドオン",
       "settings": "設定",
       "credits": "クレジット",
-      "quick": "クイック",
+      "quick": "Quick",
       "chat": "サポートチャット",
       "composer": "Composer",
       "xray": "X-Ray"
@@ -178,8 +178,8 @@
       "disabled": "無効",
       "aco1": "ACO",
       "acoAI": "ACO AI",
-      "acoAIScout": "ACO AI + スカウトAI",
-      "scoutOnly": "スカウトAI",
+      "acoAIScout": "ACO AI + Scout AI",
+      "scoutOnly": "Scout AI",
       "cs2Warning": "ACOとACO AIは、リリースされたばかりのCounter-Strike 2では現在使用できません。\nCS2には、LHMがこれらの機能を動作させるために必要とする主要な機能が欠けています。",
       "cs2ScoutAndARGWarning": "CS2のキー機能が欠落しているため、{{ feature }}を正しく動作させるには、ゲーム内のグレネードのキーバインドをデフォルト値（キーボードの数字キー1～0）に設定する必要があります。\n\nCS2 に必要なコマンドがないため、LHM はプレイヤーを自動的に切り替えることができません。そのため、LHM は現在手動でキー入力をゲームに送信しています。{{ feature }} 使用中はゲームのフォーカスが合っていることを確認してください。",
       "map": "地図",
@@ -199,16 +199,16 @@
       "enableDirector": "監督を有効にする",
       "scoutPredict": "予測を有効にする",
       "telnet": "Telnetを有効にする",
-      "telnetWarning": "Telnetを使用するには、ワークショップツールでCS2を起動する必要があります。HUDタブの「Killfeed / Tools」オプションを有効にして「Run Game」ボタンをクリックしてください。",
-      "cinematicWarning": "Scout Cinematic を使用するには、ワークショップ ツールで CS2 を起動する必要があります。これを行うには、HUDタブの「キルフィード/ツール」オプションを有効にし、「ゲームの実行」ボタンをクリックします。スカウトシネマティックを有効にすると、スカウトビジョンも強制的にダイレクトモードで実行されます。",
-      "disabledDescription": "すべてのコントロールはあなたとオブザーバーに委ねられます。\n楽しんでください。",
+      "telnetWarning": "Telnetを使用するには、Workshop Toolsを有効にしてCS2を起動する必要があります。HUDタブの「Scout AI」オプションを有効にして「Run Game」ボタンをクリックしてください。",
+      "cinematicWarning": "Scout Cinematicを使用するには、Workshop Toolsを有効にしてCS2を起動する必要があります。HUDタブの「Scout AI」オプションを有効にして「Run Game」ボタンをクリックしてください。Scout Cinematicを有効にすると、Scout VisionもDirectモードで実行されます。",
+      "disabledDescription": "すべてのコントロールはあなたとオブザーバーに委ねられます。",
       "aco1Description": "コントロールと自動化のバランス。\nACOのために手動で書かれた指示一式でオブザーバーを補助する。",
       "aco-aiDescription": "ACO AIの高度なアルゴリズムがあなたのストリームをコントロールする間、座っていましょう。",
-      "aco-ai-scoutDescription": "最新の試合予測システムにお任せください。\n近日公開。",
-      "aco-ai-scoutDescription-disconnected": "最新のAIマッチオブザーバーシステムにお任せください。◆スカウトサーバーは現在ご利用いただけない場合があります。",
+      "aco-ai-scoutDescription": "AIマッチオブザーバーがユーザー操作なしで試合を観戦します。",
+      "aco-ai-scoutDescription-disconnected": "AIマッチオブザーバーがユーザー操作なしで試合を観戦します。\n現在、Scoutサーバーが利用できない可能性があります。",
       "scoutCinematicDescription": "試合の休憩中に美しい映画のようなショットを表示します。",
       "scoutPredictDescription": "ライブマッチ結果の予測をストリームに直接表示します。",
-      "scoutCinematic": "シネマティック・スカウトを使用する",
+      "scoutCinematic": "Scout Cinematicを使用する",
       "saveArea": "保存エリア",
       "areaName": "名前",
       "areaNamePlaceholder": "エリア名",
@@ -216,11 +216,11 @@
       "areaPriorityPlaceholder": "エリア優先度",
       "addConfigHeader": "このエリアに新しい設定を追加する",
       "addConfigPlaceholder": "このエリアで実行するコマンドを入力する",
-      "timeRemaining": "AIスカウト残り時間",
-      "scoutServerUnavailable": "LHMはスカウトAIサーバーに接続できません。\n数分後に再試行してください。",
+      "timeRemaining": "利用可能時間",
+      "scoutServerUnavailable": "LHMはScout AIサーバーに接続できません。\n数分後にもう一度お試しください。",
       "scoutSubtitle": "AIオブザーバー",
       "scoutGetMoreTime": "より多くの時間を得る",
-      "scoutDescription": "スカウトAIは、何千ものゲームから学習し、人間の入力なしに、最も辛いイベントを独自にキャプチャします。",
+      "scoutDescription": "Scout AIは何千もの試合から学習し、人の操作なしで重要な場面を捉えます。",
       "scoutVisionControl": {
         "label": "ゲームコントロールモード",
         "direct": {
@@ -242,7 +242,7 @@
         "label": "アクション・シネマティック"
       },
       "scoutPausedTip": "実行中のゲームが検出されなかったため、Scout AI は一時停止しています。",
-      "xrayWarning": "X-Rayを正しく動作させるには、CS2を起動する際にスカウト/X-Rayオプションをオンにする必要があります。"
+      "xrayWarning": "X-Rayを正しく動作させるには、CS2起動時にScout/X-Rayオプションをオンにする必要があります。"
     },
     "composer": {
       "componentsSubtitle": "HUDコンポーネントプレビュー",
@@ -257,23 +257,23 @@
       "uhudPlayersStatsFontSize": "統計フォントサイズ",
       "uhudPlayersHealthFontSize": "体力フォントサイズ",
       "visible": "表示",
-      "previewTitle": "コンポーザープレビュー {{component}}",
+      "previewTitle": "Composer Preview {{component}}",
       "components": {
-        "matchbar": "マッチバー",
+        "matchbar": "Matchbar",
         "left-player": "左プレイヤー",
         "right-player": "右プレイヤー",
         "left-money": "左マネー",
         "right-money": "右マネー",
         "players": "プレイヤー",
         "observed-player": "観測プレイヤー",
-        "killfeed": "キルフィード",
+        "killfeed": "Killfeed",
         "round-history": "ラウンド履歴",
         "mapseries": "マップシリーズ",
         "asset": "カスタムアセット",
         "winbox": "ラウンド勝利インジケーター",
         "sponsors": "スポンサー",
         "tournament-info": "トーナメント情報",
-        "scout": "スカウト予測",
+        "scout": "Scout Predict",
         "radar": "レーダー",
         "anims-plant": "アニメーションプラント",
         "anims-defuse-short": "アニメーションディフューズショート",
@@ -321,114 +321,114 @@
         "showComponent": "コンポーネントを表示",
         "hideComponent": "コンポーネントを非表示",
         "backToComponents": "コンポーネント一覧に戻る",
-        "toBack": "最前面へ",
-        "toFront": "追加済み"
+        "toBack": "背面へ",
+        "toFront": "前面へ"
       },
       "status": {
-        "added": "未追加",
-        "notAdded": "バリアント"
+        "added": "追加済み",
+        "notAdded": "未追加"
       },
       "fields": {
-        "variant": "スタイル",
-        "style": "スタイル一覧",
-        "styles": "レイアウト",
-        "layout": "フォントファミリー",
-        "fontFamily": "グローバルパターン",
-        "globalPattern": "グローバルパターンの不透明度",
-        "globalPatternOpacity": "背景画像に合わせる",
-        "backgroundImageFit": "境界線の半径",
-        "borderRadius": "境界線の幅",
-        "borderWidth": "境界線のスタイル",
-        "borderStyle": "位置X",
-        "positionX": "位置Y",
-        "positionY": "水平方向中央揃え",
-        "centerHorizontally": "垂直方向中央揃え",
-        "centerVertically": "拡大縮小",
-        "scale": "Zインデックス",
-        "zIndex": "現在のレイヤー",
-        "currentLayer": "整列",
-        "align": "カスタムCSS",
-        "customCss": "期間",
-        "duration": "制限",
-        "limit": "ボーダー"
+        "variant": "バリアント",
+        "style": "スタイル",
+        "styles": "スタイル",
+        "layout": "レイアウト",
+        "fontFamily": "フォントファミリー",
+        "globalPattern": "グローバルパターン",
+        "globalPatternOpacity": "グローバルパターン不透明度",
+        "backgroundImageFit": "背景画像フィット",
+        "borderRadius": "角丸",
+        "borderWidth": "ボーダー幅",
+        "borderStyle": "ボーダースタイル",
+        "positionX": "X位置",
+        "positionY": "Y位置",
+        "centerHorizontally": "水平方向中央",
+        "centerVertically": "垂直方向中央",
+        "scale": "スケール",
+        "zIndex": "Z-Index",
+        "currentLayer": "現在のレイヤー",
+        "align": "整列",
+        "customCss": "カスタムCSS",
+        "duration": "時間",
+        "limit": "制限"
       },
       "labels": {
-        "border": "背景",
-        "background": "対テロリスト",
-        "counterTerrorists": "テロリスト",
-        "terrorists": "ファイルが選択されていません"
+        "border": "BORDER",
+        "background": "BACKGROUND",
+        "counterTerrorists": "COUNTER-TERRORISTS",
+        "terrorists": "TERRORISTS"
       },
       "files": {
-        "noFileSelected": "スポンサー画像",
-        "sponsorImage": "アセットファイル",
-        "assetFile": "画像が選択されていません",
-        "noImagesSelected": "画像が1枚選択されています",
+        "noFileSelected": "ファイルが選択されていません",
+        "sponsorImage": "スポンサー画像",
+        "assetFile": "アセットファイル",
+        "noImagesSelected": "画像が選択されていません",
         "oneImageSelected": "画像が1枚選択されています",
         "imagesSelected": "{{count}}枚の画像が選択されています",
-        "plantFile": "ディフューズ ショートファイル",
-        "defuseShortFile": "ディフューズ ロングファイル",
-        "defuseLongFile": "カスタム"
+        "plantFile": "Plantファイル",
+        "defuseShortFile": "Defuse Shortファイル",
+        "defuseLongFile": "Defuse Longファイル"
       },
       "options": {
-        "custom": "カバー",
-        "cover": "コンテイン",
-        "contain": "なし",
-        "none": "上",
-        "top": "左",
-        "left": "中央",
-        "center": "右",
-        "right": "下",
-        "bottom": "前面",
-        "front": "パフォーマンス情報"
+        "custom": "カスタム",
+        "cover": "カバー",
+        "contain": "コンテイン",
+        "none": "なし",
+        "top": "上",
+        "left": "左",
+        "center": "中央",
+        "right": "右",
+        "bottom": "下",
+        "front": "前面"
       },
       "tooltips": {
-        "performanceInformation": "カスタムCSSカラー変数のヘルプ",
-        "customCssColorVariablesHelp": "カスタムCSSでチームカラーを使用するには、CSS変数`var(--color-new-t)`を使用します。",
-        "customCss": "すべてのComposerコンポーネントを一時的に一度にレンダリングすると、低スペックのマシンではプレビューのパフォーマンスが低下する場合があります。これはセットアップ時に想定される動作であり、HUDの設定完了後にはパフォーマンスに影響はありません。",
-        "bulkVisibilityPerformance": "コンポーネントを検索..."
+        "performanceInformation": "パフォーマンス情報",
+        "customCssColorVariablesHelp": "カスタムCSSのカラーバリアブルヘルプ",
+        "customCss": "カスタムCSSでチームカラーを使うには CSS 変数 `var(--color-new-t)` を使用します。",
+        "bulkVisibilityPerformance": "Composerの全コンポーネントを一時的に同時描画すると、低スペック環境ではプレビュー性能が落ちる場合があります。設定中には想定される動作で、HUD設定完了後の性能には通常影響しません。"
       },
       "placeholders": {
-        "search": "/* カスタムスタイル */",
-        "customCss": "アバターを使用"
+        "search": "コンポーネントを検索...",
+        "customCss": "/* custom styles */"
       },
       "radar": {
-        "useAvatar": "プレイヤーサイズ",
-        "playerSize": "レーダーの不透明度",
-        "radarOpacity": "グラデーションを使用",
-        "useGradient": "グレネードアニメーションバリアント",
-        "grenadeAnimationVariant": "死亡プレイヤーマーカー",
-        "deadPlayerMarker": "グラデーションオーバーライド有効",
-        "gradientOverrideEnabled": "グラデーション停止色",
-        "gradientStopColor": "群衆ズーム有効",
-        "crowdZoomEnabled": "爆弾運搬者の色",
-        "bombCarrierColor": "煙の色",
-        "smokeColor": "フラッシュの色",
-        "flashColor": "グレネードの色",
-        "grenadeColor": "火炎瓶の色",
-        "molotovColor": "爆弾の色",
-        "bombColor": "設置最大幅"
+        "useAvatar": "アバターを使用",
+        "playerSize": "プレイヤーサイズ",
+        "radarOpacity": "レーダー不透明度",
+        "useGradient": "グラデーションを使用",
+        "grenadeAnimationVariant": "グレネードアニメーションバリアント",
+        "deadPlayerMarker": "死亡プレイヤーマーカー",
+        "gradientOverrideEnabled": "グラデーション上書きを有効化",
+        "gradientStopColor": "グラデーション終点色",
+        "crowdZoomEnabled": "Crowd Zoomを有効化",
+        "bombCarrierColor": "爆弾所持者の色",
+        "smokeColor": "スモークの色",
+        "flashColor": "フラッシュの色",
+        "grenadeColor": "グレネードの色",
+        "molotovColor": "モロトフの色",
+        "bombColor": "爆弾の色"
       },
       "anims": {
-        "plantMaxWidth": "設置最大高さ",
-        "plantMaxHeight": "解除最大幅",
-        "defuseMaxWidth": "解除最大高さ",
-        "defuseMaxHeight": "(ターゲット 約5秒)",
-        "targetFiveSeconds": "(ターゲット 約10秒)",
-        "targetTenSeconds": "デフォルト"
+        "plantMaxWidth": "Plant最大幅",
+        "plantMaxHeight": "Plant最大高さ",
+        "defuseMaxWidth": "Defuse最大幅",
+        "defuseMaxHeight": "Defuse最大高さ",
+        "targetFiveSeconds": "（目標 約5秒）",
+        "targetTenSeconds": "（目標 約10秒）"
       },
       "radarVariants": {
-        "default": "ダーク",
-        "dark": "クリーン",
-        "clean": "ハイコントラスト",
-        "high-contrast": "デフォルト"
+        "default": "デフォルト",
+        "dark": "ダーク",
+        "clean": "クリーン",
+        "high-contrast": "ハイコントラスト"
       },
       "radarGrenadeAnimationVariants": {
-        "default": "カートン",
-        "carton": "フェード"
+        "default": "デフォルト",
+        "carton": "カートン"
       },
       "radarDeadPlayerMarkers": {
-        "fade": "チームX",
-        "team-x": "コーチとして設定"
+        "fade": "フェード",
+        "team-x": "Team X"
       }
     },
     "players": {
@@ -441,7 +441,7 @@
       "importPlayersExcel": "あらかじめ用意されたExcelシートを使用して、一度に多数のプレーヤーを簡単にインポートできます。",
       "exportPlayers": "エクスポート",
       "avatar": "アバター",
-      "setAsCoach": "カメラ遅延（秒）"
+      "setAsCoach": "コーチに設定"
     },
     "teams": {
       "edit": "チームの編集",
@@ -468,10 +468,10 @@
       "stopTestVideo": "テスト動画停止",
       "testVideoBlocker": "テストビデオを再生するには、ゲームが起動している必要があります。デモを見るか、テストデータを再生し、テストプレーヤーを選ぶ",
       "testPlayer": "テストプレーヤー",
-      "delay": "カメラストリーム品質",
-      "cameraQuality": "黄色のドットでマークされたプレイヤーのうち少なくとも1人との接続が、対称型NATによって妨げられています。通常、これはカメラストリーム接続の問題を引き起こします。プレイヤーはネットワーク接続を変更し、カメラページを更新することをお勧めします。",
-      "cameraWarningPlayer": "接続が対称型NATによって妨げられています。通常、これはカメラストリーム接続の問題を引き起こします。ネットワーク接続を変更し、LHMを再起動することをお勧めします。",
-      "cameraWarningUser": "コンポーザー"
+      "delay": "カメラ遅延（秒）",
+      "cameraQuality": "カメラストリーム品質",
+      "cameraWarningPlayer": "黄色のドットでマークされた少なくとも1人の選手との接続が対称NATによって妨げられています。通常、カメラストリーム接続の問題につながります。ネットワーク接続を変更し、カメラページを更新することをおすすめします。",
+      "cameraWarningUser": "あなたの接続は対称NATによって妨げられています。通常、カメラストリーム接続の問題につながります。ネットワーク接続を変更し、LHMを再起動することをおすすめします。"
     },
     "addons": {
       "upload": "アドオンのアップロード",
@@ -493,12 +493,12 @@
       "huds": "HUD",
       "aco": "Scout AI",
       "addons": "アドオン",
-      "composer": "デフォルトを作成",
+      "composer": "Composer",
       "ar": "AR",
       "live": "ライブ",
-      "quick": "クイック",
+      "quick": "Quick",
       "professionalOnly": "プロフェッショナルのみ",
-      "nonFreeOnly": "フリーのみ",
+      "nonFreeOnly": "有料プランのみ",
       "cameras": "カメラ",
       "hi": "こんにちは、{{username}}です！",
       "yourPlan": "あなたのプラン",
@@ -507,7 +507,7 @@
       "validUntil": "まで有効",
       "nextPayment": "次回のお支払い",
       "logout": "ログアウト",
-      "arg": "リプレイ"
+      "arg": "Replays"
     },
     "signals": {
       "removal": {
@@ -523,11 +523,11 @@
         "placeholder": "プリセット名",
         "clone": "現在のプリセットからコピー",
         "createNew": "空を作成",
-        "createFromDefault": "空白を作成",
-        "createBlank": "グループ&プレーオフ"
+        "createFromDefault": "デフォルトを作成",
+        "createBlank": "空白を作成"
       },
       "activate": "{{ name }} はアクティブではない",
-      "deactivate": "{{ name }}}はアクティブ",
+      "deactivate": "{{ name }} はアクティブ",
       "addBranch": "ブランチを追加",
       "event": "イベント",
       "addEvent": "イベント追加",
@@ -587,12 +587,12 @@
       "page": "トーナメントページ",
       "create": "新しいトーナメントの作成",
       "name": "トーナメント名",
-      "groupAndPlayoffs": "このステージには試合がありません",
-      "noMatchesInStage": "プレーオフが正常に作成されました",
-      "playoffsCreated": "優勝者",
-      "champion": "トーナメント表",
-      "bracket": "スコア設定",
-      "setScore": "プレーオフのみ",
+      "groupAndPlayoffs": "グループ＆プレーオフ",
+      "noMatchesInStage": "このステージには試合がありません",
+      "playoffsCreated": "プレーオフが正常に作成されました",
+      "champion": "優勝",
+      "bracket": "ブラケット",
+      "setScore": "スコア設定",
       "uploadLogo": "トーナメントロゴのアップロード",
       "logoInfo": "試合中に大会のロゴが表示されます。",
       "singleElimBracket": "シングルエリミネーション・ブラケット",
@@ -601,8 +601,8 @@
       "group": "グループ",
       "playoffs": "プレーオフ",
       "playoffType": "プレーオフタイプ",
-      "playoffsOnly": "グループリーグ＋プレーオフ",
-      "grouppAndPlayoffs": "デフォルトのベストオブ形式",
+      "playoffsOnly": "プレーオフのみ",
+      "grouppAndPlayoffs": "グループ + プレーオフ",
       "soon": "すぐに",
       "groupType": "グループタイプ",
       "participants": "参加者",
@@ -610,21 +610,21 @@
       "amountOfTeams": "チーム数",
       "amountOfRounds": "ラウンド数",
       "bindMatch": "試合をブラケットにバインドする",
-      "defaultBo": "デフォルトのベストオブ形式（新規試合用）",
-      "defaultBoEdit": "トーナメント構成",
+      "defaultBo": "デフォルト Best Of 形式",
+      "defaultBoEdit": "デフォルト Best Of 形式（新規試合向け）",
       "teamOrderList": "チーム順リスト",
-      "tournamentStructure": "参加可能なチーム",
-      "availableTeams": "選出されたチーム",
+      "tournamentStructure": "トーナメント構成",
+      "availableTeams": "利用可能なチーム",
       "selectedTeams": "予選通過チーム",
       "qualifiedTeams": "予選通過",
-      "qualified": "敗退",
-      "eliminated": "グループリーグが終了しました。プレーオフを作成できます。この手順は一度しか実行できません。",
-      "groupFinished": "プレーオフを作成",
-      "createPlayoffs": "グループリーグはまだ進行中です。プレーオフの作成は、グループリーグ終了後に可能になります。",
-      "stageInProgress": "試合が欠落しています",
-      "missingMatches": "一部の試合が削除されています。最初の欠落ラウンドのすべての試合を復元するには、以下をクリックしてください。 #__#\nすべてのマッチを復元",
-      "matchesDeleted": "HUD順序のクラウド同期",
-      "restoreAllMatches": "共有設定のクラウド同期"
+      "qualified": "予選通過",
+      "eliminated": "敗退",
+      "groupFinished": "グループステージが終了しました。プレーオフを作成できます。このステップは一度しか実行できません。",
+      "createPlayoffs": "プレーオフを作成",
+      "stageInProgress": "グループステージはまだ進行中です。プレーオフ作成はグループステージ終了後に利用可能になります。",
+      "missingMatches": "試合の欠落を検出",
+      "matchesDeleted": "いくつかの試合が削除されています。最初に欠落したラウンドから全試合を復元するには、下をクリックしてください。",
+      "restoreAllMatches": "全試合を復元"
     },
     "match": {
       "matches": "試合",
@@ -667,13 +667,13 @@
         "right": "右"
       },
       "vetoDescription": {
-        "pick": "{{teamName}}}は{{mapName}}を選ぶ。",
-        "ban": "{{teamName}}禁止{{mapName}} {{secondTeamName}}"
+        "pick": "{{teamName}} が {{mapName}} をピック",
+        "ban": "{{teamName}} が {{mapName}} をバン"
       },
       "chooseTeam": "チームを選択",
       "vetoSidepick": {
-        "normal": "{{side}} は{{mapName}}側を選択する",
-        "decider": "{{percent}}決定戦"
+        "normal": ", {{secondTeamName}} が {{side}} サイドを選択",
+        "decider": "{{mapName}} の決定戦"
       },
       "vetoUrlModal": {
         "title": "拒否権アプリのリンクを生成する",
@@ -770,11 +770,11 @@
       "serversUnreachable": "サーバーにアクセスできないようです。数分後に再試行してください。",
       "preInstalled": "プリインストールを使用する",
       "cloudSynchronization": "クラウド同期",
-      "hudConfigCloudSynchronization": "HUD設定クラウド同期",
+      "hudConfigCloudSynchronization": "ComposerとHUD設定のクラウド同期",
       "hudTogglesCloudSynchronization": "HUDトグル・クラウド同期",
-      "hudOrdersCloudSynchronization": "共有設定のクラウド同期",
-      "sharedConfigCloudSynchronization": "CS2プレイヤーキーバインドの上書き",
-      "sharedConfigSync": "いいえ",
+      "hudOrdersCloudSynchronization": "HUD順序のクラウド同期",
+      "sharedConfigCloudSynchronization": "共有設定のクラウド同期",
+      "sharedConfigSync": "共有設定のクラウド同期",
       "valorantWindowTitleOverride": "バロラント・ウィンドウのタイトル・オーバーライド",
       "valorantServerMode": "データ収集モード",
       "valorantReadLanguage": "勇敢なゲーム言語",
@@ -789,15 +789,15 @@
       "dota2Assets": "Dota 2 アセット",
       "autoHalfSwitch": "自動ハーフスイッチ",
       "autoSwitch": "自動スイッチ",
-      "overrideCS2PlayerKeybinds": "LHMがアクティブな場合",
+      "overrideCS2PlayerKeybinds": "CS2プレイヤーキーバインドの上書き",
       "overrideCS2PlayerKeybindsOptions": {
-        "no": "常に",
-        "focused": "CS2プレイヤーキーバインドの上書き",
-        "always": "このオプションは、CS2のキーバインド1～0をHUDに表示されるオブザーバープレイヤーのスロットに合わせます。これは、サーバーにコーチがいる場合に便利です。\n\nキーバインドを保存するには、CS2の実行中にこのオプションをオフにする必要があります。"
+        "no": "いいえ",
+        "focused": "LHMにフォーカスがある時",
+        "always": "常に"
       },
       "overrideCS2PlayerKeybindsModal": {
-        "title": "IPアドレスの上書き",
-        "info": "スローモード"
+        "title": "CS2プレイヤーキーバインドの上書き",
+        "info": "このオプションは、CS2のキーバインド1-0をHUDに表示されるオブザーバー選手スロットに合わせます。サーバーにコーチがいる場合に便利です。\nこのキーバインドを保存するには、CS2実行中にこのオプションをオフにしてください。"
       },
       "header": "設定",
       "subheaders": {
@@ -867,7 +867,7 @@
       "updater": {
         "version": "バージョン",
         "installing": "インストール中...",
-        "downloading": "ダウンロード中...{{field}}%",
+        "downloading": "ダウンロード中... {{percent}}%",
         "install": "アップデートのインストール",
         "latest": "最新の"
       },
@@ -880,8 +880,8 @@
           "reverseSide": "逆サイド",
           "refreshHud": "HUDをリフレッシュ",
           "toggleDirector": "スカウトビジョンを切り替え",
-          "toggleScoutPredict": "Toggle スカウト予測",
-          "toggleScoutCinematic": "Toggle スカウトシネマティック"
+          "toggleScoutPredict": "Scout Predictを切り替え",
+          "toggleScoutCinematic": "Scout Cinematicを切り替え"
         },
         "streamDeck": {
           "unavailable": "使用不可"
@@ -901,8 +901,8 @@
         "config": {
           "status": "設定",
           "add": "設定ファイルの追加",
-          "overrideIp": "CS2ワークショップツールが見つかりません",
-          "slowMode": "Counter-Strike 2ワークショップツールDLCが検出されませんでした。キルフィードまたはスカウトAIを有効にしてCS2を起動する場合、LHMと併用する必要があります。 Steam経由でダウンロードして、もう一度試してみることをお勧めします。"
+          "overrideIp": "IPアドレスの上書き",
+          "slowMode": "スローモード"
         },
         "credits": {
           "credits": "クレジット",
@@ -921,7 +921,7 @@
           "readerCode": "リーダーコード"
         },
         "newToLHM": {
-          "show": "LHMの新機能を表示します；",
+          "show": "「New to LHM」を表示",
           "seeNow": "今すぐ見る"
         },
         "cta": {
@@ -938,13 +938,13 @@
     "huds": {
       "header": "HUD",
       "workshopToolsModal": {
-        "title": "とにかく起動",
-        "info": "カテゴリを作成",
-        "launchAnyway": "カテゴリ名を変更"
+        "title": "CS2 Workshop Toolsが見つかりません",
+        "info": "Counter-Strike 2 Workshop Tools DLCが検出されませんでした。KillfeedまたはScout AIを有効にしてCS2を起動する際、LHMでの利用に必要です。Steamからダウンロードして再試行することをおすすめします。",
+        "launchAnyway": "このまま起動"
       },
       "config": {
         "customRadar": "レーダー",
-        "customKillfeed": "キルフィード",
+        "customKillfeed": "Custom Killfeed",
         "embeddedHUD": "埋め込みHUD",
         "killfeedOffset": "Killfeed Offset",
         "scout": "Scout AI/XRAY",
@@ -971,16 +971,16 @@
         "oldest": "最も古い"
       },
       "categories": {
-        "createTitle": "{{name}} カテゴリを削除",
-        "renameTitle": "カテゴリ名",
-        "deleteTitle": "グループ解除",
-        "name": "{{name}} カテゴリを削除してもよろしいですか？この操作ではHUDは削除されません。",
-        "ungrouped": "共有",
-        "deleteInfo": "HUDを共有"
+        "createTitle": "カテゴリを作成",
+        "renameTitle": "カテゴリ名を変更",
+        "deleteTitle": "{{name}} カテゴリを削除",
+        "name": "カテゴリ名",
+        "ungrouped": "未分類",
+        "deleteInfo": "{{name}} カテゴリを削除してもよろしいですか？この操作ではHUD自体は削除されません。"
       },
       "fields": {
         "missing": "欠落しているフィールド",
-        "fieldOfType": "タイプ \"{{type}}\" のフィールド \"{{hud}}\"；",
+        "fieldOfType": "タイプ \"{{type}}\" のフィールド \"{{field}}\"",
         "fieldNamePlaceholder": "フィールド名",
         "inputType": "入力タイプ",
         "values": {
@@ -1000,7 +1000,7 @@
         "customKillfeed": "カスタムキルフィードを含む"
       },
       "removal": {
-        "title": "14}}の削除",
+        "title": "{{hud}} を削除",
         "areYouSure": "本当に{{hud}}を削除しますか？"
       },
       "actions": {
@@ -1023,60 +1023,60 @@
       },
       "share": {
         "actions": {
-          "share": "このHUDをメールで他のユーザーに送信します。"
+          "share": "共有"
         },
         "modal": {
-          "title": "受信者は、この共有を受け取った際にあなたのLHMユーザー名が表示されます。",
-          "description": "このHUDはワークスペース「{{workspace}}」に属しています。あなたはワークスペースの所有者ではないため、招待はメインのエンタープライズアカウントから送信されます。",
-          "disclaimer": "受信者のメールアドレス",
-          "workspaceOwnerDisclaimer": "name@example.com",
-          "emailLabel": "アクセス期間",
-          "emailPlaceholder": "7日間",
-          "expiryLabel": "30日間",
+          "title": "HUDを共有",
+          "description": "このHUDをメールで他のユーザーに送信します。",
+          "disclaimer": "受信者には、この共有を受け取った際にあなたのLHMユーザー名が表示されます。",
+          "workspaceOwnerDisclaimer": "このHUDはワークスペース「{{workspace}}」に属しています。あなたはワークスペース所有者ではないため、招待はメインのEnterpriseアカウント名義で送信されます。",
+          "emailLabel": "受信者メールアドレス",
+          "emailPlaceholder": "name@example.com",
+          "expiryLabel": "アクセス期間",
           "expiry": {
-            "week": "カスタム日付",
-            "month": "有効期限なし",
-            "custom": "選択した有効期限後、HUDは最大1時間利用可能です。",
-            "never": "招待を送信"
+            "week": "7日間",
+            "month": "30日間",
+            "custom": "日付を指定",
+            "never": "無期限"
           },
-          "customExpiryWarning": "保留中のHUD共有招待",
-          "submit": "共有HUDの招待を受信しました："
+          "customExpiryWarning": "指定した有効期限を過ぎても、HUDが最大1時間利用可能な場合があります。",
+          "submit": "招待を送信"
         },
         "pending": {
-          "title": "不明な送信者",
-          "description": "名前のないHUD",
-          "unknownSender": "不明なゲーム",
-          "unnamedHud": "ゲーム：{{game}}",
-          "unknownGame": "サイズ：{{size}}",
-          "game": "共有者：{{sender}}",
-          "size": "ワークスペースへの承認",
-          "sharedBy": "ワークスペースへの承認",
-          "acceptToWorkspace": "マイアカウント",
-          "acceptToWorkspaces": "ワークスペースが利用できません",
-          "mainWorkspace": "共有HUDを選択したワークスペースにコピーするまでしばらくお待ちください。",
-          "workspaceUnavailableTitle": "有効期限: {{expiresAt}}",
-          "acceptingInfo": "このHUDは、現在のプランのストレージ容量制限を超えています。プランをアップグレードして、HUDを受け入れてください。",
-          "expiresAt": "このワークスペースには、このHUDを受け入れるのに十分なストレージ容量がありません。ワークスペースのデータを削除して、HUDを受け入れてください。",
-          "upgradeRequired": "このワークスペースは、選択されている他のエンタープライズワークスペースとストレージを共有しています。データを削除するか、別のワークスペースの選択を解除して、HUDを受け入れてください。",
-          "enterpriseStorageRequired": "現在、このHUDを受け入れるのに十分なクラウド空き容量がありません。空き容量を確保して、HUDを受け入れてください。",
-          "enterpriseSelectionLimit": "期限なし",
-          "notEnoughFreeSpace": "招待 {{current}} / {{total}}",
-          "never": "共有者 {{sender}}",
-          "progress": "不明な送信者"
+          "title": "保留中のHUD共有招待",
+          "description": "共有HUDの招待を受信しました:",
+          "unknownSender": "不明な送信者",
+          "unnamedHud": "名前未設定のHUD",
+          "unknownGame": "不明なゲーム",
+          "game": "ゲーム: {{game}}",
+          "size": "サイズ: {{size}}",
+          "sharedBy": "共有元: {{sender}}",
+          "acceptToWorkspace": "ワークスペースに承認",
+          "acceptToWorkspaces": "複数ワークスペースに承認",
+          "mainWorkspace": "マイアカウント",
+          "workspaceUnavailableTitle": "ワークスペースを利用できません",
+          "acceptingInfo": "共有HUDを選択したワークスペースへコピー中です。しばらくお待ちください。",
+          "expiresAt": "有効期限: {{expiresAt}}",
+          "upgradeRequired": "このHUDは現在のプランのストレージ上限を超えています。受け入れるにはプランをアップグレードしてください。",
+          "enterpriseStorageRequired": "このワークスペースにはこのHUDを受け入れるための空き容量が不足しています。データを削除してから再試行してください。",
+          "enterpriseSelectionLimit": "このワークスペースは選択中の他Enterpriseワークスペースとストレージを共有しています。データ削除または他ワークスペースの選択解除を行ってください。",
+          "notEnoughFreeSpace": "現在、このHUDを受け入れるためのクラウド空き容量が不足しています。空き容量を確保してください。",
+          "never": "無期限",
+          "progress": "招待 {{current}} / {{total}}"
         },
         "meta": {
-          "sharedBy": "有効期限 {{expiresAt}}",
-          "unknownSender": "HUD共有招待が正常に送信されました。",
-          "expiresAt": "共有招待を送信できませんでした。もう一度お試しください。"
+          "sharedBy": "共有元 {{sender}}",
+          "unknownSender": "不明な送信者",
+          "expiresAt": "有効期限 {{expiresAt}}"
         },
         "notifications": {
-          "created": "共有の管理",
-          "error": "アクティブな共有の最大数に達しました。",
-          "manageShares": "HUDを自分自身と共有することはできません。",
+          "created": "HUD共有招待を送信しました。",
+          "error": "共有招待を送信できませんでした。もう一度お試しください。",
+          "manageShares": "共有を管理",
           "errors": {
-            "SHARE_LIMIT_REACHED": "このHUDは既にそのユーザーと共有されています。",
-            "SHARE_SELF": "カメラストリーム品質",
-            "SHARE_ALREADY_EXISTS": "高画質のカメラストリームは、一部のコンピューターやインターネット接続環境でカクつきを引き起こす可能性があります。"
+            "SHARE_LIMIT_REACHED": "有効な共有数の上限に達しました。",
+            "SHARE_SELF": "自分自身にHUDを共有することはできません。",
+            "SHARE_ALREADY_EXISTS": "このHUDはすでにそのユーザーと共有されています。"
           }
         }
       },
@@ -1157,8 +1157,8 @@
           }
         },
         "scout": {
-          "title": "スカウトAI",
-          "info": "このオプションを有効にするとCS2がVConsole2で起動され、適切に設定されない限りサーバーに参加できなくなる可能性があります。"
+          "title": "Scout AI",
+          "info": "このオプションにはWorkshop ToolsとHLAEが必要です。\nこのオプションを有効にすると、LHMはScout Cinematicを利用でき、Scout VisionをDirectモードで使用できます。\nこのオプションはCS2をインセキュアモードで起動します。有効中はCSTV観戦者としての場合を除き、VAC保護サーバー（例: Faceit、マッチメイキング）に参加しないでください。"
         },
         "tab": {
           "title": "HUDタブ",
@@ -1169,8 +1169,8 @@
           "info": "このオプションを有効にし、以下に示す設定でゲームを実行するか、\"Run game\"ボタンを使用すると、ゲーム内レーダーが無効になり、HUDに組み込まれたカスタムレーダーが使用されます。"
         },
         "killfeed": {
-          "title": "キルフィード",
-          "info": "このオプションを有効にし、以下に示す設定でゲームを実行するか、\"Run game\"ボタンを使用すると、ゲーム内のキルフィードが無効になり、HUDに組み込まれたカスタムキルフィードが使用されます。\nこのオプションはCS:GOをインセキュアモードで起動します。有効になっている間はCSTV観戦者でない限り、VACで保護されたサーバー（Faceitやマッチメイキングなど）には参加できません。"
+          "title": "Custom Killfeed",
+          "info": "このオプションにはWorkshop ToolsとHLAEが必要です。\nこのオプションを有効にし、下の設定でゲームを実行するか「Run game」ボタンを使うと、ゲーム内killfeedが無効化され、HUD内蔵のCustom Killfeedが使用されます。\nこのオプションはCS2をインセキュアモードで起動します。有効中はCSTV観戦者としての場合を除き、VAC保護サーバー（例: Faceit、マッチメイキング）に参加しないでください。"
         },
         "embeddedHUD": {
           "title": "埋め込みHUD",
@@ -1186,10 +1186,10 @@
         },
         "autoExecute": {
           "title": "自動実行",
-          "info": "このオプションが有効になっている場合、quot;Run game\"ボタンは以下の設定でゲームを起動します。"
+          "info": "このオプションが有効な場合、「Run game」ボタンは下の設定でゲームを起動します。"
         },
         "xray": {
-          "title": "XRay",
+          "title": "X-Ray",
           "info": "このオプションを使用すると、ゲーム内のプレイヤーの境界線にカスタムカラーを設定できます。"
         },
         "runTest": {
@@ -1243,8 +1243,8 @@
       },
       "arg": {
         "tab": {
-          "title": "オートリプレイジェネレーター",
-          "info": "Auto Replay Generator (ARG)モジュールは、ラウンド間や試合終了時に表示できるリプレイを生成します。\nvMixは無料のアプリケーションではなく、ARG自体は主にvMixをすでに使用しているプロダクションチームのために設計されています。"
+          "title": "Replays",
+          "info": "Auto Replay Generator (ARG)モジュールは、ラウンド間や試合終了時に表示できるリプレイを生成します。\nARGを正しく設定するにはvMixが必要です。vMixは無料アプリではなく、ARG自体も主に既にvMixを使っている制作チーム向けに設計されています。"
         },
         "safeband": {
           "title": "セーフバンド",
@@ -1256,7 +1256,7 @@
         },
         "delayConfig": {
           "title": "ディレイ設定",
-          "info": "Delay config は CSTV observer の遅延時間（秒）を指定します。"
+          "info": "この設定はCSTVオブザーバーの遅延時間（秒）を指定します。"
         },
         "saveClips": {
           "title": "クリップの保存",
@@ -1273,8 +1273,8 @@
           "info": "TelnetはCS2と通信するためのプロトコルです。LHMがリモートコマンドでプレイヤーを切り替えるので、使用中はCS2ウィンドウにフォーカスを当てる必要はありません。"
         },
         "tab": {
-          "title": "オートシネマティックオブザーバ",
-          "info": "ACO モジュールを使用すると、定義済みのカメラ移動パスを使用して、ゲーム内のアクションを追跡することができます。\nACO は AI を使用して、任意の時点でゲーム内で起こっている最も重要なイベントを決定します。"
+          "title": "Scout AI",
+          "info": "すべてのアクションを完璧に、理想的な視点から捉えることは不可能ですが、Scoutはそれに非常に近い動きをします。独自AIが何千もの試合から学習し、人の操作なしで重要な場面を捉えます。"
         },
         "area": {
           "title": "エリア",
@@ -1294,19 +1294,19 @@
         },
         "scoutDirectorSwitch": {
           "title": "ディレクターを有効にする",
-          "info": "トグルをオンにすると、スカウトAIが自動的に起動します。キーバインド（デフォルト：ALT + K）を使用することもできます。"
+          "info": "トグルをオンにすると、Scout AIが自動的に起動します。キーバインド（デフォルト: ALT + K）も使用できます。"
         },
         "scoutCinematic": {
-          "title": "スカウトAIシネマティックモード",
+          "title": "Scout AI Cinematic Mode",
           "info": "このモードでは、Scout AIはACO AIと共に動作し、完全な観戦体験を提供します。このモードがない場合、Scout AIはPOVカメラのみを提供し、俯瞰ショットはありません。\nこのモードは、ACO AIが試合の行われるマップをサポートしている場合にのみ適用されます。"
         },
         "scoutPredict": {
-          "title": "スカウト予測",
+          "title": "Scout Predict",
           "info": "Scoutは自動化されたAIベースのライブ予測を可能にします。このオプションを有効にすると、重要な場面で予測がHUDに送信され、ゲームに対する洞察が深まります。"
         },
         "timeRemaining": {
           "title": "月間Scout AI枠の残り時間",
-          "info": "スカウトAIサーバーの利用可能時間です。契約月ごとに更新されます。"
+          "info": "Scout AIサーバーの利用可能時間です。契約月ごとに更新されます。"
         }
       },
       "ar": {
@@ -1324,11 +1324,11 @@
       "cameras": {
         "delay": {
           "title": "カメラ遅延",
-          "info": "カメラディレイは現在公式のLexogrine HUDでのみサポートされています：プレミアムHUD"
+          "info": "Camera Delayは現在、公式Lexogrine HUD（Ultra HUD と Premium HUD）でのみサポートされています。"
         },
         "quality": {
-          "title": "共有設定のクラウド同期",
-          "info": "有効にすると、共有設定セクション（例：X線設定）がLHMクラウドと同期され、デバイスやワークスペース間で設定の一貫性が保たれます。\n\n共有設定の変更をローカルのみで行いたい場合は、この設定を無効にしてください。"
+          "title": "カメラストリーム品質",
+          "info": "高品質なカメラストリームは、一部のコンピューターやネットワーク環境でカクつきの原因になる場合があります。"
         },
         "tab": {
           "title": "カメラ",
@@ -1343,7 +1343,7 @@
       },
       "quick": {
         "tab": {
-          "title": "クイック",
+          "title": "Quick",
           "info": "LHM Quickを使用すると、プレイヤー、チーム、HUDのセットアップを1つの場所から素早く準備することができ、ストリームをすぐに開始することができます。"
         }
       },
@@ -1355,40 +1355,43 @@
       },
       "settings": {
         "sharedConfigSync": {
-          "title": "IPアドレスの上書き",
-          "info": "LHMが誤ったプライベートネットワークアドレスを検出した場合（例：VPNがアクティブな場合）にのみ、この設定を使用してください。\n\nHUD/ブラウザソースが使用するローカルIPアドレスを設定します。\n\nこの値を変更した後は、LHMを再起動して変更を有効にしてください。"
+          "title": "共有設定のクラウド同期",
+          "info": "有効にすると、共有設定セクション（例: X-Ray設定）がLHM Cloudと同期され、デバイス/ワークスペース間で一貫性を保てます。\n共有設定をローカルのみにしたい場合は無効化してください。"
         },
         "ipAddressOverride": {
-          "title": "スローモード",
-          "info": "スローモードでは、APIリクエストをキュー経由で送信することで、バーストトラフィックを削減します。これは、国全体のファイアウォールで制限されている環境で役立ちます。\n\nこの値を変更した後は、LHMを再起動して変更を有効にしてください。"
+          "title": "IPアドレスの上書き",
+          "info": "LHMが誤ったプライベートネットワークアドレスを検出する場合（例: VPN利用時）のみ使用してください。\nHUD/ブラウザソースで使うローカルIPアドレスを設定します。\n変更後は有効化のためLHMを再起動してください。"
         },
         "slowMode": {
-          "title": "トーナメントを削除",
-          "info": "{{count}}個のトーナメントを削除してもよろしいですか？"
+          "title": "スローモード",
+          "info": "スローモードはAPIリクエストをキュー経由で送信してバーストトラフィックを減らします。国全体レベルの厳しいファイアウォール環境で有効な場合があります。\n変更後は有効化のためLHMを再起動してください。"
         }
       }
     },
     "modals": {
       "imageTooLarge": {
         "title": "画像が大きすぎます",
-        "info": "選択した画像が大きすぎます。サイズ制限は{{limit}}です。MBです。"
+        "info": "選択した画像は大きすぎます。サイズ上限は {{limit}} MB です。"
       },
       "delete": {
         "titleTeams": "削除チーム",
         "titlePlayers": "選手の削除",
         "titleMatches": "マッチ削除",
-        "titleTournaments": "{{name}}個のトーナメントを削除",
+        "titleTournaments": "トーナメントを削除",
         "infoTeams": "本当に{{count}}チームを削除しますか？",
         "infoPlayers": "本当に{{count}}選手を削除しますか？",
-        "infoTournaments": "{{name}}個のトーナメントを削除してもよろしいですか？",
+        "infoTournaments": "本当に{{count}}トーナメントを削除しますか？",
         "infoMatches": "本当に{{count}}マッチを削除しますか？",
         "deleteWithPlayers": "選手と一緒に削除",
         "deleteAll": "すべて削除 ({{count}})",
-        "single": {}
+        "single": {
+          "titleTournament": "{{name}} トーナメントを削除",
+          "infoTournament": "本当に {{name}} トーナメントを削除しますか？"
+        }
       },
       "steamApiKeyMissing": {
-        "title": "Steam API Key Missing",
-        "info": "SteamIDフィールドにカスタムSteam URLを入れているようです。LHMではカスタムURLをサポートするためにSteam API Keyが必要です。とにかく保存しますか？"
+        "title": "Steam API Key が見つかりません",
+        "info": "SteamIDフィールドにカスタムSteam URLが入力されているようです。LHMでカスタムURLを利用するにはSteam API Keyが必要です。それでも保存しますか？"
       }
     },
     "cloudification": {
@@ -1431,8 +1434,8 @@
         "description": "LHMは初めてですか？ここでは、アプリケーションを使い始めるための基本的なヒントをご覧いただけます！\n\nLHMは現在CS2、Dota 2、League of Legends、Rocket League、Apex Legends、F1をサポートしています。各対応ゲームはLHMで正しく動作するために、簡単ですが必要な設定が必要です。\nLHMで使用したいゲームの設定方法については、下の「詳細を学ぶ」ボタンをクリックしてください。"
       },
       "quick": {
-        "title": "LHMクイック",
-        "description": "LHMクイックではHUDで起動する選手やチームを素早く設定することができます。この機能は主にLHMの動作に慣れていて、すぐに始められるユーザーを対象としています。\n現在、LHM Quickでサポートされているゲームは、CS2、CS:GO、Dota 2、League of Legends、Rocket Leagueです。\nLHMクイックの詳細については、下の「詳細を見る」ボタンをクリックしてください。"
+        "title": "LHM Quick",
+        "description": "LHM Quickでは、HUD起動に必要な選手・チーム設定を素早く行えます。この機能は主にLHMの操作に慣れたユーザーがすぐ開始できるよう設計されています。\n現在LHM QuickでサポートされているゲームはCS2、CS:GO、Dota 2、League of Legends、Rocket Leagueです。\nLHM Quickの詳細は下の「詳細を見る」ボタンをクリックしてください。"
       },
       "huds": {
         "title": "HUDタブ",
@@ -1440,11 +1443,11 @@
       },
       "lhmHuds": {
         "title": "LHM HUD",
-        "description": "各LHMプランにはHUDが組み込まれています。高いプランほど、より高度なHUDがあります。下の名前をクリックして、それぞれの詳細をご覧ください：\n\n- サポートされているゲームのデフォルトHUD\n- CS2|premiumCS2]]、[[Dota 2|premiumDota2]]、[[LoL|premiumLoL]]、[[ロケットリーグ|premiumRL]]用のプレミアムHUD\n- CS2|ultraCS2]]、[[Dota 2|ultraDota2]]用のウルトラHUD。"
+        "description": "各LHMプランには組み込みHUDがあります。プランが上がるほど、より高度なHUDが利用できます。以下の名前をクリックして詳細をご覧ください。\n\n- サポート対象ゲーム向けのDefault HUD\n- [[CS2|premiumCS2]]、[[Dota 2|premiumDota2]]、[[LoL|premiumLoL]]、[[Rocket League|premiumRL]]向けPremium HUD\n- [[CS2|ultraCS2]] と [[Dota 2|ultraDota2]]向けUltra HUD"
       },
       "userGuide": {
         "title": "ユーザーガイド",
-        "description": "LHM'の各コンポーネントの詳細については、ユーザーガイドをご覧ください。説明、全機能の設定と使用方法、最も一般的な質問に対する回答が掲載されています。さらに質問がある場合は、[[私たちのディスコード|discord]]に参加してください。"
+        "description": "LHMの各コンポーネントについて詳しく知るには、ユーザーガイドをご覧ください。すべての機能の説明、設定手順、使い方、よくある質問への回答を掲載しています。追加で質問がある場合は [[私たちのDiscord|discord]] に参加してください。"
       }
     }
   }

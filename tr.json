@@ -115,28 +115,28 @@
       "contrast-poor-label": "Zayıf Kontrast",
       "contrast-poor-message": "Kontrast çok düşük; metni okumak zor olabilir!",
       "notice": "Uyarı:",
-      "notice-content": "Özel renk değişikliğini etkinleştirmek için lütfen HUD TEMASI'nı ÖZEL RENKLER olarak seçin. #__#\nSol Üst"
+      "notice-content": "Özel renk düzenlemeyi etkinleştirmek için lütfen HUD TEMASI olarak ÖZEL RENKLER'i seçin."
     },
     "signals-ads": {
-      "top-left": "Sağ Üst",
-      "top-right": "Sol Alt",
-      "bottom-left": "Sağ Alt",
-      "bottom-right": "Görsel",
-      "image": "Herhangi bir oyuncu",
-      "any-player": "Herhangi bir taraf",
-      "any-side": "Herhangi bir takım",
-      "any-team": "Pozisyon",
-      "position": "Süre (sn)",
-      "duration": "Tetikleyici",
-      "trigger": "Oyuncu",
-      "player": "Takım",
-      "team": "Taraf",
-      "side": "Yeni Reklam Ekle",
-      "add-new-ad": "Pozisyon Seç",
-      "select-position": "Tetikleyici Seç",
-      "select-trigger": "Oyuncu Seç",
-      "select-player": "Taraf Seç",
-      "select-side": "Geçerli ön ayardan kopyala"
+      "top-left": "Sol Üst",
+      "top-right": "Sağ Üst",
+      "bottom-left": "Sol Alt",
+      "bottom-right": "Sağ Alt",
+      "image": "Görsel",
+      "any-player": "Herhangi bir oyuncu",
+      "any-side": "Herhangi bir taraf",
+      "any-team": "Herhangi bir takım",
+      "position": "Pozisyon",
+      "duration": "Süre (sn)",
+      "trigger": "Tetikleyici",
+      "player": "Oyuncu",
+      "team": "Takım",
+      "side": "Taraf",
+      "add-new-ad": "Yeni Reklam Ekle",
+      "select-position": "Pozisyon Seç",
+      "select-trigger": "Tetikleyici Seç",
+      "select-player": "Oyuncu Seç",
+      "select-side": "Taraf Seç"
     },
     "blocker": {
       "personal": "Bu bölüme tam erişim elde etmek için LHM'nizi Kişisel, Profesyonel veya Kurumsal plana yükseltin.",
@@ -146,7 +146,7 @@
         "cgmode": "CG Modu, yayıncılık işlemleri için en temel modülleri kompakt bir biçimde bir araya getirir.\nBu sekmeden maçlarınızı, takımlarınızı, oyuncularınızı ve Canlı oyununuzu tek bir ekranda yönetebilirsiniz.\nBu bölüme tam erişim elde etmek için LHM'nizi Kişisel, Profesyonel veya Kurumsal plana yükseltin.",
         "arg": "Otomatizasyon bir sonraki sınırdır - ve biz Lexogrine'de onu geçmeye kararlıyız! Auto Replay Generator, tekrar oynatma sistemini tamamen otomatikleştirir. ARG - tanımlanmış kriterlere dayanarak - en önemli anları otomatik olarak yakalamak ve turlar arasında nefes kesici tekrarları görüntülemek için oyundaki her olayı izler. Sahip olmanız gereken tek şey vMix veya OBS.\nBu bölüme tam erişim elde etmek için LHM'nizi Kişisel, Profesyonel veya Kurumsal plana yükseltin.",
         "addons": "Eklentiler, LHM ile entegrasyon oluşturmanın yeni bir yoludur.\nBu noktaya kadar, yalnızca özel HUD's kodunun oyun veri akışına erişimi vardı, bu da ne yapmak isterseniz isteyin, bunun tarayıcı ortamında yapılması gerektiği anlamına geliyordu.\nEklentiler sunucu ortamlarında çalışır - bunlar temelde kendilerine bağlanmış bir GSI Olay yayıcısı olan NodeJS uygulamalarıdır. Bu, sadece desteklenen oyunlardan (CS2, Dota 2) bilgi almak için bir ayrıştırıcı ile özel bir HTTP sunucusu oluşturmanıza gerek olmadığı anlamına gelir, tüm bunlara kutudan çıkarsınız, böylece oluşturmak istediğiniz entegrasyonlara ve özelliklere odaklanabilirsiniz.\nBu bölüme tam erişim elde etmek için LHM'nizi Kişisel, Profesyonel veya Kurumsal plana yükseltin.",
-        "composer": "Besteci, sürükle ve bırak kontrolleri ve görsel ön ayarlarıyla HUD düzeninizi oluşturmanıza ve özelleştirmenize olanak tanır.\n\nBu bölüme tam erişim için LHM'nizi en az 3 koltuklu Profesyonel veya Kurumsal plana yükseltin.",
+        "composer": "Composer, sürükle ve bırak kontrolleri ve görsel ön ayarlarıyla HUD düzeninizi oluşturmanıza ve özelleştirmenize olanak tanır.\n\nBu bölüme tam erişim için LHM'nizi en az 3 koltuklu Profesyonel veya Kurumsal plana yükseltin.",
         "aco": "Her eylemi mükemmel bir şekilde ve ideal bir perspektiften yakalamak imkansızdır - ancak Scout buna gerçekten yaklaşıyor. Kendi yapay zekamız binlerce oyundan öğrenerek en heyecanlı olayları insan müdahalesi olmadan kendi başına yakalıyor.\nTüm Scout AI modüllerine (Scout Vision, Scout Predict ve Scout Cinematic) erişmek için LHM'nizi Kişisel plana yükseltin.",
         "cameras": "Kamera sistemimizin kullanımı son derece kolaydır ve hem organizatörler hem de oyuncular için kurulum süresinden büyük ölçüde tasarruf etmenizi sağlar. Aşırı karmaşık ve zaman alıcı prodüksiyon yazılımı yapılandırması yok, donanım sorunları yok.\nKamerayı bağlayın ve LHM'de bir oyuncuya atayın. HUD'ı başlatın ve izleyicilere gülümseyin.\nBu bölüme tam erişim elde etmek için LHM'nizi Kişisel, Profesyonel veya Kurumsal plana yükseltin.",
         "signals": "LHM Signals, Bitfocus Companion uygulaması ile özel entegrasyonumuzdur.\nAmacımız, öngörülebilir, oyun içi olayların otomasyonuna yardımcı olmaktır. Sinyaller bununla ilgilenir ve belirli oyun olaylarında Companion düğmelerini tetiklemeye izin verir.\nBu bölüme tam erişim elde etmek için LHM'nizi Kişisel, Profesyonel veya Kurumsal plana yükseltin.",
@@ -156,8 +156,8 @@
     "titles": {
       "players": "Oyuncular",
       "teams": "Takımlar",
-      "arg": "Tekrarlar",
-      "aco": "Gözcü Yapay Zeka",
+      "arg": "Replays",
+      "aco": "Scout AI",
       "ar": "Artırılmış Gerçeklik",
       "cgpanel": "CG Modu",
       "huds": "HUD'lar",
@@ -169,17 +169,17 @@
       "addons": "Eklentiler",
       "settings": "Ayarlar",
       "credits": "Krediler",
-      "quick": "Hızlı",
+      "quick": "Quick",
       "chat": "Destek Sohbeti",
       "composer": "Composer",
-      "xray": "X-Ray\n#__# X-Ray'in doğru çalışması için CS2, Scout/X-Ray seçeneği açık olarak başlatılmalıdır."
+      "xray": "X-Ray"
     },
     "aco": {
       "disabled": "Engelli",
       "aco1": "ACO",
       "acoAI": "ACO AI",
-      "acoAIScout": "ACO Yapay Zeka + İzci Yapay Zeka",
-      "scoutOnly": "Gözcü Yapay Zeka",
+      "acoAIScout": "ACO AI + Scout AI",
+      "scoutOnly": "Scout AI",
       "cs2Warning": "ACO ve ACO AI, yeni yayınlanan Counter-Strike 2 için şu anda mevcut değildir.\nCS2'de şu anda bu işlevlerin çalışması için LHM tarafından gerekli olan temel özellikler eksiktir.",
       "cs2ScoutAndARGWarning": "CS2'deki eksik tuş özellikleri nedeniyle, {{ feature }} artık doğru çalışması için oyun içi el bombası tuş atamalarının varsayılan değerlerine (klavyedeki 1-0 sayı tuşları) ayarlanmasını gerektiriyor.\n\nCS2'de gerekli komutların olmaması LHM'nin oyuncuları otomatik olarak değiştirmesini engelliyor, bu nedenle LHM artık tuş basışlarını oyuna manuel olarak gönderiyor, bu nedenle lütfen {{ feature }} kullanımı sırasında oyunun odaklandığından emin olun.",
       "map": "Harita",
@@ -199,16 +199,16 @@
       "enableDirector": "Yönetmeni etkinleştir",
       "scoutPredict": "Tahmin Etmeyi Etkinleştir",
       "telnet": "Telnet'i Etkinleştir",
-      "telnetWarning": "Telnet'i kullanmak için CS2 Atölye Araçları ile başlatılmalıdır. HUDs sekmesindeki \"Killfeed / Tools\" seçeneğini etkinleştirerek ve \"Run Game\" düğmesine tıklayarak yapabilirsiniz.",
-      "cinematicWarning": "Scout Cinematic'i kullanmak için CS2 Atölye Araçları ile başlatılmalıdır. Bunu HUDs sekmesindeki \"Killfeed / Tools\" seçeneğini etkinleştirip \"Run Game\" düğmesine tıklayarak yapabilirsiniz. Scout Sinematik'i etkinleştirmek Scout Vision'ı da Doğrudan modda çalışmaya zorlayacaktır.",
+      "telnetWarning": "Telnet kullanmak için CS2, Workshop Tools ile başlatılmalıdır. HUDs sekmesindeki \"Scout AI\" seçeneğini etkinleştirip \"Run Game\" düğmesine tıklayarak bunu yapabilirsiniz.",
+      "cinematicWarning": "Scout Cinematic kullanmak için CS2, Workshop Tools ile başlatılmalıdır. HUDs sekmesindeki \"Scout AI\" seçeneğini etkinleştirip \"Run Game\" düğmesine tıklayarak bunu yapabilirsiniz. Scout Cinematic etkinleştirildiğinde Scout Vision da Direct modda çalışmaya zorlanır.",
       "disabledDescription": "Tüm kontrol size ve gözlemcilerinize verilmiştir.",
       "aco1Description": "Kontrol ve otomasyon dengesi.\nGözlemcilerinize ACO için manuel olarak yazılmış bir dizi talimatla yardımcı olun.",
       "aco-aiDescription": "ACO AI'nın gelişmiş algoritmaları akışınızı kontrol ederken arkanıza yaslanın.",
       "aco-ai-scoutDescription": "Yapay zeka maç gözlemcisinin herhangi bir kullanıcı girişi olmadan oyunu izlemesine izin verin.",
-      "aco-ai-scoutDescription-disconnected": "Yapay zeka maç gözlemcisinin herhangi bir kullanıcı girişi olmadan oyunu izlemesine izin verin.\\nGözcü sunucuları şu anda kullanılamıyor olabilir.",
+      "aco-ai-scoutDescription-disconnected": "Yapay zeka maç gözlemcisinin herhangi bir kullanıcı girişi olmadan oyunu izlemesine izin verin.\\nScout sunucuları şu anda kullanılamıyor olabilir.",
       "scoutCinematicDescription": "Maç aralarında güzel sinematik çekimler gösterin.",
       "scoutPredictDescription": "Canlı maç sonucu tahminlerini doğrudan akışınızda görüntüleyin.",
-      "scoutCinematic": "Sinematik İzci Kullanın",
+      "scoutCinematic": "Scout Cinematic kullan",
       "saveArea": "Alanı kaydet",
       "areaName": "İsim",
       "areaNamePlaceholder": "Alan adı",
@@ -220,7 +220,7 @@
       "scoutServerUnavailable": "LHM, Scout AI sunucularına bağlanamıyor.\nLütfen birkaç dakika içinde tekrar deneyin.",
       "scoutSubtitle": "Yapay Zeka Gözlemcisi",
       "scoutGetMoreTime": "Daha fazla zaman kazanın",
-      "scoutDescription": "Scout yapay zekası binlerce oyundan öğrenerek en heyecanlı olayları insan girdisi olmadan kendi başına yakalar.",
+      "scoutDescription": "Scout AI, binlerce oyundan öğrenerek en kritik anları insan müdahalesi olmadan yakalar.",
       "scoutVisionControl": {
         "label": "Oyun kontrol modu",
         "direct": {
@@ -241,194 +241,194 @@
       "scoutCinematicAction": {
         "label": "Aksiyon Sinematik"
       },
-      "scoutPausedTip": "Scout AI duraklatıldı çünkü koşu oyunu tespit edilmedi.",
-      "xrayWarning": "HUD bileşen önizlemesi"
+      "scoutPausedTip": "Çalışan bir oyun algılanmadığı için Scout AI duraklatıldı.",
+      "xrayWarning": "X-Ray'in doğru çalışması için CS2, Scout/X-Ray seçeneği açıkken başlatılmalıdır."
     },
     "composer": {
-      "componentsSubtitle": "Oyuncu Avatarını Kullan",
-      "usePlayerAvatar": "Radar Stili",
-      "radarStyle": "Konum",
+      "componentsSubtitle": "HUD bileşen önizlemesi",
+      "usePlayerAvatar": "Oyuncu avatarını kullan",
+      "radarStyle": "Radar stili",
       "position": "Konum",
       "fileTooLarge": "Dosya çok büyük. Maksimum boyut {{limit}} MB.",
-      "fontSize": "Takım Adı Yazı Tipi Boyutu",
-      "uhudMatchbarTeamNameFontSize": "Skor Yazı Tipi Boyutu",
-      "uhudMatchbarScoreFontSize": "Oyuncu Adı Yazı Tipi Boyutu",
-      "uhudPlayersNameFontSize": "İstatistikler Yazı Tipi Boyutu",
-      "uhudPlayersStatsFontSize": "Sağlık Yazı Tipi Boyutu",
-      "uhudPlayersHealthFontSize": "Görünür",
+      "fontSize": "Yazı tipi boyutu",
+      "uhudMatchbarTeamNameFontSize": "Takım adı yazı tipi boyutu",
+      "uhudMatchbarScoreFontSize": "Skor yazı tipi boyutu",
+      "uhudPlayersNameFontSize": "Oyuncu adı yazı tipi boyutu",
+      "uhudPlayersStatsFontSize": "İstatistik yazı tipi boyutu",
+      "uhudPlayersHealthFontSize": "Can yazı tipi boyutu",
       "visible": "Görünür",
-      "previewTitle": "Besteci Önizlemesi {{component}}",
+      "previewTitle": "Composer Önizleme {{component}}",
       "components": {
-        "matchbar": "Soldaki Oyuncular",
-        "left-player": "Sağdaki Oyuncular",
-        "right-player": "Soldaki Para",
-        "left-money": "Sağdaki Para",
-        "right-money": "Oyuncular",
-        "players": "Gözlemlenen oyuncu",
-        "observed-player": "Öldürme Bildirimi",
-        "killfeed": "Tur Geçmişi",
-        "round-history": "Harita Serisi",
-        "mapseries": "Özel Varlık",
-        "asset": "Tur kazanma göstergesi",
-        "winbox": "Sponsorlar",
-        "sponsors": "Turnuva Bilgileri",
-        "tournament-info": "Keşif Tahmini",
-        "scout": "Radar",
-        "radar": "Animasyon Bitkisi",
-        "anims-plant": "Animasyon Bomba İmhası Kısa",
-        "anims-defuse-short": "Animasyon Bomba İmhası Uzun",
-        "anims-defuse-long": "Animasyon Dağılımı",
-        "anims-defuse": "Animasyon",
-        "anims": "Ultra HUD"
+        "matchbar": "Matchbar",
+        "left-player": "Sol Oyuncular",
+        "right-player": "Sağ Oyuncular",
+        "left-money": "Sol Para",
+        "right-money": "Sağ Para",
+        "players": "Oyuncular",
+        "observed-player": "İzlenen oyuncu",
+        "killfeed": "Killfeed",
+        "round-history": "Tur Geçmişi",
+        "mapseries": "Harita Serisi",
+        "asset": "Özel Varlık",
+        "winbox": "Tur kazanma göstergesi",
+        "sponsors": "Sponsorlar",
+        "tournament-info": "Turnuva Bilgisi",
+        "scout": "Scout Predict",
+        "radar": "Radar",
+        "anims-plant": "Plant Animasyonu",
+        "anims-defuse-short": "Kısa Defuse Animasyonu",
+        "anims-defuse-long": "Uzun Defuse Animasyonu",
+        "anims-defuse": "Defuse Animasyonu",
+        "anims": "Animasyon"
       },
       "huds": {
-        "ultrahud": "Amber HUD",
-        "amberhud": "Safir HUD",
-        "sapphirehud": "Neon HUD",
-        "neonhud": "Tam HUD",
-        "fullHud": "Dikey"
+        "ultrahud": "Ultra HUD",
+        "amberhud": "Amber HUD",
+        "sapphirehud": "Sapphire HUD",
+        "neonhud": "Neon HUD",
+        "fullHud": "Full HUD"
       },
       "layouts": {
-        "vertical": "Yatay",
-        "horizontal": "Yatay Üst",
-        "horizontal-top": "Yatay Alt",
-        "horizontal-bottom": "Sol Oyuncular"
+        "vertical": "Dikey",
+        "horizontal": "Yatay",
+        "horizontal-top": "Yatay Üst",
+        "horizontal-bottom": "Yatay Alt"
       },
       "positions": {
-        "left-players": "Sağ Oyuncular",
-        "right-players": "Sol Oyuncular Üst",
-        "left-players-top": "Sol Oyuncular Alt",
-        "left-players-bottom": "Sağ Oyuncular Üst",
-        "right-players-top": "Sağ Oyuncular Alt",
-        "right-players-bottom": "HP Yazı Tipi Boyutu"
+        "left-players": "Sol Oyuncular",
+        "right-players": "Sağ Oyuncular",
+        "left-players-top": "Sol Oyuncular Üst",
+        "left-players-bottom": "Sol Oyuncular Alt",
+        "right-players-top": "Sağ Oyuncular Üst",
+        "right-players-bottom": "Sağ Oyuncular Alt"
       },
-      "sapphirePlayersHpFontSize": "Oyuncu Adı Yazı Tipi Boyutu",
-      "sapphirePlayersNameFontSize": "Tur Hasarı Yazı Tipi Boyutu",
-      "sapphirePlayersRoundDamageFontSize": "KDA Yazı Tipi Boyutu",
-      "sapphirePlayersKdaFontSize": "Öldürme Bildirimi Oyuncu Adı Yazı Tipi Boyutu",
-      "killfeedPlayerNameFontSize": "Bileşenler",
+      "sapphirePlayersHpFontSize": "HP Yazı Tipi Boyutu",
+      "sapphirePlayersNameFontSize": "Oyuncu Adı Yazı Tipi Boyutu",
+      "sapphirePlayersRoundDamageFontSize": "Tur Hasarı Yazı Tipi Boyutu",
+      "sapphirePlayersKdaFontSize": "KDA Yazı Tipi Boyutu",
+      "killfeedPlayerNameFontSize": "Killfeed Oyuncu Adı Yazı Tipi Boyutu",
       "titles": {
-        "components": "Ayarlar",
-        "settings": "Küresel Stiller",
-        "globalStyles": "Bileşenlere küresel görünüm uygulayın.\n\n#__# Tümünü göster\n#__# Tümünü gizle\n#__# Bileşeni göster\n#__# Bileşeni gizle\n#__# Bileşenlere geri dön\n#__# En sona\n#__# En öne\n#__# Eklendi\n#__# Eklenmedi\n#__# Varyant\n#__# Stil\n#__# Stiller\n#__# Düzen\n#__# Yazı Tipi Ailesi\n#__# Küresel Desen\n#__# Küresel Desen Şeffaflığı\n#__# Arka Plan Görüntüsü Uyumu\n#__# Kenar Yarıçapı\n#__# Kenar Genişliği\n#__# Kenar Stili\n#__# X Konumu\n#__# Y Konumu\n#__# Yatay Olarak Ortala\n#__# Dikey Olarak Ortala\n#__# Ölçek\n#__# Z İndeksi\n#__# Geçerli katman\n#__# Hizala\n#__# Özel CSS"
+        "components": "Bileşenler",
+        "settings": "Ayarlar",
+        "globalStyles": "Global Stiller"
       },
       "descriptions": {
-        "globalStyles": "Süre"
+        "globalStyles": "Bileşenlere global görünüm uygula."
       },
       "actions": {
-        "showAll": "Limit",
-        "hideAll": "Kenarlık",
-        "showComponent": "ARKA PLAN",
-        "hideComponent": "TERÖRLE MÜCADELE",
-        "backToComponents": "TERÖRİSTLER",
-        "toBack": "Dosya seçilmedi",
-        "toFront": "Sponsor görseli"
+        "showAll": "Tümünü göster",
+        "hideAll": "Tümünü gizle",
+        "showComponent": "Bileşeni göster",
+        "hideComponent": "Bileşeni gizle",
+        "backToComponents": "Bileşenlere geri dön",
+        "toBack": "Arkaya gönder",
+        "toFront": "Öne getir"
       },
       "status": {
-        "added": "Varlık dosyası",
-        "notAdded": "Görsel seçilmedi"
+        "added": "Eklendi",
+        "notAdded": "Eklenmedi"
       },
       "fields": {
-        "variant": "1 görsel seçildi",
-        "style": "{{count}} görsel seçildi",
-        "styles": "Bitki Dosyası",
-        "layout": "Kısa Etkisizleştirme Dosyası",
-        "fontFamily": "Uzun Etkisizleştirme Dosyası",
-        "globalPattern": "Özel",
-        "globalPatternOpacity": "Kapak",
-        "backgroundImageFit": "İçerik",
-        "borderRadius": "Yok",
-        "borderWidth": "Üst",
-        "borderStyle": "Sol",
-        "positionX": "Merkez",
-        "positionY": "Sağ",
-        "centerHorizontally": "Alt",
-        "centerVertically": "Ön",
-        "scale": "Performans bilgileri",
-        "zIndex": "Özel CSS renk değişkenleri yardımı\n#__# Özel CSS'de takım rengini kullanmak için CSS değişkeni kullanın: var(--color-new-t).",
-        "currentLayer": "Tüm Composer bileşenlerinin aynı anda geçici olarak işlenmesi, daha zayıf makinelerde önizleme performansını düşürebilir. Bu, kurulum sırasında beklenen bir durumdur ve HUD'nizi yapılandırmayı tamamladıktan sonra performansı etkilememelidir.",
-        "align": "Arama bileşenleri...",
-        "customCss": "/* özel stiller */",
-        "duration": "Avatar Kullan",
-        "limit": "Oyuncu Boyutu"
+        "variant": "Varyant",
+        "style": "Stil",
+        "styles": "Stiller",
+        "layout": "Düzen",
+        "fontFamily": "Yazı Tipi Ailesi",
+        "globalPattern": "Global Desen",
+        "globalPatternOpacity": "Global Desen Opaklığı",
+        "backgroundImageFit": "Arka Plan Görseli Uyumu",
+        "borderRadius": "Kenar Yarıçapı",
+        "borderWidth": "Kenar Kalınlığı",
+        "borderStyle": "Kenar Stili",
+        "positionX": "X Konumu",
+        "positionY": "Y Konumu",
+        "centerHorizontally": "Yatay Ortala",
+        "centerVertically": "Dikey Ortala",
+        "scale": "Ölçek",
+        "zIndex": "Z-Index",
+        "currentLayer": "Mevcut katman",
+        "align": "Hizala",
+        "customCss": "Özel CSS",
+        "duration": "Süre",
+        "limit": "Limit"
       },
       "labels": {
-        "border": "Radar Şeffaflığı",
-        "background": "Gradyan Kullan",
-        "counterTerrorists": "El Bombası Animasyon Varyantı",
-        "terrorists": "Ölü Oyuncu İşaretleyici"
+        "border": "BORDER",
+        "background": "BACKGROUND",
+        "counterTerrorists": "COUNTER-TERRORISTS",
+        "terrorists": "TERRORISTS"
       },
       "files": {
-        "noFileSelected": "Gradyan Geçersiz Kılma Etkin",
-        "sponsorImage": "Gradyan Durdurma Rengi",
-        "assetFile": "Kalabalık Yakınlaştırma Etkin",
-        "noImagesSelected": "Bomba Taşıyıcı Rengi",
-        "oneImageSelected": "Duman Rengi",
-        "imagesSelected": "Flaş Rengi",
-        "plantFile": "El Bombası Rengi",
-        "defuseShortFile": "Molotof Kokteyli Rengi",
-        "defuseLongFile": "Bomba Rengi"
+        "noFileSelected": "Dosya seçilmedi",
+        "sponsorImage": "Sponsor görseli",
+        "assetFile": "Varlık dosyası",
+        "noImagesSelected": "Görsel seçilmedi",
+        "oneImageSelected": "1 görsel seçildi",
+        "imagesSelected": "{{count}} görsel seçildi",
+        "plantFile": "Plant Dosyası",
+        "defuseShortFile": "Kısa Defuse Dosyası",
+        "defuseLongFile": "Uzun Defuse Dosyası"
       },
       "options": {
-        "custom": "Maksimum Yerleştirme Genişliği",
-        "cover": "Maksimum Yerleştirme Yüksekliği",
-        "contain": "Maksimum İmha Genişliği",
-        "none": "Maksimum İmha Yüksekliği",
-        "top": "(hedef ~5s)",
-        "left": "(hedef ~10s)",
-        "center": "Varsayılan",
-        "right": "Koyu",
-        "bottom": "Temiz",
-        "front": "Yüksek Kontrast"
+        "custom": "Özel",
+        "cover": "Kapla",
+        "contain": "Sığdır",
+        "none": "Yok",
+        "top": "Üst",
+        "left": "Sol",
+        "center": "Merkez",
+        "right": "Sağ",
+        "bottom": "Alt",
+        "front": "Ön"
       },
       "tooltips": {
-        "performanceInformation": "Varsayılan",
-        "customCssColorVariablesHelp": "Karton",
-        "customCss": "Solma",
-        "bulkVisibilityPerformance": "Takım X"
+        "performanceInformation": "Performans bilgisi",
+        "customCssColorVariablesHelp": "Özel CSS renk değişkenleri yardımı",
+        "customCss": "Özel CSS'te takım rengini kullanmak için CSS değişkenini kullanın: var(--color-new-t).",
+        "bulkVisibilityPerformance": "Tüm Composer bileşenlerinin aynı anda geçici olarak işlenmesi, daha zayıf makinelerde önizleme performansını düşürebilir. Bu kurulum sırasında beklenen bir durumdur ve HUD yapılandırması tamamlandıktan sonra performansı etkilememelidir."
       },
       "placeholders": {
-        "search": "Koç olarak ayarla",
-        "customCss": "Kamera Gecikmesi (saniye)"
+        "search": "Bileşen ara...",
+        "customCss": "/* özel stiller */"
       },
       "radar": {
-        "useAvatar": "Kamera Akış Kalitesi\n#__# Sarı nokta ile işaretlenmiş oyunculardan en az birine bağlantı, simetrik NAT tarafından engelleniyor. Genellikle kamera akışı bağlantı sorunlarına neden olur. Oyuncunun ağ bağlantısını değiştirmesi ve Kamera sayfasını yenilemesi önerilir.\n\n#__# Bağlantınız simetrik NAT tarafından engelleniyor. Genellikle kamera akışı bağlantı sorunlarına neden olur. Ağ bağlantısını değiştirmeniz ve LHM'yi yeniden başlatmanız önerilir.",
-        "playerSize": "Besteci",
-        "radarOpacity": "Varsayılan oluştur",
-        "useGradient": "Boş oluştur",
-        "grenadeAnimationVariant": "Grup & Playofflar",
-        "deadPlayerMarker": "Bu aşamada maç yok",
-        "gradientOverrideEnabled": "Playofflar başarıyla oluşturuldu",
-        "gradientStopColor": "Şampiyon",
-        "crowdZoomEnabled": "Elemeler",
-        "bombCarrierColor": "Set skoru",
-        "smokeColor": "Sadece Playofflar",
-        "flashColor": "Grup + Playofflar",
-        "grenadeColor": "Varsayılan En İyi Maç Formatı",
-        "molotovColor": "Varsayılan En İyi Maç Formatı (Yeni Maçlar İçin)",
-        "bombColor": "Turnuva yapısı"
+        "useAvatar": "Avatar kullan",
+        "playerSize": "Oyuncu boyutu",
+        "radarOpacity": "Radar opaklığı",
+        "useGradient": "Gradyan kullan",
+        "grenadeAnimationVariant": "El bombası animasyon varyantı",
+        "deadPlayerMarker": "Ölü oyuncu işaretleyici",
+        "gradientOverrideEnabled": "Gradyan geçersiz kılma etkin",
+        "gradientStopColor": "Gradyan bitiş rengi",
+        "crowdZoomEnabled": "Kalabalık yakınlaştırma etkin",
+        "bombCarrierColor": "Bomba taşıyıcı rengi",
+        "smokeColor": "Duman rengi",
+        "flashColor": "Flaş rengi",
+        "grenadeColor": "El bombası rengi",
+        "molotovColor": "Molotof rengi",
+        "bombColor": "Bomba rengi"
       },
       "anims": {
-        "plantMaxWidth": "Mevcut takımlar",
-        "plantMaxHeight": "Seçilen takımlar",
-        "defuseMaxWidth": "Elemeleri geçen takımlar",
-        "defuseMaxHeight": "Elemeleri geçenler",
-        "targetFiveSeconds": "Elenenler",
-        "targetTenSeconds": "Grup aşaması sona erdi. Şimdi playoffları oluşturabilirsiniz - bu adım yalnızca bir kez gerçekleştirilebilir."
+        "plantMaxWidth": "Plant maksimum genişlik",
+        "plantMaxHeight": "Plant maksimum yükseklik",
+        "defuseMaxWidth": "Defuse maksimum genişlik",
+        "defuseMaxHeight": "Defuse maksimum yükseklik",
+        "targetFiveSeconds": "(hedef ~5sn)",
+        "targetTenSeconds": "(hedef ~10sn)"
       },
       "radarVariants": {
-        "default": "Playoffları oluştur",
-        "dark": "Grup aşaması hala devam ediyor. Playoff oluşturma, grup aşaması sona erdikten sonra kullanılabilir olacaktır.",
-        "clean": "Eksik Maçlar Tespit Edildi",
-        "high-contrast": "Bazı maçlar silindi. İlk eksik turdan itibaren tüm maçları geri yüklemek için aşağıdaki bağlantıya tıklayın.\n\n#__# Tüm maçları geri yükle\n#__# HUD Sıralama Bulut Senkronizasyonu\n#__# Paylaşılan Yapılandırma Bulut Senkronizasyonu\n#__# Paylaşılan Yapılandırma Bulut Senkronizasyonu\n#__# CS2 Oyuncu Tuş Atamaları Geçersiz Kıl\n#__# Hayır\n#__# LHM odaklandığında\n#__# Her zaman\n#__# CS2 Oyuncu Tuş Atamaları Geçersiz Kıl\n#__# Bu seçenek, CS2 tuş atamalarını 1-0 arasında HUD'da gösterilen gözlemci oyuncu yuvalarıyla eşleşecek şekilde ayarlar; bu, sunucuda koçlar bulunduğunda kullanışlıdır.\n\nTuş atamalarını kaydetmek için, CS2 çalışırken bu seçeneği kapatmalısınız.\n\n#__# IP Adresi Geçersiz Kılma\n#__# Yavaş Mod\n#__# CS2 Atölye Araçları Bulunamadı\n#__# Counter-Strike 2 Atölye Araçları DLC'si algılanmadı. CS2'yi Killfeed veya Scout AI açıkken başlatırken LHM ile birlikte kullanılması gerekmektedir. Steam üzerinden indirip tekrar denemeniz önerilir."
+        "default": "Varsayılan",
+        "dark": "Koyu",
+        "clean": "Temiz",
+        "high-contrast": "Yüksek Kontrast"
       },
       "radarGrenadeAnimationVariants": {
-        "default": "Yine de Başlat",
-        "carton": "Kategori Oluştur"
+        "default": "Varsayılan",
+        "carton": "Karton"
       },
       "radarDeadPlayerMarkers": {
-        "fade": "Kategoriyi Yeniden Adlandır",
-        "team-x": "{{name}} kategorisini sil"
+        "fade": "Solma",
+        "team-x": "Team X"
       }
     },
     "players": {
@@ -441,7 +441,7 @@
       "importPlayersExcel": "Birçok oyuncuyu aynı anda kolayca içe aktarmak için önceden hazırlanmış Excel sayfamızı kullanın.",
       "exportPlayers": "İhracat",
       "avatar": "Avatar",
-      "setAsCoach": "Kategori adı"
+      "setAsCoach": "Koç olarak ayarla"
     },
     "teams": {
       "edit": "Ekip düzenleme",
@@ -468,10 +468,10 @@
       "stopTestVideo": "Test Videosunu Durdur",
       "testVideoBlocker": "Test videosunu ve yukarıdaki tabloda doldurulan oyuncuları oynatmak için oyunun çalışıyor olması gerekir. Bir demo izleyin veya test verilerini oynatın ve test oynatıcısını seçin",
       "testPlayer": "Test Oyuncusu",
-      "delay": "Gruplandırmayı Kaldır",
-      "cameraQuality": "{{name}} kategorisini kaldırmak istediğinizden emin misiniz? Bu işlem hiçbir HUD'u kaldırmayacaktır.",
-      "cameraWarningPlayer": "HUD'u katmanda açılıyor...",
-      "cameraWarningUser": "Paylaş"
+      "delay": "Kamera Gecikmesi (saniye)",
+      "cameraQuality": "Kamera Akış Kalitesi",
+      "cameraWarningPlayer": "Sarı nokta ile işaretli oyunculardan en az biriyle bağlantı simetrik NAT nedeniyle engelleniyor. Bu durum genellikle kamera akışı bağlantı sorunlarına yol açar. Oyuncunun ağ bağlantısını değiştirmesi ve Kamera sayfasını yenilemesi önerilir.",
+      "cameraWarningUser": "Bağlantınız simetrik NAT nedeniyle engelleniyor. Bu durum genellikle kamera akışı bağlantı sorunlarına yol açar. Ağ bağlantınızı değiştirmeniz ve LHM'yi yeniden başlatmanız önerilir."
     },
     "addons": {
       "upload": "Eklenti yükle",
@@ -491,12 +491,12 @@
     },
     "navbar": {
       "huds": "HUD'lar",
-      "aco": "Gözcü Yapay Zeka",
+      "aco": "Scout AI",
       "addons": "Eklentiler",
-      "composer": "HUD'u Paylaş",
+      "composer": "Composer",
       "ar": "AR",
       "live": "Canlı",
-      "quick": "Hızlı",
+      "quick": "Quick",
       "professionalOnly": "Sadece profesyonel",
       "nonFreeOnly": "Yalnızca serbest olmayan",
       "cameras": "Kameralar",
@@ -507,7 +507,7 @@
       "validUntil": "Şu tarihe kadar geçerlidir",
       "nextPayment": "Sonraki ödeme",
       "logout": "Oturumu kapat",
-      "arg": "Tekrarlar"
+      "arg": "Replays"
     },
     "signals": {
       "removal": {
@@ -521,10 +521,10 @@
       "create": {
         "title": "Yeni bir ön ayar oluşturma",
         "placeholder": "Ön ayar adı",
-        "clone": "Boş oluştur",
-        "createNew": "Scout Vision'ı Aç/Kapat",
-        "createFromDefault": "Bu HUD'u e-posta ile başka bir kullanıcıya gönderin.\n\n#__# Alıcı, bu paylaşımı aldığında LHM kullanıcı adınızı görecektir.\n\n#__# Bu HUD, \"{{workspace}}\" çalışma alanına aittir. Çalışma alanının sahibi siz olmadığınız için, davet ana Kurumsal hesap adına gönderilecektir.",
-        "createBlank": "Alıcı e-postası"
+        "clone": "Mevcut ön ayardan kopyala",
+        "createNew": "Boş oluştur",
+        "createFromDefault": "Varsayılan oluştur",
+        "createBlank": "Boş şablon oluştur"
       },
       "activate": "{{ name }} aktif değil",
       "deactivate": "{{ name }} aktif",
@@ -587,12 +587,12 @@
       "page": "Turnuva sayfası",
       "create": "Yeni turnuva oluşturun",
       "name": "Turnuva adı",
-      "groupAndPlayoffs": "name@example.com",
-      "noMatchesInStage": "Erişim süresi",
-      "playoffsCreated": "7 gün",
-      "champion": "30 gün",
-      "bracket": "Özel tarih",
-      "setScore": "Son kullanma tarihi yok",
+      "groupAndPlayoffs": "Grup ve playofflar",
+      "noMatchesInStage": "Bu aşamada maç yok",
+      "playoffsCreated": "Playofflar başarıyla oluşturuldu",
+      "champion": "Şampiyon",
+      "bracket": "Bracket",
+      "setScore": "Skoru ayarla",
       "uploadLogo": "Turnuva logosunu yükleyin",
       "logoInfo": "Turnuvanın logosu maç sırasında mevcut olacaktır",
       "singleElimBracket": "Tekli Eleme Grubu",
@@ -601,8 +601,8 @@
       "group": "Grup",
       "playoffs": "Play-off'lar",
       "playoffType": "Playoff türü",
-      "playoffsOnly": "Seçilen son kullanma tarihinden sonra, HUD en fazla bir saat daha kullanılabilir durumda kalabilir.",
-      "grouppAndPlayoffs": "Davet Gönder",
+      "playoffsOnly": "Sadece playofflar",
+      "grouppAndPlayoffs": "Grup + playofflar",
       "soon": "Yakında",
       "groupType": "Grup tipi",
       "participants": "Katılımcılar",
@@ -610,21 +610,21 @@
       "amountOfTeams": "Ekip sayısı",
       "amountOfRounds": "Tur sayısı",
       "bindMatch": "Eşleşmeyi paranteze bağla",
-      "defaultBo": "Bekleyen HUD paylaşım davetleri",
-      "defaultBoEdit": "Paylaşılan bir HUD daveti aldınız:",
+      "defaultBo": "Varsayılan Best Of formatı",
+      "defaultBoEdit": "Varsayılan Best Of formatı (Yeni maçlar için)",
       "teamOrderList": "Takımlar sipariş listesi",
-      "tournamentStructure": "Bilinmeyen gönderen",
-      "availableTeams": "İsimsiz HUD",
-      "selectedTeams": "Bilinmeyen oyun",
-      "qualifiedTeams": "Oyun: {{game}}",
-      "qualified": "Boyut: {{size}}",
-      "eliminated": "Paylaşılan: {{sender}}",
-      "groupFinished": "Çalışma alanına kabul et",
-      "createPlayoffs": "Çalışma alanlarına kabul et",
-      "stageInProgress": "Hesabım",
-      "missingMatches": "Çalışma alanı kullanılamıyor\n#__# Lütfen paylaşılan HUD'u seçtiğiniz çalışma alanına/alanlarına kopyalarken bekleyin.",
-      "matchesDeleted": "Süre Sonu: {{expiresAt}}\n#__# Bu HUD, mevcut planınızın depolama sınırından daha büyük. Kabul etmek için planınızı yükseltin.\n\n#__# Bu çalışma alanında bu HUD için yeterli depolama alanı yok. HUD'u kabul etmek için bazı çalışma alanı verilerini silin.",
-      "restoreAllMatches": "Bu çalışma alanı, seçtiğiniz diğer kurumsal çalışma alanlarıyla depolama alanını paylaşıyor. HUD'ı kabul etmek için bazı verileri silin veya başka bir çalışma alanının seçimini kaldırın.\n\n#__# Şu anda bu HUD'ı kabul etmek için yeterli boş bulut alanınız yok. HUD'ı kabul etmek için yer açın.\n\n#__# Asla\n#__# Davet {{current}} / {{total}}\n#__# Paylaşan {{sender}}"
+      "tournamentStructure": "Turnuva yapısı",
+      "availableTeams": "Mevcut takımlar",
+      "selectedTeams": "Seçili takımlar",
+      "qualifiedTeams": "Üst tura çıkan takımlar",
+      "qualified": "Üst tura çıktı",
+      "eliminated": "Elendi",
+      "groupFinished": "Grup aşaması tamamlandı. Artık playoffları oluşturabilirsiniz - bu adım yalnızca bir kez gerçekleştirilebilir.",
+      "createPlayoffs": "Playoffları oluştur",
+      "stageInProgress": "Grup aşaması hâlâ devam ediyor. Playoff oluşturma, grup aşaması tamamlandığında kullanılabilir olacaktır.",
+      "missingMatches": "Eksik maçlar tespit edildi",
+      "matchesDeleted": "Bazı maçlar silinmiş. İlk eksik turdan itibaren tüm maçları geri yüklemek için aşağıya tıklayın.",
+      "restoreAllMatches": "Tüm maçları geri yükle"
     },
     "match": {
       "matches": "Eşleşmeler",
@@ -770,11 +770,11 @@
       "serversUnreachable": "Sunucularımıza ulaşılamıyor gibi görünüyor. Lütfen birkaç dakika içinde tekrar deneyin",
       "preInstalled": "Önceden yüklenmiş kullanın",
       "cloudSynchronization": "Bulut Senkronizasyonu",
-      "hudConfigCloudSynchronization": "HUD Ayarları Bulut Senkronizasyonu",
+      "hudConfigCloudSynchronization": "Composer ve HUD Ayarları Bulut Senkronizasyonu",
       "hudTogglesCloudSynchronization": "HUD Bulut Senkronizasyonunu Açar",
-      "hudOrdersCloudSynchronization": "Bilinmeyen gönderici",
-      "sharedConfigCloudSynchronization": "Süre sonu {{expiresAt}}",
-      "sharedConfigSync": "HUD paylaşım daveti başarıyla gönderildi.\n\n#__# Paylaşım daveti gönderilemiyor. Lütfen tekrar deneyin.\n\n#__# Paylaşımları yönet\n#__# Aktif paylaşım sayısı maksimuma ulaştı.\n\n#__# Kendinizle bir HUD paylaşamazsınız.",
+      "hudOrdersCloudSynchronization": "HUD Sıralama Bulut Senkronizasyonu",
+      "sharedConfigCloudSynchronization": "Paylaşılan Yapılandırma Bulut Senkronizasyonu",
+      "sharedConfigSync": "Paylaşılan Yapılandırma Bulut Senkronizasyonu",
       "valorantWindowTitleOverride": "Valorant Pencere Başlığı Geçersiz Kılma",
       "valorantServerMode": "Veri Toplama Modu",
       "valorantReadLanguage": "Valorant Oyun Dili",
@@ -789,15 +789,15 @@
       "dota2Assets": "Dota 2 Varlıkları",
       "autoHalfSwitch": "Otomatik yarı anahtar (Deneysel)",
       "autoSwitch": "Otomatik anahtar",
-      "overrideCS2PlayerKeybinds": "Bu HUD zaten o kullanıcıyla paylaşılıyor.",
+      "overrideCS2PlayerKeybinds": "CS2 Oyuncu Tuş Atamalarını Geçersiz Kıl",
       "overrideCS2PlayerKeybindsOptions": {
-        "no": "Kamera Akışı Kalitesi\n#__# Daha yüksek kaliteli kamera akışları, bazı bilgisayarlarda ve internet bağlantılarında takılmalara neden olabilir.",
-        "focused": "Paylaşılan Yapılandırma Bulut Senkronizasyonu\n#__# Etkinleştirildiğinde, Paylaşılan Yapılandırma bölümleri (örneğin X-Ray ayarları) LHM Bulutu ile senkronize edilir, böylece cihazlarınız/çalışma alanlarınız arasında tutarlı kalırlar.\nPaylaşılan Yapılandırma değişikliklerini yalnızca yerel tutmak istiyorsanız bunu devre dışı bırakın.",
-        "always": "IP Adresi Geçersiz Kılma\n#__# Bunu yalnızca LHM yanlış bir özel ağ adresi algıladığında kullanın (örneğin bir VPN etkin olduğunda).\n\nHUD/tarayıcı kaynaklarınızın kullanması gereken yerel IP adresini ayarlayın.\nDeğişikliğin etkili olması için bu değeri değiştirdikten sonra LHM'yi yeniden başlatın."
+        "no": "Hayır",
+        "focused": "LHM odaktayken",
+        "always": "Her zaman"
       },
       "overrideCS2PlayerKeybindsModal": {
-        "title": "Yavaş Mod",
-        "info": "Yavaş Mod, ani trafik artışını azaltmak için API isteklerini bir kuyruk üzerinden gönderir. Bu, kısıtlayıcı ülke çapındaki güvenlik duvarı ortamlarında yardımcı olabilir.\n\nDeğişikliğin etkili olması için LHM'yi yeniden başlatın."
+        "title": "CS2 Oyuncu Tuş Atamalarını Geçersiz Kıl",
+        "info": "Bu seçenek, CS2'deki 1-0 tuş atamalarını HUD'da gösterilen gözlemci oyuncu yuvalarıyla eşleştirir; sunucuda koçlar varken kullanışlıdır.\nTuş atamalarını kalıcı yapmak için CS2 çalışırken bu seçeneği kapatmanız gerekir."
       },
       "header": "Ayarlar",
       "subheaders": {
@@ -879,7 +879,7 @@
           "dota2ARG": "Dota 2 ARG oynayın",
           "reverseSide": "Ters taraflar",
           "refreshHud": "HUD'ı Yenile",
-          "toggleDirector": "Bağlantı panoya kopyalandı",
+          "toggleDirector": "Scout Vision'ı Aç/Kapat",
           "toggleScoutPredict": "Toggle Scout Tahmin Et",
           "toggleScoutCinematic": "İzci Sinematiğini Değiştir"
         },
@@ -901,8 +901,8 @@
         "config": {
           "status": "Konfigürasyonlar",
           "add": "Yapılandırma dosyaları ekleme",
-          "overrideIp": "Turnuvaları Sil",
-          "slowMode": "{{count}} turnuvayı silmek istediğinizden emin misiniz?"
+          "overrideIp": "IP Adresi Geçersiz Kılma",
+          "slowMode": "Yavaş Mod"
         },
         "credits": {
           "credits": "Krediler",
@@ -938,12 +938,13 @@
     "huds": {
       "header": "HUD'lar",
       "workshopToolsModal": {
-        "title": "{{name}} turnuvayı sil",
-        "info": "{{name}} turnuvayı silmek istediğinizden emin misiniz?"
+        "title": "CS2 Workshop Tools Bulunamadı",
+        "info": "Counter-Strike 2 Workshop Tools DLC'si algılanmadı. CS2'yi Killfeed veya Scout AI etkin şekilde LHM ile başlatmak için gereklidir. Steam üzerinden indirip tekrar denemeniz önerilir.",
+        "launchAnyway": "Yine de başlat"
       },
       "config": {
         "customRadar": "Radar",
-        "customKillfeed": "Killfeed / Araçlar",
+        "customKillfeed": "Custom Killfeed",
         "embeddedHUD": "Yerleşik HUD",
         "killfeedOffset": "Killfeed Offset",
         "scout": "Scout AI/XRAY",
@@ -969,10 +970,17 @@
         "newest": "En Yeni",
         "oldest": "En eski"
       },
-      "categories": {},
+      "categories": {
+        "createTitle": "Kategori Oluştur",
+        "renameTitle": "Kategoriyi Yeniden Adlandır",
+        "deleteTitle": "{{name}} kategorisini sil",
+        "name": "Kategori adı",
+        "ungrouped": "Gruplandırılmamış",
+        "deleteInfo": "{{name}} kategorisini kaldırmak istediğinizden emin misiniz? Bu işlem hiçbir HUD'u kaldırmaz."
+      },
       "fields": {
         "missing": "Eksik alanlar",
-        "fieldOfType": "Field \"{{field}}\" of type \"{{type}}\"",
+        "fieldOfType": "\"{{type}}\" türünde \"{{field}}\" alanı",
         "fieldNamePlaceholder": "Alan adı",
         "inputType": "Giriş tipi",
         "values": {
@@ -989,11 +997,11 @@
       },
       "includes": {
         "customRadar": "Özel radar içerir",
-        "customKillfeed": "Özel öldürme beslemesi ekleyin"
+        "customKillfeed": "Custom Killfeed ekleyin"
       },
       "removal": {
         "title": "{{hud}} kaldırılıyor",
-        "areYouSure": "21}} kaldırmak istediğinizden emin misiniz?"
+        "areYouSure": "{{hud}} kaldırmak istediğinizden emin misiniz?"
       },
       "actions": {
         "toggleUrl": "HUD URL'sini değiştir",
@@ -1009,18 +1017,66 @@
         "toggleHUD": "Toggle HUD (Yalnızca Yerleşik)",
         "toggleHUDKeybinds": "HUD Tuş Bağlamalarını Değiştir (Tarayıcı Kaynağı İçin)",
         "clickToCopy": "Kopyalamak için tıklayın",
-        "linkCopied": "Kaplamada HUD açılıyor...",
+        "linkCopied": "Bağlantı panoya kopyalandı",
         "createShortcut": "Masaüstünde kısayol oluşturma"
       },
       "share": {
-        "actions": {},
-        "modal": {
-          "expiry": {}
+        "actions": {
+          "share": "Paylaş"
         },
-        "pending": {},
-        "meta": {},
+        "modal": {
+          "title": "HUD Paylaş",
+          "description": "Bu HUD'u başka bir kullanıcıya e-posta ile gönderin.",
+          "disclaimer": "Alıcı, bu paylaşımı aldığında LHM kullanıcı adınızı görecektir.",
+          "workspaceOwnerDisclaimer": "Bu HUD \"{{workspace}}\" çalışma alanına aittir. Çalışma alanı sahibi siz olmadığınız için davet ana Enterprise hesabı adına gönderilecektir.",
+          "emailLabel": "Alıcı e-postası",
+          "emailPlaceholder": "name@example.com",
+          "expiryLabel": "Erişim süresi",
+          "expiry": {
+            "week": "7 gün",
+            "month": "30 gün",
+            "custom": "Özel tarih",
+            "never": "Süresiz"
+          },
+          "customExpiryWarning": "Seçilen son kullanma tarihinden sonra HUD en fazla bir saat daha erişilebilir kalabilir.",
+          "submit": "Daveti gönder"
+        },
+        "pending": {
+          "title": "Bekleyen HUD paylaşım davetleri",
+          "description": "Paylaşılan bir HUD daveti aldınız:",
+          "unknownSender": "Bilinmeyen gönderen",
+          "unnamedHud": "İsimsiz HUD",
+          "unknownGame": "Bilinmeyen oyun",
+          "game": "Oyun: {{game}}",
+          "size": "Boyut: {{size}}",
+          "sharedBy": "Paylaşan: {{sender}}",
+          "acceptToWorkspace": "Çalışma alanına kabul et",
+          "acceptToWorkspaces": "Çalışma alanlarına kabul et",
+          "mainWorkspace": "Hesabım",
+          "workspaceUnavailableTitle": "Çalışma alanı kullanılamıyor",
+          "acceptingInfo": "Paylaşılan HUD seçtiğiniz çalışma alanlarına kopyalanırken lütfen bekleyin.",
+          "expiresAt": "Süre Sonu: {{expiresAt}}",
+          "upgradeRequired": "Bu HUD mevcut plan depolama sınırınızdan büyük. Kabul etmek için planınızı yükseltin.",
+          "enterpriseStorageRequired": "Bu çalışma alanında bu HUD için yeterli depolama alanı yok. HUD'u kabul etmek için bazı verileri silin.",
+          "enterpriseSelectionLimit": "Bu çalışma alanı, seçtiğiniz diğer Enterprise çalışma alanlarıyla depolama alanını paylaşıyor. Verileri silin veya başka bir çalışma alanının seçimini kaldırın.",
+          "notEnoughFreeSpace": "Bu HUD'u kabul etmek için yeterli boş bulut alanınız yok. Yer açıp tekrar deneyin.",
+          "never": "Süresiz",
+          "progress": "Davet {{current}} / {{total}}"
+        },
+        "meta": {
+          "sharedBy": "Paylaşan {{sender}}",
+          "unknownSender": "Bilinmeyen gönderen",
+          "expiresAt": "Süre sonu {{expiresAt}}"
+        },
         "notifications": {
-          "errors": {}
+          "created": "HUD paylaşım daveti başarıyla gönderildi.",
+          "error": "Paylaşım daveti gönderilemedi. Lütfen tekrar deneyin.",
+          "manageShares": "Paylaşımları yönet",
+          "errors": {
+            "SHARE_LIMIT_REACHED": "Etkin paylaşım sayısı üst sınıra ulaştı.",
+            "SHARE_SELF": "Kendinizle bir HUD paylaşamazsınız.",
+            "SHARE_ALREADY_EXISTS": "Bu HUD zaten bu kullanıcıyla paylaşılıyor."
+          }
         }
       },
       "warning": {
@@ -1100,8 +1156,8 @@
           }
         },
         "scout": {
-          "title": "Gözcü Yapay Zeka",
-          "info": "Bu seçeneğin etkinleştirilmesi CS2'yi VConsole2 ile başlatacaktır, bu da uygun şekilde yapılandırılmadığı sürece sunuculara katılmanızı engelleyebilir."
+          "title": "Scout AI",
+          "info": "Bu seçenek Workshop Tools gerektirir ve HLAE çalıştırır.\nBu seçeneği etkinleştirmek, LHM'nin Scout Cinematic'i ve Scout Vision'ın direct modunu kullanmasını sağlar.\nBu seçenek CS2'yi güvensiz modda başlatır - etkin olduğu sürece CSTV izleyicisi olmadıkça VAC korumalı sunuculara (ör. Faceit, eşleştirme) katılmayın."
         },
         "tab": {
           "title": "HUDs Sekmesi",
@@ -1112,8 +1168,8 @@
           "info": "Bu seçeneği etkinleştirmek ve oyunu aşağıda sunulan yapılandırma ile çalıştırmak veya \"Oyunu çalıştır\" düğmesini kullanmak, HUD'larınızda yerleşik özel radarı kullanmak için oyun içi radarı devre dışı bırakacaktır."
         },
         "killfeed": {
-          "title": "Killfeed / Araçlar",
-          "info": "Bu seçeneği etkinleştirmek ve oyunu aşağıda sunulan yapılandırma ile çalıştırmak veya \"Oyunu çalıştır\" düğmesini kullanmak, HUD'larınızda yerleşik özel öldürme beslemesini kullanmak için oyun içi öldürme beslemesini devre dışı bırakacaktır.\nBu seçenek CS2'yi güvensiz modda başlatacaktır - etkin olduğu sürece CSTV izleyicisi olmadıkça VAC korumalı sunuculara (örneğin Faceit, eşleştirme) katılmayın."
+          "title": "Custom Killfeed",
+          "info": "Bu seçenek Workshop Tools gerektirir ve HLAE çalıştırır.\nBu seçeneği etkinleştirip oyunu aşağıdaki yapılandırma ile başlattığınızda veya \"Run game\" düğmesini kullandığınızda, oyun içi killfeed devre dışı kalır ve HUD'larınızdaki Custom Killfeed kullanılır.\nBu seçenek CS2'yi güvensiz modda başlatır - etkin olduğu sürece CSTV izleyicisi olmadıkça VAC korumalı sunuculara (örn. Faceit, eşleştirme) katılmayın."
         },
         "embeddedHUD": {
           "title": "Yerleşik HUD",
@@ -1132,7 +1188,7 @@
           "info": "\"Oyunu çalıştır\" düğmesi, bu seçenek etkinleştirildiğinde oyunu aşağıda sunulan yapılandırma ile başlatacaktır."
         },
         "xray": {
-          "title": "XRay",
+          "title": "X-Ray",
           "info": "Bu seçenekle oyundaki oyuncu kenarlıkları için özel renkler ayarlayabilirsiniz."
         },
         "runTest": {
@@ -1186,7 +1242,7 @@
       },
       "arg": {
         "tab": {
-          "title": "Tekrarlar",
+          "title": "Replays",
           "info": "Auto Replay Generator (ARG) modülü, turlar arasında veya bir oyunun sonunda görüntülenebilecek tekrarlar oluşturur.\nDoğru ARG yapılandırması için vMix'in gerekli olduğunu lütfen unutmayın. vMix ücretsiz bir uygulama değildir ve ARG'nin kendisi öncelikli olarak vMix kullanan üretim ekipleri için tasarlanmıştır."
         },
         "safeband": {
@@ -1216,7 +1272,7 @@
           "info": "Telnet CS2 ile iletişim için bir protokoldür. Kullanılırken, LHM uzaktan komutlarla oynatıcıları değiştireceğinden, CS2 penceresinin odakta olmasına gerek yoktur."
         },
         "tab": {
-          "title": "Gözcü Yapay Zeka",
+          "title": "Scout AI",
           "info": "Her eylemi mükemmel bir şekilde ve ideal bir perspektiften yakalamak imkansızdır - ancak Scout buna gerçekten yaklaşıyor. Kendi yapay zekamız binlerce oyundan öğrenerek en heyecanlı olayları insan girdisi olmadan kendi başına yakalıyor."
         },
         "area": {
@@ -1240,7 +1296,7 @@
           "info": "Geçiş açıldığında, Scout AI otomatik olarak başlar. Tuş bağlamayı da kullanabilirsiniz (varsayılan: ALT + K)."
         },
         "scoutCinematic": {
-          "title": "Scout Yapay Zeka Sinematik Modu",
+          "title": "Scout AI Sinematik Modu",
           "info": "Bu modda, Scout AI, en eksiksiz gözlem deneyimini sağlamak için ACO AI ile birlikte çalışacaktır. Onsuz, Scout AI herhangi bir genel bakış çekimi olmadan yalnızca POV kamera sağlayacaktır.\nBu mod yalnızca ACO AI maçın oynandığı haritayı destekliyorsa geçerlidir."
         },
         "scoutPredict": {
@@ -1269,7 +1325,10 @@
           "title": "Kamera Gecikmesi",
           "info": "Kamera Gecikmesi şu anda yalnızca resmi Lexogrine HUD'larda desteklenmektedir: Ultra & Premium HUD'lar"
         },
-        "quality": {},
+        "quality": {
+          "title": "Kamera Yayın Kalitesi",
+          "info": "Daha yüksek kaliteli kamera yayınları bazı bilgisayarlarda ve internet bağlantılarında takılmaya neden olabilir."
+        },
         "tab": {
           "title": "Kameralar",
           "info": "Kameralar modülü, LHM kullanarak oyuncu web kamerası yayınlarını HUD'larınızın içinde görüntülemenizi sağlar - harici araçlara gerek yoktur."
@@ -1283,7 +1342,7 @@
       },
       "quick": {
         "tab": {
-          "title": "Hızlı",
+          "title": "Quick",
           "info": "LHM Quick, tüm oyuncu, takım ve HUD kurulumunuzu tek bir yerden hızlı bir şekilde hazırlamanıza olanak tanıyarak yayınınızı hemen başlatmanızı sağlar."
         }
       },
@@ -1294,26 +1353,40 @@
         }
       },
       "settings": {
-        "sharedConfigSync": {},
-        "ipAddressOverride": {},
-        "slowMode": {}
+        "sharedConfigSync": {
+          "title": "Shared Config Bulut Senkronizasyonu",
+          "info": "Etkinleştirildiğinde, Shared Config bölümleri (örneğin X-Ray ayarları) LHM Cloud ile senkronize edilir, böylece cihazlarınız/çalışma alanlarınız arasında tutarlı kalabilir.\nShared Config değişikliklerini yalnızca yerelde tutmak istiyorsanız bunu devre dışı bırakın."
+        },
+        "ipAddressOverride": {
+          "title": "IP Adresi Geçersiz Kılma",
+          "info": "Bunu yalnızca LHM yanlış bir özel ağ adresi algılarsa kullanın (örneğin bir VPN etkin olduğunda).\nHUD/tarayıcı kaynaklarınızın kullanması gereken yerel IP adresini ayarlayın.\nBu değeri değiştirdikten sonra etkili olması için LHM'yi yeniden başlatın."
+        },
+        "slowMode": {
+          "title": "Yavaş Mod",
+          "info": "Yavaş Mod, ani trafik yükünü azaltmak için API isteklerini kuyruk üzerinden gönderir. Bu, ülke genelinde kısıtlayıcı güvenlik duvarı ortamlarında yardımcı olabilir.\nBu değeri değiştirdikten sonra etkili olması için LHM'yi yeniden başlatın."
+        }
       }
     },
     "modals": {
       "imageTooLarge": {
         "title": "Görüntü çok büyük",
-        "info": "Seçilen resim çok büyük. Boyut sınırı {{hud}} MB."
+        "info": "Seçilen resim çok büyük. Boyut sınırı {{limit}} MB."
       },
       "delete": {
         "titleTeams": "Ekipleri sil",
         "titlePlayers": "Oyuncuları sil",
         "titleMatches": "Eşleşmeleri sil",
-        "infoTeams": "{{limit}} takımları kaldırmak istediğinizden emin misiniz?",
+        "titleTournaments": "Turnuvaları sil",
+        "infoTeams": "{{count}} takımı kaldırmak istediğinizden emin misiniz?",
         "infoPlayers": "{{count}} oyuncuları kaldırmak istediğinizden emin misiniz?",
+        "infoTournaments": "{{count}} turnuvayı kaldırmak istediğinizden emin misiniz?",
         "infoMatches": "{{count}} eşleşmelerini kaldırmak istediğinizden emin misiniz?",
         "deleteWithPlayers": "Oyuncularla silin",
         "deleteAll": "Tümünü Sil ({{count}})",
-        "single": {}
+        "single": {
+          "titleTournament": "{{name}} turnuvasını sil",
+          "infoTournament": "{{name}} turnuvasını kaldırmak istediğinizden emin misiniz?"
+        }
       },
       "steamApiKeyMissing": {
         "title": "Steam API Anahtarı Eksik",
@@ -1352,7 +1425,7 @@
     },
     "streamDeck": {
       "modalTitle": "Stream Deck kullandığınızı tespit ettik",
-      "modalInfo": "lHM'nin bağlanmasını istiyor musunuz?"
+      "modalInfo": "LHM'nin bağlanmasını istiyor musunuz?"
     },
     "newToLHM": {
       "games": {
@@ -1360,7 +1433,7 @@
         "description": "LHM'de yeni misiniz? Burada uygulamayı kullanmaya başlamak için bazı temel ipuçları bulacaksınız!\n\nLHM şu anda CS2, Dota 2, League of Legends, Rocket League, Apex Legends ve F1'i desteklemektedir. Desteklenen her oyun, LHM ile düzgün çalışması için basit ama gerekli bir yapılandırma gerektirir.\nLHM ile kullanmak istediğiniz herhangi bir oyunu nasıl kuracağınızı öğrenmek için aşağıdaki Daha Fazla Bilgi Edinin düğmesine tıklayın."
       },
       "quick": {
-        "title": "LHM Hızlı",
+        "title": "LHM Quick",
         "description": "LHM Quick, HUD ile başlatmak için oyuncuları ve takımları hızlı bir şekilde yapılandırmanıza olanak tanır. Bu özellik öncelikle LHM'nin nasıl çalıştığını bilen kullanıcılar için ve hemen başlamalarını sağlamak için tasarlanmıştır.\nŞu anda LHM Quick'te desteklenen oyunlar CS2, CS:GO, Dota 2, League of Legends ve Rocket League'dir.\nLHM Quick hakkında daha fazla bilgi edinmek için aşağıdaki Daha Fazla Bilgi Edinin düğmesine tıklayın."
       },
       "huds": {
@@ -1369,7 +1442,7 @@
       },
       "lhmHuds": {
         "title": "LHM HUD'lar",
-        "description": "Her LHM planı yerleşik HUD'lara sahiptir. Plan ne kadar yüksekse, HUD'lar da o kadar gelişmiş olur. Her biri hakkında daha fazla bilgi edinmek için aşağıdaki isimlere tıklayın:\n\n- Desteklenen herhangi bir oyun için varsayılan HUD\n- CS2|premiumCS2]], [[Dota 2|premiumDota2]], [[LoL|premiumLoL]], [[Rocket League|premiumRL]] için Premium HUD\n- CS2|ultraCS2]] ve [[Dota 2|ultraDota2]] için Ultra HUD"
+        "description": "Her LHM planında yerleşik HUD'lar bulunur. Plan seviyesi yükseldikçe HUD'lar daha gelişmiş olur. Her biri hakkında daha fazla bilgi edinmek için aşağıdaki adlara tıklayın:\n\n- Desteklenen herhangi bir oyun için varsayılan HUD\n- [[CS2|premiumCS2]], [[Dota 2|premiumDota2]], [[LoL|premiumLoL]], [[Rocket League|premiumRL]] için Premium HUD\n- [[CS2|ultraCS2]] ve [[Dota 2|ultraDota2]] için Ultra HUD"
       },
       "userGuide": {
         "title": "Kullanıcı kılavuzu",

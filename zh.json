@@ -18,10 +18,10 @@
       "noTeam": "沒有團隊",
       "noPlayer": "没有球员",
       "noMatch": "未找到比赛",
-      "noTournament": "没有比赛",
+      "noTournament": "没有锦标赛",
       "noValue": "默认",
       "teamOne": "一队",
-      "teamTwo": "第二小组",
+      "teamTwo": "二队",
       "show": "显示",
       "hide": "隐藏",
       "map": "地图",
@@ -34,35 +34,35 @@
       "champion": "冠军",
       "teams": "球队",
       "team1": "球队 1",
-      "team2": "第2小组",
+      "team2": "队伍 2",
       "teamNumber": "队伍 #{{num}}",
-      "vetoNumber": "否决票 {{{num}}",
+      "vetoNumber": "Veto {{num}}",
       "delete": "删除",
       "delete-all": "全部删除",
       "edit": "编辑",
       "live": "直播",
-      "match": "匹配",
+      "match": "比赛",
       "goBack": "返回",
       "ct": "CT",
       "t": "T",
-      "no": "无",
+      "no": "否",
       "yes": "是的",
       "deleteAll": "全部删除",
       "noDontAsk": "否，不要问",
       "csgo": {
         "ct": "CT",
         "t": "T",
-        "no": "无"
+        "no": "否"
       },
       "cs2": {
         "ct": "CT",
         "t": "T",
-        "no": "无"
+        "no": "否"
       },
       "valorant": {
         "ct": "DEF",
         "t": "ATK",
-        "no": "无"
+        "no": "否"
       },
       "export": "出口",
       "cancel": "取消",
@@ -154,13 +154,13 @@
       }
     },
     "titles": {
-      "players": "播放器",
+      "players": "玩家",
       "teams": "球队",
       "arg": "Replays",
-      "aco": "自动电影观察器",
+      "aco": "Scout AI",
       "ar": "增强现实",
       "cgpanel": "CG 模式",
-      "huds": "HUD",
+      "huds": "HUDs",
       "matches": "匹配",
       "tournaments": "锦标赛",
       "live": "现场直播",
@@ -169,7 +169,7 @@
       "addons": "附加组件",
       "settings": "设置",
       "credits": "积分",
-      "quick": "快速",
+      "quick": "Quick",
       "chat": "支持聊天",
       "composer": "Composer",
       "xray": "X-RAY"
@@ -199,13 +199,13 @@
       "enableDirector": "启用指挥",
       "scoutPredict": "启用预测",
       "telnet": "启用远程登录",
-      "telnetWarning": "要使用 Telnet，必须使用工作坊工具启动 CS2。您可以启用 HUDs 标签中的 \"Killfeed / Tools\" 选项，然后点击 \"Run Game\" 按钮。",
-      "cinematicWarning": "要使用 Scout Cinematic，必须使用 Workshop Tools 启动 CS2。您可以通过在 HUD 选项卡中启用“Killfeed / Tools”选项并单击“运行游戏”按钮来做到这一点。启用 Scout Cinematic 还将强制 Scout Vision 在直接模式下运行。",
-      "disabledDescription": "所有控制权都交给你和你的观察员。\\n玩得开心",
+      "telnetWarning": "要使用 Telnet，CS2 必须使用 Workshop Tools 启动。你可以在 HUDs 标签页中启用 \"Scout AI\" 选项并点击 \"Run Game\" 按钮来实现。",
+      "cinematicWarning": "要使用 Scout Cinematic，CS2 必须使用 Workshop Tools 启动。你可以在 HUDs 标签页中启用 \"Scout AI\" 选项并点击 \"Run Game\" 按钮来实现。启用 Scout Cinematic 还会强制 Scout Vision 以 Direct 模式运行。",
+      "disabledDescription": "所有控制权都交给你和你的观察员。",
       "aco1Description": "控制与自动化的平衡。\\n为您的观察员提供一套人工编写的 ACO 指令。",
       "aco-aiDescription": "坐等 ACO 人工智能的先进算法控制您的数据流。",
-      "aco-ai-scoutDescription": "坐等 ACO 人工智能的先进算法控制您的数据流。",
-      "aco-ai-scoutDescription-disconnected": "让我们最新的比赛预测系统掌舵。\\n即将推出",
+      "aco-ai-scoutDescription": "让 AI 比赛观察员在无需用户干预的情况下观赛。",
+      "aco-ai-scoutDescription-disconnected": "让 AI 比赛观察员在无需用户干预的情况下观赛。\\nScout 服务器当前可能不可用。",
       "scoutCinematicDescription": "在比赛休息期间展示精美的电影镜头。",
       "scoutPredictDescription": "直接在直播中显示现场比赛结果预测。",
       "scoutCinematic": "使用电影侦察",
@@ -216,7 +216,7 @@
       "areaPriorityPlaceholder": "区域优先级",
       "addConfigHeader": "为该区域添加新配置",
       "addConfigPlaceholder": "输入要在此区域执行的命令",
-      "timeRemaining": "侦察兵人工智能剩余时间",
+      "timeRemaining": "可用时间",
       "scoutServerUnavailable": "LHM无法连接到Scout AI服务器。\n请几分钟后再试。",
       "scoutSubtitle": "AI 观察者",
       "scoutGetMoreTime": "获得更多时间",
@@ -257,23 +257,23 @@
       "uhudPlayersStatsFontSize": "统计数据字体大小",
       "uhudPlayersHealthFontSize": "生命值字体大小",
       "visible": "可见",
-      "previewTitle": "作曲家预览 {{component}}",
+      "previewTitle": "Composer 预览 {{component}}",
       "components": {
-        "matchbar": "匹配栏",
+        "matchbar": "Matchbar",
         "left-player": "左侧玩家",
         "right-player": "右侧玩家",
         "left-money": "左侧金钱",
         "right-money": "右侧金钱",
         "players": "玩家",
         "observed-player": "观察到的玩家",
-        "killfeed": "击杀信息",
+        "killfeed": "Killfeed",
         "round-history": "回合历史记录",
         "mapseries": "地图系列",
         "asset": "自定义素材",
         "winbox": "回合胜利指示器",
         "sponsors": "赞助商",
         "tournament-info": "赛事信息",
-        "scout": "侦察预测",
+        "scout": "Scout Predict",
         "radar": "雷达",
         "anims-plant": "安放炸弹动画",
         "anims-defuse-short": "拆除炸弹动画（短）",
@@ -282,11 +282,11 @@
         "anims": "动画"
       },
       "huds": {
-        "ultrahud": "超高清 HUD",
-        "amberhud": "琥珀色 HUD",
-        "sapphirehud": "蓝宝石色 HUD",
-        "neonhud": "霓虹色 HUD",
-        "fullHud": "完整 HUD"
+        "ultrahud": "Ultra HUD",
+        "amberhud": "Amber HUD",
+        "sapphirehud": "Sapphire HUD",
+        "neonhud": "Neon HUD",
+        "fullHud": "Full HUD"
       },
       "layouts": {
         "vertical": "垂直",
@@ -331,104 +331,104 @@
       "fields": {
         "variant": "变体",
         "style": "样式",
-        "styles": "布局",
-        "layout": "字体",
-        "fontFamily": "全局图案",
-        "globalPattern": "全局图案不透明度",
-        "globalPatternOpacity": "背景图像适配",
-        "backgroundImageFit": "边框圆角",
-        "borderRadius": "边框宽度",
-        "borderWidth": "边框样式",
-        "borderStyle": "X 坐标",
-        "positionX": "Y 坐标",
-        "positionY": "水平居中",
-        "centerHorizontally": "垂直居中",
-        "centerVertically": "缩放",
-        "scale": "Z 轴索引",
-        "zIndex": "当前图层",
-        "currentLayer": "对齐方式",
-        "align": "自定义CSS",
-        "customCss": "持续时间",
-        "duration": "限制",
-        "limit": "边框"
+        "styles": "样式",
+        "layout": "布局",
+        "fontFamily": "字体族",
+        "globalPattern": "全局图案",
+        "globalPatternOpacity": "全局图案不透明度",
+        "backgroundImageFit": "背景图适配",
+        "borderRadius": "边框圆角",
+        "borderWidth": "边框宽度",
+        "borderStyle": "边框样式",
+        "positionX": "X 坐标",
+        "positionY": "Y 坐标",
+        "centerHorizontally": "水平居中",
+        "centerVertically": "垂直居中",
+        "scale": "缩放",
+        "zIndex": "Z 轴层级",
+        "currentLayer": "当前图层",
+        "align": "对齐",
+        "customCss": "自定义 CSS",
+        "duration": "持续时间",
+        "limit": "限制"
       },
       "labels": {
-        "border": "背景",
-        "background": "反恐精英",
-        "counterTerrorists": "恐怖分子",
-        "terrorists": "未选择文件"
+        "border": "边框",
+        "background": "背景",
+        "counterTerrorists": "反恐精英",
+        "terrorists": "恐怖分子"
       },
       "files": {
-        "noFileSelected": "赞助商图片",
-        "sponsorImage": "资源文件",
-        "assetFile": "未选择图片",
-        "noImagesSelected": "已选择 1 张图片",
+        "noFileSelected": "未选择文件",
+        "sponsorImage": "赞助商图片",
+        "assetFile": "资源文件",
+        "noImagesSelected": "未选择图片",
         "oneImageSelected": "已选择 1 张图片",
         "imagesSelected": "已选择 {{count}} 张图片",
-        "plantFile": "拆弹短文件",
-        "defuseShortFile": "拆弹长文件",
-        "defuseLongFile": "自定义"
+        "plantFile": "安放炸弹文件",
+        "defuseShortFile": "短拆弹文件",
+        "defuseLongFile": "长拆弹文件"
       },
       "options": {
-        "custom": "封面",
-        "cover": "包含",
-        "contain": "无",
-        "none": "顶部",
-        "top": "左侧",
-        "left": "中心",
-        "center": "右侧\n\n底部",
-        "right": "正面",
-        "bottom": "性能信息",
-        "front": "自定义 CSS 颜色变量帮助"
+        "custom": "自定义",
+        "cover": "覆盖",
+        "contain": "包含",
+        "none": "无",
+        "top": "顶部",
+        "left": "左侧",
+        "center": "居中",
+        "right": "右侧",
+        "bottom": "底部",
+        "front": "前景"
       },
       "tooltips": {
-        "performanceInformation": "要在自定义 CSS 中使用团队颜色，请使用 CSS 变量：var(--color-new-t)。",
-        "customCssColorVariablesHelp": "暂时一次性渲染所有 Composer 组件可能会降低低配置机器上的预览性能。这是设置过程中的正常现象，完成HUD配置后不会影响性能。",
-        "customCss": "搜索组件...",
-        "bulkVisibilityPerformance": "/* 自定义样式 */"
+        "performanceInformation": "性能信息",
+        "customCssColorVariablesHelp": "自定义 CSS 颜色变量帮助",
+        "customCss": "要在自定义 CSS 中使用队伍颜色，请使用 CSS 变量：var(--color-new-t)。",
+        "bulkVisibilityPerformance": "暂时一次性渲染所有 Composer 组件可能会降低低配置机器上的预览性能。这是设置过程中的正常现象，完成 HUD 配置后不会影响性能。"
       },
       "placeholders": {
-        "search": "使用头像",
-        "customCss": "玩家大小"
+        "search": "搜索组件...",
+        "customCss": "/* 自定义样式 */"
       },
       "radar": {
-        "useAvatar": "雷达不透明度",
-        "playerSize": "使用渐变",
-        "radarOpacity": "手雷动画变体",
-        "useGradient": "死亡玩家标记",
-        "grenadeAnimationVariant": "启用渐变覆盖",
-        "deadPlayerMarker": "渐变停止颜色",
-        "gradientOverrideEnabled": "启用人群缩放",
-        "gradientStopColor": "炸弹携带者颜色",
-        "crowdZoomEnabled": "烟雾颜色",
-        "bombCarrierColor": "闪光颜色",
-        "smokeColor": "手雷颜色",
-        "flashColor": "燃烧瓶颜色",
-        "grenadeColor": "炸弹颜色",
-        "molotovColor": "安放炸弹最大宽度",
-        "bombColor": "安放炸弹最大高度"
+        "useAvatar": "使用头像",
+        "playerSize": "玩家大小",
+        "radarOpacity": "雷达不透明度",
+        "useGradient": "使用渐变",
+        "grenadeAnimationVariant": "手雷动画变体",
+        "deadPlayerMarker": "死亡玩家标记",
+        "gradientOverrideEnabled": "启用渐变覆盖",
+        "gradientStopColor": "渐变终止颜色",
+        "crowdZoomEnabled": "启用人群缩放",
+        "bombCarrierColor": "炸弹携带者颜色",
+        "smokeColor": "烟雾颜色",
+        "flashColor": "闪光颜色",
+        "grenadeColor": "手雷颜色",
+        "molotovColor": "燃烧瓶颜色",
+        "bombColor": "炸弹颜色"
       },
       "anims": {
-        "plantMaxWidth": "拆除炸弹最大宽度",
-        "plantMaxHeight": "拆除炸弹最大高度",
-        "defuseMaxWidth": "（目标约 5 秒）",
-        "defuseMaxHeight": "（目标约 10 秒）",
-        "targetFiveSeconds": "默认",
-        "targetTenSeconds": "暗"
+        "plantMaxWidth": "安放炸弹最大宽度",
+        "plantMaxHeight": "安放炸弹最大高度",
+        "defuseMaxWidth": "拆弹最大宽度",
+        "defuseMaxHeight": "拆弹最大高度",
+        "targetFiveSeconds": "（目标约 5 秒）",
+        "targetTenSeconds": "（目标约 10 秒）"
       },
       "radarVariants": {
-        "default": "干净",
-        "dark": "高对比度",
-        "clean": "默认",
-        "high-contrast": "卡通"
+        "default": "默认",
+        "dark": "暗色",
+        "clean": "简洁",
+        "high-contrast": "高对比"
       },
       "radarGrenadeAnimationVariants": {
-        "default": "淡入淡出",
-        "carton": "X 队"
+        "default": "默认",
+        "carton": "卡通"
       },
       "radarDeadPlayerMarkers": {
-        "fade": "设置为教练",
-        "team-x": "摄像头延迟（秒）"
+        "fade": "淡出",
+        "team-x": "队伍 X"
       }
     },
     "players": {
@@ -441,14 +441,14 @@
       "importPlayersExcel": "使用我们预先准备好的 Excel 表单，一次轻松导入多名球员。",
       "exportPlayers": "导出",
       "avatar": "头像",
-      "setAsCoach": "摄像头流质量"
+      "setAsCoach": "设为教练"
     },
     "teams": {
       "edit": "编辑团队",
       "uploadLogo": "徽标",
       "logoInfo": "如果可能的话，在给定的HUD中为球队使用的徽标",
       "addTeam": "添加队伍",
-      "exportTeams": "导入",
+      "exportTeams": "导出",
       "importTeamsTitle": "导入球队",
       "importTeamsExcel": "使用我们预先准备好的 Excel 表单，一次轻松导入多个球队。",
       "logo": "徽标"
@@ -468,10 +468,10 @@
       "stopTestVideo": "停止测试视频",
       "testVideoBlocker": "必须运行游戏才能播放测试视频，并在上表中填写玩家。观看演示或播放测试数据，然后选择测试球员",
       "testPlayer": "测试球员",
-      "delay": "与至少一名玩家（黄色圆点标记）的连接受对称 NAT 阻碍。这通常会导致摄像头流连接问题。建议玩家更换网络连接并刷新摄像头页面。",
-      "cameraQuality": "您的连接受对称 NAT 阻碍。这通常会导致摄像头流连接问题。建议更换网络连接并重启 LHM。",
-      "cameraWarningPlayer": "合成器",
-      "cameraWarningUser": "创建默认设置"
+      "delay": "摄像头延迟（秒）",
+      "cameraQuality": "摄像头流质量",
+      "cameraWarningPlayer": "与至少一名球员（黄色圆点标记）的连接受对称 NAT 阻碍。这通常会导致摄像头流连接问题。建议该球员更换网络连接并刷新摄像头页面。",
+      "cameraWarningUser": "您的连接受对称 NAT 阻碍。这通常会导致摄像头流连接问题。建议更换网络连接并重启 LHM。"
     },
     "addons": {
       "upload": "上传插件",
@@ -493,10 +493,10 @@
       "huds": "HUD",
       "aco": "Scout AI",
       "addons": "附加组件",
-      "composer": "创建空白设置",
+      "composer": "Composer",
       "ar": "AR",
       "live": "直播",
-      "quick": "快速",
+      "quick": "Quick",
       "professionalOnly": "仅限专业版",
       "nonFreeOnly": "非免费",
       "cameras": "相机",
@@ -507,7 +507,7 @@
       "validUntil": "有效期至",
       "nextPayment": "下次付款",
       "logout": "注销",
-      "arg": "重播"
+      "arg": "Replays"
     },
     "signals": {
       "removal": {
@@ -523,8 +523,8 @@
         "placeholder": "预置名称",
         "clone": "从当前预设复制",
         "createNew": "创建空白",
-        "createFromDefault": "组 &季后赛",
-        "createBlank": "此阶段无比赛"
+        "createFromDefault": "创建默认",
+        "createBlank": "创建空白"
       },
       "activate": "{{ name }}未激活",
       "deactivate": "{{ name }}已激活",
@@ -587,12 +587,12 @@
       "page": "锦标赛页面",
       "create": "创建新锦标赛",
       "name": "锦标赛名称",
-      "groupAndPlayoffs": "季后赛已成功创建",
-      "noMatchesInStage": "冠军",
-      "playoffsCreated": "对阵表",
-      "champion": "比分",
-      "bracket": "仅季后赛",
-      "setScore": "小组赛 + 季后赛",
+      "groupAndPlayoffs": "小组赛与季后赛",
+      "noMatchesInStage": "此阶段无比赛",
+      "playoffsCreated": "季后赛已成功创建",
+      "champion": "冠军",
+      "bracket": "对阵表",
+      "setScore": "设置比分",
       "uploadLogo": "上传锦标赛徽标",
       "logoInfo": "比赛徽标将在比赛中显示",
       "singleElimBracket": "单败淘汰赛",
@@ -601,8 +601,8 @@
       "group": "小组赛",
       "playoffs": "季后赛",
       "playoffType": "季后赛类型",
-      "playoffsOnly": "默认最佳赛制",
-      "grouppAndPlayoffs": "默认最佳赛制（适用于新比赛）",
+      "playoffsOnly": "仅季后赛",
+      "grouppAndPlayoffs": "小组赛 + 季后赛",
       "soon": "很快",
       "groupType": "小组赛类型",
       "participants": "参与者",
@@ -610,21 +610,21 @@
       "amountOfTeams": "团队数量",
       "amountOfRounds": "回合数",
       "bindMatch": "将比赛绑定到包围圈",
-      "defaultBo": "赛事结构",
-      "defaultBoEdit": "可用队伍",
+      "defaultBo": "默认 Best Of 赛制",
+      "defaultBoEdit": "默认 Best Of 赛制（用于新比赛）",
       "teamOrderList": "队伍顺序列表",
-      "tournamentStructure": "已选队伍",
-      "availableTeams": "已晋级队伍",
-      "selectedTeams": "已晋级队伍",
-      "qualifiedTeams": "已淘汰队伍",
-      "qualified": "小组赛已结束。您现在可以创建季后赛 - 此步骤只能执行一次。",
-      "eliminated": "创建季后赛",
-      "groupFinished": "小组赛仍在进行中。小组赛结束后，即可创建季后赛。",
-      "createPlayoffs": "检测到缺失比赛",
-      "stageInProgress": "部分比赛已被删除。点击下方按钮，恢复第一轮缺失的所有比赛。 #__#\n\n恢复所有比赛",
-      "missingMatches": "HUD 顺序云同步",
-      "matchesDeleted": "共享配置云同步",
-      "restoreAllMatches": "共享配置云同步"
+      "tournamentStructure": "赛事结构",
+      "availableTeams": "可用队伍",
+      "selectedTeams": "已选队伍",
+      "qualifiedTeams": "晋级队伍",
+      "qualified": "已晋级",
+      "eliminated": "已淘汰",
+      "groupFinished": "小组赛已结束。您现在可以创建季后赛——此步骤只能执行一次。",
+      "createPlayoffs": "创建季后赛",
+      "stageInProgress": "小组赛仍在进行中。小组赛结束后即可创建季后赛。",
+      "missingMatches": "检测到缺失比赛",
+      "matchesDeleted": "部分比赛已被删除。点击下方可从第一轮缺失处恢复所有比赛。",
+      "restoreAllMatches": "恢复所有比赛"
     },
     "match": {
       "matches": "比赛",
@@ -772,9 +772,9 @@
       "cloudSynchronization": "云同步",
       "hudConfigCloudSynchronization": "HUD设置云同步",
       "hudTogglesCloudSynchronization": "HUD 切换云同步",
-      "hudOrdersCloudSynchronization": "覆盖 CS2 玩家按键绑定",
-      "sharedConfigCloudSynchronization": "否",
-      "sharedConfigSync": "当 LHM 处于焦点状态时",
+      "hudOrdersCloudSynchronization": "HUD 顺序云同步",
+      "sharedConfigCloudSynchronization": "共享配置云同步",
+      "sharedConfigSync": "共享配置云同步",
       "valorantWindowTitleOverride": "Valorant 窗口标题覆盖",
       "valorantServerMode": "数据采集模式",
       "valorantReadLanguage": "Valorant 游戏语言",
@@ -789,15 +789,15 @@
       "dota2Assets": "多塔 2 资产",
       "autoHalfSwitch": "自动半场切换（实验性）",
       "autoSwitch": "自动切换",
-      "overrideCS2PlayerKeybinds": "始终",
+      "overrideCS2PlayerKeybinds": "覆盖 CS2 玩家按键绑定",
       "overrideCS2PlayerKeybindsOptions": {
-        "no": "覆盖 CS2 玩家按键绑定",
-        "focused": "此选项会将 CS2 的按键绑定 1-0 设置为与 HUD 上显示的观察者玩家位置相匹配，这在服务器上有教练时非常有用。\n\n要保存按键绑定，您必须在 CS2 运行时关闭此选项。",
-        "always": "IP 地址覆盖"
+        "no": "否",
+        "focused": "当 LHM 处于焦点状态时",
+        "always": "始终"
       },
       "overrideCS2PlayerKeybindsModal": {
-        "title": "慢速模式",
-        "info": "未找到 CS2 工作坊工具"
+        "title": "覆盖 CS2 玩家按键绑定",
+        "info": "此选项会将 CS2 的按键绑定 1-0 设置为与 HUD 上显示的观察者玩家位置相匹配，这在服务器上有教练时非常有用。\n要保存按键绑定，您必须在 CS2 运行时关闭此选项。"
       },
       "header": "设置",
       "subheaders": {
@@ -814,7 +814,7 @@
         "label": "半场行为",
         "none": "无",
         "switch": "换队（左 <-> 右）",
-        "keep": "强制保持队伍' 边"
+        "keep": "强制保持队伍所在阵营"
       },
       "rocketleague": {
         "integration": "RL 集成",
@@ -901,8 +901,8 @@
         "config": {
           "status": "配置",
           "add": "添加配置文件",
-          "overrideIp": "未检测到《反恐精英 2》工作坊工具 DLC。启用击杀信息或侦察兵 AI 启动 CS2 时，需要将其与 LHM 一起使用。建议通过 Steam 下载后再试一次。",
-          "slowMode": "仍然启动"
+          "overrideIp": "IP 地址覆盖",
+          "slowMode": "慢速模式"
         },
         "credits": {
           "credits": "信用",
@@ -936,18 +936,18 @@
       "deleteLocally": "删除AR模块"
     },
     "huds": {
-      "header": "HUD",
+      "header": "HUDs",
       "workshopToolsModal": {
-        "title": "创建类别",
-        "info": "重命名类别",
-        "launchAnyway": "删除 {{name}} 类别"
+        "title": "未找到 CS2 Workshop Tools",
+        "info": "未检测到 Counter-Strike 2 Workshop Tools DLC。启用 Killfeed 或 Scout AI 启动 CS2 时必须使用该 DLC。建议通过 Steam 下载后重试。",
+        "launchAnyway": "仍然启动"
       },
       "config": {
         "customRadar": "雷达",
-        "customKillfeed": "Killfeed",
+        "customKillfeed": "Custom Killfeed",
         "embeddedHUD": "嵌入式 HUD",
         "killfeedOffset": "Killfeed Offset",
-        "scout": "Scout AI/XRAY",
+        "scout": "Scout/XRAY",
         "autoexecute": "Auto-execute",
         "console": "控制台",
         "add": "添加 HUD",
@@ -973,7 +973,7 @@
       "categories": {
         "createTitle": "创建类别",
         "renameTitle": "重命名类别",
-        "deleteTitle": "删除类别",
+        "deleteTitle": "删除 {{name}} 类别",
         "name": "名称",
         "ungrouped": "未分组",
         "deleteInfo": "您确定要删除 {{name}} 类别吗？此操作不会删除任何 HUD。"
@@ -1157,8 +1157,8 @@
           }
         },
         "scout": {
-          "title": "侦察兵人工智能",
-          "info": "启用此选项将使用 VConsole2 启动 CS2，除非正确配置，否则可能无法加入服务器。"
+          "title": "Scout AI",
+          "info": "此选项需要 Workshop Tools 并会运行 HLAE。\n启用后，LHM 将可使用 Scout Cinematic，并可让 Scout Vision 在 direct 模式下运行。\n此选项会以不安全模式启动 CS2——启用期间请勿加入受 VAC 保护的服务器（例如 Faceit、匹配），除非作为 CSTV 观众。"
         },
         "tab": {
           "title": "HUD选项卡",
@@ -1169,8 +1169,8 @@
           "info": "启用此选项并按照以下配置运行游戏，或使用 \"运行游戏 \"按钮，将禁用游戏中的雷达，以使用 HUD 中内置的自定义雷达。"
         },
         "killfeed": {
-          "title": "杀戮信息",
-          "info": "启用此选项并使用下面的配置运行游戏或使用 \"运行游戏\"按钮将禁用游戏中的击杀进给，以使用 HUD 中内置的自定义击杀进给。\n该选项将以不安全模式启动 CS:GO--启用该选项后，除非作为 CSTV 观众，否则您将无法加入受 VAC 保护的服务器（如 Faceit、匹配）。"
+          "title": "Custom Killfeed",
+          "info": "此选项需要 Workshop Tools 并会运行 HLAE。\n启用后，使用下方配置或点击 \"运行游戏\" 将禁用游戏内 Killfeed，并使用 HUD 内置的 Custom Killfeed。\n此选项会以不安全模式启动 CS2——启用期间请勿加入受 VAC 保护的服务器（例如 Faceit、匹配），除非作为 CSTV 观众。"
         },
         "embeddedHUD": {
           "title": "嵌入式 HUD",
@@ -1267,13 +1267,13 @@
           "info": "ARG 使用的 ID，连接成功时需要使用。"
         }
       },
-      "aco": {
+        "aco": {
         "telnet": {
           "title": "远程登录",
           "info": "Telnet 是一种与 CS2 通信的协议。使用它时，您无需将 CS2 窗口置于焦点位置，因为 LHM 会通过远程命令切换玩家。"
         },
         "tab": {
-          "title": "自动电影观察器",
+          "title": "Scout AI",
           "info": "通过 ACO 模块，您可以使用预定义的摄像机移动路径来跟踪游戏中的动作。\\nACO 使用人工智能来确定任何特定时间内游戏中发生的最重要事件。"
         },
         "area": {
@@ -1327,8 +1327,8 @@
           "info": "目前只有官方 Lexogrine HUD 支持相机延迟功能：高级 HUD"
         },
         "quality": {
-          "title": "启用此功能后，共享配置部分（例如 X 光设置）将与 LHM 云端同步，从而确保它们在您的设备/工作区之间保持一致。\n\n如果您希望仅在本地更改共享配置，请禁用此功能。",
-          "info": "IP 地址覆盖"
+          "title": "摄像头流质量",
+          "info": "更高质量的摄像头流可能会在某些电脑和网络连接上造成卡顿。"
         },
         "tab": {
           "title": "摄像头",
@@ -1343,7 +1343,7 @@
       },
       "quick": {
         "tab": {
-          "title": "快速",
+          "title": "Quick",
           "info": "LHM Quick 可让您从一个地方快速准备整个玩家、团队和 HUD 设置，让您立即开始直播。"
         }
       },
@@ -1355,16 +1355,16 @@
       },
       "settings": {
         "sharedConfigSync": {
-          "title": "仅当 LHM 检测到错误的私有网络地址时（例如 VPN 处于活动状态）才使用此功能。\n\n设置您的 HUD/浏览器源应使用的本地 IP 地址。\n\n更改此值后，请重启 LHM 以使更改生效。",
-          "info": "慢速模式"
+          "title": "共享配置云同步",
+          "info": "启用后，共享配置部分（例如 X-Ray 设置）会与 LHM Cloud 同步，以便在您的设备/工作区之间保持一致。\n如果希望共享配置仅保留本地更改，请关闭此选项。"
         },
         "ipAddressOverride": {
-          "title": "慢速模式会将 API 请求通过队列发送，以减少突发流量。这有助于在防火墙限制严格的国家/地区环境中使用。\n\n更改此值后，请重启 LHM 以使更改生效。",
-          "info": "删除锦标赛"
+          "title": "IP 地址覆盖",
+          "info": "仅在 LHM 检测到错误的私有网络地址时使用此选项（例如 VPN 处于启用状态）。\n设置 HUD/浏览器源应使用的本地 IP 地址。\n更改后请重启 LHM 生效。"
         },
         "slowMode": {
-          "title": "您确定要删除 {{count}} 个锦标赛吗？",
-          "info": "删除 {{name}} 个锦标赛"
+          "title": "慢速模式",
+          "info": "慢速模式会通过队列发送 API 请求以降低突发流量。这有助于在国家级防火墙限制较强的环境中使用。\n更改后请重启 LHM 生效。"
         }
       }
     },
@@ -1376,14 +1376,18 @@
       "delete": {
         "titleTeams": "删除团队",
         "titlePlayers": "删除球员",
-        "titleMatches": "删除匹配",
-        "titleTournaments": "您确定要删除 {{name}} 个锦标赛吗？",
+        "titleMatches": "删除比赛",
+        "titleTournaments": "删除锦标赛",
         "infoTeams": "您确定要删除 {{count}} 球队吗？",
         "infoPlayers": "您确定要删除{{count}}名球员吗？",
-        "infoMatches": "您确定要删除 {{count}} 匹配吗？",
-        "deleteWithPlayers": "删除球员",
-        "deleteAll": "全部删除（{{count}}",
-        "single": {}
+        "infoTournaments": "您确定要删除 {{count}} 个锦标赛吗？",
+        "infoMatches": "您确定要删除 {{count}} 场比赛吗？",
+        "deleteWithPlayers": "连同球员一起删除",
+        "deleteAll": "全部删除（{{count}}）",
+        "single": {
+          "titleTournament": "删除 {{name}} 锦标赛",
+          "infoTournament": "您确定要删除 {{name}} 锦标赛吗？"
+        }
       },
       "steamApiKeyMissing": {
         "title": "缺少 Steam API 密钥",
@@ -1430,7 +1434,7 @@
         "description": "LHM 新手？在这里，您可以找到一些开始使用该应用程序的基本提示！\n\nLHM 目前支持 CS2、Dota 2、英雄联盟、火箭联盟、Apex Legends 和 F1。每款支持的游戏都需要进行简单但必要的配置才能与 LHM 正常运行。\n点击下面的 \"了解更多 \"按钮，学习如何设置您想与 LHM 一起使用的任何游戏。"
       },
       "quick": {
-        "title": "LHM 快速",
+        "title": "LHM Quick",
         "description": "LHM Quick 可让您快速配置球员和球队，以便使用 HUD 启动。该功能主要面向熟悉 LHM 工作原理的用户，让他们能够立即上手。\n目前，LHM Quick 支持的游戏有 CS2、CS:GO、Dota 2、英雄联盟和火箭联盟。\n点击下面的 \"了解更多 \"按钮，了解有关 LHM Quick 的更多信息。"
       },
       "huds": {
@@ -1443,7 +1447,7 @@
       },
       "userGuide": {
         "title": "用户指南",
-        "description": "查看我们的用户指南，了解有关 LHM'各组件的更多信息。您将看到所有功能的说明、配置和使用指南，以及最常见问题的解答。如果您还有其他问题，请加入[[我们的讨论区|discord]]。"
+        "description": "查看我们的用户指南，了解 LHM 各组件的更多信息。您将看到所有功能的说明、配置和使用指南，以及最常见问题的解答。如果您还有其他问题，请加入[[我们的 Discord|discord]]。"
       }
     }
   }

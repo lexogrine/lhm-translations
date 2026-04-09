@@ -22,7 +22,7 @@
       "noValue": "Standard",
       "teamOne": "Lag Ett",
       "teamTwo": "Lag två",
-      "show": "Show",
+      "show": "Visa",
       "hide": "Dölj",
       "map": "Karta",
       "team": "Team",
@@ -157,7 +157,7 @@
       "players": "Spelare",
       "teams": "Lag",
       "arg": "Replays",
-      "aco": "Auto Cinematic Observer",
+      "aco": "Scout AI",
       "ar": "Förstärkt verklighet",
       "cgpanel": "CG-läge",
       "huds": "HUD:ar",
@@ -169,7 +169,7 @@
       "addons": "Tillägg",
       "settings": "Inställningar",
       "credits": "Krediter",
-      "quick": "Snabbt",
+      "quick": "Quick",
       "chat": "Stöd chatt",
       "composer": "Composer",
       "xray": "X-Ray"
@@ -199,12 +199,12 @@
       "enableDirector": "Aktivera direktör",
       "scoutPredict": "Möjliggöra förutsäga",
       "telnet": "Aktivera Telnet",
-      "telnetWarning": "För att kunna använda Telnet måste CS2 startas med Workshop Tools. Du kan göra det genom att aktivera alternativet \"Killfeed / Tools\" på fliken HUDs och klicka på knappen \"Run Game\".",
-      "cinematicWarning": "För att kunna använda Scout Cinematic måste CS2 startas med Verkstadsverktyg. Du kan göra det genom att aktivera alternativet \"Killfeed / Tools\" på fliken HUDs och klicka på knappen \"Kör spel\". Att aktivera Scout Cinematic kommer också att tvinga Scout Vision att köras i direktläge.",
-      "disabledDescription": "All kontroll ges till dig och dina observatörer.\nHa det så kul.",
+      "telnetWarning": "För att använda Telnet måste CS2 startas med Workshop Tools. Du kan göra det genom att aktivera alternativet \"Scout AI\" i HUD-fliken och klicka på knappen \"Run Game\".",
+      "cinematicWarning": "För att använda Scout Cinematic måste CS2 startas med Workshop Tools. Du kan göra det genom att aktivera alternativet \"Scout AI\" i HUD-fliken och klicka på knappen \"Run Game\". När Scout Cinematic aktiveras tvingas även Scout Vision att köras i Direct-läge.",
+      "disabledDescription": "All kontroll ges till dig och dina observatörer.",
       "aco1Description": "En balans mellan kontroll och automatisering.\nHjälp dina observatörer med en uppsättning manuellt skrivna instruktioner för ACO.",
       "aco-aiDescription": "Luta dig tillbaka medan de avancerade algoritmerna i ACO AI styr din ström.",
-      "aco-ai-scoutDescription": "Låt vårt nyaste matchprognossystem ta över rodret.\nKommer snart.",
+      "aco-ai-scoutDescription": "Låt AI-observatören bevaka matchen utan någon användarinmatning.",
       "aco-ai-scoutDescription-disconnected": "Låt vårt senaste AI-system för matchningsobservation ta över ratten.\\nScout-servrar kan för närvarande vara otillgängliga.",
       "scoutCinematicDescription": "Visa vackra filmiska bilder under matchpauser.",
       "scoutPredictDescription": "Visa förutsägelser om matchresultat i realtid direkt i din stream.",
@@ -216,8 +216,8 @@
       "areaPriorityPlaceholder": "Prioritet för område",
       "addConfigHeader": "Lägg till en ny konfiguration i detta område",
       "addConfigPlaceholder": "Ange ett kommando som ska utföras i detta område",
-      "timeRemaining": "Återstående AI-tid för scout",
-      "scoutServerUnavailable": "LHM kan'inte ansluta till Scout AI-servrar.\nVänligen försök igen om några minuter.",
+      "timeRemaining": "Tillgänglig tid",
+      "scoutServerUnavailable": "LHM kan inte ansluta till Scout AI-servrar.\nVänligen försök igen om några minuter.",
       "scoutSubtitle": "AI-observatör",
       "scoutGetMoreTime": "Få mer tid",
       "scoutDescription": "Scout AI lär sig av tusentals spel för att fånga de mest kryddiga händelserna på egen hand, utan mänsklig inblandning.",
@@ -241,11 +241,11 @@
       "scoutCinematicAction": {
         "label": "Åtgärd Cinematisk"
       },
-      "scoutPausedTip": "Scout AI pausas eftersom inget springspel upptäcktes.",
+      "scoutPausedTip": "Scout AI är pausad eftersom inget spel i gång upptäcktes.",
       "xrayWarning": "För att X-Ray ska fungera korrekt måste CS2 startas med Scout/X-Ray-alternativet aktiverat."
     },
     "composer": {
-      "componentsSubtitle": "Förhandsgranskning av HUD-komponent",
+      "componentsSubtitle": "Förhandsvisning av HUD-komponent",
       "usePlayerAvatar": "Använd spelaravatar",
       "radarStyle": "Radarstil",
       "position": "Position",
@@ -253,13 +253,13 @@
       "fontSize": "Teckenstorlek",
       "uhudMatchbarTeamNameFontSize": "Teckenstorlek för lagnamn",
       "uhudMatchbarScoreFontSize": "Teckenstorlek för poäng",
-      "uhudPlayersNameFontSize": "Teckenstorlek för spelares namn",
+      "uhudPlayersNameFontSize": "Teckenstorlek för spelarnamn",
       "uhudPlayersStatsFontSize": "Teckenstorlek för statistik",
       "uhudPlayersHealthFontSize": "Teckenstorlek för hälsa",
       "visible": "Synlig",
-      "previewTitle": "Förhandsgranskning av kompositör {{component}}",
+      "previewTitle": "Composer-förhandsvisning {{component}}",
       "components": {
-        "matchbar": "Matchfält",
+        "matchbar": "Matchbar",
         "left-player": "Vänsterspelare",
         "right-player": "Högerspelare",
         "left-money": "Vänsterpengar",
@@ -267,168 +267,168 @@
         "players": "Spelare",
         "observed-player": "Observerad spelare",
         "killfeed": "Killfeed",
-        "round-history": "Rundhistorik",
+        "round-history": "Rondhistorik",
         "mapseries": "Kartserie",
         "asset": "Anpassad tillgång",
-        "winbox": "Rundvinstindikator",
+        "winbox": "Rondvinstindikator",
         "sponsors": "Sponsorer",
-        "tournament-info": "Turneringsinformation",
-        "scout": "Scoutförutsägelse",
+        "tournament-info": "Turneringsinfo",
+        "scout": "Scout Predict",
         "radar": "Radar",
-        "anims-plant": "Animationsanläggning",
-        "anims-defuse-short": "Animation Defuse Kort",
-        "anims-defuse-long": "Animation Defuse Lång",
-        "anims-defuse": "Animation Avfusera",
+        "anims-plant": "Animering Plant",
+        "anims-defuse-short": "Animering Defuse Kort",
+        "anims-defuse-long": "Animering Defuse Lång",
+        "anims-defuse": "Animering Defuse",
         "anims": "Animering"
       },
       "huds": {
         "ultrahud": "Ultra HUD",
-        "amberhud": "Bärnstensfärgad HUD",
-        "sapphirehud": "Safir HUD",
+        "amberhud": "Amber HUD",
+        "sapphirehud": "Sapphire HUD",
         "neonhud": "Neon HUD",
         "fullHud": "Full HUD"
       },
       "layouts": {
         "vertical": "Vertikal",
         "horizontal": "Horisontell",
-        "horizontal-top": "Horisontell överst",
-        "horizontal-bottom": "Horisontell underst"
+        "horizontal-top": "Horisontell Topp",
+        "horizontal-bottom": "Horisontell Botten"
       },
       "positions": {
         "left-players": "Vänsterspelare",
         "right-players": "Högerspelare",
-        "left-players-top": "Vänsterspelare överst",
-        "left-players-bottom": "Vänsterspelare längst ner",
-        "right-players-top": "Högerspelare överst",
-        "right-players-bottom": "Högerspelare längst ner"
+        "left-players-top": "Vänsterspelare Överst",
+        "left-players-bottom": "Vänsterspelare Nederst",
+        "right-players-top": "Högerspelare Överst",
+        "right-players-bottom": "Högerspelare Nederst"
       },
-      "sapphirePlayersHpFontSize": "Högerspelare längst ner",
-      "sapphirePlayersNameFontSize": "HP-teckenstorlek",
-      "sapphirePlayersRoundDamageFontSize": "Spelarnamns teckenstorlek",
-      "sapphirePlayersKdaFontSize": "Rund skada teckenstorlek",
-      "killfeedPlayerNameFontSize": "KDA teckenstorlek",
+      "sapphirePlayersHpFontSize": "HP-teckenstorlek",
+      "sapphirePlayersNameFontSize": "Teckenstorlek för spelarnamn",
+      "sapphirePlayersRoundDamageFontSize": "Teckenstorlek för rondskada",
+      "sapphirePlayersKdaFontSize": "KDA-teckenstorlek",
+      "killfeedPlayerNameFontSize": "Teckenstorlek för Killfeed-spelarnamn",
       "titles": {
-        "components": "Killfeed spelarnamns teckenstorlek",
-        "settings": "Komponenter",
-        "globalStyles": "Inställningar"
-      },
-      "descriptions": {
+        "components": "Komponenter",
+        "settings": "Inställningar",
         "globalStyles": "Globala stilar"
       },
+      "descriptions": {
+        "globalStyles": "Tillämpa globalt utseende på komponenter."
+      },
       "actions": {
-        "showAll": "Tillämpa globalt utseende på komponenter.",
-        "hideAll": "Visa alla",
-        "showComponent": "Dölj alla",
-        "hideComponent": "Visa komponent",
-        "backToComponents": "Dölj komponent",
-        "toBack": "Tillbaka till komponenter",
-        "toFront": "Bak"
+        "showAll": "Visa alla",
+        "hideAll": "Dölj alla",
+        "showComponent": "Visa komponent",
+        "hideComponent": "Dölj komponent",
+        "backToComponents": "Tillbaka till komponenter",
+        "toBack": "Bakåt",
+        "toFront": "Framåt"
       },
       "status": {
-        "added": "Fram",
-        "notAdded": "Tillagd"
+        "added": "Tillagd",
+        "notAdded": "Inte tillagd"
       },
       "fields": {
-        "variant": "Inte tillagd",
-        "style": "Variant",
-        "styles": "Stil",
-        "layout": "Stilar",
-        "fontFamily": "Layout",
-        "globalPattern": "Teckensnittsfamilj",
-        "globalPatternOpacity": "Globalt mönster",
-        "backgroundImageFit": "Global mönsteropacitet",
-        "borderRadius": "Anpassning av bakgrundsbild",
-        "borderWidth": "Kantradie",
-        "borderStyle": "Kantbredd",
-        "positionX": "Kantstil",
-        "positionY": "Position X",
-        "centerHorizontally": "Position Y",
-        "centerVertically": "Centreradie",
-        "scale": "Centreradie",
-        "zIndex": "Skala",
-        "currentLayer": "Z-index",
-        "align": "Aktuellt lager",
-        "customCss": "Justera",
-        "duration": "Anpassad CSS",
-        "limit": "Varaktighet"
+        "variant": "Variant",
+        "style": "Stil",
+        "styles": "Stilar",
+        "layout": "Layout",
+        "fontFamily": "Teckensnittsfamilj",
+        "globalPattern": "Globalt mönster",
+        "globalPatternOpacity": "Global mönsteropacitet",
+        "backgroundImageFit": "Anpassning av bakgrundsbild",
+        "borderRadius": "Kantradie",
+        "borderWidth": "Kantbredd",
+        "borderStyle": "Kantstil",
+        "positionX": "Position X",
+        "positionY": "Position Y",
+        "centerHorizontally": "Centrera horisontellt",
+        "centerVertically": "Centrera vertikalt",
+        "scale": "Skala",
+        "zIndex": "Z-index",
+        "currentLayer": "Aktuellt lager",
+        "align": "Justera",
+        "customCss": "Anpassad CSS",
+        "duration": "Varaktighet",
+        "limit": "Gräns"
       },
       "labels": {
-        "border": "Gräns",
-        "background": "KANTLÄGGNING",
-        "counterTerrorists": "BAKGRUND",
-        "terrorists": "TERRORISTERKONTRAKT"
+        "border": "KANT",
+        "background": "BAKGRUND",
+        "counterTerrorists": "COUNTER-TERRORISTS",
+        "terrorists": "TERRORISTS"
       },
       "files": {
-        "noFileSelected": "TERRORISTER",
-        "sponsorImage": "Ingen fil vald",
-        "assetFile": "Sponsorbild",
-        "noImagesSelected": "Tillgångsfil",
-        "oneImageSelected": "Inga bilder valda",
-        "imagesSelected": "1 bild vald",
-        "plantFile": "{{count}} bilder valda",
-        "defuseShortFile": "Plantfil",
-        "defuseLongFile": "Avslöja kort fil"
+        "noFileSelected": "Ingen fil vald",
+        "sponsorImage": "Sponsorbild",
+        "assetFile": "Tillgångsfil",
+        "noImagesSelected": "Inga bilder valda",
+        "oneImageSelected": "1 bild vald",
+        "imagesSelected": "{{count}} bilder valda",
+        "plantFile": "Plant-fil",
+        "defuseShortFile": "Defuse kort fil",
+        "defuseLongFile": "Defuse lång fil"
       },
       "options": {
-        "custom": "Avslöja lång fil",
-        "cover": "Anpassad",
-        "contain": "Omslag",
-        "none": "Innehåll",
-        "top": "Ingen",
-        "left": "Överst",
-        "center": "Vänster",
-        "right": "Mitten",
-        "bottom": "Höger",
-        "front": "Nederst"
+        "custom": "Anpassad",
+        "cover": "Omslag",
+        "contain": "Innehåll",
+        "none": "Ingen",
+        "top": "Överst",
+        "left": "Vänster",
+        "center": "Mitten",
+        "right": "Höger",
+        "bottom": "Nederst",
+        "front": "Fram"
       },
       "tooltips": {
-        "performanceInformation": "Framsida",
-        "customCssColorVariablesHelp": "Prestandainformation",
-        "customCss": "Hjälp med anpassade CSS-färgvariabler",
-        "bulkVisibilityPerformance": "För att använda teamfärg i anpassad CSS, använd CSS-variabeln: var(--color-new-t)."
+        "performanceInformation": "Prestandainformation",
+        "customCssColorVariablesHelp": "Hjälp för anpassade CSS-färgvariabler",
+        "customCss": "För att använda lagfärg i anpassad CSS, använd CSS-variabeln: var(--color-new-t).",
+        "bulkVisibilityPerformance": "Att tillfälligt rendera alla Composer-komponenter samtidigt kan minska förhandsvisningens prestanda på svagare datorer. Detta är förväntat under konfiguration och bör inte påverka prestandan efter att du har konfigurerat din HUD."
       },
       "placeholders": {
-        "search": "Att tillfälligt rendera varje Composer-komponent samtidigt kan minska förhandsgranskningsprestanda på svagare maskiner. Detta förväntas under installationen och bör inte påverka prestandan efter att du har konfigurerat din HUD.",
-        "customCss": "Sökkomponenter..."
+        "search": "Sök komponenter...",
+        "customCss": "/* anpassade stilar */"
       },
       "radar": {
-        "useAvatar": "/* anpassade stilar */",
-        "playerSize": "Använd avatar",
-        "radarOpacity": "Spelarstorlek",
-        "useGradient": "Radaropacitet",
-        "grenadeAnimationVariant": "Använd gradient",
-        "deadPlayerMarker": "Granatanimeringsvariant",
-        "gradientOverrideEnabled": "Död spelare-markör",
-        "gradientStopColor": "Gradientöverstyrning aktiverad",
-        "crowdZoomEnabled": "Gradientstoppfärg",
-        "bombCarrierColor": "Publikumszoom aktiverad",
-        "smokeColor": "Bombbärarfärg",
-        "flashColor": "Rökfärg",
-        "grenadeColor": "Blixtfärg",
-        "molotovColor": "Granatfärg",
-        "bombColor": "Molotovfärg"
+        "useAvatar": "Använd avatar",
+        "playerSize": "Spelarstorlek",
+        "radarOpacity": "Radaropacitet",
+        "useGradient": "Använd gradient",
+        "grenadeAnimationVariant": "Granatanimeringsvariant",
+        "deadPlayerMarker": "Markör för död spelare",
+        "gradientOverrideEnabled": "Gradientöverstyrning aktiverad",
+        "gradientStopColor": "Gradientstoppfärg",
+        "crowdZoomEnabled": "Crowd Zoom aktiverad",
+        "bombCarrierColor": "Bombbärarfärg",
+        "smokeColor": "Rökfärg",
+        "flashColor": "Flashfärg",
+        "grenadeColor": "Granatfärg",
+        "molotovColor": "Molotovfärg",
+        "bombColor": "Bombfärg"
       },
       "anims": {
-        "plantMaxWidth": "Bombfärg",
-        "plantMaxHeight": "Maxbredd för anläggning",
-        "defuseMaxWidth": "Maxhöjd för anläggning",
-        "defuseMaxHeight": "Maxbredd för avfusering",
-        "targetFiveSeconds": "Maxhöjd för avfusering",
-        "targetTenSeconds": "(mål ~5s)"
+        "plantMaxWidth": "Plant maxbredd",
+        "plantMaxHeight": "Plant maxhöjd",
+        "defuseMaxWidth": "Defuse maxbredd",
+        "defuseMaxHeight": "Defuse maxhöjd",
+        "targetFiveSeconds": "(mål ~5s)",
+        "targetTenSeconds": "(mål ~10s)"
       },
       "radarVariants": {
-        "default": "(mål ~10s)",
-        "dark": "Standard",
-        "clean": "Mörk",
-        "high-contrast": "Ren"
+        "default": "Standard",
+        "dark": "Mörk",
+        "clean": "Ren",
+        "high-contrast": "Hög kontrast"
       },
       "radarGrenadeAnimationVariants": {
-        "default": "Hög kontrast",
-        "carton": "Standard"
+        "default": "Standard",
+        "carton": "Kartong"
       },
       "radarDeadPlayerMarkers": {
-        "fade": "Kartong",
-        "team-x": "Tona ut"
+        "fade": "Tona",
+        "team-x": "Lag X"
       }
     },
     "players": {
@@ -441,7 +441,7 @@
       "importPlayersExcel": "Använd vårt förberedda Excel-ark för att enkelt importera många spelare på en gång.",
       "exportPlayers": "Exportera",
       "avatar": "Avatar",
-      "setAsCoach": "Lag X"
+      "setAsCoach": "Sätt som coach"
     },
     "teams": {
       "edit": "Redigera ett lag",
@@ -468,10 +468,10 @@
       "stopTestVideo": "Stoppa testvideo",
       "testVideoBlocker": "Du måste ha spelet igång för att kunna spela upp testvideo och spelare som fyllts i i tabellen ovan. Titta på en demo, eller spela upp testdata och välj testspelare",
       "testPlayer": "Testspelare",
-      "delay": "Ange som tränare",
-      "cameraQuality": "Kamerafördröjning i sekunder",
-      "cameraWarningPlayer": "Kameraströmningskvalitet",
-      "cameraWarningUser": "Anslutning till minst en av spelarna, markerad med gul prick, hindras av symmetrisk NAT. Vanligtvis leder det till problem med kameraströmningsanslutningen. Det rekommenderas att spelaren ändrar nätverksanslutningen och uppdaterar kamerasidan."
+      "delay": "Kamerafördröjning i sekunder",
+      "cameraQuality": "Kameraströmningskvalitet",
+      "cameraWarningPlayer": "Anslutning till minst en av spelarna, markerad med gul punkt, blockeras av symmetrisk NAT. Vanligtvis leder det till problem med kameraströmningen. Det rekommenderas att spelaren byter nätverksanslutning och uppdaterar kamerasidan.",
+      "cameraWarningUser": "Din anslutning blockeras av symmetrisk NAT. Vanligtvis leder det till problem med kameraströmningen. Det rekommenderas att byta nätverksanslutning och starta om LHM."
     },
     "addons": {
       "upload": "Ladda upp addon",
@@ -493,10 +493,10 @@
       "huds": "HUD",
       "aco": "Scout AI",
       "addons": "Tillägg",
-      "composer": "Din anslutning hindras av symmetrisk NAT. Vanligtvis leder det till problem med kameraströmningsanslutningen. Det rekommenderas att ändra nätverksanslutningen och starta om LHM.",
+      "composer": "Composer",
       "ar": "AR",
       "live": "Live",
-      "quick": "Snabb",
+      "quick": "Quick",
       "professionalOnly": "Endast för professionella",
       "nonFreeOnly": "Endast icke-fria",
       "cameras": "Kameror",
@@ -507,7 +507,7 @@
       "validUntil": "Giltig till",
       "nextPayment": "Nästa betalning",
       "logout": "Logga ut",
-      "arg": "Repetitioner"
+      "arg": "Replays"
     },
     "signals": {
       "removal": {
@@ -523,8 +523,8 @@
         "placeholder": "Förinställt namn",
         "clone": "Kopiera från aktuell förinställning",
         "createNew": "Skapa tom",
-        "createFromDefault": "Kompositör",
-        "createBlank": "Skapa standard"
+        "createFromDefault": "Skapa standard",
+        "createBlank": "Skapa blank"
       },
       "activate": "{{ name }} är inte aktiv",
       "deactivate": "{{ name }} är aktiv",
@@ -553,7 +553,7 @@
       "teamLogo": "Teamets logotyp",
       "backToLHM": "Tillbaka till LHM",
       "next": "Nästa",
-      "back": "Tillbaka till",
+      "back": "Tillbaka",
       "newPlayer": "Skapa ny spelare",
       "startSession": "Starta ny session",
       "exit": "Avsluta snabbt",
@@ -587,12 +587,12 @@
       "page": "Turnerings sida",
       "create": "Skapa ny turnering",
       "name": "Turneringens namn",
-      "groupAndPlayoffs": "Skapa tom",
-      "noMatchesInStage": "Grupp & slutspel",
-      "playoffsCreated": "Inga matcher i den här omgången",
-      "champion": "Slutspel har skapats",
-      "bracket": "Mästare",
-      "setScore": "Lag",
+      "groupAndPlayoffs": "Grupp & slutspel",
+      "noMatchesInStage": "Inga matcher i den här omgången",
+      "playoffsCreated": "Slutspel har skapats",
+      "champion": "Mästare",
+      "bracket": "Bracket",
+      "setScore": "Sätt resultat",
       "uploadLogo": "Ladda upp turneringslogotyp",
       "logoInfo": "Logotypen för turneringen kommer att finnas tillgänglig under matchen",
       "singleElimBracket": "Bracket med enkel eliminering",
@@ -601,8 +601,8 @@
       "group": "Grupp",
       "playoffs": "Slutspel",
       "playoffType": "Typ av slutspel",
-      "playoffsOnly": "Sätt resultat",
-      "grouppAndPlayoffs": "Endast slutspel",
+      "playoffsOnly": "Endast slutspel",
+      "grouppAndPlayoffs": "Grupp + slutspel",
       "soon": "Snart",
       "groupType": "Grupp typ",
       "participants": "Deltagare",
@@ -610,21 +610,21 @@
       "amountOfTeams": "Antal lag",
       "amountOfRounds": "Antal omgångar",
       "bindMatch": "Bind match till bracket",
-      "defaultBo": "Grupp + Slutspel",
-      "defaultBoEdit": "Standard Best Of-format",
+      "defaultBo": "Standard Best Of-format",
+      "defaultBoEdit": "Standard Best Of-format (för nya matcher)",
       "teamOrderList": "Lagens ordningslista",
-      "tournamentStructure": "Standard Best Of-format (för nya matcher)",
-      "availableTeams": "Turneringsstruktur",
-      "selectedTeams": "Tillgängliga lag",
-      "qualifiedTeams": "Valda lag",
-      "qualified": "Kvalificerade lag",
-      "eliminated": "Kvalificerade",
-      "groupFinished": "Eliminerade",
-      "createPlayoffs": "Gruppspelet är avslutat. Du kan nu skapa slutspelet - det här steget kan bara utföras en gång.",
-      "stageInProgress": "Skapa slutspel",
-      "missingMatches": "Gruppspelet pågår fortfarande. Slutspelsskapandet kommer att vara tillgängligt när gruppspelet är avslutat.",
-      "matchesDeleted": "Saknade matcher upptäckta",
-      "restoreAllMatches": "Vissa matcher har raderats. Klicka nedan för att återställa alla matcher från den första saknade omgången."
+      "tournamentStructure": "Turneringsstruktur",
+      "availableTeams": "Tillgängliga lag",
+      "selectedTeams": "Valda lag",
+      "qualifiedTeams": "Kvalificerade lag",
+      "qualified": "Kvalificerad",
+      "eliminated": "Eliminerad",
+      "groupFinished": "Gruppspelet är avslutat. Du kan nu skapa slutspelet - detta steg kan endast utföras en gång.",
+      "createPlayoffs": "Skapa slutspel",
+      "stageInProgress": "Gruppspelet pågår fortfarande. Skapandet av slutspel blir tillgängligt när gruppspelet har avslutats.",
+      "missingMatches": "Saknade matcher upptäckta",
+      "matchesDeleted": "Vissa matcher har raderats. Klicka nedan för att återställa alla matcher från den första saknade rundan.",
+      "restoreAllMatches": "Återställ alla matcher"
     },
     "match": {
       "matches": "Matcher",
@@ -772,8 +772,8 @@
       "cloudSynchronization": "Synkronisering i molnet",
       "hudConfigCloudSynchronization": "HUD-inställningar Molnsynkronisering",
       "hudTogglesCloudSynchronization": "HUD slår på molnsynkronisering",
-      "hudOrdersCloudSynchronization": "Återställ alla matchningar",
-      "sharedConfigCloudSynchronization": "HUDs ordning Molnsynkronisering",
+      "hudOrdersCloudSynchronization": "Molnsynkronisering av HUD-ordning",
+      "sharedConfigCloudSynchronization": "Molnsynkronisering av delad konfiguration",
       "sharedConfigSync": "Delad konfiguration Molnsynkronisering",
       "valorantWindowTitleOverride": "Åsidosättande av Valorant-fönstrets titel",
       "valorantServerMode": "Läge för datainsamling",
@@ -789,15 +789,15 @@
       "dota2Assets": "Dota 2 Tillgångar",
       "autoHalfSwitch": "Automatisk halvslagsväxling (experimentell)",
       "autoSwitch": "Auto switch",
-      "overrideCS2PlayerKeybinds": "Delad konfiguration Molnsynkronisering",
+      "overrideCS2PlayerKeybinds": "Åsidosätt CS2-spelarens tangentbindningar",
       "overrideCS2PlayerKeybindsOptions": {
-        "no": "Åsidosätt CS2-spelarens nyckelbindningar",
-        "focused": "Nej",
-        "always": "När LHM är i fokus"
+        "no": "Nej",
+        "focused": "När LHM är i fokus",
+        "always": "Alltid"
       },
       "overrideCS2PlayerKeybindsModal": {
-        "title": "Alltid",
-        "info": "Åsidosätt CS2-spelarens nyckelbindningar"
+        "title": "Åsidosätt CS2-spelarens tangentbindningar",
+        "info": "Det här alternativet ställer in CS2-tangentbindningar 1-0 för att matcha observatörens spelarplatser som visas i HUD:en, vilket är användbart när coacher finns på servern.\nFör att spara tangentbindningarna måste du stänga av det här alternativet medan CS2 körs."
       },
       "header": "Inställningar",
       "subheaders": {
@@ -901,8 +901,8 @@
         "config": {
           "status": "Konfigurationer",
           "add": "Lägg till konfigurationsfiler",
-          "overrideIp": "Det här alternativet ställer in CS2-nyckelbindningar 1-0 för att matcha observatörsspelarplatser som visas på HUD:n, vilket är användbart när tränare finns på servern.\nFör att lagra nyckelbindningarna måste du inaktivera det här alternativet medan CS2 körs.",
-          "slowMode": "Åsidosätt IP-adress"
+          "overrideIp": "Åsidosätt IP-adress",
+          "slowMode": "Långsamt läge"
         },
         "credits": {
           "credits": "Krediter",
@@ -936,15 +936,15 @@
       "deleteLocally": "Radera AR-modul"
     },
     "huds": {
-      "header": "HUD",
+      "header": "HUDs",
       "workshopToolsModal": {
-        "title": "Långsamt läge",
-        "info": "CS2 Workshop-verktyg hittades inte",
-        "launchAnyway": "Counter-Strike 2 Workshop Tools DLC upptäcktes inte. Det krävs för användning med LHM när CS2 startas med Killfeed eller Scout AI aktiverat. Det rekommenderas att ladda ner det via Steam och försöka igen."
+        "title": "CS2 Workshop Tools hittades inte",
+        "info": "Counter-Strike 2 Workshop Tools DLC upptäcktes inte. Det krävs för att använda LHM när CS2 startas med Killfeed eller Scout AI aktiverat. Det rekommenderas att ladda ner det via Steam och försöka igen.",
+        "launchAnyway": "Starta ändå"
       },
       "config": {
         "customRadar": "Radar",
-        "customKillfeed": "Killfeed",
+        "customKillfeed": "Custom Killfeed",
         "embeddedHUD": "Inbäddad HUD",
         "killfeedOffset": "Killfeed Offset",
         "scout": "Scout AI/XRAY",
@@ -971,12 +971,12 @@
         "oldest": "Äldsta"
       },
       "categories": {
-        "createTitle": "Starta ändå",
-        "renameTitle": "Skapa kategori",
-        "deleteTitle": "Byt namn på kategori",
-        "name": "Ta bort kategorin {{name}}",
-        "ungrouped": "Kategorinamn",
-        "deleteInfo": "Avgrupperad"
+        "createTitle": "Skapa kategori",
+        "renameTitle": "Byt namn på kategori",
+        "deleteTitle": "Ta bort kategorin {{name}}",
+        "name": "Kategorinamn",
+        "ungrouped": "Ogrupperad",
+        "deleteInfo": "Är du säker på att du vill ta bort kategorin {{name}}? Den här åtgärden tar inte bort några HUD:ar."
       },
       "fields": {
         "missing": "Saknade fält",
@@ -997,7 +997,7 @@
       },
       "includes": {
         "customRadar": "Inkluderar anpassad radar",
-        "customKillfeed": "Inkluderar anpassad killfeed"
+        "customKillfeed": "Inkludera Custom Killfeed"
       },
       "removal": {
         "title": "Tar bort {{hud}}",
@@ -1023,60 +1023,60 @@
       },
       "share": {
         "actions": {
-          "share": "Är du säker på att du vill ta bort kategorin {{name}}? Den här åtgärden tar inte bort några HUD:er."
+          "share": "Dela"
         },
         "modal": {
-          "title": "Dela",
-          "description": "Dela HUD",
-          "disclaimer": "Skicka denna HUD till en annan användare via e-post.",
-          "workspaceOwnerDisclaimer": "Mottagaren kommer att se ditt LHM-användarnamn när de tar emot denna delning.",
-          "emailLabel": "Denna HUD tillhör arbetsytan \"{{workspace}}\". Eftersom du inte är arbetsytans ägare skickas inbjudan på uppdrag av det huvudsakliga företagskontot.",
-          "emailPlaceholder": "Mottagarens e-postadress",
-          "expiryLabel": "namn@example.com",
+          "title": "Dela HUD",
+          "description": "Skicka den här HUD:en till en annan användare via e-post.",
+          "disclaimer": "Mottagaren kommer att se ditt LHM-användarnamn när delningen tas emot.",
+          "workspaceOwnerDisclaimer": "Den här HUD:en tillhör arbetsytan \"{{workspace}}\". Eftersom du inte är arbetsytans ägare skickas inbjudan på uppdrag av huvudkontot för Enterprise.",
+          "emailLabel": "Mottagarens e-post",
+          "emailPlaceholder": "namn@example.com",
+          "expiryLabel": "Åtkomsttid",
           "expiry": {
-            "week": "Åtkomsttid",
-            "month": "7 dagar",
-            "custom": "30 dagar",
-            "never": "Anpassat datum"
+            "week": "7 dagar",
+            "month": "30 dagar",
+            "custom": "Anpassat datum",
+            "never": "Ingen utgång"
           },
-          "customExpiryWarning": "Inget utgångsdatum",
-          "submit": "Efter det valda utgångsdatumet kan HUD:n förbli tillgänglig i upp till en timme."
+          "customExpiryWarning": "Efter valt utgångsdatum kan HUD:en förbli tillgänglig i upp till en timme.",
+          "submit": "Skicka inbjudan"
         },
         "pending": {
-          "title": "Skicka inbjudan",
-          "description": "Väntande HUD-delningsinbjudningar",
-          "unknownSender": "Du fick en delad HUD-inbjudan:",
-          "unnamedHud": "Okänd avsändare",
-          "unknownGame": "Namnlös HUD",
-          "game": "Okänt spel",
-          "size": "Spel: {{game}}",
-          "sharedBy": "Storlek: {{size}}",
-          "acceptToWorkspace": "Delad av {{sender}}",
-          "acceptToWorkspaces": "Godkänn till arbetsyta",
-          "mainWorkspace": "Godkänn till arbetsytor",
-          "workspaceUnavailableTitle": "Mitt konto",
-          "acceptingInfo": "Arbetsyta otillgänglig",
-          "expiresAt": "Vänta medan vi kopierar den delade HUD:n till din/dina valda arbetsytor.",
-          "upgradeRequired": "Utgår: {{expiresAt}}",
-          "enterpriseStorageRequired": "Denna HUD är större än din nuvarande planlagringsgräns. Uppgradera din plan för att acceptera den.",
-          "enterpriseSelectionLimit": "Denna arbetsyta har inte tillräckligt med lagringsutrymme för denna HUD. Ta bort viss arbetsytedata för att acceptera HUD:n.",
-          "notEnoughFreeSpace": "Denna arbetsyta delar lagring med dina andra valda företagsarbetsytor. Ta bort viss data eller avmarkera en annan arbetsyta för att acceptera HUD:n.",
-          "never": "Du har inte tillräckligt med ledigt molnutrymme för att acceptera denna HUD just nu. Frigör utrymme för att acceptera HUD:n.",
-          "progress": "Aldrig"
+          "title": "Väntande delningsinbjudningar för HUD",
+          "description": "Du har fått en delad HUD-inbjudan:",
+          "unknownSender": "Okänd avsändare",
+          "unnamedHud": "Namnlös HUD",
+          "unknownGame": "Okänt spel",
+          "game": "Spel: {{game}}",
+          "size": "Storlek: {{size}}",
+          "sharedBy": "Delad av {{sender}}",
+          "acceptToWorkspace": "Acceptera till arbetsyta",
+          "acceptToWorkspaces": "Acceptera till arbetsytor",
+          "mainWorkspace": "Mitt konto",
+          "workspaceUnavailableTitle": "Arbetsyta otillgänglig",
+          "acceptingInfo": "Vänta medan vi kopierar den delade HUD:en till vald(a) arbetsyta(or).",
+          "expiresAt": "Utgår: {{expiresAt}}",
+          "upgradeRequired": "Den här HUD:en är större än lagringsgränsen i din nuvarande plan. Uppgradera din plan för att acceptera den.",
+          "enterpriseStorageRequired": "Den här arbetsytan har inte tillräckligt med lagringsutrymme för denna HUD. Ta bort arbetsytedata för att acceptera HUD:en.",
+          "enterpriseSelectionLimit": "Den här arbetsytan delar lagring med dina andra valda Enterprise-arbetsytor. Ta bort data eller avmarkera en annan arbetsyta för att acceptera HUD:en.",
+          "notEnoughFreeSpace": "Du har inte tillräckligt med ledigt molnutrymme för att acceptera HUD:en just nu. Frigör utrymme för att acceptera HUD:en.",
+          "never": "Aldrig",
+          "progress": "Inbjudan {{current}} av {{total}}"
         },
         "meta": {
-          "sharedBy": "Inbjudan {{current}} av {{total}}",
-          "unknownSender": "Delad av {{sender}}",
-          "expiresAt": "Okänd avsändare"
+          "sharedBy": "Delad av {{sender}}",
+          "unknownSender": "Okänd avsändare",
+          "expiresAt": "Utgår {{expiresAt}}"
         },
         "notifications": {
-          "created": "Utgår {{expiresAt}}",
-          "error": "HUD-delningsinbjudan har skickats.",
-          "manageShares": "Det gick inte att skicka delningsinbjudan. Försök igen.",
+          "created": "Delningsinbjudan för HUD skickades.",
+          "error": "Det gick inte att skicka delningsinbjudan. Försök igen.",
+          "manageShares": "Hantera delningar",
           "errors": {
-            "SHARE_LIMIT_REACHED": "Hantera delningar",
-            "SHARE_SELF": "Maximalt antal aktiva delningar har uppnåtts.",
-            "SHARE_ALREADY_EXISTS": "Du kan inte dela en HUD med dig själv."
+            "SHARE_LIMIT_REACHED": "Maximalt antal aktiva delningar har uppnåtts.",
+            "SHARE_SELF": "Du kan inte dela en HUD med dig själv.",
+            "SHARE_ALREADY_EXISTS": "Den här HUD:en är redan delad med den användaren."
           }
         }
       },
@@ -1148,17 +1148,17 @@
             "dota2": "Premium HUD för Dota 2 är vårt första steg mot att revolutionera MOBA-sändningsindustrin. Vårt mål var att få absolut alla att dra nytta av denna integration. Oavsett om du är nykomling på esportscenen eller redan har ett eget varumärke och beprövade lösningar är vi övertygade om att Premium HUD kommer att ge dig en upplevelse som varken du eller din publik någonsin har sett tidigare i andra sändningar.",
             "leagueoflegends": "Premium HUD för League of Legends lägger till det som saknas i spelets observatörs-HUD och gör saker ännu bättre. En enorm mängd data, ytterligare statistik och skärmar, vackra bilder integrerade i spelgränssnittet skapar en helt ny och unik upplevelse. Premium HUD för League of Legends är en kvalitet som kan observeras vid de mest berömda evenemangen, från och med nu tillgänglig för alla.",
             "rocketleague": "Från början ville vi bygga en lösning som hjälper esport att fokusera på esport - och se till att utnyttja den enorma mängd befintliga data som esport genererar för tittare, spelare och arrangörer. När vi hade börjat lyckas på det området lade vi till automatisering och molnbaserad till listan - för att se till att arrangörerna kan fokusera på tittare, spelare och lag istället för att ställa in allt manuellt och oroa sig för om allt kommer att fungera.",
-            "valorant": "Premium HUD för Valorant utformades för att bevara spelets estetik samtidigt som man implementerade formler som har använts i FPS-spelöverlägg i flera år. Arrangemanget av element i åskådarens HUD är omedelbart tydligt för tittaren och blir en integrerad del av spelet. Detta beror också på den underbara grafiken som förhöjer hela upplevelsen som denna observatörs-HUD för med sig.\n\nLeague of Legends Ultra HUD är den komplexa åskådar- och observatörslösningen för att erbjuda de högsta bilderna för League of Legends esport-evenemang med LHM: s lätthet. Tillgänglig med bara några få klick, med dedikerade överlägg, animationer och anpassade funktioner för utkast, match och efter match."
+            "valorant": "Premium HUD för Valorant designades för att bevara spelets estetik samtidigt som formler som använts i FPS-spelöverlägg i åratal implementerades. Placeringen av element i observatörs-HUD:en är omedelbart tydlig för tittaren och blir en integrerad del av spelet. Detta beror också på den fantastiska grafiken som förstärker hela upplevelsen som observatörs-HUD:en ger."
           },
           "ultra": {
             "cs2": "Counter-Strike 2 är en ny fräsch start. Ultra HUD är ett omfattande överlägg för att möta de behov och den stil som CS2 medförde. Den snabba och enkla installationen av Ultra HUD kommer att anpassa sig till dina behov och helt förbättra dina evenemang. Din sändning - precis som Counter-Strike - är redo för en ny era.\nUltra HUD är tillgängligt för alla användare av Professional LHM Plan och Enterprise Plan med 3 eller fler platser.",
             "dota2": "Det fanns ingen lösning på marknaden som gav ytterligare information, smälte in i spelets gränssnitt och var tillgänglig för alla med en superenkel installation. Ultra HUD för Dota 2 förändrade allt detta. LHM's avancerade stöd för Dota 2 under de senaste månaderna har gjort det möjligt för oss att förbättra allt vi'har erbjudit hittills - det'är så Ultra HUD kom till.\nDen första och största uppgraderingen du kommer att märka är utseendet på HUD - från och med nu är den både mångsidig och kompletterar perfekt layouten i Dota 2 utan att göra några visuella kompromisser. Detta gör Ultra HUD till den perfekta lösningen för alla, oavsett deras egen branding och förväntningar. Det är helt enkelt en nästan ny del av spelet.",
-            "leagueoflegends": "Storleksgräns för molnlagring"
+            "leagueoflegends": "League of Legends Ultra HUD är en komplex åskådar- och observatörslösning som erbjuder högsta visuella kvalitet för League of Legends-esportevenemang med enkelheten i LHM. Tillgänglig med bara några få klick, med dedikerade overlay för draft, match och efter match samt animationer och anpassade funktioner."
           }
         },
         "scout": {
           "title": "Scout AI",
-          "info": "Om du aktiverar det här alternativet startas CS2 med VConsole2, vilket kan hindra dig från att ansluta till servrar om det inte är korrekt konfigurerat."
+          "info": "Det här alternativet kräver Workshop Tools och kör HLAE.\nOm du aktiverar det här alternativet kan LHM använda Scout Cinematic samt Scout Vision i Direct-läge.\nDet här alternativet startar CS2 i osäkert läge - gå inte med i VAC-skyddade servrar (t.ex. Faceit, matchmaking) om du inte är CSTV-åskådare medan det är aktiverat."
         },
         "tab": {
           "title": "Fliken HUD",
@@ -1169,8 +1169,8 @@
           "info": "Om du aktiverar det här alternativet och kör spelet med konfigurationen nedan eller använder knappen \"Kör spel\" inaktiveras spelradarn för att använda den anpassade radarn som är inbyggd i dina HUD:ar."
         },
         "killfeed": {
-          "title": "Killfeed",
-          "info": "Om du aktiverar det här alternativet och kör spelet med konfigurationen nedan eller använder knappen \"Kör spel\" inaktiveras killfeed i spelet för att använda den anpassade killfeed som är inbyggd i dina HUD:ar.\nDet här alternativet startar CS:GO i osäkert läge - du kommer inte att kunna gå med i VAC-skyddade servrar (t.ex. Faceit, matchmaking) om du inte är en CSTV-åskådare medan det är aktiverat."
+          "title": "Custom Killfeed",
+          "info": "Det här alternativet kräver Workshop Tools och kör HLAE.\nOm du aktiverar det här alternativet och startar spelet med konfigurationen nedan eller via knappen \"Run game\" inaktiveras killfeed i spelet för att använda den Custom Killfeed som är inbyggd i dina HUD:ar.\nDet här alternativet startar CS2 i osäkert läge - gå inte med i VAC-skyddade servrar (t.ex. Faceit, matchmaking) om du inte är CSTV-åskådare medan det är aktiverat."
         },
         "embeddedHUD": {
           "title": "Inbäddad HUD",
@@ -1241,9 +1241,9 @@
           "info": "CG Mode innehåller de viktigaste modulerna för sändningsverksamhet i en kompakt form.\nFrån den här fliken kan du hantera dina matcher, lag, spelare och live-spel på en enda skärm.\nDu kan dölja onödiga flikar med hjälp av knappen \"Dölj\" ovanför varje avsnitt."
         }
       },
-      "arg": {
-        "tab": {
-          "title": "Generator för automatisk uppspelning",
+        "arg": {
+          "tab": {
+            "title": "Replays",
           "info": "Modulen Auto Replay Generator (ARG) genererar repriser som kan visas mellan omgångar eller i slutet av ett spel.\nTänk på att vMix krävs för korrekt ARG-konfiguration. vMix är inte en gratis applikation, och ARG i sig är främst utformad för produktionsteam som redan använder vMix."
         },
         "safeband": {
@@ -1267,15 +1267,15 @@
           "info": "ID som används av ARG, behövs för en lyckad anslutning."
         }
       },
-      "aco": {
+        "aco": {
         "telnet": {
           "title": "Telnet",
           "info": "Telnet är ett protokoll för kommunikation med CS2. Medan det används behöver du inte ha CS2-fönstret i fokus, eftersom LHM kommer att byta spelare med fjärrkommandon."
         },
-        "tab": {
-          "title": "Auto Cinematic Observer",
-          "info": "Med ACO-modulen kan du använda fördefinierade kamerarörelser för att följa händelserna i spelet.\nACO använder AI för att bestämma de viktigaste händelserna i spelet vid varje given tidpunkt."
-        },
+          "tab": {
+            "title": "Scout AI",
+            "info": "Det är omöjligt att fånga varje händelse perfekt och från en idealisk vinkel - men Scout kommer riktigt nära. Vår egen AI lär sig av tusentals matcher för att fånga de mest avgörande händelserna själv, utan mänsklig inblandning."
+          },
         "area": {
           "title": "Område",
           "info": "Områden är regioner på kartan som du binder dina konfigurationer till. Om det finns många spelare i det givna området kommer en av konfigurationerna som lagts till i det att köras i CS:GO-klienten.\nFör att lägga till ett område, klicka på knappen \"+\" och välj önskad region på kartan genom att klicka på dess hörn."
@@ -1315,20 +1315,20 @@
           "info": "AR-modulstöd gör det möjligt att visa anpassade 3D-objekt som om de vore en del av spelet.\nAR använder kamerapositionsdata som laddas med GSI för att rendera dina HTML & CSS-baserade 3D-objekt över spelscenen."
         }
       },
-      "live": {
-        "tab": {
-          "title": "Levande",
+        "live": {
+          "tab": {
+            "title": "Live",
           "info": "När en live-match upptäcks fylls fliken Live med data om den aktuella matchen, t.ex. spelarnamn, ID och aktuell poäng.\nFliken Live ger dig också snabb åtkomst till spelarredigering."
         }
       },
-      "cameras": {
+        "cameras": {
         "delay": {
           "title": "Kamerafördröjning",
           "info": "Kamerafördröjningen stöds för närvarande endast i officiella, Lexogrine HUDs: Ultra & Premium HUDs"
         },
         "quality": {
-          "title": "Denna HUD är redan delad med den användaren.",
-          "info": "Kameraströmningskvalitet"
+          "title": "Kameraströmningskvalitet",
+          "info": "Högre kvalitet på kameraströmmar kan orsaka hack på vissa datorer och internetanslutningar."
         },
         "tab": {
           "title": "Kameror",
@@ -1343,7 +1343,7 @@
       },
       "quick": {
         "tab": {
-          "title": "Snabbt",
+          "title": "Quick",
           "info": "LHM Quick låter dig snabbt förbereda hela din spelar-, team- och HUD-inställning från en enda plats, så att du kan få igång din stream direkt."
         }
       },
@@ -1355,16 +1355,16 @@
       },
       "settings": {
         "sharedConfigSync": {
-          "title": "Kameraströmmar av högre kvalitet kan orsaka hackning på vissa datorer och internetanslutningar.",
-          "info": "Synkronisering av delad konfiguration i molnet"
+          "title": "Molnsynkronisering av delad konfiguration",
+          "info": "När aktiverad synkroniseras avsnitt för delad konfiguration (t.ex. X-Ray-inställningar) med LHM Cloud så att de förblir konsekventa mellan dina enheter och arbetsytor.\nInaktivera detta om du vill hålla ändringar av delad konfiguration lokala."
         },
         "ipAddressOverride": {
-          "title": "När det är aktiverat synkroniseras delade konfigurationsavsnitt (till exempel röntgeninställningar) med LHM Cloud, så att de kan förbli konsekventa över dina enheter/arbetsytor.\nInaktivera detta om du vill att ändringar av delad konfiguration endast ska vara lokala.",
-          "info": "Åsidosättning av IP-adress"
+          "title": "Åsidosättning av IP-adress",
+          "info": "Använd detta endast om LHM upptäcker en felaktig privat nätverksadress (t.ex. när en VPN är aktiv).\nAnge den lokala IP-adress som dina HUD-/webbläsarkällor ska använda.\nStarta om LHM efter att du har ändrat detta värde för att det ska börja gälla."
         },
         "slowMode": {
-          "title": "Använd endast detta om LHM upptäcker en felaktig privat nätverksadress (till exempel när ett VPN är aktivt).\nStäll in den lokala IP-adress som dina HUD-/webbläsarkällor ska använda.\nStarta om LHM efter att du har ändrat detta värde för att det ska träda i kraft.",
-          "info": "Långsamt läge"
+          "title": "Långsamt läge",
+          "info": "Långsamt läge skickar API-förfrågningar via en kö för att minska topptrafik. Detta kan hjälpa i restriktiva nationella brandväggsmiljöer.\nStarta om LHM efter att du har ändrat detta värde för att det ska börja gälla."
         }
       }
     },
@@ -1377,16 +1377,16 @@
         "titleTeams": "Radera team",
         "titlePlayers": "Radera spelare",
         "titleMatches": "Ta bort matcher",
-        "titleTournaments": "Långsamt läge skickar API-förfrågningar genom en kö för att minska bursttrafik. Detta kan hjälpa i restriktiva landsomfattande brandväggsmiljöer.\nStarta om LHM efter att du har ändrat detta värde för att det ska träda i kraft.",
+        "titleTournaments": "Ta bort turneringar",
         "infoTeams": "Är du säker på att du vill ta bort {{count}} lag?",
         "infoPlayers": "Är du säker på att du vill ta bort {{count}} spelare?",
-        "infoTournaments": "Ta bort turneringar",
+        "infoTournaments": "Är du säker på att du vill ta bort {{count}} turneringar?",
         "infoMatches": "Är du säker att du vill ta bort {{count}} matcher?",
         "deleteWithPlayers": "Ta bort med spelare",
         "deleteAll": "Radera alla ({{count}})",
         "single": {
-          "titleTournament": "Är du säker på att du vill ta bort {{count}} turneringar?",
-          "infoTournament": "Ta bort {{name}} turnering"
+          "titleTournament": "Ta bort turneringen {{name}}",
+          "infoTournament": "Är du säker på att du vill ta bort turneringen {{name}}?"
         }
       },
       "steamApiKeyMissing": {
@@ -1400,7 +1400,7 @@
       "updateModalInfo2": "För att fortsätta använda LHM måste du ladda upp dina HUD:ar till LHM Cloud.",
       "updateModalCloudWarning": "Vissa av HUD:arna sparas för närvarande komprimerade i molnet. För att använda dem måste LHM ladda ner dem och dekomprimera dem. Det kan leda till högre användning av molngränsen.",
       "updateModalNonuploadedHUDsStillInDirectory": "Dina HUDs kommer fortfarande att säkerhetskopieras i din HUD-katalog, om du väljer att inte ladda upp dem.",
-      "updateModalImporting": "Vi'förbereder dina HUD:ar åt dig...",
+      "updateModalImporting": "Vi förbereder dina HUD:ar åt dig...",
       "actions": {
         "uploadAll": "Ladda upp alla HUD:ar till LHM Cloud",
         "customize": "Låt mig välja vilka HUDs som ska laddas upp",
@@ -1408,24 +1408,24 @@
       },
       "downloadAndUnpack": "Ladda ner och packa upp HUD",
       "spaceCompressedInCloud": "komprimerad i molnet",
-      "spaceOnDisk": "på diskett",
-      "sizeLimitModalTitle": "Den åtgärd som du vill utföra kan inte utföras på grund av molnlagringsgränsen för ditt konto. För att fortsätta, stäng av molnlagringen eller ta bort onödiga tillgångar (HUD, lag, spelare, matcher, turneringar, ACO-banor). Kontrollera",
-      "sizeLimitModalInfo1": "för att se din nuvarande användning och kapacitet för molnlagring.",
-      "sizeLimitModalInfo2": "Det verkar som om du inte har laddat upp till molnet ännu. Du kan ladda upp din nuvarande databas eller inaktivera synkronisering på den här maskinen"
+      "spaceOnDisk": "på disk",
+      "sizeLimitModalTitle": "Storleksgräns för molnlagring",
+      "sizeLimitModalInfo1": "Den åtgärd du vill utföra kan inte slutföras på grund av molnlagringsgränsen för ditt konto. För att fortsätta, stäng av molnlagring eller ta bort onödiga resurser (HUD:ar, lag, spelare, matcher, turneringar, ACO-banor). Kontrollera",
+      "sizeLimitModalInfo2": "för att se din nuvarande användning och kapacitet för molnlagring."
     },
     "synchronization": {
-      "noUploadedResources": "Din lokala databas är inte synkroniserad med molnlagringen. Du kan ladda ner eller ladda upp databasen eller inaktivera synkronisering. Tänk på att nedladdning tar bort det du för närvarande har på den här datorn och att uppladdning raderar molnlagringsinnehållet. Vad är det du vill göra?",
-      "noSyncLocal": "Det har uppstått ett fel, så för att förhindra dataförlust har vi stängt av synkroniseringen",
-      "error": "Synkronisering",
-      "modalTitle": "Välj din arbetsyta"
+      "noUploadedResources": "Det verkar som att du ännu inte har laddat upp till molnet. Du kan ladda upp din nuvarande databas eller inaktivera synkronisering på den här maskinen",
+      "noSyncLocal": "Din lokala databas är inte synkroniserad med molnlagringen. Du kan ladda ner eller ladda upp databasen eller inaktivera synkronisering. Observera att nedladdning tar bort det du för närvarande har på denna dator, och uppladdning RADERAR innehållet i molnlagringen. Vad vill du göra?",
+      "error": "Ett fel uppstod, så för att förhindra dataförlust stängde vi av synkroniseringen",
+      "modalTitle": "Synkronisering"
     },
     "workspaces": {
-      "pickModalTitle": "Välj",
-      "pick": "Okänd arbetsyta",
-      "unknownWorkspace": "Vi upptäckte att du använder Stream Deck"
+      "pickModalTitle": "Välj din arbetsyta",
+      "pick": "Välj",
+      "unknownWorkspace": "Okänd arbetsyta"
     },
     "streamDeck": {
-      "modalTitle": "vill du att LHM ska ansluta till det?",
+      "modalTitle": "Vi upptäckte att du använder Stream Deck",
       "modalInfo": "vill du att LHM ska ansluta till den?"
     },
     "newToLHM": {
@@ -1434,15 +1434,15 @@
         "description": "Ny på LHM? Här hittar du några grundläggande tips för att komma igång med att använda applikationen!\n\nLHM stöder för närvarande CS2, Dota 2, League of Legends, Rocket League, Apex Legends och F1. Varje spel som stöds kräver en enkel men nödvändig konfiguration för att fungera korrekt med LHM.\nKlicka på knappen Läs mer nedan för att lära dig hur du konfigurerar ett spel som du vill använda med LHM."
       },
       "quick": {
-        "title": "LHM Snabb",
+        "title": "LHM Quick",
         "description": "Med LHM Quick kan du snabbt konfigurera spelare och lag för att starta med HUD. Funktionen är främst avsedd för användare som är bekanta med hur LHM fungerar och för att de ska kunna komma igång direkt.\nDe spel som för närvarande stöds i LHM Quick är CS2, CS:GO, Dota 2, League of Legends och Rocket League.\nKlicka på knappen Läs mer nedan för att lära dig mer om LHM Quick."
       },
       "huds": {
-        "title": "Fliken HUD",
+        "title": "HUD-fliken",
         "description": "Fliken HUDs visar alla HUDs du har, både de inbyggda och de som du själv har laddat upp.\nFör att starta en HUD kan du starta överlägget i ett separat fönster på ditt system (knappen \"Starta HUD överlägg\") eller kopiera länken och lägga till den som en webbläsarkälla i din sändningsprogramvara (knappen \"Växla HUD url\")."
       },
       "lhmHuds": {
-        "title": "LHM HUD",
+        "title": "LHM HUDs",
         "description": "Varje LHM-plan har inbyggda HUD:ar. Ju högre plan, desto mer avancerade HUD:ar. Klicka på namnen nedan för att läsa mer om varje plan:\n\n- Standard HUD för alla spel som stöds\n- Premium HUD för [[CS2|premiumCS2]], [[Dota 2|premiumDota2]], [[LoL|premiumLoL]], [[Rocket League|premiumRL]]\n- Ultra HUD för [[CS2|ultraCS2]] och [[Dota 2|ultraDota2]]"
       },
       "userGuide": {

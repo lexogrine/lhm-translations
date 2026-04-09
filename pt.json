@@ -48,7 +48,7 @@
       "no": "Não",
       "yes": "Sim",
       "deleteAll": "Excluir tudo",
-      "noDontAsk": "Não, não'perguntar",
+      "noDontAsk": "Não, não perguntar",
       "csgo": {
         "ct": "CT",
         "t": "T",
@@ -157,7 +157,7 @@
       "players": "Jogadores",
       "teams": "Equipas",
       "arg": "Replays",
-      "aco": "Observador cinemático automático",
+      "aco": "Scout AI",
       "ar": "Realidade Aumentada",
       "cgpanel": "Modo CG",
       "huds": "HUDs",
@@ -169,7 +169,7 @@
       "addons": "Addons",
       "settings": "Definições",
       "credits": "Créditos",
-      "quick": "Rápido",
+      "quick": "Quick",
       "chat": "Bate-papo de suporte",
       "composer": "Composer",
       "xray": "X-Ray"
@@ -197,14 +197,14 @@
       "manualControl": "Controlo manual",
       "areaConfigurationsPlaceholder": "Selecionar uma área para ver as suas configurações",
       "enableDirector": "Ativar diretor",
-      "scoutPredict": "Ativar Prever",
+      "scoutPredict": "Ativar Predict",
       "telnet": "Ativar Telnet",
-      "telnetWarning": "Para utilizar a Telnet, o CS2 tem de ser iniciado com as Ferramentas de Workshop. Podes fazê-lo activando a opção \"Killfeed / Tools\" no separador HUDs e clicando no botão \"Run Game\".",
-      "cinematicWarning": "Para usar o Scout Cinematic, o CS2 deve ser lançado com o Workshop Tools. Você pode fazer isso ativando a opção \"Killfeed / Tools\" na guia HUDs e clicando no botão \"Run Game\". Habilitar o Scout Cinematic também forçará o Scout Vision a ser executado no modo Direct.",
-      "disabledDescription": "Todo o controlo é dado a si e aos seus observadores.\nDiverte-te.",
+      "telnetWarning": "Para utilizar o Telnet, o CS2 deve ser iniciado com Workshop Tools. Pode fazer isso ativando a opção \"Scout AI\" no separador HUDs e clicando no botão \"Run Game\".",
+      "cinematicWarning": "Para usar o Scout Cinematic, o CS2 deve ser iniciado com Workshop Tools. Pode fazer isso ativando a opção \"Scout AI\" no separador HUDs e clicando no botão \"Run Game\". Ativar o Scout Cinematic também forçará o Scout Vision a ser executado no modo Direct.",
+      "disabledDescription": "Todo o controlo é dado a si e aos seus observadores.",
       "aco1Description": "Um equilíbrio entre controlo e automação.\nAjudem os vossos observadores com um conjunto de instruções escritas manualmente para o ACO.",
       "aco-aiDescription": "Sente-se enquanto os algoritmos avançados do ACO AI controlam o seu fluxo.",
-      "aco-ai-scoutDescription": "Deixa o nosso mais recente sistema de previsão de jogos assumir o controlo.\nEm breve.",
+      "aco-ai-scoutDescription": "Deixe o observador de IA assistir à partida sem qualquer intervenção do utilizador.",
       "aco-ai-scoutDescription-disconnected": "Deixe o observador de IA assistir à partida sem qualquer intervenção do utilizador.\nOs servidores Scout podem estar indisponíveis no momento.",
       "scoutCinematicDescription": "Mostre belas cenas cinematográficas durante os intervalos das partidas.",
       "scoutPredictDescription": "Exiba previsões de resultados de partidas ao vivo diretamente na sua transmissão.",
@@ -216,7 +216,7 @@
       "areaPriorityPlaceholder": "Prioridade da área",
       "addConfigHeader": "Adicionar uma nova configuração a esta área",
       "addConfigPlaceholder": "Introduzir um comando a ser executado nesta área",
-      "timeRemaining": "Tempo restante da IA do Scout",
+      "timeRemaining": "Tempo disponível",
       "scoutServerUnavailable": "LHM não consegue ligar-se aos servidores Scout AI.\nPor favor tenta novamente dentro de alguns minutos.",
       "scoutSubtitle": "Observador de IA",
       "scoutGetMoreTime": "Tenha mais tempo",
@@ -259,14 +259,14 @@
       "visible": "Visível",
       "previewTitle": "Prévia do Compositor {{component}}",
       "components": {
-        "matchbar": "Barra de Partida",
+        "matchbar": "Matchbar",
         "left-player": "Jogadores da Esquerda",
         "right-player": "Jogadores da Direita",
         "left-money": "Dinheiro da Esquerda",
         "right-money": "Dinheiro da Direita",
         "players": "Jogadores",
         "observed-player": "Jogador Observado",
-        "killfeed": "Feed de Abates",
+        "killfeed": "Killfeed",
         "round-history": "Histórico de Rodadas",
         "mapseries": "Série de Mapas",
         "asset": "Recurso Personalizado",
@@ -468,10 +468,10 @@
       "stopTestVideo": "Parar vídeo de teste",
       "testVideoBlocker": "Tens de ter o jogo a correr para reproduzir o vídeo de teste e os jogadores preenchidos na tabela acima. Veja uma demonstração ou reproduza dados de teste e escolha o jogador de teste",
       "testPlayer": "Jogador de teste",
-      "delay": "Qualidade da transmissão da câmera",
-      "cameraQuality": "A conexão com pelo menos um dos jogadores, marcados com um ponto amarelo, está obstruída por NAT simétrico. Normalmente, isso resulta em problemas de conexão com a transmissão da câmera. Recomenda-se que o jogador altere a conexão de rede e atualize a página da câmera.",
-      "cameraWarningPlayer": "Sua conexão está obstruída por NAT simétrico. Normalmente, isso resulta em problemas de conexão com a transmissão da câmera. Recomenda-se que o jogador altere a conexão de rede e reinicie o LHM.",
-      "cameraWarningUser": "Compositor"
+      "delay": "Atraso da câmara em segundos",
+      "cameraQuality": "Qualidade da transmissão da câmara",
+      "cameraWarningPlayer": "A ligação a pelo menos um dos jogadores, assinalado com ponto amarelo, está bloqueada por NAT simétrico. Isto normalmente causa problemas na ligação da transmissão da câmara. Recomenda-se que o jogador altere a ligação de rede e atualize a página da câmara.",
+      "cameraWarningUser": "A sua ligação está bloqueada por NAT simétrico. Isto normalmente causa problemas na ligação da transmissão da câmara. Recomenda-se alterar a ligação de rede e reiniciar o LHM."
     },
     "addons": {
       "upload": "Carregar addon",
@@ -493,10 +493,10 @@
       "huds": "HUDs",
       "aco": "Scout AI",
       "addons": "Addons",
-      "composer": "Criar padrão",
+      "composer": "Composer",
       "ar": "AR",
       "live": "Ao vivo",
-      "quick": "Rápido",
+      "quick": "Quick",
       "professionalOnly": "Apenas profissional",
       "nonFreeOnly": "Apenas não gratuito",
       "cameras": "Câmaras",
@@ -587,12 +587,12 @@
       "page": "Página do torneio",
       "create": "Criar um novo torneio",
       "name": "Nome do torneio",
-      "groupAndPlayoffs": "Nenhuma partida nesta fase",
-      "noMatchesInStage": "Playoffs criados com sucesso",
-      "playoffsCreated": "Campeão",
-      "champion": "Chave",
-      "bracket": "Placar",
-      "setScore": "Somente Playoffs",
+      "groupAndPlayoffs": "Grupo e playoffs",
+      "noMatchesInStage": "Nenhuma partida nesta fase",
+      "playoffsCreated": "Playoffs criados com sucesso",
+      "champion": "Campeão",
+      "bracket": "Chave",
+      "setScore": "Definir pontuação",
       "uploadLogo": "Carregar logótipo do torneio",
       "logoInfo": "O logótipo do torneio estará disponível durante o jogo",
       "singleElimBracket": "Escolhas de Eliminação Única",
@@ -601,8 +601,8 @@
       "group": "Grupo",
       "playoffs": "Play-offs",
       "playoffType": "Tipo de playoff",
-      "playoffsOnly": "Fase de Grupos + Playoffs",
-      "grouppAndPlayoffs": "Formato padrão Melhor de",
+      "playoffsOnly": "Apenas playoffs",
+      "grouppAndPlayoffs": "Grupo + playoffs",
       "soon": "Em breve",
       "groupType": "Tipo de grupo",
       "participants": "Participantes",
@@ -610,21 +610,21 @@
       "amountOfTeams": "Quantidade de equipas",
       "amountOfRounds": "Quantidade de rondas",
       "bindMatch": "Ligar o jogo ao escalão",
-      "defaultBo": "Formato padrão Melhor de (Para novas partidas)",
-      "defaultBoEdit": "Estrutura do torneio",
+      "defaultBo": "Formato padrão Melhor de",
+      "defaultBoEdit": "Formato padrão Melhor de (Para novas partidas)",
       "teamOrderList": "Lista de ordem das equipas",
-      "tournamentStructure": "Equipes disponíveis",
-      "availableTeams": "Equipes selecionadas",
-      "selectedTeams": "Equipes classificadas",
-      "qualifiedTeams": "Classificados",
-      "qualified": "Eliminados",
-      "eliminated": "A fase de grupos terminou. Agora você pode criar os playoffs - esta etapa só pode ser realizada uma vez.",
-      "groupFinished": "Criar playoffs",
-      "createPlayoffs": "A fase de grupos ainda está em andamento. A criação de playoffs estará disponível assim que a fase de grupos terminar.",
-      "stageInProgress": "Partidas Ausentes Detectadas",
-      "missingMatches": "Algumas partidas foram excluídas. Clique abaixo para restaurar todas as partidas a partir da primeira rodada ausente.",
-      "matchesDeleted": "Restaurar todas as partidas",
-      "restoreAllMatches": "Sincronização da Ordem do HUD na Nuvem"
+      "tournamentStructure": "Estrutura do torneio",
+      "availableTeams": "Equipes disponíveis",
+      "selectedTeams": "Equipes selecionadas",
+      "qualifiedTeams": "Equipes classificadas",
+      "qualified": "Classificados",
+      "eliminated": "Eliminados",
+      "groupFinished": "A fase de grupos terminou. Agora você pode criar os playoffs - esta etapa só pode ser realizada uma vez.",
+      "createPlayoffs": "Criar playoffs",
+      "stageInProgress": "A fase de grupos ainda está em andamento. A criação de playoffs estará disponível assim que a fase de grupos terminar.",
+      "missingMatches": "Partidas Ausentes Detectadas",
+      "matchesDeleted": "Algumas partidas foram excluídas. Clique abaixo para restaurar todas as partidas a partir da primeira rodada ausente.",
+      "restoreAllMatches": "Restaurar todas as partidas"
     },
     "match": {
       "matches": "Jogos",
@@ -672,7 +672,7 @@
       },
       "chooseTeam": "Escolher equipa",
       "vetoSidepick": {
-        "normal": "{{secondTeamName}} escolhe o lado {{side}}",
+        "normal": ", {{secondTeamName}} escolhe o lado {{side}}",
         "decider": "{{mapName}} desempate"
       },
       "vetoUrlModal": {
@@ -772,9 +772,9 @@
       "cloudSynchronization": "Sincronização na nuvem",
       "hudConfigCloudSynchronization": "Definições do HUD Sincronização na nuvem",
       "hudTogglesCloudSynchronization": "HUD alterna a sincronização com a nuvem",
-      "hudOrdersCloudSynchronization": "Sincronização da Configuração Compartilhada na Nuvem",
+      "hudOrdersCloudSynchronization": "Sincronização da ordem dos HUDs na nuvem",
       "sharedConfigCloudSynchronization": "Sincronização da Configuração Compartilhada na Nuvem",
-      "sharedConfigSync": "Substituir Atalhos de Teclado do Jogador CS2",
+      "sharedConfigSync": "Sincronização da configuração compartilhada na nuvem",
       "valorantWindowTitleOverride": "Substituição do título da janela Valorant",
       "valorantServerMode": "Modo de recolha de dados",
       "valorantReadLanguage": "Linguagem do jogo Valorant",
@@ -789,15 +789,15 @@
       "dota2Assets": "Activos Dota 2",
       "autoHalfSwitch": "Interruptor automático de metade (Experimental)",
       "autoSwitch": "Troca automática",
-      "overrideCS2PlayerKeybinds": "Não",
+      "overrideCS2PlayerKeybinds": "Substituir atalhos de teclado do jogador CS2",
       "overrideCS2PlayerKeybindsOptions": {
-        "no": "Quando o LHM estiver em foco",
-        "focused": "Sempre",
-        "always": "Substituir Atalhos de Teclado do Jogador CS2"
+        "no": "Não",
+        "focused": "Quando o LHM estiver em foco",
+        "always": "Sempre"
       },
       "overrideCS2PlayerKeybindsModal": {
-        "title": "Esta opção define os atalhos de teclado do CS2 de 1 a 0 para corresponder aos slots de jogadores observadores exibidos no HUD, o que é útil quando há treinadores presentes no servidor.\n\nPara salvar os atalhos de teclado, você deve desativar esta opção enquanto o CS2 estiver em execução.",
-        "info": "Substituição de Endereço IP"
+        "title": "Substituir atalhos de teclado do jogador CS2",
+        "info": "Esta opção define os atalhos de teclado do CS2 de 1 a 0 para corresponder aos slots de jogadores observadores exibidos no HUD, o que é útil quando há treinadores presentes no servidor.\nPara salvar os atalhos de teclado, você deve desativar esta opção enquanto o CS2 estiver em execução."
       },
       "header": "Definições",
       "subheaders": {
@@ -813,7 +813,7 @@
       "halfTimeBehaviour": {
         "label": "Comportamento a meio tempo",
         "none": "Nenhum",
-        "switch": "Trocar de equipa (esquerda {{ name }} direita)",
+        "switch": "Trocar equipas (esquerda <-> direita)",
         "keep": "Forçar a manutenção das equipas' lados"
       },
       "rocketleague": {
@@ -867,7 +867,7 @@
       "updater": {
         "version": "Versão",
         "installing": "Instalando...",
-        "downloading": "Descarregando... {{side}}%",
+        "downloading": "Descarregando... {{percent}}%",
         "install": "Instalar atualização",
         "latest": "Mais recente"
       },
@@ -901,8 +901,8 @@
         "config": {
           "status": "Configurações",
           "add": "Adicionar ficheiros de configuração",
-          "overrideIp": "Modo Lento",
-          "slowMode": "Ferramentas da Oficina do CS2 Não Encontradas"
+          "overrideIp": "Substituição de Endereço IP",
+          "slowMode": "Modo Lento"
         },
         "credits": {
           "credits": "Créditos",
@@ -938,16 +938,16 @@
     "huds": {
       "header": "HUDs",
       "workshopToolsModal": {
-        "title": "O DLC Ferramentas da Oficina do Counter-Strike 2 não foi detectado. Ele é necessário para usar com o Modo Lento ao iniciar o CS2 com o Feed de Abates ou a IA de Reconhecimento ativada. Recomenda-se baixá-lo pelo Steam e tentar novamente.",
-        "info": "Iniciar mesmo assim",
-        "launchAnyway": "Criar categoria"
+        "title": "Ferramentas de Workshop do CS2 não encontradas",
+        "info": "O DLC Counter-Strike 2 Workshop Tools não foi detectado. Ele é necessário para usar com o LHM ao iniciar o CS2 com Killfeed ou Scout AI ativados. Recomendamos fazer o download pela Steam e tentar novamente.",
+        "launchAnyway": "Iniciar mesmo assim"
       },
       "config": {
         "customRadar": "Radar",
-        "customKillfeed": "Killfeed",
+        "customKillfeed": "Custom Killfeed",
         "embeddedHUD": "HUD incorporado",
         "killfeedOffset": "Killfeed Offset",
-        "scout": "Scout AI/XRAY",
+        "scout": "Scout AI",
         "autoexecute": "Auto-execute",
         "console": "Consola",
         "add": "Adicionar HUD",
@@ -1157,8 +1157,8 @@
           }
         },
         "scout": {
-          "title": "IA de batedor",
-          "info": "Se activares esta opção, o CS2 será iniciado com o VConsole2, o que poderá impedir-te de te juntares a servidores, a não ser que estejas devidamente configurado."
+        "title": "Scout AI",
+        "info": "Esta opção requer Workshop Tools e executa HLAE.\nAtivar esta opção permitirá ao LHM usar Scout Cinematic, assim como usar Scout Vision no modo direct.\nEsta opção iniciará o CS2 em modo inseguro - não entre em servidores protegidos por VAC (por exemplo, Faceit, matchmaking), exceto como espectador CSTV enquanto ela estiver ativada."
         },
         "tab": {
           "title": "Separador HUDs",
@@ -1169,8 +1169,8 @@
           "info": "Se ativar esta opção e executar o jogo com a configuração apresentada abaixo ou usar o botão \"Executar jogo\", o radar do jogo será desativado e será usado o radar personalizado incorporado nos HUDs."
         },
         "killfeed": {
-          "title": "Killfeed",
-          "info": "Ativar esta opção e correr o jogo com a configuração apresentada abaixo ou usando o botão \"Correr o jogo\" irá desativar o killfeed no jogo para usar o killfeed personalizado incorporado nos seus HUDs.\nEsta opção irá iniciar o CS:GO em modo inseguro - não será possível entrar em servidores protegidos por VAC (por exemplo, Faceit, matchmaking) a não ser como espetador CSTV enquanto estiver activada."
+          "title": "Custom Killfeed",
+          "info": "Esta opção requer Workshop Tools e executa HLAE.\nAtivar esta opção e correr o jogo com a configuração apresentada abaixo ou usando o botão \"Correr o jogo\" irá desativar o killfeed no jogo para usar o Custom Killfeed incorporado nos seus HUDs.\nEsta opção irá iniciar o CS2 em modo inseguro - não será possível entrar em servidores protegidos por VAC (por exemplo, Faceit, matchmaking) a não ser como espetador CSTV enquanto estiver activada."
         },
         "embeddedHUD": {
           "title": "HUD incorporado",
@@ -1327,8 +1327,8 @@
           "info": "Atualmente, o atraso da câmara só é suportado nos HUDs oficiais da Lexogrine: HUDs Ultra & Premium"
         },
         "quality": {
-          "title": "Streams de câmera de alta qualidade podem causar travamentos em alguns computadores e conexões de internet.",
-          "info": "Sincronização de Configurações Compartilhadas na Nuvem"
+          "title": "Qualidade da transmissão da câmara",
+          "info": "Transmissões de câmara com qualidade mais alta podem causar travamentos em alguns computadores e conexões de internet."
         },
         "tab": {
           "title": "Câmaras",
@@ -1343,7 +1343,7 @@
       },
       "quick": {
         "tab": {
-          "title": "Rápido",
+          "title": "Quick",
           "info": "O LHM Quick permite-lhe preparar rapidamente toda a configuração do jogador, da equipa e do HUD a partir de um único local, permitindo-lhe iniciar imediatamente a sua transmissão."
         }
       },
@@ -1355,16 +1355,16 @@
       },
       "settings": {
         "sharedConfigSync": {
-          "title": "Quando ativada, as seções de Configurações Compartilhadas (por exemplo, configurações de Raio-X) são sincronizadas com a Nuvem LHM, para que permaneçam consistentes em todos os seus dispositivos/espaços de trabalho.\n\nDesative esta opção se desejar manter as alterações de Configurações Compartilhadas apenas localmente.",
-          "info": "Substituição de Endereço IP"
+          "title": "Sincronização da configuração compartilhada na nuvem",
+          "info": "Quando ativada, as seções de Configurações Compartilhadas (por exemplo, configurações de X-Ray) são sincronizadas com a Nuvem LHM, para que permaneçam consistentes em todos os seus dispositivos/espaços de trabalho.\nDesative esta opção se desejar manter as alterações de Configurações Compartilhadas apenas localmente."
         },
         "ipAddressOverride": {
-          "title": "Use esta opção somente se o LHM detectar um endereço de rede privada incorreto (por exemplo, quando uma VPN estiver ativa).\n\nDefina o endereço IP local que suas fontes de HUD/navegador devem usar.\n\nReinicie o LHM após alterar este valor para que a alteração entre em vigor.",
-          "info": "Modo Lento"
+          "title": "Substituição de Endereço IP",
+          "info": "Use esta opção somente se o LHM detectar um endereço de rede privada incorreto (por exemplo, quando uma VPN estiver ativa).\nDefina o endereço IP local que suas fontes de HUD/navegador devem usar.\nReinicie o LHM após alterar este valor para que a alteração entre em vigor."
         },
         "slowMode": {
-          "title": "O Modo Lento envia solicitações de API por meio de uma fila para reduzir o tráfego de pico. Isso pode ser útil em ambientes com firewalls restritivos em todo o país.\n\nReinicie o LHM após alterar este valor para que a alteração entre em vigor.",
-          "info": "Excluir torneios"
+          "title": "Modo Lento",
+          "info": "O Modo Lento envia solicitações de API por meio de uma fila para reduzir o tráfego de pico. Isso pode ser útil em ambientes com firewalls restritivos em todo o país.\nReinicie o LHM após alterar este valor para que a alteração entre em vigor."
         }
       }
     },
@@ -1378,14 +1378,15 @@
         "titlePlayers": "Apagar jogadores",
         "titleMatches": "Eliminar partidas",
         "titleTournaments": "Eliminar torneios",
-        "infoTeams": "Tem a certeza que quer remover as equipas?",
+        "infoTeams": "Tem a certeza que quer remover {{count}} equipas?",
         "infoPlayers": "Tem a certeza que quer remover {{count}} jogadores?",
         "infoTournaments": "Tem a certeza de que quer remover {{count}} torneios?",
-        "infoMatches": "Tens a certeza que queres apagar os jogos {{count}}?",
+        "infoMatches": "Tem a certeza que quer remover {{count}} jogos?",
         "deleteWithPlayers": "Apagar com jogadores",
         "deleteAll": "Apagar tudo ({{count}})",
         "single": {
-          "titleTournament": "Tem certeza de que deseja remover torneio {{name}}?"
+          "titleTournament": "Eliminar torneio {{name}}",
+          "infoTournament": "Tem a certeza que quer remover o torneio {{name}}?"
         }
       },
       "steamApiKeyMissing": {
@@ -1433,8 +1434,8 @@
         "description": "Novo no LHM? Aqui encontrará algumas dicas básicas para começar a utilizar a aplicação!\n\nAtualmente, o LHM suporta CS2, Dota 2, League of Legends, Rocket League, Apex Legends e F1. Cada jogo suportado requer uma configuração simples, mas necessária, para funcionar corretamente com o LHM.\nClique no botão Saiba mais abaixo para saber como configurar qualquer jogo que queira usar com o LHM."
       },
       "quick": {
-        "title": "LHM Rápido",
-        "description": "O LHM Rápido permite-lhe configurar rapidamente jogadores e equipas para lançar com o HUD. Esta funcionalidade destina-se principalmente a utilizadores familiarizados com o funcionamento do LHM e permite-lhes começar de imediato.\nAtualmente, os jogos que são suportados pelo LHM Quick são CS2, CS:GO, Dota 2, League of Legends e Rocket League.\nClique no botão Saiba mais abaixo para saber mais sobre o LHM Quick."
+        "title": "LHM Quick",
+        "description": "O LHM Quick permite-lhe configurar rapidamente jogadores e equipas para lançar com o HUD. Esta funcionalidade destina-se principalmente a utilizadores familiarizados com o funcionamento do LHM e permite-lhes começar de imediato.\nAtualmente, os jogos que são suportados pelo LHM Quick são CS2, CS:GO, Dota 2, League of Legends e Rocket League.\nClique no botão Saiba mais abaixo para saber mais sobre o LHM Quick."
       },
       "huds": {
         "title": "Separador HUDs",
