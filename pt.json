@@ -384,51 +384,51 @@
       "tooltips": {
         "performanceInformation": "Informações de desempenho",
         "customCssColorVariablesHelp": "Ajuda para variáveis de cor CSS personalizadas",
-        "customCss": "Para usar a cor da equipe no CSS personalizado, use a variável CSS: var(--color-new-t).\n\n#__# Renderizar temporariamente todos os componentes do Composer de uma só vez pode reduzir o desempenho da pré-visualização em máquinas mais fracas. Isso é esperado durante a configuração e não deve afetar o desempenho depois que você terminar de configurar seu HUD.",
-        "bulkVisibilityPerformance": "Componentes de pesquisa..."
+        "customCss": "Para usar a cor da equipa no CSS personalizado, use a variável CSS: var(--color-new-t).",
+        "bulkVisibilityPerformance": "A renderização temporária de todos os componentes do Composer em simultâneo pode reduzir o desempenho da pré-visualização em máquinas mais fracas. Isto é esperado durante a configuração e não deve afetar o desempenho após concluir a configuração do HUD."
       },
       "placeholders": {
-        "search": "/* estilos personalizados */",
-        "customCss": "Usar Avatar"
+        "search": "Pesquisar componentes...",
+        "customCss": "/* estilos personalizados */"
       },
       "radar": {
-        "useAvatar": "Tamanho do Jogador",
-        "playerSize": "Opacidade do Radar",
-        "radarOpacity": "Usar Gradiente",
-        "useGradient": "Variante de Animação da Granada",
-        "grenadeAnimationVariant": "Marcador de Jogador Morto",
-        "deadPlayerMarker": "Substituição de Gradiente Ativada",
-        "gradientOverrideEnabled": "Cor de Parada do Gradiente",
-        "gradientStopColor": "Zoom da Multidão Ativado",
-        "crowdZoomEnabled": "Cor do Portador da Bomba",
-        "bombCarrierColor": "Cor da Fumaça",
-        "smokeColor": "Cor do Flash",
-        "flashColor": "Cor da Granada",
-        "grenadeColor": "Cor do Molotov",
-        "molotovColor": "Cor da Bomba",
-        "bombColor": "Largura Máxima de Plantio"
+        "useAvatar": "Usar Avatar",
+        "playerSize": "Tamanho do Jogador",
+        "radarOpacity": "Opacidade do Radar",
+        "useGradient": "Usar Gradiente",
+        "grenadeAnimationVariant": "Variante da Animação da Granada",
+        "deadPlayerMarker": "Marcador de Jogador Morto",
+        "gradientOverrideEnabled": "Substituição de Gradiente Ativada",
+        "gradientStopColor": "Cor de Paragem do Gradiente",
+        "crowdZoomEnabled": "Zoom da Multidão Ativado",
+        "bombCarrierColor": "Cor do Portador da Bomba",
+        "smokeColor": "Cor do Fumo",
+        "flashColor": "Cor do Flash",
+        "grenadeColor": "Cor da Granada",
+        "molotovColor": "Cor do Molotov",
+        "bombColor": "Cor da Bomba"
       },
       "anims": {
-        "plantMaxWidth": "Altura Máxima de Plantio",
-        "plantMaxHeight": "Largura Máxima de Desarme",
-        "defuseMaxWidth": "Altura Máxima de Desarme",
-        "defuseMaxHeight": "(alvo) ~5s)",
-        "targetFiveSeconds": "(alvo ~10s)",
-        "targetTenSeconds": "Padrão"
+        "plantMaxWidth": "Largura Máxima de Plantio",
+        "plantMaxHeight": "Altura Máxima de Plantio",
+        "defuseMaxWidth": "Largura Máxima de Desarme",
+        "defuseMaxHeight": "Altura Máxima de Desarme",
+        "targetFiveSeconds": "(alvo ~5s)",
+        "targetTenSeconds": "(alvo ~10s)"
       },
       "radarVariants": {
-        "default": "Escuro",
-        "dark": "Limpo",
-        "clean": "Alto Contraste",
-        "high-contrast": "Padrão"
+        "default": "Padrão",
+        "dark": "Escuro",
+        "clean": "Limpo",
+        "high-contrast": "Alto Contraste"
       },
       "radarGrenadeAnimationVariants": {
-        "default": "Cartoon",
-        "carton": "Desvanecimento"
+        "default": "Padrão",
+        "carton": "Cartoon"
       },
       "radarDeadPlayerMarkers": {
-        "fade": "Time X",
-        "team-x": "Definir como técnico"
+        "fade": "Desvanecimento",
+        "team-x": "Equipa X"
       }
     },
     "players": {
@@ -441,7 +441,7 @@
       "importPlayersExcel": "Utilize a nossa folha Excel pré-preparada para importar facilmente muitos jogadores de uma só vez.",
       "exportPlayers": "Exportar",
       "avatar": "Avatar",
-      "setAsCoach": "Atraso da câmera em segundos"
+      "setAsCoach": "Definir como treinador"
     },
     "teams": {
       "edit": "Editar uma equipa",
@@ -667,7 +667,7 @@
         "right": "direita"
       },
       "vetoDescription": {
-        "pick": "{{teamName}} picks {{mapName}}",
+        "pick": "{{teamName}} escolhe {{mapName}}",
         "ban": "{{teamName}} bane {{mapName}}"
       },
       "chooseTeam": "Escolher equipa",
@@ -971,16 +971,16 @@
         "oldest": "Mais antigo"
       },
       "categories": {
-        "createTitle": "Renomear categoria",
+        "createTitle": "Criar categoria",
         "renameTitle": "Renomear categoria",
-        "deleteTitle": "Excluir categoria {{name}}",
-        "name": "Desagrupar",
-        "ungrouped": "Desagrupar",
+        "deleteTitle": "Eliminar categoria {{name}}",
+        "name": "Nome da categoria",
+        "ungrouped": "Sem agrupar",
         "deleteInfo": "Tem certeza de que deseja remover a categoria {{name}}? Esta ação não removerá nenhum HUD."
       },
       "fields": {
         "missing": "Campos em falta",
-        "fieldOfType": "Campo \"{{mapName}}\" do tipo \"{{percent}}\"",
+        "fieldOfType": "Campo \"{{field}}\" do tipo \"{{type}}\"",
         "fieldNamePlaceholder": "Nome do campo",
         "inputType": "Tipo de entrada",
         "values": {
@@ -1000,8 +1000,8 @@
         "customKillfeed": "Incluir killfeed personalizado"
       },
       "removal": {
-        "title": "Removendo {{field}}",
-        "areYouSure": "Tens a certeza que queres remover {{type}}?"
+        "title": "A remover {{hud}}",
+        "areYouSure": "Tem certeza de que deseja remover {{hud}}?"
       },
       "actions": {
         "toggleUrl": "Alternar URL do HUD",
@@ -1023,60 +1023,60 @@
       },
       "share": {
         "actions": {
-          "share": "Compartilhar HUD"
+          "share": "Partilhar"
         },
         "modal": {
-          "title": "Enviar este HUD para outro usuário por e-mail.",
-          "description": "O destinatário verá seu nome de usuário do LHM ao receber este compartilhamento.",
-          "disclaimer": "O destinatário verá seu nome de usuário do LHM ao receber este compartilhamento.",
-          "workspaceOwnerDisclaimer": "Este HUD pertence ao espaço de trabalho \"{{workspace}}\". Como você não é o proprietário do espaço de trabalho, o convite será enviado em nome da conta principal da empresa.",
-          "emailLabel": "nome@exemplo.com",
-          "emailPlaceholder": "Duração do acesso",
-          "expiryLabel": "7 dias",
+          "title": "Partilhar HUD",
+          "description": "Enviar este HUD para outro utilizador por e-mail.",
+          "disclaimer": "O destinatário verá o seu nome de utilizador LHM ao receber esta partilha.",
+          "workspaceOwnerDisclaimer": "Este HUD pertence ao espaço de trabalho \"{{workspace}}\". Como não é o proprietário do espaço de trabalho, o convite será enviado em nome da conta principal Enterprise.",
+          "emailLabel": "E-mail do destinatário",
+          "emailPlaceholder": "name@example.com",
+          "expiryLabel": "Duração do acesso",
           "expiry": {
-            "week": "30 dias",
-            "month": "Data personalizada",
-            "custom": "Sem data de expiração",
-            "never": "Após a data de expiração selecionada, o HUD poderá permanecer disponível por até uma hora."
+            "week": "7 dias",
+            "month": "30 dias",
+            "custom": "Data personalizada",
+            "never": "Sem data de expiração"
           },
-          "customExpiryWarning": "Enviar convite",
-          "submit": "Convites de compartilhamento de HUD pendentes"
+          "customExpiryWarning": "Após a data de expiração selecionada, o HUD pode permanecer disponível por até uma hora.",
+          "submit": "Enviar convite"
         },
         "pending": {
-          "title": "Você recebeu um convite para compartilhamento de HUD:",
-          "description": "Remetente desconhecido",
-          "unknownSender": "HUD sem nome",
-          "unnamedHud": "Jogo desconhecido",
+          "title": "Convites pendentes de partilha de HUD",
+          "description": "Recebeu um convite de partilha de HUD:",
+          "unknownSender": "Remetente desconhecido",
+          "unnamedHud": "HUD sem nome",
           "unknownGame": "Jogo desconhecido",
           "game": "Jogo: {{game}}",
           "size": "Tamanho: {{size}}",
-          "sharedBy": "Compartilhado por {{sender}}",
-          "acceptToWorkspace": "Aceitar nos espaços de trabalho",
-          "acceptToWorkspaces": "Minha conta",
-          "mainWorkspace": "Espaço de trabalho indisponível",
-          "workspaceUnavailableTitle": "Aguarde enquanto copiamos o HUD compartilhado para o(s) espaço(s) de trabalho selecionado(s).",
-          "acceptingInfo": "Aguarde enquanto copiamos o HUD compartilhado para o(s) espaço(s) de trabalho selecionado(s).",
+          "sharedBy": "Partilhado por {{sender}}",
+          "acceptToWorkspace": "Aceitar no espaço de trabalho",
+          "acceptToWorkspaces": "Aceitar em espaços de trabalho",
+          "mainWorkspace": "A minha conta",
+          "workspaceUnavailableTitle": "Espaço de trabalho indisponível",
+          "acceptingInfo": "Aguarde enquanto copiamos o HUD partilhado para o(s) espaço(s) de trabalho selecionado(s).",
           "expiresAt": "Expira em: {{expiresAt}}",
-          "upgradeRequired": "Este espaço de trabalho não tem armazenamento suficiente para este HUD. Remova alguns dados do espaço de trabalho para aceitar o HUD.",
-          "enterpriseStorageRequired": "Este espaço de trabalho compartilha armazenamento com seus outros espaços de trabalho corporativos selecionados. Remova alguns dados ou desmarque outro espaço de trabalho para aceitar o HUD.",
-          "enterpriseSelectionLimit": "Você não tem espaço livre suficiente na nuvem para aceitar este HUD no momento. Libere espaço para aceitar o HUD.",
-          "notEnoughFreeSpace": "Nunca",
+          "upgradeRequired": "Este HUD é maior do que o limite de armazenamento do seu plano atual. Atualize o seu plano para o aceitar.",
+          "enterpriseStorageRequired": "Este espaço de trabalho não tem armazenamento suficiente para este HUD. Remova alguns dados do espaço de trabalho para aceitar o HUD.",
+          "enterpriseSelectionLimit": "Este espaço de trabalho partilha armazenamento com os outros espaços de trabalho empresariais selecionados. Remova alguns dados ou desmarque outro espaço de trabalho para aceitar o HUD.",
+          "notEnoughFreeSpace": "Não tem espaço livre suficiente na nuvem para aceitar este HUD agora. Liberte espaço para aceitar o HUD.",
           "never": "Nunca",
           "progress": "Convite {{current}} de {{total}}"
         },
         "meta": {
-          "sharedBy": "Compartilhado por {{sender}}",
+          "sharedBy": "Partilhado por {{sender}}",
           "unknownSender": "Remetente desconhecido",
           "expiresAt": "Expira em {{expiresAt}}"
         },
         "notifications": {
-          "created": "Não foi possível enviar o convite de compartilhamento. Tente novamente.",
-          "error": "Gerenciar compartilhamentos",
-          "manageShares": "Número máximo de compartilhamentos ativos atingido.",
+          "created": "Convite de partilha de HUD enviado com sucesso.",
+          "error": "Não foi possível enviar o convite de partilha. Tente novamente.",
+          "manageShares": "Gerir partilhas",
           "errors": {
-            "SHARE_LIMIT_REACHED": "Você não pode compartilhar um HUD consigo mesmo.",
-            "SHARE_SELF": "Este HUD já está compartilhado com esse usuário.",
-            "SHARE_ALREADY_EXISTS": "Qualidade do Stream da Câmera"
+            "SHARE_LIMIT_REACHED": "Número máximo de partilhas ativas atingido.",
+            "SHARE_SELF": "Não pode partilhar um HUD consigo mesmo.",
+            "SHARE_ALREADY_EXISTS": "Este HUD já está partilhado com esse utilizador."
           }
         }
       },

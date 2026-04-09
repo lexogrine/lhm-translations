@@ -196,7 +196,7 @@
       "inGameName": "Nazwa w grze",
       "manualControl": "Sterowanie ręczne",
       "areaConfigurationsPlaceholder": "Wybierz obszar, aby zobaczyć jego konfiguracje",
-      "enableDirector": "Enable director",
+      "enableDirector": "Włącz reżysera",
       "scoutPredict": "Włącz przewidywanie",
       "telnet": "Włącz Telnet",
       "telnetWarning": "Aby korzystać z Telnet, CS2 musi być uruchomiony z Workshop Tools. Można to zrobić włączając opcję \"Killfeed / Tools\" w zakładce HUDs i klikając przycisk \"Run Game\".",
@@ -209,7 +209,7 @@
       "scoutCinematicDescription": "Pokazuj piękne ujęcia filmowe podczas przerw meczowych.",
       "scoutPredictDescription": "Wyświetlaj prognozy wyników meczów na żywo bezpośrednio w swojej transmisji.",
       "scoutCinematic": "Użyj Cinematic Scout",
-      "saveArea": "Obszar oszczędzania",
+      "saveArea": "Zapisz obszar",
       "areaName": "Nazwa",
       "areaNamePlaceholder": "Nazwa obszaru",
       "areaPriority": "Priorytet",
@@ -249,7 +249,7 @@
       "usePlayerAvatar": "Użyj awatara gracza",
       "radarStyle": "Styl radaru",
       "position": "Pozycja",
-      "fileTooLarge": "Plik jest zbyt duży. Maksymalny rozmiar to {{limit}} MB. #__#\nKomponenty",
+      "fileTooLarge": "Plik jest zbyt duży. Maksymalny rozmiar to {{limit}} MB.",
       "fontSize": "Rozmiar czcionki",
       "uhudMatchbarTeamNameFontSize": "Rozmiar czcionki nazwy drużyny",
       "uhudMatchbarScoreFontSize": "Rozmiar czcionki wyniku",
@@ -269,24 +269,24 @@
         "killfeed": "Killfeed",
         "round-history": "Historia rund",
         "mapseries": "Seria Map",
-        "asset": "Asset",
-        "winbox": "WinBox",
+        "asset": "Niestandardowy zasób",
+        "winbox": "Wskaźnik wygranej rundy",
         "sponsors": "Sponsorzy",
         "tournament-info": "Informacje turniejowe",
-        "scout": "Scout",
+        "scout": "Przewidywanie Scout",
         "radar": "Radar",
-        "anims-plant": "Anims Plant",
-        "anims-defuse-short": "Anims Defuse Short",
-        "anims-defuse-long": "Anims Defuse Long",
-        "anims-defuse": "Anims Defuse",
-        "anims": "Anims"
+        "anims-plant": "Animacja podkładania",
+        "anims-defuse-short": "Animacja rozbrojenia (krótka)",
+        "anims-defuse-long": "Animacja rozbrojenia (długa)",
+        "anims-defuse": "Animacja rozbrojenia",
+        "anims": "Animacja"
       },
       "huds": {
         "ultrahud": "Ultra HUD",
         "amberhud": "Amber HUD",
         "sapphirehud": "Sapphire HUD",
         "neonhud": "Neon HUD",
-        "fullHud": "Cały HUD"
+        "fullHud": "Pełny HUD"
       },
       "layouts": {
         "vertical": "Pionowy",
@@ -308,25 +308,25 @@
       "sapphirePlayersKdaFontSize": "Rozmiar czcionki KDA",
       "killfeedPlayerNameFontSize": "Rozmiar czcionki nazwy gracza w killfeedzie",
       "titles": {
-        "components": "Ustawienia",
-        "settings": "Style globalne",
-        "globalStyles": "Zastosuj globalny wygląd do komponentów."
+        "components": "Komponenty",
+        "settings": "Ustawienia",
+        "globalStyles": "Style globalne"
       },
       "descriptions": {
-        "globalStyles": "Pokaż wszystko"
+        "globalStyles": "Zastosuj globalny wygląd do komponentów."
       },
       "actions": {
-        "showAll": "Ukryj wszystko",
-        "hideAll": "Pokaż komponent",
-        "showComponent": "Ukryj komponent",
-        "hideComponent": "Powrót do komponentów",
-        "backToComponents": "Do tyłu",
-        "toBack": "Do przodu",
-        "toFront": "Dodano"
+        "showAll": "Pokaż wszystko",
+        "hideAll": "Ukryj wszystko",
+        "showComponent": "Pokaż komponent",
+        "hideComponent": "Ukryj komponent",
+        "backToComponents": "Powrót do komponentów",
+        "toBack": "Do tyłu",
+        "toFront": "Do przodu"
       },
       "status": {
-        "added": "Nie dodano",
-        "notAdded": "Wariant"
+        "added": "Dodano",
+        "notAdded": "Nie dodano"
       },
       "fields": {
         "variant": "Wariant",
@@ -618,13 +618,13 @@
       "selectedTeams": "Zakwalifikowane drużyny",
       "qualifiedTeams": "Zakwalifikowane",
       "qualified": "Wyeliminowane",
-      "eliminated": "Faza grupowa została zakończona. Możesz teraz utworzyć play-offy — ten krok można wykonać tylko raz.",
-      "groupFinished": "Utwórz play-offy",
-      "createPlayoffs": "Faza grupowa jest nadal w toku. Tworzenie play-offów będzie dostępne po zakończeniu fazy grupowej. #__#\nWykryto brakujące mecze",
-      "stageInProgress": "Niektóre mecze zostały usunięte. Kliknij poniżej, aby przywrócić wszystkie mecze z pierwszej brakującej rundy.",
-      "missingMatches": "Przywróć wszystkie mecze",
-      "matchesDeleted": "Synchronizacja kolejności HUD-ów z chmurą",
-      "restoreAllMatches": "Synchronizacja wspólnej konfiguracji z chmurą"
+      "eliminated": "Wyeliminowane",
+      "groupFinished": "Faza grupowa została zakończona. Możesz teraz utworzyć play-offy — ten krok można wykonać tylko raz.",
+      "createPlayoffs": "Utwórz play-offy",
+      "stageInProgress": "Faza grupowa jest nadal w toku. Tworzenie play-offów będzie dostępne po zakończeniu fazy grupowej.",
+      "missingMatches": "Wykryto brakujące mecze",
+      "matchesDeleted": "Niektóre mecze zostały usunięte. Kliknij poniżej, aby przywrócić wszystkie mecze z pierwszej brakującej rundy.",
+      "restoreAllMatches": "Przywróć wszystkie mecze"
     },
     "match": {
       "matches": "Mecze",
@@ -664,7 +664,7 @@
       "editVeto": "Edytuj weto",
       "vetoSide": {
         "left": "lewy",
-        "right": "prawo"
+        "right": "prawy"
       },
       "vetoDescription": {
         "pick": "{{teamName}} wybiera {{mapName}}",
@@ -672,8 +672,8 @@
       },
       "chooseTeam": "Wybierz drużynę",
       "vetoSidepick": {
-        "normal": ", {{secondTeamName}} wybiera stronę {{side}}",
-        "decider": "{{mapName}} rozstrzygający"
+        "normal": "{{secondTeamName}} wybiera stronę {{side}}",
+        "decider": "{{mapName}} decydująca"
       },
       "vetoUrlModal": {
         "title": "Wygeneruj link do aplikacji Veto",
@@ -786,18 +786,18 @@
       "openValorantScoreboardAutomatically": "Automatycznie otwórz tablicę wyników Valorant",
       "autoHUDUpload": "Automatyczne przesyłanie HUD-ów do chmury",
       "language": "Język",
-      "dota2Assets": "Dota 2 Assets",
+      "dota2Assets": "Zasoby Dota 2",
       "autoHalfSwitch": "Automatyczny przełącznik połówkowy (eksperymentalny)",
       "autoSwitch": "Automatyczna zmiana drużyn",
       "overrideCS2PlayerKeybinds": "Gdy LHM jest aktywny",
       "overrideCS2PlayerKeybindsOptions": {
-        "no": "Zawsze",
-        "focused": "Zastąp skróty klawiszowe graczy CS2",
-        "always": "Ta opcja ustawia skróty klawiszowe CS2 na 1-0, aby dopasować je do slotów graczy obserwatorów wyświetlanych na HUD-ach, co jest przydatne, gdy na serwerze obecni są trenerzy.\nAby zapisać skróty klawiszowe, należy wyłączyć tę opcję podczas działania CS2. #__#\nNadpisanie adresu IP"
+        "no": "Nie",
+        "focused": "Gdy LHM jest aktywny",
+        "always": "Zawsze"
       },
       "overrideCS2PlayerKeybindsModal": {
-        "title": "Tryb wolny",
-        "info": "Nie znaleziono narzędzi warsztatowych CS2"
+        "title": "Nadpisz skróty klawiszowe graczy CS2",
+        "info": "Ta opcja ustawia skróty klawiszowe CS2 1-0 tak, aby pasowały do slotów graczy obserwatora wyświetlanych na HUD-ach, co jest przydatne, gdy na serwerze obecni są trenerzy.\nAby zapisać skróty klawiszowe, musisz wyłączyć tę opcję podczas działania CS2."
       },
       "header": "Ustawienia",
       "subheaders": {
@@ -938,9 +938,9 @@
     "huds": {
       "header": "HUDy",
       "workshopToolsModal": {
-        "title": "Utwórz kategorię",
-        "info": "Zmień nazwę kategorii",
-        "launchAnyway": "Usuń kategorię {{name}}"
+        "title": "Nie znaleziono narzędzi CS2 Workshop Tools",
+        "info": "Nie wykryto dodatku Counter-Strike 2 Workshop Tools DLC. Jest on wymagany do działania z LHM podczas uruchamiania CS2 z włączonym Killfeed lub Scout AI. Zalecamy pobranie go przez Steam i ponowną próbę.",
+        "launchAnyway": "Uruchom mimo to"
       },
       "config": {
         "customRadar": "Radar",
@@ -1343,7 +1343,7 @@
       },
       "quick": {
         "tab": {
-          "title": "Szybcior",
+          "title": "Quick",
           "info": "LHM Quick pozwala szybko przygotować całego gracza, drużynę i konfigurację HUD z jednego miejsca, umożliwiając natychmiastowe rozpoczęcie transmisji."
         }
       },
@@ -1355,16 +1355,16 @@
       },
       "settings": {
         "sharedConfigSync": {
-          "title": "Użyj tego tylko wtedy, gdy LHM wykryje nieprawidłowy adres sieci prywatnej (na przykład, gdy aktywna jest sieć VPN).\nUstaw lokalny adres IP, którego powinny używać źródła HUD/przeglądarki.\nPo zmianie tej wartości uruchom ponownie LHM.",
-          "info": "Tryb wolny"
+          "title": "Synchronizacja współdzielonej konfiguracji z chmurą",
+          "info": "Po włączeniu sekcje współdzielonej konfiguracji (na przykład ustawienia X-Ray) są synchronizowane z LHM Cloud, dzięki czemu pozostają spójne na wszystkich urządzeniach i obszarach roboczych.\nWyłącz tę opcję, jeśli chcesz, aby zmiany współdzielonej konfiguracji były zapisywane tylko lokalnie."
         },
         "ipAddressOverride": {
-          "title": "Tryb wolny wysyła żądania API przez kolejkę, aby zmniejszyć natężenie ruchu. Może to być pomocne w środowiskach z restrykcyjnymi zaporami sieciowymi obejmującymi cały kraj.\nPo zmianie tej wartości uruchom ponownie LHM.",
-          "info": "Usuń turnieje"
+          "title": "Nadpisanie adresu IP",
+          "info": "Użyj tej opcji tylko wtedy, gdy LHM wykryje nieprawidłowy prywatny adres sieciowy (na przykład przy aktywnym VPN).\nUstaw lokalny adres IP, którego mają używać źródła HUD/przeglądarki.\nPo zmianie tej wartości uruchom ponownie LHM, aby zastosować zmiany."
         },
         "slowMode": {
-          "title": "Czy na pewno chcesz usunąć {{count}} turniejów?",
-          "info": "Usuń {{name}} turniej"
+          "title": "Tryb wolny",
+          "info": "Tryb wolny wysyła żądania API przez kolejkę, aby zmniejszyć ruch skokowy. Może to pomóc w środowiskach z restrykcyjnymi zaporami sieciowymi na poziomie kraju.\nPo zmianie tej wartości uruchom ponownie LHM, aby zastosować zmiany."
         }
       }
     },
@@ -1377,13 +1377,17 @@
         "titleTeams": "Usuń zespoły",
         "titlePlayers": "Usuń graczy",
         "titleMatches": "Usuń mecze",
-        "titleTournaments": "Czy na pewno chcesz usunąć {{name}} turniej?",
+        "titleTournaments": "Usuń turnieje",
         "infoTeams": "Czy na pewno chcesz usunąć {{count}} drużyn?",
         "infoPlayers": "Czy na pewno chcesz usunąć {{count}} zawodników?",
+        "infoTournaments": "Czy na pewno chcesz usunąć {{count}} turniejów?",
         "infoMatches": "Czy na pewno chcesz usunąć mecze {{count}}?",
         "deleteWithPlayers": "Usuń z graczami",
         "deleteAll": "Usuń wszystko ({{count}})",
-        "single": {}
+        "single": {
+          "titleTournament": "Usuń turniej {{name}}",
+          "infoTournament": "Czy na pewno chcesz usunąć turniej {{name}}?"
+        }
       },
       "steamApiKeyMissing": {
         "title": "Brak klucza API Steam",

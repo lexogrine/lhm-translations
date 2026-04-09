@@ -197,15 +197,15 @@
       "manualControl": "Contrôle manuel",
       "areaConfigurationsPlaceholder": "Sélectionner une zone pour voir ses configurations",
       "enableDirector": "Activer l'observateur",
-      "scoutPredict": "Permettre Prévoir",
+      "scoutPredict": "Activer les prédictions",
       "telnet": "Activer Telnet",
-      "telnetWarning": "Pour utiliser Telnet, CS2 doit être lancé avec Workshop Tools. Vous pouvez le faire en activant l'option \"Killfeed / Tools\" ; dans l'onglet HUDs et en cliquant sur le bouton \"Run Game\" ;.",
+      "telnetWarning": "Pour utiliser Telnet, CS2 doit être lancé avec Workshop Tools. Vous pouvez le faire en activant l'option \"Scout AI\" dans l'onglet HUDs et en cliquant sur le bouton \"Run Game\".",
       "cinematicWarning": "Pour utiliser Scout Cinematic, CS2 doit être lancé avec les outils du Workshop. Vous pouvez le faire en activant l’option « Killfeed / Tools » dans l’onglet HUDs et en cliquant sur le bouton « Run Game ». L’activation de la cinématique d’éclaireur forcera également l’exécution de Vision d’éclaireur en mode direct.",
       "disabledDescription": "Tout le contrôle est donné à vous et à vos observateurs.\nAmusez-vous.",
       "aco1Description": "Un équilibre entre contrôle et automatisation.\nAssistez vos observateurs avec un ensemble d'instructions écrites manuellement pour l'ACO.",
       "aco-aiDescription": "Restez assis pendant que les algorithmes avancés de l'IA ACO contrôlent votre flux.",
       "aco-ai-scoutDescription": "Laissez notre tout nouveau système de prédiction de match prendre le contrôle.\nBientôt disponible.",
-      "aco-ai-scoutDescription-disconnected": "Laissez notre tout nouveau système de prédiction de match prendre le volant.\\NLes serveurs de Scout peuvent être actuellement indisponibles.",
+      "aco-ai-scoutDescription-disconnected": "Laissez l'observateur IA suivre le match sans intervention de l'utilisateur.\\nLes serveurs Scout peuvent être actuellement indisponibles.",
       "scoutCinematicDescription": "Montrez de belles images cinématiques pendant les pauses de match.",
       "scoutPredictDescription": "Affichez les pronostics de résultats de match en direct directement sur votre stream.",
       "scoutCinematic": "Utiliser Cinematic Scout",
@@ -971,16 +971,16 @@
         "oldest": "Le plus ancien"
       },
       "categories": {
-        "createTitle": "Nom de la catégorie",
-        "renameTitle": "Dissocier",
-        "deleteTitle": "Êtes-vous sûr de vouloir supprimer la catégorie {{name}} ? Cette action ne supprimera aucun HUD.",
-        "name": "Partager",
-        "ungrouped": "Partager le HUD",
-        "deleteInfo": "Envoyer ce HUD à un autre utilisateur par e-mail."
+        "createTitle": "Créer une catégorie",
+        "renameTitle": "Renommer la catégorie",
+        "deleteTitle": "Supprimer la catégorie {{name}}",
+        "name": "Nom de la catégorie",
+        "ungrouped": "Non groupé",
+        "deleteInfo": "Êtes-vous sûr de vouloir supprimer la catégorie {{name}} ? Cette action ne supprimera aucun HUD."
       },
       "fields": {
         "missing": "Champs manquants",
-        "fieldOfType": "Champ \"{{field}}\" ; de type \"{{type}}\" ;",
+        "fieldOfType": "Champ \"{{field}}\" de type \"{{type}}\"",
         "fieldNamePlaceholder": "Nom du champ",
         "inputType": "Type d'entrée",
         "values": {
@@ -1015,7 +1015,7 @@
         "deleteFromCloud": "Supprimer le HUD du cloud",
         "downloading": "Téléchargement...",
         "toggleHUD": "Basculer le HUD (intégré uniquement)",
-        "toggleHUDKeybinds": "Toggle HUD Keybinds (For Browser Source)",
+        "toggleHUDKeybinds": "Basculer les raccourcis HUD (pour la source navigateur)",
         "clickToCopy": "Cliquer pour copier",
         "linkCopied": "Lien copié dans le presse-papiers",
         "openingOverlay": "Ouverture de l'ATH en superposition...",
@@ -1023,60 +1023,60 @@
       },
       "share": {
         "actions": {
-          "share": "Le destinataire verra votre nom d'utilisateur LHM lorsqu'il recevra ce partage."
+          "share": "Partager"
         },
         "modal": {
-          "title": "Ce HUD appartient à l'espace de travail « {{workspace}} ». Comme vous n'êtes pas le propriétaire de l'espace de travail, l'invitation sera envoyée au nom du compte principal de l'entreprise. #__#\nAdresse e-mail du destinataire",
-          "description": "name@example.com",
-          "disclaimer": "Durée d'accès",
-          "workspaceOwnerDisclaimer": "7 jours",
-          "emailLabel": "30 jours",
-          "emailPlaceholder": "Date personnalisée",
-          "expiryLabel": "Aucune expiration",
+          "title": "Partager un HUD",
+          "description": "Envoyer ce HUD à un autre utilisateur par e-mail.",
+          "disclaimer": "Le destinataire verra votre nom d'utilisateur LHM lorsqu'il recevra ce partage.",
+          "workspaceOwnerDisclaimer": "Ce HUD appartient à l'espace de travail \"{{workspace}}\". Comme vous n'êtes pas le propriétaire de l'espace de travail, l'invitation sera envoyée au nom du compte principal Enterprise.",
+          "emailLabel": "E-mail du destinataire",
+          "emailPlaceholder": "name@example.com",
+          "expiryLabel": "Durée d'accès",
           "expiry": {
-            "week": "Après la date d'expiration sélectionnée, l'interface peut rester disponible pendant une heure maximum.",
-            "month": "Envoyer une invitation",
-            "custom": "Invitations de partage d'interface en attente",
-            "never": "Vous avez reçu une invitation à partager une interface :"
+            "week": "7 jours",
+            "month": "30 jours",
+            "custom": "Date personnalisée",
+            "never": "Aucune expiration"
           },
-          "customExpiryWarning": "Expéditeur inconnu",
-          "submit": "Interface sans nom"
+          "customExpiryWarning": "Après la date d'expiration sélectionnée, le HUD peut rester disponible jusqu'à une heure.",
+          "submit": "Envoyer l'invitation"
         },
         "pending": {
-          "title": "Jeu inconnu",
-          "description": "Jeu : {{game}}",
-          "unknownSender": "Taille : {{size}}",
-          "unnamedHud": "Partagé par {{sender}}",
-          "unknownGame": "Accepter dans l'espace de travail",
-          "game": "Accepter dans les espaces de travail",
-          "size": "Mon compte",
-          "sharedBy": "Espace de travail indisponible",
-          "acceptToWorkspace": "Veuillez patienter pendant que nous copions l'interface partagée dans vos espaces de travail sélectionnés. #__#\nExpire le : {{expiresAt}}",
-          "acceptToWorkspaces": "Ce HUD dépasse la limite de stockage de votre forfait actuel. Mettez à niveau votre forfait pour l'accepter.",
-          "mainWorkspace": "Cet espace de travail ne dispose pas de suffisamment d'espace de stockage pour ce HUD. Supprimez des données de l'espace de travail pour pouvoir l'accepter.",
-          "workspaceUnavailableTitle": "Cet espace de travail partage du stockage avec vos autres espaces de travail d'entreprise sélectionnés. Supprimez des données ou désélectionnez un autre espace de travail pour pouvoir accepter le HUD.",
-          "acceptingInfo": "Vous ne disposez pas de suffisamment d'espace cloud gratuit pour accepter ce HUD actuellement. Libérez de l'espace pour pouvoir l'accepter.",
-          "expiresAt": "Jamais",
-          "upgradeRequired": "Invitation {{current}} de {{total}}",
-          "enterpriseStorageRequired": "Partagé par {{sender}}",
-          "enterpriseSelectionLimit": "Expire le : {{expiresAt}}",
-          "notEnoughFreeSpace": "Invitation de partage de HUD envoyée avec succès.",
-          "never": "Impossible d'envoyer l'invitation de partage. Veuillez réessayer. #__#\nGérer les partages",
-          "progress": "Nombre maximal de partages actifs atteint."
+          "title": "Invitations de partage de HUD en attente",
+          "description": "Vous avez reçu une invitation de partage HUD :",
+          "unknownSender": "Expéditeur inconnu",
+          "unnamedHud": "HUD sans nom",
+          "unknownGame": "Jeu inconnu",
+          "game": "Jeu : {{game}}",
+          "size": "Taille : {{size}}",
+          "sharedBy": "Partagé par {{sender}}",
+          "acceptToWorkspace": "Accepter dans l'espace de travail",
+          "acceptToWorkspaces": "Accepter dans les espaces de travail",
+          "mainWorkspace": "Mon compte",
+          "workspaceUnavailableTitle": "Espace de travail indisponible",
+          "acceptingInfo": "Veuillez patienter pendant que nous copions le HUD partagé vers votre/vos espace(s) de travail sélectionné(s).",
+          "expiresAt": "Expire : {{expiresAt}}",
+          "upgradeRequired": "Ce HUD dépasse la limite de stockage de votre abonnement actuel. Mettez à niveau votre abonnement pour l'accepter.",
+          "enterpriseStorageRequired": "Cet espace de travail ne dispose pas de suffisamment d'espace de stockage pour ce HUD. Supprimez des données de l'espace de travail pour pouvoir l'accepter.",
+          "enterpriseSelectionLimit": "Cet espace de travail partage du stockage avec vos autres espaces de travail Enterprise sélectionnés. Supprimez des données ou désélectionnez un autre espace de travail pour accepter le HUD.",
+          "notEnoughFreeSpace": "Vous ne disposez pas actuellement de suffisamment d'espace cloud libre pour accepter ce HUD. Libérez de l'espace pour l'accepter.",
+          "never": "Jamais",
+          "progress": "Invitation {{current}} sur {{total}}"
         },
         "meta": {
-          "sharedBy": "Vous ne pouvez pas partager un HUD avec vous-même.",
-          "unknownSender": "Ce HUD est déjà partagé avec cet utilisateur.",
-          "expiresAt": "Qualité du flux vidéo"
+          "sharedBy": "Partagé par {{sender}}",
+          "unknownSender": "Expéditeur inconnu",
+          "expiresAt": "Expire {{expiresAt}}"
         },
         "notifications": {
-          "created": "Les flux vidéo de haute qualité peuvent provoquer des saccades sur certains ordinateurs et connexions Internet.",
-          "error": "Synchronisation de la configuration partagée avec le cloud",
-          "manageShares": "Lorsque cette option est activée, les sections de configuration partagée (par exemple, les paramètres de rayons X) sont synchronisées avec LHM Cloud, garantissant ainsi leur cohérence sur tous vos appareils et espaces de travail.\n\nDésactivez cette option si vous souhaitez que les modifications de la configuration partagée restent locales.",
+          "created": "Invitation de partage HUD envoyée avec succès.",
+          "error": "Impossible d'envoyer l'invitation de partage. Veuillez réessayer.",
+          "manageShares": "Gérer les partages",
           "errors": {
-            "SHARE_LIMIT_REACHED": "Remplacement de l'adresse IP",
-            "SHARE_SELF": "Utilisez cette option uniquement si LHM détecte une adresse réseau privée incorrecte (par exemple, lorsqu'un VPN est actif).\n\nDéfinissez l'adresse IP locale que vos sources HUD/navigateur doivent utiliser.\n\nRedémarrez LHM après avoir modifié cette valeur pour que la modification soit prise en compte.",
-            "SHARE_ALREADY_EXISTS": "Mode lent"
+            "SHARE_LIMIT_REACHED": "Nombre maximal de partages actifs atteint.",
+            "SHARE_SELF": "Vous ne pouvez pas partager un HUD avec vous-même.",
+            "SHARE_ALREADY_EXISTS": "Ce HUD est déjà partagé avec cet utilisateur."
           }
         }
       },
