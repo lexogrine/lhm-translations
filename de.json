@@ -217,10 +217,10 @@
       "addConfigHeader": "Füge eine neue Konfiguration zu diesem Bereich hinzu",
       "addConfigPlaceholder": "Gib einen Befehl ein, der in diesem Bereich ausgeführt werden soll",
       "timeRemaining": "Verfügbare Zeit",
-      "scoutServerUnavailable": "LHM kann sich nicht mit den Scout KI-Servern verbinden.\nBitte versuchen Sie es in ein paar Minuten erneut.",
+      "scoutServerUnavailable": "LHM kann sich nicht mit den Scout AI-Servern verbinden.\nBitte versuchen Sie es in ein paar Minuten erneut.",
       "scoutSubtitle": "KI-Beobachter",
       "scoutGetMoreTime": "Holen Sie sich mehr Zeit",
-      "scoutDescription": "Die Scout-KI lernt aus Tausenden von Spielen, um die pikantesten Ereignisse ohne menschliches Zutun selbst einzufangen.",
+      "scoutDescription": "Scout AI lernt aus Tausenden von Spielen, um die spannendsten Ereignisse ohne menschliches Zutun selbst einzufangen.",
       "scoutVisionControl": {
         "label": "Spielsteuerungsmodus",
         "direct": {
@@ -241,7 +241,7 @@
       "scoutCinematicAction": {
         "label": "Aktion Kinofilm"
       },
-      "scoutPausedTip": "Die Scout-KI wird angehalten, da kein laufendes Spiel erkannt wurde.",
+      "scoutPausedTip": "Scout AI ist pausiert, da kein laufendes Spiel erkannt wurde.",
       "xrayWarning": "Damit X-Ray korrekt funktioniert, muss CS2 mit aktivierter Scout/X-Ray-Option gestartet werden."
     },
     "composer": {
@@ -273,7 +273,7 @@
         "winbox": "Rundengewinnanzeige",
         "sponsors": "Sponsoren",
         "tournament-info": "Turnierinformationen",
-        "scout": "Scout-Vorhersage",
+        "scout": "Scout Predict",
         "radar": "Radar",
         "anims-plant": "Animation: Bombe legen",
         "anims-defuse-short": "Animation: Kurzes Entschärfen",
@@ -770,7 +770,7 @@
       "serversUnreachable": "Es scheint, dass unsere Server unerreichbar sind. Bitte versuchen Sie es in ein paar Minuten erneut",
       "preInstalled": "Vorinstalliert verwenden",
       "cloudSynchronization": "Cloud-Synchronisation",
-      "hudConfigCloudSynchronization": "HUD-Einstellungen Cloud-Synchronisation",
+      "hudConfigCloudSynchronization": "Composer- und HUD-Einstellungen Cloud-Synchronisation",
       "hudTogglesCloudSynchronization": "HUD Toggles Cloud Synchronisation",
       "hudOrdersCloudSynchronization": "HUD-Reihenfolge Cloud-Synchronisierung",
       "sharedConfigCloudSynchronization": "Gemeinsame Konfiguration Cloud-Synchronisierung",
@@ -879,9 +879,9 @@
           "dota2ARG": "Dota 2 ARG spielen",
           "reverseSide": "Seiten umkehren",
           "refreshHud": "HUD aktualisieren",
-          "toggleDirector": "Scout-Ansicht umschalten",
-          "toggleScoutPredict": "Toggle Scout Predict",
-          "toggleScoutCinematic": "Toggle Scout Cinematic"
+          "toggleDirector": "Scout Vision umschalten",
+          "toggleScoutPredict": "Scout Predict umschalten",
+          "toggleScoutCinematic": "Scout Cinematic umschalten"
         },
         "streamDeck": {
           "unavailable": "Nicht verfügbar"
@@ -1243,7 +1243,7 @@
       },
       "arg": {
         "tab": {
-          "title": "Automatischer Wiederholungsgenerator",
+          "title": "Replays",
           "info": "Das Auto Replay Generator (ARG) Modul generiert Wiederholungen, die zwischen den Runden oder am Ende eines Spiels angezeigt werden können.\\nBitte beachte, dass vMix für die korrekte ARG-Konfiguration erforderlich ist. vMix ist keine kostenlose Anwendung, und ARG selbst ist in erster Linie für Produktionsteams gedacht, die bereits vMix verwenden."
         },
         "safeband": {
@@ -1274,7 +1274,7 @@
         },
         "tab": {
           "title": "Scout AI",
-          "info": "Mit dem ACO-Modul kannst du vordefinierte Kamerabewegungspfade verwenden, um das Geschehen im Spiel zu verfolgen.\\nACO verwendet KI, um die wichtigsten Ereignisse im Spiel zu einem bestimmten Zeitpunkt zu bestimmen."
+          "info": "Es ist unmöglich, jede Aktion perfekt und aus einer idealen Perspektive einzufangen - aber Scout kommt dem sehr nahe. Unsere eigene KI lernt aus Tausenden von Spielen, um die spannendsten Ereignisse selbst und ohne menschliches Zutun einzufangen."
         },
         "area": {
           "title": "Bereich",
@@ -1294,18 +1294,18 @@
         },
         "scoutDirectorSwitch": {
           "title": "Direktor einschalten",
-          "info": "Wenn der Schalter aktiviert ist, wird die Scout-KI automatisch gestartet. Sie können auch die Tastenkombination verwenden (Standard: ALT + K)."
+          "info": "Wenn der Schalter aktiviert ist, wird Scout AI automatisch gestartet. Sie können auch die Tastenkombination verwenden (Standard: ALT + K)."
         },
         "scoutCinematic": {
-          "title": "Scout-KI-Kinomodus",
-          "info": "In diesem Modus arbeitet die Scout-KI mit der ACO-KI zusammen, um ein möglichst umfassendes Beobachtungserlebnis zu bieten. Ohne diesen Modus bietet die Scout-KI nur eine POV-Kamera, ohne Übersichtsaufnahmen.\nDieser Modus ist nur anwendbar, wenn die ACO-KI eine Karte unterstützt, auf der das Spiel gespielt wird."
+          "title": "Scout AI Cinematic-Modus",
+          "info": "In diesem Modus arbeitet Scout AI zusammen mit ACO AI, um das umfassendste Beobachtungserlebnis zu liefern. Ohne diesen Modus liefert Scout AI nur eine POV-Kamera ohne Übersichtsaufnahmen.\nDieser Modus gilt nur, wenn ACO AI die Karte unterstützt, auf der das Match gespielt wird."
         },
         "scoutPredict": {
-          "title": "Scout Vorhersage",
+          "title": "Scout Predict",
           "info": "Scout ermöglicht automatische, KI-basierte Live-Vorhersagen. Wenn diese Option aktiviert ist, werden diese Vorhersagen in wichtigen Momenten an Ihre HUDs gesendet, um einen besseren Einblick in ein Spiel zu geben."
         },
         "timeRemaining": {
-          "title": "Verbleibende Zeit der monatlichen Scout-KI-Quote",
+          "title": "Ihre monatliche Scout AI-Quote",
           "info": "Ihre verfügbare Zeit zur Nutzung der Scout AI Server. Sie wird mit jedem Monat Ihres Abonnements aktualisiert."
         }
       },

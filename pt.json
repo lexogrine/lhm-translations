@@ -22,7 +22,7 @@
       "noValue": "Por defeito",
       "teamOne": "Equipa Um",
       "teamTwo": "Equipa Dois",
-      "show": "Show",
+      "show": "Mostrar",
       "hide": "Esconder",
       "map": "Mapa",
       "team": "Equipa",
@@ -41,7 +41,7 @@
       "delete-all": "Excluir tudo",
       "edit": "Editar",
       "live": "Ativo",
-      "match": "Combinar",
+      "match": "Jogo",
       "goBack": "Voltar atrás",
       "ct": "CT",
       "t": "T",
@@ -241,7 +241,7 @@
       "scoutCinematicAction": {
         "label": "Ação cinemática"
       },
-      "scoutPausedTip": "A IA do Scout está pausada porque nenhum jogo em execução foi detectado.",
+      "scoutPausedTip": "O Scout AI está pausado porque nenhum jogo em execução foi detectado.",
       "xrayWarning": "Para que o X-Ray funcione corretamente, o CS2 deve ser iniciado com a opção Scout/X-Ray ativada."
     },
     "composer": {
@@ -257,7 +257,7 @@
       "uhudPlayersStatsFontSize": "Tamanho da Fonte das Estatísticas",
       "uhudPlayersHealthFontSize": "Tamanho da Fonte da Vida",
       "visible": "Visível",
-      "previewTitle": "Prévia do Compositor {{component}}",
+      "previewTitle": "Prévia do Composer {{component}}",
       "components": {
         "matchbar": "Matchbar",
         "left-player": "Jogadores da Esquerda",
@@ -273,7 +273,7 @@
         "winbox": "Indicador de Vitória de Rodada",
         "sponsors": "Patrocinadores",
         "tournament-info": "Informações do Torneio",
-        "scout": "Previsão do Scout",
+        "scout": "Scout Predict",
         "radar": "Radar",
         "anims-plant": "Animação Planta",
         "anims-defuse-short": "Animação Desarmar Curta",
@@ -507,7 +507,7 @@
       "validUntil": "Válido até",
       "nextPayment": "Próximo pagamento",
       "logout": "Sair do sistema",
-      "arg": "Repetições"
+      "arg": "Replays"
     },
     "signals": {
       "removal": {
@@ -880,8 +880,8 @@
           "reverseSide": "Inverter lados",
           "refreshHud": "Atualizar HUD",
           "toggleDirector": "Alternar Visão do Scout",
-          "toggleScoutPredict": "Alternar previsão de olheiros",
-          "toggleScoutCinematic": "Alternar a cinemática do Scout"
+          "toggleScoutPredict": "Alternar Scout Predict",
+          "toggleScoutCinematic": "Alternar Scout Cinematic"
         },
         "streamDeck": {
           "unavailable": "Indisponível"
@@ -947,7 +947,7 @@
         "customKillfeed": "Custom Killfeed",
         "embeddedHUD": "HUD incorporado",
         "killfeedOffset": "Killfeed Offset",
-        "scout": "Scout AI",
+        "scout": "Scout AI/XRAY",
         "autoexecute": "Auto-execute",
         "console": "Consola",
         "add": "Adicionar HUD",
@@ -1243,7 +1243,7 @@
       },
       "arg": {
         "tab": {
-          "title": "Gerador de repetição automática",
+          "title": "Replays",
           "info": "O módulo Auto Replay Generator (ARG) gera repetições que podem ser apresentadas entre rondas ou no final de um jogo.\nO vMix não é uma aplicação gratuita e o ARG foi concebido principalmente para equipas de produção que já utilizam o vMix."
         },
         "safeband": {
@@ -1273,8 +1273,8 @@
           "info": "Telnet é um protocolo de comunicação com o CS2. Enquanto estiver a ser usado, não precisas de ter a janela do CS2 em foco, pois o LHM mudará de jogador com comandos remotos."
         },
         "tab": {
-          "title": "Observador de Cinema Automático",
-          "info": "O módulo ACO permite-lhe usar caminhos de movimento de câmara predefinidos para seguir a ação no jogo.\nO ACO usa IA para determinar os eventos mais importantes que estão a acontecer no jogo num determinado momento."
+          "title": "Scout AI",
+          "info": "É impossível capturar todas as ações de maneira perfeita e de uma perspectiva ideal - mas Scout chega muito perto disso. Nossa própria IA aprende com milhares de jogos para capturar os eventos mais picantes por conta própria, sem intervenção humana."
         },
         "area": {
           "title": "Área",
@@ -1294,18 +1294,18 @@
         },
         "scoutDirectorSwitch": {
           "title": "Ativar o Diretor",
-          "info": "Quando esta opção é activada, a IA do Scout é automaticamente iniciada. Também podes usar a tecla (por defeito: ALT + K)."
+          "info": "Quando esta opção é activada, o Scout AI é automaticamente iniciado. Também podes usar a tecla (por defeito: ALT + K)."
         },
         "scoutCinematic": {
-          "title": "Modo Cinemático da IA do Scout",
-          "info": "Neste modo, a IA do Scout trabalha em conjunto com a IA do ACO, para proporcionar a melhor experiência de observação. Sem este modo, a IA do Scout apenas fornecerá a câmara POV, sem qualquer visão geral.\nEste modo só é aplicável se a IA ACO suportar um mapa onde o jogo é jogado."
+          "title": "Modo Cinemático do Scout AI",
+          "info": "Neste modo, o Scout AI trabalha em conjunto com o ACO AI, para proporcionar a melhor experiência de observação. Sem este modo, o Scout AI apenas fornecerá a câmara POV, sem qualquer visão geral.\nEste modo só é aplicável se o ACO AI suportar um mapa onde o jogo é jogado."
         },
         "scoutPredict": {
-          "title": "Previsão de Scout",
+          "title": "Scout Predict",
           "info": "O Scout permite previsões automatizadas, baseadas em IA, ao vivo. Se esta opção for activada, essas previsões serão enviadas para os teus HUDs em momentos importantes, para dar uma melhor visão de um jogo."
         },
         "timeRemaining": {
-          "title": "Tempo restante da tua quota mensal de IA Scout",
+          "title": "Tempo restante da tua quota mensal de Scout AI",
           "info": "O seu tempo disponível para utilizar os servidores Scout AI. É atualizado todos os meses da sua subscrição."
         }
       },

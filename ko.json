@@ -22,8 +22,8 @@
       "noValue": "기본값",
       "teamOne": "팀 1",
       "teamTwo": "팀 2",
-      "show": "Show",
-      "hide": "Hide",
+      "show": "표시",
+      "hide": "숨기기",
       "map": "지도",
       "team": "팀",
       "players": "플레이어",
@@ -37,7 +37,7 @@
       "team2": "팀 2",
       "teamNumber": "TEAM #{{num}}",
       "vetoNumber": "거부권 {{num}}",
-      "delete": "Delete",
+      "delete": "삭제",
       "delete-all": "모두 삭제",
       "edit": "편집",
       "live": "라이브",
@@ -45,7 +45,7 @@
       "goBack": "뒤로 가기",
       "ct": "CT",
       "t": "T",
-      "no": "No",
+      "no": "아니요",
       "yes": "예",
       "deleteAll": "모두 삭제",
       "noDontAsk": "아니요, 묻지 마세요",
@@ -62,13 +62,13 @@
       "valorant": {
         "ct": "DEF",
         "t": "ATK",
-        "no": "No"
+        "no": "아니요"
       },
-      "export": "Export",
+      "export": "내보내기",
       "cancel": "취소",
       "remindLater": "나중에 알림",
       "next": "다음",
-      "finish": "Finish",
+      "finish": "완료",
       "understand": "이해합니다",
       "tournaments": "토너먼트",
       "firstName": "이름",
@@ -78,7 +78,7 @@
       "ready": "준비",
       "country": "국가",
       "manage": "관리",
-      "import": "Import",
+      "import": "가져오기",
       "teamName": "팀 이름",
       "shortName": "짧은 이름",
       "search": "검색...",
@@ -86,23 +86,23 @@
       "ok": "Ok",
       "disconnect": "연결 끊기",
       "connect": "연결",
-      "refresh": "Refresh",
+      "refresh": "새로 고침",
       "enable": "사용",
       "example": "예제",
-      "disable": "Disable",
+      "disable": "비활성화",
       "download": "다운로드",
       "upload": "업로드",
       "accept": "수락",
       "decline": "거부",
       "downloadTemplate": "템플릿 다운로드",
       "clickAndCopy": "클릭 & 복사",
-      "swap": "Swap"
+      "swap": "교체"
     },
     "chat": {
       "title": "지원 채팅",
       "header": "지원팀과 채팅하기",
       "suggestionHeader": "질문에 대한 답변이 있을 수 있습니다",
-      "outOfOfficeWarning": "지원팀은 보통 평일 오전 9시부터 오후 5시(동부표준시)까지 운영됩니다. 이 시간 외에는 답변에 시간이 더 걸릴 수 있습니다.",
+      "outOfOfficeWarning": "지원팀은 보통 평일 오전 9시부터 오후 5시(CEST)까지 운영됩니다. 이 시간 외에는 답변에 시간이 더 걸릴 수 있습니다.",
       "typeYourMessage": "여기에 메시지를 입력하세요..."
     },
     "color-picker": {
@@ -124,19 +124,19 @@
       "bottom-right": "오른쪽 하단",
       "image": "이미지",
       "any-player": "모든 플레이어",
-      "any-side": "모든 팀",
-      "any-team": "포지션",
-      "position": "기간(초)",
-      "duration": "트리거",
-      "trigger": "플레이어",
-      "player": "팀",
-      "team": "진영",
-      "side": "새 광고 추가",
-      "add-new-ad": "포지션 선택",
-      "select-position": "트리거 선택",
-      "select-trigger": "플레이어 선택",
-      "select-player": "진영 선택",
-      "select-side": "현재 프리셋에서 복사"
+      "any-side": "모든 진영",
+      "any-team": "모든 팀",
+      "position": "위치",
+      "duration": "지속 시간(초)",
+      "trigger": "트리거",
+      "player": "플레이어",
+      "team": "팀",
+      "side": "진영",
+      "add-new-ad": "새 광고 추가",
+      "select-position": "위치 선택",
+      "select-trigger": "트리거 선택",
+      "select-player": "플레이어 선택",
+      "select-side": "진영 선택"
     },
     "blocker": {
       "personal": "이 섹션에 대한 전체 액세스 권한을 얻으려면 LHM을 개인, 프로페셔널 또는 엔터프라이즈 요금제로 업그레이드하세요.",
@@ -147,7 +147,7 @@
         "arg": "자동화는 다음 단계의 개척지이며, 렉소그린은 그 경계를 넘기 위해 최선을 다하고 있습니다! 자동 리플레이 생성기는 리플레이 시스템을 완전히 자동화합니다. ARG는 정의된 기준에 따라 게임의 모든 이벤트를 추적하여 가장 중요한 순간을 자동으로 캡처하고 라운드 사이에 숨막히는 리플레이를 표시합니다. VMix 또는 OBS만 있으면 됩니다.\n이 섹션에 대한 전체 액세스 권한을 얻으려면 LHM을 개인, 전문가 또는 기업 요금제로 업그레이드하세요.",
         "addons": "애드온은 LHM과의 통합을 만드는 새로운 방법입니다.\n지금까지는 커스텀 HUD 코드만 게임 데이터 피드에 액세스할 수 있었기 때문에 원하는 작업이 무엇이든 브라우저 환경에서 수행해야 했습니다.\n애드온은 서버 환경에서 작동하며, 기본적으로 GSI 이벤트 이미터가 연결된 NodeJS 앱입니다. 즉, 지원되는 게임(CS2, Dota 2)에서 정보를 받기 위해 파서가 있는 사용자 지정 HTTP 서버를 만들지 않아도 모든 것이 기본 제공되므로 원하는 통합과 기능에 집중할 수 있습니다.\n이 섹션에 대한 전체 액세스 권한을 얻으려면 LHM을 개인, 전문가 또는 기업 요금제로 업그레이드하세요.",
         "composer": "컴포저를 사용하면 드래그 앤 드롭 컨트롤과 시각적 프리셋으로 HUD 레이아웃을 구성하고 사용자 지정할 수 있습니다.\n이 섹션의 모든 기능을 사용하려면 최소 3개의 시트가 포함된 LHM 프로페셔널 또는 엔터프라이즈 플랜으로 업그레이드하세요.",
-        "aco": "모든 행동을 완벽한 방법과 이상적인 관점에서 포착하는 것은 불가능합니다 - 하지만 스카웃은 그것에 정말 가깝습니다. 우리의 AI는 수천 개의 게임에서 학습하여 인간의 개입 없이 가장 자극적인 이벤트를 스스로 캡처합니다.\nLHM을 개인 플랜으로 업그레이드하면 모든 스카우트 AI 모듈(스카우트 비전, 스카우트 예측, 스카우트 시네마틱)에 액세스할 수 있습니다.",
+        "aco": "모든 행동을 완벽한 방법과 이상적인 관점에서 포착하는 것은 불가능합니다 - 하지만 Scout AI는 그것에 정말 가깝습니다. 우리의 AI는 수천 개의 게임에서 학습하여 인간의 개입 없이 가장 자극적인 이벤트를 스스로 캡처합니다.\nLHM을 개인 플랜으로 업그레이드하면 모든 Scout AI 모듈(Scout Vision, Scout Predict, Scout Cinematic)에 액세스할 수 있습니다.",
         "cameras": "소니의 카메라 시스템은 사용하기 매우 쉬우며, 주최자와 플레이어 모두 설정 시간을 크게 절약할 수 있습니다. 지나치게 복잡하고 시간이 많이 소요되는 프로덕션 소프트웨어 구성이나 하드웨어 문제도 없습니다.\n카메라를 연결하고 LHM에서 플레이어에게 할당합니다. HUD를 실행하고 관중을 향해 미소를 짓습니다.\n이 섹션에 대한 전체 액세스 권한을 얻으려면 LHM을 개인, 프로페셔널 또는 엔터프라이즈 요금제로 업그레이드하세요.",
         "signals": "LHM 시그널은 비트포커스 컴패니언 앱과의 맞춤형 통합 기능입니다.\n저희의 목표는 예측 가능한 게임 내 이벤트의 자동화를 지원하는 것입니다. 시그널은 이를 처리하고 지정된 게임 이벤트에서 컴패니언 버튼을 트리거할 수 있도록 합니다.\n이 섹션에 대한 전체 액세스 권한을 얻으려면 LHM을 개인, 프로페셔널 또는 엔터프라이즈 요금제로 업그레이드하세요.",
         "xray": "LHM X-RAY를 사용하면 CS2 X-RAY 색상(플레이어 윤곽선, 이름, 수류탄 궤적)을 팀별로 다르게 설정하여 사용자 지정할 수 있습니다.\n\n이 섹션의 모든 기능을 사용하려면 LHM을 퍼스널, 프로페셔널 또는 엔터프라이즈 플랜으로 업그레이드하세요."
@@ -156,8 +156,8 @@
     "titles": {
       "players": "플레이어",
       "teams": "팀",
-      "arg": "자동 리플레이 생성기",
-      "aco": "자동 시네마틱 옵저버",
+      "arg": "Replays",
+      "aco": "Scout AI",
       "ar": "증강 현실",
       "cgpanel": "CG 모드",
       "huds": "HUD",
@@ -175,15 +175,15 @@
       "xray": "X-Ray"
     },
     "aco": {
-      "disabled": "Disabled",
+      "disabled": "비활성화됨",
       "aco1": "ACO",
       "acoAI": "ACO AI",
-      "acoAIScout": "ACO AI + 스카우트 AI",
-      "scoutOnly": "스카우트 AI",
+      "acoAIScout": "ACO AI + Scout AI",
+      "scoutOnly": "Scout AI",
       "cs2Warning": "현재 새로 출시된 카운터 스트라이크 2에서는 ACO 및 ACO AI를 사용할 수 없습니다.\nCS2에는 현재 해당 기능이 작동하기 위해 LHM에 필요한 주요 기능이 누락되어 있습니다.",
       "cs2ScoutAndARGWarning": "CS2에 누락된 주요 기능으로 인해 {{ feature }} 게임 내 수류탄 키 바인딩을 기본값(키보드의 숫자 키 1~0)으로 설정해야 올바르게 작동합니다.\n\nCS2에 필요한 명령어가 없어 LHM이 자동으로 플레이어를 전환하지 못하므로 이제 LHM이 수동으로 키 입력을 게임에 전송하므로 {{ feature }} 사용 중 게임에 집중하고 있는지 확인하세요.",
-      "map": "Map",
-      "area": "Area",
+      "map": "지도",
+      "area": "영역",
       "addNewArea": "새 영역 추가",
       "showInfo": "정보 표시",
       "hideInfo": "정보 숨기기",
@@ -199,16 +199,16 @@
       "enableDirector": "디렉터 사용",
       "scoutPredict": "예측 사용",
       "telnet": "텔넷 활성화",
-      "telnetWarning": "텔넷을 사용하려면 워크샵 도구로 CS2를 실행해야 합니다. HUD 탭에서 undefined 옵션을 활성화하고 undefined 버튼을 클릭하면 됩니다.",
-      "cinematicWarning": "스카우트 시네마틱을 사용하려면 CS2를 워크샵 도구와 함께 실행해야 합니다. HUD 탭에서 \"Killfeed / Tools\" 옵션을 활성화하고 \"Run Game\" 버튼을 클릭하면 됩니다. 스카우트 시네마틱을 활성화하면 스카우트 비전도 직접 모드로 실행됩니다.",
+      "telnetWarning": "Telnet을 사용하려면 CS2를 Workshop Tools와 함께 실행해야 합니다. HUD 탭에서 \"Scout AI\" 옵션을 켜고 \"Run Game\" 버튼을 클릭하면 됩니다.",
+      "cinematicWarning": "Scout Cinematic을 사용하려면 CS2를 Workshop Tools와 함께 실행해야 합니다. HUD 탭에서 \"Scout AI\" 옵션을 켜고 \"Run Game\" 버튼을 클릭하면 됩니다. Scout Cinematic을 켜면 Scout Vision도 Direct 모드로 실행됩니다.",
       "disabledDescription": "모든 제어 권한은 사용자와 관찰자에게 주어집니다.\n즐기세요.",
       "aco1Description": "제어와 자동화의 균형.\nACO를 위해 수동으로 작성된 일련의 지침으로 참관인을 지원하세요.",
       "aco-aiDescription": "ACO AI의 고급 알고리즘이 스트림을 제어하는 동안 편안히 앉아 계세요.",
-      "aco-ai-scoutDescription": "최신 경기 예측 시스템에 맡겨보세요.\n곧 출시됩니다.",
-      "aco-ai-scoutDescription-disconnected": "최신 AI 경기 옵저버 시스템에 맡겨보세요.\\n스카우트 서버를 현재 사용할 수 없을 수 있습니다.",
+      "aco-ai-scoutDescription": "AI 매치 옵저버가 사용자 입력 없이 경기를 관전하도록 합니다.",
+      "aco-ai-scoutDescription-disconnected": "AI 매치 옵저버가 사용자 입력 없이 경기를 관전하도록 합니다.\\nScout AI 서버를 현재 사용할 수 없을 수 있습니다.",
       "scoutCinematicDescription": "매치 브레이크 동안 아름다운 시네마틱 샷을 보여주세요.",
       "scoutPredictDescription": "실시간 경기 결과 예측을 스트림에 바로 표시할 수 있습니다.",
-      "scoutCinematic": "시네마틱 스카우트 사용",
+      "scoutCinematic": "Cinematic Scout 사용",
       "saveArea": "지역 저장",
       "areaName": "이름",
       "areaNamePlaceholder": "영역 이름",
@@ -216,11 +216,11 @@
       "areaPriorityPlaceholder": "영역 우선 순위",
       "addConfigHeader": "이 영역에 새 구성 추가",
       "addConfigPlaceholder": "이 영역에서 실행할 명령을 입력하십시오",
-      "timeRemaining": "남은 스카우트 AI 시간",
+      "timeRemaining": "사용 가능한 시간",
       "scoutServerUnavailable": "LHM이 Scout AI 서버에 연결할 수 없습니다.\n몇 분 후에 다시 시도하세요.",
       "scoutSubtitle": "AI 옵저버",
       "scoutGetMoreTime": "더 많은 시간 확보",
-      "scoutDescription": "스카우트 AI는 수천 개의 게임을 통해 학습하여 사람의 개입 없이 스스로 가장 자극적인 이벤트를 캡처합니다.",
+      "scoutDescription": "Scout AI는 수천 개의 게임을 통해 학습하여 사람의 개입 없이 스스로 가장 자극적인 이벤트를 캡처합니다.",
       "scoutVisionControl": {
         "label": "게임 제어 모드",
         "direct": {
@@ -241,8 +241,8 @@
       "scoutCinematicAction": {
         "label": "액션 시네마틱"
       },
-      "scoutPausedTip": "스카웃 AI는 실행 중인 게임이 감지되지 않았기 때문에 일시 중지되었습니다.",
-      "xrayWarning": "X-Ray가 제대로 작동하려면 CS2를 실행할 때 정찰/X-Ray 옵션을 켜야 합니다."
+      "scoutPausedTip": "Scout AI는 실행 중인 게임이 감지되지 않아 일시 중지되었습니다.",
+      "xrayWarning": "X-Ray가 올바르게 작동하려면 CS2를 Scout/X-Ray 옵션을 켠 상태로 실행해야 합니다."
     },
     "composer": {
       "componentsSubtitle": "HUD 구성 요소 미리보기",
@@ -257,23 +257,23 @@
       "uhudPlayersStatsFontSize": "통계 글꼴 크기",
       "uhudPlayersHealthFontSize": "체력 글꼴 크기",
       "visible": "표시 여부",
-      "previewTitle": "작곡가 미리보기 {{component}}",
+      "previewTitle": "Composer 미리보기 {{component}}",
       "components": {
-        "matchbar": "매치바",
+        "matchbar": "Matchbar",
         "left-player": "왼쪽 선수",
         "right-player": "오른쪽 선수",
         "left-money": "왼쪽 자금",
         "right-money": "오른쪽 자금",
         "players": "선수 목록",
         "observed-player": "관찰 중인 선수",
-        "killfeed": "킬피드",
+        "killfeed": "Killfeed",
         "round-history": "라운드 기록",
         "mapseries": "맵 시리즈",
         "asset": "커스텀 에셋",
         "winbox": "라운드 승리 표시기",
         "sponsors": "스폰서",
         "tournament-info": "토너먼트 정보",
-        "scout": "스카웃 예측",
+        "scout": "Scout Predict",
         "radar": "레이더",
         "anims-plant": "폭탄 설치 애니메이션",
         "anims-defuse-short": "폭탄 해체 애니메이션 (짧음)",
@@ -306,7 +306,7 @@
       "sapphirePlayersNameFontSize": "플레이어 이름 글꼴 크기",
       "sapphirePlayersRoundDamageFontSize": "라운드 데미지 글꼴 크기",
       "sapphirePlayersKdaFontSize": "KDA 글꼴 크기",
-      "killfeedPlayerNameFontSize": "킬피드 플레이어 이름 글꼴 크기",
+      "killfeedPlayerNameFontSize": "Killfeed 플레이어 이름 글꼴 크기",
       "titles": {
         "components": "구성 요소",
         "settings": "설정",
@@ -448,7 +448,7 @@
       "uploadLogo": "로고",
       "logoInfo": "주어진 HUD에서 팀에 사용할 로고(가능한 경우)",
       "addTeam": "팀 추가",
-      "exportTeams": "Export",
+      "exportTeams": "내보내기",
       "importTeamsTitle": "팀 가져오기",
       "importTeamsExcel": "미리 준비된 Excel 시트를 사용하여 많은 팀을 한 번에 쉽게 가져올 수 있습니다.",
       "logo": "로고"
@@ -493,9 +493,9 @@
       "huds": "HUD",
       "aco": "Scout AI",
       "addons": "애드온",
-      "composer": "작성자",
+      "composer": "Composer",
       "ar": "AR",
-      "live": "Live",
+      "live": "라이브",
       "quick": "Quick",
       "professionalOnly": "전문가 전용",
       "nonFreeOnly": "비 무료 전용",
@@ -507,12 +507,12 @@
       "validUntil": "까지 유효",
       "nextPayment": "다음 결제",
       "logout": "로그아웃",
-      "arg": "리플레이"
+      "arg": "Replays"
     },
     "signals": {
       "removal": {
         "title": "프리셋 삭제",
-        "areYouSure": "사전 설정 &#{{name}}}&#;을 삭제하시겠습니까?"
+        "areYouSure": "프리셋 \"{{name}}\"을 삭제하시겠습니까?"
       },
       "edit": {
         "title": "프리셋 이름 바꾸기",
@@ -521,15 +521,15 @@
       "create": {
         "title": "새 프리셋 만들기",
         "placeholder": "프리셋 이름",
-        "clone": "빈 프리셋 만들기",
-        "createNew": "스카우트 시야 전환",
+        "clone": "현재 프리셋에서 복사",
+        "createNew": "빈 항목 생성",
         "createFromDefault": "기본값 생성",
         "createBlank": "빈 항목 생성"
       },
       "activate": "{{ name }}이 활성화되지 않았습니다",
       "deactivate": "{{ name }} 활성화됨",
       "addBranch": "브랜치 추가",
-      "event": "Event",
+      "event": "이벤트",
       "addEvent": "이벤트 추가",
       "selectEvent": "이벤트 선택",
       "preset": "사전 설정",
@@ -540,12 +540,12 @@
       "filtering": {
         "noFiltering": "필터링 사용 불가",
         "orientationAny": "방향: 모든",
-        "orientationLeft": "방향: Left",
+        "orientationLeft": "방향: 왼쪽",
         "orientationRight": "방향: 오른쪽",
-        "sideAny": "측면: Any",
-        "side": "측면",
-        "teamAny": "Team: Any",
-        "playerAny": "Player: Any"
+        "sideAny": "진영: 모두",
+        "side": "진영: ",
+        "teamAny": "팀: 모두",
+        "playerAny": "플레이어: 모두"
       }
     },
     "quick": {
@@ -559,7 +559,7 @@
       "exit": "빠른 종료",
       "fillWithLive": "라이브 데이터로 채우기",
       "unnamedTeam": "이름 없는 팀",
-      "dismiss": "해산",
+      "dismiss": "닫기",
       "launchHUD": "HUD 시작",
       "uploadAvatar": "아바타 업로드",
       "selectHUD": "HUD 선택",
@@ -597,16 +597,16 @@
       "logoInfo": "토너먼트 로고는 경기 중에 사용할 수 있습니다",
       "singleElimBracket": "싱글 엘리미네이션 대진표",
       "doubleElimBracket": "더블 엘리미네이션 대진표",
-      "swiss": "Swiss",
+      "swiss": "스위스",
       "group": "그룹",
       "playoffs": "플레이오프",
       "playoffType": "플레이오프 유형",
       "playoffsOnly": "플레이오프만",
       "grouppAndPlayoffs": "조별 리그 + 플레이오프",
-      "soon": "Soon",
+      "soon": "곧 제공",
       "groupType": "그룹 유형",
       "participants": "참가자",
-      "then": "then",
+      "then": "그다음",
       "amountOfTeams": "팀 수",
       "amountOfRounds": "라운드 수",
       "bindMatch": "대진표에 경기 바인딩",
@@ -617,8 +617,8 @@
       "availableTeams": "참가 가능 팀",
       "selectedTeams": "선택된 팀",
       "qualifiedTeams": "예선 통과 팀",
-      "qualified": "예선 통과 팀",
-      "eliminated": "탈락 팀",
+      "qualified": "예선 통과",
+      "eliminated": "탈락",
       "groupFinished": "조별 리그가 종료되었습니다. 이제 플레이오프를 생성할 수 있습니다. 이 단계는 한 번만 수행할 수 있습니다.",
       "createPlayoffs": "플레이오프 생성",
       "stageInProgress": "조별 리그가 아직 진행 중입니다. 조별 리그가 종료되면 플레이오프 생성이 가능해집니다.",
@@ -635,8 +635,8 @@
       "emptyTeam": "빈 팀",
       "enableFearlessDraft": "두려움 없는 초안 사용",
       "disableFearlessDraft": "두려움 없는 드래프트 비활성화",
-      "blue": "Blue",
-      "red": "Red",
+      "blue": "블루",
+      "red": "레드",
       "scoreModal": {
         "unsetWin": "설정되지 않은 승리",
         "setWin": "세트 승리",
@@ -645,14 +645,14 @@
       "toggleLive": "LIVE",
       "tabs": {
         "ended": "종료",
-        "current": "current",
-        "future": "future"
+        "current": "진행 중",
+        "future": "예정"
       },
       "columns": {
-        "match": "Match",
-        "score": "Score",
-        "date": "Date",
-        "time": "Time"
+        "match": "경기",
+        "score": "점수",
+        "date": "날짜",
+        "time": "시간"
       },
       "wins": "WINS",
       "wrongTeamSelected": "잘못된 팀 선택",
@@ -673,7 +673,7 @@
       "chooseTeam": "팀 선택",
       "vetoSidepick": {
         "normal": ", {{secondTeamName}}은 {{side}}쪽 선택",
-        "decider": "{{mapName}}} 결정자"
+        "decider": "{{mapName}} 결정전"
       },
       "vetoUrlModal": {
         "title": "거부권 앱 링크 생성",
@@ -703,7 +703,7 @@
       "safeband": "안전 밴드",
       "beforeKill": "죽이기 전",
       "useHLAE": "HLAE 사용?",
-      "afterKill": "After kill",
+      "afterKill": "킬 이후",
       "saveClips": "클립 저장?",
       "delayConfig": "지연 구성",
       "computerId": "컴퓨터 ID",
@@ -826,7 +826,7 @@
           "installed": "설치됨"
         },
         "refresh": "새로 고침",
-        "install": "Install"
+        "install": "설치"
       },
       "serverClient": {
         "client": "클라이언트(로컬 네트워크)",
@@ -865,7 +865,7 @@
         "GSIToken": "GSI 토큰"
       },
       "updater": {
-        "version": "Version",
+        "version": "버전",
         "installing": "설치 중...",
         "downloading": "다운로드 중... {{percent}}%",
         "install": "업데이트 설치",
@@ -879,7 +879,7 @@
           "dota2ARG": "도타 2 플레이 ARG",
           "reverseSide": "반대쪽",
           "refreshHud": "HUD 새로고침",
-          "toggleDirector": "링크가 클립보드에 복사되었습니다.",
+          "toggleDirector": "Scout Vision 토글",
           "toggleScoutPredict": "스카웃 예측 토글(Toggle Scout Predict)",
           "toggleScoutCinematic": "스카웃 시네마틱 토글"
         },
@@ -899,7 +899,7 @@
           "add": "GSI 파일 추가"
         },
         "config": {
-          "status": "Configs",
+          "status": "설정 파일",
           "add": "구성 파일 추가",
           "overrideIp": "IP 주소 재정의",
           "slowMode": "느린 모드"
@@ -915,7 +915,7 @@
           "exportDB": "DB 내보내기"
         },
         "import": {
-          "import": "Import"
+          "import": "가져오기"
         },
         "readerCode": {
           "readerCode": "리더 코드"
@@ -939,16 +939,16 @@
       "header": "HUD",
       "workshopToolsModal": {
         "title": "CS2 워크샵 도구를 찾을 수 없음",
-        "info": "Counter-Strike 2 워크샵 도구 DLC가 감지되지 않았습니다. 킬피드 또는 스카웃 AI를 활성화한 상태로 CS2를 실행할 때 LHM과 함께 사용해야 합니다. 스팀을 통해 다운로드하여 다시 시도해 보시기 바랍니다.",
+        "info": "Counter-Strike 2 Workshop Tools DLC가 감지되지 않았습니다. Killfeed 또는 Scout AI를 활성화한 상태로 CS2를 실행할 때 LHM에서 필요합니다. Steam을 통해 다운로드한 후 다시 시도하는 것을 권장합니다.",
         "launchAnyway": "그래도 실행"
       },
       "config": {
         "customRadar": "레이더",
-        "customKillfeed": "Killfeed",
+        "customKillfeed": "Custom Killfeed",
         "embeddedHUD": "임베디드 HUD",
         "killfeedOffset": "Killfeed Offset",
         "scout": "Scout AI/XRAY",
-        "autoexecute": "Auto-execute",
+        "autoexecute": "자동 실행",
         "console": "콘솔",
         "add": "HUD 추가",
         "runGame": "게임 실행",
@@ -960,7 +960,7 @@
         "ar": "AR",
         "goToKeybinds": "키 바인드 구성",
         "showOnlyActivePlayers": "활성 플레이어만 표시",
-        "more": "More",
+        "more": "더 보기",
         "hlaeIsRequired": "HLAE와 함께 CS:GO를 실행해야 합니다",
         "proOrEntrpriseIsRequired": "프로페셔널 또는 엔터프라이즈 요금제를 사용 중이어야 합니다",
         "hlaeAndHigherPlanIsRequired": "HLAE와 함께 CS:GO를 실행 중이고 프로페셔널 또는 엔터프라이즈 플랜이 있어야 합니다"
@@ -968,7 +968,7 @@
       "sort": {
         "custom": "사용자 지정",
         "newest": "최신",
-        "oldest": "Oldest"
+        "oldest": "오래된 순"
       },
       "categories": {
         "createTitle": "카테고리 생성",
@@ -980,7 +980,7 @@
       },
       "fields": {
         "missing": "누락된 필드",
-        "fieldOfType": "유형 &``{{field}}}&``의 필드 &``{{type}}}&``입니다;",
+        "fieldOfType": "유형 \"{{type}}\"의 필드 \"{{field}}\"",
         "fieldNamePlaceholder": "필드 이름",
         "inputType": "입력 유형",
         "values": {
@@ -988,20 +988,20 @@
           "team": "팀",
           "image": "이미지",
           "match": "경기",
-          "player": "Player",
+          "player": "플레이어",
           "color": "색상"
         },
-        "visible": "Visible",
+        "visible": "표시",
         "manageCustom": "사용자 지정 필드 관리",
         "addNew": "+ 새 필드 추가"
       },
       "includes": {
         "customRadar": "사용자 지정 레이더 포함",
-        "customKillfeed": "사용자 지정 킬 피드 포함"
+        "customKillfeed": "Custom Killfeed 포함"
       },
       "removal": {
         "title": "제거 중 {{hud}}",
-        "areYouSure": "15}}을 제거하시겠습니까?"
+        "areYouSure": "{{hud}}를 제거하시겠습니까?"
       },
       "actions": {
         "toggleUrl": "HUD URL 토글",
@@ -1010,14 +1010,14 @@
         "overlay": "HUD 오버레이 시작",
         "upload": "HUD 업로드",
         "uploading": "업로드 중...",
-        "delete": "Delete",
+        "delete": "삭제",
         "deleteLocally": "로컬로 HUD 삭제",
         "deleteFromCloud": "클라우드에서 HUD 삭제",
         "downloading": "다운로드 중...",
         "toggleHUD": "HUD 토글(임베디드만 해당)",
         "toggleHUDKeybinds": "HUD 키바인드 토글 (브라우저 소스용)",
         "clickToCopy": "클릭하여 복사",
-        "linkCopied": "오버레이에서 HUD를 여는 중...",
+        "linkCopied": "링크가 클립보드에 복사되었습니다.",
         "openingOverlay": "HUD를 오버레이 모드로 여는 중...",
         "createShortcut": "바탕화면에 바로 가기 만들기"
       },
@@ -1062,7 +1062,7 @@
           "enterpriseSelectionLimit": "이 워크스페이스는 선택한 다른 엔터프라이즈 워크스페이스와 저장 공간을 공유합니다. HUD를 수락하려면 데이터를 일부 삭제하거나 다른 워크스페이스를 선택 해제하세요.",
           "notEnoughFreeSpace": "현재 이 HUD를 수락할 만큼 충분한 클라우드 공간이 없습니다. HUD를 수락하려면 공간을 확보하세요.",
           "never": "안 함",
-          "progress": "초대 {{current}} (수신자: {{total}})"
+          "progress": "초대 {{current}} / {{total}}"
         },
         "meta": {
           "sharedBy": "공유자: {{sender}}",
@@ -1082,7 +1082,7 @@
       },
       "warning": {
         "csgoHUDinCS2": "이 HUD는 CS:GO용으로 제작되었습니다. 모든 기능이 CS2에서 동일한 방식으로 작동한다는 보장은 없습니다.",
-        "specifyHLAEPath": "사용자 지정 킬피드를 사용하려면 설정에서 HLAE 경로를 지정하세요",
+        "specifyHLAEPath": "Custom Killfeed를 사용하려면 설정에서 HLAE 경로를 지정하세요",
         "specifyAFXInteropPath": "AFX 모드를 사용하려면 설정에서 AFX Interop 경로를 지정하세요",
         "specifyAFXModeInfo": "AFX 모드를 사용하는 경우 경기에 참가한 후 토글을 클릭하면 오버레이를 시작할 필요가 없습니다."
       },
@@ -1138,7 +1138,7 @@
       },
       "huds": {
         "killfeedOffset": {
-          "title": "킬피드 오프셋",
+          "title": "Killfeed Offset",
           "info": "이 옵션을 활성화하면 오른쪽 상단 모서리에 있는 커스텀 HUD 요소를 수용하기 위해 세이프존이 0.8로 설정됩니다"
         },
         "previewDescriptions": {
@@ -1157,20 +1157,20 @@
           }
         },
         "scout": {
-          "title": "스카우트 AI",
-          "info": "이 옵션을 활성화하면 VConsole2와 함께 CS2가 시작되며, 제대로 구성하지 않으면 서버에 접속하지 못할 수 있습니다."
+          "title": "Scout AI",
+          "info": "이 옵션은 Workshop Tools가 필요하며 HLAE를 실행합니다.\n이 옵션을 활성화하면 LHM이 Scout Cinematic을 사용하고 Scout Vision을 Direct 모드로 실행할 수 있습니다.\n이 옵션은 CS2를 안전하지 않은 모드로 실행하므로, 활성화 중에는 VAC 보호 서버(예: Faceit, 매치메이킹)에 참가하지 마세요(CSTV 관전자 예외)."
         },
         "tab": {
           "title": "HUD 탭",
           "info": "HUD 탭은 HUD 및 게임 실행 구성을 관리하는 데 사용됩니다."
         },
         "radar": {
-          "title": "Radar",
-          "info": "이 옵션을 활성화하고 아래 제시된 구성으로 게임을 실행하거나 {{hud}} 버튼을 사용하면 게임 내 레이더를 비활성화하여 HUD에 내장된 사용자 지정 레이더를 사용합니다."
+          "title": "레이더",
+          "info": "이 옵션을 켜고 아래 구성으로 게임을 실행하거나 \"Run game\" 버튼을 사용하면 게임 내 레이더가 비활성화되고 HUD에 내장된 사용자 지정 레이더를 사용합니다."
         },
         "killfeed": {
-          "title": "킬피드",
-          "info": "이 옵션을 활성화하고 아래 제시된 구성으로 게임을 실행하거나 undefined 버튼을 사용하면 게임 내 킬피드를 비활성화하여 HUD에 내장된 사용자 지정 킬피드를 사용합니다.\n이 옵션을 선택하면 CS:GO가 안전하지 않은 모드로 실행되며, 이 옵션이 활성화되어 있는 동안에는 CSTV 관중이 아닌 이상 VAC로 보호되는 서버(예: 페이스잇, 매치메이킹)에 참가할 수 없습니다."
+          "title": "Custom Killfeed",
+          "info": "이 옵션은 Workshop Tools가 필요하며 HLAE를 실행합니다.\n이 옵션을 켜고 아래 구성으로 게임을 실행하거나 \"Run game\" 버튼을 사용하면 게임 내 Killfeed를 비활성화하고 HUD에 내장된 Custom Killfeed를 사용합니다.\n이 옵션은 CS2를 안전하지 않은 모드로 실행하므로, 활성화 중에는 VAC 보호 서버(예: Faceit, 매치메이킹)에 참가하지 마세요(CSTV 관전자 예외)."
         },
         "embeddedHUD": {
           "title": "임베디드 HUD",
@@ -1182,11 +1182,11 @@
         },
         "ar": {
           "title": "AR",
-          "info": "이 옵션을 활성화하고 아래 제시된 구성으로 게임을 실행하거나 undefined 버튼을 사용하면 AR 모듈을 사용할 수 있습니다.\n이 옵션을 활성화하면 CS:GO가 안전하지 않은 모드로 실행되며, 이 옵션이 활성화되어 있는 동안에는 CSTV 관중이 아닌 이상 VAC로 보호되는 서버(예: 페이스잇, 매치메이킹)에 접속할 수 없습니다."
+          "info": "이 옵션을 활성화하고 아래 제시된 구성으로 게임을 실행하거나 \"Run game\" 버튼을 사용하면 AR 모듈을 사용할 수 있습니다.\n이 옵션은 CS:GO를 안전하지 않은 모드로 실행하므로, 활성화 중에는 VAC 보호 서버(예: Faceit, 매치메이킹)에 참가할 수 없습니다(CSTV 관전자 예외)."
         },
         "autoExecute": {
           "title": "자동 실행",
-          "info": "이 옵션을 활성화하면 undefined 버튼을 누르면 아래에 제시된 구성으로 게임이 실행됩니다."
+          "info": "이 옵션이 활성화되면 \"Run game\" 버튼이 아래 구성으로 게임을 실행합니다."
         },
         "xray": {
           "title": "XRay",
@@ -1207,13 +1207,13 @@
       },
       "teams": {
         "tab": {
-          "title": "Teams",
+          "title": "팀",
           "info": "팀 탭은 HUD 및 기타 LHM 기능 내에서 표시되고 사용되는 팀을 관리하는 데 사용됩니다."
         }
       },
       "players": {
         "tab": {
-          "title": "Players",
+          "title": "플레이어",
           "info": "플레이어 탭은 HUD 및 기타 LHM 기능 내에서 표시되고 사용되는 플레이어를 관리하는 데 사용됩니다."
         },
         "identification": {
@@ -1243,7 +1243,7 @@
       },
       "arg": {
         "tab": {
-          "title": "자동 리플레이 생성기",
+          "title": "Replays",
           "info": "자동 리플레이 생성기(ARG) 모듈은 라운드 사이 또는 게임 종료 시 표시할 수 있는 리플레이를 생성합니다.\nARG를 올바르게 구성하려면 vMix가 필요합니다. vMix는 무료 애플리케이션이 아니며, ARG 자체는 주로 vMix를 이미 사용하고 있는 프로덕션 팀을 위해 설계되었습니다."
         },
         "safeband": {
@@ -1273,11 +1273,11 @@
           "info": "텔넷은 CS2와의 통신을 위한 프로토콜입니다. 이 프로토콜을 사용하는 동안에는 LHM이 원격 명령으로 플레이어를 전환하므로 CS2 창에 초점을 맞출 필요가 없습니다."
         },
         "tab": {
-          "title": "자동 시네마틱 옵저버",
-          "info": "ACO 모듈을 사용하면 미리 정의된 카메라 이동 경로를 사용하여 게임 내 액션을 따라갈 수 있습니다.\nACO는 AI를 사용하여 특정 시간에 게임 내에서 발생하는 가장 중요한 이벤트를 결정합니다."
+          "title": "Scout AI",
+          "info": "모든 장면을 완벽하고 이상적인 시점으로 포착하는 것은 어렵지만 Scout AI는 그에 매우 가깝습니다. Scout AI는 수천 개의 게임을 학습해 사람의 입력 없이 중요한 장면을 포착합니다."
         },
         "area": {
-          "title": "Area",
+          "title": "영역",
           "info": "영역은 맵에서 설정을 바인딩하는 지역입니다. 지정된 지역에 플레이어가 많으면 추가된 설정 중 하나가 CS:GO 클라이언트 내에서 실행됩니다.\n지역을 추가하려면 + 버튼을 클릭하고 맵에서 모서리를 클릭하여 원하는 지역을 선택합니다."
         },
         "manualControl": {
@@ -1297,16 +1297,16 @@
           "info": "토글이 켜져 있으면 Scout AI가 자동으로 시작됩니다. 키 바인딩을 사용할 수도 있습니다(기본값: ALT + K)."
         },
         "scoutCinematic": {
-          "title": "스카우트 AI 시네마틱 모드",
+          "title": "Scout AI 시네마틱 모드",
           "info": "이 모드에서는 Scout AI가 ACO AI와 함께 작동하여 최고의 관측 경험을 제공합니다. 이 모드가 없으면 Scout AI는 오버뷰 샷 없이 POV 카메라만 제공합니다.\n이 모드는 ACO AI가 경기가 진행되는 맵을 지원하는 경우에만 적용됩니다."
         },
         "scoutPredict": {
-          "title": "스카우트 예측",
+          "title": "Scout Predict",
           "info": "Scout는 자동화된 AI 기반 실시간 예측을 허용합니다. 이 옵션을 활성화하면 중요한 순간에 이러한 예측이 HUD로 전송되어 게임에 대한 더 나은 통찰력을 제공합니다."
         },
         "timeRemaining": {
-          "title": "월간 스카우트 AI 할당량의 남은 시간",
-          "info": "스카우트 AI 서버를 사용할 수 있는 시간입니다. 구독 기간 중 매월 갱신됩니다."
+          "title": "월간 Scout AI 할당량",
+          "info": "Scout AI 서버를 사용할 수 있는 시간입니다. 구독 기간 중 매월 갱신됩니다."
         }
       },
       "ar": {
@@ -1317,7 +1317,7 @@
       },
       "live": {
         "tab": {
-          "title": "Live",
+          "title": "라이브",
           "info": "라이브 게임이 감지되면 라이브 탭에 플레이어 이름, ID, 현재 점수 등 현재 경기에 대한 데이터가 채워집니다.\n라이브 탭에서는 플레이어 편집에도 빠르게 액세스할 수 있습니다."
         }
       },
@@ -1378,15 +1378,15 @@
         "titlePlayers": "선수 삭제",
         "titleMatches": "경기 삭제",
         "titleTournaments": "토너먼트 삭제",
-        "infoTeams": "1}} 팀을 삭제하시겠습니까?",
-        "infoPlayers": "2}} 플레이어를 삭제하시겠습니까?",
+        "infoTeams": "{{count}}개 팀을 삭제하시겠습니까?",
+        "infoPlayers": "{{count}}명의 선수를 삭제하시겠습니까?",
         "infoTournaments": "{{count}}개의 토너먼트를 삭제하시겠습니까?",
-        "infoMatches": "0}} 경기를 삭제하시겠습니까?",
+        "infoMatches": "{{count}}개의 경기를 삭제하시겠습니까?",
         "deleteWithPlayers": "플레이어와 함께 삭제",
         "deleteAll": "모두 삭제 ({{count}})",
         "single": {
-          "titleTournament": "{{name}}개의 토너먼트 삭제",
-          "infoTournament": "{{name}}개의 토너먼트를 삭제하시겠습니까?"
+          "titleTournament": "{{name}} 토너먼트 삭제",
+          "infoTournament": "{{name}} 토너먼트를 삭제하시겠습니까?"
         }
       },
       "steamApiKeyMissing": {
@@ -1426,7 +1426,7 @@
     },
     "streamDeck": {
       "modalTitle": "스트림 데크를 사용 중임을 감지했습니다",
-      "modalInfo": "lHM을 연결하시겠습니까?"
+      "modalInfo": "LHM을 연결하시겠습니까?"
     },
     "newToLHM": {
       "games": {
@@ -1434,12 +1434,12 @@
         "description": "LHM이 처음이신가요? 여기에서 애플리케이션 사용을 시작하기 위한 몇 가지 기본 팁을 찾을 수 있습니다!\n\nLHM은 현재 CS2, 도타 2, 리그 오브 레전드, 로켓 리그, 에이펙스 레전드, F1을 지원합니다. 지원되는 각 게임이 LHM에서 제대로 작동하려면 간단하지만 필수적인 구성이 필요합니다.\n아래의 자세히 알아보기 버튼을 클릭하여 LHM에서 사용하려는 게임을 설정하는 방법을 알아보세요."
       },
       "quick": {
-        "title": "LHM 퀵",
-        "description": "LHM 퀵을 사용하면 HUD로 실행할 플레이어와 팀을 빠르게 구성할 수 있습니다. 이 기능은 주로 LHM 작동 방식에 익숙한 사용자가 바로 시작할 수 있도록 하기 위한 것입니다.\n현재 LHM Quick에서 지원되는 게임은 CS2, CS:GO, 도타 2, 리그 오브 레전드, 로켓 리그입니다.\n아래 자세히 알아보기 버튼을 클릭하여 LHM Quick에 대해 자세히 알아보세요."
+        "title": "LHM Quick",
+        "description": "LHM Quick을 사용하면 플레이어와 팀을 빠르게 구성해 HUD와 함께 즉시 실행할 수 있습니다. 이 기능은 LHM 사용 방식에 익숙한 사용자가 빠르게 시작할 수 있도록 설계되었습니다.\n현재 LHM Quick에서 지원되는 게임은 CS2, CS:GO, 도타 2, 리그 오브 레전드, 로켓 리그입니다.\n아래의 자세히 알아보기 버튼을 눌러 LHM Quick에 대해 더 알아보세요."
       },
       "huds": {
         "title": "HUD 탭",
-        "description": "HUD 탭에는 기본 제공 HUD와 사용자가 직접 업로드한 HUD가 모두 표시됩니다.\nHUD를 시작하려면 시스템의 별도 창에서 오버레이를 실행하거나(<undefined> 버튼) 링크를 복사하여 생방송 소프트웨어에서 브라우저 소스로 추가할 수 있습니다(<undefined> 버튼)."
+        "description": "HUD 탭에는 기본 제공 HUD와 사용자가 업로드한 HUD가 모두 표시됩니다.\nHUD를 시작하려면 별도 창에서 오버레이를 실행(\"Start HUD overlay\" 버튼)하거나 링크를 복사해 방송 소프트웨어에 브라우저 소스로 추가(\"Toggle HUD URL\" 버튼)할 수 있습니다."
       },
       "lhmHuds": {
         "title": "LHM HUD",

@@ -208,7 +208,7 @@
       "aco-ai-scoutDescription-disconnected": "让 AI 比赛观察员在无需用户干预的情况下观赛。\\nScout 服务器当前可能不可用。",
       "scoutCinematicDescription": "在比赛休息期间展示精美的电影镜头。",
       "scoutPredictDescription": "直接在直播中显示现场比赛结果预测。",
-      "scoutCinematic": "使用电影侦察",
+      "scoutCinematic": "使用 Scout Cinematic",
       "saveArea": "保存区域",
       "areaName": "名称",
       "areaNamePlaceholder": "区域名称",
@@ -242,7 +242,7 @@
         "label": "动作电影"
       },
       "scoutPausedTip": "Scout AI 暂停，因为未检测到正在运行的游戏。",
-      "xrayWarning": "要使 X-RAY 正常工作，必须在启动 CS2 时启用侦察/X-RAY 选项。"
+      "xrayWarning": "要使 X-RAY 正常工作，必须在启动 CS2 时启用 Scout/X-RAY 选项。"
     },
     "composer": {
       "componentsSubtitle": "HUD 组件预览",
@@ -879,9 +879,9 @@
           "dota2ARG": "玩 Dota 2 ARG",
           "reverseSide": "反面",
           "refreshHud": "刷新 HUD",
-          "toggleDirector": "切换球探视野",
-          "toggleScoutPredict": "Toggle Scout 预测",
-          "toggleScoutCinematic": "Toggle Scout 电影"
+          "toggleDirector": "切换 Scout Vision",
+          "toggleScoutPredict": "切换 Scout Predict",
+          "toggleScoutCinematic": "切换 Scout Cinematic"
         },
         "streamDeck": {
           "unavailable": "不可用"
@@ -921,7 +921,7 @@
           "readerCode": "阅读器代码"
         },
         "newToLHM": {
-          "show": "显示 \"新到 LHM\"；",
+          "show": "显示 \"新到 LHM\"",
           "seeNow": "现在查看"
         },
         "cta": {
@@ -947,7 +947,7 @@
         "customKillfeed": "Custom Killfeed",
         "embeddedHUD": "嵌入式 HUD",
         "killfeedOffset": "Killfeed Offset",
-        "scout": "Scout/XRAY",
+        "scout": "Scout AI/XRAY",
         "autoexecute": "Auto-execute",
         "console": "控制台",
         "add": "添加 HUD",
@@ -997,7 +997,7 @@
       },
       "includes": {
         "customRadar": "包含自定义雷达",
-        "customKillfeed": "包含自定义杀毒软件"
+        "customKillfeed": "包含自定义 Killfeed"
       },
       "removal": {
         "title": "移除 {{hud}}",
@@ -1243,7 +1243,7 @@
       },
       "arg": {
         "tab": {
-          "title": "自动回放生成器",
+          "title": "Replays",
           "info": "自动回放生成器（ARG）模块可生成回放，在两轮比赛之间或比赛结束时显示。\\nvMix 并非免费应用程序，ARG 本身主要是为已使用 vMix 的制作团队设计的。"
         },
         "safeband": {
@@ -1274,7 +1274,7 @@
         },
         "tab": {
           "title": "Scout AI",
-          "info": "通过 ACO 模块，您可以使用预定义的摄像机移动路径来跟踪游戏中的动作。\\nACO 使用人工智能来确定任何特定时间内游戏中发生的最重要事件。"
+          "info": "要以完美方式和理想视角捕捉每个动作几乎不可能——但 Scout 已经非常接近。我们的 AI 会从数千场比赛中学习，在无需人工干预的情况下自行捕捉最精彩的时刻。"
         },
         "area": {
           "title": "区域",
@@ -1294,18 +1294,18 @@
         },
         "scoutDirectorSwitch": {
           "title": "启用 Director",
-          "info": "打开切换开关后，侦察兵 AI 会自动启动。也可以使用按键绑定（默认：ALT + K）。"
+          "info": "打开切换开关后，Scout AI 会自动启动。也可以使用按键绑定（默认：ALT + K）。"
         },
         "scoutCinematic": {
-          "title": "侦察兵 AI 电影模式",
-          "info": "在此模式下，AI \"侦察兵 \"将与 ACO AI 协同工作，提供最全面的观察体验。如果不使用该模式，人工智能侦察兵将只提供 POV 摄像机，而不提供任何概览镜头。\n该模式仅适用于 ACO AI 支持的比赛地图。"
+          "title": "Scout AI 电影模式",
+          "info": "在此模式下，Scout AI 将与 ACO AI 协同工作，以提供最完整的观赛体验。若未启用该模式，Scout AI 仅会提供 POV 视角镜头，而不会提供全景镜头。\n该模式仅适用于 ACO AI 支持的比赛地图。"
         },
         "scoutPredict": {
-          "title": "侦察兵预测",
+          "title": "Scout Predict",
           "info": "Scout 允许基于人工智能的自动实时预测。如果启用此选项，这些预测将在重要时刻发送到你的 HUD，以便更好地洞察比赛。"
         },
         "timeRemaining": {
-          "title": "每月 \"侦察兵 AI \"配额的剩余时间",
+          "title": "您每月的 Scout AI 配额",
           "info": "您使用 Scout AI 服务器的可用时间。订阅后每个月都会刷新。"
         }
       },

@@ -106,37 +106,37 @@
       "typeYourMessage": "Kirjoita viestisi tähän..."
     },
     "color-picker": {
-      "contrast-excellent-label": "Erinomainen kontrasti!\n\nKatsojasi näkevät tekstin selvästi tällä taustalla.\n\n___#\nHyvä kontrasti",
-      "contrast-excellent-message": "Kontrasti on hyvä, mutta sitä voitaisiin parantaa luettavuuden parantamiseksi.\n\n___#\nKohtuullinen kontrasti",
-      "contrast-good-label": "Kontrasti on heikko; joillakin katsojilla voi olla vaikeuksia tekstin lukemisessa.",
-      "contrast-good-message": "Huono kontrasti",
-      "contrast-fair-label": "Kontrasti on liian matala; tekstiä voi olla vaikea lukea!",
-      "contrast-fair-message": "Huomautus:",
-      "contrast-poor-label": "Valitse HUD-TEEMA MUKAUTETUT VÄRIT -asetukseksi ottaaksesi käyttöön mukautetun värien muokkaamisen.",
-      "contrast-poor-message": "Ylävasen",
-      "notice": "Yläoikea",
-      "notice-content": "Alavasen"
+      "contrast-excellent-label": "Erinomainen kontrasti!",
+      "contrast-excellent-message": "Katsojasi näkevät tekstin selkeästi tällä taustalla.",
+      "contrast-good-label": "Hyvä kontrasti",
+      "contrast-good-message": "Kontrasti on hyvä, mutta sitä voisi parantaa luettavuuden parantamiseksi.",
+      "contrast-fair-label": "Kohtalainen kontrasti",
+      "contrast-fair-message": "Kontrasti on heikko; osalla katsojista voi olla vaikeuksia lukea tekstiä.",
+      "contrast-poor-label": "Huono kontrasti",
+      "contrast-poor-message": "Kontrasti on liian matala; tekstiä voi olla vaikea lukea!",
+      "notice": "Huomio:",
+      "notice-content": "Valitse HUD-TEEMAKSI MUKAUTETUT VÄRIT, jotta voit muokata värejä itse."
     },
     "signals-ads": {
-      "top-left": "Alaoikea",
-      "top-right": "Kuva",
-      "bottom-left": "Mikä tahansa pelaaja",
-      "bottom-right": "Mikä tahansa puoli",
-      "image": "Mikä tahansa joukkue",
-      "any-player": "Sijainti",
-      "any-side": "Kesto (s)",
-      "any-team": "Liipaisin",
-      "position": "Pelaaja",
-      "duration": "Joukkue",
-      "trigger": "Sijainti",
-      "player": "Lisää uusi mainos",
-      "team": "Valitse pelipaikka",
-      "side": "Valitse liipaisin",
-      "add-new-ad": "Valitse pelaaja",
-      "select-position": "Valitse puoli",
-      "select-trigger": "Kopioi nykyisestä esiasetuksesta",
-      "select-player": "Luo tyhjä",
-      "select-side": "Vaihda tiedustelunäkymä"
+      "top-left": "Ylävasen",
+      "top-right": "Yläoikea",
+      "bottom-left": "Alavasen",
+      "bottom-right": "Alaoikea",
+      "image": "Kuva",
+      "any-player": "Kuka tahansa pelaaja",
+      "any-side": "Mikä tahansa puoli",
+      "any-team": "Mikä tahansa joukkue",
+      "position": "Sijainti",
+      "duration": "Kesto (s)",
+      "trigger": "Laukaisin",
+      "player": "Pelaaja",
+      "team": "Joukkue",
+      "side": "Puoli",
+      "add-new-ad": "Lisää uusi mainos",
+      "select-position": "Valitse sijainti",
+      "select-trigger": "Valitse laukaisin",
+      "select-player": "Valitse pelaaja",
+      "select-side": "Valitse puoli"
     },
     "blocker": {
       "personal": "Päivitä LHM:si Personal-, Professional- tai Enterprise-tilaukseen saadaksesi täydet käyttöoikeudet tähän osioon.",
@@ -157,8 +157,8 @@
       "players": "Pelaajat",
       "teams": "Joukkueet",
       "arg": "Replays",
-      "aco": "Automaattinen elokuvamainen ohjaaja",
-      "ar": "Lisätty todellissu (AR)",
+      "aco": "Scout AI",
+      "ar": "Lisätty todellisuus",
       "cgpanel": "CG Moodi",
       "huds": "HUDit",
       "matches": "Ottelut",
@@ -169,13 +169,13 @@
       "addons": "Lisäosat",
       "settings": "Asetukset",
       "credits": "Krediitit",
-      "quick": "Nopea",
+      "quick": "Quick",
       "chat": "Tukikeskustelu",
       "composer": "Composer",
       "xray": "X-Ray"
     },
     "aco": {
-      "disabled": "Disabloitu",
+      "disabled": "Pois käytöstä",
       "aco1": "ACO",
       "acoAI": "ACO AI",
       "acoAIScout": "ACO AI + Scout AI",
@@ -196,15 +196,15 @@
       "inGameName": "Pelin sisäinen nimi",
       "manualControl": "Manuaalinen ohjaus",
       "areaConfigurationsPlaceholder": "Valitse alue nähdäksesi kokoonpanot",
-      "enableDirector": "Enabloi ohjaaja",
-      "scoutPredict": "Enable Predict",
+      "enableDirector": "Ota ohjaaja käyttöön",
+      "scoutPredict": "Ota Predict käyttöön",
       "telnet": "Ota Telnet käyttöön",
-      "telnetWarning": "Telnetin käyttäminen edellyttää, että CS2 on käynnistetty Workshop Tools -ohjelmalla. Voit tehdä sen ottamalla käyttöön \"Killfeed / Tools\" -vaihtoehdon HUDs-välilehdellä ja napsauttamalla \"Run Game\" -painiketta.",
-      "cinematicWarning": "Scout Cinematicin käyttö edellyttää, että CS2 käynnistetään Workshop Toolsilla. Voit tehdä sen ottamalla käyttöön \"Killfeed / Tools\" -vaihtoehdon HUDs-välilehdellä ja napsauttamalla \"Run Game\" -painiketta. Scout Cinematicin ottaminen käyttöön pakottaa myös Scout Visionin toimimaan suorassa tilassa.",
+      "telnetWarning": "Telnetin käyttämiseksi CS2 on käynnistettävä Workshop Toolsin kanssa. Voit tehdä sen ottamalla HUDit-välilehdellä käyttöön \"Scout AI\" -vaihtoehdon ja painamalla \"Run Game\" -painiketta.",
+      "cinematicWarning": "Scout Cinematicin käyttämiseksi CS2 on käynnistettävä Workshop Toolsin kanssa. Voit tehdä sen ottamalla HUDit-välilehdellä käyttöön \"Scout AI\" -vaihtoehdon ja painamalla \"Run Game\" -painiketta. Scout Cinematicin käyttöönotto pakottaa myös Scout Visionin käyttämään Direct-tilaa.",
       "disabledDescription": "Ohjaus annetaan sinulle ja tarkkailijoillesi kokonaan.\\nPidä hauskaa.",
       "aco1Description": "Tasapainoitettu hallinta ja automaatio.\\nAvusta tarkkailijoitasi käsin kirjoitetuilla ACO-ohjeilla.",
       "aco-aiDescription": "Rentoudu ja anna ACO AI:n edistyneen algoritmin hoitaa ohjaus striimissäsi.",
-      "aco-ai-scoutDescription": "Anna uusimman otteluennustejärjestelmämme ottaa ohjat käsiisi.\nTulossa pian.",
+      "aco-ai-scoutDescription": "Anna tekoälypohjaisen ottelutarkkailijan seurata peliä ilman käyttäjän syötettä.",
       "aco-ai-scoutDescription-disconnected": "Anna uusimman tekoäly-ottelutarkkailujärjestelmämme ottaa ohjat.\\nScout-palvelimet eivät ehkä ole tällä hetkellä käytettävissä.",
       "scoutCinematicDescription": "Näytä kauniita elokuvamaisia otoksia ottelutaukojen aikana.",
       "scoutPredictDescription": "Näytä live-otteluiden tulosennusteet suoraan lähetyksessäsi.",
@@ -216,7 +216,7 @@
       "areaPriorityPlaceholder": "Alueen prioriteetti",
       "addConfigHeader": "Lisää uusi kokoonpano tälle alueelle",
       "addConfigPlaceholder": "Syötä tällä alueella suoritettava komento",
-      "timeRemaining": "Partiolaisten tekoälyn jäljellä oleva aika",
+      "timeRemaining": "Käytettävissä oleva aika",
       "scoutServerUnavailable": "LHM ei voi muodostaa yhteyttä Scout AI-palvelimiin.\nYritä uudelleen muutaman minuutin kuluttua.",
       "scoutSubtitle": "AI-tarkkailija",
       "scoutGetMoreTime": "Hanki enemmän aikaa",
@@ -249,199 +249,199 @@
       "usePlayerAvatar": "Käytä pelaajan avataria",
       "radarStyle": "Tutkatyyli",
       "position": "Sijainti",
-      "fileTooLarge": "Tiedosto on liian suuri. Suurin koko on {{limit}} MB. #__#\nFonttikoko",
-      "fontSize": "Joukkueen nimen fonttikoko",
-      "uhudMatchbarTeamNameFontSize": "Pisteiden fonttikoko",
-      "uhudMatchbarScoreFontSize": "Pelaajan nimen fonttikoko",
-      "uhudPlayersNameFontSize": "Tilaston fonttikoko",
-      "uhudPlayersStatsFontSize": "Terveystietojen fonttikoko",
-      "uhudPlayersHealthFontSize": "Näkyvä",
+      "fileTooLarge": "Tiedosto on liian suuri. Enimmäiskoko on {{limit}} MB.",
+      "fontSize": "Fonttikoko",
+      "uhudMatchbarTeamNameFontSize": "Joukkueen nimen fonttikoko",
+      "uhudMatchbarScoreFontSize": "Pisteiden fonttikoko",
+      "uhudPlayersNameFontSize": "Pelaajan nimen fonttikoko",
+      "uhudPlayersStatsFontSize": "Tilastojen fonttikoko",
+      "uhudPlayersHealthFontSize": "Elämäpisteiden fonttikoko",
       "visible": "Näkyvä",
-      "previewTitle": "Säveltäjän esikatselu {{component}}",
+      "previewTitle": "Composer-esikatselu {{component}}",
       "components": {
-        "matchbar": "Vasen pelaajat",
-        "left-player": "Oikea pelaajat",
-        "right-player": "Vasen raha",
-        "left-money": "Oikea raha",
-        "right-money": "Pelaajat",
-        "players": "Tarkkailtu pelaaja",
-        "observed-player": "Tapposyöte",
-        "killfeed": "Kierroksen historia",
-        "round-history": "Karttasarja",
-        "mapseries": "Mukautettu resurssi",
-        "asset": "Kierroksen voittoindikaattori",
-        "winbox": "Sponsorit",
-        "sponsors": "Turnaustiedot",
-        "tournament-info": "Tietojenhakuennuste",
-        "scout": "Tutka",
-        "radar": "Animaatiotehdas",
-        "anims-plant": "Animaation purku Lyhyt",
-        "anims-defuse-short": "Animaation purku Pitkä",
-        "anims-defuse-long": "Animaation purku",
-        "anims-defuse": "Animaatio",
-        "anims": "Ultra HUD"
+        "matchbar": "Matchbar",
+        "left-player": "Vasemmat pelaajat",
+        "right-player": "Oikeat pelaajat",
+        "left-money": "Vasen raha",
+        "right-money": "Oikea raha",
+        "players": "Pelaajat",
+        "observed-player": "Tarkkailtu pelaaja",
+        "killfeed": "Killfeed",
+        "round-history": "Kierroshistoria",
+        "mapseries": "Karttasarja",
+        "asset": "Mukautettu resurssi",
+        "winbox": "Kierrosvoiton ilmaisin",
+        "sponsors": "Sponsorit",
+        "tournament-info": "Turnaustiedot",
+        "scout": "Scout Predict",
+        "radar": "Tutka",
+        "anims-plant": "Animaatio Plant",
+        "anims-defuse-short": "Animaatio Defuse Short",
+        "anims-defuse-long": "Animaatio Defuse Long",
+        "anims-defuse": "Animaatio Defuse",
+        "anims": "Animaatio"
       },
       "huds": {
-        "ultrahud": "Amber HUD",
-        "amberhud": "Sapphire HUD",
-        "sapphirehud": "Neon HUD",
-        "neonhud": "Täysi HUD",
-        "fullHud": "Pystysuuntainen"
+        "ultrahud": "Ultra HUD",
+        "amberhud": "Amber HUD",
+        "sapphirehud": "Sapphire HUD",
+        "neonhud": "Neon HUD",
+        "fullHud": "Full HUD"
       },
       "layouts": {
-        "vertical": "Vaakasuora",
-        "horizontal": "Vaakasuora ylhäällä",
-        "horizontal-top": "Vaakasuora alhaalla",
-        "horizontal-bottom": "Vasen pelaajat ylhäällä"
+        "vertical": "Pystysuora",
+        "horizontal": "Vaakasuora",
+        "horizontal-top": "Vaakasuora ylhäällä",
+        "horizontal-bottom": "Vaakasuora alhaalla"
       },
       "positions": {
-        "left-players": "Vasen pelaajat ylhäällä",
-        "right-players": "Vasen pelaajat alhaalla",
-        "left-players-top": "Oikea pelaaja ylhäällä",
-        "left-players-bottom": "Oikea pelaaja ylhäällä",
-        "right-players-top": "Oikea pelaaja ylhäällä",
-        "right-players-bottom": "Oikea pelaaja ylhäällä"
+        "left-players": "Vasemmat pelaajat",
+        "right-players": "Oikeat pelaajat",
+        "left-players-top": "Vasemmat pelaajat ylhäällä",
+        "left-players-bottom": "Vasemmat pelaajat alhaalla",
+        "right-players-top": "Oikeat pelaajat ylhäällä",
+        "right-players-bottom": "Oikeat pelaajat alhaalla"
       },
       "sapphirePlayersHpFontSize": "HP-fonttikoko",
-      "sapphirePlayersNameFontSize": "Pelaajanimen fonttikoko",
-      "sapphirePlayersRoundDamageFontSize": "Pyöreän vaurion fonttikoko",
+      "sapphirePlayersNameFontSize": "Pelaajan nimen fonttikoko",
+      "sapphirePlayersRoundDamageFontSize": "Kierrosvahingon fonttikoko",
       "sapphirePlayersKdaFontSize": "KDA-fonttikoko",
-      "killfeedPlayerNameFontSize": "Killfeed-pelaajanimen fonttikoko",
+      "killfeedPlayerNameFontSize": "Killfeed-pelaajan nimen fonttikoko",
       "titles": {
         "components": "Komponentit",
         "settings": "Asetukset",
         "globalStyles": "Globaalit tyylit"
       },
       "descriptions": {
-        "globalStyles": "Käytä globaalia ulkoasua komponentteihin. #__#\nNäytä kaikki"
+        "globalStyles": "Käytä globaalia ulkoasua komponentteihin."
       },
       "actions": {
-        "showAll": "Piilota kaikki",
-        "hideAll": "Näytä komponentti",
-        "showComponent": "Piilota komponentti",
-        "hideComponent": "Takaisin komponentteihin",
-        "backToComponents": "Taakse",
-        "toBack": "Eteen",
-        "toFront": "Lisätty"
+        "showAll": "Näytä kaikki",
+        "hideAll": "Piilota kaikki",
+        "showComponent": "Näytä komponentti",
+        "hideComponent": "Piilota komponentti",
+        "backToComponents": "Takaisin komponentteihin",
+        "toBack": "Taakse",
+        "toFront": "Eteen"
       },
       "status": {
-        "added": "Ei lisätty",
-        "notAdded": "Variantti"
+        "added": "Lisätty",
+        "notAdded": "Ei lisätty"
       },
       "fields": {
-        "variant": "Tyyli",
-        "style": "Tyylit",
-        "styles": "Asettelu",
-        "layout": "Fonttiperhe",
-        "fontFamily": "Globaali kuvio",
-        "globalPattern": "Globaalin kuvion läpinäkyvyys",
-        "globalPatternOpacity": "Taustakuvan sovitus",
-        "backgroundImageFit": "Reunuksen säde",
-        "borderRadius": "Reunuksen leveys",
-        "borderWidth": "Reunuksen tyyli",
-        "borderStyle": "Sijainti X",
-        "positionX": "Sijainti Y",
-        "positionY": "Keskitä vaakasuunnassa",
-        "centerHorizontally": "Keskitä pystysuunnassa",
-        "centerVertically": "Skaalaus",
-        "scale": "Z-indeksi",
-        "zIndex": "Nykyinen kerros",
-        "currentLayer": "Tasaa",
-        "align": "Mukautettu CSS",
-        "customCss": "Kesto",
-        "duration": "Raja",
-        "limit": "REUNUS"
+        "variant": "Variantti",
+        "style": "Tyyli",
+        "styles": "Tyylit",
+        "layout": "Asettelu",
+        "fontFamily": "Fonttiperhe",
+        "globalPattern": "Globaali kuvio",
+        "globalPatternOpacity": "Globaalin kuvion peittävyys",
+        "backgroundImageFit": "Taustakuvan sovitus",
+        "borderRadius": "Reunan pyöristys",
+        "borderWidth": "Reunan leveys",
+        "borderStyle": "Reunan tyyli",
+        "positionX": "Sijainti X",
+        "positionY": "Sijainti Y",
+        "centerHorizontally": "Keskitä vaakasuunnassa",
+        "centerVertically": "Keskitä pystysuunnassa",
+        "scale": "Skaala",
+        "zIndex": "Z-indeksi",
+        "currentLayer": "Nykyinen kerros",
+        "align": "Tasaus",
+        "customCss": "Mukautettu CSS",
+        "duration": "Kesto",
+        "limit": "Raja"
       },
       "labels": {
-        "border": "TAUSTA",
-        "background": "TERRORISMINVASTAISET",
-        "counterTerrorists": "TERRORISTIT",
-        "terrorists": "Ei valittua tiedostoa"
+        "border": "REUNUS",
+        "background": "TAUSTA",
+        "counterTerrorists": "COUNTER-TERRORISTS",
+        "terrorists": "TERRORISTS"
       },
       "files": {
-        "noFileSelected": "Sponsorin kuva",
-        "sponsorImage": "Resurssitiedosto",
-        "assetFile": "Ei valittua kuvaa",
-        "noImagesSelected": "1 kuva valittu",
+        "noFileSelected": "Ei tiedostoa valittuna",
+        "sponsorImage": "Sponsorikuva",
+        "assetFile": "Resurssitiedosto",
+        "noImagesSelected": "Ei kuvia valittuna",
         "oneImageSelected": "1 kuva valittu",
         "imagesSelected": "{{count}} kuvaa valittu",
-        "plantFile": "Poista lyhyt tiedosto",
-        "defuseShortFile": "Poista pitkä tiedosto",
-        "defuseLongFile": "Mukautettu"
+        "plantFile": "Plant-tiedosto",
+        "defuseShortFile": "Defuse Short -tiedosto",
+        "defuseLongFile": "Defuse Long -tiedosto"
       },
       "options": {
-        "custom": "Kansi",
-        "cover": "Sisältö",
-        "contain": "Ei mitään",
-        "none": "Yläosa",
-        "top": "Vasen",
-        "left": "Keskellä",
-        "center": "Oikea",
-        "right": "Alaosa",
-        "bottom": "Etuosa",
-        "front": "Suorituskykytiedot"
+        "custom": "Mukautettu",
+        "cover": "Cover",
+        "contain": "Contain",
+        "none": "Ei mitään",
+        "top": "Ylä",
+        "left": "Vasen",
+        "center": "Keskellä",
+        "right": "Oikea",
+        "bottom": "Ala",
+        "front": "Etu"
       },
       "tooltips": {
-        "performanceInformation": "Mukautettujen CSS-värimuuttujien ohje",
-        "customCssColorVariablesHelp": "Jos haluat käyttää tiimin väriä mukautetussa CSS:ssä, käytä CSS-muuttujaa: var(--color-new-t).",
-        "customCss": "Jokaisen Composer-komponentin väliaikainen renderöinti kerralla voi heikentää esikatselun suorituskykyä heikommilla koneilla. Tämä on odotettavissa asennuksen aikana, eikä sen pitäisi vaikuttaa suorituskykyyn HUDin määrittämisen jälkeen. #__#\nHakukomponentit...",
-        "bulkVisibilityPerformance": "/* mukautetut tyylit */"
+        "performanceInformation": "Suorituskykytiedot",
+        "customCssColorVariablesHelp": "Mukautettujen CSS-värimuuttujien ohje",
+        "customCss": "Jos haluat käyttää joukkueen väriä mukautetussa CSS:ssä, käytä CSS-muuttujaa: var(--color-new-t).",
+        "bulkVisibilityPerformance": "Kaikkien Composer-komponenttien väliaikainen renderöinti kerralla voi heikentää esikatselun suorituskykyä hitaammilla koneilla. Tämä on odotettua määrityksen aikana eikä sen pitäisi vaikuttaa suorituskykyyn määrityksen jälkeen."
       },
       "placeholders": {
-        "search": "Käytä avataria",
-        "customCss": "Pelaajan koko"
+        "search": "Hae komponentteja...",
+        "customCss": "/* mukautetut tyylit */"
       },
       "radar": {
-        "useAvatar": "Tutkan läpinäkyvyys",
-        "playerSize": "Käytä liukuväriä",
-        "radarOpacity": "Kranaatin animaatiovariantti",
-        "useGradient": "Kuolleen pelaajan merkki",
-        "grenadeAnimationVariant": "Liukuvärin ohitus käytössä",
-        "deadPlayerMarker": "Liukuvärin pysäytysväri",
-        "gradientOverrideEnabled": "Joukon zoomaus käytössä",
-        "gradientStopColor": "Pomminkantajan väri",
-        "crowdZoomEnabled": "Savun väri",
-        "bombCarrierColor": "Salaman väri",
-        "smokeColor": "Kranaatin väri",
-        "flashColor": "Molotovin väri",
-        "grenadeColor": "Pommin väri",
-        "molotovColor": "Kasvin maksimileveys",
-        "bombColor": "Kasvin maksimikorkeus"
+        "useAvatar": "Käytä avataria",
+        "playerSize": "Pelaajan koko",
+        "radarOpacity": "Tutkan peittävyys",
+        "useGradient": "Käytä liukuväriä",
+        "grenadeAnimationVariant": "Kranaattianimaation variantti",
+        "deadPlayerMarker": "Kuolleen pelaajan merkki",
+        "gradientOverrideEnabled": "Liukuvärin ohitus käytössä",
+        "gradientStopColor": "Liukuvärin loppuväri",
+        "crowdZoomEnabled": "Yleisözoomaus käytössä",
+        "bombCarrierColor": "Pommin kantajan väri",
+        "smokeColor": "Savun väri",
+        "flashColor": "Flashin väri",
+        "grenadeColor": "Kranaatin väri",
+        "molotovColor": "Molotovin väri",
+        "bombColor": "Pommin väri"
       },
       "anims": {
-        "plantMaxWidth": "Purannan maksimileveys",
-        "plantMaxHeight": "Purannan maksimikorkeus",
-        "defuseMaxWidth": "(kohde ~5s)",
-        "defuseMaxHeight": "(kohde ~10s)",
-        "targetFiveSeconds": "Oletus",
-        "targetTenSeconds": "Tumma"
+        "plantMaxWidth": "Plantin maksimileveys",
+        "plantMaxHeight": "Plantin maksimikorkeus",
+        "defuseMaxWidth": "Defusen maksimileveys",
+        "defuseMaxHeight": "Defusen maksimikorkeus",
+        "targetFiveSeconds": "(tavoite ~5s)",
+        "targetTenSeconds": "(tavoite ~10s)"
       },
       "radarVariants": {
-        "default": "Puhdas",
-        "dark": "Korkea kontrasti",
-        "clean": "Oletus",
-        "high-contrast": "Kartonki"
+        "default": "Oletus",
+        "dark": "Tumma",
+        "clean": "Puhdas",
+        "high-contrast": "Korkea kontrasti"
       },
       "radarGrenadeAnimationVariants": {
-        "default": "Häivytys",
-        "carton": "Joukkue X"
+        "default": "Oletus",
+        "carton": "Carton"
       },
       "radarDeadPlayerMarkers": {
-        "fade": "Aseta valmentajaksi",
-        "team-x": "Kameran viive sekunneissa"
+        "fade": "Häivytys",
+        "team-x": "Joukkue X"
       }
     },
     "players": {
       "edit": "Muokkaa pelaajaa",
       "uploadProfile": "Kuva",
       "avatarInfo": "Avatar, jota käytetään pelaajan kuvissa Steamin oletusarvon sijaan",
-      "addPlayer": "Add Player",
+      "addPlayer": "Lisää pelaaja",
       "importPlayersTitle": "Tuo pelaajia",
       "downloadNamesFile": "Lataa nimitiedosto",
       "importPlayersExcel": "Käytä esivalmistettua Excel-taulukkoa, jolla voit helposti tuoda monta pelaajaa kerralla.",
       "exportPlayers": "Vie",
       "avatar": "Avatar",
-      "setAsCoach": "Kameran suoratoiston laatu"
+      "setAsCoach": "Aseta valmentajaksi"
     },
     "teams": {
       "edit": "Muokkaa joukkuetta",
@@ -468,10 +468,10 @@
       "stopTestVideo": "Pysäytä testivideo",
       "testVideoBlocker": "Testivideon toistaminen edellyttää, että peli on käynnissä ja että pelaajat ovat täyttäneet yllä olevan taulukon. Katso demo tai toista testidata ja valitse testipelaaja",
       "testPlayer": "Testipelaaja",
-      "delay": "Yhteys ainakin yhteen pelaajaan, joka on merkitty keltaisella pisteellä, on symmetrisen NAT:n estämä. Yleensä se johtaa kameran suoratoiston yhteysongelmiin. Pelaajan on suositeltavaa vaihtaa verkkoyhteyttä ja päivittää Kamera-sivu.",
-      "cameraQuality": "Yhteytesi on symmetrisen NAT:n estämä. Yleensä se johtaa kameran suoratoiston yhteysongelmiin. On suositeltavaa vaihtaa verkkoyhteyttä ja käynnistää LHM uudelleen.",
-      "cameraWarningPlayer": "Sävellysohjelma",
-      "cameraWarningUser": "Luo oletus"
+      "delay": "Kameran viive sekunteina",
+      "cameraQuality": "Kamerastreamin laatu",
+      "cameraWarningPlayer": "Yhteys ainakin yhteen pelaajaan, joka on merkitty keltaisella pisteellä, on symmetrisen NAT:n estämä. Yleensä se aiheuttaa ongelmia kamerastreamin yhteydessä. Pelaajan kannattaa vaihtaa verkkoyhteyttä ja päivittää Kamerat-sivu.",
+      "cameraWarningUser": "Yhteytesi on symmetrisen NAT:n estämä. Yleensä se aiheuttaa ongelmia kamerastreamin yhteydessä. Verkkoyhteyden vaihtaminen ja LHM:n uudelleenkäynnistys on suositeltavaa."
     },
     "addons": {
       "upload": "Lataa lisäosa",
@@ -493,7 +493,7 @@
       "huds": "HUDit",
       "aco": "Scout AI",
       "addons": "Lisäosat",
-      "composer": "Luo tyhjä",
+      "composer": "Composer",
       "ar": "AR",
       "live": "Live",
       "quick": "Quick",
@@ -507,7 +507,7 @@
       "validUntil": "Voimassa kunnes",
       "nextPayment": "Seuraava maksu",
       "logout": "Kirjaudu ulos",
-      "arg": "Toistot"
+      "arg": "Replays"
     },
     "signals": {
       "removal": {
@@ -521,10 +521,10 @@
       "create": {
         "title": "Luo uusi esiasetus",
         "placeholder": "Esiasetuksen nimi",
-        "clone": "Linkki kopioitu leikepöydälle",
-        "createNew": "Avataan HUD-näyttökuva...",
-        "createFromDefault": "Ryhmää ja pudotuspelit",
-        "createBlank": "Ei otteluita tässä vaiheessa"
+        "clone": "Kopioi nykyisestä esiasetuksesta",
+        "createNew": "Luo tyhjä",
+        "createFromDefault": "Luo oletus",
+        "createBlank": "Luo tyhjä"
       },
       "activate": "{{ name }} ei ole aktiivinen",
       "deactivate": "{{ name }} on aktiivinen",
@@ -559,12 +559,12 @@
       "exit": "Poistu nopeasti",
       "fillWithLive": "Täytä live-tiedoilla",
       "unnamedTeam": "Nimetön tiimi",
-      "dismiss": "Dismiss",
-      "launchHUD": "Launch HUD",
+      "dismiss": "Sulje",
+      "launchHUD": "Käynnistä HUD",
       "uploadAvatar": "Lataa avatar",
       "selectHUD": "Valitse HUD",
       "preview": "Esikatselu",
-      "unlink": "Unlink",
+      "unlink": "Poista linkitys",
       "playerExists": {
         "info": "Pelaaja, jolla on tämä {{playerIdentifierName}}, on jo olemassa.",
         "overwrite": "Haluatko korvata heidän tietonsa tällä?",
@@ -587,12 +587,12 @@
       "page": "Turnauksen sivu",
       "create": "Luo uusi turnaus",
       "name": "Turnauksen nimi",
-      "groupAndPlayoffs": "Pudotuspelit on luotu onnistuneesti",
-      "noMatchesInStage": "Mestari",
-      "playoffsCreated": "Lohkolohko",
-      "champion": "Erän tulos",
-      "bracket": "Vain pudotuspelit",
-      "setScore": "Lohko + pudotuspelit",
+      "groupAndPlayoffs": "Lohko ja pudotuspelit",
+      "noMatchesInStage": "Ei otteluita tässä vaiheessa",
+      "playoffsCreated": "Pudotuspelit luotiin onnistuneesti",
+      "champion": "Mestari",
+      "bracket": "Kaavio",
+      "setScore": "Aseta tulos",
       "uploadLogo": "Lataa turnauksen logo",
       "logoInfo": "Turnauksen logo on saatavilla ottelun aikana",
       "singleElimBracket": "Single Elimination Bracket",
@@ -601,30 +601,30 @@
       "group": "Ryhmä",
       "playoffs": "Pudotuspelit",
       "playoffType": "Pudotuspelien tyyppi",
-      "playoffsOnly": "Oletusarvoinen paras-formaatti",
-      "grouppAndPlayoffs": "Oletusarvoinen paras-formaatti (uusille otteluille)",
-      "soon": "Soon",
+      "playoffsOnly": "Vain pudotuspelit",
+      "grouppAndPlayoffs": "Lohko + pudotuspelit",
+      "soon": "Pian",
       "groupType": "Ryhmätyyppi",
       "participants": "Osallistujat",
-      "then": "then",
+      "then": "sitten",
       "amountOfTeams": "Joukkueiden määrä",
       "amountOfRounds": "Kierrosten määrä",
-      "bindMatch": "Ottelun sitominen lohkoon",
-      "defaultBo": "Turnauksen rakenne",
-      "defaultBoEdit": "Käytettävissä olevat joukkueet",
+      "bindMatch": "Liitä ottelu kaavioon",
+      "defaultBo": "Oletus Best Of -formaatti",
+      "defaultBoEdit": "Oletus Best Of -formaatti (uusille otteluille)",
       "teamOrderList": "Joukkueiden järjestysluettelo",
-      "tournamentStructure": "Valitut joukkueet",
-      "availableTeams": "Päivittyneet joukkueet",
-      "selectedTeams": "Päässyt",
-      "qualifiedTeams": "Pudottu",
-      "qualified": "Lohkovaihe on päättynyt. Voit nyt luoda pudotuspelit - tämä vaihe voidaan suorittaa vain kerran.",
-      "eliminated": "Luo pudotuspelejä",
-      "groupFinished": "Lohkovaihe on vielä käynnissä. Pudotuspelien luominen on mahdollista, kun lohkovaihe on päättynyt. #__#\nPuuttuvia osumia havaittu",
-      "createPlayoffs": "Jotkut osumat on poistettu. Napsauta alla palauttaaksesi kaikki ensimmäisen puuttuvan kierroksen osumat.",
-      "stageInProgress": "Palauta kaikki osumat",
-      "missingMatches": "HUDien järjestyspilvisynkronointi",
-      "matchesDeleted": "Jaettu kokoonpanopilvisynkronointi",
-      "restoreAllMatches": "Jaettu kokoonpanopilvisynkronointi"
+      "tournamentStructure": "Turnauksen rakenne",
+      "availableTeams": "Saatavilla olevat joukkueet",
+      "selectedTeams": "Valitut joukkueet",
+      "qualifiedTeams": "Jatkoon päässeet joukkueet",
+      "qualified": "Jatkoon",
+      "eliminated": "Pudonnut",
+      "groupFinished": "Lohkovaihe on päättynyt. Voit nyt luoda pudotuspelit - tämä vaihe voidaan suorittaa vain kerran.",
+      "createPlayoffs": "Luo pudotuspelit",
+      "stageInProgress": "Lohkovaihe on vielä käynnissä. Pudotuspelien luominen tulee saataville, kun lohkovaihe on päättynyt.",
+      "missingMatches": "Puuttuvia otteluita havaittu",
+      "matchesDeleted": "Joitakin otteluita on poistettu. Paina alta palauttaaksesi kaikki ottelut ensimmäisestä puuttuvasta kierroksesta alkaen.",
+      "restoreAllMatches": "Palauta kaikki ottelut"
     },
     "match": {
       "matches": "Ottelut",
@@ -638,20 +638,20 @@
       "blue": "Sininen",
       "red": "Punainen",
       "scoreModal": {
-        "unsetWin": "Unset win",
+        "unsetWin": "Poista voitto",
         "setWin": "Asetettu voitto",
         "teamLogo": "Joukkueen logo"
       },
       "toggleLive": "LIVE",
       "tabs": {
-        "ended": "ended",
-        "current": "current",
-        "future": "future"
+        "ended": "päättyneet",
+        "current": "nykyiset",
+        "future": "tulevat"
       },
       "columns": {
-        "match": "Match",
-        "score": "Score",
-        "date": "Date",
+        "match": "Ottelu",
+        "score": "Tulos",
+        "date": "Päivä",
         "time": "Aika"
       },
       "wins": "WINS",
@@ -668,11 +668,11 @@
       },
       "vetoDescription": {
         "pick": "{{teamName}} poimii {{mapName}}",
-        "ban": "{{teamName}} kieltää {{{mapName}}"
+        "ban": "{{teamName}} bannaa {{mapName}}"
       },
       "chooseTeam": "Valitse joukkue",
       "vetoSidepick": {
-        "normal": "{{secondTeamName}} valitsee {{{side}}:n puolen",
+        "normal": ", {{secondTeamName}} valitsee {{side}}-puolen",
         "decider": "{{mapName}} ratkaisija"
       },
       "vetoUrlModal": {
@@ -770,11 +770,11 @@
       "serversUnreachable": "Näyttää siltä, että palvelimemme eivät ole tavoitettavissa. Yritä uudelleen muutaman minuutin kuluttua",
       "preInstalled": "Käytä esiasennettua",
       "cloudSynchronization": "Pilvisynkronointi",
-      "hudConfigCloudSynchronization": "HUD-asetusten pilvisynkronointi",
-      "hudTogglesCloudSynchronization": "HUD vaihtaa pilvisynkronoinnin",
-      "hudOrdersCloudSynchronization": "Ohita CS2-pelaajan näppäinsidonnat",
-      "sharedConfigCloudSynchronization": "Ei",
-      "sharedConfigSync": "Kun vasen peli on aktiivinen",
+      "hudConfigCloudSynchronization": "Composer- ja HUD-asetusten pilvisynkronointi",
+      "hudTogglesCloudSynchronization": "HUD-kytkinten pilvisynkronointi",
+      "hudOrdersCloudSynchronization": "HUD-järjestyksen pilvisynkronointi",
+      "sharedConfigCloudSynchronization": "Jaetun määrityksen pilvisynkronointi",
+      "sharedConfigSync": "Jaetun määrityksen pilvisynkronointi",
       "valorantWindowTitleOverride": "Valorant-ikkunan otsikon ohitus",
       "valorantServerMode": "Tiedonkeruutila",
       "valorantReadLanguage": "Valorant-pelin kieli",
@@ -789,15 +789,15 @@
       "dota2Assets": "Dota 2 Assets",
       "autoHalfSwitch": "Automaattinen puoliskon vaihto (kokeellinen)",
       "autoSwitch": "Auto switch",
-      "overrideCS2PlayerKeybinds": "Aina",
+      "overrideCS2PlayerKeybinds": "Ohita CS2-pelaajan näppäinsidonnat",
       "overrideCS2PlayerKeybindsOptions": {
-        "no": "Ohita CS2-pelaajan näppäinsidonnat",
-        "focused": "Tämä asetus asettaa CS2-näppäinsidonnat 1-0 vastaamaan HUDissa näkyviä tarkkailijapelaajapaikkoja, mikä on hyödyllistä, kun valmentajia on läsnä palvelimella.\nNäppäinsidontojen tallentamiseksi sinun on poistettava tämä asetus käytöstä, kun CS2 on käynnissä. #__#\nTiedustelijan näkökentän päälle/pois kytkeminen",
-        "always": "IP-osoitteen ohitus"
+        "no": "Ei",
+        "focused": "Kun LHM on fokuksessa",
+        "always": "Aina"
       },
       "overrideCS2PlayerKeybindsModal": {
-        "title": "Hidas tila",
-        "info": "CS2 Workshop -työkaluja ei löytynyt"
+        "title": "Ohita CS2-pelaajan näppäinsidonnat",
+        "info": "Tämä asetus asettaa CS2-näppäinsidonnat 1-0 vastaamaan HUDissa näkyviä tarkkailijan pelaajapaikkoja, mikä on hyödyllistä, kun palvelimella on valmentajia.\nNäppäinsidonnat tallentuvat, kun poistat tämän asetuksen käytöstä CS2:n ollessa käynnissä."
       },
       "header": "Asetukset",
       "subheaders": {
@@ -879,7 +879,7 @@
           "dota2ARG": "Pelaa Dota 2 ARG",
           "reverseSide": "Käänteiset puolet",
           "refreshHud": "Päivitä HUD",
-          "toggleDirector": "Counter-Strike 2 Workshop Tools -lisäsisältöä ei havaittu. Sitä on käytettävä LHM:n kanssa käynnistettäessä CS2:ta Killfeedin tai Scout-tekoälyn ollessa käytössä. On suositeltavaa ladata se Steamin kautta ja yrittää uudelleen.",
+          "toggleDirector": "Vaihda Scout Vision",
           "toggleScoutPredict": "Vaihda Scout Predict",
           "toggleScoutCinematic": "Vaihda Scout Cinematic"
         },
@@ -899,10 +899,10 @@
           "add": "Lisää GSI-tiedosto"
         },
         "config": {
-          "status": "Configs",
+          "status": "Määritykset",
           "add": "Lisää konfigurointitiedostoja",
-          "overrideIp": "Käynnistä joka tapauksessa",
-          "slowMode": "Luo kategoria"
+          "overrideIp": "IP-osoitteen ohitus",
+          "slowMode": "Hidas tila"
         },
         "credits": {
           "credits": "Credits",
@@ -938,9 +938,9 @@
     "huds": {
       "header": "HUDit",
       "workshopToolsModal": {
-        "title": "Nimeä kategoria uudelleen",
-        "info": "Poista kategoria {{name}}",
-        "launchAnyway": "Kategorian nimi"
+        "title": "CS2 Workshop Toolsia ei löydy",
+        "info": "Counter-Strike 2 Workshop Tools -DLC:tä ei havaittu. Sitä tarvitaan LHM:n kanssa, kun CS2 käynnistetään Killfeed tai Scout AI käytössä. Suosittelemme lataamaan sen Steamista ja yrittämään uudelleen.",
+        "launchAnyway": "Käynnistä silti"
       },
       "config": {
         "customRadar": "Tutka",
@@ -958,7 +958,7 @@
         "openDirectory": "Avaa HUDs-hakemisto",
         "playTestLoop": "Toista testisilmukka",
         "ar": "AR",
-        "goToKeybinds": "Configure Keybinds",
+        "goToKeybinds": "Määritä näppäinsidonnat",
         "showOnlyActivePlayers": "Näytä vain aktiiviset pelaajat",
         "more": "Lisää",
         "hlaeIsRequired": "Sinulla täytyy olla CS:GO käynnissä HLAE:n kanssa",
@@ -971,12 +971,12 @@
         "oldest": "Vanhin"
       },
       "categories": {
-        "createTitle": "Ryhmittämätön",
-        "renameTitle": "Ryhmittämätön",
-        "deleteTitle": "Haluatko varmasti poistaa kategorian {{name}}? Tämä toiminto ei poista HUDeja.",
-        "name": "Avataan HUDia päällekkäin...",
-        "ungrouped": "Jaa",
-        "deleteInfo": "Jaa HUD"
+        "createTitle": "Luo kategoria",
+        "renameTitle": "Nimeä kategoria uudelleen",
+        "deleteTitle": "Poista kategoria {{name}}",
+        "name": "Kategorian nimi",
+        "ungrouped": "Ryhmittelemätön",
+        "deleteInfo": "Haluatko varmasti poistaa kategorian {{name}}? Tämä toiminto ei poista HUDeja."
       },
       "fields": {
         "missing": "Puuttuvat kentät",
@@ -988,8 +988,8 @@
           "team": "Joukkue",
           "image": "Kuva",
           "match": "Ottelu",
-          "player": "Player",
-          "color": "Color"
+            "player": "Pelaaja",
+            "color": "Väri"
         },
         "visible": "Näkyvä",
         "manageCustom": "Hallitse mukautettuja kenttiä",
@@ -1006,10 +1006,10 @@
       "actions": {
         "toggleUrl": "Vaihda HUD URL",
         "settings": "Siirry HUD-asetuksiin",
-        "shortcut": "Shortcut",
+        "shortcut": "Pikakuvake",
         "overlay": "Käynnistä HUD-peitto",
-        "upload": "HUD:n lataaminen",
-        "uploading": "Uploading...",
+        "upload": "Lataa HUD",
+        "uploading": "Ladataan...",
         "delete": "Poista",
         "deleteLocally": "Poista HUD paikallisesti",
         "deleteFromCloud": "Poista HUD pilvestä",
@@ -1017,66 +1017,66 @@
         "toggleHUD": "HUD:n vaihtaminen (vain sulautettu)",
         "toggleHUDKeybinds": "HUD-näppäinsidonnan vaihtaminen (selainlähteelle)",
         "clickToCopy": "Klikkaa kopioidaksesi",
-        "linkCopied": "Lähetä tämä HUD toiselle käyttäjälle sähköpostitse.",
-        "openingOverlay": "Vastaanottaja näkee LHM-käyttäjänimesi, kun hän vastaanottaa tämän jaon.",
+        "linkCopied": "Linkki kopioitu leikepöydälle",
+        "openingOverlay": "Avataan HUD päällekkäisnäkymään...",
         "createShortcut": "Luo pikakuvake työpöydälle"
       },
       "share": {
         "actions": {
-          "share": "Tämä HUD kuuluu työtilaan \"{{workspace}}\". Koska et ole työtilan omistaja, kutsu lähetetään pääasiallisen yritystilin puolesta."
+          "share": "Jaa"
         },
         "modal": {
-          "title": "Vastaanottajan sähköpostiosoite",
-          "description": "nimi@esimerkki.com",
-          "disclaimer": "Käyttöoikeuden kesto",
-          "workspaceOwnerDisclaimer": "7 päivää",
-          "emailLabel": "30 päivää",
-          "emailPlaceholder": "Mukautettu päivämäärä",
-          "expiryLabel": "Ei vanhene",
+          "title": "Jaa HUD",
+          "description": "Lähetä tämä HUD toiselle käyttäjälle sähköpostitse.",
+          "disclaimer": "Vastaanottaja näkee LHM-käyttäjänimesi, kun hän vastaanottaa tämän jaon.",
+          "workspaceOwnerDisclaimer": "Tämä HUD kuuluu työtilaan \"{{workspace}}\". Koska et ole työtilan omistaja, kutsu lähetetään pääasiallisen Enterprise-tilin puolesta.",
+          "emailLabel": "Vastaanottajan sähköposti",
+          "emailPlaceholder": "nimi@example.com",
+          "expiryLabel": "Käyttöoikeuden kesto",
           "expiry": {
-            "week": "Valitun vanhenemispäivämäärän jälkeen HUD voi olla käytettävissä jopa tunnin. #__#\nLähetä kutsu",
-            "month": "Odottavat HUD-jakokutsut",
-            "custom": "Sait jaetun HUD-kutsun:",
-            "never": "Tuntematon lähettäjä"
+            "week": "7 päivää",
+            "month": "30 päivää",
+            "custom": "Mukautettu päivä",
+            "never": "Ei vanhentumista"
           },
-          "customExpiryWarning": "Nimetön HUD",
-          "submit": "Tuntematon peli"
+          "customExpiryWarning": "Valitun vanhenemispäivän jälkeen HUD voi olla käytettävissä vielä enintään tunnin.",
+          "submit": "Lähetä kutsu"
         },
         "pending": {
-          "title": "Peli: {{game}}",
-          "description": "Koko: {{size}}",
-          "unknownSender": "Jakanut {{sender}}",
-          "unnamedHud": "Hyväksy työtilaan",
-          "unknownGame": "Hyväksy työtiloihin",
-          "game": "Oma tili",
-          "size": "Työtila ei ole käytettävissä",
-          "sharedBy": "Odota, kun kopioimme jaetun HUDin valitsemaasi/valitsemiisi työtiloihin.",
-          "acceptToWorkspace": "Voimassaolo päättyy: {{expiresAt}}",
-          "acceptToWorkspaces": "Tämä HUD on suurempi kuin nykyinen sopimuksesi tallennustilaraja. Päivitä sopimuksesi hyväksyäksesi sen.",
-          "mainWorkspace": "Tässä työtilassa ei ole tarpeeksi tallennustilaa tälle HUDille. Poista joitakin työtilan tietoja hyväksyäksesi HUDin. #__#\nTämä työtila jakaa tallennustilaa muiden valitsemiesi yritystyötilojen kanssa. Poista joitakin tietoja tai poista toisen työtilan valinta HUD:n hyväksymistä varten.",
-          "workspaceUnavailableTitle": "Sinulla ei ole tällä hetkellä tarpeeksi vapaata pilvitilaa tämän HUD:n hyväksymiseen. Vapauta tilaa HUD:n hyväksymistä varten.",
-          "acceptingInfo": "Ei koskaan",
-          "expiresAt": "Kutsu {{current}} / {{total}}",
-          "upgradeRequired": "Jakanut {{sender}}",
-          "enterpriseStorageRequired": "Tuntematon lähettäjä",
-          "enterpriseSelectionLimit": "Vanhenee {{expiresAt}}",
-          "notEnoughFreeSpace": "HUD-jakamiskutsu lähetetty onnistuneesti.",
-          "never": "Jakamiskutsua ei voitu lähettää. Yritä uudelleen.",
-          "progress": "Hallinnoi jakoja"
+          "title": "Odottavat HUD-jakokutsut",
+          "description": "Sait jaetun HUD-kutsun:",
+          "unknownSender": "Tuntematon lähettäjä",
+          "unnamedHud": "Nimetön HUD",
+          "unknownGame": "Tuntematon peli",
+          "game": "Peli: {{game}}",
+          "size": "Koko: {{size}}",
+          "sharedBy": "Jakanut {{sender}}",
+          "acceptToWorkspace": "Hyväksy työtilaan",
+          "acceptToWorkspaces": "Hyväksy työtiloihin",
+          "mainWorkspace": "Oma tili",
+          "workspaceUnavailableTitle": "Työtila ei ole käytettävissä",
+          "acceptingInfo": "Odota, kun kopioimme jaetun HUDin valittuihin työtiloihin.",
+          "expiresAt": "Vanhenee: {{expiresAt}}",
+          "upgradeRequired": "Tämä HUD on suurempi kuin nykyisen suunnitelmasi tallennusraja. Päivitä suunnitelmasi hyväksyäksesi sen.",
+          "enterpriseStorageRequired": "Tässä työtilassa ei ole tarpeeksi tallennustilaa tälle HUDille. Poista työtilan tietoja, jotta voit hyväksyä HUDin.",
+          "enterpriseSelectionLimit": "Tämä työtila jakaa tallennustilan muiden valittujen Enterprise-työtilojen kanssa. Poista tietoja tai poista toisen työtilan valinta hyväksyäksesi HUDin.",
+          "notEnoughFreeSpace": "Sinulla ei ole juuri nyt tarpeeksi vapaata pilvitilaa tämän HUDin hyväksymiseen. Vapauta tilaa ja yritä uudelleen.",
+          "never": "Ei koskaan",
+          "progress": "Kutsu {{current}} / {{total}}"
         },
         "meta": {
-          "sharedBy": "Aktiivisten jakojen enimmäismäärä saavutettu.",
-          "unknownSender": "Et voi jakaa HUDia itsesi kanssa.",
-          "expiresAt": "Tämä HUD on jo jaettu kyseisen käyttäjän kanssa."
+          "sharedBy": "Jakanut {{sender}}",
+          "unknownSender": "Tuntematon lähettäjä",
+          "expiresAt": "Vanhenee {{expiresAt}}"
         },
         "notifications": {
-          "created": "Kameran suoratoiston laatu",
-          "error": "Korkealaatuisemmat kamerastriimit voivat aiheuttaa nykimistä joillakin tietokoneilla ja internet-yhteyksillä.",
-          "manageShares": "Jaettujen määritysten pilvisynkronointi",
+          "created": "HUD-jakokutsu lähetettiin onnistuneesti.",
+          "error": "Jakamiskutsua ei voitu lähettää. Yritä uudelleen.",
+          "manageShares": "Hallitse jakoja",
           "errors": {
-            "SHARE_LIMIT_REACHED": "Kun tämä on käytössä, jaettujen määritysten osiot (esimerkiksi röntgenasetukset) synkronoidaan LHM Cloudin kanssa, jotta ne pysyvät yhdenmukaisina eri laitteissasi/työtiloissasi.\n\nPoista tämä käytöstä, jos haluat pitää jaettujen määritysten muutokset vain paikallisina.",
-            "SHARE_SELF": "IP-osoitteen ohitus",
-            "SHARE_ALREADY_EXISTS": "Käytä tätä vain, jos LHM havaitsee väärän yksityisen verkko-osoitteen (esimerkiksi kun VPN on aktiivinen).\nAseta paikallinen IP-osoite, jota HUDin/selaimen lähteiden tulisi käyttää.\nKäynnistä LHM uudelleen tämän arvon muuttamisen jälkeen, jotta se tulee voimaan."
+            "SHARE_LIMIT_REACHED": "Aktiivisten jakojen enimmäismäärä on saavutettu.",
+            "SHARE_SELF": "Et voi jakaa HUDia itsesi kanssa.",
+            "SHARE_ALREADY_EXISTS": "Tämä HUD on jo jaettu kyseiselle käyttäjälle."
           }
         }
       },
@@ -1158,7 +1158,7 @@
         },
         "scout": {
           "title": "Scout AI",
-          "info": "Tämän vaihtoehdon ottaminen käyttöön käynnistää CS2:n VConsole2:lla, mikä saattaa estää sinua liittymästä palvelimiin, ellei sitä ole määritetty oikein."
+          "info": "Tämä asetus vaatii Workshop Toolsin ja käyttää HLAE:ta.\nKun asetus on päällä, LHM voi käyttää Scout Cinematicia ja Scout Visionin Direct-tilaa.\nAsetus käynnistää CS2:n insecure-tilassa - älä liity VAC-suojatuille palvelimille (esim. Faceit, matchmaking), ellei kyseessä ole CSTV-katselu."
         },
         "tab": {
           "title": "HUDit-välilehti",
@@ -1169,7 +1169,7 @@
           "info": "Tämän vaihtoehdon ottaminen käyttöön ja pelin käynnistäminen alla esitetyllä konfiguraatiolla tai käyttämällä \"Run game\" -painiketta poistaa pelin sisäisen tutkan käytöstä ja käyttää HUD:iin rakennettua mukautettua tutkaa."
         },
         "killfeed": {
-          "title": "Killfeed",
+          "title": "Mukautettu Killfeed",
           "info": "Tämän vaihtoehdon ottaminen käyttöön ja pelin suorittaminen alla esitetyllä konfiguraatiolla tai käyttämällä \"Suorita peli\" -painiketta poistaa pelin sisäisen tapposyötön käytöstä ja käyttää HUD:iin rakennettua mukautettua tapposyöttöä.\nTämä vaihtoehto käynnistää CS:GO:n turvattomassa tilassa - et voi liittyä VAC-suojatuille palvelimille (esim. Faceit, matchmaking), ellet ole CSTV-katsojana, kun tämä vaihtoehto on käytössä."
         },
         "embeddedHUD": {
@@ -1207,7 +1207,7 @@
       },
       "teams": {
         "tab": {
-          "title": "Teams",
+          "title": "Joukkueet",
           "info": "Joukkueet-välilehdellä hallitaan HUDissa ja muissa LHM-toiminnallisuuksissa näkyviä ja käytettäviä joukkueita."
         }
       },
@@ -1273,8 +1273,8 @@
           "info": "Telnet on protokolla CS2:n kanssa tapahtuvaan kommunikointiin. Kun sitä käytetään, sinun ei tarvitse pitää CS2-ikkunaa fokuksessa, koska LHM vaihtaa pelaajia etäkomentojen avulla."
         },
         "tab": {
-          "title": "Auto Cinematic Observer",
-          "info": "ACO-moduulin avulla voit käyttää ennalta määritettyjä kameran liikeratoja pelin toiminnan seuraamiseen.\nACO käyttää tekoälyä määrittämään tärkeimmät tapahtumat, joita pelissä tapahtuu tiettynä ajankohtana."
+          "title": "Scout AI",
+          "info": "On mahdotonta tallentaa jokaista tapahtumaa täydellisesti ja ihanteellisesta kulmasta - mutta Scout pääsee hyvin lähelle. Oma tekoälymme oppii tuhansista peleistä ja tunnistaa tärkeimmät hetket ilman ihmisen syötettä."
         },
         "area": {
           "title": "Alue",
@@ -1293,7 +1293,7 @@
           "info": "Kun kytkin on päällä, ACO käynnistyy automaattisesti. Voit myös käyttää näppäinsidontaa (oletus: ALT + K)."
         },
         "scoutDirectorSwitch": {
-          "title": "Enable Director (Ota johtaja käyttöön)",
+          "title": "Ota Director käyttöön",
           "info": "Kun kytkin on päällä, Scout AI käynnistyy automaattisesti. Voit myös käyttää näppäinsidonnaisuutta (oletus: ALT + K)."
         },
         "scoutCinematic": {
@@ -1327,8 +1327,8 @@
           "info": "Kameran viive on tällä hetkellä tuettu vain virallisissa, Lexogrine HUD:issa: Ultra & Premium HUDit"
         },
         "quality": {
-          "title": "Hidas tila",
-          "info": "Hidas tila lähettää API-pyyntöjä jonon kautta purskeisen liikenteen vähentämiseksi. Tämä voi auttaa rajoittavissa maanlaajuisissa palomuuriympäristöissä.\nKäynnistä LHM uudelleen tämän arvon muuttamisen jälkeen, jotta se tulee voimaan."
+          "title": "Kamerastreamin laatu",
+          "info": "Korkeampi kamerastreamin laatu voi aiheuttaa nykimistä joillakin tietokoneilla ja verkkoyhteyksillä."
         },
         "tab": {
           "title": "Kamerat",
@@ -1355,14 +1355,17 @@
       },
       "settings": {
         "sharedConfigSync": {
-          "title": "Poista turnauksia",
-          "info": "Haluatko varmasti poistaa {{count}} turnausta?"
+          "title": "Jaetun määrityksen pilvisynkronointi",
+          "info": "Kun tämä on käytössä, jaettujen määritysten osiot (esimerkiksi X-Ray-asetukset) synkronoidaan LHM Cloudin kanssa, jotta ne pysyvät yhdenmukaisina eri laitteissa ja työtiloissa.\n\nPoista käytöstä, jos haluat pitää jaettujen määritysten muutokset vain paikallisina."
         },
         "ipAddressOverride": {
-          "title": "Poista {{name}} turnaus",
-          "info": "Haluatko varmasti poistaa {{name}} turnauksen?"
+          "title": "IP-osoitteen ohitus",
+          "info": "Käytä tätä vain, jos LHM havaitsee väärän yksityisen verkon osoitteen (esimerkiksi VPN:n ollessa käytössä).\nAseta paikallinen IP-osoite, jota HUDin/selaimen lähteiden tulee käyttää.\nKäynnistä LHM uudelleen arvon muuttamisen jälkeen."
         },
-        "slowMode": {}
+        "slowMode": {
+          "title": "Hidas tila",
+          "info": "Hidas tila lähettää API-pyynnöt jonon kautta vähentääkseen piikkiliikennettä. Tämä voi auttaa rajoittavissa palomuuriympäristöissä.\nKäynnistä LHM uudelleen tämän arvon muuttamisen jälkeen."
+        }
       }
     },
     "modals": {
@@ -1374,12 +1377,17 @@
         "titleTeams": "Poista joukkueet",
         "titlePlayers": "Poista pelaajat",
         "titleMatches": "Poista ottelut",
+        "titleTournaments": "Poista turnaukset",
         "infoTeams": "Haluatko varmasti poistaa {{count}} joukkueet?",
         "infoPlayers": "Haluatko varmasti poistaa {{count}} pelaajat?",
+        "infoTournaments": "Haluatko varmasti poistaa {{count}} turnausta?",
         "infoMatches": "Haluatko varmasti poistaa {{count}} ottelut?",
-        "deleteWithPlayers": "Poista pelaajat",
+        "deleteWithPlayers": "Poista pelaajien kanssa",
         "deleteAll": "Poista kaikki ({{count}})",
-        "single": {}
+        "single": {
+          "titleTournament": "Poista turnaus {{name}}",
+          "infoTournament": "Haluatko varmasti poistaa turnauksen {{name}}?"
+        }
       },
       "steamApiKeyMissing": {
         "title": "Steam API-avain puuttuu",

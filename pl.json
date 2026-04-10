@@ -146,8 +146,8 @@
         "cgmode": "Tryb CG zawiera najważniejsze moduły do prowadzenia transmisji w kompaktowej formie.\nNa tej karcie można zarządzać meczami, drużynami, zawodnikami i grą na żywo na jednym ekranie.\nUaktualnij LHM do planu Personal, Professional lub Enterprise, aby uzyskać pełny dostęp do tej sekcji.",
         "arg": "Automatyzacja to kolejna granica - a my w Lexogrine jesteśmy zdeterminowani, by ją przekroczyć! Auto Replay Generator w pełni automatyzuje system powtórek. ARG - w oparciu o zdefiniowane kryteria - śledzi każde wydarzenie w grze, aby automatycznie uchwycić najważniejsze momenty i wyświetlać zapierające dech w piersiach powtórki między rundami. Wszystko, czego potrzebujesz, to vMix lub OBS.\nUaktualnij swój LHM do planu Personal, Professional lub Enterprise, aby uzyskać pełny dostęp do tej sekcji.",
         "addons": "Dodatki to nowy sposób tworzenia integracji z LHM.\nDo tej pory tylko niestandardowy kod HUD miał dostęp do danych z gry, co oznaczało, że cokolwiek chciałeś zrobić, musiało to być zrobione w środowisku przeglądarki.\nDodatki działają w środowiskach serwerowych - są to w zasadzie aplikacje NodeJS z emiterem zdarzeń GSI. Oznacza to, że nie musisz tworzyć niestandardowego serwera HTTP z parserem tylko po to, aby otrzymywać informacje z obsługiwanych gier (CS2, Dota 2), masz to wszystko po wyjęciu z pudełka, więc możesz skupić się na integracjach i funkcjach, które chcesz stworzyć.\nUaktualnij LHM do planu Personal, Professional lub Enterprise, aby uzyskać pełny dostęp do tej sekcji.",
-        "composer": "Kompozytor pozwala tworzyć i dostosowywać układ HUD za pomocą funkcji „przeciągnij i upuść” oraz gotowych ustawień wizualnych.\nUaktualnij swój LHM do planu Professional lub Enterprise z co najmniej 3 miejscami, aby uzyskać pełny dostęp do tej sekcji.",
-        "aco": "Nie da się uchwycić każdej akcji w idealny sposób i z idealnej perspektywy - ale Scout jest naprawdę blisko tego. Nasza własna sztuczna inteligencja uczy się na podstawie tysięcy gier, aby samodzielnie uchwycić najbardziej pikantne wydarzenia, bez udziału człowieka.\nUlepsz swój LHM do planu osobistego, aby uzyskać dostęp do wszystkich modułów SI Skauta - Scout Vision, Scout Predict i Scout Cinematic.",
+        "composer": "Composer pozwala tworzyć i dostosowywać układ HUD za pomocą funkcji „przeciągnij i upuść” oraz gotowych ustawień wizualnych.\nUaktualnij swój LHM do planu Professional lub Enterprise z co najmniej 3 miejscami, aby uzyskać pełny dostęp do tej sekcji.",
+        "aco": "Nie da się uchwycić każdej akcji w idealny sposób i z idealnej perspektywy - ale Scout jest naprawdę blisko tego. Nasza własna sztuczna inteligencja uczy się na podstawie tysięcy gier, aby samodzielnie uchwycić najbardziej pikantne wydarzenia, bez udziału człowieka.\nUlepsz swój LHM do planu osobistego, aby uzyskać dostęp do wszystkich modułów Scout AI - Scout Vision, Scout Predict i Scout Cinematic.",
         "cameras": "Nasz system kamer jest bardzo łatwy w użyciu i pozwala zaoszczędzić mnóstwo czasu na konfigurację - zarówno organizatorom, jak i graczom. Bez nadmiernie skomplikowanej i czasochłonnej konfiguracji oprogramowania produkcyjnego, bez problemów sprzętowych.\nPodłącz kamerę i przypisz ją do zawodnika w LHM. Uruchom HUD i uśmiechnij się do publiczności.\nUaktualnij LHM do planu Personal, Professional lub Enterprise, aby uzyskać pełny dostęp do tej sekcji.",
         "signals": "LHM Signals to nasza niestandardowa integracja z aplikacją Bitfocus Companion.\nNaszym celem jest pomoc w automatyzacji przewidywalnych zdarzeń w grze. Sygnały dbają o to i pozwalają wyzwalać przyciski Companion na określone zdarzenia w grze.\nUaktualnij swój LHM do planu Personal, Professional lub Enterprise, aby uzyskać pełny dostęp do tej sekcji.",
         "xray": "LHM X-RAY pozwala dostosować kolory CS2 X-RAY — kontury graczy, nazwy i ślady granatów, ustawiając je inaczej dla każdej drużyny.\nUaktualnij swój LHM do planu Personal, Professional lub Enterprise, aby uzyskać pełny dostęp do tej sekcji."
@@ -156,7 +156,7 @@
     "titles": {
       "players": "Gracze",
       "teams": "Drużyny",
-      "arg": "Powtórki",
+      "arg": "Replays",
       "aco": "Scout AI",
       "ar": "Rozszerzona rzeczywistość",
       "cgpanel": "Tryb CG",
@@ -216,7 +216,7 @@
       "areaPriorityPlaceholder": "Priorytet obszaru",
       "addConfigHeader": "Dodaj nową konfigurację do tego obszaru",
       "addConfigPlaceholder": "Wprowadź polecenie, które ma zostać wykonane w tym obszarze",
-      "timeRemaining": "Pozostały czas AI zwiadowcy",
+      "timeRemaining": "Dostępny czas",
       "scoutServerUnavailable": "LHM nie może połączyć się z serwerami Scout AI.\nSpróbuj ponownie za kilka minut.",
       "scoutSubtitle": "Obserwator SI",
       "scoutGetMoreTime": "Zyskaj więcej czasu",
@@ -241,7 +241,7 @@
       "scoutCinematicAction": {
         "label": "Film akcji"
       },
-      "scoutPausedTip": "SI Skauta jest wstrzymana, ponieważ nie wykryto uruchomionej gry.",
+      "scoutPausedTip": "Scout AI jest wstrzymany, ponieważ nie wykryto uruchomionej gry.",
       "xrayWarning": "Aby X-Ray działał poprawnie, CS2 musi zostać uruchomiony z włączoną opcją Scout/X-Ray."
     },
     "composer": {
@@ -257,7 +257,7 @@
       "uhudPlayersStatsFontSize": "Rozmiar czcionki statystyk",
       "uhudPlayersHealthFontSize": "Rozmiar czcionki zdrowia",
       "visible": "Widoczny",
-      "previewTitle": "Podgląd Composera {{component}}",
+      "previewTitle": "Podgląd Composer {{component}}",
       "components": {
         "matchbar": "Matchbar",
         "left-player": "Lewy gracz",
@@ -273,7 +273,7 @@
         "winbox": "Wskaźnik wygranej rundy",
         "sponsors": "Sponsorzy",
         "tournament-info": "Informacje turniejowe",
-        "scout": "Przewidywanie Scout",
+        "scout": "Scout Predict",
         "radar": "Radar",
         "anims-plant": "Animacja podkładania",
         "anims-defuse-short": "Animacja rozbrojenia (krótka)",
@@ -507,7 +507,7 @@
       "validUntil": "Obowiązuje do",
       "nextPayment": "Następna płatność",
       "logout": "Wyloguj",
-      "arg": "Powtórki"
+      "arg": "Replays"
     },
     "signals": {
       "removal": {
@@ -879,9 +879,9 @@
           "dota2ARG": "Zagraj w Dota 2 ARG",
           "reverseSide": "Odwróć strony",
           "refreshHud": "Odśwież HUD",
-          "toggleDirector": "Przełącz pole widzenia zwiadowcy",
-          "toggleScoutPredict": "Przełącz Przewidywania Skauta",
-          "toggleScoutCinematic": "Przełącz filmik Skauta"
+          "toggleDirector": "Przełącz Scout Vision",
+          "toggleScoutPredict": "Przełącz Scout Predict",
+          "toggleScoutCinematic": "Przełącz Scout Cinematic"
         },
         "streamDeck": {
           "unavailable": "Niedostępny"
@@ -1243,7 +1243,7 @@
       },
       "arg": {
         "tab": {
-          "title": "Generator automatycznych powtórek",
+          "title": "Replays",
           "info": "Moduł Auto Replay Generator (ARG) generuje powtórki, które mogą być wyświetlane pomiędzy rundami lub na koniec meczu.\nNależy pamiętać, że do prawidłowej konfiguracji ARG wymagany jest vMix. vMix nie jest darmową aplikacją, a sam ARG został zaprojektowany przede wszystkim dla zespołów produkcyjnych korzystających już z vMix."
         },
         "safeband": {
@@ -1274,7 +1274,7 @@
         },
         "tab": {
           "title": "Scout AI",
-          "info": "Moduł ACO umożliwia korzystanie z predefiniowanych ścieżek ruchu kamery w celu śledzenia akcji w grze.\nACO wykorzystuje sztuczną inteligencję do określania najważniejszych wydarzeń w grze w danym momencie."
+          "info": "Nie da się uchwycić każdej akcji w idealny sposób i z idealnej perspektywy - ale Scout jest naprawdę blisko tego. Nasza własna sztuczna inteligencja uczy się na podstawie tysięcy gier, aby samodzielnie uchwycić najbardziej pikantne wydarzenia, bez udziału człowieka."
         },
         "area": {
           "title": "Obszar",
@@ -1297,7 +1297,7 @@
           "info": "Gdy przełącznik jest włączony, Scout AI uruchamia się automatycznie. Można również użyć skrótu klawiszowego (domyślnie: ALT + K)."
         },
         "scoutCinematic": {
-          "title": "Tryb kinowy SI zwiadowcy",
+          "title": "Tryb kinowy Scout AI",
           "info": "W tym trybie Scout AI będzie współpracować z ACO AI, aby zapewnić jak najpełniejsze wrażenia z obserwacji. Bez tego, Scout AI zapewni tylko kamerę POV, bez żadnych ujęć przeglądowych.\nTen tryb ma zastosowanie tylko wtedy, gdy ACO AI obsługuje mapę, na której rozgrywany jest mecz."
         },
         "scoutPredict": {

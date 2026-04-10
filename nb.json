@@ -35,7 +35,7 @@
       "teams": "Lag",
       "team1": "Lag 1",
       "team2": "Lag 2",
-      "teamNumber": "LAG #{{{num}}",
+      "teamNumber": "LAG #{{num}}",
       "vetoNumber": "Veto {{num}}",
       "delete": "Slett",
       "delete-all": "Slett alle",
@@ -52,12 +52,12 @@
       "csgo": {
         "ct": "CT",
         "t": "T",
-        "no": "No"
+        "no": "Nei"
       },
       "cs2": {
         "ct": "CT",
         "t": "T",
-        "no": "No"
+        "no": "Nei"
       },
       "valorant": {
         "ct": "DEF",
@@ -124,19 +124,19 @@
       "bottom-right": "Nederst til høyre",
       "image": "Bilde",
       "any-player": "Hvilken som helst spiller",
-      "any-side": "Hvilket som helst lag",
-      "any-team": "Posisjon",
-      "position": "Varighet (s)",
-      "duration": "Utløser",
-      "trigger": "Spiller",
-      "player": "Lag",
-      "team": "Side",
-      "side": "Legg til ny annonse",
-      "add-new-ad": "Velg posisjon",
-      "select-position": "Velg utløser",
-      "select-trigger": "Velg spiller",
-      "select-player": "Velg side",
-      "select-side": "Kopier fra gjeldende forhåndsinnstilling"
+      "any-side": "Hvilken som helst side",
+      "any-team": "Hvilket som helst lag",
+      "position": "Posisjon",
+      "duration": "Varighet (s)",
+      "trigger": "Utløser",
+      "player": "Spiller",
+      "team": "Lag",
+      "side": "Side",
+      "add-new-ad": "Legg til ny annonse",
+      "select-position": "Velg posisjon",
+      "select-trigger": "Velg utløser",
+      "select-player": "Velg spiller",
+      "select-side": "Velg side"
     },
     "blocker": {
       "personal": "Oppgrader LHM til en Personal-, Professional- eller Enterprise-abonnement for å få full tilgang til denne delen.",
@@ -157,7 +157,7 @@
       "players": "Spillere",
       "teams": "Lag",
       "arg": "Replays",
-      "aco": "Autofilmatisk Observer",
+      "aco": "Scout AI",
       "ar": "Utvidet virkelighet",
       "cgpanel": "CG-modus",
       "huds": "HUD-er",
@@ -169,7 +169,7 @@
       "addons": "Tillegg",
       "settings": "Innstillinger",
       "credits": "Medvirkende",
-      "quick": "Hurtig",
+      "quick": "Quick",
       "chat": "Support Chat",
       "composer": "Composer",
       "xray": "X-Ray"
@@ -199,13 +199,13 @@
       "enableDirector": "Aktiver regissør",
       "scoutPredict": "Aktivere Predict",
       "telnet": "Aktiver Telnet",
-      "telnetWarning": "For å bruke Telnet må CS2 startes med Workshop Tools. Du kan gjøre det ved å aktivere alternativet \"Killfeed / Tools\" i HUD-fanen og klikke på knappen \"Run Game\".",
-      "cinematicWarning": "Hvis du vil bruke Scout Cinematic, må CS2 startes med Workshop Tools. Du kan gjøre det ved å aktivere alternativet \"Killfeed / Tools\" i HUDs-fanen og klikke på \"Run Game\" -knappen. Aktivering av Scout Cinematic vil også tvinge Scout Vision til å kjøre i direkte modus.",
+      "telnetWarning": "For å bruke Telnet må CS2 startes med Workshop Tools. Du kan gjøre dette ved å aktivere alternativet \"Scout AI\" i HUDs-fanen og klikke på knappen \"Run Game\".",
+      "cinematicWarning": "For å bruke Scout Cinematic må CS2 startes med Workshop Tools. Du kan gjøre dette ved å aktivere alternativet \"Scout AI\" i HUDs-fanen og klikke på knappen \"Run Game\". Aktivering av Scout Cinematic vil også tvinge Scout Vision til å kjøre i Direct-modus.",
       "disabledDescription": "Du og observatørene dine får all kontroll.\nHa det gøy.",
       "aco1Description": "En balanse mellom kontroll og automatisering.\nHjelp observatørene dine med et sett med manuelt skrevne instruksjoner for ACO.",
       "aco-aiDescription": "Len deg tilbake mens de avanserte algoritmene i ACO AI styrer sendingen din.",
-      "aco-ai-scoutDescription": "La vårt nyeste system for kampforutsigelse ta styringen.\nKommer snart.",
-      "aco-ai-scoutDescription-disconnected": "La vårt nyeste AI-kampobservatørsystem ta styringen.\\nScout-servere kan være utilgjengelige for øyeblikket.",
+      "aco-ai-scoutDescription": "La AI-kampobservatøren observere kampen uten brukerinput.",
+      "aco-ai-scoutDescription-disconnected": "La AI-kampobservatøren observere kampen uten brukerinput.\\nScout-serverne kan være utilgjengelige akkurat nå.",
       "scoutCinematicDescription": "Vis vakre filmatiske bilder i kamppausene.",
       "scoutPredictDescription": "Vis prognoser for kampresultater direkte i strømmen.",
       "scoutCinematic": "Bruk Cinematic Scout",
@@ -216,7 +216,7 @@
       "areaPriorityPlaceholder": "Prioritet for området",
       "addConfigHeader": "Legg til en ny konfigurasjon i dette området",
       "addConfigPlaceholder": "Angi en kommando som skal utføres i dette området",
-      "timeRemaining": "Gjenværende AI-tid for speider",
+      "timeRemaining": "Tilgjengelig tid",
       "scoutServerUnavailable": "LHM kan ikke koble til Scout AI-serverne.\nPrøv igjen om noen minutter.",
       "scoutSubtitle": "AI-observatør",
       "scoutGetMoreTime": "Få mer tid",
@@ -257,23 +257,23 @@
       "uhudPlayersStatsFontSize": "Skriftstørrelse for statistikk",
       "uhudPlayersHealthFontSize": "Skriftstørrelse for helse",
       "visible": "Synlig",
-      "previewTitle": "Forhåndsvisning av komponist {{component}}",
+      "previewTitle": "Composer-forhåndsvisning {{component}}",
       "components": {
-        "matchbar": "Kamplinje",
+        "matchbar": "Matchbar",
         "left-player": "Venstre spillere",
         "right-player": "Høyre spillere",
         "left-money": "Venstre penger",
         "right-money": "Høyre penger",
         "players": "Spillere",
         "observed-player": "Observert spiller",
-        "killfeed": "Drapsfeed",
+        "killfeed": "Killfeed",
         "round-history": "Rundehistorikk",
         "mapseries": "Kartserie",
         "asset": "Tilpasset ressurs",
         "winbox": "Rundeseierindikator",
         "sponsors": "Sponsorer",
         "tournament-info": "Turneringsinfo",
-        "scout": "Speiderforutsigelse",
+        "scout": "Scout Predict",
         "radar": "Radar",
         "anims-plant": "Animasjonsanlegg",
         "anims-defuse-short": "Animasjon Defuse kort",
@@ -355,13 +355,13 @@
       "labels": {
         "border": "KANTE",
         "background": "BAKGRUNN",
-        "counterTerrorists": "TERRORISTER",
+        "counterTerrorists": "COUNTER-TERRORISTS",
         "terrorists": "TERRORISTER"
       },
       "files": {
         "noFileSelected": "Ingen fil valgt",
         "sponsorImage": "Sponsorbilde",
-        "assetFile": "Ingrediensfil",
+        "assetFile": "Ressursfil",
         "noImagesSelected": "Ingen bilder valgt",
         "oneImageSelected": "1 bilde valgt",
         "imagesSelected": "{{count}} bilder valgt",
@@ -493,10 +493,10 @@
       "huds": "HUDs",
       "aco": "Scout AI",
       "addons": "Tillegg",
-      "composer": "Komponist",
+      "composer": "Composer",
       "ar": "AR",
       "live": "Direkte",
-      "quick": "Hurtig",
+      "quick": "Quick",
       "professionalOnly": "Kun for Professional-abonnement",
       "nonFreeOnly": "Kun for betalte abonnement",
       "cameras": "Kameraer",
@@ -521,8 +521,8 @@
       "create": {
         "title": "Opprett en ny forhåndsinnstilling",
         "placeholder": "Forhåndsinnstilt navn",
-        "clone": "Opprett tom",
-        "createNew": "Veksle speidervisjon",
+        "clone": "Kopier fra gjeldende forhåndsinnstilling",
+        "createNew": "Opprett tom",
         "createFromDefault": "Opprett standard",
         "createBlank": "Opprett tom"
       },
@@ -542,9 +542,9 @@
         "orientationAny": "Orientering: Hvilken som helst",
         "orientationLeft": "Orientering: Venstre",
         "orientationRight": "Orientering: Høyre",
-        "sideAny": "Side Hvilken som helst",
-        "side": "Side",
-        "teamAny": "Lag Hvilket som helst",
+        "sideAny": "Side: Hvilken som helst",
+        "side": "Side: ",
+        "teamAny": "Lag: Hvilket som helst",
         "playerAny": "Spiller: Hvilken som helst"
       }
     },
@@ -786,7 +786,7 @@
       "openValorantScoreboardAutomatically": "Åpne Valorant Scoreboard automatisk",
       "autoHUDUpload": "Automatisk opplasting av HUD-er til skyen",
       "language": "Språk",
-      "dota2Assets": "*",
+      "dota2Assets": "Dota 2-ressurser",
       "autoHalfSwitch": "Automatisk halvbryter (eksperimentell)",
       "autoSwitch": "Auto-bryter",
       "overrideCS2PlayerKeybinds": "Overstyr CS2-spillernøkkelbindinger",
@@ -814,7 +814,7 @@
         "label": "Oppførsel i halvtimen",
         "none": "Ingen",
         "switch": "Bytt lag (venstre <-> høyre)",
-        "keep": "Force keep teams' sides"
+        "keep": "Tving behold lagenes sider"
       },
       "rocketleague": {
         "integration": "RL-integrering",
@@ -879,7 +879,7 @@
           "dota2ARG": "Spill Dota 2 ARG",
           "reverseSide": "Omvendte sider",
           "refreshHud": "Oppdater HUD",
-          "toggleDirector": "Lenke kopiert til utklippstavlen",
+          "toggleDirector": "Veksle Scout Vision",
           "toggleScoutPredict": "Vis/skjul speiderforutsigelse",
           "toggleScoutCinematic": "Veksle Scout Cinematic"
         },
@@ -944,7 +944,7 @@
       },
       "config": {
         "customRadar": "Radar",
-        "customKillfeed": "Killfeed",
+        "customKillfeed": "Custom Killfeed",
         "embeddedHUD": "Innebygd HUD",
         "killfeedOffset": "Killfeed Offset",
         "scout": "Scout AI/XRAY",
@@ -1017,7 +1017,7 @@
         "toggleHUD": "Veksle HUD (kun innebygd)",
         "toggleHUDKeybinds": "Veksle mellom HUD-tastebindinger (for nettleserkilde)",
         "clickToCopy": "Klikk for å kopiere",
-        "linkCopied": "Åpner HUD i overlegg...",
+        "linkCopied": "Lenke kopiert til utklippstavlen",
         "openingOverlay": "Åpner HUD i overlegg...",
         "createShortcut": "Opprett snarvei på skrivebordet"
       },
@@ -1157,7 +1157,7 @@
           }
         },
         "scout": {
-          "title": "Speider AI",
+          "title": "Scout AI",
           "info": "Hvis du aktiverer dette alternativet, starter CS2 med VConsole2, noe som kan hindre deg i å bli med på servere med mindre det er riktig konfigurert."
         },
         "tab": {
@@ -1169,7 +1169,7 @@
           "info": "Hvis du aktiverer dette alternativet og kjører spillet med konfigurasjonen nedenfor eller bruker knappen \"Kjør spill\", deaktiveres radaren i spillet for å bruke den egendefinerte radaren som er innebygd i HUD-ene."
         },
         "killfeed": {
-          "title": "Killfeed",
+          "title": "Custom Killfeed",
           "info": "Hvis du aktiverer dette alternativet og kjører spillet med konfigurasjonen nedenfor eller ved å bruke knappen \"Kjør spill\", deaktiveres killfeed i spillet for å bruke den tilpassede killfeeden som er innebygd i HUD-ene dine.\nDette alternativet starter CS:GO i usikker modus - du vil ikke kunne bli med på VAC-beskyttede servere (f.eks. Faceit, matchmaking) med mindre du er CSTV-tilskuer mens det er aktivert."
         },
         "embeddedHUD": {
@@ -1273,7 +1273,7 @@
           "info": "Telnet er en protokoll for kommunikasjon med CS2. Når den brukes, trenger du ikke å ha CS2-vinduet i fokus, ettersom LHM bytter spiller med fjernkommandoer."
         },
         "tab": {
-          "title": "Autofilmatisk Observatør",
+          "title": "Scout AI",
           "info": "Med ACO-modulen kan du bruke forhåndsdefinerte kamerabevegelser til å følge handlingen i spillet.\nACO bruker kunstig intelligens til å finne de viktigste hendelsene som skjer i spillet til enhver tid."
         },
         "area": {
@@ -1343,8 +1343,8 @@
       },
       "quick": {
         "tab": {
-          "title": "Rask",
-          "info": "Med LHM Rask kan du raskt forberede hele spiller-, lag- og HUD-oppsettet fra ett sted, slik at du kan komme i gang med strømmingen med en gang."
+          "title": "Quick",
+          "info": "Med LHM Quick kan du raskt forberede hele spiller-, lag- og HUD-oppsettet fra ett sted, slik at du kan komme i gang med strømmingen med en gang."
         }
       },
       "signals": {
