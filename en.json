@@ -948,7 +948,7 @@
         "customKillfeed": "Custom Killfeed",
         "embeddedHUD": "Embedded HUD",
         "killfeedOffset": "Killfeed Offset",
-        "scout": "Scout AI",
+        "scout": "Scout AI/XRAY",
         "autoexecute": "Auto-execute",
         "console": "Console",
         "add": "Add HUD",
