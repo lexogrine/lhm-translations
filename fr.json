@@ -457,7 +457,8 @@
       "replaceUsernames": "Remplacer les noms d'utilisateur",
       "header": "Live",
       "noGame": "Aucun jeu n'est actuellement en direct.",
-      "tip": "Joueurs actuellement en match, cliquez pour ajouter un joueur à la liste des joueurs."
+      "tipNoOrder": "Joueurs actuellement en match, cliquez pour ajouter un joueur à la liste des joueurs.",
+      "tip": "Joueurs actuellement en match, cliquez pour ajouter un joueur à la liste des joueurs, puis glissez-déposez pour modifier l'ordre des joueurs dans leurs équipes."
     },
     "cameras": {
       "generatePassword": "Générer un mot de passe",
@@ -814,7 +815,7 @@
         "label": "Comportement à la mi-temps",
         "none": "Aucun",
         "switch": "Changement d'équipe (gauche <-> droite)",
-          "keep": "Forcer le maintien des cotes des equipes"
+        "keep": "Forcer le maintien des cotes des equipes"
       },
       "rocketleague": {
         "integration": "Intégration RL",
@@ -901,8 +902,8 @@
         "config": {
           "status": "Configs",
           "add": "Ajouter des fichiers de configuration",
-            "overrideIp": "Remplacement d'adresse IP",
-            "slowMode": "Mode lent"
+          "overrideIp": "Remplacement d'adresse IP",
+          "slowMode": "Mode lent"
         },
         "credits": {
           "credits": "Crédits",

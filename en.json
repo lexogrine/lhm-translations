@@ -457,7 +457,8 @@
       "replaceUsernames": "Replace usernames",
       "header": "Live",
       "noGame": "No game is currently live.",
-      "tip": "Players currently in match, click to add a player to the player list."
+      "tipNoOrder": "Players currently in match, click to add a player to the player list.",
+      "tip": "Players currently in match, click to add a player to the player list, drag and drop to change the players' order in their teams."
     },
     "cameras": {
       "generatePassword": "Generate password",

@@ -457,7 +457,8 @@
       "replaceUsernames": "Zastąp nazwy użytkowników",
       "header": "Na żywo",
       "noGame": "Żadna gra nie jest obecnie na żywo.",
-      "tip": "Zawodnicy aktualnie w meczu, kliknij aby dodać zawodnika do listy zawodników."
+      "tipNoOrder": "Zawodnicy aktualnie w meczu, kliknij aby dodać zawodnika do listy zawodników.",
+      "tip": "Zawodnicy aktualnie w meczu, kliknij aby dodać zawodnika do listy zawodników, przeciągnij i upuść aby zmienić kolejność zawodników w ich drużynach."
     },
     "cameras": {
       "generatePassword": "Wygeneruj hasło",

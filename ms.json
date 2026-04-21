@@ -457,7 +457,8 @@
       "replaceUsernames": "Tiada permainan sedang disiarkan pada masa ini.",
       "header": "Pemain sedang dalam perlawanan, klik untuk menambah pemain ke senarai pemain.",
       "noGame": "Jana kata laluan",
-      "tip": "Hantar ini kepada pemain anda"
+      "tipNoOrder": "Hantar ini kepada pemain anda",
+      "tip": "Hantar ini kepada pemain anda, dan seret dan lepas untuk menukar susunan pemain dalam pasukan mereka."
     },
     "cameras": {
       "generatePassword": "Isi dari tab Langsung",

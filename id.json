@@ -457,7 +457,8 @@
       "replaceUsernames": "Mengganti nama pengguna",
       "header": "Live",
       "noGame": "Tidak ada permainan yang sedang ditayangkan.",
-      "tip": "Pemain yang sedang bertanding, klik untuk menambahkan pemain ke daftar pemain."
+      "tipNoOrder": "Pemain yang sedang bertanding, klik untuk menambahkan pemain ke daftar pemain.",
+      "tip": "Pemain yang sedang bertanding, klik untuk menambahkan pemain ke daftar pemain, lalu seret dan lepas untuk mengubah urutan pemain di tim mereka."
     },
     "cameras": {
       "generatePassword": "Buat kata sandi",
@@ -901,8 +902,8 @@
         "config": {
           "status": "Konfigurasi",
           "add": "Menambahkan file konfigurasi",
-            "overrideIp": "Ganti Alamat IP",
-            "slowMode": "Mode Lambat"
+          "overrideIp": "Ganti Alamat IP",
+          "slowMode": "Mode Lambat"
         },
         "credits": {
           "credits": "Kredit",

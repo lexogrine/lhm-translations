@@ -457,7 +457,8 @@
       "replaceUsernames": "Käyttäjätunnusten korvaaminen",
       "header": "Live",
       "noGame": "Mikään peli ei ole tällä hetkellä suorassa lähetyksessä.",
-      "tip": "Pelaajat tällä hetkellä ottelussa, klikkaa lisätäksesi pelaajan pelaajalistaan."
+      "tipNoOrder": "Pelaajat tällä hetkellä ottelussa, klikkaa lisätäksesi pelaajan pelaajalistaan.",
+      "tip": "Pelaajat tällä hetkellä ottelussa, klikkaa lisätäksesi pelaajan pelaajalistaan ja vedä ja pudota muuttaaksesi pelaajien järjestystä joukkueissaan."
     },
     "cameras": {
       "generatePassword": "Luo salasana",
@@ -988,8 +989,8 @@
           "team": "Joukkue",
           "image": "Kuva",
           "match": "Ottelu",
-            "player": "Pelaaja",
-            "color": "Väri"
+          "player": "Pelaaja",
+          "color": "Väri"
         },
         "visible": "Näkyvä",
         "manageCustom": "Hallitse mukautettuja kenttiä",

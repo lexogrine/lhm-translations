@@ -457,7 +457,8 @@
       "replaceUsernames": "Kullanıcı adlarını değiştirin",
       "header": "Canlı",
       "noGame": "Şu anda hiçbir oyun canlı değil.",
-      "tip": "Şu anda maçta olan oyuncular, oyuncu listesine bir oyuncu eklemek için tıklayın."
+      "tipNoOrder": "Şu anda maçta olan oyuncular, oyuncu listesine bir oyuncu eklemek için tıklayın.",
+      "tip": "Şu anda maçta olan oyuncular, oyuncu listesine bir oyuncu eklemek için tıklayın ve oyuncuların takımlarındaki sırasını değiştirmek için sürükleyip bırakın."
     },
     "cameras": {
       "generatePassword": "Parola oluştur",

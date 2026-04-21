@@ -457,7 +457,8 @@
       "replaceUsernames": "Benutzernamen ersetzen",
       "header": "Live",
       "noGame": "Derzeit ist kein Spiel live.",
-      "tip": "Spieler, die gerade im Spiel sind. Klicken, um einen Spieler zur Spielerliste hinzuzufügen."
+      "tipNoOrder": "Spieler, die gerade im Spiel sind. Klicken, um einen Spieler zur Spielerliste hinzuzufügen.",
+      "tip": "Spieler, die gerade im Spiel sind. Klicken, um einen Spieler zur Spielerliste hinzuzufügen, und ziehen Sie ihn per Drag-and-drop, um die Reihenfolge der Spieler in ihren Teams zu ändern."
     },
     "cameras": {
       "generatePassword": "Passwort generieren",

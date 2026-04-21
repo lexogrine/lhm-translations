@@ -457,7 +457,8 @@
       "replaceUsernames": "Reemplazar nombres de usuario",
       "header": "En directo",
       "noGame": "Ningún juego está actualmente en vivo.",
-      "tip": "Jugadores actualmente en partido, haga clic para añadir un jugador a la lista de jugadores."
+      "tipNoOrder": "Jugadores actualmente en partido, haga clic para añadir un jugador a la lista de jugadores.",
+      "tip": "Jugadores actualmente en partido, haga clic para añadir un jugador a la lista de jugadores y arrastre y suelte para cambiar el orden de los jugadores en sus equipos."
     },
     "cameras": {
       "generatePassword": "Generar contraseña",

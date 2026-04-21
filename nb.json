@@ -457,7 +457,8 @@
       "replaceUsernames": "Erstatt brukernavn",
       "header": "Direkte",
       "noGame": "Ingen kamp er Direkte for øyeblikket",
-      "tip": "Spillere i kamp, klikk for å legge til en spiller i spillerlisten."
+      "tipNoOrder": "Spillere i kamp, klikk for å legge til en spiller i spillerlisten.",
+      "tip": "Spillere i kamp, klikk for å legge til en spiller i spillerlisten, og dra og slipp for å endre rekkefølgen på spillerne i lagene deres."
     },
     "cameras": {
       "generatePassword": "Generer passord",

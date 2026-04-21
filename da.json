@@ -457,7 +457,8 @@
       "replaceUsernames": "Udskift brugernavne",
       "header": "Live",
       "noGame": "Intet spil er live i øjeblikket.",
-      "tip": "Spillere i øjeblikket i kampen, klik for at tilføje en spiller til spillerlisten."
+      "tipNoOrder": "Spillere i øjeblikket i kampen, klik for at tilføje en spiller til spillerlisten.",
+      "tip": "Spillere i øjeblikket i kampen, klik for at tilføje en spiller til spillerlisten, og træk og slip for at ændre rækkefølgen af spillerne på deres hold."
     },
     "cameras": {
       "generatePassword": "Generer adgangskode",
@@ -1241,9 +1242,9 @@
           "info": "CG tilstand indeholder de mest essentielle moduler til broadcasting i en kompakt form.\\nFra denne fane kan du administrere dine kampe, hold, spillere og live spil på en enkelt skærm.\\nDu kan skjule unødvendige faner ved hjælp af knappen \"Skjul\" over hver sektion."
         }
       },
-        "arg": {
-          "tab": {
-            "title": "Replays",
+      "arg": {
+        "tab": {
+          "title": "Replays",
           "info": "Modulet Auto Replay Generator (ARG) genererer replays, som kan vises mellem runderne eller ved afslutningen af en kamp.\nHusk, at vMix er påkrævet for korrekt ARG-konfiguration. vMix er ikke et gratis program, og ARG selv er primært designet til produktionsteams, der allerede bruger vMix."
         },
         "safeband": {
@@ -1267,15 +1268,15 @@
           "info": "ID brugt af ARG, nødvendigt for en vellykket forbindelse."
         }
       },
-        "aco": {
+      "aco": {
         "telnet": {
           "title": "Telnet",
           "info": "Telnet er en protokol til kommunikation med CS2. Mens den bruges, behøver du ikke at have CS2-vinduet i fokus, da LHM vil skifte spiller med fjernkommandoer."
         },
-          "tab": {
-            "title": "Scout AI",
-            "info": "Det er umuligt at fange enhver handling perfekt og fra en ideel vinkel - men Scout kommer meget tæt på. Vores egen AI lærer af tusindvis af kampe for selv at fange de mest spændende begivenheder, uden menneskelig input."
-          },
+        "tab": {
+          "title": "Scout AI",
+          "info": "Det er umuligt at fange enhver handling perfekt og fra en ideel vinkel - men Scout kommer meget tæt på. Vores egen AI lærer af tusindvis af kampe for selv at fange de mest spændende begivenheder, uden menneskelig input."
+        },
         "area": {
           "title": "Område",
           "info": "Områder er regioner på kortet, som du binder dine konfigurationer til. Hvis der er mange spillere i det givne område, vil en af de konfigurationer, der er føjet til det, blive udført i CS:GO klienten.\\nFor at tilføje et område skal du klikke på knappen \"+\" og vælge det ønskede område på kortet ved at klikke på dets hjørner."
@@ -1321,7 +1322,7 @@
           "info": "Når et live spil registreres, fyldes Live fanen op med data om den aktuelle kamp, såsom spillernavne, ID'er og den aktuelle score.\\nLive fanen giver dig også hurtig adgang til spillerredigering."
         }
       },
-        "cameras": {
+      "cameras": {
         "delay": {
           "title": "Kameraforsinkelse",
           "info": "Kameraforsinkelsen understøttes i øjeblikket kun i officielle, Lexogrine HUD'er: Ultra & Premium HUDs"

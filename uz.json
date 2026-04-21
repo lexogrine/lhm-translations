@@ -457,7 +457,8 @@
       "replaceUsernames": "Foydalanuvchi nomlarini almashtiring",
       "header": "Jonli",
       "noGame": "Hozirda jonli oʻyin yoʻq.",
-      "tip": "Hozirda oʻyinda boʻlgan oʻyinchilar, oʻyinchi roʻyxatiga oʻyinchi qoʻshish uchun bosing."
+      "tipNoOrder": "Hozirda oʻyinda boʻlgan oʻyinchilar, oʻyinchi roʻyxatiga oʻyinchi qoʻshish uchun bosing.",
+      "tip": "Hozirda oʻyinda boʻlgan oʻyinchilar, oʻyinchi roʻyxatiga oʻyinchi qoʻshish uchun bosing va oʻyinchilarning oʻz jamoalaridagi tartibini oʻzgartirish uchun sudrab tashlang."
     },
     "cameras": {
       "generatePassword": "Parol yarating",

@@ -457,7 +457,8 @@
       "replaceUsernames": "Live",
       "header": "Walang laro ang kasalukuyang live.",
       "noGame": "Mga manlalarong kasalukuyang nasa laban, i-click upang magdagdag ng manlalaro sa listahan ng manlalaro.",
-      "tip": "Bumuo ng password"
+      "tipNoOrder": "Bumuo ng password",
+      "tip": "Bumuo ng password, at i-drag at i-drop upang baguhin ang ayos ng mga manlalaro sa kanilang mga koponan."
     },
     "cameras": {
       "generatePassword": "Ipadala ito sa iyong mga manlalaro",

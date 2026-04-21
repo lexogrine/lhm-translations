@@ -457,7 +457,8 @@
       "replaceUsernames": "Substituir nomes de utilizador",
       "header": "Em direto",
       "noGame": "Nenhum jogo está atualmente em direto.",
-      "tip": "Jogadores atualmente em jogo, clique para adicionar um jogador à lista de jogadores."
+      "tipNoOrder": "Jogadores atualmente em jogo, clique para adicionar um jogador à lista de jogadores.",
+      "tip": "Jogadores atualmente em jogo, clique para adicionar um jogador à lista de jogadores e arraste e solte para alterar a ordem dos jogadores nas suas equipas."
     },
     "cameras": {
       "generatePassword": "Gerar palavra-passe",
@@ -1157,8 +1158,8 @@
           }
         },
         "scout": {
-        "title": "Scout AI",
-        "info": "Esta opção requer Workshop Tools e executa HLAE.\nAtivar esta opção permitirá ao LHM usar Scout Cinematic, assim como usar Scout Vision no modo direct.\nEsta opção iniciará o CS2 em modo inseguro - não entre em servidores protegidos por VAC (por exemplo, Faceit, matchmaking), exceto como espectador CSTV enquanto ela estiver ativada."
+          "title": "Scout AI",
+          "info": "Esta opção requer Workshop Tools e executa HLAE.\nAtivar esta opção permitirá ao LHM usar Scout Cinematic, assim como usar Scout Vision no modo direct.\nEsta opção iniciará o CS2 em modo inseguro - não entre em servidores protegidos por VAC (por exemplo, Faceit, matchmaking), exceto como espectador CSTV enquanto ela estiver ativada."
         },
         "tab": {
           "title": "Separador HUDs",

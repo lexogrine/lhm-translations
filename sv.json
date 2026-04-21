@@ -457,7 +457,8 @@
       "replaceUsernames": "Byt ut användarnamn",
       "header": "Live",
       "noGame": "Inget spel är för närvarande live.",
-      "tip": "Spelare för närvarande i match, klicka för att lägga till en spelare i spelarlistan."
+      "tipNoOrder": "Spelare för närvarande i match, klicka för att lägga till en spelare i spelarlistan.",
+      "tip": "Spelare för närvarande i match, klicka för att lägga till en spelare i spelarlistan och dra och släpp för att ändra ordningen på spelarna i deras lag."
     },
     "cameras": {
       "generatePassword": "Generera lösenord",
@@ -1241,9 +1242,9 @@
           "info": "CG Mode innehåller de viktigaste modulerna för sändningsverksamhet i en kompakt form.\nFrån den här fliken kan du hantera dina matcher, lag, spelare och live-spel på en enda skärm.\nDu kan dölja onödiga flikar med hjälp av knappen \"Dölj\" ovanför varje avsnitt."
         }
       },
-        "arg": {
-          "tab": {
-            "title": "Replays",
+      "arg": {
+        "tab": {
+          "title": "Replays",
           "info": "Modulen Auto Replay Generator (ARG) genererar repriser som kan visas mellan omgångar eller i slutet av ett spel.\nTänk på att vMix krävs för korrekt ARG-konfiguration. vMix är inte en gratis applikation, och ARG i sig är främst utformad för produktionsteam som redan använder vMix."
         },
         "safeband": {
@@ -1267,15 +1268,15 @@
           "info": "ID som används av ARG, behövs för en lyckad anslutning."
         }
       },
-        "aco": {
+      "aco": {
         "telnet": {
           "title": "Telnet",
           "info": "Telnet är ett protokoll för kommunikation med CS2. Medan det används behöver du inte ha CS2-fönstret i fokus, eftersom LHM kommer att byta spelare med fjärrkommandon."
         },
-          "tab": {
-            "title": "Scout AI",
-            "info": "Det är omöjligt att fånga varje händelse perfekt och från en idealisk vinkel - men Scout kommer riktigt nära. Vår egen AI lär sig av tusentals matcher för att fånga de mest avgörande händelserna själv, utan mänsklig inblandning."
-          },
+        "tab": {
+          "title": "Scout AI",
+          "info": "Det är omöjligt att fånga varje händelse perfekt och från en idealisk vinkel - men Scout kommer riktigt nära. Vår egen AI lär sig av tusentals matcher för att fånga de mest avgörande händelserna själv, utan mänsklig inblandning."
+        },
         "area": {
           "title": "Område",
           "info": "Områden är regioner på kartan som du binder dina konfigurationer till. Om det finns många spelare i det givna området kommer en av konfigurationerna som lagts till i det att köras i CS:GO-klienten.\nFör att lägga till ett område, klicka på knappen \"+\" och välj önskad region på kartan genom att klicka på dess hörn."
@@ -1315,13 +1316,13 @@
           "info": "AR-modulstöd gör det möjligt att visa anpassade 3D-objekt som om de vore en del av spelet.\nAR använder kamerapositionsdata som laddas med GSI för att rendera dina HTML & CSS-baserade 3D-objekt över spelscenen."
         }
       },
-        "live": {
-          "tab": {
-            "title": "Live",
+      "live": {
+        "tab": {
+          "title": "Live",
           "info": "När en live-match upptäcks fylls fliken Live med data om den aktuella matchen, t.ex. spelarnamn, ID och aktuell poäng.\nFliken Live ger dig också snabb åtkomst till spelarredigering."
         }
       },
-        "cameras": {
+      "cameras": {
         "delay": {
           "title": "Kamerafördröjning",
           "info": "Kamerafördröjningen stöds för närvarande endast i officiella, Lexogrine HUDs: Ultra & Premium HUDs"
