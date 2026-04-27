@@ -748,6 +748,7 @@
           "youAreStartingArg": "You are starting LHM Replays with two connected LHMs",
           "whichModeDoYou": "Which mode do you want to use for replay generation?",
           "ndiSourceForDelayedGame": "NDI Source for Delayed Game",
+          "ndiSourceForDelayedGameHelp": "If you want to stream the entire screen of the delayed PC, choose a source with the delayed PC hostname ending with (Desktop).",
           "pickSource": "PICK SOURCE",
           "setSource": "Set source",
           "refreshSources": "Refresh sources",
