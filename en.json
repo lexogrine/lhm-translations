@@ -745,17 +745,25 @@
         },
         "modeModal": {
           "title": "LHM Replay Mode",
-          "youAreStartingArg": "You are starting ARG with two connected LHMs",
+          "youAreStartingArg": "You are starting LHM Replays with two connected LHMs",
           "whichModeDoYou": "Which mode do you want to use for replay generation?",
           "ndiSourceForDelayedGame": "NDI Source for Delayed Game",
           "pickSource": "PICK SOURCE",
           "setSource": "Set source",
-          "refreshSources": "Refresh sources"
+          "refreshSources": "Refresh sources",
+          "chooseOutputMixer": "Choose which mixer should be used for Replay Feed output.",
+          "configureVMixConnection": "Enter the vMix connection details.",
+          "configureObsConnection": "Enter the OBS connection details.",
+          "configureLater": "Configure later"
         },
         "requestModal": {
           "title": "LHM Replay Request",
           "anotherLhmInTheLocal": "Another LHM in the local network wants this PC to be used as Replay machine",
           "doYouWish": "Do you wish to accept the incoming connection?"
+        },
+        "connectionRejected": {
+          "title": "Replay Connection Rejected",
+          "workspaceMismatch": "A user from workspace {{workspaceName}} tried to connect to this PC."
         }
       }
     },
