@@ -1276,6 +1276,10 @@
         "computerID": {
           "title": "Computer ID",
           "info": "ID used by ARG, needed for successful connection."
+        },
+        "clockDiff": {
+          "title": "Clock diff",
+          "info": "The clock difference between the PCs is too large and could result in issues while capturing kills. Synchronize the system clocks on both machines before using Replays live."
         }
       },
       "aco": {
