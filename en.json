@@ -753,7 +753,9 @@
           "refreshSources": "Refresh sources",
           "chooseOutputMixer": "Choose which mixer should be used for Replay Feed output.",
           "configureVMixConnection": "Enter the vMix connection details.",
+          "configureVMixConnectionHelp": "In vMix, go to Settings > Web Controller and copy the full URL details from there.",
           "configureObsConnection": "Enter the OBS connection details.",
+          "configureObsConnectionHelp": "In OBS, go to Tools > WebSocket Server Settings, enable WebSocket Server, click Show Connect Info, and copy the IP, Port and Password.",
           "configureLater": "Configure later"
         },
         "requestModal": {
