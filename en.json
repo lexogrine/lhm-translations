@@ -821,13 +821,12 @@
         "integration": "RL Integration",
         "status": {
           "busy": "Busy...",
-          "bakkesModNotInstalled": "BakkesMod not installed",
-          "sosNotInstalled": "SOS Plugin not installed",
+          "notFound": "Rocket League not found",
           "notConfigured": "Not configured",
-          "installed": "Installed"
+          "configured": "Configured"
         },
         "refresh": "Refresh",
-        "install": "Install"
+        "configure": "Configure"
       },
       "serverClient": {
         "client": "Client (Local network)",
