@@ -745,17 +745,28 @@
         },
         "modeModal": {
           "title": "LHM Replay Mode",
-          "youAreStartingArg": "You are starting ARG with two connected LHMs",
+          "youAreStartingArg": "You are starting LHM Replays with two connected LHMs",
           "whichModeDoYou": "Which mode do you want to use for replay generation?",
           "ndiSourceForDelayedGame": "NDI Source for Delayed Game",
+          "ndiSourceForDelayedGameHelp": "If you want to stream the entire screen of the delayed PC, choose a source with the delayed PC hostname ending with (Desktop) or (Display).",
           "pickSource": "PICK SOURCE",
           "setSource": "Set source",
-          "refreshSources": "Refresh sources"
+          "refreshSources": "Refresh sources",
+          "chooseOutputMixer": "Choose which mixer should be used for Replay Feed output.",
+          "configureVMixConnection": "Enter the vMix connection details.",
+          "configureVMixConnectionHelp": "In vMix, go to Settings > Web Controller and copy the full URL details from there.",
+          "configureObsConnection": "Enter the OBS connection details.",
+          "configureObsConnectionHelp": "In OBS, go to Tools > WebSocket Server Settings, enable WebSocket Server, click Show Connect Info, and copy the IP, Port and Password.",
+          "configureLater": "Configure later"
         },
         "requestModal": {
           "title": "LHM Replay Request",
           "anotherLhmInTheLocal": "Another LHM in the local network wants this PC to be used as Replay machine",
           "doYouWish": "Do you wish to accept the incoming connection?"
+        },
+        "connectionRejected": {
+          "title": "Replay Connection Rejected",
+          "workspaceMismatch": "A user from workspace {{workspaceName}} tried to connect to this PC."
         }
       }
     },
@@ -1265,6 +1276,10 @@
         "computerID": {
           "title": "Computer ID",
           "info": "ID used by ARG, needed for successful connection."
+        },
+        "clockDiff": {
+          "title": "Clock diff",
+          "info": "The clock difference between the PCs is too large and could result in issues while capturing kills. Synchronize the system clocks on both machines before using Replays live."
         }
       },
       "aco": {
