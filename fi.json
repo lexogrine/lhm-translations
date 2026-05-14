@@ -1261,7 +1261,7 @@
         },
         "saveClips": {
           "title": "Tallenna leikkeet",
-          "info": "Tämän vaihtoehdon ottaminen käyttöön saa vMixin säilyttämään kaikki ARG:n tuottamat leikkeet sen sijaan, että se poistaisi ne."
+          "info": "Tämän vaihtoehdon ottaminen käyttöön saa vMixin säilyttämään kaikki Replays:n tuottamat leikkeet sen sijaan, että se poistaisi ne."
         },
         "computerID": {
           "title": "Tietokoneen ID",

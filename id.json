@@ -1261,7 +1261,7 @@
         },
         "saveClips": {
           "title": "Menyimpan klip",
-          "info": "Mengaktifkan opsi ini akan membuat vMix menyimpan semua klip yang dihasilkan oleh ARG dan bukan menghapusnya."
+          "info": "Mengaktifkan opsi ini akan membuat vMix menyimpan semua klip yang dihasilkan oleh Replays dan bukan menghapusnya."
         },
         "computerID": {
           "title": "ID Komputer",

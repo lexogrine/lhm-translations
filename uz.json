@@ -1261,7 +1261,7 @@
         },
         "saveClips": {
           "title": "Kliplarni saqlash",
-          "info": "Ushbu parametr yoqilsa, vMix ARG tomonidan yaratilgan barcha kliplarni o‘chirish o‘rniga saqlab qoladi."
+          "info": "Ushbu parametr yoqilsa, vMix Replays tomonidan yaratilgan barcha kliplarni o‘chirish o‘rniga saqlab qoladi."
         },
         "computerID": {
           "title": "Kompyuter ID",
