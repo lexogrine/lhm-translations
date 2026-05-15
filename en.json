@@ -615,6 +615,7 @@
       "defaultBoEdit": "Default Best Of Format (For New Matches)",
       "teamOrderList": "Teams order list",
       "tournamentStructure": "Tournament structure",
+      "emptyList": "No tournaments yet. Create your first tournament.",
       "availableTeams": "Available teams",
       "selectedTeams": "Selected teams",
       "teamsCount": "{{count}} Teams",
@@ -661,6 +662,7 @@
         "date": "Date",
         "time": "Time"
       },
+      "emptyList": "No matches yet. Create your first match.",
       "wins": "WINS",
       "wrongTeamSelected": "Wrong team selected",
       "vetoType": {
