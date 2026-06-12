@@ -1261,7 +1261,7 @@
         },
         "saveClips": {
           "title": "保存剪辑",
-          "info": "启用此选项后，vMix 将保留 ARG 生成的所有片段，而不是删除它们。"
+          "info": "启用此选项后，vMix 将保留 Replays 生成的所有片段，而不是删除它们。"
         },
         "computerID": {
           "title": "计算机 ID",

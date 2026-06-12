@@ -1261,7 +1261,7 @@
         },
         "saveClips": {
           "title": "Lưu clip",
-          "info": "Bật tùy chọn này để vMix giữ lại các clip ARG thay vì xóa."
+          "info": "Bật tùy chọn này để vMix giữ lại các clip Replays thay vì xóa."
         },
         "computerID": {
           "title": "ID Máy",

@@ -1261,7 +1261,7 @@
         },
         "saveClips": {
           "title": "Clips speichern",
-          "info": "Das Aktivieren dieser Option bewirkt, dass vMix alle von ARG erzeugten Clips behält, anstatt sie zu löschen."
+          "info": "Das Aktivieren dieser Option bewirkt, dass vMix alle von Replays erzeugten Clips behält, anstatt sie zu löschen."
         },
         "computerID": {
           "title": "Computer ID",

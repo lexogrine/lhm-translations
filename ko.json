@@ -1261,7 +1261,7 @@
         },
         "saveClips": {
           "title": "클립 저장",
-          "info": "이 옵션을 활성화하면 vMix가 ARG에서 생성된 모든 클립을 삭제하지 않고 보관합니다."
+          "info": "이 옵션을 활성화하면 vMix가 Replays에서 생성된 모든 클립을 삭제하지 않고 보관합니다."
         },
         "computerID": {
           "title": "컴퓨터 ID",

@@ -1261,7 +1261,7 @@
         },
         "saveClips": {
           "title": "Lagre klippene?",
-          "info": "Hvis du aktiverer dette alternativet, beholder vMix alle klippene som er generert av ARG, i stedet for å slette dem."
+          "info": "Hvis du aktiverer dette alternativet, beholder vMix alle klippene som er generert av Replays, i stedet for å slette dem."
         },
         "computerID": {
           "title": "Datamaskin-ID",

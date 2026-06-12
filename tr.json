@@ -1260,7 +1260,7 @@
         },
         "saveClips": {
           "title": "Klipleri kaydet",
-          "info": "Bu seçeneğin etkinleştirilmesi, vMix'in ARG tarafından oluşturulan tüm klipleri silmek yerine saklamasını sağlayacaktır."
+          "info": "Bu seçeneğin etkinleştirilmesi, vMix'in Replays tarafından oluşturulan tüm klipleri silmek yerine saklamasını sağlayacaktır."
         },
         "computerID": {
           "title": "Bilgisayar Kimliği",

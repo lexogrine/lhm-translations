@@ -1261,7 +1261,7 @@
         },
         "saveClips": {
           "title": "Gem klip",
-          "info": "Hvis du aktiverer denne indstilling, beholder vMix alle de klip, der er genereret af ARG, i stedet for at slette dem."
+          "info": "Hvis du aktiverer denne indstilling, beholder vMix alle de klip, der er genereret af Replays, i stedet for at slette dem."
         },
         "computerID": {
           "title": "Computer ID",

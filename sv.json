@@ -1261,7 +1261,7 @@
         },
         "saveClips": {
           "title": "Spara klipp",
-          "info": "Om du aktiverar det här alternativet kommer vMix att behålla alla klipp som genererats av ARG istället för att radera dem."
+          "info": "Om du aktiverar det här alternativet kommer vMix att behålla alla klipp som genererats av Replays istället för att radera dem."
         },
         "computerID": {
           "title": "Dator-ID",

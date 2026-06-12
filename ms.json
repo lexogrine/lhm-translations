@@ -1253,7 +1253,7 @@
         },
         "useHLAE": {
           "title": "Simpan klip",
-          "info": "Mendayakan pilihan ini akan menjadikan vMix menyimpan semua klip yang dijana oleh ARG dan bukannya memadamkannya."
+          "info": "Mendayakan pilihan ini akan menjadikan vMix menyimpan semua klip yang dijana oleh Replays dan bukannya memadamkannya."
         },
         "delayConfig": {
           "title": "ID Komputer",

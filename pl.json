@@ -1261,7 +1261,7 @@
         },
         "saveClips": {
           "title": "Zapisz klipy",
-          "info": "Włączenie tej opcji sprawi, że vMix zachowa wszystkie klipy wygenerowane przez ARG zamiast je usuwać."
+          "info": "Włączenie tej opcji sprawi, że vMix zachowa wszystkie klipy wygenerowane przez Replays zamiast je usuwać."
         },
         "computerID": {
           "title": "ID komputera",
