@@ -853,6 +853,18 @@
         "client_global": "Client (Outside of local network)",
         "server_global": "Server (Outside of local network)"
       },
+      "mcp": {
+        "server": "MCP server",
+        "access": "MCP access",
+        "accessLocal": "This device only",
+        "accessLan": "LAN",
+        "token": "MCP token",
+        "tokenMissing": "Not generated",
+        "tokenGenerated": "Generated",
+        "generateToken": "Generate",
+        "regenerateToken": "Regenerate",
+        "copyToken": "Copy"
+      },
       "languages": {
         "default_latin": "Default (Latin)",
         "chinese_simplified": "Chinese (Simplified)",
