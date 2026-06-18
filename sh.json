@@ -625,7 +625,14 @@
       "stageInProgress": "Групна фаза је још увек у току. Креирање плеј-офа биће доступно када се групна фаза заврши.",
       "missingMatches": "Откривени недостајући мечеви",
       "matchesDeleted": "Неки мечеви су обрисани. Кликните испод да бисте вратили све мечеве из првог недостајућег кола.",
-      "restoreAllMatches": "Врати све подударања"
+      "restoreAllMatches": "Врати све подударања",
+      "emptyList": "Još nema turnira. Kreiraj svoj prvi turnir.",
+      "teamsCount": "{{count}} timova",
+      "maxTeamsAllowed": "Maksimalno {{max}} timova je dozvoljeno u turniru.",
+      "maxTeamsHint": "Maks. {{max}} timova.",
+      "byeSlot": "BYE",
+      "byeSlotsInfo": "BYE slotovi: {{count}}. Prevuci timove i BYE slotove da postaviš parove prve runde.",
+      "byeSlotsNone": "BYE slotovi: 0"
     },
     "match": {
       "matches": "Одговара",
@@ -690,7 +697,8 @@
       "questionOpponentPick": "Да ли противник бира страну?",
       "reversedSides": "Обрнуте стране",
       "mapList": "Мапирај листу",
-      "generateGet5Config": "Генериши Get5 конфиг"
+      "generateGet5Config": "Генериши Get5 конфиг",
+      "emptyList": "Još nema mečeva. Kreiraj svoj prvi meč."
     },
     "credits": {
       "header": "Кредита",
@@ -750,12 +758,23 @@
           "ndiSourceForDelayedGame": "NDI извор за одложену игру",
           "pickSource": "ИЗАБЕРИ ИЗВОР",
           "setSource": "Постави извор",
-          "refreshSources": "Освежи изворе"
+          "refreshSources": "Освежи изворе",
+          "ndiSourceForDelayedGameHelp": "Ako želiš da strimuješ ceo ekran odloženog PC-a, izaberi izvor čije ime hosta odloženog PC-a završava sa (Desktop) ili (Display).",
+          "chooseOutputMixer": "Izaberi koji mikser treba da se koristi za izlaz Replay Feed-a.",
+          "configureVMixConnection": "Unesi detalje vMix konekcije.",
+          "configureVMixConnectionHelp": "U vMix-u idi na Settings > Web Controller i odatle kopiraj pune URL detalje.",
+          "configureObsConnection": "Unesi detalje OBS konekcije.",
+          "configureObsConnectionHelp": "U OBS-u idi na Tools > WebSocket Server Settings, omogući WebSocket Server, klikni Show Connect Info i kopiraj IP, port i lozinku.",
+          "configureLater": "Konfiguriši kasnije"
         },
         "requestModal": {
           "title": "Захтев за репродукцију LHM-а",
           "anotherLhmInTheLocal": "Други LHM у локалној мрежи жели да се овај рачунар користи као машина за репродукцију",
           "doYouWish": "Да ли желите да прихватите долазну везу?"
+        },
+        "connectionRejected": {
+          "title": "Replay konekcija odbijena",
+          "workspaceMismatch": "Korisnik iz workspace-a {{workspaceName}} pokušao je da se poveže sa ovim PC-jem."
         }
       }
     },
@@ -824,10 +843,13 @@
           "bakkesModNotInstalled": "БаккесМод није инсталиран",
           "sosNotInstalled": "СОС додатна компонента није инсталирана",
           "notConfigured": "Није конфигурисано",
-          "installed": "Инсталиран"
+          "installed": "Инсталиран",
+          "notFound": "Rocket League nije pronađen",
+          "configured": "Konfigurisano"
         },
         "refresh": "Освежи",
-        "install": "Инсталирате"
+        "install": "Инсталирате",
+        "configure": "Konfiguriši"
       },
       "serverClient": {
         "client": "Клијент (Локална мрежа)",
@@ -928,6 +950,18 @@
         "cta": {
           "cta": "Прикажи понуду Леxогрине Цустом ХУД имплементације на ХУД картици"
         }
+      },
+      "mcp": {
+        "server": "MCP server",
+        "access": "MCP pristup",
+        "accessLocal": "Samo ovaj uređaj",
+        "accessLan": "LAN",
+        "token": "MCP token",
+        "tokenMissing": "Nije generisan",
+        "tokenGenerated": "Generisano",
+        "generateToken": "Generiši",
+        "regenerateToken": "Regeneriši",
+        "copyToken": "Kopiraj"
       }
     },
     "ar": {
@@ -1266,6 +1300,10 @@
         "computerID": {
           "title": "ИД рачунара",
           "info": "ИД који користи АРГ, потребан за успешну везу."
+        },
+        "clockDiff": {
+          "title": "Razlika u satu",
+          "info": "Razlika u vremenu između PC-jeva je prevelika i može izazvati probleme pri hvatanju killova. Sinhronizuj sistemske satove na obe mašine pre korišćenja Replays uživo."
         }
       },
       "aco": {

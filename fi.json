@@ -625,7 +625,14 @@
       "stageInProgress": "Lohkovaihe on vielä käynnissä. Pudotuspelien luominen tulee saataville, kun lohkovaihe on päättynyt.",
       "missingMatches": "Puuttuvia otteluita havaittu",
       "matchesDeleted": "Joitakin otteluita on poistettu. Paina alta palauttaaksesi kaikki ottelut ensimmäisestä puuttuvasta kierroksesta alkaen.",
-      "restoreAllMatches": "Palauta kaikki ottelut"
+      "restoreAllMatches": "Palauta kaikki ottelut",
+      "emptyList": "Turnauksia ei ole vielä. Luo ensimmäinen turnauksesi.",
+      "teamsCount": "{{count}} joukkuetta",
+      "maxTeamsAllowed": "Turnauksessa sallitaan enintään {{max}} joukkuetta.",
+      "maxTeamsHint": "Enintään {{max}} joukkuetta.",
+      "byeSlot": "BYE",
+      "byeSlotsInfo": "BYE-paikkoja: {{count}}. Vedä joukkueet ja BYE-paikat ensimmäisen kierroksen pareiksi.",
+      "byeSlotsNone": "BYE-paikkoja: 0"
     },
     "match": {
       "matches": "Ottelut",
@@ -690,7 +697,8 @@
       "questionOpponentPick": "Valitseeko vastustaja puolensa?",
       "reversedSides": "Käännetyt puolet",
       "mapList": "Karttalista",
-      "generateGet5Config": "Generoi Get5 Config"
+      "generateGet5Config": "Generoi Get5 Config",
+      "emptyList": "Otteluita ei ole vielä. Luo ensimmäinen ottelusi."
     },
     "credits": {
       "header": "Credits",
@@ -750,12 +758,23 @@
           "ndiSourceForDelayedGame": "NDI Lähde viivästyneelle pelille",
           "pickSource": "PICK-LÄHDE",
           "setSource": "Aseta lähde",
-          "refreshSources": "Päivitä lähteet"
+          "refreshSources": "Päivitä lähteet",
+          "ndiSourceForDelayedGameHelp": "Jos haluat striimata viivästetyn PC:n koko näytön, valitse lähde, jonka viivästetyn PC:n isäntänimi päättyy (Desktop) tai (Display).",
+          "chooseOutputMixer": "Valitse, mitä mikseriä käytetään Replay Feed -ulostuloon.",
+          "configureVMixConnection": "Syötä vMix-yhteystiedot.",
+          "configureVMixConnectionHelp": "Siirry vMixissä kohtaan Settings > Web Controller ja kopioi sieltä täydelliset URL-tiedot.",
+          "configureObsConnection": "Syötä OBS-yhteystiedot.",
+          "configureObsConnectionHelp": "Siirry OBS:ssä kohtaan Tools > WebSocket Server Settings, ota WebSocket Server käyttöön, napsauta Show Connect Info ja kopioi IP, portti ja salasana.",
+          "configureLater": "Määritä myöhemmin"
         },
         "requestModal": {
           "title": "LHM Toistopyyntö",
           "anotherLhmInTheLocal": "Toinen LHM lähiverkossa haluaa käyttää tätä PC:tä toistokoneena",
           "doYouWish": "Haluatko hyväksyä saapuvan yhteyden?"
+        },
+        "connectionRejected": {
+          "title": "Replay-yhteys hylätty",
+          "workspaceMismatch": "Työtilan {{workspaceName}} käyttäjä yritti yhdistää tähän PC:hen."
         }
       }
     },
@@ -824,10 +843,13 @@
           "bakkesModNotInstalled": "BakkesMod ei ole asennettu",
           "sosNotInstalled": "SOS Plugin ei asennettu",
           "notConfigured": "Ei määritetty",
-          "installed": "Asennettu"
+          "installed": "Asennettu",
+          "notFound": "Rocket Leaguea ei löydy",
+          "configured": "Määritetty"
         },
         "refresh": "Päivitä",
-        "install": "Asenna"
+        "install": "Asenna",
+        "configure": "Määritä"
       },
       "serverClient": {
         "client": "Asiakas (lähiverkko)",
@@ -928,6 +950,18 @@
         "cta": {
           "cta": "Näytä Lexogrinen mukautetun HUD-toteutuksen tarjous HUD-välilehdellä"
         }
+      },
+      "mcp": {
+        "server": "MCP-palvelin",
+        "access": "MCP-käyttöoikeus",
+        "accessLocal": "Vain tämä laite",
+        "accessLan": "LAN",
+        "token": "MCP-token",
+        "tokenMissing": "Ei luotu",
+        "tokenGenerated": "Luotu",
+        "generateToken": "Luo",
+        "regenerateToken": "Luo uudelleen",
+        "copyToken": "Kopioi"
       }
     },
     "ar": {
@@ -1266,6 +1300,10 @@
         "computerID": {
           "title": "Tietokoneen ID",
           "info": "ARG:n käyttämä tunnus, jota tarvitaan yhteyden onnistumiseksi."
+        },
+        "clockDiff": {
+          "title": "Kelloero",
+          "info": "PC:iden kelloero on liian suuri ja voi aiheuttaa ongelmia tappojen tallentamisessa. Synkronoi molempien koneiden järjestelmäkellot ennen Replaysin käyttöä livenä."
         }
       },
       "aco": {

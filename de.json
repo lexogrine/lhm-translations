@@ -625,7 +625,14 @@
       "stageInProgress": "Die Gruppenphase läuft noch. Die Erstellung der Playoffs ist nach Abschluss der Gruppenphase möglich.",
       "missingMatches": "Fehlende Spiele erkannt",
       "matchesDeleted": "Einige Spiele wurden gelöscht. Klicken Sie unten, um alle Spiele ab der ersten fehlenden Runde wiederherzustellen.",
-      "restoreAllMatches": "Alle Spiele wiederherstellen"
+      "restoreAllMatches": "Alle Spiele wiederherstellen",
+      "emptyList": "Noch keine Turniere. Erstelle dein erstes Turnier.",
+      "teamsCount": "{{count}} Teams",
+      "maxTeamsAllowed": "Maximal {{max}} Teams in einem Turnier erlaubt.",
+      "maxTeamsHint": "Maximal {{max}} Teams.",
+      "byeSlot": "BYE",
+      "byeSlotsInfo": "BYE-Slots: {{count}}. Ziehe Teams und BYE-Slots, um die Paarungen der ersten Runde festzulegen.",
+      "byeSlotsNone": "BYE-Slots: 0"
     },
     "match": {
       "matches": "Spiele",
@@ -690,7 +697,8 @@
       "questionOpponentPick": "Wählt der Gegner eine Seite?",
       "reversedSides": "Umgekehrte Seiten",
       "mapList": "Kartenliste",
-      "generateGet5Config": "Get5 Config generieren"
+      "generateGet5Config": "Get5 Config generieren",
+      "emptyList": "Noch keine Matches. Erstelle dein erstes Match."
     },
     "credits": {
       "header": "Credits",
@@ -750,12 +758,23 @@
           "ndiSourceForDelayedGame": "NDI-Quelle für verzögertes Spiel",
           "pickSource": "PICK SOURCE",
           "setSource": "Quelle einstellen",
-          "refreshSources": "Quellen aktualisieren"
+          "refreshSources": "Quellen aktualisieren",
+          "ndiSourceForDelayedGameHelp": "Wenn du den gesamten Bildschirm des verzögerten PCs streamen möchtest, wähle eine Quelle, deren Hostname des verzögerten PCs auf (Desktop) oder (Display) endet.",
+          "chooseOutputMixer": "Wähle, welcher Mixer für die Replay-Feed-Ausgabe verwendet werden soll.",
+          "configureVMixConnection": "Gib die vMix-Verbindungsdaten ein.",
+          "configureVMixConnectionHelp": "Gehe in vMix zu Settings > Web Controller und kopiere dort die vollständigen URL-Details.",
+          "configureObsConnection": "Gib die OBS-Verbindungsdaten ein.",
+          "configureObsConnectionHelp": "Gehe in OBS zu Tools > WebSocket Server Settings, aktiviere WebSocket Server, klicke auf Show Connect Info und kopiere IP, Port und Passwort.",
+          "configureLater": "Später konfigurieren"
         },
         "requestModal": {
           "title": "LHM-Wiedergabe-Anforderung",
           "anotherLhmInTheLocal": "Ein anderer LHM im lokalen Netzwerk möchte, dass dieser PC als Replay-Maschine verwendet wird",
           "doYouWish": "Möchten Sie die eingehende Verbindung annehmen?"
+        },
+        "connectionRejected": {
+          "title": "Replay-Verbindung abgelehnt",
+          "workspaceMismatch": "Ein Benutzer aus dem Workspace {{workspaceName}} hat versucht, sich mit diesem PC zu verbinden."
         }
       }
     },
@@ -824,10 +843,13 @@
           "bakkesModNotInstalled": "BakkesMod nicht installiert",
           "sosNotInstalled": "SOS Plugin nicht installiert",
           "notConfigured": "Nicht konfiguriert",
-          "installed": "Installiert"
+          "installed": "Installiert",
+          "notFound": "Rocket League nicht gefunden",
+          "configured": "Konfiguriert"
         },
         "refresh": "Aktualisieren",
-        "install": "Installieren"
+        "install": "Installieren",
+        "configure": "Konfigurieren"
       },
       "serverClient": {
         "client": "Client (Lokales Netzwerk)",
@@ -928,6 +950,18 @@
         "cta": {
           "cta": "Angebot für die benutzerdefinierte HUD-Implementierung von Lexogrine auf der Registerkarte HUD anzeigen"
         }
+      },
+      "mcp": {
+        "server": "MCP-Server",
+        "access": "MCP-Zugriff",
+        "accessLocal": "Nur dieses Gerät",
+        "accessLan": "LAN",
+        "token": "MCP-Token",
+        "tokenMissing": "Nicht generiert",
+        "tokenGenerated": "Generiert",
+        "generateToken": "Generieren",
+        "regenerateToken": "Neu generieren",
+        "copyToken": "Kopieren"
       }
     },
     "ar": {
@@ -1266,6 +1300,10 @@
         "computerID": {
           "title": "Computer ID",
           "info": "Von ARG verwendete ID, die für eine erfolgreiche Verbindung benötigt wird."
+        },
+        "clockDiff": {
+          "title": "Uhrzeitabweichung",
+          "info": "Die Uhrzeitabweichung zwischen den PCs ist zu groß und kann beim Erfassen von Kills zu Problemen führen. Synchronisiere die Systemuhren beider Maschinen, bevor du Replays live verwendest."
         }
       },
       "aco": {

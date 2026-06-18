@@ -625,7 +625,14 @@
       "stageInProgress": "Групповой этап все еще продолжается. Создание плей-офф станет доступно после завершения группового этапа.",
       "missingMatches": "Обнаружены отсутствующие матчи",
       "matchesDeleted": "Некоторые матчи были удалены. Нажмите ниже, чтобы восстановить все матчи из первого отсутствующего раунда.",
-      "restoreAllMatches": "Восстановить все матчи"
+      "restoreAllMatches": "Восстановить все матчи",
+      "emptyList": "Турниров пока нет. Создайте первый турнир.",
+      "teamsCount": "{{count}} команд",
+      "maxTeamsAllowed": "В турнире разрешено не более {{max}} команд.",
+      "maxTeamsHint": "Максимум {{max}} команд.",
+      "byeSlot": "BYE",
+      "byeSlotsInfo": "Слоты BYE: {{count}}. Перетащите команды и слоты BYE, чтобы задать пары первого раунда.",
+      "byeSlotsNone": "Слоты BYE: 0"
     },
     "match": {
       "matches": "Матчи",
@@ -690,7 +697,8 @@
       "questionOpponentPick": "Выбирает ли противник сторону?",
       "reversedSides": "Перевернуть стороны",
       "mapList": "Список карт",
-      "generateGet5Config": "Сгенерировать Get5 конфиг"
+      "generateGet5Config": "Сгенерировать Get5 конфиг",
+      "emptyList": "Матчей пока нет. Создайте первый матч."
     },
     "credits": {
       "header": "Авторы",
@@ -750,12 +758,23 @@
           "ndiSourceForDelayedGame": "NDI Источник для отложенной игры",
           "pickSource": "ИСТОЧНИК ПИК",
           "setSource": "Установить источник",
-          "refreshSources": "Обновить источники"
+          "refreshSources": "Обновить источники",
+          "ndiSourceForDelayedGameHelp": "Если вы хотите транслировать весь экран ПК с задержкой, выберите источник с именем хоста этого ПК, заканчивающимся на (Desktop) или (Display).",
+          "chooseOutputMixer": "Выберите микшер, который будет использоваться для вывода Replay Feed.",
+          "configureVMixConnection": "Введите данные подключения vMix.",
+          "configureVMixConnectionHelp": "В vMix перейдите в Settings > Web Controller и скопируйте оттуда полные данные URL.",
+          "configureObsConnection": "Введите данные подключения OBS.",
+          "configureObsConnectionHelp": "В OBS перейдите в Tools > WebSocket Server Settings, включите WebSocket Server, нажмите Show Connect Info и скопируйте IP, порт и пароль.",
+          "configureLater": "Настроить позже"
         },
         "requestModal": {
           "title": "Запрос на воспроизведение LHM",
           "anotherLhmInTheLocal": "Другой LHM в локальной сети хочет использовать этот ПК в качестве машины воспроизведения",
           "doYouWish": "Хотите ли вы принять входящее соединение?"
+        },
+        "connectionRejected": {
+          "title": "Подключение к повторам отклонено",
+          "workspaceMismatch": "Пользователь из рабочей области {{workspaceName}} попытался подключиться к этому ПК."
         }
       }
     },
@@ -824,10 +843,13 @@
           "bakkesModNotInstalled": "BakkesMod не установлен",
           "sosNotInstalled": "SOS Plugin не установлен",
           "notConfigured": "Не настроено",
-          "installed": "Установлено"
+          "installed": "Установлено",
+          "notFound": "Rocket League не найдена",
+          "configured": "Настроено"
         },
         "refresh": "Обновить",
-        "install": "Установить"
+        "install": "Установить",
+        "configure": "Настроить"
       },
       "serverClient": {
         "client": "Клиент (локальная сеть)",
@@ -928,6 +950,18 @@
         "cta": {
           "cta": "Показать предложение по реализации Lexogrine Custom HUD на вкладке HUD"
         }
+      },
+      "mcp": {
+        "server": "MCP-сервер",
+        "access": "Доступ MCP",
+        "accessLocal": "Только это устройство",
+        "accessLan": "LAN",
+        "token": "Токен MCP",
+        "tokenMissing": "Не создан",
+        "tokenGenerated": "Создан",
+        "generateToken": "Создать",
+        "regenerateToken": "Создать заново",
+        "copyToken": "Копировать"
       }
     },
     "ar": {
@@ -1266,6 +1300,10 @@
         "computerID": {
           "title": "ID компьютера",
           "info": "ID, используемый ARG, необходимый для успешного подключения."
+        },
+        "clockDiff": {
+          "title": "Разница часов",
+          "info": "Разница во времени между ПК слишком велика и может вызвать проблемы при захвате убийств. Синхронизируйте системные часы на обеих машинах перед использованием Replays в прямом эфире."
         }
       },
       "aco": {

@@ -625,7 +625,14 @@
       "stageInProgress": "グループステージはまだ進行中です。プレーオフ作成はグループステージ終了後に利用可能になります。",
       "missingMatches": "試合の欠落を検出",
       "matchesDeleted": "いくつかの試合が削除されています。最初に欠落したラウンドから全試合を復元するには、下をクリックしてください。",
-      "restoreAllMatches": "全試合を復元"
+      "restoreAllMatches": "全試合を復元",
+      "emptyList": "トーナメントはまだありません。最初のトーナメントを作成してください。",
+      "teamsCount": "{{count}}チーム",
+      "maxTeamsAllowed": "トーナメントで許可されるチーム数は最大{{max}}です。",
+      "maxTeamsHint": "最大{{max}}チーム。",
+      "byeSlot": "BYE",
+      "byeSlotsInfo": "BYE枠: {{count}}。チームとBYE枠をドラッグして1回戦の組み合わせを設定してください。",
+      "byeSlotsNone": "BYE枠: 0"
     },
     "match": {
       "matches": "試合",
@@ -690,7 +697,8 @@
       "questionOpponentPick": "相手はサイドを選びますか？",
       "reversedSides": "逆サイド",
       "mapList": "マップリスト",
-      "generateGet5Config": "Get5 コンフィグの生成"
+      "generateGet5Config": "Get5 コンフィグの生成",
+      "emptyList": "試合はまだありません。最初の試合を作成してください。"
     },
     "credits": {
       "header": "クレジット",
@@ -750,12 +758,23 @@
           "ndiSourceForDelayedGame": "NDI 遅延試合のソース",
           "pickSource": "ピックソース",
           "setSource": "ソースを設定",
-          "refreshSources": "ソースをリフレッシュ"
+          "refreshSources": "ソースをリフレッシュ",
+          "ndiSourceForDelayedGameHelp": "遅延PCの画面全体を配信したい場合は、遅延PCのホスト名が (Desktop) または (Display) で終わるソースを選択してください。",
+          "chooseOutputMixer": "Replay Feed の出力に使用するミキサーを選択してください。",
+          "configureVMixConnection": "vMix の接続情報を入力してください。",
+          "configureVMixConnectionHelp": "vMix で Settings > Web Controller に移動し、そこから完全な URL 情報をコピーしてください。",
+          "configureObsConnection": "OBS の接続情報を入力してください。",
+          "configureObsConnectionHelp": "OBS で Tools > WebSocket Server Settings に移動し、WebSocket Server を有効にして Show Connect Info をクリックし、IP、ポート、パスワードをコピーしてください。",
+          "configureLater": "後で設定"
         },
         "requestModal": {
           "title": "LHM再生リクエスト",
           "anotherLhmInTheLocal": "ローカルネットワーク内の別のLHMが、このPCをリプレイマシンとして使用したい",
           "doYouWish": "接続を許可しますか？"
+        },
+        "connectionRejected": {
+          "title": "リプレイ接続が拒否されました",
+          "workspaceMismatch": "ワークスペース {{workspaceName}} のユーザーがこの PC に接続しようとしました。"
         }
       }
     },
@@ -824,10 +843,13 @@
           "bakkesModNotInstalled": "BakkesMod 未インストール",
           "sosNotInstalled": "SOS プラグインがインストールされていません",
           "notConfigured": "設定されていません",
-          "installed": "インストール済み"
+          "installed": "インストール済み",
+          "notFound": "Rocket League が見つかりません",
+          "configured": "設定済み"
         },
         "refresh": "リフレッシュ",
-        "install": "インストール"
+        "install": "インストール",
+        "configure": "設定"
       },
       "serverClient": {
         "client": "クライアント（ローカルネットワーク）",
@@ -928,6 +950,18 @@
         "cta": {
           "cta": "LexogrineカスタムHUD実装のオファーをHUDタブに表示する"
         }
+      },
+      "mcp": {
+        "server": "MCP サーバー",
+        "access": "MCP アクセス",
+        "accessLocal": "このデバイスのみ",
+        "accessLan": "LAN",
+        "token": "MCP トークン",
+        "tokenMissing": "未生成",
+        "tokenGenerated": "生成済み",
+        "generateToken": "生成",
+        "regenerateToken": "再生成",
+        "copyToken": "コピー"
       }
     },
     "ar": {
@@ -1266,6 +1300,10 @@
         "computerID": {
           "title": "コンピュータID",
           "info": "ARG が使用する ID。接続に成功するために必要です。"
+        },
+        "clockDiff": {
+          "title": "時計の差",
+          "info": "PC 間の時計の差が大きすぎるため、キルのキャプチャ時に問題が発生する可能性があります。Replays をライブで使用する前に、両方のマシンのシステム時計を同期してください。"
         }
       },
       "aco": {

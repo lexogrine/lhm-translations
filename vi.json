@@ -625,7 +625,14 @@
       "stageInProgress": "Vòng bảng vẫn đang diễn ra. Tạo vòng loại trực tiếp sẽ khả dụng sau khi vòng bảng kết thúc.",
       "missingMatches": "Phát hiện thiếu trận đấu",
       "matchesDeleted": "Một số trận đã bị xóa. Nhấn bên dưới để khôi phục tất cả trận từ vòng thiếu đầu tiên.",
-      "restoreAllMatches": "Khôi phục tất cả trận đấu"
+      "restoreAllMatches": "Khôi phục tất cả trận đấu",
+      "emptyList": "Chưa có giải đấu nào. Hãy tạo giải đấu đầu tiên của bạn.",
+      "teamsCount": "{{count}} đội",
+      "maxTeamsAllowed": "Tối đa {{max}} đội được phép trong một giải đấu.",
+      "maxTeamsHint": "Tối đa {{max}} đội.",
+      "byeSlot": "BYE",
+      "byeSlotsInfo": "Ô BYE: {{count}}. Kéo đội và ô BYE để thiết lập các cặp vòng đầu tiên.",
+      "byeSlotsNone": "Ô BYE: 0"
     },
     "match": {
       "matches": "Trận đấu",
@@ -690,7 +697,8 @@
       "questionOpponentPick": "Đối thủ có được chọn side không?",
       "reversedSides": "Đổi side",
       "mapList": "Danh sách bản đồ",
-      "generateGet5Config": "Tạo cấu hình Get5"
+      "generateGet5Config": "Tạo cấu hình Get5",
+      "emptyList": "Chưa có trận đấu nào. Hãy tạo trận đấu đầu tiên của bạn."
     },
     "credits": {
       "header": "Tác giả",
@@ -750,12 +758,23 @@
           "ndiSourceForDelayedGame": "Nguồn NDI cho Trò chơi bị trì hoãn",
           "pickSource": "CHỌN NGUỒN",
           "setSource": "Đặt nguồn",
-          "refreshSources": "Làm mới nguồn"
+          "refreshSources": "Làm mới nguồn",
+          "ndiSourceForDelayedGameHelp": "Nếu bạn muốn phát toàn bộ màn hình của PC bị trễ, hãy chọn nguồn có tên máy của PC bị trễ kết thúc bằng (Desktop) hoặc (Display).",
+          "chooseOutputMixer": "Chọn mixer sẽ được dùng cho đầu ra Replay Feed.",
+          "configureVMixConnection": "Nhập chi tiết kết nối vMix.",
+          "configureVMixConnectionHelp": "Trong vMix, vào Settings > Web Controller và sao chép đầy đủ chi tiết URL từ đó.",
+          "configureObsConnection": "Nhập chi tiết kết nối OBS.",
+          "configureObsConnectionHelp": "Trong OBS, vào Tools > WebSocket Server Settings, bật WebSocket Server, nhấn Show Connect Info rồi sao chép IP, cổng và mật khẩu.",
+          "configureLater": "Thiết lập sau"
         },
         "requestModal": {
           "title": "Yêu cầu phát lại LHM",
           "anotherLhmInTheLocal": "Một LHM khác trong mạng cục bộ muốn PC này được sử dụng làm máy phát lại",
           "doYouWish": "Bạn có muốn chấp nhận kết nối đến không?"
+        },
+        "connectionRejected": {
+          "title": "Kết nối Replay bị từ chối",
+          "workspaceMismatch": "Người dùng từ workspace {{workspaceName}} đã cố kết nối tới PC này."
         }
       }
     },
@@ -824,10 +843,13 @@
           "bakkesModNotInstalled": "BakkesMod chưa được cài đặt",
           "sosNotInstalled": "Plugin SOS chưa được cài đặt",
           "notConfigured": "Chưa được cấu hình",
-          "installed": "Đã cài đặt"
+          "installed": "Đã cài đặt",
+          "notFound": "Không tìm thấy Rocket League",
+          "configured": "Đã cấu hình"
         },
         "refresh": "Làm mới",
-        "install": "Cài đặt"
+        "install": "Cài đặt",
+        "configure": "Cấu hình"
       },
       "serverClient": {
         "client": "Máy khách (Cục bộ Mạng)",
@@ -928,6 +950,18 @@
         "cta": {
           "cta": "Hiển thị ưu đãi triển khai HUD tùy chỉnh Lexogrine trong tab HUD"
         }
+      },
+      "mcp": {
+        "server": "Máy chủ MCP",
+        "access": "Quyền truy cập MCP",
+        "accessLocal": "Chỉ thiết bị này",
+        "accessLan": "LAN",
+        "token": "Token MCP",
+        "tokenMissing": "Chưa tạo",
+        "tokenGenerated": "Đã tạo",
+        "generateToken": "Tạo",
+        "regenerateToken": "Tạo lại",
+        "copyToken": "Sao chép"
       }
     },
     "ar": {
@@ -1266,6 +1300,10 @@
         "computerID": {
           "title": "ID Máy",
           "info": "ID được ARG sử dụng, cần thiết để xác nhận kết nối thành công."
+        },
+        "clockDiff": {
+          "title": "Chênh lệch đồng hồ",
+          "info": "Chênh lệch đồng hồ giữa các PC quá lớn và có thể gây sự cố khi ghi lại kill. Hãy đồng bộ đồng hồ hệ thống trên cả hai máy trước khi dùng Replays trực tiếp."
         }
       },
       "aco": {

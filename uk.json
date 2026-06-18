@@ -625,7 +625,14 @@
       "stageInProgress": "Груповий етап все ще триває. Створення плей-оф буде доступне після завершення групового етапу.",
       "missingMatches": "Виявлено відсутні матчі",
       "matchesDeleted": "Деякі матчі видалено. Натисніть нижче, щоб відновити всі матчі з першого відсутніх раундів.",
-      "restoreAllMatches": "Відновити всі матчі"
+      "restoreAllMatches": "Відновити всі матчі",
+      "emptyList": "Турнірів ще немає. Створіть свій перший турнір.",
+      "teamsCount": "{{count}} команд",
+      "maxTeamsAllowed": "У турнірі дозволено максимум {{max}} команд.",
+      "maxTeamsHint": "Максимум {{max}} команд.",
+      "byeSlot": "BYE",
+      "byeSlotsInfo": "Слоти BYE: {{count}}. Перетягніть команди та слоти BYE, щоб налаштувати пари першого раунду.",
+      "byeSlotsNone": "Слоти BYE: 0"
     },
     "match": {
       "matches": "Матчі",
@@ -690,7 +697,8 @@
       "questionOpponentPick": "Опонент обирає сторону?",
       "reversedSides": "Помінялися сторонами",
       "mapList": "Список карт",
-      "generateGet5Config": "Згенерувати конфігурацію Get5"
+      "generateGet5Config": "Згенерувати конфігурацію Get5",
+      "emptyList": "Матчів ще немає. Створіть свій перший матч."
     },
     "credits": {
       "header": "Credits",
@@ -750,12 +758,23 @@
           "ndiSourceForDelayedGame": "Джерело NDI для затримки гри",
           "pickSource": "ВИБРАТИ ДЖЕРЕЛО",
           "setSource": "Встановити джерело",
-          "refreshSources": "Оновити джерела"
+          "refreshSources": "Оновити джерела",
+          "ndiSourceForDelayedGameHelp": "Якщо ви хочете транслювати весь екран ПК із затримкою, виберіть джерело, у якого ім'я хоста цього ПК закінчується на (Desktop) або (Display).",
+          "chooseOutputMixer": "Виберіть, який мікшер використовувати для виходу Replay Feed.",
+          "configureVMixConnection": "Введіть дані підключення vMix.",
+          "configureVMixConnectionHelp": "У vMix перейдіть до Settings > Web Controller і скопіюйте звідти повні дані URL.",
+          "configureObsConnection": "Введіть дані підключення OBS.",
+          "configureObsConnectionHelp": "В OBS перейдіть до Tools > WebSocket Server Settings, увімкніть WebSocket Server, натисніть Show Connect Info і скопіюйте IP, порт і пароль.",
+          "configureLater": "Налаштувати пізніше"
         },
         "requestModal": {
           "title": "Запит на відтворення LHM",
           "anotherLhmInTheLocal": "Інший LHM у локальній мережі хоче, щоб цей комп'ютер використовувався як машина відтворення",
           "doYouWish": "Ви бажаєте прийняти вхідне з'єднання?"
+        },
+        "connectionRejected": {
+          "title": "Підключення до повторів відхилено",
+          "workspaceMismatch": "Користувач із робочої області {{workspaceName}} намагався підключитися до цього ПК."
         }
       }
     },
@@ -824,10 +843,13 @@
           "bakkesModNotInstalled": "BakkesMod не встановлено",
           "sosNotInstalled": "SOS Plugin не встановлено",
           "notConfigured": "Не налаштовано",
-          "installed": "Встановлено"
+          "installed": "Встановлено",
+          "notFound": "Rocket League не знайдено",
+          "configured": "Налаштовано"
         },
         "refresh": "Оновити",
-        "install": "Встановити"
+        "install": "Встановити",
+        "configure": "Налаштувати"
       },
       "serverClient": {
         "client": "Клієнт (локальна мережа)",
@@ -928,6 +950,18 @@
         "cta": {
           "cta": "Показати пропозицію Lexogrine Custom HUD на вкладці HUD"
         }
+      },
+      "mcp": {
+        "server": "MCP-сервер",
+        "access": "Доступ MCP",
+        "accessLocal": "Лише цей пристрій",
+        "accessLan": "LAN",
+        "token": "Токен MCP",
+        "tokenMissing": "Не створено",
+        "tokenGenerated": "Створено",
+        "generateToken": "Створити",
+        "regenerateToken": "Створити повторно",
+        "copyToken": "Копіювати"
       }
     },
     "ar": {
@@ -1266,6 +1300,10 @@
         "computerID": {
           "title": "Ідентифікатор комп'ютера",
           "info": "Ідентифікатор, який використовується ARG, необхідний для успішного з'єднання."
+        },
+        "clockDiff": {
+          "title": "Різниця годинників",
+          "info": "Різниця часу між ПК завелика і може спричинити проблеми під час захоплення вбивств. Синхронізуйте системні годинники на обох машинах перед використанням Replays наживо."
         }
       },
       "aco": {

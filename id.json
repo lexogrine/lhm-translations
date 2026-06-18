@@ -625,7 +625,14 @@
       "stageInProgress": "Tahap grup masih berjalan. Pembuatan playoff akan tersedia setelah tahap grup selesai.",
       "missingMatches": "Pertandingan Hilang Terdeteksi",
       "matchesDeleted": "Beberapa pertandingan telah dihapus. Klik di bawah untuk memulihkan semua pertandingan dari ronde pertama yang hilang.",
-      "restoreAllMatches": "Pulihkan semua pertandingan"
+      "restoreAllMatches": "Pulihkan semua pertandingan",
+      "emptyList": "Belum ada turnamen. Buat turnamen pertamamu.",
+      "teamsCount": "{{count}} tim",
+      "maxTeamsAllowed": "Maksimal {{max}} tim diizinkan dalam satu turnamen.",
+      "maxTeamsHint": "Maksimal {{max}} tim.",
+      "byeSlot": "BYE",
+      "byeSlotsInfo": "Slot BYE: {{count}}. Seret tim dan slot BYE untuk mengatur pasangan babak pertama.",
+      "byeSlotsNone": "Slot BYE: 0"
     },
     "match": {
       "matches": "Pertandingan",
@@ -690,7 +697,8 @@
       "questionOpponentPick": "Apakah lawan memilih satu sisi?",
       "reversedSides": "Sisi terbalik",
       "mapList": "Daftar peta",
-      "generateGet5Config": "Menghasilkan Konfigurasi Get5"
+      "generateGet5Config": "Menghasilkan Konfigurasi Get5",
+      "emptyList": "Belum ada pertandingan. Buat pertandingan pertamamu."
     },
     "credits": {
       "header": "Kredit",
@@ -750,12 +758,23 @@
           "ndiSourceForDelayedGame": "Sumber NDI untuk Permainan Tertunda",
           "pickSource": "PILIH SUMBER",
           "setSource": "Tetapkan sumber",
-          "refreshSources": "Menyegarkan sumber"
+          "refreshSources": "Menyegarkan sumber",
+          "ndiSourceForDelayedGameHelp": "Jika kamu ingin melakukan streaming seluruh layar PC yang tertunda, pilih sumber dengan nama host PC tertunda yang berakhiran (Desktop) atau (Display).",
+          "chooseOutputMixer": "Pilih mixer yang akan digunakan untuk output Replay Feed.",
+          "configureVMixConnection": "Masukkan detail koneksi vMix.",
+          "configureVMixConnectionHelp": "Di vMix, buka Settings > Web Controller dan salin detail URL lengkap dari sana.",
+          "configureObsConnection": "Masukkan detail koneksi OBS.",
+          "configureObsConnectionHelp": "Di OBS, buka Tools > WebSocket Server Settings, aktifkan WebSocket Server, klik Show Connect Info, lalu salin IP, port, dan kata sandi.",
+          "configureLater": "Konfigurasikan nanti"
         },
         "requestModal": {
           "title": "Permintaan Putar Ulang LHM",
           "anotherLhmInTheLocal": "LHM lain dalam jaringan lokal ingin PC ini digunakan sebagai mesin Replay",
           "doYouWish": "Apakah Anda ingin menerima koneksi yang masuk?"
+        },
+        "connectionRejected": {
+          "title": "Koneksi Replay ditolak",
+          "workspaceMismatch": "Pengguna dari workspace {{workspaceName}} mencoba terhubung ke PC ini."
         }
       }
     },
@@ -824,10 +843,13 @@
           "bakkesModNotInstalled": "BakkesMod tidak terinstal",
           "sosNotInstalled": "Plugin SOS tidak diinstal",
           "notConfigured": "Tidak dikonfigurasi",
-          "installed": "Terpasang"
+          "installed": "Terpasang",
+          "notFound": "Rocket League tidak ditemukan",
+          "configured": "Terkonfigurasi"
         },
         "refresh": "Menyegarkan",
-        "install": "Memasang"
+        "install": "Memasang",
+        "configure": "Konfigurasi"
       },
       "serverClient": {
         "client": "Klien (Jaringan lokal)",
@@ -928,6 +950,18 @@
         "cta": {
           "cta": "Tampilkan penawaran implementasi HUD Kustom Lexogrine di tab HUD"
         }
+      },
+      "mcp": {
+        "server": "Server MCP",
+        "access": "Akses MCP",
+        "accessLocal": "Hanya perangkat ini",
+        "accessLan": "LAN",
+        "token": "Token MCP",
+        "tokenMissing": "Belum dibuat",
+        "tokenGenerated": "Dibuat",
+        "generateToken": "Buat",
+        "regenerateToken": "Buat ulang",
+        "copyToken": "Salin"
       }
     },
     "ar": {
@@ -1266,6 +1300,10 @@
         "computerID": {
           "title": "ID Komputer",
           "info": "ID yang digunakan oleh ARG, diperlukan untuk koneksi yang berhasil."
+        },
+        "clockDiff": {
+          "title": "Perbedaan jam",
+          "info": "Perbedaan jam antara PC terlalu besar dan dapat menyebabkan masalah saat menangkap kill. Sinkronkan jam sistem di kedua mesin sebelum menggunakan Replays secara live."
         }
       },
       "aco": {

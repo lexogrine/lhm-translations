@@ -625,7 +625,14 @@
       "stageInProgress": "小组赛仍在进行中。小组赛结束后即可创建季后赛。",
       "missingMatches": "检测到缺失比赛",
       "matchesDeleted": "部分比赛已被删除。点击下方可从第一轮缺失处恢复所有比赛。",
-      "restoreAllMatches": "恢复所有比赛"
+      "restoreAllMatches": "恢复所有比赛",
+      "emptyList": "还没有赛事。创建你的第一个赛事。",
+      "teamsCount": "{{count}} 支队伍",
+      "maxTeamsAllowed": "一个赛事最多允许 {{max}} 支队伍。",
+      "maxTeamsHint": "最多 {{max}} 支队伍。",
+      "byeSlot": "轮空",
+      "byeSlotsInfo": "轮空席位：{{count}}。拖动队伍和轮空席位以设置第一轮对阵。",
+      "byeSlotsNone": "轮空席位：0"
     },
     "match": {
       "matches": "比赛",
@@ -690,7 +697,8 @@
       "questionOpponentPick": "对手选边吗？",
       "reversedSides": "反面",
       "mapList": "地图列表",
-      "generateGet5Config": "生成 Get5 配置"
+      "generateGet5Config": "生成 Get5 配置",
+      "emptyList": "还没有比赛。创建你的第一场比赛。"
     },
     "credits": {
       "header": "积分",
@@ -750,12 +758,23 @@
           "ndiSourceForDelayedGame": "延迟游戏的 NDI 资源",
           "pickSource": "PICK SOURCE",
           "setSource": "设置信号源",
-          "refreshSources": "刷新来源"
+          "refreshSources": "刷新来源",
+          "ndiSourceForDelayedGameHelp": "如果你想直播延迟电脑的整个屏幕，请选择以延迟电脑主机名结尾为 (Desktop) 或 (Display) 的源。",
+          "chooseOutputMixer": "选择用于 Replay Feed 输出的混音器。",
+          "configureVMixConnection": "输入 vMix 连接详情。",
+          "configureVMixConnectionHelp": "在 vMix 中，进入 Settings > Web Controller，并复制那里的完整 URL 详情。",
+          "configureObsConnection": "输入 OBS 连接详情。",
+          "configureObsConnectionHelp": "在 OBS 中，进入 Tools > WebSocket Server Settings，启用 WebSocket Server，点击 Show Connect Info，然后复制 IP、端口和密码。",
+          "configureLater": "稍后配置"
         },
         "requestModal": {
           "title": "LHM 重放请求",
           "anotherLhmInTheLocal": "本地网络中的另一台 LHM 希望将这台 PC 用作重播机",
           "doYouWish": "您希望接受传入的连接吗？"
+        },
+        "connectionRejected": {
+          "title": "回放连接被拒绝",
+          "workspaceMismatch": "来自工作区 {{workspaceName}} 的用户尝试连接到此电脑。"
         }
       }
     },
@@ -824,10 +843,13 @@
           "bakkesModNotInstalled": "未安装 BakkesMod",
           "sosNotInstalled": "未安装SOS插件",
           "notConfigured": "未配置",
-          "installed": "已安装"
+          "installed": "已安装",
+          "notFound": "未找到 Rocket League",
+          "configured": "已配置"
         },
         "refresh": "刷新",
-        "install": "安装"
+        "install": "安装",
+        "configure": "配置"
       },
       "serverClient": {
         "client": "客户端（本地网络）",
@@ -928,6 +950,18 @@
         "cta": {
           "cta": "在 HUD 标签中显示 Lexogrine 自定义 HUD 实施方案"
         }
+      },
+      "mcp": {
+        "server": "MCP 服务器",
+        "access": "MCP 访问",
+        "accessLocal": "仅此设备",
+        "accessLan": "局域网",
+        "token": "MCP 令牌",
+        "tokenMissing": "未生成",
+        "tokenGenerated": "已生成",
+        "generateToken": "生成",
+        "regenerateToken": "重新生成",
+        "copyToken": "复制"
       }
     },
     "ar": {
@@ -1266,6 +1300,10 @@
         "computerID": {
           "title": "计算机 ID",
           "info": "ARG 使用的 ID，连接成功时需要使用。"
+        },
+        "clockDiff": {
+          "title": "时钟差异",
+          "info": "两台电脑之间的时钟差异过大，可能会导致捕获击杀时出现问题。请在直播使用 Replays 前同步两台机器的系统时钟。"
         }
       },
       "aco": {

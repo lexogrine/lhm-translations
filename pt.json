@@ -625,7 +625,14 @@
       "stageInProgress": "A fase de grupos ainda está em andamento. A criação de playoffs estará disponível assim que a fase de grupos terminar.",
       "missingMatches": "Partidas Ausentes Detectadas",
       "matchesDeleted": "Algumas partidas foram excluídas. Clique abaixo para restaurar todas as partidas a partir da primeira rodada ausente.",
-      "restoreAllMatches": "Restaurar todas as partidas"
+      "restoreAllMatches": "Restaurar todas as partidas",
+      "emptyList": "Sem torneios ainda. Crie seu primeiro torneio.",
+      "teamsCount": "{{count}} equipes",
+      "maxTeamsAllowed": "No máximo {{max}} equipes permitidas em um torneio.",
+      "maxTeamsHint": "Máximo de {{max}} equipes.",
+      "byeSlot": "BYE",
+      "byeSlotsInfo": "Vagas BYE: {{count}}. Arraste equipes e vagas BYE para definir os confrontos da primeira rodada.",
+      "byeSlotsNone": "Vagas BYE: 0"
     },
     "match": {
       "matches": "Jogos",
@@ -690,7 +697,8 @@
       "questionOpponentPick": "O adversário escolhe um lado?",
       "reversedSides": "Lados invertidos",
       "mapList": "Lista de mapas",
-      "generateGet5Config": "Gerar Get5 Config"
+      "generateGet5Config": "Gerar Get5 Config",
+      "emptyList": "Sem partidas ainda. Crie sua primeira partida."
     },
     "credits": {
       "header": "Créditos",
@@ -750,12 +758,23 @@
           "ndiSourceForDelayedGame": "Fonte NDI para o jogo adiado",
           "pickSource": "FONTE DE ESCOLHA",
           "setSource": "Definir fonte",
-          "refreshSources": "Atualizar fontes"
+          "refreshSources": "Atualizar fontes",
+          "ndiSourceForDelayedGameHelp": "Se você quiser transmitir a tela inteira do PC com atraso, escolha uma fonte cujo nome do host do PC com atraso termine com (Desktop) ou (Display).",
+          "chooseOutputMixer": "Escolha qual mixer deve ser usado para a saída do Replay Feed.",
+          "configureVMixConnection": "Insira os detalhes de conexão do vMix.",
+          "configureVMixConnectionHelp": "No vMix, vá para Settings > Web Controller e copie os detalhes completos da URL de lá.",
+          "configureObsConnection": "Insira os detalhes de conexão do OBS.",
+          "configureObsConnectionHelp": "No OBS, vá para Tools > WebSocket Server Settings, ative WebSocket Server, clique em Show Connect Info e copie o IP, a porta e a senha.",
+          "configureLater": "Configurar depois"
         },
         "requestModal": {
           "title": "Pedido de repetição LHM",
           "anotherLhmInTheLocal": "Outro LHM na rede local quer que este PC seja utilizado como máquina de repetição",
           "doYouWish": "Deseja aceitar a ligação de entrada?"
+        },
+        "connectionRejected": {
+          "title": "Conexão de replay rejeitada",
+          "workspaceMismatch": "Um usuário do workspace {{workspaceName}} tentou se conectar a este PC."
         }
       }
     },
@@ -824,10 +843,13 @@
           "bakkesModNotInstalled": "BakkesMod não instalado",
           "sosNotInstalled": "Plugin SOS não instalado",
           "notConfigured": "Não configurado",
-          "installed": "Instalado"
+          "installed": "Instalado",
+          "notFound": "Rocket League não encontrado",
+          "configured": "Configurado"
         },
         "refresh": "Atualizar",
-        "install": "Instalar"
+        "install": "Instalar",
+        "configure": "Configurar"
       },
       "serverClient": {
         "client": "Cliente (Rede local)",
@@ -928,6 +950,18 @@
         "cta": {
           "cta": "Mostrar a oferta de implementação do HUD personalizado da Lexogrine no separador HUD"
         }
+      },
+      "mcp": {
+        "server": "Servidor MCP",
+        "access": "Acesso MCP",
+        "accessLocal": "Somente este dispositivo",
+        "accessLan": "LAN",
+        "token": "Token MCP",
+        "tokenMissing": "Não gerado",
+        "tokenGenerated": "Gerado",
+        "generateToken": "Gerar",
+        "regenerateToken": "Gerar novamente",
+        "copyToken": "Copiar"
       }
     },
     "ar": {
@@ -1266,6 +1300,10 @@
         "computerID": {
           "title": "ID do computador",
           "info": "ID utilizado pelo ARG, necessário para uma ligação bem sucedida."
+        },
+        "clockDiff": {
+          "title": "Diferença de relógio",
+          "info": "A diferença de relógio entre os PCs é grande demais e pode causar problemas ao capturar abates. Sincronize os relógios do sistema nas duas máquinas antes de usar Replays ao vivo."
         }
       },
       "aco": {

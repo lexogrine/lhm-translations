@@ -615,8 +615,15 @@
       "defaultBoEdit": "Domyślny format Best Of (dla nowych meczów)",
       "teamOrderList": "Lista kolejności drużyn",
       "tournamentStructure": "Struktura turnieju",
+      "emptyList": "Brak turniejów. Utwórz swój pierwszy turniej.",
       "availableTeams": "Dostępne drużyny",
       "selectedTeams": "Wybrane drużyny",
+      "teamsCount": "{{count}} drużyn",
+      "maxTeamsAllowed": "Maksymalnie {{max}} drużyn w turnieju.",
+      "maxTeamsHint": "Maksymalnie {{max}} drużyn.",
+      "byeSlot": "BYE",
+      "byeSlotsInfo": "Sloty BYE: {{count}}. Przeciągnij drużyny i sloty BYE, aby ustawić pary pierwszej rundy.",
+      "byeSlotsNone": "Sloty BYE: 0",
       "qualifiedTeams": "Zakwalifikowane drużyny",
       "qualified": "Zakwalifikowane",
       "eliminated": "Wyeliminowane",
@@ -655,6 +662,7 @@
         "date": "Data",
         "time": "Godzina"
       },
+      "emptyList": "Brak meczów. Utwórz swój pierwszy mecz.",
       "wins": "WINS",
       "wrongTeamSelected": "Wybrano niewłaściwą drużynę",
       "vetoType": {
@@ -748,14 +756,25 @@
           "youAreStartingArg": "Rozpoczynasz ARG z dwoma połączonymi LHM",
           "whichModeDoYou": "Którego trybu chcesz użyć do generowania powtórek?",
           "ndiSourceForDelayedGame": "Źródło NDI dla opóźnionej gry",
+          "ndiSourceForDelayedGameHelp": "Jeśli chcesz transmitować cały ekran opóźnionego komputera, wybierz źródło z nazwą hosta tego komputera zakończoną na (Desktop) lub (Display).",
           "pickSource": "ŹRÓDŁO PICKU",
           "setSource": "Ustaw źródło",
-          "refreshSources": "Odśwież źródła"
+          "refreshSources": "Odśwież źródła",
+          "chooseOutputMixer": "Wybierz mikser, który ma być używany jako wyjście Replay Feed.",
+          "configureVMixConnection": "Wprowadź dane połączenia z vMix.",
+          "configureVMixConnectionHelp": "W vMix przejdź do Settings > Web Controller i skopiuj stamtąd pełne dane URL.",
+          "configureObsConnection": "Wprowadź dane połączenia z OBS.",
+          "configureObsConnectionHelp": "W OBS przejdź do Tools > WebSocket Server Settings, włącz WebSocket Server, kliknij Show Connect Info i skopiuj IP, port oraz hasło.",
+          "configureLater": "Skonfiguruj później"
         },
         "requestModal": {
           "title": "Żądanie powtórki LHM",
           "anotherLhmInTheLocal": "Inny LHM w sieci lokalnej chce, aby ten komputer był używany jako urządzenie do odtwarzania",
           "doYouWish": "Czy chcesz zaakceptować połączenie przychodzące?"
+        },
+        "connectionRejected": {
+          "title": "Połączenie powtórek odrzucone",
+          "workspaceMismatch": "Użytkownik z obszaru roboczego {{workspaceName}} próbował połączyć się z tym komputerem."
         }
       }
     },
@@ -823,17 +842,32 @@
           "busy": "Zajęty...",
           "bakkesModNotInstalled": "BakkesMod nie jest zainstalowany",
           "sosNotInstalled": "SOS Plugin nie jest zainstalowany",
+          "notFound": "Nie znaleziono Rocket League",
           "notConfigured": "Nie skonfigurowano",
+          "configured": "Skonfigurowano",
           "installed": "Zainstalowano"
         },
         "refresh": "Odśwież",
-        "install": "Zainstaluj"
+        "install": "Zainstaluj",
+        "configure": "Skonfiguruj"
       },
       "serverClient": {
         "client": "Klient (sieć lokalna)",
         "server": "Serwer (sieć lokalna)",
         "client_global": "Klient (poza siecią lokalną)",
         "server_global": "Serwer (poza siecią lokalną)"
+      },
+      "mcp": {
+        "server": "Serwer MCP",
+        "access": "Dostęp MCP",
+        "accessLocal": "Tylko to urządzenie",
+        "accessLan": "LAN",
+        "token": "Token MCP",
+        "tokenMissing": "Nie wygenerowano",
+        "tokenGenerated": "Wygenerowano",
+        "generateToken": "Wygeneruj",
+        "regenerateToken": "Wygeneruj ponownie",
+        "copyToken": "Kopiuj"
       },
       "languages": {
         "default_latin": "Domyślnie (Latin)",
@@ -1266,6 +1300,10 @@
         "computerID": {
           "title": "ID komputera",
           "info": "Identyfikator używany przez ARG, wymagany do pomyślnego połączenia."
+        },
+        "clockDiff": {
+          "title": "Różnica zegarów",
+          "info": "Różnica czasu między komputerami jest zbyt duża i może powodować problemy podczas przechwytywania zabójstw. Zsynchronizuj zegary systemowe na obu komputerach przed użyciem Replays na żywo."
         }
       },
       "aco": {

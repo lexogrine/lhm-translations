@@ -625,7 +625,14 @@
       "stageInProgress": "Grup aşaması hâlâ devam ediyor. Playoff oluşturma, grup aşaması tamamlandığında kullanılabilir olacaktır.",
       "missingMatches": "Eksik maçlar tespit edildi",
       "matchesDeleted": "Bazı maçlar silinmiş. İlk eksik turdan itibaren tüm maçları geri yüklemek için aşağıya tıklayın.",
-      "restoreAllMatches": "Tüm maçları geri yükle"
+      "restoreAllMatches": "Tüm maçları geri yükle",
+      "emptyList": "Henüz turnuva yok. İlk turnuvanı oluştur.",
+      "teamsCount": "{{count}} Takım",
+      "maxTeamsAllowed": "Bir turnuvada en fazla {{max}} takım olabilir.",
+      "maxTeamsHint": "En fazla {{max}} takım.",
+      "byeSlot": "BYE",
+      "byeSlotsInfo": "BYE slotları: {{count}}. İlk tur eşleşmelerini ayarlamak için takımları ve BYE slotlarını sürükle.",
+      "byeSlotsNone": "BYE slotları: 0"
     },
     "match": {
       "matches": "Eşleşmeler",
@@ -690,7 +697,8 @@
       "questionOpponentPick": "Rakip bir taraf seçer mi?",
       "reversedSides": "Ters çevrilmiş taraflar",
       "mapList": "Harita listesi",
-      "generateGet5Config": "Get5 Konfigürasyonu Oluştur"
+      "generateGet5Config": "Get5 Konfigürasyonu Oluştur",
+      "emptyList": "Henüz maç yok. İlk maçını oluştur."
     },
     "credits": {
       "header": "Krediler",
@@ -750,12 +758,23 @@
           "ndiSourceForDelayedGame": "Gecikmeli Oyun için NDI Kaynağı",
           "pickSource": "KAYNAK SEÇİN",
           "setSource": "Kaynağı ayarla",
-          "refreshSources": "Kaynakları yenileyin"
+          "refreshSources": "Kaynakları yenileyin",
+          "ndiSourceForDelayedGameHelp": "Gecikmeli PC'nin tüm ekranını yayınlamak istiyorsan, gecikmeli PC ana bilgisayar adı (Desktop) veya (Display) ile biten bir kaynak seç.",
+          "chooseOutputMixer": "Replay Feed çıkışı için hangi mikserin kullanılacağını seç.",
+          "configureVMixConnection": "vMix bağlantı bilgilerini gir.",
+          "configureVMixConnectionHelp": "vMix'te Settings > Web Controller bölümüne git ve tam URL bilgilerini oradan kopyala.",
+          "configureObsConnection": "OBS bağlantı bilgilerini gir.",
+          "configureObsConnectionHelp": "OBS'te Tools > WebSocket Server Settings bölümüne git, WebSocket Server'ı etkinleştir, Show Connect Info'ya tıkla ve IP, port ile parolayı kopyala.",
+          "configureLater": "Daha sonra yapılandır"
         },
         "requestModal": {
           "title": "LHM Tekrar Oynatma Talebi",
           "anotherLhmInTheLocal": "Yerel ağdaki başka bir LHM bu bilgisayarın Tekrar Oynatma makinesi olarak kullanılmasını istiyor",
           "doYouWish": "Gelen bağlantıyı kabul etmek istiyor musunuz?"
+        },
+        "connectionRejected": {
+          "title": "Replay bağlantısı reddedildi",
+          "workspaceMismatch": "{{workspaceName}} workspace'inden bir kullanıcı bu PC'ye bağlanmaya çalıştı."
         }
       }
     },
@@ -824,10 +843,13 @@
           "bakkesModNotInstalled": "BakkesMod yüklü değil",
           "sosNotInstalled": "SOS Eklentisi yüklü değil",
           "notConfigured": "Yapılandırılmamış",
-          "installed": "Yüklendi"
+          "installed": "Yüklendi",
+          "notFound": "Rocket League bulunamadı",
+          "configured": "Yapılandırıldı"
         },
         "refresh": "Yenile",
-        "install": "Kurulum"
+        "install": "Kurulum",
+        "configure": "Yapılandır"
       },
       "serverClient": {
         "client": "İstemci (Yerel ağ)",
@@ -928,6 +950,18 @@
         "cta": {
           "cta": "Lexogrine Özel HUD uygulama teklifini HUD sekmesinde göster"
         }
+      },
+      "mcp": {
+        "server": "MCP sunucusu",
+        "access": "MCP erişimi",
+        "accessLocal": "Yalnızca bu cihaz",
+        "accessLan": "LAN",
+        "token": "MCP tokenı",
+        "tokenMissing": "Oluşturulmadı",
+        "tokenGenerated": "Oluşturuldu",
+        "generateToken": "Oluştur",
+        "regenerateToken": "Yeniden oluştur",
+        "copyToken": "Kopyala"
       }
     },
     "ar": {
@@ -1019,7 +1053,8 @@
         "toggleHUDKeybinds": "HUD Tuş Bağlamalarını Değiştir (Tarayıcı Kaynağı İçin)",
         "clickToCopy": "Kopyalamak için tıklayın",
         "linkCopied": "Bağlantı panoya kopyalandı",
-        "createShortcut": "Masaüstünde kısayol oluşturma"
+        "createShortcut": "Masaüstünde kısayol oluşturma",
+        "openingOverlay": "HUD overlay'de açılıyor..."
       },
       "share": {
         "actions": {
@@ -1265,6 +1300,10 @@
         "computerID": {
           "title": "Bilgisayar Kimliği",
           "info": "ARG tarafından kullanılan ID, başarılı bağlantı için gerekli."
+        },
+        "clockDiff": {
+          "title": "Saat farkı",
+          "info": "PC'ler arasındaki saat farkı çok büyük ve kill yakalarken sorunlara yol açabilir. Replays'i canlı kullanmadan önce iki makinenin sistem saatlerini senkronize et."
         }
       },
       "aco": {

@@ -625,7 +625,14 @@
       "stageInProgress": "Gruppespillet pågår fortsatt. Oppretting av sluttspill vil være tilgjengelig når gruppespillet er fullført.",
       "missingMatches": "Manglende kamper oppdaget",
       "matchesDeleted": "Noen kamper er slettet. Klikk nedenfor for å gjenopprette alle kampene fra den første manglende runden.",
-      "restoreAllMatches": "Gjenopprett alle treff"
+      "restoreAllMatches": "Gjenopprett alle treff",
+      "emptyList": "Ingen turneringer ennå. Opprett din første turnering.",
+      "teamsCount": "{{count}} lag",
+      "maxTeamsAllowed": "Maks {{max}} lag tillatt i en turnering.",
+      "maxTeamsHint": "Maks {{max}} lag.",
+      "byeSlot": "BYE",
+      "byeSlotsInfo": "BYE-plasser: {{count}}. Dra lag og BYE-plasser for å sette opp parene i første runde.",
+      "byeSlotsNone": "BYE-plasser: 0"
     },
     "match": {
       "matches": "Kamper",
@@ -690,7 +697,8 @@
       "questionOpponentPick": "Velger motstanderen side?",
       "reversedSides": "Omvendte sider",
       "mapList": "Kartliste",
-      "generateGet5Config": "Generer Get5 Config"
+      "generateGet5Config": "Generer Get5 Config",
+      "emptyList": "Ingen kamper ennå. Opprett din første kamp."
     },
     "credits": {
       "header": "Medvirkende",
@@ -750,12 +758,23 @@
           "ndiSourceForDelayedGame": "NDI-kilde for forsinket spill",
           "pickSource": "PICK SOURCE",
           "setSource": "Angi kilde",
-          "refreshSources": "Oppdater kilder"
+          "refreshSources": "Oppdater kilder",
+          "ndiSourceForDelayedGameHelp": "Hvis du vil strømme hele skjermen fra den forsinkede PC-en, velger du en kilde der vertsnavnet til den forsinkede PC-en slutter med (Desktop) eller (Display).",
+          "chooseOutputMixer": "Velg hvilken mikser som skal brukes for Replay Feed-utgangen.",
+          "configureVMixConnection": "Angi tilkoblingsdetaljene for vMix.",
+          "configureVMixConnectionHelp": "I vMix går du til Settings > Web Controller og kopierer de fullstendige URL-detaljene derfra.",
+          "configureObsConnection": "Angi tilkoblingsdetaljene for OBS.",
+          "configureObsConnectionHelp": "I OBS går du til Tools > WebSocket Server Settings, aktiverer WebSocket Server, klikker Show Connect Info og kopierer IP, port og passord.",
+          "configureLater": "Konfigurer senere"
         },
         "requestModal": {
           "title": "LHM Replay Request",
           "anotherLhmInTheLocal": "En annen LHM i det lokale nettverket ønsker at denne PC-en skal brukes som avspillingsmaskin",
           "doYouWish": "Ønsker du å godta den innkommende tilkoblingen?"
+        },
+        "connectionRejected": {
+          "title": "Replay-tilkobling avvist",
+          "workspaceMismatch": "En bruker fra arbeidsområdet {{workspaceName}} prøvde å koble til denne PC-en."
         }
       }
     },
@@ -824,10 +843,13 @@
           "bakkesModNotInstalled": "BakkesMod ikke installert",
           "sosNotInstalled": "SOS Plugin ikke installert",
           "notConfigured": "Ikke konfigurert",
-          "installed": "Installert"
+          "installed": "Installert",
+          "notFound": "Rocket League ikke funnet",
+          "configured": "Konfigurert"
         },
         "refresh": "Oppdater",
-        "install": "Installer"
+        "install": "Installer",
+        "configure": "Konfigurer"
       },
       "serverClient": {
         "client": "Klient (lokalt nettverk)",
@@ -928,6 +950,18 @@
         "cta": {
           "cta": "Vis tilbud om Lexogrine Custom HUD-implementering i HUD-fanen"
         }
+      },
+      "mcp": {
+        "server": "MCP-server",
+        "access": "MCP-tilgang",
+        "accessLocal": "Bare denne enheten",
+        "accessLan": "LAN",
+        "token": "MCP-token",
+        "tokenMissing": "Ikke generert",
+        "tokenGenerated": "Generert",
+        "generateToken": "Generer",
+        "regenerateToken": "Generer på nytt",
+        "copyToken": "Kopier"
       }
     },
     "ar": {
@@ -1266,6 +1300,10 @@
         "computerID": {
           "title": "Datamaskin-ID",
           "info": "ID som brukes av ARG, nødvendig for vellykket tilkobling."
+        },
+        "clockDiff": {
+          "title": "Klokkeforskjell",
+          "info": "Klokkeforskjellen mellom PC-ene er for stor og kan føre til problemer når kills fanges. Synkroniser systemklokkene på begge maskinene før du bruker Replays live."
         }
       },
       "aco": {
