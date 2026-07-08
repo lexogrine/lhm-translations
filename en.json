@@ -232,6 +232,9 @@
           "description": "Keyboard mode simulates keypresses to control the game. It has no additional requirements, but the game has to be in focus to receive keypresses, and in-game keybinds related to camera control have to be set to defaults."
         }
       },
+      "scoutFollowSide": {
+        "label": "Follow side"
+      },
       "scoutVisionTakeoverControl": {
         "label": "Manual takeover"
       },
@@ -912,7 +915,10 @@
           "refreshHud": "Refresh HUD",
           "toggleDirector": "Toggle Scout Vision",
           "toggleScoutPredict": "Toggle Scout Predict",
-          "toggleScoutCinematic": "Toggle Scout Cinematic"
+          "toggleScoutCinematic": "Toggle Scout Cinematic",
+          "setScoutFollowCT": "Set Scout Follow Side: CT",
+          "setScoutFollowDefault": "Set Scout Follow Side: Default",
+          "setScoutFollowT": "Set Scout Follow Side: T"
         },
         "streamDeck": {
           "unavailable": "Unavailable"
