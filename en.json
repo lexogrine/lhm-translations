@@ -916,9 +916,9 @@
           "toggleDirector": "Toggle Scout Vision",
           "toggleScoutPredict": "Toggle Scout Predict",
           "toggleScoutCinematic": "Toggle Scout Cinematic",
-          "setScoutFollowCT": "Set Scout Follow Side: CT",
-          "setScoutFollowDefault": "Set Scout Follow Side: Default",
-          "setScoutFollowT": "Set Scout Follow Side: T"
+          "setScoutFollowCT": "Scout Follow CT",
+          "setScoutFollowDefault": "Scout Follow Default",
+          "setScoutFollowT": "Scout Follow T"
         },
         "streamDeck": {
           "unavailable": "Unavailable"
