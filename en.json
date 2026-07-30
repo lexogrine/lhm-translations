@@ -874,6 +874,11 @@
         "refresh": "Refresh",
         "configure": "Configure"
       },
+      "studio": {
+        "sceneCollections": "Scene Collections",
+        "downloadOBS": "Download OBS Collection",
+        "downloadVMix": "Download VMix Collection"
+      },
       "serverClient": {
         "client": "Client (Local network)",
         "server": "Server (Local network)",
