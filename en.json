@@ -785,6 +785,17 @@
       "noAccount": "Don't have an account?",
       "registerNow": "Register now!",
       "forgot": "Forgot password?",
+      "desktopAuth": {
+        "finishInBrowser": "Finish signing in in your browser.",
+        "codeExpiresAt": "This code expires at {{time}}.",
+        "openVerificationUrl": "Open {{url}} and enter this code.",
+        "browserSignInState": "Browser sign-in was {{state}}.",
+        "browserSignInUnavailable": "Browser sign-in is unavailable ({{code}}).",
+        "tosRequired": "Accept the updated Terms of Service on LHM.gg, then try signing in again.",
+        "reviewTerms": "Review Terms of Service",
+        "cancelBrowserSignIn": "Cancel browser sign-in",
+        "signInWithBrowser": "Sign in with browser"
+      },
       "Not logged in": "Not logged in",
       "You need to pass your one-time token": "You need to pass your one-time token",
       "serversUnreachable": "It seems that our servers are unreachable. Please try again in a few minutes",
