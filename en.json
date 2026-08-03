@@ -1481,6 +1481,10 @@
         "slowMode": {
           "title": "Slow Mode",
           "info": "Slow Mode sends API requests through a queue to reduce burst traffic. This can help in restrictive country-wide firewall environments.\nRestart LHM after changing this value for it to take effect."
+        },
+        "showStudioDataInOtherGames": {
+          "title": "Show Studio data in other games",
+          "info": "Shows Studio resources while another game is selected. Studio HUDs can appear in HUD lists, Studio People entries can be used in HUD config panels, and Studio cloud sync is checked together with the current game."
         }
       }
     },
