@@ -16,7 +16,7 @@
       "notLoaded": "Not loaded",
       "vs": "VS",
       "noTeam": "No team",
-      "noPlayer": "No player",
+      "noPlayer": "No person",
       "noMatch": "Match not found",
       "noTournament": "No tournament",
       "noValue": "Default",
@@ -880,7 +880,8 @@
       "subheaders": {
         "lhm": "LHM",
         "cloud": "LHM Cloud",
-        "additional": "Additional"
+        "additional": "Additional",
+        "studio": "Studio"
       },
       "f1": {
         "add": "Add integration",
@@ -926,6 +927,14 @@
         "generateToken": "Generate",
         "regenerateToken": "Regenerate",
         "copyToken": "Copy"
+      },
+      "streamDeck": {
+        "integration": "Stream Deck integration",
+        "connected": "Connected",
+        "disconnected": "Disconnected",
+        "lastSeen": "Last seen: {{time}}",
+        "neverConnected": "No heartbeat received yet",
+        "pluginVersion": "Plugin v{{version}}"
       },
       "languages": {
         "default_latin": "Default (Latin)",
