@@ -786,13 +786,13 @@
       "registerNow": "Zarejestruj się teraz!",
       "forgot": "Zapomniałeś hasła?",
       "desktopAuth": {
-        "finishInBrowser": "Dokończ logowanie w przeglądarce.",
+        "finishInBrowser": "Dokończ logowanie w przeglądarce. W razie pytania o kod, wprowadź:",
         "codeExpiresAt": "Ten kod wygasa o {{time}}.",
         "openVerificationUrl": "Otwórz {{url}} i wpisz ten kod.",
         "browserSignInState": "Logowanie w przeglądarce: {{state}}.",
         "browserSignInUnavailable": "Logowanie w przeglądarce jest niedostępne ({{code}}).",
         "errors": {
-          "connectivity": "Nie można połączyć się z usługą logowania. Sprawdź połączenie z internetem oraz VPN lub Tailscale i spróbuj ponownie.",
+          "connectivity": "Nie można połączyć się z usługą logowania. Sprawdź połączenie z internetem oraz VPN i spróbuj ponownie.",
           "server": "Usługa logowania ma chwilowy problem. Spróbuj ponownie za kilka minut.",
           "unavailable": "Logowanie przez przeglądarkę nie jest dostępne w tej wersji LHM lub serwera. Nadal możesz zalogować się adresem e-mail i hasłem.",
           "unexpectedResponse": "Usługa logowania zwróciła nieoczekiwaną odpowiedź. Spróbuj ponownie, a jeśli problem nie ustąpi, skontaktuj się ze wsparciem.",
@@ -805,7 +805,8 @@
         "tosRequired": "Zaakceptuj zaktualizowane Warunki korzystania z LHM.gg, a następnie spróbuj zalogować się ponownie.",
         "reviewTerms": "Sprawdź Warunki korzystania",
         "cancelBrowserSignIn": "Anuluj logowanie w przeglądarce",
-        "signInWithBrowser": "Zaloguj przez przeglądarkę"
+        "signInWithBrowser": "Zaloguj przez przeglądarkę",
+        "retry": "Spróbuj ponownie"
       },
       "Not logged in": "Nie jesteś zalogowany",
       "You need to pass your one-time token": "Podaj swój kod weryfikacyjny (TOTP)",

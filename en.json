@@ -812,13 +812,13 @@
       "registerNow": "Register now!",
       "forgot": "Forgot password?",
       "desktopAuth": {
-        "finishInBrowser": "Finish signing in in your browser.",
+        "finishInBrowser": "Finish signing in in your browser. If asked for a code, enter:",
         "codeExpiresAt": "This code expires at {{time}}.",
         "openVerificationUrl": "Open {{url}} and enter this code.",
         "browserSignInState": "Browser sign-in was {{state}}.",
         "browserSignInUnavailable": "Browser sign-in is unavailable ({{code}}).",
         "errors": {
-          "connectivity": "Cannot reach the sign-in service. Check your internet connection and any VPN or Tailscale connection, then try again.",
+          "connectivity": "Cannot reach the sign-in service. Check your internet connection and any VPN connection, then try again.",
           "server": "The sign-in service is having a temporary problem. Please try again in a few minutes.",
           "unavailable": "Browser sign-in is not available in this LHM or server version. You can still sign in with email and password.",
           "unexpectedResponse": "The sign-in service returned an unexpected response. Please try again or contact support if the problem continues.",
@@ -831,7 +831,8 @@
         "tosRequired": "Accept the updated Terms of Service on LHM.gg, then try signing in again.",
         "reviewTerms": "Review Terms of Service",
         "cancelBrowserSignIn": "Cancel browser sign-in",
-        "signInWithBrowser": "Sign in with browser"
+        "signInWithBrowser": "Sign in with browser",
+        "retry": "Try again"
       },
       "Not logged in": "Not logged in",
       "You need to pass your one-time token": "You need to pass your one-time token",
