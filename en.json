@@ -16,7 +16,7 @@
       "notLoaded": "Not loaded",
       "vs": "VS",
       "noTeam": "No team",
-      "noPlayer": "No player",
+      "noPlayer": "No person",
       "noMatch": "Match not found",
       "noTournament": "No tournament",
       "noValue": "Default",
@@ -27,11 +27,14 @@
       "map": "Map",
       "team": "Team",
       "players": "Players",
+      "people": "People",
+      "overlays": "Overlays",
       "editDraft": "Edit Draft",
       "realName": "Real name",
       "player": "Player",
       "noDraftData": "No draft data",
       "champion": "Champion",
+      "person": "Person",
       "teams": "Teams",
       "team1": "Team 1",
       "team2": "Team 2",
@@ -155,12 +158,14 @@
     },
     "titles": {
       "players": "Players",
+      "people": "People",
       "teams": "Teams",
       "arg": "Replays",
       "aco": "Scout AI",
       "ar": "Augmented Reality",
       "cgpanel": "CG Mode",
       "huds": "HUDs",
+      "overlays": "Overlays",
       "matches": "Matches",
       "tournaments": "Tournaments",
       "live": "Live",
@@ -231,6 +236,9 @@
           "label": "Keyboard",
           "description": "Keyboard mode simulates keypresses to control the game. It has no additional requirements, but the game has to be in focus to receive keypresses, and in-game keybinds related to camera control have to be set to defaults."
         }
+      },
+      "scoutFollowSide": {
+        "label": "Follow side"
       },
       "scoutVisionTakeoverControl": {
         "label": "Manual takeover"
@@ -436,11 +444,27 @@
       "uploadProfile": "Picture",
       "avatarInfo": "Avatar to be used for player images instead of the default from Steam",
       "addPlayer": "Add Player",
+      "addPerson": "Add Person",
+      "name": "Name",
+      "secondName": "Second name",
       "importPlayersTitle": "Import Players",
+      "importPeopleTitle": "Import People",
       "downloadNamesFile": "Download Names file",
       "importPlayersExcel": "Use our pre-prepared Excel sheet to easily import many players at once.",
+      "importPeopleExcel": "Use a Studio People Excel sheet exported from this tab to import many people at once.",
       "exportPlayers": "Export",
       "avatar": "Avatar",
+      "picture": "Picture",
+      "personImageInfo": "Picture to be used for person images",
+      "socialLinks": {
+        "title": "Social links",
+        "instagram": "Instagram",
+        "x": "X",
+        "youtube": "YouTube",
+        "twitch": "Twitch",
+        "kick": "Kick",
+        "linkedin": "LinkedIn"
+      },
       "setAsCoach": "Set as coach"
     },
     "teams": {
@@ -492,6 +516,8 @@
     },
     "navbar": {
       "huds": "HUDs",
+      "overlays": "Overlays",
+      "people": "People",
       "aco": "Scout AI",
       "addons": "Addons",
       "composer": "Composer",
@@ -826,11 +852,31 @@
       "valorantUsernameLanguage": "Valorant Username Character Set",
       "leagueOfLegendsGameLanguage": "League of Legends In-game Font",
       "openValorantScoreboardAutomatically": "Open Valorant Scoreboard automatically",
+      "showStudioDataInOtherGames": "Show Studio data in other games",
       "autoHUDUpload": "Automatic HUDs upload to the cloud",
       "language": "Language",
       "dota2Assets": "Dota 2 Assets",
       "autoHalfSwitch": "Auto half switch (Experimental)",
       "autoSwitch": "Auto switch",
+      "autoSwitchStatus": {
+        "AUTO_SWITCH_DISABLED": "Auto-Switch is off.",
+        "WAITING_FOR_LIVE_DATA": "Waiting for live game data.",
+        "NOT_CURRENT_GAME": "Select this game in LHM first.",
+        "THROTTLED": "Checking again shortly.",
+        "MISSING_LIVE_TEAM_IDS": "No teams selected in the current match.",
+        "NO_SIDE_PLAYERS": "Waiting for players on both sides.",
+        "NO_CURRENT_MATCH": "Select a current match first.",
+        "MULTITEAM_MATCH": "Auto-Switch is not available for multiteam matches.",
+        "CURRENT_MAP_NOT_FOUND": "Current map does not match any veto map.",
+        "NO_MATCHED_PLAYERS": "No matching players found by SteamID.",
+        "LOW_CONFIDENCE": "Not enough known players are on the opposite sides.",
+        "READY": "Ready. Will switch when player sides look reversed.",
+        "SWITCHING": "Switching sides...",
+        "SWITCHED": "Sides switched recently.",
+        "HALFTIME_SWITCHED": "Sides switched for halftime.",
+        "REVERSE_SIDE_FAILED": "Auto-Switch tried to switch sides, but match state blocked it.",
+        "ERROR": "Auto-Switch hit an error. Restart LHM if this persists."
+      },
       "overrideCS2PlayerKeybinds": "Override CS2 Player Keybinds",
       "overrideCS2PlayerKeybindsOptions": {
         "no": "No",
@@ -845,7 +891,8 @@
       "subheaders": {
         "lhm": "LHM",
         "cloud": "LHM Cloud",
-        "additional": "Additional"
+        "additional": "Additional",
+        "studio": "Studio"
       },
       "f1": {
         "add": "Add integration",
@@ -869,6 +916,11 @@
         "refresh": "Refresh",
         "configure": "Configure"
       },
+      "studio": {
+        "sceneCollections": "Scene Collections",
+        "downloadOBS": "Download OBS Collection",
+        "downloadVMix": "Download VMix Collection"
+      },
       "serverClient": {
         "client": "Client (Local network)",
         "server": "Server (Local network)",
@@ -886,6 +938,14 @@
         "generateToken": "Generate",
         "regenerateToken": "Regenerate",
         "copyToken": "Copy"
+      },
+      "streamDeck": {
+        "integration": "Stream Deck integration",
+        "connected": "Connected",
+        "disconnected": "Disconnected",
+        "lastSeen": "Last seen: {{time}}",
+        "neverConnected": "No heartbeat received yet",
+        "pluginVersion": "Plugin v{{version}}"
       },
       "languages": {
         "default_latin": "Default (Latin)",
@@ -934,7 +994,10 @@
           "refreshHud": "Refresh HUD",
           "toggleDirector": "Toggle Scout Vision",
           "toggleScoutPredict": "Toggle Scout Predict",
-          "toggleScoutCinematic": "Toggle Scout Cinematic"
+          "toggleScoutCinematic": "Toggle Scout Cinematic",
+          "setScoutFollowCT": "Scout Follow CT",
+          "setScoutFollowDefault": "Scout Follow Default",
+          "setScoutFollowT": "Scout Follow T"
         },
         "streamDeck": {
           "unavailable": "Unavailable"
@@ -1004,15 +1067,18 @@
         "autoexecute": "Auto-execute",
         "console": "Console",
         "add": "Add HUD",
+        "addOverlay": "Add Overlay",
         "runGame": "Run game",
         "pauseTest": "Pause test",
         "runTest": "Run test",
         "clearOCRData": "Clear OCR Data",
         "openDirectory": "Open HUDs directory",
+        "openOverlaysDirectory": "Open overlays directory",
         "playTestLoop": "Play test loop",
         "ar": "AR",
         "goToKeybinds": "Configure Keybinds",
         "showOnlyActivePlayers": "Show only active players",
+        "showStudioPeopleEntries": "Show Studio People entries",
         "more": "More",
         "hlaeIsRequired": "You must have CS:GO running with HLAE",
         "proOrEntrpriseIsRequired": "You must have a Professional or Enterprise plan",
@@ -1029,6 +1095,7 @@
         "deleteTitle": "Delete {{name}} category",
         "name": "Category name",
         "ungrouped": "Ungrouped",
+        "studioOverlays": "Studio Overlays",
         "deleteInfo": "Are you sure you want to remove {{name}} category? This action will not remove any HUDs."
       },
       "fields": {
@@ -1058,17 +1125,23 @@
       },
       "actions": {
         "toggleUrl": "Toggle HUD URL",
+        "toggleOverlayUrl": "Toggle overlay URL",
         "settings": "Go to HUD settings",
+        "overlaySettings": "Go to overlay settings",
         "shortcut": " Shortcut",
         "overlay": "Start HUD overlay",
+        "startOverlay": "Start overlay",
         "upload": "Upload HUD",
         "uploading": "Uploading...",
         "delete": "Delete",
         "deleteLocally": "Delete HUD locally",
+        "deleteOverlayLocally": "Delete overlay locally",
         "deleteFromCloud": "Delete HUD from cloud",
+        "deleteOverlayFromCloud": "Delete overlay from cloud",
         "downloading": "Downloading...",
         "toggleHUD": "Toggle HUD (Embedded only)",
         "toggleHUDKeybinds": "Toggle HUD Keybinds (For Browser Source)",
+        "toggleOverlayKeybinds": "Toggle overlay keybinds",
         "clickToCopy": "Click to copy",
         "linkCopied": "Link copied to clipboard",
         "openingOverlay": "Opening HUD in overlay...",
@@ -1080,9 +1153,12 @@
         },
         "modal": {
           "title": "Share HUD",
+          "overlayTitle": "Share overlay",
           "description": "Send this HUD to another user by email.",
+          "overlayDescription": "Send this overlay to another user by email.",
           "disclaimer": "The recipient will see your LHM username when they receive this share.",
           "workspaceOwnerDisclaimer": "This HUD belongs to workspace \"{{workspace}}\". Because you are not the workspace owner, the invitation will be sent on behalf of the main Enterprise account.",
+          "overlayWorkspaceOwnerDisclaimer": "This overlay belongs to workspace \"{{workspace}}\". Because you are not the workspace owner, the invitation will be sent on behalf of the main Enterprise account.",
           "emailLabel": "Recipient email",
           "emailPlaceholder": "name@example.com",
           "expiryLabel": "Access duration",
@@ -1141,8 +1217,11 @@
       },
       "error": {
         "title": "Unable to add the HUD",
+        "overlayTitle": "Unable to add the overlay",
         "config": "LHM wasn't able to read the HUD's config file.",
+        "overlayConfig": "LHM wasn't able to read the overlay's config file.",
         "upload": "LHM wasn't able to upload the HUD to the cloud. Try it again later.",
+        "overlayUpload": "LHM wasn't able to upload the overlay to the cloud. Try it again later.",
         "generic": "Something went wrong. Try it again later.",
         "archive": "LHM wasn't able to read the archive file.",
         "source": "It seems like you are uploading source code, instead of the compiled HUD. Please compile the HUD before uploading.",
@@ -1422,6 +1501,10 @@
         "slowMode": {
           "title": "Slow Mode",
           "info": "Slow Mode sends API requests through a queue to reduce burst traffic. This can help in restrictive country-wide firewall environments.\nRestart LHM after changing this value for it to take effect."
+        },
+        "showStudioDataInOtherGames": {
+          "title": "Show Studio data in other games",
+          "info": "Shows Studio resources while another game is selected. Studio HUDs can appear in HUD lists, Studio People entries can be used in HUD config panels, and Studio cloud sync is checked together with the current game."
         }
       }
     },
@@ -1433,10 +1516,12 @@
       "delete": {
         "titleTeams": "Delete teams",
         "titlePlayers": "Delete players",
+        "titlePeople": "Delete people",
         "titleMatches": "Delete matches",
         "titleTournaments": "Delete tournaments",
         "infoTeams": "Are you sure you want to remove {{count}} teams?",
         "infoPlayers": "Are you sure you want to remove {{count}} players?",
+        "infoPeople": "Are you sure you want to remove {{count}} people?",
         "infoTournaments": "Are you sure you want to remove {{count}} tournaments?",
         "infoMatches": "Are you sure you want to remove {{count}} matches?",
         "deleteWithPlayers": "Delete with players",
@@ -1474,6 +1559,8 @@
       "noUploadedResources": "It seems that you haven't uploaded to cloud yet. You can upload your current database, or disable synchronization on this machine",
       "noSyncLocal": "Your local database is not synchronized with the cloud storage. You can download or upload the database or disable synchronization. Be aware, that download will remove what you currently have on this PC, and upload will ERASE cloud storage content. What do you want to do?",
       "error": "There's been an error, so to prevent data-loss we turned off synchronization",
+      "studioOnlyConflict": "Your current game data is already synced, but Studio data needs synchronization. The action you choose applies only to Studio data.",
+      "currentAndStudioConflict": "{{game}} and Studio data both need to be synced. The action you choose will be applied to both databases.",
       "modalTitle": "Synchronization"
     },
     "workspaces": {
