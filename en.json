@@ -678,9 +678,9 @@
       },
       "toggleLive": "LIVE",
       "tabs": {
-        "ended": "ended",
-        "current": "current",
-        "future": "future"
+        "ended": "Ended",
+        "current": "Current",
+        "future": "Future"
       },
       "columns": {
         "match": "Match",
