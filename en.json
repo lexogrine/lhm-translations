@@ -99,6 +99,7 @@
       "decline": "Decline",
       "downloadTemplate": "Download template",
       "clickAndCopy": "Click & Copy",
+      "copied": "Copied",
       "swap": "Swap"
     },
     "chat": {
@@ -535,6 +536,24 @@
       "nextPayment": "Next payment",
       "logout": "Log out",
       "arg": "Replays"
+    },
+    "profile": {
+      "username": "Username",
+      "currentWorkspace": "Current workspace",
+      "role": "Role",
+      "owner": "Owner",
+      "member": "Member",
+      "planStatusLabel": "Plan status",
+      "workspaceSeats": "Workspace seats",
+      "planSeats": "Plan seats",
+      "planStatus": {
+        "active": "Active",
+        "canceled": "Canceled",
+        "past_due": "Past due",
+        "ended": "Ended",
+        "inactive": "Inactive",
+        "unknown": "Unknown"
+      }
     },
     "signals": {
       "removal": {
@@ -1054,6 +1073,9 @@
     },
     "huds": {
       "header": "HUDs",
+      "discover": {
+        "title": "Discover"
+      },
       "workshopToolsModal": {
         "title": "CS2 Workshop Tools Not Found",
         "info": "Counter-Strike 2 Workshop Tools DLC was not detected. It is required to use with LHM when launching CS2 with Killfeed or Scout AI enabled. It is recommended to download it through Steam and to try again.",
