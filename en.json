@@ -1,5 +1,11 @@
 {
   "translation": {
+    "unsavedNavigation": {
+      "title": "Discard unsaved changes?",
+      "message": "You have unsaved changes. Discard them and continue?",
+      "stay": "Stay editing",
+      "discard": "Discard changes"
+    },
     "common": {
       "cgMode": "CG Mode",
       "or": "or",
@@ -501,6 +507,9 @@
     },
     "addons": {
       "upload": "Upload addon",
+      "addon": "Addon",
+      "actions": "Actions",
+      "emptyList": "No addons available.",
       "status": {
         "READY": "Ready",
         "UNINSTALLED": "Uninstalled"
@@ -577,6 +586,7 @@
       "addBranch": "Add Branch",
       "event": "Event",
       "addEvent": "Add Event",
+      "emptyList": "No events yet. Add your first event.",
       "selectEvent": "Select Event",
       "preset": "Preset",
       "addPreset": "Add a new preset",

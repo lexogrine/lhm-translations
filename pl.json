@@ -1,5 +1,11 @@
 {
   "translation": {
+    "unsavedNavigation": {
+      "title": "Odrzucić niezapisane zmiany?",
+      "message": "Masz niezapisane zmiany. Odrzucić je i kontynuować?",
+      "stay": "Kontynuuj edycję",
+      "discard": "Odrzuć zmiany"
+    },
     "common": {
       "cgMode": "Tryb CG",
       "or": "lub",
