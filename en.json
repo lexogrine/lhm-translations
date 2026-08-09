@@ -488,7 +488,8 @@
     "live": {
       "replaceUsernames": "Replace usernames",
       "header": "Live",
-      "noGame": "No game is currently live.",
+      "noGame": "No live match detected",
+      "noGameDescription": "Live match data for {{game}} will appear here automatically when detected.",
       "tipNoOrder": "Players currently in match, click to add a player to the player list.",
       "tip": "Players currently in match, click to add a player to the player list, drag and drop to change the players' order in their teams."
     },
@@ -693,6 +694,7 @@
     },
     "match": {
       "matches": "Matches",
+      "bestOf": "Best of",
       "seriesWins": "Series wins",
       "live": "Live",
       "edit": "Edit match",
@@ -922,6 +924,7 @@
       "valorantMinimalisticGUI": "Minimalistic",
       "valorantIngameInterfaceType": "Valorant In-game Interface Type",
       "valorantUsernameLanguage": "Valorant Username Character Set",
+      "leagueOfLegendsServerMode": "Data Gathering Mode",
       "leagueOfLegendsGameLanguage": "League of Legends In-game Font",
       "openValorantScoreboardAutomatically": "Open Valorant Scoreboard automatically",
       "showStudioDataInOtherGames": "Show Studio data in other games",
@@ -960,11 +963,23 @@
         "info": "This option sets CS2 keybinds 1-0 to match observer player slots shown on the HUD, which is useful when coaches are present on the server.\nTo store the keybinds, you must turn this option off while CS2 is running."
       },
       "header": "Settings",
+      "saveRequired": "Save required",
       "subheaders": {
         "lhm": "LHM",
         "cloud": "LHM Cloud",
         "additional": "Additional",
-        "studio": "Studio"
+        "studio": "Studio",
+        "general": "General",
+        "applicationDevices": "Application & Devices",
+        "currentGame": "Current Game",
+        "cloudSynchronization": "Cloud & Synchronization",
+        "studioBroadcast": "Studio & Broadcast",
+        "advancedApi": "Advanced & API",
+        "helpAbout": "Help & About"
+      },
+      "subgroups": {
+        "configuration": "Configuration",
+        "setupStatus": "Setup & Status"
       },
       "f1": {
         "add": "Add integration",
@@ -1164,7 +1179,7 @@
         "openOverlaysDirectory": "Open overlays directory",
         "playTestLoop": "Play test loop",
         "ar": "AR",
-        "goToKeybinds": "Configure Keybinds",
+        "goToKeybinds": "Keybinds",
         "showOnlyActivePlayers": "Show only active players",
         "showStudioPeopleEntries": "Show Studio People entries",
         "more": "More",
@@ -1216,7 +1231,7 @@
         "toggleOverlayUrl": "Toggle overlay URL",
         "settings": "Go to HUD settings",
         "overlaySettings": "Go to overlay settings",
-        "shortcut": " Shortcut",
+        "shortcut": "Shortcut",
         "overlay": "Start HUD overlay",
         "startOverlay": "Start overlay",
         "upload": "Upload HUD",

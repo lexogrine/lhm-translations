@@ -463,7 +463,8 @@
     "live": {
       "replaceUsernames": "Zastąp nazwy użytkowników",
       "header": "Na żywo",
-      "noGame": "Żadna gra nie jest obecnie na żywo.",
+      "noGame": "Nie wykryto meczu na żywo",
+      "noGameDescription": "Dane meczu {{game}} pojawią się tutaj automatycznie po jego wykryciu.",
       "tipNoOrder": "Zawodnicy aktualnie w meczu, kliknij aby dodać zawodnika do listy zawodników.",
       "tip": "Zawodnicy aktualnie w meczu, kliknij aby dodać zawodnika do listy zawodników, przeciągnij i upuść aby zmienić kolejność zawodników w ich drużynach."
     },
@@ -646,6 +647,7 @@
     },
     "match": {
       "matches": "Mecze",
+      "bestOf": "Format meczu",
       "seriesWins": "Zwycięstwa w serii",
       "live": "Na żywo",
       "edit": "Edytuj mecz",
@@ -875,6 +877,7 @@
       "valorantMinimalisticGUI": "Minimalistyczny",
       "valorantIngameInterfaceType": "Typ interfejsu w grze Valorant",
       "valorantUsernameLanguage": "Zestaw znaków nazwy użytkownika Valorant",
+      "leagueOfLegendsServerMode": "Tryb zbierania danych",
       "leagueOfLegendsGameLanguage": "Czcionka League of Legends w grze",
       "openValorantScoreboardAutomatically": "Automatycznie otwórz tablicę wyników Valorant",
       "autoHUDUpload": "Automatyczne przesyłanie HUD-ów do chmury",
@@ -893,10 +896,22 @@
         "info": "Ta opcja ustawia skróty klawiszowe CS2 1-0 tak, aby pasowały do slotów graczy obserwatora wyświetlanych na HUD-ach, co jest przydatne, gdy na serwerze obecni są trenerzy.\nAby zapisać skróty klawiszowe, musisz wyłączyć tę opcję podczas działania CS2."
       },
       "header": "Ustawienia",
+      "saveRequired": "Wymaga zapisu",
       "subheaders": {
         "lhm": "LHM",
         "cloud": "LHM Cloud",
-        "additional": "Dodatkowe"
+        "additional": "Dodatkowe",
+        "general": "Ogólne",
+        "applicationDevices": "Aplikacja i urządzenia",
+        "currentGame": "Bieżąca gra",
+        "cloudSynchronization": "Chmura i synchronizacja",
+        "studioBroadcast": "Studio i transmisja",
+        "advancedApi": "Zaawansowane i API",
+        "helpAbout": "Pomoc i informacje"
+      },
+      "subgroups": {
+        "configuration": "Konfiguracja",
+        "setupStatus": "Instalacja i status"
       },
       "f1": {
         "add": "Dodaj integrację",
@@ -1082,7 +1097,7 @@
         "openDirectory": "Otwórz katalog z HUDami",
         "playTestLoop": "Zapętl dane testowe",
         "ar": "AR",
-        "goToKeybinds": "Edytuj skróty klawiszowe",
+        "goToKeybinds": "Skróty klawiszowe",
         "showOnlyActivePlayers": "Pokaż tylko aktywnych graczy",
         "showStudioPeopleEntries": "Pokaż osoby ze Studio",
         "more": "Więcej",
