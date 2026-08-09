@@ -333,6 +333,7 @@
       "actions": {
         "showAll": "Show all",
         "hideAll": "Hide all",
+        "livePreviews": "Live previews",
         "showComponent": "Show component",
         "hideComponent": "Hide component",
         "backToComponents": "Back to Components",
@@ -547,6 +548,7 @@
       "arg": "Replays"
     },
     "profile": {
+      "manageAccount": "Manage account",
       "username": "Username",
       "currentWorkspace": "Current workspace",
       "role": "Role",
@@ -768,12 +770,31 @@
       "beforeKill": "Before kill",
       "useHLAE": "Use HLAE?",
       "afterKill": "After kill",
-      "saveClips": "Save clips?",
+      "saveClips": "Save clips",
+      "saveClipsDescription": "Keep generated replay clips after playback",
       "delayConfig": "Delay config",
-      "computerId": "Computer id",
+      "computerId": "Computer ID",
+      "replayMachineCode": "Replay machine code",
+      "connected": "Connected",
+      "disconnected": "Disconnected",
+      "timing": "Timing",
+      "delay": "Delay",
+      "clockDifference": "Clock difference: {{value}} ms",
+      "userGuide": "User Guide",
+      "learnMoreNdi": "Learn more about NDI",
+      "sections": {
+        "connection": "Connection",
+        "configuration": "Replay configuration",
+        "output": "Output"
+      },
+      "units": {
+        "seconds": "seconds",
+        "milliseconds": "milliseconds"
+      },
       "turnOff": "Turn off",
       "turnOn": "Turn on",
       "priority": {
+        "label": "Priority",
         "multi": "Prioritize multi kills",
         "headshots": "Prioritize headshots",
         "teamkills": "Prioritize team kills"
@@ -790,11 +811,22 @@
         "port": "Port",
         "password": "Password",
         "disconnect": "Disconnect",
-        "switchInputs": "Auto Input Switch"
+        "switchInputs": "Auto input switch",
+        "chooseReplayInput": "Choose the replay input"
+      },
+      "obsStatus": {
+        "label": "OBS setup",
+        "ready": "Ready",
+        "manualSelection": "Ready with manual source selection",
+        "missingNdi": "Missing NDI Source support",
+        "notConnected": "Not connected",
+        "unknown": "Unknown",
+        "manualSelectionHelp": "In OBS, open LHM Replay Input properties and select the source ending with LHM Replay Feed."
       },
       "replay": {
         "replayModeTitle": "Replay Mode",
-        "replayModeContent": "This LHM now runs in Replay Mode. To modify replay & mixer's parameters, look at the ARG tab on the Main PC",
+        "replayModeContent": "This computer is the replay machine. Replay configuration is controlled from Replays on the main PC.",
+        "currentMode": "Current mode",
         "installObsNdiPlugin": "Install OBS NDI Plugin",
         "thisPcCode": "This PC code",
         "chooseYourMixer": "Choose your mixer",
@@ -810,9 +842,9 @@
           "title": "LHM Replay Mode",
           "youAreStartingArg": "You are starting LHM Replays with two connected LHMs",
           "whichModeDoYou": "Which mode do you want to use for replay generation?",
-          "ndiSourceForDelayedGame": "NDI Source for Delayed Game",
+          "ndiSourceForDelayedGame": "NDI source for delayed game",
           "ndiSourceForDelayedGameHelp": "If you want to stream the entire screen of the delayed PC, choose a source with the delayed PC hostname ending with (Desktop) or (Display).",
-          "pickSource": "PICK SOURCE",
+          "pickSource": "Pick source",
           "setSource": "Set source",
           "refreshSources": "Refresh sources",
           "chooseOutputMixer": "Choose which mixer should be used for Replay Feed output.",
@@ -832,6 +864,16 @@
           "workspaceMismatch": "A user from workspace {{workspaceName}} tried to connect to this PC."
         }
       }
+    },
+    "keybinds": {
+      "title": "Configure keybinds",
+      "global": "Global keybinds",
+      "pressKeys": "Press keys...",
+      "overlap": "Overlapping keybind",
+      "overlapSummary": "You have overlapping keybinds.",
+      "recording": "Recording keybind",
+      "resetToDefault": "Reset to default",
+      "saveError": "Unable to save keybind."
     },
     "settings": {
       "logIn": "Log in",
@@ -1083,8 +1125,18 @@
     },
     "huds": {
       "header": "HUDs",
+      "settings": {
+        "title": "{{name}} - Settings",
+        "sections": "HUD settings sections",
+        "saveError": "Unable to save HUD settings."
+      },
       "discover": {
         "title": "Discover"
+      },
+      "views": {
+        "label": "HUD layout",
+        "grid": "Grid",
+        "list": "List"
       },
       "workshopToolsModal": {
         "title": "CS2 Workshop Tools Not Found",
@@ -1099,6 +1151,9 @@
         "scout": "Scout AI/XRAY",
         "autoexecute": "Auto-execute",
         "console": "Console",
+        "advanced": "Advanced",
+        "customLaunchParameters": "Custom launch parameters",
+        "testData": "Test data",
         "add": "Add HUD",
         "addOverlay": "Add Overlay",
         "runGame": "Run game",
@@ -1177,6 +1232,9 @@
         "toggleOverlayKeybinds": "Toggle overlay keybinds",
         "clickToCopy": "Click to copy",
         "linkCopied": "Link copied to clipboard",
+        "copyLink": "Copy link",
+        "variants": "+{{count}} Variants",
+        "keybind": "Keybind",
         "openingOverlay": "Opening HUD in overlay...",
         "createShortcut": "Create shortcut on desktop"
       },
@@ -1358,7 +1416,7 @@
           "info": "With this option you can set custom colors for player borders in the game."
         },
         "runTest": {
-          "title": "Run test",
+          "title": "Test data",
           "info": "This functionality lets you simulate a game data stream to test your HUD or configuration."
         },
         "launchParams": {

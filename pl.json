@@ -324,6 +324,7 @@
       "actions": {
         "showAll": "Pokaż wszystko",
         "hideAll": "Ukryj wszystko",
+        "livePreviews": "Podglądy na żywo",
         "showComponent": "Pokaż komponent",
         "hideComponent": "Ukryj komponent",
         "backToComponents": "Powrót do komponentów",
@@ -515,6 +516,9 @@
       "nextPayment": "Następna płatność",
       "logout": "Wyloguj",
       "arg": "Replays"
+    },
+    "profile": {
+      "manageAccount": "Zarządzaj kontem"
     },
     "signals": {
       "removal": {
@@ -719,12 +723,31 @@
       "beforeKill": "Przed zabiciem",
       "useHLAE": "Używać HLAE?",
       "afterKill": "Po zabiciu",
-      "saveClips": "Zapisać klipy?",
+      "saveClips": "Zapisuj klipy",
+      "saveClipsDescription": "Zachowaj wygenerowane klipy po odtworzeniu powtórki",
       "delayConfig": "Konfiguracja opóźnienia",
-      "computerId": "Identyfikator komputera",
+      "computerId": "ID komputera",
+      "replayMachineCode": "Kod komputera powtórek",
+      "connected": "Połączono",
+      "disconnected": "Rozłączono",
+      "timing": "Czasy",
+      "delay": "Opóźnienie",
+      "clockDifference": "Różnica zegarów: {{value}} ms",
+      "userGuide": "Instrukcja obsługi",
+      "learnMoreNdi": "Więcej informacji o NDI",
+      "sections": {
+        "connection": "Połączenie",
+        "configuration": "Konfiguracja powtórek",
+        "output": "Wyjście"
+      },
+      "units": {
+        "seconds": "sekundy",
+        "milliseconds": "milisekundy"
+      },
       "turnOff": "Wyłącz",
       "turnOn": "Włącz",
       "priority": {
+        "label": "Priorytet",
         "multi": "Priorytet dla wielu zabójstw",
         "headshots": "Priorytet dla headshotów",
         "teamkills": "Priorytet dla zabójstw drużynowych"
@@ -741,11 +764,22 @@
         "port": "Port",
         "password": "Hasło",
         "disconnect": "Rozłącz",
-        "switchInputs": "Automatyczny przełącznik wejścia"
+        "switchInputs": "Automatyczne przełączanie wejścia",
+        "chooseReplayInput": "Wybierz wejście powtórek"
+      },
+      "obsStatus": {
+        "label": "Konfiguracja OBS",
+        "ready": "Gotowe",
+        "manualSelection": "Gotowe, wymagany ręczny wybór źródła",
+        "missingNdi": "Brak obsługi źródła NDI",
+        "notConnected": "Brak połączenia",
+        "unknown": "Nieznany",
+        "manualSelectionHelp": "W OBS otwórz właściwości LHM Replay Input i wybierz źródło kończące się nazwą LHM Replay Feed."
       },
       "replay": {
         "replayModeTitle": "Tryb powtórki",
-        "replayModeContent": "Ten LHM działa teraz w trybie powtórki. Aby zmodyfikować parametry odtwarzania i miksera, zajrzyj do zakładki ARG na komputerze głównym",
+        "replayModeContent": "Ten komputer działa jako komputer powtórek. Konfiguracja jest kontrolowana z ekranu Replays na głównym komputerze.",
+        "currentMode": "Bieżący tryb",
         "installObsNdiPlugin": "Zainstaluj OBS NDI Plugin",
         "thisPcCode": "Ten kod PC",
         "chooseYourMixer": "Wybierz mikser",
@@ -763,7 +797,7 @@
           "whichModeDoYou": "Którego trybu chcesz użyć do generowania powtórek?",
           "ndiSourceForDelayedGame": "Źródło NDI dla opóźnionej gry",
           "ndiSourceForDelayedGameHelp": "Jeśli chcesz transmitować cały ekran opóźnionego komputera, wybierz źródło z nazwą hosta tego komputera zakończoną na (Desktop) lub (Display).",
-          "pickSource": "ŹRÓDŁO PICKU",
+          "pickSource": "Wybierz źródło",
           "setSource": "Ustaw źródło",
           "refreshSources": "Odśwież źródła",
           "chooseOutputMixer": "Wybierz mikser, który ma być używany jako wyjście Replay Feed.",
@@ -783,6 +817,16 @@
           "workspaceMismatch": "Użytkownik z obszaru roboczego {{workspaceName}} próbował połączyć się z tym komputerem."
         }
       }
+    },
+    "keybinds": {
+      "title": "Konfiguruj skróty klawiszowe",
+      "global": "Globalne skróty klawiszowe",
+      "pressKeys": "Naciśnij klawisze...",
+      "overlap": "Nakładający się skrót klawiszowy",
+      "overlapSummary": "Niektóre skróty klawiszowe się nakładają.",
+      "recording": "Rejestrowanie skrótu klawiszowego",
+      "resetToDefault": "Przywróć domyślny",
+      "saveError": "Nie udało się zapisać skrótu klawiszowego."
     },
     "settings": {
       "logIn": "Zaloguj się",
@@ -1001,6 +1045,19 @@
     },
     "huds": {
       "header": "HUDy",
+      "settings": {
+        "title": "{{name}} - Ustawienia",
+        "sections": "Sekcje ustawień HUD-u",
+        "saveError": "Nie udało się zapisać ustawień HUD-u."
+      },
+      "discover": {
+        "title": "Odkrywaj"
+      },
+      "views": {
+        "label": "Układ HUD-ów",
+        "grid": "Siatka",
+        "list": "Lista"
+      },
       "workshopToolsModal": {
         "title": "Nie znaleziono narzędzi CS2 Workshop Tools",
         "info": "Nie wykryto dodatku Counter-Strike 2 Workshop Tools DLC. Jest on wymagany do działania z LHM podczas uruchamiania CS2 z włączonym Killfeed lub Scout AI. Zalecamy pobranie go przez Steam i ponowną próbę.",
@@ -1014,6 +1071,9 @@
         "scout": "Scout AI/XRAY",
         "autoexecute": "Auto-execute",
         "console": "Konsola",
+        "advanced": "Zaawansowane",
+        "customLaunchParameters": "Niestandardowe parametry uruchamiania",
+        "testData": "Dane testowe",
         "add": "Dodaj HUD",
         "runGame": "URUCHOM GRĘ",
         "pauseTest": "WYŁĄCZ TEST",
@@ -1024,6 +1084,7 @@
         "ar": "AR",
         "goToKeybinds": "Edytuj skróty klawiszowe",
         "showOnlyActivePlayers": "Pokaż tylko aktywnych graczy",
+        "showStudioPeopleEntries": "Pokaż osoby ze Studio",
         "more": "Więcej",
         "hlaeIsRequired": "Musisz mieć CS:GO uruchomione z HLAE",
         "proOrEntrpriseIsRequired": "Wymagany plan Professional lub Enterprise",
@@ -1082,6 +1143,9 @@
         "toggleHUDKeybinds": "Przełączanie powiązań klawiszy HUD (dla źródła przeglądarki)",
         "clickToCopy": "Kliknij, aby skopiować",
         "linkCopied": "Link skopiowany do schowka",
+        "copyLink": "Kopiuj link",
+        "variants": "+{{count}} wariantów",
+        "keybind": "Skrót klawiszowy",
         "openingOverlay": "Otwieranie HUD-a w nakładce...",
         "createShortcut": "Utwórz skrót na pulpicie"
       },
@@ -1257,7 +1321,7 @@
           "info": "Za pomocą tej opcji można ustawić niestandardowe kolory dla obramowań graczy w grze."
         },
         "runTest": {
-          "title": "Uruchom test",
+          "title": "Dane testowe",
           "info": "Ta funkcja umożliwia symulację strumienia danych gry w celu przetestowania HUD lub konfiguracji."
         },
         "launchParams": {
