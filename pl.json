@@ -479,6 +479,10 @@
       "testPlayer": "Gracz testowy",
       "delay": "Opóźnienie kamery w sekundach",
       "cameraQuality": "Jakość strumienia kamery",
+      "searchPlayers": "Szukaj graczy",
+      "refinePlayerSearch": "Wpisz tekst, aby zawęzić listę graczy.",
+      "selectAssignedPlayer": "Wybierz przypisanego gracza",
+      "playerCameraEnabled": "Kamera włączona dla gracza #{{player}}",
       "cameraWarningPlayer": "Połączenie z co najmniej jednym z graczy, oznaczonym żółtą kropką, jest blokowane przez symetryczny NAT. Zwykle powoduje to problemy z połączeniem strumienia kamery. Zaleca się, aby gracz zmienił połączenie sieciowe i odświeżył stronę kamery.",
       "cameraWarningUser": "Twoje połączenie jest blokowane przez symetryczny NAT. Zwykle powoduje to problemy z połączeniem strumienia kamery. Zaleca się zmianę połączenia sieciowego i ponowne uruchomienie LHM."
     },
