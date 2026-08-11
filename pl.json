@@ -1416,6 +1416,10 @@
         "clockDiff": {
           "title": "Różnica zegarów",
           "info": "Różnica czasu między komputerami jest zbyt duża i może powodować problemy podczas przechwytywania zabójstw. Zsynchronizuj zegary systemowe na obu komputerach przed użyciem Replays na żywo."
+        },
+        "mixer": {
+          "title": "Wyjście powtórek",
+          "info": "Wybierz i połącz mikser używany przez LHM do wysyłania powtórek. Tryb Instant Replay korzysta z vMix, natomiast Replay Feed może wysyłać obraz przez vMix lub OBS. Wprowadź dane połączenia miksera, a następnie wybierz Połącz i skonfiguruj."
         }
       },
       "aco": {

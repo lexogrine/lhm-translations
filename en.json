@@ -1511,6 +1511,10 @@
         "clockDiff": {
           "title": "Clock diff",
           "info": "The clock difference between the PCs is too large and could result in issues while capturing kills. Synchronize the system clocks on both machines before using Replays live."
+        },
+        "mixer": {
+          "title": "Replay output",
+          "info": "Choose and connect the mixer LHM uses for replay output. vMix is used for Instant Replay mode, while Replay Feed can output through vMix or OBS. Enter the mixer's connection details, then select Connect & Setup."
         }
       },
       "aco": {
