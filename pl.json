@@ -783,6 +783,7 @@
         "replayModeContent": "Ten komputer działa jako komputer powtórek. Konfiguracja jest kontrolowana z ekranu Replays na głównym komputerze.",
         "currentMode": "Bieżący tryb",
         "installObsNdiPlugin": "Zainstaluj OBS NDI Plugin",
+        "openReplayFeedClipsLocation": "Otwórz lokalizację klipów Replay Feed",
         "thisPcCode": "Ten kod PC",
         "chooseYourMixer": "Wybierz mikser",
         "noInput": "Brak wejścia",
