@@ -968,6 +968,8 @@
       },
       "header": "Settings",
       "saveRequired": "Save required",
+      "saveAndRestartRequired": "Save & Restart required",
+      "restartRequired": "Restart required",
       "subheaders": {
         "lhm": "LHM",
         "cloud": "LHM Cloud",

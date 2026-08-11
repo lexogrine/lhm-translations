@@ -901,6 +901,8 @@
       },
       "header": "Ustawienia",
       "saveRequired": "Wymaga zapisu",
+      "saveAndRestartRequired": "Wymaga zapisu i ponownego uruchomienia",
+      "restartRequired": "Wymaga ponownego uruchomienia",
       "subheaders": {
         "lhm": "LHM",
         "cloud": "LHM Cloud",
