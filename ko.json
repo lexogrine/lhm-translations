@@ -96,7 +96,11 @@
       "decline": "거부",
       "downloadTemplate": "템플릿 다운로드",
       "clickAndCopy": "클릭 & 복사",
-      "swap": "교체"
+      "swap": "교체",
+      "people": "People",
+      "overlays": "오버레이",
+      "person": "Person",
+      "copied": "복사됨"
     },
     "chat": {
       "title": "지원 채팅",
@@ -172,7 +176,9 @@
       "quick": "Quick",
       "chat": "지원 채팅",
       "composer": "Composer",
-      "xray": "X-Ray"
+      "xray": "X-Ray",
+      "people": "People",
+      "overlays": "오버레이"
     },
     "aco": {
       "disabled": "비활성화됨",
@@ -242,7 +248,10 @@
         "label": "액션 시네마틱"
       },
       "scoutPausedTip": "Scout AI는 실행 중인 게임이 감지되지 않아 일시 중지되었습니다.",
-      "xrayWarning": "X-Ray가 올바르게 작동하려면 CS2를 Scout/X-Ray 옵션을 켠 상태로 실행해야 합니다."
+      "xrayWarning": "X-Ray가 올바르게 작동하려면 CS2를 Scout/X-Ray 옵션을 켠 상태로 실행해야 합니다.",
+      "scoutFollowSide": {
+        "label": "진영 따라가기"
+      }
     },
     "composer": {
       "componentsSubtitle": "HUD 구성 요소 미리보기",
@@ -322,7 +331,8 @@
         "hideComponent": "구성 요소 숨기기",
         "backToComponents": "구성 요소로 돌아가기",
         "toBack": "맨 뒤로",
-        "toFront": "맨 앞으로"
+        "toFront": "맨 앞으로",
+        "livePreviews": "라이브 미리보기"
       },
       "status": {
         "added": "추가됨",
@@ -441,7 +451,23 @@
       "importPlayersExcel": "미리 준비된 Excel 시트를 사용하여 많은 플레이어를 한 번에 쉽게 가져올 수 있습니다.",
       "exportPlayers": "내보내기",
       "avatar": "아바타",
-      "setAsCoach": "코치로 설정"
+      "setAsCoach": "코치로 설정",
+      "addPerson": "Person 추가",
+      "name": "이름",
+      "secondName": "두 번째 이름",
+      "importPeopleTitle": "People 가져오기",
+      "importPeopleExcel": "이 탭에서 내보낸 Studio People Excel 시트를 사용하여 많은 People을 한 번에 가져올 수 있습니다.",
+      "picture": "사진",
+      "personImageInfo": "Person 이미지에 사용할 사진",
+      "socialLinks": {
+        "title": "소셜 링크",
+        "instagram": "Instagram",
+        "x": "X",
+        "youtube": "YouTube",
+        "twitch": "Twitch",
+        "kick": "Kick",
+        "linkedin": "LinkedIn"
+      }
     },
     "teams": {
       "edit": "팀 편집",
@@ -458,7 +484,8 @@
       "header": "라이브",
       "noGame": "현재 라이브 중인 게임이 없습니다.",
       "tipNoOrder": "현재 경기 중인 플레이어, 클릭하여 플레이어 목록에 플레이어를 추가합니다.",
-      "tip": "현재 경기 중인 플레이어를 클릭하여 플레이어 목록에 추가하고, 드래그 앤 드롭으로 각 팀 내 플레이어 순서를 변경하세요."
+      "tip": "현재 경기 중인 플레이어를 클릭하여 플레이어 목록에 추가하고, 드래그 앤 드롭으로 각 팀 내 플레이어 순서를 변경하세요.",
+      "noGameDescription": "{{game}}의 라이브 경기 데이터가 감지되면 여기에 자동으로 표시됩니다."
     },
     "cameras": {
       "generatePassword": "비밀번호 생성",
@@ -488,7 +515,10 @@
         "lol-mr-1": "고급 애드온을 사용하면 메모리 읽기 덕분에 훨씬 더 많은 데이터를 읽을 수 있습니다. 메모리 읽기는 치트로 취급될 수 있지만, 이러한 도구는 수년 동안 존재해 왔으며 라이엇은 이를 언급하지 않으며 이로 인해 관중이 금지된 사례에 대해 들어본 적이 없습니다. 그럼에도 불구하고 리그 오브 레전드 고급 애드온을 사용하는 것은 귀하의 책임입니다.",
         "lol-mr-2": "정상적인 게임 플레이 중에는 LoL 고급 애드온을 사용하지 마시고 게임을 관전할 때만 사용하세요!"
       },
-      "nodejsWarning": "대부분의 애드온을 사용하려면 NodeJS와 NPM을 설치해야 합니다"
+      "nodejsWarning": "대부분의 애드온을 사용하려면 NodeJS와 NPM을 설치해야 합니다",
+      "addon": "애드온",
+      "actions": "작업",
+      "emptyList": "사용 가능한 애드온이 없습니다."
     },
     "navbar": {
       "huds": "HUD",
@@ -508,7 +538,9 @@
       "validUntil": "까지 유효",
       "nextPayment": "다음 결제",
       "logout": "로그아웃",
-      "arg": "Replays"
+      "arg": "Replays",
+      "overlays": "오버레이",
+      "people": "People"
     },
     "signals": {
       "removal": {
@@ -547,7 +579,8 @@
         "side": "진영: ",
         "teamAny": "팀: 모두",
         "playerAny": "플레이어: 모두"
-      }
+      },
+      "emptyList": "아직 이벤트가 없습니다. 첫 이벤트를 추가하세요."
     },
     "quick": {
       "uploadImage": "이미지 업로드",
@@ -698,7 +731,8 @@
       "reversedSides": "뒤집힌 면",
       "mapList": "맵 목록",
       "generateGet5Config": "Get5 구성 생성",
-      "emptyList": "아직 경기가 없습니다. 첫 경기를 생성하세요."
+      "emptyList": "아직 경기가 없습니다. 첫 경기를 생성하세요.",
+      "bestOf": "Best of"
     },
     "credits": {
       "header": "Credits",
@@ -721,7 +755,8 @@
       "priority": {
         "multi": "멀티 킬 우선 순위 지정",
         "headshots": "헤드샷 우선순위 지정",
-        "teamkills": "팀 처치 우선 순위"
+        "teamkills": "팀 처치 우선 순위",
+        "label": "우선순위"
       },
       "mixer": {
         "label": "믹서",
@@ -735,7 +770,8 @@
         "port": "포트",
         "password": "비밀번호",
         "disconnect": "연결 해제",
-        "switchInputs": "자동 입력 스위치"
+        "switchInputs": "자동 입력 스위치",
+        "chooseReplayInput": "리플레이 입력 선택"
       },
       "replay": {
         "replayModeTitle": "리플레이 모드",
@@ -775,7 +811,36 @@
         "connectionRejected": {
           "title": "리플레이 연결 거부됨",
           "workspaceMismatch": "워크스페이스 {{workspaceName}}의 사용자가 이 PC에 연결하려고 했습니다."
-        }
+        },
+        "currentMode": "현재 모드",
+        "openReplayFeedClipsLocation": "Replay Feed 클립 위치 열기"
+      },
+      "saveClipsDescription": "재생 후 생성된 리플레이 클립 유지",
+      "replayMachineCode": "리플레이 머신 코드",
+      "connected": "연결됨",
+      "disconnected": "연결 끊김",
+      "timing": "타이밍",
+      "delay": "지연",
+      "clockDifference": "시계 차이: {{value}} ms",
+      "userGuide": "사용자 가이드",
+      "learnMoreNdi": "NDI에 대해 자세히 알아보기",
+      "sections": {
+        "connection": "연결",
+        "configuration": "리플레이 구성",
+        "output": "출력"
+      },
+      "units": {
+        "seconds": "초",
+        "milliseconds": "밀리초"
+      },
+      "obsStatus": {
+        "label": "OBS 설정",
+        "ready": "준비됨",
+        "manualSelection": "수동 소스 선택으로 준비됨",
+        "missingNdi": "NDI Source 지원 누락",
+        "notConnected": "연결되지 않음",
+        "unknown": "알 수 없음",
+        "manualSelectionHelp": "OBS에서 LHM Replay Input 속성을 열고 LHM Replay Feed로 끝나는 소스를 선택하세요."
       }
     },
     "settings": {
@@ -823,7 +888,15 @@
       "subheaders": {
         "lhm": "LHM",
         "cloud": "LHM 클라우드",
-        "additional": "추가"
+        "additional": "추가",
+        "studio": "Studio",
+        "general": "일반",
+        "applicationDevices": "애플리케이션 및 장치",
+        "currentGame": "현재 게임",
+        "cloudSynchronization": "클라우드 및 동기화",
+        "studioBroadcast": "Studio 및 방송",
+        "advancedApi": "고급 및 API",
+        "helpAbout": "도움말 및 정보"
       },
       "f1": {
         "add": "통합 추가",
@@ -904,7 +977,10 @@
           "refreshHud": "HUD 새로고침",
           "toggleDirector": "Scout Vision 토글",
           "toggleScoutPredict": "스카웃 예측 토글(Toggle Scout Predict)",
-          "toggleScoutCinematic": "스카웃 시네마틱 토글"
+          "toggleScoutCinematic": "스카웃 시네마틱 토글",
+          "setScoutFollowCT": "Scout Follow CT",
+          "setScoutFollowDefault": "Scout Follow Default",
+          "setScoutFollowT": "Scout Follow T"
         },
         "streamDeck": {
           "unavailable": "사용할 수 없음"
@@ -962,6 +1038,68 @@
         "generateToken": "생성",
         "regenerateToken": "다시 생성",
         "copyToken": "복사"
+      },
+      "desktopAuth": {
+        "finishInBrowser": "브라우저에서 로그인을 완료하세요. 코드를 요청받으면 다음을 입력하세요:",
+        "codeExpiresAt": "이 코드는 {{time}}에 만료됩니다.",
+        "openVerificationUrl": "{{url}}을 열고 이 코드를 입력하세요.",
+        "browserSignInState": "브라우저 로그인이 {{state}} 상태였습니다.",
+        "browserSignInUnavailable": "브라우저 로그인을 사용할 수 없습니다({{code}}).",
+        "errors": {
+          "connectivity": "로그인 서비스에 연결할 수 없습니다. 인터넷 연결과 VPN 연결을 확인한 뒤 다시 시도하세요.",
+          "server": "로그인 서비스에 일시적인 문제가 있습니다. 몇 분 후 다시 시도하세요.",
+          "unavailable": "이 LHM 또는 서버 버전에서는 브라우저 로그인을 사용할 수 없습니다. 이메일과 비밀번호로 계속 로그인할 수 있습니다.",
+          "unexpectedResponse": "로그인 서비스가 예상치 못한 응답을 반환했습니다. 다시 시도하거나 문제가 계속되면 지원팀에 문의하세요.",
+          "rateLimited": "로그인 시도가 너무 많습니다. 잠시 기다린 후 다시 시도하세요.",
+          "unsupportedVersion": "이 LHM 버전은 브라우저 로그인을 지원하지 않습니다. LHM을 업데이트한 후 다시 시도하세요.",
+          "transactionUnavailable": "브라우저 로그인 세션이 만료되었거나 찾을 수 없습니다. 브라우저 로그인을 다시 시작하세요.",
+          "generic": "브라우저 로그인을 완료할 수 없습니다. 다시 시도하세요."
+        },
+        "technicalCode": "기술 코드: {{code}}",
+        "tosRequired": "LHM.gg에서 업데이트된 서비스 약관에 동의한 뒤 다시 로그인하세요.",
+        "reviewTerms": "서비스 약관 검토",
+        "cancelBrowserSignIn": "브라우저 로그인 취소",
+        "signInWithBrowser": "브라우저로 로그인",
+        "retry": "다시 시도"
+      },
+      "leagueOfLegendsServerMode": "데이터 수집 모드",
+      "showStudioDataInOtherGames": "다른 게임에서 Studio 데이터 표시",
+      "autoSwitchStatus": {
+        "AUTO_SWITCH_DISABLED": "자동 전환이 꺼져 있습니다.",
+        "WAITING_FOR_LIVE_DATA": "라이브 게임 데이터를 기다리는 중입니다.",
+        "NOT_CURRENT_GAME": "먼저 LHM에서 이 게임을 선택하세요.",
+        "THROTTLED": "곧 다시 확인합니다.",
+        "MISSING_LIVE_TEAM_IDS": "현재 경기에서 선택된 팀이 없습니다.",
+        "NO_SIDE_PLAYERS": "양쪽 진영의 플레이어를 기다리는 중입니다.",
+        "NO_CURRENT_MATCH": "먼저 현재 경기를 선택하세요.",
+        "MULTITEAM_MATCH": "자동 전환은 멀티팀 경기에서 사용할 수 없습니다.",
+        "CURRENT_MAP_NOT_FOUND": "현재 맵이 어떤 veto 맵과도 일치하지 않습니다.",
+        "NO_MATCHED_PLAYERS": "SteamID로 일치하는 플레이어를 찾을 수 없습니다.",
+        "LOW_CONFIDENCE": "반대 진영에 있는 알려진 플레이어가 충분하지 않습니다.",
+        "READY": "준비됨. 플레이어 진영이 반대로 보이면 전환합니다.",
+        "SWITCHING": "진영 전환 중...",
+        "SWITCHED": "최근 진영이 전환되었습니다.",
+        "HALFTIME_SWITCHED": "하프타임에 진영이 전환되었습니다.",
+        "REVERSE_SIDE_FAILED": "자동 전환이 진영 전환을 시도했지만 경기 상태가 차단했습니다.",
+        "ERROR": "자동 전환에서 오류가 발생했습니다. 계속되면 LHM을 다시 시작하세요."
+      },
+      "saveRequired": "저장 필요",
+      "subgroups": {
+        "configuration": "구성",
+        "setupStatus": "설정 및 상태"
+      },
+      "studio": {
+        "sceneCollections": "장면 컬렉션",
+        "downloadOBS": "OBS 컬렉션 다운로드",
+        "downloadVMix": "vMix 컬렉션 다운로드"
+      },
+      "streamDeck": {
+        "integration": "Stream Deck 통합",
+        "connected": "연결됨",
+        "disconnected": "연결 끊김",
+        "lastSeen": "마지막 확인: {{time}}",
+        "neverConnected": "아직 하트비트를 받지 못했습니다",
+        "pluginVersion": "플러그인 v{{version}}"
       }
     },
     "ar": {
@@ -998,7 +1136,13 @@
         "more": "더 보기",
         "hlaeIsRequired": "HLAE와 함께 CS:GO를 실행해야 합니다",
         "proOrEntrpriseIsRequired": "프로페셔널 또는 엔터프라이즈 요금제를 사용 중이어야 합니다",
-        "hlaeAndHigherPlanIsRequired": "HLAE와 함께 CS:GO를 실행 중이고 프로페셔널 또는 엔터프라이즈 플랜이 있어야 합니다"
+        "hlaeAndHigherPlanIsRequired": "HLAE와 함께 CS:GO를 실행 중이고 프로페셔널 또는 엔터프라이즈 플랜이 있어야 합니다",
+        "advanced": "고급",
+        "customLaunchParameters": "사용자 지정 실행 매개변수",
+        "testData": "테스트 데이터",
+        "addOverlay": "오버레이 추가",
+        "openOverlaysDirectory": "오버레이 디렉터리 열기",
+        "showStudioPeopleEntries": "Studio People 항목 표시"
       },
       "sort": {
         "custom": "사용자 지정",
@@ -1011,7 +1155,8 @@
         "deleteTitle": "{{name}} 카테고리 삭제",
         "name": "카테고리 이름",
         "ungrouped": "그룹 해제됨",
-        "deleteInfo": "{{name}} 카테고리를 삭제하시겠습니까? 이 작업은 HUD를 삭제하지 않습니다."
+        "deleteInfo": "{{name}} 카테고리를 삭제하시겠습니까? 이 작업은 HUD를 삭제하지 않습니다.",
+        "studioOverlays": "Studio 오버레이"
       },
       "fields": {
         "missing": "누락된 필드",
@@ -1054,7 +1199,16 @@
         "clickToCopy": "클릭하여 복사",
         "linkCopied": "링크가 클립보드에 복사되었습니다.",
         "openingOverlay": "HUD를 오버레이 모드로 여는 중...",
-        "createShortcut": "바탕화면에 바로 가기 만들기"
+        "createShortcut": "바탕화면에 바로 가기 만들기",
+        "toggleOverlayUrl": "오버레이 URL 전환",
+        "overlaySettings": "오버레이 설정으로 이동",
+        "startOverlay": "오버레이 시작",
+        "deleteOverlayLocally": "오버레이를 로컬에서 삭제",
+        "deleteOverlayFromCloud": "클라우드에서 오버레이 삭제",
+        "toggleOverlayKeybinds": "오버레이 키바인드 전환",
+        "copyLink": "링크 복사",
+        "variants": "+{{count}} 변형",
+        "keybind": "키바인드"
       },
       "share": {
         "actions": {
@@ -1075,7 +1229,10 @@
             "never": "만료 없음"
           },
           "customExpiryWarning": "선택한 만료일 이후에도 HUD는 최대 1시간 동안 이용 가능합니다.",
-          "submit": "초대 보내기"
+          "submit": "초대 보내기",
+          "overlayTitle": "오버레이 공유",
+          "overlayDescription": "이 오버레이를 다른 사용자에게 이메일로 보냅니다.",
+          "overlayWorkspaceOwnerDisclaimer": "이 오버레이는 워크스페이스 \"{{workspace}}\"에 속합니다. 사용자가 워크스페이스 소유자가 아니므로 기본 Enterprise 계정을 대신하여 초대가 전송됩니다."
         },
         "pending": {
           "title": "대기 중인 HUD 공유 초대",
@@ -1128,7 +1285,23 @@
         "generic": "문제가 발생했습니다. 나중에 다시 시도하세요.",
         "archive": "LHM이 아카이브 파일을 읽을 수 없습니다.",
         "source": "컴파일된 HUD가 아닌 소스 코드를 업로드하는 것 같습니다. 업로드하기 전에 HUD를 컴파일하세요.",
-        "space": "사용 중인 작업 공간에 클라우드 공간이 충분하지 않습니다. 플랜을 업그레이드하거나 일부 클라우드 리소스를 삭제하세요."
+        "space": "사용 중인 작업 공간에 클라우드 공간이 충분하지 않습니다. 플랜을 업그레이드하거나 일부 클라우드 리소스를 삭제하세요.",
+        "overlayTitle": "오버레이를 추가할 수 없음",
+        "overlayConfig": "LHM이 오버레이의 구성 파일을 읽을 수 없습니다.",
+        "overlayUpload": "LHM이 오버레이를 클라우드에 업로드할 수 없습니다. 나중에 다시 시도하세요."
+      },
+      "settings": {
+        "title": "{{name}} - 설정",
+        "sections": "HUD 설정 섹션",
+        "saveError": "HUD 설정을 저장할 수 없습니다."
+      },
+      "discover": {
+        "title": "Discover"
+      },
+      "views": {
+        "label": "HUD 레이아웃",
+        "grid": "그리드",
+        "list": "목록"
       }
     },
     "app": {
@@ -1404,6 +1577,10 @@
         "slowMode": {
           "title": "느린 모드",
           "info": "느린 모드는 API 요청을 큐를 통해 전송하여 버스트 트래픽을 줄입니다. 이는 국가 전체 방화벽이 있는 제한적인 환경에서 도움이 될 수 있습니다.\n변경 사항을 적용하려면 LHM을 다시 시작하십시오."
+        },
+        "showStudioDataInOtherGames": {
+          "title": "다른 게임에서 Studio 데이터 표시",
+          "info": "다른 게임이 선택되어 있는 동안 Studio 리소스를 표시합니다. Studio HUD는 HUD 목록에 나타날 수 있고, Studio People 항목은 HUD 구성 패널에서 사용할 수 있으며, Studio 클라우드 동기화는 현재 게임과 함께 확인됩니다."
         }
       }
     },
@@ -1426,7 +1603,9 @@
         "single": {
           "titleTournament": "{{name}} 토너먼트 삭제",
           "infoTournament": "{{name}} 토너먼트를 삭제하시겠습니까?"
-        }
+        },
+        "titlePeople": "People 삭제",
+        "infoPeople": "{{count}}명의 People을 제거하시겠습니까?"
       },
       "steamApiKeyMissing": {
         "title": "Steam API 키 누락",
@@ -1456,7 +1635,9 @@
       "noUploadedResources": "아직 클라우드에 업로드하지 않은 것 같습니다. 현재 데이터베이스를 업로드하거나 이 컴퓨터에서 동기화를 비활성화할 수 있습니다",
       "noSyncLocal": "로컬 데이터베이스가 클라우드 저장소와 동기화되지 않았습니다. 데이터베이스를 다운로드 또는 업로드하거나 동기화를 비활성화할 수 있습니다. 다운로드하면 현재 이 PC에 있는 내용이 제거되고 업로드하면 클라우드 스토리지 콘텐츠가 지워진다는 점에 유의하세요. 어떻게 하시겠습니까?",
       "error": "오류가 발생하여 데이터 손실을 방지하기 위해 동기화를 해제했습니다",
-      "modalTitle": "동기화"
+      "modalTitle": "동기화",
+      "studioOnlyConflict": "현재 게임 데이터는 이미 동기화되었지만 Studio 데이터는 동기화가 필요합니다. 선택한 작업은 Studio 데이터에만 적용됩니다.",
+      "currentAndStudioConflict": "{{game}} 및 Studio 데이터 모두 동기화가 필요합니다. 선택한 작업은 두 데이터베이스 모두에 적용됩니다."
     },
     "workspaces": {
       "pickModalTitle": "작업 공간 선택",
@@ -1488,6 +1669,41 @@
         "title": "사용자 가이드",
         "description": "LHM의 각 구성 요소에 대해 자세히 알아보려면 사용자 가이드를 확인하세요. 모든 기능에 대한 설명, 구성 및 사용 방법, 가장 자주 묻는 질문에 대한 답변을 확인할 수 있습니다. 추가 질문이 있는 경우 [[디스코드|디스코드]]에 참여하세요."
       }
+    },
+    "unsavedNavigation": {
+      "title": "저장하지 않은 변경 사항을 버리시겠습니까?",
+      "message": "저장하지 않은 변경 사항이 있습니다. 버리고 계속하시겠습니까?",
+      "stay": "계속 편집",
+      "discard": "변경 사항 버리기"
+    },
+    "profile": {
+      "manageAccount": "계정 관리",
+      "username": "사용자 이름",
+      "currentWorkspace": "현재 워크스페이스",
+      "role": "역할",
+      "owner": "소유자",
+      "member": "멤버",
+      "planStatusLabel": "플랜 상태",
+      "workspaceSeats": "워크스페이스 시트",
+      "planSeats": "플랜 시트",
+      "planStatus": {
+        "active": "활성",
+        "canceled": "취소됨",
+        "past_due": "결제 기한 초과",
+        "ended": "종료됨",
+        "inactive": "비활성",
+        "unknown": "알 수 없음"
+      }
+    },
+    "keybinds": {
+      "title": "키바인드 구성",
+      "global": "전역 키바인드",
+      "pressKeys": "키를 누르세요...",
+      "overlap": "겹치는 키바인드",
+      "overlapSummary": "겹치는 키바인드가 있습니다.",
+      "recording": "키바인드 녹화 중",
+      "resetToDefault": "기본값으로 재설정",
+      "saveError": "키바인드를 저장할 수 없습니다."
     }
   }
 }

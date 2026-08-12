@@ -96,7 +96,11 @@
       "decline": "Từ chối",
       "downloadTemplate": "Tải xuống bản mẫu",
       "clickAndCopy": "Nhấn & Sao chép",
-      "swap": "Đổi"
+      "swap": "Đổi",
+      "people": "People",
+      "overlays": "Lớp phủ",
+      "person": "Person",
+      "copied": "Đã sao chép"
     },
     "chat": {
       "title": "Trò chuyện hỗ trợ",
@@ -172,7 +176,9 @@
       "quick": "Quick",
       "chat": "Trò chuyện hỗ trợ",
       "composer": "Composer",
-      "xray": "X-Ray"
+      "xray": "X-Ray",
+      "people": "People",
+      "overlays": "Lớp phủ"
     },
     "aco": {
       "disabled": "Vô hiệu hóa",
@@ -242,7 +248,10 @@
         "label": "Phim hành động"
       },
       "scoutPausedTip": "Scout AI bị tạm dừng vì không có trò chơi đang chạy nào được phát hiện.",
-      "xrayWarning": "Để X-Ray hoạt động chính xác, CS2 phải được khởi chạy với tùy chọn Scout/X-Ray được bật."
+      "xrayWarning": "Để X-Ray hoạt động chính xác, CS2 phải được khởi chạy với tùy chọn Scout/X-Ray được bật.",
+      "scoutFollowSide": {
+        "label": "Theo phe"
+      }
     },
     "composer": {
       "componentsSubtitle": "Xem trước thành phần HUD",
@@ -322,7 +331,8 @@
         "hideComponent": "Ẩn thành phần",
         "backToComponents": "Quay lại Thành phần",
         "toBack": "Đưa ra sau",
-        "toFront": "Đưa ra trước"
+        "toFront": "Đưa ra trước",
+        "livePreviews": "Xem trước trực tiếp"
       },
       "status": {
         "added": "Đã thêm",
@@ -441,7 +451,23 @@
       "importPlayersExcel": "Sử dụng bảng Excel đã được chuẩn bị sẵn để có thể nhập nhiều người chơi cùng một lúc.",
       "exportPlayers": "Xuất",
       "avatar": "Ảnh đại diện",
-      "setAsCoach": "Đặt làm huấn luyện viên"
+      "setAsCoach": "Đặt làm huấn luyện viên",
+      "addPerson": "Thêm Person",
+      "name": "Tên",
+      "secondName": "Tên thứ hai",
+      "importPeopleTitle": "Nhập People",
+      "importPeopleExcel": "Sử dụng bảng Excel Studio People được xuất từ tab này để nhập nhiều People cùng lúc.",
+      "picture": "Hình ảnh",
+      "personImageInfo": "Hình ảnh dùng cho ảnh Person",
+      "socialLinks": {
+        "title": "Liên kết mạng xã hội",
+        "instagram": "Instagram",
+        "x": "X",
+        "youtube": "YouTube",
+        "twitch": "Twitch",
+        "kick": "Kick",
+        "linkedin": "LinkedIn"
+      }
     },
     "teams": {
       "edit": "Chỉnh sửa đội",
@@ -458,7 +484,8 @@
       "header": "Trực tiếp",
       "noGame": "Không có game đang trực tiếp.",
       "tipNoOrder": "Người chơi đang trong trận, bấm để thêm người chơi vào danh sách.",
-      "tip": "Người chơi đang trong trận, bấm để thêm người chơi vào danh sách, rồi kéo thả để thay đổi thứ tự người chơi trong đội của họ."
+      "tip": "Người chơi đang trong trận, bấm để thêm người chơi vào danh sách, rồi kéo thả để thay đổi thứ tự người chơi trong đội của họ.",
+      "noGameDescription": "Dữ liệu trận đấu trực tiếp cho {{game}} sẽ tự động xuất hiện ở đây khi được phát hiện."
     },
     "cameras": {
       "generatePassword": "Tạo mật khẩu",
@@ -488,7 +515,10 @@
         "lol-mr-1": "Advanced Addon giúp bạn có thể đọc nhiều dữ liệu hơn nhờ đọc bộ nhớ. Đọc bộ nhớ có thể được coi là gian lận, trong khi những công cụ như vậy đã tồn tại trong nhiều năm và Riot không đề cập đến chúng và chúng tôi chưa nghe nói về trường hợp khán giả bị cấm vì điều này. Tuy nhiên, bạn tự chịu rủi ro khi sử dụng League of Legends Advanced Addon.",
         "lol-mr-2": "Không sử dụng LoL Advanced Addon trong khi chơi trò chơi thông thường, nó chỉ được sử dụng để theo dõi trò chơi!"
       },
-      "nodejsWarning": "NodeJS và NPM là bắt buộc phải cài đặt cho hầu hết các tiện ích bổ sung"
+      "nodejsWarning": "NodeJS và NPM là bắt buộc phải cài đặt cho hầu hết các tiện ích bổ sung",
+      "addon": "Addon",
+      "actions": "Hành động",
+      "emptyList": "Không có addon nào khả dụng."
     },
     "navbar": {
       "huds": "HUDs",
@@ -508,7 +538,9 @@
       "validUntil": "Hết hạn vào",
       "nextPayment": "Gia hạn vào",
       "logout": "Đăng xuất",
-      "arg": "Replays"
+      "arg": "Replays",
+      "overlays": "Lớp phủ",
+      "people": "People"
     },
     "signals": {
       "removal": {
@@ -547,7 +579,8 @@
         "side": "Bên:",
         "teamAny": "Nhóm: Bất kỳ",
         "playerAny": "Người chơi: Bất kỳ"
-      }
+      },
+      "emptyList": "Chưa có sự kiện nào. Hãy thêm sự kiện đầu tiên của bạn."
     },
     "quick": {
       "uploadImage": "Tải lên hình ảnh",
@@ -698,7 +731,8 @@
       "reversedSides": "Đổi side",
       "mapList": "Danh sách bản đồ",
       "generateGet5Config": "Tạo cấu hình Get5",
-      "emptyList": "Chưa có trận đấu nào. Hãy tạo trận đấu đầu tiên của bạn."
+      "emptyList": "Chưa có trận đấu nào. Hãy tạo trận đấu đầu tiên của bạn.",
+      "bestOf": "Best of"
     },
     "credits": {
       "header": "Tác giả",
@@ -721,7 +755,8 @@
       "priority": {
         "multi": "Ưu tiên multi kills",
         "headshots": "Uư tiên headshots",
-        "teamkills": "Ưu tiên team kills"
+        "teamkills": "Ưu tiên team kills",
+        "label": "Ưu tiên"
       },
       "mixer": {
         "label": "Bộ trộn",
@@ -735,7 +770,8 @@
         "port": "Cổng",
         "password": "Mật khẩu",
         "disconnect": "Ngắt kết nối",
-        "switchInputs": "Tự ​​động chuyển đổi đầu vào"
+        "switchInputs": "Tự ​​động chuyển đổi đầu vào",
+        "chooseReplayInput": "Chọn đầu vào phát lại"
       },
       "replay": {
         "replayModeTitle": "Chế độ phát lại",
@@ -775,7 +811,36 @@
         "connectionRejected": {
           "title": "Kết nối Replay bị từ chối",
           "workspaceMismatch": "Người dùng từ workspace {{workspaceName}} đã cố kết nối tới PC này."
-        }
+        },
+        "currentMode": "Chế độ hiện tại",
+        "openReplayFeedClipsLocation": "Mở vị trí clip Replay Feed"
+      },
+      "saveClipsDescription": "Giữ các clip phát lại đã tạo sau khi phát",
+      "replayMachineCode": "Mã máy phát lại",
+      "connected": "Đã kết nối",
+      "disconnected": "Đã ngắt kết nối",
+      "timing": "Thời gian",
+      "delay": "Độ trễ",
+      "clockDifference": "Chênh lệch đồng hồ: {{value}} ms",
+      "userGuide": "Hướng dẫn sử dụng",
+      "learnMoreNdi": "Tìm hiểu thêm về NDI",
+      "sections": {
+        "connection": "Kết nối",
+        "configuration": "Cấu hình phát lại",
+        "output": "Đầu ra"
+      },
+      "units": {
+        "seconds": "giây",
+        "milliseconds": "mili giây"
+      },
+      "obsStatus": {
+        "label": "Thiết lập OBS",
+        "ready": "Sẵn sàng",
+        "manualSelection": "Sẵn sàng với lựa chọn nguồn thủ công",
+        "missingNdi": "Thiếu hỗ trợ NDI Source",
+        "notConnected": "Chưa kết nối",
+        "unknown": "Không xác định",
+        "manualSelectionHelp": "Trong OBS, mở thuộc tính LHM Replay Input và chọn nguồn kết thúc bằng LHM Replay Feed."
       }
     },
     "settings": {
@@ -823,7 +888,15 @@
       "subheaders": {
         "lhm": "LHM",
         "cloud": "Đám mây LHM",
-        "additional": "Bổ sung"
+        "additional": "Bổ sung",
+        "studio": "Studio",
+        "general": "Chung",
+        "applicationDevices": "Ứng dụng & Thiết bị",
+        "currentGame": "Game hiện tại",
+        "cloudSynchronization": "Đám mây & Đồng bộ hóa",
+        "studioBroadcast": "Studio & Phát sóng",
+        "advancedApi": "Nâng cao & API",
+        "helpAbout": "Trợ giúp & Giới thiệu"
       },
       "f1": {
         "add": "Thêm trình tích hợp",
@@ -904,7 +977,10 @@
           "refreshHud": "Làm mới HUD",
           "toggleDirector": "Chuyển đổi Scout Vision",
           "toggleScoutPredict": "Chuyển đổi Scout Predict",
-          "toggleScoutCinematic": "Chuyển đổi Scout Cinematic"
+          "toggleScoutCinematic": "Chuyển đổi Scout Cinematic",
+          "setScoutFollowCT": "Scout Follow CT",
+          "setScoutFollowDefault": "Scout Follow Default",
+          "setScoutFollowT": "Scout Follow T"
         },
         "streamDeck": {
           "unavailable": "Không có sẵn"
@@ -962,6 +1038,68 @@
         "generateToken": "Tạo",
         "regenerateToken": "Tạo lại",
         "copyToken": "Sao chép"
+      },
+      "desktopAuth": {
+        "finishInBrowser": "Hoàn tất đăng nhập trong trình duyệt. Nếu được yêu cầu mã, hãy nhập:",
+        "codeExpiresAt": "Mã này hết hạn lúc {{time}}.",
+        "openVerificationUrl": "Mở {{url}} và nhập mã này.",
+        "browserSignInState": "Đăng nhập bằng trình duyệt ở trạng thái {{state}}.",
+        "browserSignInUnavailable": "Đăng nhập bằng trình duyệt không khả dụng ({{code}}).",
+        "errors": {
+          "connectivity": "Không thể kết nối tới dịch vụ đăng nhập. Kiểm tra kết nối internet và kết nối VPN nếu có, rồi thử lại.",
+          "server": "Dịch vụ đăng nhập đang gặp sự cố tạm thời. Vui lòng thử lại sau vài phút.",
+          "unavailable": "Đăng nhập bằng trình duyệt không khả dụng trong phiên bản LHM hoặc máy chủ này. Bạn vẫn có thể đăng nhập bằng email và mật khẩu.",
+          "unexpectedResponse": "Dịch vụ đăng nhập trả về phản hồi không mong đợi. Vui lòng thử lại hoặc liên hệ hỗ trợ nếu sự cố tiếp tục.",
+          "rateLimited": "Quá nhiều lần thử đăng nhập. Hãy chờ một lát rồi thử lại.",
+          "unsupportedVersion": "Phiên bản LHM này không hỗ trợ đăng nhập bằng trình duyệt. Cập nhật LHM rồi thử lại.",
+          "transactionUnavailable": "Phiên đăng nhập trình duyệt của bạn đã hết hạn hoặc không tìm thấy. Hãy bắt đầu lại đăng nhập bằng trình duyệt.",
+          "generic": "Không thể hoàn tất đăng nhập bằng trình duyệt. Vui lòng thử lại."
+        },
+        "technicalCode": "Mã kỹ thuật: {{code}}",
+        "tosRequired": "Chấp nhận Điều khoản dịch vụ đã cập nhật trên LHM.gg, rồi thử đăng nhập lại.",
+        "reviewTerms": "Xem Điều khoản dịch vụ",
+        "cancelBrowserSignIn": "Hủy đăng nhập bằng trình duyệt",
+        "signInWithBrowser": "Đăng nhập bằng trình duyệt",
+        "retry": "Thử lại"
+      },
+      "leagueOfLegendsServerMode": "Chế độ thu thập dữ liệu",
+      "showStudioDataInOtherGames": "Hiển thị dữ liệu Studio trong các trò chơi khác",
+      "autoSwitchStatus": {
+        "AUTO_SWITCH_DISABLED": "Tự động chuyển đổi đang tắt.",
+        "WAITING_FOR_LIVE_DATA": "Đang chờ dữ liệu game trực tiếp.",
+        "NOT_CURRENT_GAME": "Trước tiên hãy chọn game này trong LHM.",
+        "THROTTLED": "Sẽ kiểm tra lại sau giây lát.",
+        "MISSING_LIVE_TEAM_IDS": "Chưa chọn đội trong trận hiện tại.",
+        "NO_SIDE_PLAYERS": "Đang chờ người chơi ở cả hai bên.",
+        "NO_CURRENT_MATCH": "Trước tiên hãy chọn trận hiện tại.",
+        "MULTITEAM_MATCH": "Tự động chuyển đổi không khả dụng cho trận nhiều đội.",
+        "CURRENT_MAP_NOT_FOUND": "Bản đồ hiện tại không khớp với bất kỳ bản đồ veto nào.",
+        "NO_MATCHED_PLAYERS": "Không tìm thấy người chơi khớp theo SteamID.",
+        "LOW_CONFIDENCE": "Không đủ người chơi đã biết ở hai bên đối diện.",
+        "READY": "Sẵn sàng. Sẽ chuyển khi phe người chơi có vẻ bị đảo.",
+        "SWITCHING": "Đang đổi phe...",
+        "SWITCHED": "Phe đã được đổi gần đây.",
+        "HALFTIME_SWITCHED": "Phe đã được đổi ở giờ nghỉ.",
+        "REVERSE_SIDE_FAILED": "Tự động chuyển đổi đã cố đổi phe, nhưng trạng thái trận đấu đã chặn thao tác.",
+        "ERROR": "Tự động chuyển đổi gặp lỗi. Khởi động lại LHM nếu lỗi tiếp diễn."
+      },
+      "saveRequired": "Cần lưu",
+      "subgroups": {
+        "configuration": "Cấu hình",
+        "setupStatus": "Thiết lập & Trạng thái"
+      },
+      "studio": {
+        "sceneCollections": "Bộ sưu tập cảnh",
+        "downloadOBS": "Tải xuống OBS Collection",
+        "downloadVMix": "Tải xuống vMix Collection"
+      },
+      "streamDeck": {
+        "integration": "Tích hợp Stream Deck",
+        "connected": "Đã kết nối",
+        "disconnected": "Đã ngắt kết nối",
+        "lastSeen": "Lần cuối thấy: {{time}}",
+        "neverConnected": "Chưa nhận được nhịp tim",
+        "pluginVersion": "Plugin v{{version}}"
       }
     },
     "ar": {
@@ -998,7 +1136,13 @@
         "more": "Thêm nữa",
         "hlaeIsRequired": "Bạn phải đang chạy CS:GO cùng với HLAE",
         "proOrEntrpriseIsRequired": "Bạn phải đang sử dụng gói Chuyên nghiệp hoặc Doanh nghiệp",
-        "hlaeAndHigherPlanIsRequired": "Bạn phải đang chạy CS:GO cùng với HLAE và sử dụng gói Chuyên nghiệp hoặc Doanh nghiệp"
+        "hlaeAndHigherPlanIsRequired": "Bạn phải đang chạy CS:GO cùng với HLAE và sử dụng gói Chuyên nghiệp hoặc Doanh nghiệp",
+        "advanced": "Nâng cao",
+        "customLaunchParameters": "Tham số khởi chạy tùy chỉnh",
+        "testData": "Dữ liệu thử nghiệm",
+        "addOverlay": "Thêm lớp phủ",
+        "openOverlaysDirectory": "Mở thư mục lớp phủ",
+        "showStudioPeopleEntries": "Hiển thị mục Studio People"
       },
       "sort": {
         "custom": "Tùy chỉnh",
@@ -1011,7 +1155,8 @@
         "deleteTitle": "Xóa danh mục {{name}}",
         "name": "Tên danh mục",
         "ungrouped": "Chưa nhóm",
-        "deleteInfo": "Bạn có chắc muốn xóa danh mục {{name}}? Thao tác này sẽ không xóa bất kỳ HUD nào."
+        "deleteInfo": "Bạn có chắc muốn xóa danh mục {{name}}? Thao tác này sẽ không xóa bất kỳ HUD nào.",
+        "studioOverlays": "Lớp phủ Studio"
       },
       "fields": {
         "missing": "Missing fields",
@@ -1054,7 +1199,16 @@
         "clickToCopy": "Nhấn để sao chép",
         "linkCopied": "Liên kết đã sao chép vào bảng tạm",
         "openingOverlay": "Đang mở HUD trong lớp phủ...",
-        "createShortcut": "Tạo lối tắt trên màn hình"
+        "createShortcut": "Tạo lối tắt trên màn hình",
+        "toggleOverlayUrl": "Bật/tắt URL lớp phủ",
+        "overlaySettings": "Đi tới cài đặt lớp phủ",
+        "startOverlay": "Khởi động lớp phủ",
+        "deleteOverlayLocally": "Xóa lớp phủ cục bộ",
+        "deleteOverlayFromCloud": "Xóa lớp phủ khỏi đám mây",
+        "toggleOverlayKeybinds": "Bật/tắt phím tắt lớp phủ",
+        "copyLink": "Sao chép liên kết",
+        "variants": "+{{count}} biến thể",
+        "keybind": "Phím tắt"
       },
       "share": {
         "actions": {
@@ -1075,7 +1229,10 @@
             "never": "Không hết hạn"
           },
           "customExpiryWarning": "Sau ngày hết hạn đã chọn, HUD có thể còn khả dụng thêm tối đa một giờ.",
-          "submit": "Gửi lời mời"
+          "submit": "Gửi lời mời",
+          "overlayTitle": "Chia sẻ lớp phủ",
+          "overlayDescription": "Gửi lớp phủ này cho người dùng khác qua email.",
+          "overlayWorkspaceOwnerDisclaimer": "Lớp phủ này thuộc workspace \"{{workspace}}\". Vì bạn không phải chủ sở hữu workspace, lời mời sẽ được gửi thay mặt tài khoản Enterprise chính."
         },
         "pending": {
           "title": "Lời mời chia sẻ HUD đang chờ",
@@ -1128,7 +1285,23 @@
         "generic": "Đã xảy ra sự cố. Hãy thử lại sau.",
         "archive": "LHM không thể đọc tệp lưu trữ.",
         "source": "Có vẻ như bạn đang tải lên mã nguồn, thay vì HUD đã biên dịch. Vui lòng biên dịch HUD trước khi tải lên.",
-        "space": "Bạn không có đủ Cloud Space trong không gian làm việc bạn đang sử dụng. Vui lòng nâng cấp gói của bạn hoặc xóa một số tài nguyên đám mây của bạn."
+        "space": "Bạn không có đủ Cloud Space trong không gian làm việc bạn đang sử dụng. Vui lòng nâng cấp gói của bạn hoặc xóa một số tài nguyên đám mây của bạn.",
+        "overlayTitle": "Không thể thêm lớp phủ",
+        "overlayConfig": "LHM không thể đọc tệp cấu hình của lớp phủ.",
+        "overlayUpload": "LHM không thể tải lớp phủ lên đám mây. Hãy thử lại sau."
+      },
+      "settings": {
+        "title": "{{name}} - Cài đặt",
+        "sections": "Các mục cài đặt HUD",
+        "saveError": "Không thể lưu cài đặt HUD."
+      },
+      "discover": {
+        "title": "Khám phá"
+      },
+      "views": {
+        "label": "Bố cục HUD",
+        "grid": "Lưới",
+        "list": "Danh sách"
       }
     },
     "app": {
@@ -1404,6 +1577,10 @@
         "slowMode": {
           "title": "Chế độ chậm",
           "info": "Chế độ chậm gửi yêu cầu API qua hàng đợi để giảm lưu lượng đột biến. Tùy chọn này hữu ích trong môi trường tường lửa hạn chế.\nKhởi động lại LHM sau khi thay đổi để áp dụng."
+        },
+        "showStudioDataInOtherGames": {
+          "title": "Hiển thị dữ liệu Studio trong các trò chơi khác",
+          "info": "Hiển thị tài nguyên Studio khi một game khác được chọn. HUD Studio có thể xuất hiện trong danh sách HUD, mục Studio People có thể dùng trong bảng cấu hình HUD, và đồng bộ đám mây Studio được kiểm tra cùng với game hiện tại."
         }
       }
     },
@@ -1426,7 +1603,9 @@
         "single": {
           "titleTournament": "Xóa giải đấu {{name}}",
           "infoTournament": "Bạn có chắc muốn xóa giải đấu {{name}} không?"
-        }
+        },
+        "titlePeople": "Xóa People",
+        "infoPeople": "Bạn có chắc muốn xóa {{count}} People không?"
       },
       "steamApiKeyMissing": {
         "title": "Thiếu khóa API Steam",
@@ -1456,7 +1635,9 @@
       "noUploadedResources": "Có vẻ như bạn chưa tải lên đám mây. Bạn có thể tải lên cơ sở dữ liệu hiện tại của mình hoặc tắt đồng bộ hóa trên máy này",
       "noSyncLocal": "Cơ sở dữ liệu cục bộ của bạn chưa được đồng bộ hóa với bộ lưu trữ đám mây. Bạn có thể tải xuống hoặc tải lên cơ sở dữ liệu hoặc tắt đồng bộ hóa. Lưu ý rằng việc tải xuống sẽ xóa những gì bạn hiện có trên PC này và việc tải lên sẽ XÓA nội dung bộ lưu trữ đám mây. Bạn muốn làm gì?",
       "error": "Đã xảy ra lỗi, vì vậy để tránh mất dữ liệu, chúng tôi đã tắt đồng bộ hóa",
-      "modalTitle": "Đồng bộ hóa"
+      "modalTitle": "Đồng bộ hóa",
+      "studioOnlyConflict": "Dữ liệu game hiện tại của bạn đã được đồng bộ, nhưng dữ liệu Studio cần đồng bộ hóa. Hành động bạn chọn chỉ áp dụng cho dữ liệu Studio.",
+      "currentAndStudioConflict": "Cả dữ liệu {{game}} và Studio đều cần được đồng bộ. Hành động bạn chọn sẽ được áp dụng cho cả hai cơ sở dữ liệu."
     },
     "workspaces": {
       "pickModalTitle": "Chọn không gian làm việc của bạn",
@@ -1488,6 +1669,41 @@
         "title": "Hướng dẫn sử dụng",
         "description": "Hãy xem Hướng dẫn sử dụng của chúng tôi để tìm hiểu thêm về từng thành phần của LHM. Bạn sẽ tìm thấy mô tả, hướng dẫn cấu hình và sử dụng tất cả các tính năng, cùng câu trả lời cho các câu hỏi phổ biến nhất. Nếu bạn có thêm câu hỏi, hãy tham gia [[our Discord|discord]]."
       }
+    },
+    "unsavedNavigation": {
+      "title": "Bỏ các thay đổi chưa lưu?",
+      "message": "Bạn có thay đổi chưa lưu. Bỏ chúng và tiếp tục?",
+      "stay": "Tiếp tục chỉnh sửa",
+      "discard": "Bỏ thay đổi"
+    },
+    "profile": {
+      "manageAccount": "Quản lý tài khoản",
+      "username": "Tên người dùng",
+      "currentWorkspace": "Workspace hiện tại",
+      "role": "Vai trò",
+      "owner": "Chủ sở hữu",
+      "member": "Thành viên",
+      "planStatusLabel": "Trạng thái gói",
+      "workspaceSeats": "Số ghế workspace",
+      "planSeats": "Số ghế gói",
+      "planStatus": {
+        "active": "Đang hoạt động",
+        "canceled": "Đã hủy",
+        "past_due": "Quá hạn",
+        "ended": "Đã kết thúc",
+        "inactive": "Không hoạt động",
+        "unknown": "Không xác định"
+      }
+    },
+    "keybinds": {
+      "title": "Cấu hình phím tắt",
+      "global": "Phím tắt toàn cục",
+      "pressKeys": "Nhấn phím...",
+      "overlap": "Phím tắt bị trùng",
+      "overlapSummary": "Bạn có các phím tắt bị trùng.",
+      "recording": "Đang ghi phím tắt",
+      "resetToDefault": "Đặt lại mặc định",
+      "saveError": "Không thể lưu phím tắt."
     }
   }
 }

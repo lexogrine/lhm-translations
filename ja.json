@@ -96,7 +96,11 @@
       "decline": "辞退する",
       "downloadTemplate": "テンプレートのダウンロード",
       "clickAndCopy": "クリックしてコピー",
-      "swap": "スワップ"
+      "swap": "スワップ",
+      "people": "People",
+      "overlays": "オーバーレイ",
+      "person": "Person",
+      "copied": "コピーしました"
     },
     "chat": {
       "title": "サポートチャット",
@@ -172,7 +176,9 @@
       "quick": "Quick",
       "chat": "サポートチャット",
       "composer": "Composer",
-      "xray": "X-Ray"
+      "xray": "X-Ray",
+      "people": "People",
+      "overlays": "オーバーレイ"
     },
     "aco": {
       "disabled": "無効",
@@ -242,7 +248,10 @@
         "label": "アクション・シネマティック"
       },
       "scoutPausedTip": "実行中のゲームが検出されなかったため、Scout AI は一時停止しています。",
-      "xrayWarning": "X-Rayを正しく動作させるには、CS2起動時にScout/X-Rayオプションをオンにする必要があります。"
+      "xrayWarning": "X-Rayを正しく動作させるには、CS2起動時にScout/X-Rayオプションをオンにする必要があります。",
+      "scoutFollowSide": {
+        "label": "サイドを追従"
+      }
     },
     "composer": {
       "componentsSubtitle": "HUDコンポーネントプレビュー",
@@ -322,7 +331,8 @@
         "hideComponent": "コンポーネントを非表示",
         "backToComponents": "コンポーネント一覧に戻る",
         "toBack": "背面へ",
-        "toFront": "前面へ"
+        "toFront": "前面へ",
+        "livePreviews": "ライブプレビュー"
       },
       "status": {
         "added": "追加済み",
@@ -441,7 +451,23 @@
       "importPlayersExcel": "あらかじめ用意されたExcelシートを使用して、一度に多数のプレーヤーを簡単にインポートできます。",
       "exportPlayers": "エクスポート",
       "avatar": "アバター",
-      "setAsCoach": "コーチに設定"
+      "setAsCoach": "コーチに設定",
+      "addPerson": "Personを追加",
+      "name": "名前",
+      "secondName": "セカンドネーム",
+      "importPeopleTitle": "Peopleをインポート",
+      "importPeopleExcel": "このタブからエクスポートしたStudio PeopleのExcelシートを使用して、一度に多くのPeopleをインポートできます。",
+      "picture": "画像",
+      "personImageInfo": "Person画像に使用する画像",
+      "socialLinks": {
+        "title": "ソーシャルリンク",
+        "instagram": "Instagram",
+        "x": "X",
+        "youtube": "YouTube",
+        "twitch": "Twitch",
+        "kick": "Kick",
+        "linkedin": "LinkedIn"
+      }
     },
     "teams": {
       "edit": "チームの編集",
@@ -458,7 +484,8 @@
       "header": "ライブ",
       "noGame": "現在ライブ中のゲームはありません。",
       "tipNoOrder": "現在試合中の選手、クリックすると選手リストに追加されます。",
-      "tip": "現在試合中の選手をクリックして選手リストに追加し、ドラッグ＆ドロップで各チーム内の選手の順番を変更できます。"
+      "tip": "現在試合中の選手をクリックして選手リストに追加し、ドラッグ＆ドロップで各チーム内の選手の順番を変更できます。",
+      "noGameDescription": "{{game}} のライブ試合データは、検出されるとここに自動的に表示されます。"
     },
     "cameras": {
       "generatePassword": "パスワード生成",
@@ -488,7 +515,10 @@
         "lol-mr-1": "アドバンスアドオンにより、メモリリーディングのおかげでより多くのデータを読み取ることが可能になります。メモリリーディングはチートとして扱われる可能性がありますが、そのようなツールは何年も前から存在しており、Riotはそれらに言及していませんし、このために観戦者がBANされたというケースも聞いたことがありません。とはいえ、League of Legends Advanced Addonの使用は自己責任でお願いします。",
         "lol-mr-2": "通常のゲームプレイ中にLoL Advanced Addonを使用しないでください！"
       },
-      "nodejsWarning": "ほとんどのアドオンには、NodeJS と NPM のインストールが必要です。"
+      "nodejsWarning": "ほとんどのアドオンには、NodeJS と NPM のインストールが必要です。",
+      "addon": "アドオン",
+      "actions": "アクション",
+      "emptyList": "利用可能なアドオンはありません。"
     },
     "navbar": {
       "huds": "HUD",
@@ -508,7 +538,9 @@
       "validUntil": "まで有効",
       "nextPayment": "次回のお支払い",
       "logout": "ログアウト",
-      "arg": "Replays"
+      "arg": "Replays",
+      "overlays": "オーバーレイ",
+      "people": "People"
     },
     "signals": {
       "removal": {
@@ -547,7 +579,8 @@
         "side": "側面",
         "teamAny": "チームいずれか",
         "playerAny": "選手任意"
-      }
+      },
+      "emptyList": "イベントはまだありません。最初のイベントを追加してください。"
     },
     "quick": {
       "uploadImage": "画像のアップロード",
@@ -698,7 +731,8 @@
       "reversedSides": "逆サイド",
       "mapList": "マップリスト",
       "generateGet5Config": "Get5 コンフィグの生成",
-      "emptyList": "試合はまだありません。最初の試合を作成してください。"
+      "emptyList": "試合はまだありません。最初の試合を作成してください。",
+      "bestOf": "Best of"
     },
     "credits": {
       "header": "クレジット",
@@ -721,7 +755,8 @@
       "priority": {
         "multi": "マルチキルを優先する",
         "headshots": "ヘッドショットを優先する",
-        "teamkills": "チームキルを優先する"
+        "teamkills": "チームキルを優先する",
+        "label": "優先度"
       },
       "mixer": {
         "label": "ミキサー",
@@ -735,7 +770,8 @@
         "port": "ポート",
         "password": "パスワード",
         "disconnect": "切断",
-        "switchInputs": "自動入力スイッチ"
+        "switchInputs": "自動入力スイッチ",
+        "chooseReplayInput": "リプレイ入力を選択"
       },
       "replay": {
         "replayModeTitle": "リプレイモード",
@@ -775,7 +811,36 @@
         "connectionRejected": {
           "title": "リプレイ接続が拒否されました",
           "workspaceMismatch": "ワークスペース {{workspaceName}} のユーザーがこの PC に接続しようとしました。"
-        }
+        },
+        "currentMode": "現在のモード",
+        "openReplayFeedClipsLocation": "Replay Feedクリップの保存場所を開く"
+      },
+      "saveClipsDescription": "再生後も生成されたリプレイクリップを保持する",
+      "replayMachineCode": "リプレイマシンコード",
+      "connected": "接続済み",
+      "disconnected": "未接続",
+      "timing": "タイミング",
+      "delay": "遅延",
+      "clockDifference": "クロック差: {{value}} ms",
+      "userGuide": "ユーザーガイド",
+      "learnMoreNdi": "NDIについて詳しく見る",
+      "sections": {
+        "connection": "接続",
+        "configuration": "リプレイ設定",
+        "output": "出力"
+      },
+      "units": {
+        "seconds": "秒",
+        "milliseconds": "ミリ秒"
+      },
+      "obsStatus": {
+        "label": "OBS設定",
+        "ready": "準備完了",
+        "manualSelection": "手動ソース選択で準備完了",
+        "missingNdi": "NDIソースサポートがありません",
+        "notConnected": "未接続",
+        "unknown": "不明",
+        "manualSelectionHelp": "OBSでLHM Replay Inputのプロパティを開き、LHM Replay Feedで終わるソースを選択してください。"
       }
     },
     "settings": {
@@ -823,7 +888,15 @@
       "subheaders": {
         "lhm": "LHM",
         "cloud": "LHMクラウド",
-        "additional": "追加"
+        "additional": "追加",
+        "studio": "Studio",
+        "general": "一般",
+        "applicationDevices": "アプリケーションとデバイス",
+        "currentGame": "現在のゲーム",
+        "cloudSynchronization": "クラウドと同期",
+        "studioBroadcast": "Studioと配信",
+        "advancedApi": "高度な設定とAPI",
+        "helpAbout": "ヘルプと概要"
       },
       "f1": {
         "add": "統合の追加",
@@ -904,7 +977,10 @@
           "refreshHud": "HUDをリフレッシュ",
           "toggleDirector": "スカウトビジョンを切り替え",
           "toggleScoutPredict": "Scout Predictを切り替え",
-          "toggleScoutCinematic": "Scout Cinematicを切り替え"
+          "toggleScoutCinematic": "Scout Cinematicを切り替え",
+          "setScoutFollowCT": "Scout Follow CT",
+          "setScoutFollowDefault": "Scout Follow Default",
+          "setScoutFollowT": "Scout Follow T"
         },
         "streamDeck": {
           "unavailable": "使用不可"
@@ -962,6 +1038,68 @@
         "generateToken": "生成",
         "regenerateToken": "再生成",
         "copyToken": "コピー"
+      },
+      "desktopAuth": {
+        "finishInBrowser": "ブラウザでサインインを完了してください。コードを求められた場合は入力してください:",
+        "codeExpiresAt": "このコードは {{time}} に期限切れになります。",
+        "openVerificationUrl": "{{url}} を開いてこのコードを入力してください。",
+        "browserSignInState": "ブラウザサインインは {{state}} でした。",
+        "browserSignInUnavailable": "ブラウザサインインは利用できません（{{code}}）。",
+        "errors": {
+          "connectivity": "サインインサービスに接続できません。インターネット接続やVPN接続を確認して、もう一度お試しください。",
+          "server": "サインインサービスで一時的な問題が発生しています。数分後にもう一度お試しください。",
+          "unavailable": "このLHMまたはサーバーバージョンではブラウザサインインを利用できません。メールアドレスとパスワードでサインインできます。",
+          "unexpectedResponse": "サインインサービスから予期しない応答が返されました。もう一度お試しください。問題が続く場合はサポートにお問い合わせください。",
+          "rateLimited": "サインイン試行回数が多すぎます。少し待ってからもう一度お試しください。",
+          "unsupportedVersion": "このLHMバージョンはブラウザサインインに対応していません。LHMを更新してもう一度お試しください。",
+          "transactionUnavailable": "ブラウザサインインセッションの期限が切れたか、見つかりませんでした。ブラウザサインインを再度開始してください。",
+          "generic": "ブラウザサインインを完了できませんでした。もう一度お試しください。"
+        },
+        "technicalCode": "技術コード: {{code}}",
+        "tosRequired": "LHM.ggで更新された利用規約に同意してから、もう一度サインインしてください。",
+        "reviewTerms": "利用規約を確認",
+        "cancelBrowserSignIn": "ブラウザサインインをキャンセル",
+        "signInWithBrowser": "ブラウザでサインイン",
+        "retry": "もう一度試す"
+      },
+      "leagueOfLegendsServerMode": "データ収集モード",
+      "showStudioDataInOtherGames": "他のゲームでStudioデータを表示",
+      "autoSwitchStatus": {
+        "AUTO_SWITCH_DISABLED": "自動切り替えはオフです。",
+        "WAITING_FOR_LIVE_DATA": "ライブゲームデータを待機中です。",
+        "NOT_CURRENT_GAME": "まずLHMでこのゲームを選択してください。",
+        "THROTTLED": "まもなく再確認します。",
+        "MISSING_LIVE_TEAM_IDS": "現在の試合でチームが選択されていません。",
+        "NO_SIDE_PLAYERS": "両サイドの選手を待機中です。",
+        "NO_CURRENT_MATCH": "まず現在の試合を選択してください。",
+        "MULTITEAM_MATCH": "自動切り替えは複数チームの試合では利用できません。",
+        "CURRENT_MAP_NOT_FOUND": "現在のマップがどのvetoマップとも一致しません。",
+        "NO_MATCHED_PLAYERS": "SteamIDで一致する選手が見つかりません。",
+        "LOW_CONFIDENCE": "反対側にいる既知の選手が十分ではありません。",
+        "READY": "準備完了。選手のサイドが逆に見えると切り替えます。",
+        "SWITCHING": "サイドを切り替え中...",
+        "SWITCHED": "最近サイドが切り替わりました。",
+        "HALFTIME_SWITCHED": "ハーフタイムでサイドが切り替わりました。",
+        "REVERSE_SIDE_FAILED": "自動切り替えはサイドを切り替えようとしましたが、試合状態によりブロックされました。",
+        "ERROR": "自動切り替えでエラーが発生しました。続く場合はLHMを再起動してください。"
+      },
+      "saveRequired": "保存が必要",
+      "subgroups": {
+        "configuration": "設定",
+        "setupStatus": "セットアップとステータス"
+      },
+      "studio": {
+        "sceneCollections": "シーンコレクション",
+        "downloadOBS": "OBSコレクションをダウンロード",
+        "downloadVMix": "vMixコレクションをダウンロード"
+      },
+      "streamDeck": {
+        "integration": "Stream Deck統合",
+        "connected": "接続済み",
+        "disconnected": "未接続",
+        "lastSeen": "最終確認: {{time}}",
+        "neverConnected": "まだハートビートを受信していません",
+        "pluginVersion": "プラグイン v{{version}}"
       }
     },
     "ar": {
@@ -998,7 +1136,13 @@
         "more": "その他",
         "hlaeIsRequired": "CS:GOがHLAEで動作している必要があります。",
         "proOrEntrpriseIsRequired": "プロフェッショナルまたはエンタープライズプランが必要です",
-        "hlaeAndHigherPlanIsRequired": "CS:GOをHLAEで実行し、プロフェッショナルまたはエンタープライズプランを持っている必要があります。"
+        "hlaeAndHigherPlanIsRequired": "CS:GOをHLAEで実行し、プロフェッショナルまたはエンタープライズプランを持っている必要があります。",
+        "advanced": "詳細",
+        "customLaunchParameters": "カスタム起動パラメータ",
+        "testData": "テストデータ",
+        "addOverlay": "オーバーレイを追加",
+        "openOverlaysDirectory": "オーバーレイディレクトリを開く",
+        "showStudioPeopleEntries": "Studio Peopleエントリを表示"
       },
       "sort": {
         "custom": "カスタム",
@@ -1011,7 +1155,8 @@
         "deleteTitle": "{{name}} カテゴリを削除",
         "name": "カテゴリ名",
         "ungrouped": "未分類",
-        "deleteInfo": "{{name}} カテゴリを削除してもよろしいですか？この操作ではHUD自体は削除されません。"
+        "deleteInfo": "{{name}} カテゴリを削除してもよろしいですか？この操作ではHUD自体は削除されません。",
+        "studioOverlays": "Studioオーバーレイ"
       },
       "fields": {
         "missing": "欠落しているフィールド",
@@ -1054,7 +1199,16 @@
         "clickToCopy": "クリックしてコピー",
         "linkCopied": "リンクをクリップボードにコピーしました",
         "openingOverlay": "オーバーレイでHUDを開いています…",
-        "createShortcut": "デスクトップにショートカットを作成"
+        "createShortcut": "デスクトップにショートカットを作成",
+        "toggleOverlayUrl": "オーバーレイURLを切り替え",
+        "overlaySettings": "オーバーレイ設定へ移動",
+        "startOverlay": "オーバーレイを開始",
+        "deleteOverlayLocally": "オーバーレイをローカルで削除",
+        "deleteOverlayFromCloud": "クラウドからオーバーレイを削除",
+        "toggleOverlayKeybinds": "オーバーレイキーバインドを切り替え",
+        "copyLink": "リンクをコピー",
+        "variants": "+{{count}} バリアント",
+        "keybind": "キーバインド"
       },
       "share": {
         "actions": {
@@ -1075,7 +1229,10 @@
             "never": "無期限"
           },
           "customExpiryWarning": "指定した有効期限を過ぎても、HUDが最大1時間利用可能な場合があります。",
-          "submit": "招待を送信"
+          "submit": "招待を送信",
+          "overlayTitle": "オーバーレイを共有",
+          "overlayDescription": "このオーバーレイを別のユーザーにメールで送信します。",
+          "overlayWorkspaceOwnerDisclaimer": "このオーバーレイはワークスペース「{{workspace}}」に属しています。あなたはワークスペースのオーナーではないため、招待はメインのEnterpriseアカウントの代理として送信されます。"
         },
         "pending": {
           "title": "保留中のHUD共有招待",
@@ -1128,7 +1285,23 @@
         "generic": "何か問題が発生しました。後でもう一度試してください。",
         "archive": "LHMがアーカイブファイルを読み込めませんでした。",
         "source": "コンパイルされたHUDではなく、ソースコードをアップロードしているようです。アップロードする前にHUDをコンパイルしてください。",
-        "space": "使用しているワークスペースのクラウド容量が不足しています。プランをアップグレードするか、クラウドリソースの一部を削除してください。"
+        "space": "使用しているワークスペースのクラウド容量が不足しています。プランをアップグレードするか、クラウドリソースの一部を削除してください。",
+        "overlayTitle": "オーバーレイを追加できません",
+        "overlayConfig": "LHMはオーバーレイの設定ファイルを読み取れませんでした。",
+        "overlayUpload": "LHMはオーバーレイをクラウドにアップロードできませんでした。後でもう一度お試しください。"
+      },
+      "settings": {
+        "title": "{{name}} - 設定",
+        "sections": "HUD設定セクション",
+        "saveError": "HUD設定を保存できません。"
+      },
+      "discover": {
+        "title": "Discover"
+      },
+      "views": {
+        "label": "HUDレイアウト",
+        "grid": "グリッド",
+        "list": "リスト"
       }
     },
     "app": {
@@ -1404,6 +1577,10 @@
         "slowMode": {
           "title": "スローモード",
           "info": "スローモードはAPIリクエストをキュー経由で送信してバーストトラフィックを減らします。国全体レベルの厳しいファイアウォール環境で有効な場合があります。\n変更後は有効化のためLHMを再起動してください。"
+        },
+        "showStudioDataInOtherGames": {
+          "title": "他のゲームでStudioデータを表示",
+          "info": "別のゲームが選択されている間もStudioリソースを表示します。Studio HUDはHUDリストに表示でき、Studio PeopleエントリはHUD設定パネルで使用でき、Studioクラウド同期は現在のゲームと一緒に確認されます。"
         }
       }
     },
@@ -1426,7 +1603,9 @@
         "single": {
           "titleTournament": "{{name}} トーナメントを削除",
           "infoTournament": "本当に {{name}} トーナメントを削除しますか？"
-        }
+        },
+        "titlePeople": "Peopleを削除",
+        "infoPeople": "{{count}}人のPeopleを削除してもよろしいですか？"
       },
       "steamApiKeyMissing": {
         "title": "Steam API Key が見つかりません",
@@ -1456,7 +1635,9 @@
       "noUploadedResources": "まだクラウドにアップロードしていないようです。現在のデータベースをアップロードするか、このマシンの同期を無効にしてください。",
       "noSyncLocal": "ローカルデータベースがクラウドストレージと同期されていません。データベースをダウンロードまたはアップロードするか、同期を無効にしてください。ダウンロードすると現在このPCにあるものが削除され、アップロードするとクラウドストレージのコンテンツが消去されますのでご注意ください。どうしますか？",
       "error": "エラーが発生したので、データの損失を防ぐために同期をオフにしました。",
-      "modalTitle": "同期"
+      "modalTitle": "同期",
+      "studioOnlyConflict": "現在のゲームデータはすでに同期されていますが、Studioデータは同期が必要です。選択した操作はStudioデータにのみ適用されます。",
+      "currentAndStudioConflict": "{{game}} とStudioデータの両方で同期が必要です。選択した操作は両方のデータベースに適用されます。"
     },
     "workspaces": {
       "pickModalTitle": "ワークスペースを選ぶ",
@@ -1488,6 +1669,41 @@
         "title": "ユーザーガイド",
         "description": "LHMの各コンポーネントについて詳しく知るには、ユーザーガイドをご覧ください。すべての機能の説明、設定手順、使い方、よくある質問への回答を掲載しています。追加で質問がある場合は [[私たちのDiscord|discord]] に参加してください。"
       }
+    },
+    "unsavedNavigation": {
+      "title": "未保存の変更を破棄しますか？",
+      "message": "未保存の変更があります。破棄して続行しますか？",
+      "stay": "編集を続ける",
+      "discard": "変更を破棄"
+    },
+    "profile": {
+      "manageAccount": "アカウント管理",
+      "username": "ユーザー名",
+      "currentWorkspace": "現在のワークスペース",
+      "role": "ロール",
+      "owner": "オーナー",
+      "member": "メンバー",
+      "planStatusLabel": "プランステータス",
+      "workspaceSeats": "ワークスペースシート",
+      "planSeats": "プランシート",
+      "planStatus": {
+        "active": "アクティブ",
+        "canceled": "キャンセル済み",
+        "past_due": "支払い期限超過",
+        "ended": "終了",
+        "inactive": "非アクティブ",
+        "unknown": "不明"
+      }
+    },
+    "keybinds": {
+      "title": "キーバインドを設定",
+      "global": "グローバルキーバインド",
+      "pressKeys": "キーを押してください...",
+      "overlap": "重複するキーバインド",
+      "overlapSummary": "重複するキーバインドがあります。",
+      "recording": "キーバインドを記録中",
+      "resetToDefault": "デフォルトに戻す",
+      "saveError": "キーバインドを保存できません。"
     }
   }
 }

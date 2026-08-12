@@ -96,7 +96,11 @@
       "decline": "Avvisa",
       "downloadTemplate": "Ladda ner mall",
       "clickAndCopy": "Klicka & Kopiera",
-      "swap": "Byta"
+      "swap": "Byta",
+      "people": "Personer",
+      "overlays": "Overlays",
+      "person": "Person",
+      "copied": "Kopierat"
     },
     "chat": {
       "title": "Stöd chatt",
@@ -172,7 +176,9 @@
       "quick": "Quick",
       "chat": "Stöd chatt",
       "composer": "Composer",
-      "xray": "X-Ray"
+      "xray": "X-Ray",
+      "people": "Personer",
+      "overlays": "Overlays"
     },
     "aco": {
       "disabled": "Inaktiverad",
@@ -242,7 +248,10 @@
         "label": "Åtgärd Cinematisk"
       },
       "scoutPausedTip": "Scout AI är pausad eftersom inget spel i gång upptäcktes.",
-      "xrayWarning": "För att X-Ray ska fungera korrekt måste CS2 startas med Scout/X-Ray-alternativet aktiverat."
+      "xrayWarning": "För att X-Ray ska fungera korrekt måste CS2 startas med Scout/X-Ray-alternativet aktiverat.",
+      "scoutFollowSide": {
+        "label": "Följ sida"
+      }
     },
     "composer": {
       "componentsSubtitle": "Förhandsvisning av HUD-komponent",
@@ -322,7 +331,8 @@
         "hideComponent": "Dölj komponent",
         "backToComponents": "Tillbaka till komponenter",
         "toBack": "Bakåt",
-        "toFront": "Framåt"
+        "toFront": "Framåt",
+        "livePreviews": "Liveförhandsvisningar"
       },
       "status": {
         "added": "Tillagd",
@@ -441,7 +451,23 @@
       "importPlayersExcel": "Använd vårt förberedda Excel-ark för att enkelt importera många spelare på en gång.",
       "exportPlayers": "Exportera",
       "avatar": "Avatar",
-      "setAsCoach": "Sätt som coach"
+      "setAsCoach": "Sätt som coach",
+      "addPerson": "Lägg till person",
+      "name": "Namn",
+      "secondName": "Andranamn",
+      "importPeopleTitle": "Importera personer",
+      "importPeopleExcel": "Använd ett Studio People Excel-ark som exporterats från den här fliken för att importera många personer samtidigt.",
+      "picture": "Bild",
+      "personImageInfo": "Bild som ska användas för personbilder",
+      "socialLinks": {
+        "title": "Sociala länkar",
+        "instagram": "Instagram",
+        "x": "X",
+        "youtube": "YouTube",
+        "twitch": "Twitch",
+        "kick": "Kick",
+        "linkedin": "LinkedIn"
+      }
     },
     "teams": {
       "edit": "Redigera ett lag",
@@ -458,7 +484,8 @@
       "header": "Live",
       "noGame": "Inget spel är för närvarande live.",
       "tipNoOrder": "Spelare för närvarande i match, klicka för att lägga till en spelare i spelarlistan.",
-      "tip": "Spelare för närvarande i match, klicka för att lägga till en spelare i spelarlistan och dra och släpp för att ändra ordningen på spelarna i deras lag."
+      "tip": "Spelare för närvarande i match, klicka för att lägga till en spelare i spelarlistan och dra och släpp för att ändra ordningen på spelarna i deras lag.",
+      "noGameDescription": "Live-matchdata för {{game}} visas automatiskt här när de upptäcks."
     },
     "cameras": {
       "generatePassword": "Generera lösenord",
@@ -488,7 +515,10 @@
         "lol-mr-1": "Advanced Addon gör det möjligt att läsa mycket mer data tack vare minnesavläsning. Minnesavläsning kan behandlas som ett fusk, medan sådana verktyg har funnits i flera år och Riot inte hänvisar till dem och vi har inte hört talas om fall där åskådare har blivit förbjudna för detta. Ändå använder du League of Legends Advanced Addon på egen risk.",
         "lol-mr-2": "Använd inte LoL Advanced Addon under normalt spelande, det används endast för att titta på spelet!"
       },
-      "nodejsWarning": "NodeJS och NPM krävs för att installeras för de flesta tillägg"
+      "nodejsWarning": "NodeJS och NPM krävs för att installeras för de flesta tillägg",
+      "addon": "Tillägg",
+      "actions": "Åtgärder",
+      "emptyList": "Inga tillägg tillgängliga."
     },
     "navbar": {
       "huds": "HUD",
@@ -508,7 +538,9 @@
       "validUntil": "Giltig till",
       "nextPayment": "Nästa betalning",
       "logout": "Logga ut",
-      "arg": "Replays"
+      "arg": "Replays",
+      "overlays": "Overlays",
+      "people": "Personer"
     },
     "signals": {
       "removal": {
@@ -547,7 +579,8 @@
         "side": "Sida:",
         "teamAny": "Lag: Vilket som helst",
         "playerAny": "Spelare: Vilken som helst"
-      }
+      },
+      "emptyList": "Inga händelser ännu. Lägg till din första händelse."
     },
     "quick": {
       "uploadImage": "Ladda upp bild",
@@ -698,7 +731,8 @@
       "reversedSides": "Omvända sidor",
       "mapList": "Kartlista",
       "generateGet5Config": "Generera Get5 Config",
-      "emptyList": "Det finns inga matcher ännu. Skapa din första match."
+      "emptyList": "Det finns inga matcher ännu. Skapa din första match.",
+      "bestOf": "Bäst av"
     },
     "credits": {
       "header": "Krediter",
@@ -721,7 +755,8 @@
       "priority": {
         "multi": "Prioritera flera kills",
         "headshots": "Prioritera huvudskott",
-        "teamkills": "Prioritera team dödar"
+        "teamkills": "Prioritera team dödar",
+        "label": "Prioritet"
       },
       "mixer": {
         "label": "Blandare",
@@ -735,7 +770,8 @@
         "port": "Port",
         "password": "Lösenord",
         "disconnect": "Koppla bort",
-        "switchInputs": "Automatisk inmatningsbrytare"
+        "switchInputs": "Automatisk inmatningsbrytare",
+        "chooseReplayInput": "Välj replay-ingången"
       },
       "replay": {
         "replayModeTitle": "Uppspelningsläge",
@@ -775,7 +811,36 @@
         "connectionRejected": {
           "title": "Replay-anslutning nekad",
           "workspaceMismatch": "En användare från arbetsytan {{workspaceName}} försökte ansluta till den här datorn."
-        }
+        },
+        "currentMode": "Aktuellt läge",
+        "openReplayFeedClipsLocation": "Öppna platsen för Replay Feed-klipp"
+      },
+      "saveClipsDescription": "Behåll genererade replay-klipp efter uppspelning",
+      "replayMachineCode": "Replay-maskinkod",
+      "connected": "Ansluten",
+      "disconnected": "Frånkopplad",
+      "timing": "Timing",
+      "delay": "Fördröjning",
+      "clockDifference": "Klockskillnad: {{value}} ms",
+      "userGuide": "Användarhandbok",
+      "learnMoreNdi": "Läs mer om NDI",
+      "sections": {
+        "connection": "Anslutning",
+        "configuration": "Replay-konfiguration",
+        "output": "Utgång"
+      },
+      "units": {
+        "seconds": "sekunder",
+        "milliseconds": "millisekunder"
+      },
+      "obsStatus": {
+        "label": "OBS-konfiguration",
+        "ready": "Klar",
+        "manualSelection": "Klar med manuellt källval",
+        "missingNdi": "Saknar stöd för NDI Source",
+        "notConnected": "Inte ansluten",
+        "unknown": "Okänd",
+        "manualSelectionHelp": "I OBS öppnar du egenskaperna för LHM Replay Input och väljer källan som slutar med LHM Replay Feed."
       }
     },
     "settings": {
@@ -823,7 +888,15 @@
       "subheaders": {
         "lhm": "LHM",
         "cloud": "LHM Cloud",
-        "additional": "Ytterligare"
+        "additional": "Ytterligare",
+        "studio": "Studio",
+        "general": "Allmänt",
+        "applicationDevices": "Applikation och enheter",
+        "currentGame": "Aktuellt spel",
+        "cloudSynchronization": "Moln och synkronisering",
+        "studioBroadcast": "Studio och broadcast",
+        "advancedApi": "Avancerat och API",
+        "helpAbout": "Hjälp och om"
       },
       "f1": {
         "add": "Lägg till integration",
@@ -904,7 +977,10 @@
           "refreshHud": "Uppdatera HUD",
           "toggleDirector": "Växla scoutvision",
           "toggleScoutPredict": "Växla Scout Predict",
-          "toggleScoutCinematic": "Växla Scout Cinematic"
+          "toggleScoutCinematic": "Växla Scout Cinematic",
+          "setScoutFollowCT": "Scout följ CT",
+          "setScoutFollowDefault": "Scout följ standard",
+          "setScoutFollowT": "Scout följ T"
         },
         "streamDeck": {
           "unavailable": "Ej tillgänglig"
@@ -962,6 +1038,68 @@
         "generateToken": "Generera",
         "regenerateToken": "Generera om",
         "copyToken": "Kopiera"
+      },
+      "desktopAuth": {
+        "finishInBrowser": "Slutför inloggningen i din webbläsare. Om du blir ombedd om en kod, ange:",
+        "codeExpiresAt": "Den här koden upphör att gälla {{time}}.",
+        "openVerificationUrl": "Öppna {{url}} och ange den här koden.",
+        "browserSignInState": "Webbläsarinloggningen var {{state}}.",
+        "browserSignInUnavailable": "Webbläsarinloggning är inte tillgänglig ({{code}}).",
+        "errors": {
+          "connectivity": "Kan inte nå inloggningstjänsten. Kontrollera din internetanslutning och eventuell VPN-anslutning och försök igen.",
+          "server": "Inloggningstjänsten har ett tillfälligt problem. Försök igen om några minuter.",
+          "unavailable": "Webbläsarinloggning är inte tillgänglig i den här LHM- eller serverversionen. Du kan fortfarande logga in med e-post och lösenord.",
+          "unexpectedResponse": "Inloggningstjänsten returnerade ett oväntat svar. Försök igen eller kontakta support om problemet fortsätter.",
+          "rateLimited": "För många inloggningsförsök. Vänta en stund och försök igen.",
+          "unsupportedVersion": "Den här LHM-versionen stöder inte webbläsarinloggning. Uppdatera LHM och försök igen.",
+          "transactionUnavailable": "Din webbläsarinloggningssession har löpt ut eller kunde inte hittas. Starta webbläsarinloggningen igen.",
+          "generic": "Webbläsarinloggningen kunde inte slutföras. Försök igen."
+        },
+        "technicalCode": "Teknisk kod: {{code}}",
+        "tosRequired": "Godkänn de uppdaterade användarvillkoren på LHM.gg och försök sedan logga in igen.",
+        "reviewTerms": "Granska användarvillkor",
+        "cancelBrowserSignIn": "Avbryt webbläsarinloggning",
+        "signInWithBrowser": "Logga in med webbläsare",
+        "retry": "Försök igen"
+      },
+      "leagueOfLegendsServerMode": "Läge för datainsamling",
+      "showStudioDataInOtherGames": "Visa Studio-data i andra spel",
+      "autoSwitchStatus": {
+        "AUTO_SWITCH_DISABLED": "Auto-Switch är av.",
+        "WAITING_FOR_LIVE_DATA": "Väntar på live-speldata.",
+        "NOT_CURRENT_GAME": "Välj först det här spelet i LHM.",
+        "THROTTLED": "Kontrollerar igen inom kort.",
+        "MISSING_LIVE_TEAM_IDS": "Inga lag valda i den aktuella matchen.",
+        "NO_SIDE_PLAYERS": "Väntar på spelare på båda sidor.",
+        "NO_CURRENT_MATCH": "Välj först en aktuell match.",
+        "MULTITEAM_MATCH": "Auto-Switch är inte tillgängligt för matcher med flera lag.",
+        "CURRENT_MAP_NOT_FOUND": "Den aktuella kartan matchar ingen vetokarta.",
+        "NO_MATCHED_PLAYERS": "Inga matchande spelare hittades via SteamID.",
+        "LOW_CONFIDENCE": "Det finns inte tillräckligt många kända spelare på motsatta sidor.",
+        "READY": "Klar. Växlar när spelarnas sidor verkar omvända.",
+        "SWITCHING": "Byter sidor...",
+        "SWITCHED": "Sidorna byttes nyligen.",
+        "HALFTIME_SWITCHED": "Sidorna byttes i halvtid.",
+        "REVERSE_SIDE_FAILED": "Auto-Switch försökte byta sidor, men matchstatusen blockerade det.",
+        "ERROR": "Auto-Switch stötte på ett fel. Starta om LHM om detta kvarstår."
+      },
+      "saveRequired": "Sparning krävs",
+      "subgroups": {
+        "configuration": "Konfiguration",
+        "setupStatus": "Konfiguration och status"
+      },
+      "studio": {
+        "sceneCollections": "Scensamlingar",
+        "downloadOBS": "Ladda ner OBS-samling",
+        "downloadVMix": "Ladda ner vMix-samling"
+      },
+      "streamDeck": {
+        "integration": "Stream Deck-integration",
+        "connected": "Ansluten",
+        "disconnected": "Frånkopplad",
+        "lastSeen": "Senast sedd: {{time}}",
+        "neverConnected": "Ingen heartbeat mottagen ännu",
+        "pluginVersion": "Plugin v{{version}}"
       }
     },
     "ar": {
@@ -998,7 +1136,13 @@
         "more": "Mer",
         "hlaeIsRequired": "Du måste ha CS:GO igång med HLAE",
         "proOrEntrpriseIsRequired": "Du måste ha en Professional- eller Enterprise-plan",
-        "hlaeAndHigherPlanIsRequired": "Du måste ha CS:GO som körs med HLAE och en Professional- eller Enterprise-plan"
+        "hlaeAndHigherPlanIsRequired": "Du måste ha CS:GO som körs med HLAE och en Professional- eller Enterprise-plan",
+        "advanced": "Avancerat",
+        "customLaunchParameters": "Anpassade startparametrar",
+        "testData": "Testdata",
+        "addOverlay": "Lägg till overlay",
+        "openOverlaysDirectory": "Öppna overlay-katalogen",
+        "showStudioPeopleEntries": "Visa Studio People-poster"
       },
       "sort": {
         "custom": "Anpassad",
@@ -1011,7 +1155,8 @@
         "deleteTitle": "Ta bort kategorin {{name}}",
         "name": "Kategorinamn",
         "ungrouped": "Ogrupperad",
-        "deleteInfo": "Är du säker på att du vill ta bort kategorin {{name}}? Den här åtgärden tar inte bort några HUD:ar."
+        "deleteInfo": "Är du säker på att du vill ta bort kategorin {{name}}? Den här åtgärden tar inte bort några HUD:ar.",
+        "studioOverlays": "Studio Overlays"
       },
       "fields": {
         "missing": "Saknade fält",
@@ -1054,7 +1199,16 @@
         "clickToCopy": "Klicka för att kopiera",
         "linkCopied": "Länk kopierad till urklipp",
         "openingOverlay": "Öppnar HUD i överlägg...",
-        "createShortcut": "Skapa genväg på skrivbordet"
+        "createShortcut": "Skapa genväg på skrivbordet",
+        "toggleOverlayUrl": "Växla overlay-URL",
+        "overlaySettings": "Gå till overlay-inställningar",
+        "startOverlay": "Starta overlay",
+        "deleteOverlayLocally": "Radera overlay lokalt",
+        "deleteOverlayFromCloud": "Radera overlay från molnet",
+        "toggleOverlayKeybinds": "Växla overlay-tangentbindningar",
+        "copyLink": "Kopiera länk",
+        "variants": "+{{count}} varianter",
+        "keybind": "Tangentbindning"
       },
       "share": {
         "actions": {
@@ -1075,7 +1229,10 @@
             "never": "Ingen utgång"
           },
           "customExpiryWarning": "Efter valt utgångsdatum kan HUD:en förbli tillgänglig i upp till en timme.",
-          "submit": "Skicka inbjudan"
+          "submit": "Skicka inbjudan",
+          "overlayTitle": "Dela overlay",
+          "overlayDescription": "Skicka denna overlay till en annan användare via e-post.",
+          "overlayWorkspaceOwnerDisclaimer": "Den här overlayen tillhör arbetsytan \"{{workspace}}\". Eftersom du inte är arbetsytans ägare skickas inbjudan på uppdrag av huvudkontot för Enterprise."
         },
         "pending": {
           "title": "Väntande delningsinbjudningar för HUD",
@@ -1128,7 +1285,23 @@
         "generic": "Något gick fel. Försök igen senare.",
         "archive": "LHM kunde'inte läsa arkivfilen.",
         "source": "Det verkar som om du laddar upp källkod istället för den kompilerade HUD:en. Kompilera HUD:en innan du laddar upp den.",
-        "space": "Du har inte tillräckligt med molnutrymme i den arbetsyta du använder. Uppgradera din plan eller ta bort några av dina molnresurser."
+        "space": "Du har inte tillräckligt med molnutrymme i den arbetsyta du använder. Uppgradera din plan eller ta bort några av dina molnresurser.",
+        "overlayTitle": "Kan inte lägga till overlay",
+        "overlayConfig": "LHM kunde inte läsa overlayens konfigurationsfil.",
+        "overlayUpload": "LHM kunde inte ladda upp overlayen till molnet. Försök igen senare."
+      },
+      "settings": {
+        "title": "{{name}} - Inställningar",
+        "sections": "HUD-inställningsavsnitt",
+        "saveError": "Det gick inte att spara HUD-inställningar."
+      },
+      "discover": {
+        "title": "Upptäck"
+      },
+      "views": {
+        "label": "HUD-layout",
+        "grid": "Rutnät",
+        "list": "Lista"
       }
     },
     "app": {
@@ -1404,6 +1577,10 @@
         "slowMode": {
           "title": "Långsamt läge",
           "info": "Långsamt läge skickar API-förfrågningar via en kö för att minska topptrafik. Detta kan hjälpa i restriktiva nationella brandväggsmiljöer.\nStarta om LHM efter att du har ändrat detta värde för att det ska börja gälla."
+        },
+        "showStudioDataInOtherGames": {
+          "title": "Visa Studio-data i andra spel",
+          "info": "Visar Studio-resurser medan ett annat spel är valt. Studio HUDs kan visas i HUD-listor, Studio People-poster kan användas i HUD-konfigurationspaneler och Studio-molnsynkronisering kontrolleras tillsammans med det aktuella spelet."
         }
       }
     },
@@ -1426,7 +1603,9 @@
         "single": {
           "titleTournament": "Ta bort turneringen {{name}}",
           "infoTournament": "Är du säker på att du vill ta bort turneringen {{name}}?"
-        }
+        },
+        "titlePeople": "Radera personer",
+        "infoPeople": "Är du säker på att du vill ta bort {{count}} personer?"
       },
       "steamApiKeyMissing": {
         "title": "Steam API-nyckel saknas",
@@ -1456,7 +1635,9 @@
       "noUploadedResources": "Det verkar som att du ännu inte har laddat upp till molnet. Du kan ladda upp din nuvarande databas eller inaktivera synkronisering på den här maskinen",
       "noSyncLocal": "Din lokala databas är inte synkroniserad med molnlagringen. Du kan ladda ner eller ladda upp databasen eller inaktivera synkronisering. Observera att nedladdning tar bort det du för närvarande har på denna dator, och uppladdning RADERAR innehållet i molnlagringen. Vad vill du göra?",
       "error": "Ett fel uppstod, så för att förhindra dataförlust stängde vi av synkroniseringen",
-      "modalTitle": "Synkronisering"
+      "modalTitle": "Synkronisering",
+      "studioOnlyConflict": "Dina aktuella speldata är redan synkroniserade, men Studio-data behöver synkroniseras. Åtgärden du väljer gäller endast Studio-data.",
+      "currentAndStudioConflict": "Både {{game}} och Studio-data behöver synkroniseras. Åtgärden du väljer tillämpas på båda databaserna."
     },
     "workspaces": {
       "pickModalTitle": "Välj din arbetsyta",
@@ -1488,6 +1669,41 @@
         "title": "Användarhandbok",
         "description": "Kolla in vår användarguide för att lära dig mer om var och en av LHM's komponenter. Du hittar beskrivningar, instruktioner för hur du konfigurerar och använder alla funktioner samt svar på de vanligaste frågorna. Om du har ytterligare frågor kan du gå med i [[vår Discord|discord]]."
       }
+    },
+    "unsavedNavigation": {
+      "title": "Kassera osparade ändringar?",
+      "message": "Du har osparade ändringar. Kassera dem och fortsätta?",
+      "stay": "Fortsätt redigera",
+      "discard": "Kassera ändringar"
+    },
+    "profile": {
+      "manageAccount": "Hantera konto",
+      "username": "Användarnamn",
+      "currentWorkspace": "Aktuell arbetsyta",
+      "role": "Roll",
+      "owner": "Ägare",
+      "member": "Medlem",
+      "planStatusLabel": "Planstatus",
+      "workspaceSeats": "Arbetsyteplatser",
+      "planSeats": "Planplatser",
+      "planStatus": {
+        "active": "Aktiv",
+        "canceled": "Avbruten",
+        "past_due": "Förfallen",
+        "ended": "Avslutad",
+        "inactive": "Inaktiv",
+        "unknown": "Okänd"
+      }
+    },
+    "keybinds": {
+      "title": "Konfigurera tangentbindningar",
+      "global": "Globala tangentbindningar",
+      "pressKeys": "Tryck på tangenter...",
+      "overlap": "Överlappande tangentbindning",
+      "overlapSummary": "Du har överlappande tangentbindningar.",
+      "recording": "Spelar in tangentbindning",
+      "resetToDefault": "Återställ till standard",
+      "saveError": "Det gick inte att spara tangentbindningen."
     }
   }
 }

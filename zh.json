@@ -96,7 +96,11 @@
       "decline": "拒绝",
       "downloadTemplate": "下载模板",
       "clickAndCopy": "点击 & 复制",
-      "swap": "交换"
+      "swap": "交换",
+      "people": "People",
+      "overlays": "叠加层",
+      "person": "Person",
+      "copied": "已复制"
     },
     "chat": {
       "title": "支持聊天",
@@ -172,7 +176,9 @@
       "quick": "Quick",
       "chat": "支持聊天",
       "composer": "Composer",
-      "xray": "X-RAY"
+      "xray": "X-RAY",
+      "people": "People",
+      "overlays": "叠加层"
     },
     "aco": {
       "disabled": "禁用",
@@ -242,7 +248,10 @@
         "label": "动作电影"
       },
       "scoutPausedTip": "Scout AI 暂停，因为未检测到正在运行的游戏。",
-      "xrayWarning": "要使 X-RAY 正常工作，必须在启动 CS2 时启用 Scout/X-RAY 选项。"
+      "xrayWarning": "要使 X-RAY 正常工作，必须在启动 CS2 时启用 Scout/X-RAY 选项。",
+      "scoutFollowSide": {
+        "label": "跟随阵营"
+      }
     },
     "composer": {
       "componentsSubtitle": "HUD 组件预览",
@@ -322,7 +331,8 @@
         "hideComponent": "隐藏组件",
         "backToComponents": "返回组件",
         "toBack": "置于底层",
-        "toFront": "置于顶层"
+        "toFront": "置于顶层",
+        "livePreviews": "实时预览"
       },
       "status": {
         "added": "已添加",
@@ -441,7 +451,23 @@
       "importPlayersExcel": "使用我们预先准备好的 Excel 表单，一次轻松导入多名球员。",
       "exportPlayers": "导出",
       "avatar": "头像",
-      "setAsCoach": "设为教练"
+      "setAsCoach": "设为教练",
+      "addPerson": "添加 Person",
+      "name": "名称",
+      "secondName": "第二名称",
+      "importPeopleTitle": "导入 People",
+      "importPeopleExcel": "使用从此选项卡导出的 Studio People Excel 表，一次导入多名 People。",
+      "picture": "图片",
+      "personImageInfo": "用于 Person 图片的图片",
+      "socialLinks": {
+        "title": "社交链接",
+        "instagram": "Instagram",
+        "x": "X",
+        "youtube": "YouTube",
+        "twitch": "Twitch",
+        "kick": "Kick",
+        "linkedin": "LinkedIn"
+      }
     },
     "teams": {
       "edit": "编辑团队",
@@ -458,7 +484,8 @@
       "header": "实时",
       "noGame": "当前没有游戏直播。",
       "tipNoOrder": "当前正在比赛的球员，点击可将球员添加到球员列表。",
-      "tip": "当前正在比赛的球员，点击可将球员添加到球员列表，并可通过拖放更改球员在各自队伍中的顺序。"
+      "tip": "当前正在比赛的球员，点击可将球员添加到球员列表，并可通过拖放更改球员在各自队伍中的顺序。",
+      "noGameDescription": "检测到 {{game}} 的实时比赛数据后，将自动显示在这里。"
     },
     "cameras": {
       "generatePassword": "生成密码",
@@ -488,7 +515,10 @@
         "lol-mr-1": "通过内存读取功能，高级插件可以读取更多数据。记忆读取可被视为作弊，但此类工具已存在多年，Riot 并未提及，我们也未听说有观众因此被禁赛的案例。尽管如此，您仍需自行承担使用《英雄联盟》高级插件的风险。",
         "lol-mr-2": "请勿在正常游戏过程中使用《英雄联盟》高级插件，该插件仅用于观战！"
       },
-      "nodejsWarning": "大多数插件都需要安装 NodeJS 和 NPM"
+      "nodejsWarning": "大多数插件都需要安装 NodeJS 和 NPM",
+      "addon": "插件",
+      "actions": "操作",
+      "emptyList": "没有可用插件。"
     },
     "navbar": {
       "huds": "HUD",
@@ -508,7 +538,9 @@
       "validUntil": "有效期至",
       "nextPayment": "下次付款",
       "logout": "注销",
-      "arg": "Replays"
+      "arg": "Replays",
+      "overlays": "叠加层",
+      "people": "People"
     },
     "signals": {
       "removal": {
@@ -547,7 +579,8 @@
         "side": "侧",
         "teamAny": "球队任意",
         "playerAny": "球员任意"
-      }
+      },
+      "emptyList": "还没有事件。添加您的第一个事件。"
     },
     "quick": {
       "uploadImage": "上传图片",
@@ -698,7 +731,8 @@
       "reversedSides": "反面",
       "mapList": "地图列表",
       "generateGet5Config": "生成 Get5 配置",
-      "emptyList": "还没有比赛。创建你的第一场比赛。"
+      "emptyList": "还没有比赛。创建你的第一场比赛。",
+      "bestOf": "Best of"
     },
     "credits": {
       "header": "积分",
@@ -721,7 +755,8 @@
       "priority": {
         "multi": "多杀优先",
         "headshots": "优先爆头",
-        "teamkills": "优先团队击杀"
+        "teamkills": "优先团队击杀",
+        "label": "优先级"
       },
       "mixer": {
         "label": "混合器",
@@ -735,7 +770,8 @@
         "port": "端口",
         "password": "密码",
         "disconnect": "断开连接",
-        "switchInputs": "自动输入开关"
+        "switchInputs": "自动输入开关",
+        "chooseReplayInput": "选择回放输入"
       },
       "replay": {
         "replayModeTitle": "回放模式",
@@ -775,7 +811,36 @@
         "connectionRejected": {
           "title": "回放连接被拒绝",
           "workspaceMismatch": "来自工作区 {{workspaceName}} 的用户尝试连接到此电脑。"
-        }
+        },
+        "currentMode": "当前模式",
+        "openReplayFeedClipsLocation": "打开 Replay Feed 片段位置"
+      },
+      "saveClipsDescription": "播放后保留生成的回放片段",
+      "replayMachineCode": "回放机器代码",
+      "connected": "已连接",
+      "disconnected": "已断开连接",
+      "timing": "计时",
+      "delay": "延迟",
+      "clockDifference": "时钟差：{{value}} ms",
+      "userGuide": "用户指南",
+      "learnMoreNdi": "了解更多关于 NDI 的信息",
+      "sections": {
+        "connection": "连接",
+        "configuration": "回放配置",
+        "output": "输出"
+      },
+      "units": {
+        "seconds": "秒",
+        "milliseconds": "毫秒"
+      },
+      "obsStatus": {
+        "label": "OBS 设置",
+        "ready": "就绪",
+        "manualSelection": "已就绪，需手动选择源",
+        "missingNdi": "缺少 NDI Source 支持",
+        "notConnected": "未连接",
+        "unknown": "未知",
+        "manualSelectionHelp": "在 OBS 中打开 LHM Replay Input 属性，并选择以 LHM Replay Feed 结尾的源。"
       }
     },
     "settings": {
@@ -823,7 +888,15 @@
       "subheaders": {
         "lhm": "LHM",
         "cloud": "LHM 云",
-        "additional": "附加"
+        "additional": "附加",
+        "studio": "Studio",
+        "general": "常规",
+        "applicationDevices": "应用程序与设备",
+        "currentGame": "当前游戏",
+        "cloudSynchronization": "云与同步",
+        "studioBroadcast": "Studio 与直播",
+        "advancedApi": "高级与 API",
+        "helpAbout": "帮助与关于"
       },
       "f1": {
         "add": "添加整合",
@@ -904,7 +977,10 @@
           "refreshHud": "刷新 HUD",
           "toggleDirector": "切换 Scout Vision",
           "toggleScoutPredict": "切换 Scout Predict",
-          "toggleScoutCinematic": "切换 Scout Cinematic"
+          "toggleScoutCinematic": "切换 Scout Cinematic",
+          "setScoutFollowCT": "Scout Follow CT",
+          "setScoutFollowDefault": "Scout Follow Default",
+          "setScoutFollowT": "Scout Follow T"
         },
         "streamDeck": {
           "unavailable": "不可用"
@@ -962,6 +1038,68 @@
         "generateToken": "生成",
         "regenerateToken": "重新生成",
         "copyToken": "复制"
+      },
+      "desktopAuth": {
+        "finishInBrowser": "在浏览器中完成登录。如果要求输入代码，请输入：",
+        "codeExpiresAt": "此代码将于 {{time}} 过期。",
+        "openVerificationUrl": "打开 {{url}} 并输入此代码。",
+        "browserSignInState": "浏览器登录状态为 {{state}}。",
+        "browserSignInUnavailable": "浏览器登录不可用（{{code}}）。",
+        "errors": {
+          "connectivity": "无法连接到登录服务。请检查您的互联网连接和任何 VPN 连接，然后重试。",
+          "server": "登录服务暂时出现问题。请几分钟后重试。",
+          "unavailable": "此 LHM 或服务器版本不支持浏览器登录。您仍可使用邮箱和密码登录。",
+          "unexpectedResponse": "登录服务返回了意外响应。请重试；如果问题持续，请联系支持。",
+          "rateLimited": "登录尝试次数过多。请稍等片刻后重试。",
+          "unsupportedVersion": "此 LHM 版本不支持浏览器登录。请更新 LHM 后重试。",
+          "transactionUnavailable": "您的浏览器登录会话已过期或找不到。请重新开始浏览器登录。",
+          "generic": "无法完成浏览器登录。请重试。"
+        },
+        "technicalCode": "技术代码：{{code}}",
+        "tosRequired": "请在 LHM.gg 接受更新后的服务条款，然后再次尝试登录。",
+        "reviewTerms": "查看服务条款",
+        "cancelBrowserSignIn": "取消浏览器登录",
+        "signInWithBrowser": "使用浏览器登录",
+        "retry": "重试"
+      },
+      "leagueOfLegendsServerMode": "数据采集模式",
+      "showStudioDataInOtherGames": "在其他游戏中显示 Studio 数据",
+      "autoSwitchStatus": {
+        "AUTO_SWITCH_DISABLED": "自动切换已关闭。",
+        "WAITING_FOR_LIVE_DATA": "正在等待实时游戏数据。",
+        "NOT_CURRENT_GAME": "请先在 LHM 中选择此游戏。",
+        "THROTTLED": "稍后将再次检查。",
+        "MISSING_LIVE_TEAM_IDS": "当前比赛未选择队伍。",
+        "NO_SIDE_PLAYERS": "正在等待双方玩家。",
+        "NO_CURRENT_MATCH": "请先选择当前比赛。",
+        "MULTITEAM_MATCH": "自动切换不适用于多队比赛。",
+        "CURRENT_MAP_NOT_FOUND": "当前地图与任何 veto 地图都不匹配。",
+        "NO_MATCHED_PLAYERS": "未通过 SteamID 找到匹配玩家。",
+        "LOW_CONFIDENCE": "对方阵营中的已知玩家不足。",
+        "READY": "就绪。当玩家阵营看起来反转时将切换。",
+        "SWITCHING": "正在切换阵营...",
+        "SWITCHED": "阵营最近已切换。",
+        "HALFTIME_SWITCHED": "半场时已切换阵营。",
+        "REVERSE_SIDE_FAILED": "自动切换尝试切换阵营，但被比赛状态阻止。",
+        "ERROR": "自动切换发生错误。如果持续出现，请重启 LHM。"
+      },
+      "saveRequired": "需要保存",
+      "subgroups": {
+        "configuration": "配置",
+        "setupStatus": "设置与状态"
+      },
+      "studio": {
+        "sceneCollections": "场景集合",
+        "downloadOBS": "下载 OBS Collection",
+        "downloadVMix": "下载 vMix Collection"
+      },
+      "streamDeck": {
+        "integration": "Stream Deck 集成",
+        "connected": "已连接",
+        "disconnected": "已断开连接",
+        "lastSeen": "最后出现：{{time}}",
+        "neverConnected": "尚未收到心跳",
+        "pluginVersion": "插件 v{{version}}"
       }
     },
     "ar": {
@@ -998,7 +1136,13 @@
         "more": "更多",
         "hlaeIsRequired": "您必须使用 HLAE 运行 CS:GO",
         "proOrEntrpriseIsRequired": "您必须拥有专业版或企业版",
-        "hlaeAndHigherPlanIsRequired": "您必须使用 HLAE 和专业或企业计划运行 CS:GO"
+        "hlaeAndHigherPlanIsRequired": "您必须使用 HLAE 和专业或企业计划运行 CS:GO",
+        "advanced": "高级",
+        "customLaunchParameters": "自定义启动参数",
+        "testData": "测试数据",
+        "addOverlay": "添加叠加层",
+        "openOverlaysDirectory": "打开叠加层目录",
+        "showStudioPeopleEntries": "显示 Studio People 条目"
       },
       "sort": {
         "custom": "自定义",
@@ -1011,7 +1155,8 @@
         "deleteTitle": "删除 {{name}} 类别",
         "name": "名称",
         "ungrouped": "未分组",
-        "deleteInfo": "您确定要删除 {{name}} 类别吗？此操作不会删除任何 HUD。"
+        "deleteInfo": "您确定要删除 {{name}} 类别吗？此操作不会删除任何 HUD。",
+        "studioOverlays": "Studio 叠加层"
       },
       "fields": {
         "missing": "缺失字段",
@@ -1054,7 +1199,16 @@
         "clickToCopy": "点击复制",
         "linkCopied": "链接已复制到剪贴板",
         "openingOverlay": "正在覆盖层中打开HUD...",
-        "createShortcut": "在桌面上创建快捷方式"
+        "createShortcut": "在桌面上创建快捷方式",
+        "toggleOverlayUrl": "切换叠加层 URL",
+        "overlaySettings": "进入叠加层设置",
+        "startOverlay": "启动叠加层",
+        "deleteOverlayLocally": "本地删除叠加层",
+        "deleteOverlayFromCloud": "从云端删除叠加层",
+        "toggleOverlayKeybinds": "切换叠加层按键绑定",
+        "copyLink": "复制链接",
+        "variants": "+{{count}} 个变体",
+        "keybind": "按键绑定"
       },
       "share": {
         "actions": {
@@ -1075,7 +1229,10 @@
             "never": "无到期时间"
           },
           "customExpiryWarning": "在所选到期日期之后，HUD 最多可能再可用一小时。",
-          "submit": "发送邀请"
+          "submit": "发送邀请",
+          "overlayTitle": "共享叠加层",
+          "overlayDescription": "通过电子邮件将此叠加层发送给其他用户。",
+          "overlayWorkspaceOwnerDisclaimer": "此叠加层属于工作区 \"{{workspace}}\"。由于您不是工作区所有者，邀请将代表主 Enterprise 账户发送。"
         },
         "pending": {
           "title": "待处理的 HUD 共享邀请",
@@ -1128,7 +1285,23 @@
         "generic": "出错了。稍后再试。",
         "archive": "LHM 无法读取存档文件。",
         "source": "您上传的似乎是源代码，而不是编译后的 HUD。请在上传前编译 HUD。",
-        "space": "您使用的工作区中没有足够的云空间。请升级您的计划或删除部分云资源。"
+        "space": "您使用的工作区中没有足够的云空间。请升级您的计划或删除部分云资源。",
+        "overlayTitle": "无法添加叠加层",
+        "overlayConfig": "LHM 无法读取叠加层的配置文件。",
+        "overlayUpload": "LHM 无法将叠加层上传到云端。请稍后重试。"
+      },
+      "settings": {
+        "title": "{{name}} - 设置",
+        "sections": "HUD 设置部分",
+        "saveError": "无法保存 HUD 设置。"
+      },
+      "discover": {
+        "title": "发现"
+      },
+      "views": {
+        "label": "HUD 布局",
+        "grid": "网格",
+        "list": "列表"
       }
     },
     "app": {
@@ -1404,6 +1577,10 @@
         "slowMode": {
           "title": "慢速模式",
           "info": "慢速模式会通过队列发送 API 请求以降低突发流量。这有助于在国家级防火墙限制较强的环境中使用。\n更改后请重启 LHM 生效。"
+        },
+        "showStudioDataInOtherGames": {
+          "title": "在其他游戏中显示 Studio 数据",
+          "info": "选择其他游戏时显示 Studio 资源。Studio HUD 可显示在 HUD 列表中，Studio People 条目可用于 HUD 配置面板，并且 Studio 云同步会与当前游戏一起检查。"
         }
       }
     },
@@ -1426,7 +1603,9 @@
         "single": {
           "titleTournament": "删除 {{name}} 锦标赛",
           "infoTournament": "您确定要删除 {{name}} 锦标赛吗？"
-        }
+        },
+        "titlePeople": "删除 People",
+        "infoPeople": "您确定要移除 {{count}} 个 People 吗？"
       },
       "steamApiKeyMissing": {
         "title": "缺少 Steam API 密钥",
@@ -1456,7 +1635,9 @@
       "noUploadedResources": "您似乎还没有上传至云端。您可以上传当前数据库，或禁用本机的同步功能",
       "noSyncLocal": "您的本地数据库未与云存储同步。您可以下载或上传数据库或禁用同步。请注意，下载会删除您当前电脑上的内容，而上传会删除云存储内容。您想做什么？",
       "error": "出现了错误，为了防止数据丢失，我们关闭了同步功能",
-      "modalTitle": "同步"
+      "modalTitle": "同步",
+      "studioOnlyConflict": "您当前的游戏数据已同步，但 Studio 数据需要同步。您选择的操作仅适用于 Studio 数据。",
+      "currentAndStudioConflict": "{{game}} 和 Studio 数据都需要同步。您选择的操作将应用于两个数据库。"
     },
     "workspaces": {
       "pickModalTitle": "选择你的工作区",
@@ -1488,6 +1669,41 @@
         "title": "用户指南",
         "description": "查看我们的用户指南，了解 LHM 各组件的更多信息。您将看到所有功能的说明、配置和使用指南，以及最常见问题的解答。如果您还有其他问题，请加入[[我们的 Discord|discord]]。"
       }
+    },
+    "unsavedNavigation": {
+      "title": "放弃未保存的更改？",
+      "message": "您有未保存的更改。要放弃并继续吗？",
+      "stay": "继续编辑",
+      "discard": "放弃更改"
+    },
+    "profile": {
+      "manageAccount": "管理账户",
+      "username": "用户名",
+      "currentWorkspace": "当前工作区",
+      "role": "角色",
+      "owner": "所有者",
+      "member": "成员",
+      "planStatusLabel": "套餐状态",
+      "workspaceSeats": "工作区席位",
+      "planSeats": "套餐席位",
+      "planStatus": {
+        "active": "有效",
+        "canceled": "已取消",
+        "past_due": "逾期",
+        "ended": "已结束",
+        "inactive": "未激活",
+        "unknown": "未知"
+      }
+    },
+    "keybinds": {
+      "title": "配置按键绑定",
+      "global": "全局按键绑定",
+      "pressKeys": "按下按键...",
+      "overlap": "按键绑定重叠",
+      "overlapSummary": "您有重叠的按键绑定。",
+      "recording": "正在录制按键绑定",
+      "resetToDefault": "重置为默认",
+      "saveError": "无法保存按键绑定。"
     }
   }
 }

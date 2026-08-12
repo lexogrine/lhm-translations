@@ -96,7 +96,11 @@
       "decline": "Avslå",
       "downloadTemplate": "Last ned mal",
       "clickAndCopy": "Klikk og kopier",
-      "swap": "Bytte"
+      "swap": "Bytte",
+      "people": "Personer",
+      "overlays": "Overlegg",
+      "person": "Person",
+      "copied": "Kopiert"
     },
     "chat": {
       "title": "Støtte Chat",
@@ -172,7 +176,9 @@
       "quick": "Quick",
       "chat": "Support Chat",
       "composer": "Composer",
-      "xray": "X-Ray"
+      "xray": "X-Ray",
+      "people": "Personer",
+      "overlays": "Overlegg"
     },
     "aco": {
       "disabled": "Deaktivert",
@@ -242,7 +248,10 @@
         "label": "Action Cinematic"
       },
       "scoutPausedTip": "Scout AI er satt på pause fordi det ikke ble oppdaget noe løpende spill.",
-      "xrayWarning": "For at X-Ray skal fungere riktig, må CS2 startes med Scout/X-Ray-alternativet aktivert."
+      "xrayWarning": "For at X-Ray skal fungere riktig, må CS2 startes med Scout/X-Ray-alternativet aktivert.",
+      "scoutFollowSide": {
+        "label": "Følg side"
+      }
     },
     "composer": {
       "componentsSubtitle": "Forhåndsvisning av HUD-komponent",
@@ -322,7 +331,8 @@
         "hideComponent": "Skjul komponent",
         "backToComponents": "Tilbake til komponenter",
         "toBack": "Bak",
-        "toFront": "Frem"
+        "toFront": "Frem",
+        "livePreviews": "Live-forhåndsvisninger"
       },
       "status": {
         "added": "Lagt til",
@@ -441,7 +451,23 @@
       "importPlayersExcel": "Bruk vårt ferdiglagde Excel-ark til å importere mange spillere samtidig.",
       "exportPlayers": "Eksporter",
       "avatar": "Avatar",
-      "setAsCoach": "Angi som trener"
+      "setAsCoach": "Angi som trener",
+      "addPerson": "Legg til person",
+      "name": "Navn",
+      "secondName": "Andre navn",
+      "importPeopleTitle": "Importer personer",
+      "importPeopleExcel": "Bruk et Studio People Excel-ark eksportert fra denne fanen til å importere mange personer samtidig.",
+      "picture": "Bilde",
+      "personImageInfo": "Bilde som skal brukes for personbilder",
+      "socialLinks": {
+        "title": "Sosiale lenker",
+        "instagram": "Instagram",
+        "x": "X",
+        "youtube": "YouTube",
+        "twitch": "Twitch",
+        "kick": "Kick",
+        "linkedin": "LinkedIn"
+      }
     },
     "teams": {
       "edit": "Rediger et lag",
@@ -458,7 +484,8 @@
       "header": "Direkte",
       "noGame": "Ingen kamp er Direkte for øyeblikket",
       "tipNoOrder": "Spillere i kamp, klikk for å legge til en spiller i spillerlisten.",
-      "tip": "Spillere i kamp, klikk for å legge til en spiller i spillerlisten, og dra og slipp for å endre rekkefølgen på spillerne i lagene deres."
+      "tip": "Spillere i kamp, klikk for å legge til en spiller i spillerlisten, og dra og slipp for å endre rekkefølgen på spillerne i lagene deres.",
+      "noGameDescription": "Live-kampdata for {{game}} vises automatisk her når de oppdages."
     },
     "cameras": {
       "generatePassword": "Generer passord",
@@ -488,7 +515,10 @@
         "lol-mr-1": "Advanced Addon gjør det mulig å lese mye mer data takket være minnelesing. Minnelesing kan behandles som juks, selv om slike verktøy har eksistert i årevis og Riot ikke henviser til dem, og vi har ikke hørt om tilfeller der tilskuere har blitt utestengt for dette. Likevel bruker du League of Legends Advanced Addon på egen risiko.",
         "lol-mr-2": "Ikke bruk LoL Advanced Addon under normal spilling, det brukes bare til å se på spillet!"
       },
-      "nodejsWarning": "NodeJS og NPM må være installert for de fleste tillegg"
+      "nodejsWarning": "NodeJS og NPM må være installert for de fleste tillegg",
+      "addon": "Tillegg",
+      "actions": "Handlinger",
+      "emptyList": "Ingen tillegg tilgjengelig."
     },
     "navbar": {
       "huds": "HUDs",
@@ -508,7 +538,9 @@
       "validUntil": "Gyldig til",
       "nextPayment": "Neste betaling",
       "logout": "Logg ut",
-      "arg": "Replays"
+      "arg": "Replays",
+      "overlays": "Overlegg",
+      "people": "Personer"
     },
     "signals": {
       "removal": {
@@ -547,7 +579,8 @@
         "side": "Side: ",
         "teamAny": "Lag: Hvilket som helst",
         "playerAny": "Spiller: Hvilken som helst"
-      }
+      },
+      "emptyList": "Ingen hendelser ennå. Legg til din første hendelse."
     },
     "quick": {
       "uploadImage": "Last opp bilde",
@@ -698,7 +731,8 @@
       "reversedSides": "Omvendte sider",
       "mapList": "Kartliste",
       "generateGet5Config": "Generer Get5 Config",
-      "emptyList": "Ingen kamper ennå. Opprett din første kamp."
+      "emptyList": "Ingen kamper ennå. Opprett din første kamp.",
+      "bestOf": "Best av"
     },
     "credits": {
       "header": "Medvirkende",
@@ -721,7 +755,8 @@
       "priority": {
         "multi": "Prioriter flere drap",
         "headshots": "Prioriter hodeskudd",
-        "teamkills": "Prioriter drap av lagkamerater"
+        "teamkills": "Prioriter drap av lagkamerater",
+        "label": "Prioritet"
       },
       "mixer": {
         "label": "Mixer",
@@ -735,7 +770,8 @@
         "port": "Port",
         "password": "Passord",
         "disconnect": "Koble fra",
-        "switchInputs": "Automatisk inngangsbryter"
+        "switchInputs": "Automatisk inngangsbryter",
+        "chooseReplayInput": "Velg replay-inngangen"
       },
       "replay": {
         "replayModeTitle": "Replay Mode",
@@ -775,7 +811,36 @@
         "connectionRejected": {
           "title": "Replay-tilkobling avvist",
           "workspaceMismatch": "En bruker fra arbeidsområdet {{workspaceName}} prøvde å koble til denne PC-en."
-        }
+        },
+        "currentMode": "Gjeldende modus",
+        "openReplayFeedClipsLocation": "Åpne plasseringen for Replay Feed-klipp"
+      },
+      "saveClipsDescription": "Behold genererte replay-klipp etter avspilling",
+      "replayMachineCode": "Replay-maskinkode",
+      "connected": "Tilkoblet",
+      "disconnected": "Frakoblet",
+      "timing": "Timing",
+      "delay": "Forsinkelse",
+      "clockDifference": "Klokkeforskjell: {{value}} ms",
+      "userGuide": "Brukerveiledning",
+      "learnMoreNdi": "Lær mer om NDI",
+      "sections": {
+        "connection": "Tilkobling",
+        "configuration": "Replay-konfigurasjon",
+        "output": "Utgang"
+      },
+      "units": {
+        "seconds": "sekunder",
+        "milliseconds": "millisekunder"
+      },
+      "obsStatus": {
+        "label": "OBS-oppsett",
+        "ready": "Klar",
+        "manualSelection": "Klar med manuelt kildevalg",
+        "missingNdi": "Mangler NDI Source-støtte",
+        "notConnected": "Ikke tilkoblet",
+        "unknown": "Ukjent",
+        "manualSelectionHelp": "I OBS åpner du egenskapene for LHM Replay Input og velger kilden som slutter med LHM Replay Feed."
       }
     },
     "settings": {
@@ -823,7 +888,15 @@
       "subheaders": {
         "lhm": "LHM",
         "cloud": "LHM Cloud",
-        "additional": "Ytterligere"
+        "additional": "Ytterligere",
+        "studio": "Studio",
+        "general": "Generelt",
+        "applicationDevices": "Applikasjon og enheter",
+        "currentGame": "Gjeldende spill",
+        "cloudSynchronization": "Sky og synkronisering",
+        "studioBroadcast": "Studio og kringkasting",
+        "advancedApi": "Avansert og API",
+        "helpAbout": "Hjelp og om"
       },
       "f1": {
         "add": "Legg til integrasjon",
@@ -904,7 +977,10 @@
           "refreshHud": "Oppdater HUD",
           "toggleDirector": "Veksle Scout Vision",
           "toggleScoutPredict": "Vis/skjul speiderforutsigelse",
-          "toggleScoutCinematic": "Veksle Scout Cinematic"
+          "toggleScoutCinematic": "Veksle Scout Cinematic",
+          "setScoutFollowCT": "Scout følg CT",
+          "setScoutFollowDefault": "Scout følg standard",
+          "setScoutFollowT": "Scout følg T"
         },
         "streamDeck": {
           "unavailable": "Ikke tilgjengelig"
@@ -962,6 +1038,68 @@
         "generateToken": "Generer",
         "regenerateToken": "Generer på nytt",
         "copyToken": "Kopier"
+      },
+      "desktopAuth": {
+        "finishInBrowser": "Fullfør innloggingen i nettleseren. Hvis du blir bedt om en kode, skriver du inn:",
+        "codeExpiresAt": "Denne koden utløper kl. {{time}}.",
+        "openVerificationUrl": "Åpne {{url}} og skriv inn denne koden.",
+        "browserSignInState": "Nettleserinnlogging var {{state}}.",
+        "browserSignInUnavailable": "Nettleserinnlogging er ikke tilgjengelig ({{code}}).",
+        "errors": {
+          "connectivity": "Kan ikke nå innloggingstjenesten. Sjekk internettforbindelsen og eventuell VPN-forbindelse, og prøv igjen.",
+          "server": "Innloggingstjenesten har et midlertidig problem. Prøv igjen om noen minutter.",
+          "unavailable": "Nettleserinnlogging er ikke tilgjengelig i denne LHM- eller serverversjonen. Du kan fortsatt logge inn med e-post og passord.",
+          "unexpectedResponse": "Innloggingstjenesten returnerte et uventet svar. Prøv igjen eller kontakt kundestøtte hvis problemet fortsetter.",
+          "rateLimited": "For mange innloggingsforsøk. Vent litt og prøv igjen.",
+          "unsupportedVersion": "Denne LHM-versjonen støtter ikke nettleserinnlogging. Oppdater LHM og prøv igjen.",
+          "transactionUnavailable": "Nettleserinnloggingsøkten din er utløpt eller ble ikke funnet. Start nettleserinnlogging på nytt.",
+          "generic": "Nettleserinnlogging kunne ikke fullføres. Prøv igjen."
+        },
+        "technicalCode": "Teknisk kode: {{code}}",
+        "tosRequired": "Godta de oppdaterte tjenestevilkårene på LHM.gg, og prøv deretter å logge inn igjen.",
+        "reviewTerms": "Gå gjennom tjenestevilkår",
+        "cancelBrowserSignIn": "Avbryt nettleserinnlogging",
+        "signInWithBrowser": "Logg inn med nettleser",
+        "retry": "Prøv igjen"
+      },
+      "leagueOfLegendsServerMode": "Datainnsamlingsmodus",
+      "showStudioDataInOtherGames": "Vis Studio-data i andre spill",
+      "autoSwitchStatus": {
+        "AUTO_SWITCH_DISABLED": "Auto-Switch er av.",
+        "WAITING_FOR_LIVE_DATA": "Venter på live-spilldata.",
+        "NOT_CURRENT_GAME": "Velg dette spillet i LHM først.",
+        "THROTTLED": "Sjekker igjen snart.",
+        "MISSING_LIVE_TEAM_IDS": "Ingen lag valgt i gjeldende kamp.",
+        "NO_SIDE_PLAYERS": "Venter på spillere på begge sider.",
+        "NO_CURRENT_MATCH": "Velg en gjeldende kamp først.",
+        "MULTITEAM_MATCH": "Auto-Switch er ikke tilgjengelig for flerlagskamper.",
+        "CURRENT_MAP_NOT_FOUND": "Gjeldende kart samsvarer ikke med noe veto-kart.",
+        "NO_MATCHED_PLAYERS": "Ingen samsvarende spillere funnet via SteamID.",
+        "LOW_CONFIDENCE": "Ikke nok kjente spillere er på motsatte sider.",
+        "READY": "Klar. Bytter når spillersidene ser reverserte ut.",
+        "SWITCHING": "Bytter sider...",
+        "SWITCHED": "Sidene ble nylig byttet.",
+        "HALFTIME_SWITCHED": "Sidene ble byttet ved pause.",
+        "REVERSE_SIDE_FAILED": "Auto-Switch forsøkte å bytte sider, men kamptilstanden blokkerte det.",
+        "ERROR": "Auto-Switch støtte på en feil. Start LHM på nytt hvis dette vedvarer."
+      },
+      "saveRequired": "Lagring kreves",
+      "subgroups": {
+        "configuration": "Konfigurasjon",
+        "setupStatus": "Oppsett og status"
+      },
+      "studio": {
+        "sceneCollections": "Scenesamlinger",
+        "downloadOBS": "Last ned OBS-samling",
+        "downloadVMix": "Last ned vMix-samling"
+      },
+      "streamDeck": {
+        "integration": "Stream Deck-integrasjon",
+        "connected": "Tilkoblet",
+        "disconnected": "Frakoblet",
+        "lastSeen": "Sist sett: {{time}}",
+        "neverConnected": "Ingen heartbeat mottatt ennå",
+        "pluginVersion": "Plugin v{{version}}"
       }
     },
     "ar": {
@@ -998,7 +1136,13 @@
         "more": "Mer",
         "hlaeIsRequired": "Du må ha CS:GO som kjører med HLAE",
         "proOrEntrpriseIsRequired": "Du må ha et Professional- eller Enterprise-abonnement",
-        "hlaeAndHigherPlanIsRequired": "Du må ha CS:GO som kjører med HLAE og et Professional- eller Enterprise-abonnement"
+        "hlaeAndHigherPlanIsRequired": "Du må ha CS:GO som kjører med HLAE og et Professional- eller Enterprise-abonnement",
+        "advanced": "Avansert",
+        "customLaunchParameters": "Tilpassede startparametere",
+        "testData": "Testdata",
+        "addOverlay": "Legg til overlegg",
+        "openOverlaysDirectory": "Åpne overleggskatalog",
+        "showStudioPeopleEntries": "Vis Studio People-oppføringer"
       },
       "sort": {
         "custom": "Tilpasset",
@@ -1011,7 +1155,8 @@
         "deleteTitle": "Slett kategorien {{name}}",
         "name": "Kategorinavn",
         "ungrouped": "Ungruppert",
-        "deleteInfo": "Er du sikker på at du vil fjerne kategorien {{name}}? Denne handlingen vil ikke fjerne noen HUD-er."
+        "deleteInfo": "Er du sikker på at du vil fjerne kategorien {{name}}? Denne handlingen vil ikke fjerne noen HUD-er.",
+        "studioOverlays": "Studio Overlegg"
       },
       "fields": {
         "missing": "Manglende felt",
@@ -1054,7 +1199,16 @@
         "clickToCopy": "Klikk for å kopiere",
         "linkCopied": "Lenke kopiert til utklippstavlen",
         "openingOverlay": "Åpner HUD i overlegg...",
-        "createShortcut": "Opprett snarvei på skrivebordet"
+        "createShortcut": "Opprett snarvei på skrivebordet",
+        "toggleOverlayUrl": "Veksle overlegg-URL",
+        "overlaySettings": "Gå til overleggsinnstillinger",
+        "startOverlay": "Start overlegg",
+        "deleteOverlayLocally": "Slett overlegg lokalt",
+        "deleteOverlayFromCloud": "Slett overlegg fra skyen",
+        "toggleOverlayKeybinds": "Veksle overlegg-hurtigtaster",
+        "copyLink": "Kopier lenke",
+        "variants": "+{{count}} varianter",
+        "keybind": "Hurtigtast"
       },
       "share": {
         "actions": {
@@ -1075,7 +1229,10 @@
             "never": "Ingen utløpsdato"
           },
           "customExpiryWarning": "Etter den valgte utløpsdatoen kan HUD-en forbli tilgjengelig i opptil én time.",
-          "submit": "Send invitasjon"
+          "submit": "Send invitasjon",
+          "overlayTitle": "Del overlegg",
+          "overlayDescription": "Send dette overlegget til en annen bruker via e-post.",
+          "overlayWorkspaceOwnerDisclaimer": "Dette overlegget tilhører arbeidsområdet \"{{workspace}}\". Fordi du ikke er eieren av arbeidsområdet, sendes invitasjonen på vegne av hovedkontoen for Enterprise."
         },
         "pending": {
           "title": "Ventende HUD-delingsinvitasjoner",
@@ -1128,7 +1285,23 @@
         "generic": "Noe gikk galt. Prøv igjen senere.",
         "archive": "LHM klarte ikke å lese arkivfilen.",
         "source": "Det virker som om du laster opp kildekoden i stedet for den kompilerte HUD-en. Vennligst kompiler HUD før du laster opp.",
-        "space": "Du har ikke nok skyplass i arbeidsområdet du bruker. Oppgrader abonnementet eller slett noen av skyressursene dine."
+        "space": "Du har ikke nok skyplass i arbeidsområdet du bruker. Oppgrader abonnementet eller slett noen av skyressursene dine.",
+        "overlayTitle": "Kan ikke legge til overlegg",
+        "overlayConfig": "LHM klarte ikke å lese konfigurasjonsfilen for overlegget.",
+        "overlayUpload": "LHM klarte ikke å laste opp overlegget til skyen. Prøv igjen senere."
+      },
+      "settings": {
+        "title": "{{name}} - Innstillinger",
+        "sections": "HUD-innstillingsseksjoner",
+        "saveError": "Kan ikke lagre HUD-innstillinger."
+      },
+      "discover": {
+        "title": "Oppdag"
+      },
+      "views": {
+        "label": "HUD-oppsett",
+        "grid": "Rutenett",
+        "list": "Liste"
       }
     },
     "app": {
@@ -1404,6 +1577,10 @@
         "slowMode": {
           "title": "Langsom modus",
           "info": "Langsom modus sender API-forespørsler gjennom en kø for å redusere burst-trafikk. Dette kan hjelpe i restriktive, landsdekkende brannmurmiljøer.\nStart LHM på nytt etter at du har endret denne verdien for at den skal tre i kraft."
+        },
+        "showStudioDataInOtherGames": {
+          "title": "Vis Studio-data i andre spill",
+          "info": "Viser Studio-ressurser mens et annet spill er valgt. Studio HUDs kan vises i HUD-lister, Studio People-oppføringer kan brukes i HUD-konfigurasjonspaneler, og Studio-skysynkronisering sjekkes sammen med gjeldende spill."
         }
       }
     },
@@ -1426,7 +1603,9 @@
         "single": {
           "titleTournament": "Slett {{name}} turnering",
           "infoTournament": "Er du sikker på at du vil fjerne {{name}} turnering?"
-        }
+        },
+        "titlePeople": "Slett personer",
+        "infoPeople": "Er du sikker på at du vil fjerne {{count}} personer?"
       },
       "steamApiKeyMissing": {
         "title": "Steam API-nøkkel mangler",
@@ -1456,7 +1635,9 @@
       "noUploadedResources": "Det ser ut til at du ikke har lastet opp til skyen ennå. Du kan laste opp din nåværende database, eller deaktivere synkronisering på denne maskinen",
       "noSyncLocal": "Din lokale database er ikke synkronisert med skylagringen. Du kan laste ned eller laste opp databasen eller deaktivere synkronisering. Vær oppmerksom på at nedlasting vil fjerne det du har på denne PC-en, og at opplasting vil SLETTE innholdet i skylagringen. Hva ønsker du å gjøre?",
       "error": "Det har oppstått en feil, så for å forhindre tap av data har vi slått av synkroniseringen",
-      "modalTitle": "Synkronisering"
+      "modalTitle": "Synkronisering",
+      "studioOnlyConflict": "Gjeldende spilldata er allerede synkronisert, men Studio-data må synkroniseres. Handlingen du velger, gjelder bare Studio-data.",
+      "currentAndStudioConflict": "Både {{game}} og Studio-data må synkroniseres. Handlingen du velger, brukes på begge databasene."
     },
     "workspaces": {
       "pickModalTitle": "Velg arbeidsområdet ditt",
@@ -1488,6 +1669,41 @@
         "title": "Brukerveiledning",
         "description": "Ta en titt på brukerveiledningen vår for å lære mer om hver av LHMs komponenter. Du finner beskrivelser, instruksjoner for hvordan du konfigurerer og bruker alle funksjonene, og svar på de vanligste spørsmålene. Hvis du har flere spørsmål, kan du bli med på [[vår Discord|discord]]."
       }
+    },
+    "unsavedNavigation": {
+      "title": "Forkaste ulagrede endringer?",
+      "message": "Du har ulagrede endringer. Forkaste dem og fortsette?",
+      "stay": "Fortsett å redigere",
+      "discard": "Forkast endringer"
+    },
+    "profile": {
+      "manageAccount": "Administrer konto",
+      "username": "Brukernavn",
+      "currentWorkspace": "Gjeldende arbeidsområde",
+      "role": "Rolle",
+      "owner": "Eier",
+      "member": "Medlem",
+      "planStatusLabel": "Planstatus",
+      "workspaceSeats": "Arbeidsområdeplasser",
+      "planSeats": "Planplasser",
+      "planStatus": {
+        "active": "Aktiv",
+        "canceled": "Kansellert",
+        "past_due": "Forfalt",
+        "ended": "Avsluttet",
+        "inactive": "Inaktiv",
+        "unknown": "Ukjent"
+      }
+    },
+    "keybinds": {
+      "title": "Konfigurer hurtigtaster",
+      "global": "Globale hurtigtaster",
+      "pressKeys": "Trykk på taster...",
+      "overlap": "Overlappende hurtigtast",
+      "overlapSummary": "Du har overlappende hurtigtaster.",
+      "recording": "Tar opp hurtigtast",
+      "resetToDefault": "Tilbakestill til standard",
+      "saveError": "Kan ikke lagre hurtigtast."
     }
   }
 }

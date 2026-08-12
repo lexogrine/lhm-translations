@@ -102,7 +102,11 @@
       "decline": "Odrzuć",
       "downloadTemplate": "Pobierz szablon",
       "clickAndCopy": "Kliknij & Kopiuj",
-      "swap": "Zamiana"
+      "swap": "Zamiana",
+      "copied": "Skopiowano",
+      "overlays": "Overlaye",
+      "people": "Osoby",
+      "person": "Osoba"
     },
     "chat": {
       "title": "Czat wsparcia",
@@ -178,7 +182,9 @@
       "quick": "Quick",
       "chat": "Czat wsparcia",
       "composer": "Composer",
-      "xray": "X-Ray"
+      "xray": "X-Ray",
+      "overlays": "Overlaye",
+      "people": "Osoby"
     },
     "aco": {
       "disabled": "Wyłączony",
@@ -248,7 +254,10 @@
         "label": "Film akcji"
       },
       "scoutPausedTip": "Scout AI jest wstrzymany, ponieważ nie wykryto uruchomionej gry.",
-      "xrayWarning": "Aby X-Ray działał poprawnie, CS2 musi zostać uruchomiony z włączoną opcją Scout/X-Ray."
+      "xrayWarning": "Aby X-Ray działał poprawnie, CS2 musi zostać uruchomiony z włączoną opcją Scout/X-Ray.",
+      "scoutFollowSide": {
+        "label": "Podążaj za stroną"
+      }
     },
     "composer": {
       "componentsSubtitle": "Podgląd komponentów HUD",
@@ -448,7 +457,23 @@
       "importPlayersExcel": "Skorzystaj z naszego wstępnie przygotowanego arkusza Excel, aby łatwo zaimportować wielu graczy jednocześnie.",
       "exportPlayers": "Eksportuj",
       "avatar": "Awatar",
-      "setAsCoach": "Ustaw jako trenera"
+      "setAsCoach": "Ustaw jako trenera",
+      "addPerson": "Dodaj osobę",
+      "importPeopleExcel": "Użyj arkusza Excel Studio People wyeksportowanego z tej zakładki, aby zaimportować wiele osób naraz.",
+      "importPeopleTitle": "Importuj osoby",
+      "name": "Imię",
+      "personImageInfo": "Obraz używany jako zdjęcie osoby",
+      "picture": "Zdjęcie",
+      "secondName": "Drugie imię",
+      "socialLinks": {
+        "instagram": "Instagram",
+        "kick": "Kick",
+        "linkedin": "LinkedIn",
+        "title": "Linki społecznościowe",
+        "twitch": "Twitch",
+        "x": "X",
+        "youtube": "YouTube"
+      }
     },
     "teams": {
       "edit": "Edytuj zespół",
@@ -496,7 +521,10 @@
         "lol-mr-1": "Zaawansowany addon umożliwia odczytanie znacznie większej ilości danych dzięki czytaniu pamięci. Czytanie pamięci może być traktowane jako oszustwo, podczas gdy takie narzędzia istnieją od lat, a Riot nie odnosi się do nich i nie słyszeliśmy o przypadkach zbanowania widzów za to. Niemniej jednak, używasz League of Legends Advanced Addon na własne ryzyko.",
         "lol-mr-2": "Nie używaj LoL Advanced Addon podczas normalnej rozgrywki, służy on tylko do oglądania gry!"
       },
-      "nodejsWarning": "Większość dodatków wymaga instalacji NodeJS i NPM"
+      "nodejsWarning": "Większość dodatków wymaga instalacji NodeJS i NPM",
+      "actions": "Akcje",
+      "addon": "Dodatek",
+      "emptyList": "Brak dostępnych dodatków."
     },
     "navbar": {
       "huds": "HUDy",
@@ -516,10 +544,28 @@
       "validUntil": "Obowiązuje do",
       "nextPayment": "Następna płatność",
       "logout": "Wyloguj",
-      "arg": "Replays"
+      "arg": "Replays",
+      "overlays": "Overlaye",
+      "people": "Osoby"
     },
     "profile": {
-      "manageAccount": "Zarządzaj kontem"
+      "manageAccount": "Zarządzaj kontem",
+      "currentWorkspace": "Bieżący workspace",
+      "member": "Członek",
+      "owner": "Właściciel",
+      "planSeats": "Miejsca w planie",
+      "planStatus": {
+        "active": "Aktywny",
+        "canceled": "Anulowany",
+        "ended": "Zakończony",
+        "inactive": "Nieaktywny",
+        "past_due": "Zaległy",
+        "unknown": "Nieznany"
+      },
+      "planStatusLabel": "Status planu",
+      "role": "Rola",
+      "username": "Nazwa użytkownika",
+      "workspaceSeats": "Miejsca w workspace"
     },
     "signals": {
       "removal": {
@@ -558,7 +604,8 @@
         "side": "Strona:",
         "teamAny": "Drużyna: Dowolna",
         "playerAny": "Gracz: Dowolny"
-      }
+      },
+      "emptyList": "Brak wydarzeń. Dodaj pierwsze wydarzenie."
     },
     "quick": {
       "uploadImage": "Prześlij obraz",
@@ -908,7 +955,8 @@
         "cloudSynchronization": "Chmura i synchronizacja",
         "studioBroadcast": "Studio i transmisja",
         "advancedApi": "Zaawansowane i API",
-        "helpAbout": "Pomoc i informacje"
+        "helpAbout": "Pomoc i informacje",
+        "studio": "Studio"
       },
       "subgroups": {
         "configuration": "Konfiguracja",
@@ -1005,7 +1053,10 @@
           "refreshHud": "Odśwież HUD",
           "toggleDirector": "Przełącz Scout Vision",
           "toggleScoutPredict": "Przełącz Scout Predict",
-          "toggleScoutCinematic": "Przełącz Scout Cinematic"
+          "toggleScoutCinematic": "Przełącz Scout Cinematic",
+          "setScoutFollowCT": "Scout Follow CT",
+          "setScoutFollowDefault": "Scout Follow domyślnie",
+          "setScoutFollowT": "Scout Follow T"
         },
         "streamDeck": {
           "unavailable": "Niedostępny"
@@ -1051,6 +1102,39 @@
         "cta": {
           "cta": "Pokaż ofertę wdrożenia Lexogrine Custom HUD w zakładce HUD"
         }
+      },
+      "autoSwitchStatus": {
+        "AUTO_SWITCH_DISABLED": "Auto-Switch jest wyłączony.",
+        "CURRENT_MAP_NOT_FOUND": "Bieżąca mapa nie pasuje do żadnej mapy z veto.",
+        "ERROR": "Auto-Switch napotkał błąd. Zrestartuj LHM, jeśli problem będzie się powtarzał.",
+        "HALFTIME_SWITCHED": "Strony zostały zamienione na połowę meczu.",
+        "LOW_CONFIDENCE": "Za mało znanych graczy znajduje się po przeciwnych stronach.",
+        "MISSING_LIVE_TEAM_IDS": "W bieżącym meczu nie wybrano drużyn.",
+        "MULTITEAM_MATCH": "Auto-Switch nie jest dostępny dla meczów wielodrużynowych.",
+        "NOT_CURRENT_GAME": "Najpierw wybierz tę grę w LHM.",
+        "NO_CURRENT_MATCH": "Najpierw wybierz bieżący mecz.",
+        "NO_MATCHED_PLAYERS": "Nie znaleziono pasujących graczy po SteamID.",
+        "NO_SIDE_PLAYERS": "Oczekiwanie na graczy po obu stronach.",
+        "READY": "Gotowe. Strony zostaną zamienione, gdy układ graczy będzie wyglądał na odwrócony.",
+        "REVERSE_SIDE_FAILED": "Auto-Switch próbował zamienić strony, ale stan meczu to zablokował.",
+        "SWITCHED": "Strony zostały niedawno zamienione.",
+        "SWITCHING": "Zamiana stron...",
+        "THROTTLED": "Ponowne sprawdzenie za chwilę.",
+        "WAITING_FOR_LIVE_DATA": "Oczekiwanie na dane live z gry."
+      },
+      "showStudioDataInOtherGames": "Pokazuj dane Studio w innych grach",
+      "streamDeck": {
+        "connected": "Połączono",
+        "disconnected": "Rozłączono",
+        "integration": "Integracja Stream Deck",
+        "lastSeen": "Ostatnio widziano: {{time}}",
+        "neverConnected": "Nie odebrano jeszcze heartbeat",
+        "pluginVersion": "Plugin v{{version}}"
+      },
+      "studio": {
+        "downloadOBS": "Pobierz kolekcję OBS",
+        "downloadVMix": "Pobierz kolekcję vMix",
+        "sceneCollections": "Kolekcje scen"
       }
     },
     "ar": {
@@ -1104,7 +1188,9 @@
         "more": "Więcej",
         "hlaeIsRequired": "Musisz mieć CS:GO uruchomione z HLAE",
         "proOrEntrpriseIsRequired": "Wymagany plan Professional lub Enterprise",
-        "hlaeAndHigherPlanIsRequired": "Wymagane CS:GO uruchomione z HLAE oraz plan Professional lub Enterprise"
+        "hlaeAndHigherPlanIsRequired": "Wymagane CS:GO uruchomione z HLAE oraz plan Professional lub Enterprise",
+        "addOverlay": "Dodaj overlay",
+        "openOverlaysDirectory": "Otwórz folder overlayów"
       },
       "sort": {
         "custom": "Niestandardowe",
@@ -1117,7 +1203,8 @@
         "deleteTitle": "Usuń kategorię {{name}}",
         "name": "Nazwa",
         "ungrouped": "Niepogrupowane",
-        "deleteInfo": "Czy na pewno chcesz usunąć kategorię {{name}}? Ta czynność nie usunie żadnych HUD-ów."
+        "deleteInfo": "Czy na pewno chcesz usunąć kategorię {{name}}? Ta czynność nie usunie żadnych HUD-ów.",
+        "studioOverlays": "Overlaye Studio"
       },
       "fields": {
         "missing": "Brakujące pola",
@@ -1163,7 +1250,13 @@
         "variants": "+{{count}} wariantów",
         "keybind": "Skrót klawiszowy",
         "openingOverlay": "Otwieranie HUD-a w nakładce...",
-        "createShortcut": "Utwórz skrót na pulpicie"
+        "createShortcut": "Utwórz skrót na pulpicie",
+        "deleteOverlayFromCloud": "Usuń overlay z chmury",
+        "deleteOverlayLocally": "Usuń overlay lokalnie",
+        "overlaySettings": "Przejdź do ustawień overlaya",
+        "startOverlay": "Uruchom overlay",
+        "toggleOverlayKeybinds": "Przełącz skróty overlaya",
+        "toggleOverlayUrl": "Przełącz URL overlaya"
       },
       "share": {
         "actions": {
@@ -1184,7 +1277,10 @@
             "never": "Bez daty wygaśnięcia"
           },
           "customExpiryWarning": "Po wybranej dacie wygaśnięcia HUD może pozostać dostępny przez maksymalnie godzinę.",
-          "submit": "Wyślij zaproszenie"
+          "submit": "Wyślij zaproszenie",
+          "overlayDescription": "Wyślij ten overlay do innego użytkownika e-mailem.",
+          "overlayTitle": "Udostępnij overlay",
+          "overlayWorkspaceOwnerDisclaimer": "Ten overlay należy do workspace \"{{workspace}}\". Ponieważ nie jesteś właścicielem workspace, zaproszenie zostanie wysłane w imieniu głównego konta Enterprise."
         },
         "pending": {
           "title": "Oczekujące zaproszenia do udostępniania HUD-a",
@@ -1237,7 +1333,10 @@
         "generic": "Coś poszło nie tak. Spróbuj ponownie później.",
         "archive": "LHM nie był w stanie odczytać pliku archiwum.",
         "source": "Wygląda na to, że przesyłasz kod źródłowy zamiast skompilowanego HUD. Przed przesłaniem skompiluj HUD.",
-        "space": "Nie masz wystarczającej ilości miejsca w chmurze w używanym obszarze roboczym. Uaktualnij swój plan lub usuń niektóre zasoby w chmurze."
+        "space": "Nie masz wystarczającej ilości miejsca w chmurze w używanym obszarze roboczym. Uaktualnij swój plan lub usuń niektóre zasoby w chmurze.",
+        "overlayConfig": "LHM nie mógł odczytać pliku konfiguracji overlaya.",
+        "overlayTitle": "Nie można dodać overlaya",
+        "overlayUpload": "LHM nie mógł przesłać overlaya do chmury. Spróbuj ponownie później."
       }
     },
     "app": {
@@ -1513,6 +1612,10 @@
         "slowMode": {
           "title": "Tryb wolny",
           "info": "Tryb wolny wysyła żądania API przez kolejkę, aby zmniejszyć ruch skokowy. Może to pomóc w środowiskach z restrykcyjnymi zaporami sieciowymi na poziomie kraju.\nPo zmianie tej wartości uruchom ponownie LHM, aby zastosować zmiany."
+        },
+        "showStudioDataInOtherGames": {
+          "info": "Pokazuje zasoby Studio, gdy wybrana jest inna gra. HUD-y Studio mogą pojawiać się na listach HUD-ów, wpisy Studio People mogą być używane w panelach konfiguracji HUD-ów, a synchronizacja Studio z chmurą jest sprawdzana razem z bieżącą grą.",
+          "title": "Pokazuj dane Studio w innych grach"
         }
       }
     },
@@ -1535,7 +1638,9 @@
         "single": {
           "titleTournament": "Usuń turniej {{name}}",
           "infoTournament": "Czy na pewno chcesz usunąć turniej {{name}}?"
-        }
+        },
+        "infoPeople": "Czy na pewno chcesz usunąć {{count}} osób?",
+        "titlePeople": "Usuń osoby"
       },
       "steamApiKeyMissing": {
         "title": "Brak klucza API Steam",
@@ -1565,7 +1670,9 @@
       "noUploadedResources": "Wygląda na to, że baza danych nie została jeszcze przesłana do chmury. Możesz przesłać aktualną bazę danych lub wyłączyć synchronizację na tym komputerze",
       "noSyncLocal": "Lokalna baza danych nie jest zsynchronizowana z magazynem w chmurze. Możesz pobrać lub przesłać bazę danych albo wyłączyć synchronizację. Należy pamiętać, że pobranie spowoduje usunięcie tego, co obecnie znajduje się na tym komputerze, a przesłanie spowoduje USUNIĘCIE zawartości magazynu w chmurze. Co chcesz zrobić?",
       "error": "Wystąpił błąd, więc aby zapobiec utracie danych, wyłączyliśmy synchronizację",
-      "modalTitle": "Synchronizacja"
+      "modalTitle": "Synchronizacja",
+      "currentAndStudioConflict": "Dane {{game}} i Studio wymagają synchronizacji. Wybrana akcja zostanie zastosowana do obu baz danych.",
+      "studioOnlyConflict": "Dane bieżącej gry są już zsynchronizowane, ale dane Studio wymagają synchronizacji. Wybrana akcja dotyczy tylko danych Studio."
     },
     "workspaces": {
       "pickModalTitle": "Wybierz swój obszar roboczy",

@@ -96,7 +96,11 @@
       "decline": "Одбиј",
       "downloadTemplate": "Преузми предложак",
       "clickAndCopy": "Кликни и копирај",
-      "swap": "Замени"
+      "swap": "Замени",
+      "people": "Ljudi",
+      "overlays": "Overleji",
+      "person": "Osoba",
+      "copied": "Kopirano"
     },
     "chat": {
       "title": "Ћаскање са подршком",
@@ -172,7 +176,9 @@
       "quick": "Quick",
       "chat": "Ћаскање са подршком",
       "composer": "Composer",
-      "xray": "X-Ray"
+      "xray": "X-Ray",
+      "people": "Ljudi",
+      "overlays": "Overleji"
     },
     "aco": {
       "disabled": "Онемогућен",
@@ -242,7 +248,10 @@
         "label": "Акциони филм"
       },
       "scoutPausedTip": "Scout AI је паузиран јер није откривена покренута игра.",
-      "xrayWarning": "Да би X-Ray радио исправно, CS2 мора бити покренут са укљученом опцијом Scout/X-Ray."
+      "xrayWarning": "Да би X-Ray радио исправно, CS2 мора бити покренут са укљученом опцијом Scout/X-Ray.",
+      "scoutFollowSide": {
+        "label": "Prati stranu"
+      }
     },
     "composer": {
       "componentsSubtitle": "Преглед HUD компоненте",
@@ -322,7 +331,8 @@
         "hideComponent": "Сакриј компоненту",
         "backToComponents": "Назад на компоненте",
         "toBack": "Назад",
-        "toFront": "Напред"
+        "toFront": "Напред",
+        "livePreviews": "Live pregledi"
       },
       "status": {
         "added": "Додато",
@@ -441,7 +451,23 @@
       "importPlayersExcel": "Користите унапред припремљен Еxцел лист да бисте лако увезли много играча одједном.",
       "exportPlayers": "Извоз",
       "avatar": "Аватар",
-      "setAsCoach": "Постави за тренера"
+      "setAsCoach": "Постави за тренера",
+      "addPerson": "Dodaj osobu",
+      "name": "Ime",
+      "secondName": "Drugo ime",
+      "importPeopleTitle": "Uvoz ljudi",
+      "importPeopleExcel": "Koristi Studio People Excel list izvezen iz ove kartice za uvoz više ljudi odjednom.",
+      "picture": "Slika",
+      "personImageInfo": "Slika koja će se koristiti za prikaz osoba",
+      "socialLinks": {
+        "title": "Društvene veze",
+        "instagram": "Instagram",
+        "x": "X",
+        "youtube": "YouTube",
+        "twitch": "Twitch",
+        "kick": "Kick",
+        "linkedin": "LinkedIn"
+      }
     },
     "teams": {
       "edit": "Уређивање тима",
@@ -458,7 +484,8 @@
       "header": "Уживо",
       "noGame": "Ниједна игра тренутно није уживо.",
       "tipNoOrder": "Играчи који су тренутно у пару, кликните да бисте додали играча на листу играча.",
-      "tip": "Играчи који су тренутно у пару, кликните да бисте додали играча на листу играча, а затим превуците и отпустите да бисте променили редослед играча у њиховим тимовима."
+      "tip": "Играчи који су тренутно у пару, кликните да бисте додали играча на листу играча, а затим превуците и отпустите да бисте променили редослед играча у њиховим тимовима.",
+      "noGameDescription": "Podaci Live meča za {{game}} pojaviće se ovde automatski kada budu otkriveni."
     },
     "cameras": {
       "generatePassword": "Генериши лозинку",
@@ -488,7 +515,10 @@
         "lol-mr-1": "Адванцед Аддон омогућава читање много више података захваљујући читању меморије. Читање меморије се може третирати као варалица, док такви алати постоје годинама и Риот се не односи на њих и нисмо чули за случајеве да су гледаоци забрањени због тога. Ипак , користите Леагуе оф Легендс Адванцед Аддон на сопствену одговорност.",
         "lol-mr-2": "Немојте користити ЛоЛ Адванцед Аддон током нормалног гамеплаy-а, користи се само за спецтате игре!"
       },
-      "nodejsWarning": "NodeJS и NPM су потребни за инсталирање за већину додатака"
+      "nodejsWarning": "NodeJS и NPM су потребни за инсталирање за већину додатака",
+      "addon": "Dodatak",
+      "actions": "Radnje",
+      "emptyList": "Nema dostupnih dodataka."
     },
     "navbar": {
       "huds": "ХУД-ове",
@@ -508,7 +538,9 @@
       "validUntil": "Важеће до",
       "nextPayment": "Следећа уплата",
       "logout": "Одјавите се",
-      "arg": "Replays"
+      "arg": "Replays",
+      "overlays": "Overleji",
+      "people": "Ljudi"
     },
     "signals": {
       "removal": {
@@ -547,7 +579,8 @@
         "side": "Страна:",
         "teamAny": "Тим: Било који",
         "playerAny": "Играч: Било који"
-      }
+      },
+      "emptyList": "Još nema događaja. Dodaj prvi događaj."
     },
     "quick": {
       "uploadImage": "Отпремање слике",
@@ -698,7 +731,8 @@
       "reversedSides": "Обрнуте стране",
       "mapList": "Мапирај листу",
       "generateGet5Config": "Генериши Get5 конфиг",
-      "emptyList": "Još nema mečeva. Kreiraj svoj prvi meč."
+      "emptyList": "Još nema mečeva. Kreiraj svoj prvi meč.",
+      "bestOf": "Best of"
     },
     "credits": {
       "header": "Кредита",
@@ -721,7 +755,8 @@
       "priority": {
         "multi": "Одређивање приоритета за вишеструка убиства",
         "headshots": "Одређивање приоритета за пуцање главе",
-        "teamkills": "Одредите приоритете тим убија"
+        "teamkills": "Одредите приоритете тим убија",
+        "label": "Prioritet"
       },
       "mixer": {
         "label": "Миксер",
@@ -735,7 +770,8 @@
         "port": "Порт",
         "password": "Лозинка",
         "disconnect": "Искључивање",
-        "switchInputs": "Аутоматски прекидач уноса"
+        "switchInputs": "Аутоматски прекидач уноса",
+        "chooseReplayInput": "Izaberi replay ulaz"
       },
       "replay": {
         "replayModeTitle": "Режим репродукције",
@@ -775,7 +811,36 @@
         "connectionRejected": {
           "title": "Replay konekcija odbijena",
           "workspaceMismatch": "Korisnik iz workspace-a {{workspaceName}} pokušao je da se poveže sa ovim PC-jem."
-        }
+        },
+        "currentMode": "Trenutni režim",
+        "openReplayFeedClipsLocation": "Otvori lokaciju Replay Feed klipova"
+      },
+      "saveClipsDescription": "Zadrži generisane replay klipove nakon reprodukcije",
+      "replayMachineCode": "Kod replay mašine",
+      "connected": "Povezano",
+      "disconnected": "Prekinuta veza",
+      "timing": "Tajming",
+      "delay": "Kašnjenje",
+      "clockDifference": "Razlika sata: {{value}} ms",
+      "userGuide": "Korisnički vodič",
+      "learnMoreNdi": "Saznaj više o NDI",
+      "sections": {
+        "connection": "Veza",
+        "configuration": "Replay konfiguracija",
+        "output": "Izlaz"
+      },
+      "units": {
+        "seconds": "sekunde",
+        "milliseconds": "milisekunde"
+      },
+      "obsStatus": {
+        "label": "OBS podešavanje",
+        "ready": "Spremno",
+        "manualSelection": "Spremno uz ručni izbor izvora",
+        "missingNdi": "Nedostaje podrška za NDI Source",
+        "notConnected": "Nije povezano",
+        "unknown": "Nepoznato",
+        "manualSelectionHelp": "U OBS-u otvori svojstva LHM Replay Input i izaberi izvor koji se završava sa LHM Replay Feed."
       }
     },
     "settings": {
@@ -823,7 +888,15 @@
       "subheaders": {
         "lhm": "ЛХМ",
         "cloud": "ЛХМ Облак",
-        "additional": "Додатно"
+        "additional": "Додатно",
+        "studio": "Studio",
+        "general": "Opšte",
+        "applicationDevices": "Aplikacija i uređaji",
+        "currentGame": "Trenutna igra",
+        "cloudSynchronization": "Oblak i sinhronizacija",
+        "studioBroadcast": "Studio i prenos",
+        "advancedApi": "Napredno i API",
+        "helpAbout": "Pomoć i o aplikaciji"
       },
       "f1": {
         "add": "Додај интеграцију",
@@ -904,7 +977,10 @@
           "refreshHud": "Освежи ХУД",
           "toggleDirector": "Преклопник Scout Vision",
           "toggleScoutPredict": "Преклопник за предвиђање извиђача",
-          "toggleScoutCinematic": "Преклопник за кинематографију извиђача"
+          "toggleScoutCinematic": "Преклопник за кинематографију извиђача",
+          "setScoutFollowCT": "Scout prati CT",
+          "setScoutFollowDefault": "Scout prati podrazumevano",
+          "setScoutFollowT": "Scout prati T"
         },
         "streamDeck": {
           "unavailable": "Недоступна"
@@ -962,6 +1038,68 @@
         "generateToken": "Generiši",
         "regenerateToken": "Regeneriši",
         "copyToken": "Kopiraj"
+      },
+      "desktopAuth": {
+        "finishInBrowser": "Završi prijavu u pregledaču. Ako se traži kod, unesi:",
+        "codeExpiresAt": "Ovaj kod ističe u {{time}}.",
+        "openVerificationUrl": "Otvori {{url}} i unesi ovaj kod.",
+        "browserSignInState": "Prijava preko pregledača je bila {{state}}.",
+        "browserSignInUnavailable": "Prijava preko pregledača nije dostupna ({{code}}).",
+        "errors": {
+          "connectivity": "Nije moguće doći do servisa za prijavu. Proveri internet vezu i VPN vezu, zatim pokušaj ponovo.",
+          "server": "Servis za prijavu ima privremeni problem. Pokušaj ponovo za nekoliko minuta.",
+          "unavailable": "Prijava preko pregledača nije dostupna u ovoj verziji LHM-a ili servera. I dalje se možeš prijaviti emailom i lozinkom.",
+          "unexpectedResponse": "Servis za prijavu je vratio neočekivan odgovor. Pokušaj ponovo ili kontaktiraj podršku ako se problem nastavi.",
+          "rateLimited": "Previše pokušaja prijave. Sačekaj malo pa pokušaj ponovo.",
+          "unsupportedVersion": "Ova verzija LHM-a ne podržava prijavu preko pregledača. Ažuriraj LHM i pokušaj ponovo.",
+          "transactionUnavailable": "Sesija prijave preko pregledača je istekla ili nije pronađena. Pokreni prijavu preko pregledača ponovo.",
+          "generic": "Prijava preko pregledača nije mogla biti završena. Pokušaj ponovo."
+        },
+        "technicalCode": "Tehnički kod: {{code}}",
+        "tosRequired": "Prihvati ažurirane Uslove korišćenja na LHM.gg, zatim pokušaj ponovo da se prijaviš.",
+        "reviewTerms": "Pregledaj Uslove korišćenja",
+        "cancelBrowserSignIn": "Otkaži prijavu preko pregledača",
+        "signInWithBrowser": "Prijavi se preko pregledača",
+        "retry": "Pokušaj ponovo"
+      },
+      "leagueOfLegendsServerMode": "Režim prikupljanja podataka",
+      "showStudioDataInOtherGames": "Prikaži Studio podatke u drugim igrama",
+      "autoSwitchStatus": {
+        "AUTO_SWITCH_DISABLED": "Auto-Switch je isključen.",
+        "WAITING_FOR_LIVE_DATA": "Čekaju se Live podaci igre.",
+        "NOT_CURRENT_GAME": "Prvo izaberi ovu igru u LHM-u.",
+        "THROTTLED": "Provera ponovo uskoro.",
+        "MISSING_LIVE_TEAM_IDS": "Nema izabranih timova u trenutnom meču.",
+        "NO_SIDE_PLAYERS": "Čekaju se igrači na obe strane.",
+        "NO_CURRENT_MATCH": "Prvo izaberi trenutni meč.",
+        "MULTITEAM_MATCH": "Auto-Switch nije dostupan za mečeve sa više timova.",
+        "CURRENT_MAP_NOT_FOUND": "Trenutna mapa se ne poklapa ni sa jednom veto mapom.",
+        "NO_MATCHED_PLAYERS": "Nisu pronađeni odgovarajući igrači po SteamID-u.",
+        "LOW_CONFIDENCE": "Nema dovoljno poznatih igrača na suprotnim stranama.",
+        "READY": "Spremno. Strane će se zameniti kada položaj igrača izgleda obrnuto.",
+        "SWITCHING": "Menjanje strana...",
+        "SWITCHED": "Strane su nedavno zamenjene.",
+        "HALFTIME_SWITCHED": "Strane su zamenjene na poluvremenu.",
+        "REVERSE_SIDE_FAILED": "Auto-Switch je pokušao da zameni strane, ali je stanje meča to blokiralo.",
+        "ERROR": "Auto-Switch je naišao na grešku. Ponovo pokreni LHM ako se problem nastavi."
+      },
+      "saveRequired": "Potrebno je čuvanje",
+      "subgroups": {
+        "configuration": "Konfiguracija",
+        "setupStatus": "Podešavanje i status"
+      },
+      "studio": {
+        "sceneCollections": "Kolekcije scena",
+        "downloadOBS": "Preuzmi OBS kolekciju",
+        "downloadVMix": "Preuzmi vMix kolekciju"
+      },
+      "streamDeck": {
+        "integration": "Stream Deck integracija",
+        "connected": "Povezano",
+        "disconnected": "Prekinuta veza",
+        "lastSeen": "Poslednji put viđeno: {{time}}",
+        "neverConnected": "Heartbeat još nije primljen",
+        "pluginVersion": "Plugin v{{version}}"
       }
     },
     "ar": {
@@ -998,7 +1136,13 @@
         "more": "Више",
         "hlaeIsRequired": "Мора да имаш ЦС:ГО трчање са ХЛАЕ",
         "proOrEntrpriseIsRequired": "Морате имати професионалан или предузетнички план",
-        "hlaeAndHigherPlanIsRequired": "Морате имати ЦС:ГО трчање са ХЛАЕ-ом и професионални или ентерприсе план"
+        "hlaeAndHigherPlanIsRequired": "Морате имати ЦС:ГО трчање са ХЛАЕ-ом и професионални или ентерприсе план",
+        "advanced": "Napredno",
+        "customLaunchParameters": "Prilagođeni parametri pokretanja",
+        "testData": "Test podaci",
+        "addOverlay": "Dodaj overlay",
+        "openOverlaysDirectory": "Otvori direktorijum overlayja",
+        "showStudioPeopleEntries": "Prikaži Studio People unose"
       },
       "sort": {
         "custom": "Прилагођене",
@@ -1011,7 +1155,8 @@
         "deleteTitle": "Обриши {{name}} категорију",
         "name": "Назив категорије",
         "ungrouped": "Разгруписано",
-        "deleteInfo": "Да ли сте сигурни да желите да уклоните {{name}} категорију? Ова радња неће уклонити ниједан HUD."
+        "deleteInfo": "Да ли сте сигурни да желите да уклоните {{name}} категорију? Ова радња неће уклонити ниједан HUD.",
+        "studioOverlays": "Studio overleji"
       },
       "fields": {
         "missing": "Поља која недостају",
@@ -1054,7 +1199,16 @@
         "clickToCopy": "Кликните да бисте копирали",
         "linkCopied": "Линк копиран у међуспремник",
         "openingOverlay": "Отварање HUD-а у преклапању...",
-        "createShortcut": "Креирање пречице на радној површини"
+        "createShortcut": "Креирање пречице на радној површини",
+        "toggleOverlayUrl": "Uključi/isključi overlay URL",
+        "overlaySettings": "Idi na podešavanja overlayja",
+        "startOverlay": "Pokreni overlay",
+        "deleteOverlayLocally": "Obriši overlay lokalno",
+        "deleteOverlayFromCloud": "Obriši overlay iz oblaka",
+        "toggleOverlayKeybinds": "Uključi/isključi prečice overlayja (za izvor pregledača)",
+        "copyLink": "Kopiraj vezu",
+        "variants": "Varijante",
+        "keybind": "Prečica"
       },
       "share": {
         "actions": {
@@ -1075,7 +1229,10 @@
             "never": "Без истека"
           },
           "customExpiryWarning": "Након изабраног датума истека, ХУД може остати доступан до једног сата.",
-          "submit": "Пошаљи позивницу"
+          "submit": "Пошаљи позивницу",
+          "overlayTitle": "Podeli overlay",
+          "overlayDescription": "Pošalji ovaj overlay drugom korisniku emailom.",
+          "overlayWorkspaceOwnerDisclaimer": "Ovaj overlay pripada workspace-u \"{{workspace}}\". Pošto niste vlasnik workspace-a, poziv će biti poslat u ime Enterprise naloga."
         },
         "pending": {
           "title": "Позивнице за дељење ХУД-а на чекању",
@@ -1128,7 +1285,23 @@
         "generic": "Нешто је пошло наопако. Покушајте поново касније.",
         "archive": "ЛХМ није могао да проиита архиву.",
         "source": "Изгледа као да отпремате изворни код, уместо компајлираног HUD-а. Молимо вас да компајлирате HUD пре отпремања.",
-        "space": "Немате довољно цлоуд простора у радном простору који користите. Надоградите план или избришите неке од ресурса у облаку."
+        "space": "Немате довољно цлоуд простора у радном простору који користите. Надоградите план или избришите неке од ресурса у облаку.",
+        "overlayTitle": "Greška overlayja",
+        "overlayConfig": "Nije moguće učitati konfiguraciju overlayja.",
+        "overlayUpload": "Nije moguće otpremiti overlay."
+      },
+      "settings": {
+        "title": "{{name}} - Podešavanja",
+        "sections": "Sekcije HUD podešavanja",
+        "saveError": "Nije moguće sačuvati HUD podešavanja."
+      },
+      "discover": {
+        "title": "Otkrij"
+      },
+      "views": {
+        "label": "HUD raspored",
+        "grid": "Mreža",
+        "list": "Lista"
       }
     },
     "app": {
@@ -1404,6 +1577,10 @@
         "slowMode": {
           "title": "Спори режим",
           "info": "Спори режим шаље API захтеве кроз ред чекања како би се смањио нагли саобраћај. Ово може помоћи у рестриктивним окружењима заштитног зида широм земље.\nПоново покрените LHM након промене ове вредности да би ступила на снагу."
+        },
+        "showStudioDataInOtherGames": {
+          "title": "Prikaži Studio podatke u drugim igrama",
+          "info": "Kada je omogućeno, Studio People i Studio Teams podaci mogu se koristiti u igrama van njihovog početnog konteksta."
         }
       }
     },
@@ -1426,7 +1603,9 @@
         "single": {
           "titleTournament": "Обриши {{name}} турнир",
           "infoTournament": "Да ли сте сигурни да желите да уклоните {{name}} турнир?"
-        }
+        },
+        "titlePeople": "Obrisati osobu?",
+        "infoPeople": "Da li ste sigurni da želite da obrišete ovu osobu?"
       },
       "steamApiKeyMissing": {
         "title": "Недостаје парни АПИ кључ",
@@ -1456,7 +1635,9 @@
       "noUploadedResources": "Изгледа да још нисте отпремили податке у облак. Можете отпремити тренутну базу података или онемогућити синхронизацију на овој машини.",
       "noSyncLocal": "Ваша локална база података није синхронизована са складиштем у облаку. Можете преузети или отпремити базу података или онемогућити синхронизацију. Имајте на уму да ће преузимање уклонити оно што тренутно имате на овом рачунару, а отпремање ће ИЗБРИСАТИ садржај складишта у облаку. Шта желите да урадите?",
       "error": "Дошло је до грешке, па смо, како бисмо спречили губитак података, искључили синхронизацију.",
-      "modalTitle": "Синхронизација"
+      "modalTitle": "Синхронизација",
+      "studioOnlyConflict": "Studio podaci su dostupni samo kada je Studio sinhronizacija omogućena.",
+      "currentAndStudioConflict": "Trenutna konfiguracija je u konfliktu sa Studio podacima."
     },
     "workspaces": {
       "pickModalTitle": "Изаберите свој радни простор",
@@ -1488,6 +1669,41 @@
         "title": "Корисничко упутство",
         "description": "Погледајте наш Кориснички водич да бисте сазнали више о свакој LHM компоненти. Пронаћи ћете описе, упутства за подешавање и коришћење свих функција, као и одговоре на најчешћа питања. Ако имате додатна питања, придружите се [[our Discord|discord]]."
       }
+    },
+    "unsavedNavigation": {
+      "title": "Odbaciti nesačuvane izmene?",
+      "message": "Imate nesačuvane izmene. Odbaciti ih i nastaviti?",
+      "stay": "Ostani u uređivanju",
+      "discard": "Odbaci izmene"
+    },
+    "profile": {
+      "manageAccount": "Upravljaj nalogom",
+      "username": "Korisničko ime",
+      "currentWorkspace": "Trenutni workspace",
+      "role": "Uloga",
+      "owner": "Vlasnik",
+      "member": "Član",
+      "planStatusLabel": "Status plana",
+      "workspaceSeats": "Mesta u workspace-u",
+      "planSeats": "Mesta u planu",
+      "planStatus": {
+        "active": "Aktivan",
+        "canceled": "Otkazan",
+        "past_due": "Zakasneo",
+        "ended": "Završen",
+        "inactive": "Neaktivan",
+        "unknown": "Nepoznato"
+      }
+    },
+    "keybinds": {
+      "title": "Konfiguriši prečice",
+      "global": "Globalne prečice",
+      "pressKeys": "Pritisni tastere...",
+      "overlap": "Preklapanje prečica",
+      "overlapSummary": "Imaš prečice koje se preklapaju.",
+      "recording": "Snimanje prečice",
+      "resetToDefault": "Vrati na podrazumevano",
+      "saveError": "Nije moguće sačuvati prečicu."
     }
   }
 }

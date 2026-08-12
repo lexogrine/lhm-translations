@@ -96,7 +96,11 @@
       "decline": "Hylkää",
       "downloadTemplate": "Lataa pohja",
       "clickAndCopy": "Klikkaa ja kopioi",
-      "swap": "Vaihda"
+      "swap": "Vaihda",
+      "people": "Henkilöt",
+      "overlays": "Peittokuvat",
+      "person": "Henkilö",
+      "copied": "Kopioitu"
     },
     "chat": {
       "title": "Tukikeskustelu",
@@ -172,7 +176,9 @@
       "quick": "Quick",
       "chat": "Tukikeskustelu",
       "composer": "Composer",
-      "xray": "X-Ray"
+      "xray": "X-Ray",
+      "people": "Henkilöt",
+      "overlays": "Peittokuvat"
     },
     "aco": {
       "disabled": "Pois käytöstä",
@@ -242,7 +248,10 @@
         "label": "Toiminta Cinematic"
       },
       "scoutPausedTip": "Scout AI on keskeytetty, koska käynnissä olevaa peliä ei havaittu.",
-      "xrayWarning": "Jotta X-Ray toimisi oikein, CS2:n on oltava käynnistettynä Scout/X-Ray-asetus päällä."
+      "xrayWarning": "Jotta X-Ray toimisi oikein, CS2:n on oltava käynnistettynä Scout/X-Ray-asetus päällä.",
+      "scoutFollowSide": {
+        "label": "Seuraa puolta"
+      }
     },
     "composer": {
       "componentsSubtitle": "HUD-komponentin esikatselu",
@@ -322,7 +331,8 @@
         "hideComponent": "Piilota komponentti",
         "backToComponents": "Takaisin komponentteihin",
         "toBack": "Taakse",
-        "toFront": "Eteen"
+        "toFront": "Eteen",
+        "livePreviews": "Live-esikatselut"
       },
       "status": {
         "added": "Lisätty",
@@ -441,7 +451,23 @@
       "importPlayersExcel": "Käytä esivalmistettua Excel-taulukkoa, jolla voit helposti tuoda monta pelaajaa kerralla.",
       "exportPlayers": "Vie",
       "avatar": "Avatar",
-      "setAsCoach": "Aseta valmentajaksi"
+      "setAsCoach": "Aseta valmentajaksi",
+      "addPerson": "Lisää henkilö",
+      "name": "Nimi",
+      "secondName": "Toinen nimi",
+      "importPeopleTitle": "Tuo henkilöitä",
+      "importPeopleExcel": "Käytä tältä välilehdeltä vietyä Studio People Excel -taulukkoa tuodaksesi useita henkilöitä kerralla.",
+      "picture": "Kuva",
+      "personImageInfo": "Henkilökuvissa käytettävä kuva",
+      "socialLinks": {
+        "title": "Sosiaaliset linkit",
+        "instagram": "Instagram",
+        "x": "X",
+        "youtube": "YouTube",
+        "twitch": "Twitch",
+        "kick": "Kick",
+        "linkedin": "LinkedIn"
+      }
     },
     "teams": {
       "edit": "Muokkaa joukkuetta",
@@ -458,7 +484,8 @@
       "header": "Live",
       "noGame": "Mikään peli ei ole tällä hetkellä suorassa lähetyksessä.",
       "tipNoOrder": "Pelaajat tällä hetkellä ottelussa, klikkaa lisätäksesi pelaajan pelaajalistaan.",
-      "tip": "Pelaajat tällä hetkellä ottelussa, klikkaa lisätäksesi pelaajan pelaajalistaan ja vedä ja pudota muuttaaksesi pelaajien järjestystä joukkueissaan."
+      "tip": "Pelaajat tällä hetkellä ottelussa, klikkaa lisätäksesi pelaajan pelaajalistaan ja vedä ja pudota muuttaaksesi pelaajien järjestystä joukkueissaan.",
+      "noGameDescription": "Pelin {{game}} live-ottelutiedot näkyvät täällä automaattisesti, kun ne havaitaan."
     },
     "cameras": {
       "generatePassword": "Luo salasana",
@@ -488,7 +515,10 @@
         "lol-mr-1": "Advanced Addon mahdollistaa paljon enemmän datan lukemisen muistin lukemisen ansiosta. Muistinlukua voidaan pitää huijauksena, vaikka tällaisia työkaluja on ollut olemassa jo vuosia, eikä Riot viittaa niihin, emmekä ole kuulleet tapauksista, joissa katsojia olisi kielletty tämän takia. Siitä huolimatta käytät League of Legends Advanced Addonia omalla vastuullasi.",
         "lol-mr-2": "Älä käytä LoL Advanced Addonia normaalin pelaamisen aikana, sitä käytetään vain pelin katsomiseen!"
       },
-      "nodejsWarning": "NodeJS ja NPM vaaditaan asennettavaksi useimpiin lisäosiin"
+      "nodejsWarning": "NodeJS ja NPM vaaditaan asennettavaksi useimpiin lisäosiin",
+      "addon": "Lisäosa",
+      "actions": "Toiminnot",
+      "emptyList": "Lisäosia ei ole saatavilla."
     },
     "navbar": {
       "huds": "HUDit",
@@ -508,7 +538,9 @@
       "validUntil": "Voimassa kunnes",
       "nextPayment": "Seuraava maksu",
       "logout": "Kirjaudu ulos",
-      "arg": "Replays"
+      "arg": "Replays",
+      "overlays": "Peittokuvat",
+      "people": "Henkilöt"
     },
     "signals": {
       "removal": {
@@ -547,7 +579,8 @@
         "side": "Kylki:",
         "teamAny": "Joukkue: Mikä tahansa",
         "playerAny": "Pelaaja: Mikä tahansa"
-      }
+      },
+      "emptyList": "Ei vielä tapahtumia. Lisää ensimmäinen tapahtumasi."
     },
     "quick": {
       "uploadImage": "Lataa kuva",
@@ -698,7 +731,8 @@
       "reversedSides": "Käännetyt puolet",
       "mapList": "Karttalista",
       "generateGet5Config": "Generoi Get5 Config",
-      "emptyList": "Otteluita ei ole vielä. Luo ensimmäinen ottelusi."
+      "emptyList": "Otteluita ei ole vielä. Luo ensimmäinen ottelusi.",
+      "bestOf": "Paras /"
     },
     "credits": {
       "header": "Credits",
@@ -721,7 +755,8 @@
       "priority": {
         "multi": "Priorisoi monitappaminen",
         "headshots": "Priorisoi headshots",
-        "teamkills": "Priorisoi tiimitappoja"
+        "teamkills": "Priorisoi tiimitappoja",
+        "label": "Prioriteetti"
       },
       "mixer": {
         "label": "Sekoitin",
@@ -735,7 +770,8 @@
         "port": "Portti",
         "password": "Salasana",
         "disconnect": "Katkaise yhteys",
-        "switchInputs": "Automaattinen tulokytkin"
+        "switchInputs": "Automaattinen tulokytkin",
+        "chooseReplayInput": "Valitse replay-syöte"
       },
       "replay": {
         "replayModeTitle": "Uusintatila",
@@ -775,7 +811,36 @@
         "connectionRejected": {
           "title": "Replay-yhteys hylätty",
           "workspaceMismatch": "Työtilan {{workspaceName}} käyttäjä yritti yhdistää tähän PC:hen."
-        }
+        },
+        "currentMode": "Nykyinen tila",
+        "openReplayFeedClipsLocation": "Avaa Replay Feed -leikkeiden sijainti"
+      },
+      "saveClipsDescription": "Säilytä luodut replay-leikkeet toiston jälkeen",
+      "replayMachineCode": "Replay-koneen koodi",
+      "connected": "Yhdistetty",
+      "disconnected": "Yhteys katkaistu",
+      "timing": "Ajoitus",
+      "delay": "Viive",
+      "clockDifference": "Kelloero: {{value}} ms",
+      "userGuide": "Käyttöopas",
+      "learnMoreNdi": "Lue lisää NDI:stä",
+      "sections": {
+        "connection": "Yhteys",
+        "configuration": "Replay-määritys",
+        "output": "Ulostulo"
+      },
+      "units": {
+        "seconds": "sekuntia",
+        "milliseconds": "millisekuntia"
+      },
+      "obsStatus": {
+        "label": "OBS-määritys",
+        "ready": "Valmis",
+        "manualSelection": "Valmis manuaalisella lähdevalinnalla",
+        "missingNdi": "NDI Source -tuki puuttuu",
+        "notConnected": "Ei yhdistetty",
+        "unknown": "Tuntematon",
+        "manualSelectionHelp": "Avaa OBS:ssä LHM Replay Input -lähteen ominaisuudet ja valitse lähde, joka päättyy tekstiin LHM Replay Feed."
       }
     },
     "settings": {
@@ -823,7 +888,15 @@
       "subheaders": {
         "lhm": "LHM",
         "cloud": "LHM Cloud",
-        "additional": "Lisää"
+        "additional": "Lisää",
+        "studio": "Studio",
+        "general": "Yleiset",
+        "applicationDevices": "Sovellus ja laitteet",
+        "currentGame": "Nykyinen peli",
+        "cloudSynchronization": "Pilvi ja synkronointi",
+        "studioBroadcast": "Studio ja lähetys",
+        "advancedApi": "Lisäasetukset ja API",
+        "helpAbout": "Ohje ja tietoja"
       },
       "f1": {
         "add": "Lisää integrointi",
@@ -904,7 +977,10 @@
           "refreshHud": "Päivitä HUD",
           "toggleDirector": "Vaihda Scout Vision",
           "toggleScoutPredict": "Vaihda Scout Predict",
-          "toggleScoutCinematic": "Vaihda Scout Cinematic"
+          "toggleScoutCinematic": "Vaihda Scout Cinematic",
+          "setScoutFollowCT": "Scout seuraa CT",
+          "setScoutFollowDefault": "Scout seuraa oletusta",
+          "setScoutFollowT": "Scout seuraa T"
         },
         "streamDeck": {
           "unavailable": "Unavailable"
@@ -962,6 +1038,68 @@
         "generateToken": "Luo",
         "regenerateToken": "Luo uudelleen",
         "copyToken": "Kopioi"
+      },
+      "desktopAuth": {
+        "finishInBrowser": "Viimeistele kirjautuminen selaimessasi. Jos sinulta pyydetään koodia, syötä:",
+        "codeExpiresAt": "Tämä koodi vanhenee {{time}}.",
+        "openVerificationUrl": "Avaa {{url}} ja syötä tämä koodi.",
+        "browserSignInState": "Selaimella kirjautuminen oli {{state}}.",
+        "browserSignInUnavailable": "Selaimella kirjautuminen ei ole käytettävissä ({{code}}).",
+        "errors": {
+          "connectivity": "Kirjautumispalveluun ei saada yhteyttä. Tarkista internetyhteytesi ja mahdollinen VPN-yhteys ja yritä uudelleen.",
+          "server": "Kirjautumispalvelussa on tilapäinen ongelma. Yritä uudelleen muutaman minuutin kuluttua.",
+          "unavailable": "Selaimella kirjautuminen ei ole saatavilla tässä LHM- tai palvelinversiossa. Voit silti kirjautua sähköpostilla ja salasanalla.",
+          "unexpectedResponse": "Kirjautumispalvelu palautti odottamattoman vastauksen. Yritä uudelleen tai ota yhteyttä tukeen, jos ongelma jatkuu.",
+          "rateLimited": "Liian monta kirjautumisyritystä. Odota hetki ja yritä uudelleen.",
+          "unsupportedVersion": "Tämä LHM-versio ei tue selaimella kirjautumista. Päivitä LHM ja yritä uudelleen.",
+          "transactionUnavailable": "Selaimen kirjautumisistuntosi vanheni tai sitä ei löytynyt. Aloita selaimella kirjautuminen uudelleen.",
+          "generic": "Selaimella kirjautumista ei voitu viimeistellä. Yritä uudelleen."
+        },
+        "technicalCode": "Tekninen koodi: {{code}}",
+        "tosRequired": "Hyväksy päivitetyt käyttöehdot osoitteessa LHM.gg ja yritä kirjautua uudelleen.",
+        "reviewTerms": "Tarkista käyttöehdot",
+        "cancelBrowserSignIn": "Peruuta selaimella kirjautuminen",
+        "signInWithBrowser": "Kirjaudu selaimella",
+        "retry": "Yritä uudelleen"
+      },
+      "leagueOfLegendsServerMode": "Tiedonkeruutila",
+      "showStudioDataInOtherGames": "Näytä Studio-data muissa peleissä",
+      "autoSwitchStatus": {
+        "AUTO_SWITCH_DISABLED": "Auto-Switch on pois päältä.",
+        "WAITING_FOR_LIVE_DATA": "Odotetaan live-pelidataa.",
+        "NOT_CURRENT_GAME": "Valitse tämä peli ensin LHM:ssä.",
+        "THROTTLED": "Tarkistetaan pian uudelleen.",
+        "MISSING_LIVE_TEAM_IDS": "Nykyisessä ottelussa ei ole valittuja joukkueita.",
+        "NO_SIDE_PLAYERS": "Odotetaan pelaajia molemmille puolille.",
+        "NO_CURRENT_MATCH": "Valitse ensin nykyinen ottelu.",
+        "MULTITEAM_MATCH": "Auto-Switch ei ole käytettävissä monijoukkueotteluissa.",
+        "CURRENT_MAP_NOT_FOUND": "Nykyinen kartta ei vastaa mitään veto-karttaa.",
+        "NO_MATCHED_PLAYERS": "SteamID:llä ei löytynyt vastaavia pelaajia.",
+        "LOW_CONFIDENCE": "Vastakkaisilla puolilla ei ole tarpeeksi tunnettuja pelaajia.",
+        "READY": "Valmis. Vaihtaa, kun pelaajien puolet näyttävät käänteisiltä.",
+        "SWITCHING": "Vaihdetaan puolia...",
+        "SWITCHED": "Puolet vaihdettiin äskettäin.",
+        "HALFTIME_SWITCHED": "Puolet vaihdettiin puoliajalla.",
+        "REVERSE_SIDE_FAILED": "Auto-Switch yritti vaihtaa puolia, mutta ottelun tila esti sen.",
+        "ERROR": "Auto-Switch kohtasi virheen. Käynnistä LHM uudelleen, jos tämä jatkuu."
+      },
+      "saveRequired": "Tallennus vaaditaan",
+      "subgroups": {
+        "configuration": "Määritys",
+        "setupStatus": "Määritys ja tila"
+      },
+      "studio": {
+        "sceneCollections": "Kohtauskokoelmat",
+        "downloadOBS": "Lataa OBS-kokoelma",
+        "downloadVMix": "Lataa vMix-kokoelma"
+      },
+      "streamDeck": {
+        "integration": "Stream Deck -integraatio",
+        "connected": "Yhdistetty",
+        "disconnected": "Yhteys katkaistu",
+        "lastSeen": "Viimeksi nähty: {{time}}",
+        "neverConnected": "Heartbeatia ei ole vielä vastaanotettu",
+        "pluginVersion": "Plugin v{{version}}"
       }
     },
     "ar": {
@@ -998,7 +1136,13 @@
         "more": "Lisää",
         "hlaeIsRequired": "Sinulla täytyy olla CS:GO käynnissä HLAE:n kanssa",
         "proOrEntrpriseIsRequired": "Sinulla täytyy olla Professional- tai Enterprise-paketti",
-        "hlaeAndHigherPlanIsRequired": "Sinulla on oltava CS:GO käynnissä HLAE:n ja Professional- tai Enterprise-paketin kanssa"
+        "hlaeAndHigherPlanIsRequired": "Sinulla on oltava CS:GO käynnissä HLAE:n ja Professional- tai Enterprise-paketin kanssa",
+        "advanced": "Lisäasetukset",
+        "customLaunchParameters": "Mukautetut käynnistysparametrit",
+        "testData": "Testidata",
+        "addOverlay": "Lisää peittokuva",
+        "openOverlaysDirectory": "Avaa peittokuvien hakemisto",
+        "showStudioPeopleEntries": "Näytä Studio People -merkinnät"
       },
       "sort": {
         "custom": "Mukautettu",
@@ -1011,7 +1155,8 @@
         "deleteTitle": "Poista kategoria {{name}}",
         "name": "Kategorian nimi",
         "ungrouped": "Ryhmittelemätön",
-        "deleteInfo": "Haluatko varmasti poistaa kategorian {{name}}? Tämä toiminto ei poista HUDeja."
+        "deleteInfo": "Haluatko varmasti poistaa kategorian {{name}}? Tämä toiminto ei poista HUDeja.",
+        "studioOverlays": "Studio-peittokuvat"
       },
       "fields": {
         "missing": "Puuttuvat kentät",
@@ -1054,7 +1199,16 @@
         "clickToCopy": "Klikkaa kopioidaksesi",
         "linkCopied": "Linkki kopioitu leikepöydälle",
         "openingOverlay": "Avataan HUD päällekkäisnäkymään...",
-        "createShortcut": "Luo pikakuvake työpöydälle"
+        "createShortcut": "Luo pikakuvake työpöydälle",
+        "toggleOverlayUrl": "Vaihda peittokuvan URL",
+        "overlaySettings": "Siirry peittokuvan asetuksiin",
+        "startOverlay": "Käynnistä peittokuva",
+        "deleteOverlayLocally": "Poista peittokuva paikallisesti",
+        "deleteOverlayFromCloud": "Poista peittokuva pilvestä",
+        "toggleOverlayKeybinds": "Vaihda peittokuvan näppäinsidonnat",
+        "copyLink": "Kopioi linkki",
+        "variants": "+{{count}} varianttia",
+        "keybind": "Näppäinsidonta"
       },
       "share": {
         "actions": {
@@ -1075,7 +1229,10 @@
             "never": "Ei vanhentumista"
           },
           "customExpiryWarning": "Valitun vanhenemispäivän jälkeen HUD voi olla käytettävissä vielä enintään tunnin.",
-          "submit": "Lähetä kutsu"
+          "submit": "Lähetä kutsu",
+          "overlayTitle": "Jaa peittokuva",
+          "overlayDescription": "Lähetä tämä peittokuva toiselle käyttäjälle sähköpostitse.",
+          "overlayWorkspaceOwnerDisclaimer": "Tämä peittokuva kuuluu työtilaan \"{{workspace}}\". Koska et ole työtilan omistaja, kutsu lähetetään pääasiallisen Enterprise-tilin puolesta."
         },
         "pending": {
           "title": "Odottavat HUD-jakokutsut",
@@ -1128,7 +1285,23 @@
         "generic": "Jokin meni pieleen. Yritä myöhemmin uudelleen.",
         "archive": "LHM ei pystynyt lukemaan arkistotiedostoa.",
         "source": "Näyttää siltä, että lataat lähdekoodin käännetyn HUD:n sijaan. Käännä HUD ennen lataamista.",
-        "space": "Sinulla ei ole tarpeeksi pilvitilaa käyttämässäsi työtilassa. Päivitä suunnitelmaasi tai poista osa pilviresursseistasi."
+        "space": "Sinulla ei ole tarpeeksi pilvitilaa käyttämässäsi työtilassa. Päivitä suunnitelmaasi tai poista osa pilviresursseistasi.",
+        "overlayTitle": "Peittokuvaa ei voi lisätä",
+        "overlayConfig": "LHM ei pystynyt lukemaan peittokuvan määritystiedostoa.",
+        "overlayUpload": "LHM ei pystynyt lataamaan peittokuvaa pilveen. Yritä myöhemmin uudelleen."
+      },
+      "settings": {
+        "title": "{{name}} - Asetukset",
+        "sections": "HUD-asetusten osiot",
+        "saveError": "HUD-asetuksia ei voitu tallentaa."
+      },
+      "discover": {
+        "title": "Löydä"
+      },
+      "views": {
+        "label": "HUD-asettelu",
+        "grid": "Ruudukko",
+        "list": "Luettelo"
       }
     },
     "app": {
@@ -1404,6 +1577,10 @@
         "slowMode": {
           "title": "Hidas tila",
           "info": "Hidas tila lähettää API-pyynnöt jonon kautta vähentääkseen piikkiliikennettä. Tämä voi auttaa rajoittavissa palomuuriympäristöissä.\nKäynnistä LHM uudelleen tämän arvon muuttamisen jälkeen."
+        },
+        "showStudioDataInOtherGames": {
+          "title": "Näytä Studio-data muissa peleissä",
+          "info": "Näyttää Studio-resurssit, kun toinen peli on valittuna. Studio HUDit voivat näkyä HUD-luetteloissa, Studio People -merkintöjä voi käyttää HUD-määrityspaneeleissa, ja Studion pilvisynkronointi tarkistetaan yhdessä nykyisen pelin kanssa."
         }
       }
     },
@@ -1426,7 +1603,9 @@
         "single": {
           "titleTournament": "Poista turnaus {{name}}",
           "infoTournament": "Haluatko varmasti poistaa turnauksen {{name}}?"
-        }
+        },
+        "titlePeople": "Poista henkilöt",
+        "infoPeople": "Haluatko varmasti poistaa {{count}} henkilöä?"
       },
       "steamApiKeyMissing": {
         "title": "Steam API-avain puuttuu",
@@ -1456,7 +1635,9 @@
       "noUploadedResources": "Näyttää siltä, että et ole'vielä ladannut pilveen. Voit ladata nykyisen tietokantasi tai poistaa synkronoinnin käytöstä tällä koneella",
       "noSyncLocal": "Paikallista tietokantaasi ei ole synkronoitu pilvitallennuksen kanssa. Voit ladata tai ladata tietokannan tai poistaa synkronoinnin käytöstä. Huomaa, että lataaminen poistaa sen, mitä tällä hetkellä on tällä tietokoneella, ja lataaminen PURKAA pilvitallennuksen sisällön. Mitä haluat tehdä?",
       "error": "On tapahtunut virhe, joten tietojen menettämisen estämiseksi sammutimme synkronoinnin..",
-      "modalTitle": "Synkronointi"
+      "modalTitle": "Synkronointi",
+      "studioOnlyConflict": "Nykyiset pelitietosi on jo synkronoitu, mutta Studio-data tarvitsee synkronoinnin. Valitsemasi toiminto koskee vain Studio-dataa.",
+      "currentAndStudioConflict": "Sekä {{game}} että Studio-data täytyy synkronoida. Valitsemasi toiminto kohdistetaan molempiin tietokantoihin."
     },
     "workspaces": {
       "pickModalTitle": "Valitse työtilasi",
@@ -1488,6 +1669,41 @@
         "title": "Käyttöopas",
         "description": "Tutustu käyttöoppaaseemme saadaksesi lisätietoja jokaisesta LHM'n komponentista. Löydät kuvauksia, ohjeita kaikkien ominaisuuksien konfigurointiin ja käyttöön sekä vastauksia yleisimpiin kysymyksiin. Jos sinulla on lisäkysymyksiä, liity [[meidän Discord|discord]]."
       }
+    },
+    "unsavedNavigation": {
+      "title": "Hylätäänkö tallentamattomat muutokset?",
+      "message": "Sinulla on tallentamattomia muutoksia. Hylätäänkö ne ja jatketaanko?",
+      "stay": "Jatka muokkaamista",
+      "discard": "Hylkää muutokset"
+    },
+    "profile": {
+      "manageAccount": "Hallitse tiliä",
+      "username": "Käyttäjänimi",
+      "currentWorkspace": "Nykyinen työtila",
+      "role": "Rooli",
+      "owner": "Omistaja",
+      "member": "Jäsen",
+      "planStatusLabel": "Paketin tila",
+      "workspaceSeats": "Työtilan paikat",
+      "planSeats": "Paketin paikat",
+      "planStatus": {
+        "active": "Aktiivinen",
+        "canceled": "Peruutettu",
+        "past_due": "Erääntynyt",
+        "ended": "Päättynyt",
+        "inactive": "Ei aktiivinen",
+        "unknown": "Tuntematon"
+      }
+    },
+    "keybinds": {
+      "title": "Määritä näppäinsidonnat",
+      "global": "Globaalit näppäinsidonnat",
+      "pressKeys": "Paina näppäimiä...",
+      "overlap": "Päällekkäinen näppäinsidonta",
+      "overlapSummary": "Sinulla on päällekkäisiä näppäinsidontoja.",
+      "recording": "Tallennetaan näppäinsidontaa",
+      "resetToDefault": "Palauta oletukseksi",
+      "saveError": "Näppäinsidontaa ei voitu tallentaa."
     }
   }
 }

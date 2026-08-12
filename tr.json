@@ -96,7 +96,11 @@
       "decline": "Düşüş",
       "downloadTemplate": "Şablonu indirin",
       "clickAndCopy": "Tıkla & Kopyala",
-      "swap": "Takas"
+      "swap": "Takas",
+      "people": "Kişiler",
+      "overlays": "Overlayler",
+      "person": "Kişi",
+      "copied": "Kopyalandı"
     },
     "chat": {
       "title": "Destek Sohbeti",
@@ -172,7 +176,9 @@
       "quick": "Quick",
       "chat": "Destek Sohbeti",
       "composer": "Composer",
-      "xray": "X-Ray"
+      "xray": "X-Ray",
+      "people": "Kişiler",
+      "overlays": "Overlayler"
     },
     "aco": {
       "disabled": "Engelli",
@@ -242,7 +248,10 @@
         "label": "Aksiyon Sinematik"
       },
       "scoutPausedTip": "Çalışan bir oyun algılanmadığı için Scout AI duraklatıldı.",
-      "xrayWarning": "X-Ray'in doğru çalışması için CS2, Scout/X-Ray seçeneği açıkken başlatılmalıdır."
+      "xrayWarning": "X-Ray'in doğru çalışması için CS2, Scout/X-Ray seçeneği açıkken başlatılmalıdır.",
+      "scoutFollowSide": {
+        "label": "Tarafı takip et"
+      }
     },
     "composer": {
       "componentsSubtitle": "HUD bileşen önizlemesi",
@@ -322,7 +331,8 @@
         "hideComponent": "Bileşeni gizle",
         "backToComponents": "Bileşenlere geri dön",
         "toBack": "Arkaya gönder",
-        "toFront": "Öne getir"
+        "toFront": "Öne getir",
+        "livePreviews": "Canlı önizlemeler"
       },
       "status": {
         "added": "Eklendi",
@@ -441,7 +451,23 @@
       "importPlayersExcel": "Birçok oyuncuyu aynı anda kolayca içe aktarmak için önceden hazırlanmış Excel sayfamızı kullanın.",
       "exportPlayers": "İhracat",
       "avatar": "Avatar",
-      "setAsCoach": "Koç olarak ayarla"
+      "setAsCoach": "Koç olarak ayarla",
+      "addPerson": "Kişi ekle",
+      "name": "Ad",
+      "secondName": "İkinci ad",
+      "importPeopleTitle": "Kişileri içe aktar",
+      "importPeopleExcel": "Birçok kişiyi aynı anda içe aktarmak için bu sekmeden dışa aktarılmış Studio People Excel sayfasını kullanın.",
+      "picture": "Resim",
+      "personImageInfo": "Kişi görselleri için kullanılacak resim",
+      "socialLinks": {
+        "title": "Sosyal bağlantılar",
+        "instagram": "Instagram",
+        "x": "X",
+        "youtube": "YouTube",
+        "twitch": "Twitch",
+        "kick": "Kick",
+        "linkedin": "LinkedIn"
+      }
     },
     "teams": {
       "edit": "Ekip düzenleme",
@@ -458,7 +484,8 @@
       "header": "Canlı",
       "noGame": "Şu anda hiçbir oyun canlı değil.",
       "tipNoOrder": "Şu anda maçta olan oyuncular, oyuncu listesine bir oyuncu eklemek için tıklayın.",
-      "tip": "Şu anda maçta olan oyuncular, oyuncu listesine bir oyuncu eklemek için tıklayın ve oyuncuların takımlarındaki sırasını değiştirmek için sürükleyip bırakın."
+      "tip": "Şu anda maçta olan oyuncular, oyuncu listesine bir oyuncu eklemek için tıklayın ve oyuncuların takımlarındaki sırasını değiştirmek için sürükleyip bırakın.",
+      "noGameDescription": "{{game}} için Live maç verileri algılandığında burada otomatik olarak görünecek."
     },
     "cameras": {
       "generatePassword": "Parola oluştur",
@@ -488,7 +515,10 @@
         "lol-mr-1": "Advanced Addon, hafıza okuma sayesinde çok daha fazla verinin okunmasını mümkün kılıyor. Hafıza okuma bir hile olarak değerlendirilebilir, ancak bu tür araçlar yıllardır var ve Riot bunlara atıfta bulunmuyor ve bunun için yasaklanan seyirci vakalarını duymadık. Bununla birlikte, League of Legends Gelişmiş Eklentisini kendi sorumluluğunuzda kullanırsınız.",
         "lol-mr-2": "LoL Advanced Addon'u normal oyun sırasında kullanmayın, sadece oyunu izlemek için kullanılır!"
       },
-      "nodejsWarning": "Çoğu eklenti için NodeJS ve NPM'nin yüklenmesi gerekir"
+      "nodejsWarning": "Çoğu eklenti için NodeJS ve NPM'nin yüklenmesi gerekir",
+      "addon": "Eklenti",
+      "actions": "İşlemler",
+      "emptyList": "Kullanılabilir eklenti yok."
     },
     "navbar": {
       "huds": "HUD'lar",
@@ -508,7 +538,9 @@
       "validUntil": "Şu tarihe kadar geçerlidir",
       "nextPayment": "Sonraki ödeme",
       "logout": "Oturumu kapat",
-      "arg": "Replays"
+      "arg": "Replays",
+      "overlays": "Overlayler",
+      "people": "Kişiler"
     },
     "signals": {
       "removal": {
@@ -547,7 +579,8 @@
         "side": "Yan:",
         "teamAny": "Takım: Herhangi bir",
         "playerAny": "Oyuncu: Herhangi bir"
-      }
+      },
+      "emptyList": "Henüz etkinlik yok. İlk etkinliğinizi ekleyin."
     },
     "quick": {
       "uploadImage": "Resim yükle",
@@ -698,7 +731,8 @@
       "reversedSides": "Ters çevrilmiş taraflar",
       "mapList": "Harita listesi",
       "generateGet5Config": "Get5 Konfigürasyonu Oluştur",
-      "emptyList": "Henüz maç yok. İlk maçını oluştur."
+      "emptyList": "Henüz maç yok. İlk maçını oluştur.",
+      "bestOf": "Best of"
     },
     "credits": {
       "header": "Krediler",
@@ -721,7 +755,8 @@
       "priority": {
         "multi": "Çoklu öldürmelere öncelik verin",
         "headshots": "Vesikalık fotoğraflara öncelik verin",
-        "teamkills": "Takım öldürmelerine öncelik verin"
+        "teamkills": "Takım öldürmelerine öncelik verin",
+        "label": "Öncelik"
       },
       "mixer": {
         "label": "Karıştırıcı",
@@ -735,7 +770,8 @@
         "port": "Liman",
         "password": "Şifre",
         "disconnect": "Bağlantıyı Kes",
-        "switchInputs": "Otomatik Giriş Anahtarı"
+        "switchInputs": "Otomatik Giriş Anahtarı",
+        "chooseReplayInput": "Tekrar girişini seçin"
       },
       "replay": {
         "replayModeTitle": "Tekrar Oynatma Modu",
@@ -775,7 +811,36 @@
         "connectionRejected": {
           "title": "Replay bağlantısı reddedildi",
           "workspaceMismatch": "{{workspaceName}} workspace'inden bir kullanıcı bu PC'ye bağlanmaya çalıştı."
-        }
+        },
+        "currentMode": "Mevcut mod",
+        "openReplayFeedClipsLocation": "Replay Feed klip konumunu aç"
+      },
+      "saveClipsDescription": "Oynatma sonrasında oluşturulan tekrar kliplerini sakla",
+      "replayMachineCode": "Tekrar makinesi kodu",
+      "connected": "Bağlandı",
+      "disconnected": "Bağlantı kesildi",
+      "timing": "Zamanlama",
+      "delay": "Gecikme",
+      "clockDifference": "Saat farkı: {{value}} ms",
+      "userGuide": "Kullanıcı Kılavuzu",
+      "learnMoreNdi": "NDI hakkında daha fazla bilgi edin",
+      "sections": {
+        "connection": "Bağlantı",
+        "configuration": "Tekrar yapılandırması",
+        "output": "Çıkış"
+      },
+      "units": {
+        "seconds": "saniye",
+        "milliseconds": "milisaniye"
+      },
+      "obsStatus": {
+        "label": "OBS kurulumu",
+        "ready": "Hazır",
+        "manualSelection": "Manuel kaynak seçimiyle hazır",
+        "missingNdi": "NDI Kaynak desteği eksik",
+        "notConnected": "Bağlı değil",
+        "unknown": "Bilinmiyor",
+        "manualSelectionHelp": "OBS içinde LHM Replay Input özelliklerini açın ve LHM Replay Feed ile biten kaynağı seçin."
       }
     },
     "settings": {
@@ -823,7 +888,15 @@
       "subheaders": {
         "lhm": "LHM",
         "cloud": "LHM Bulut",
-        "additional": "Ek"
+        "additional": "Ek",
+        "studio": "Studio",
+        "general": "Genel",
+        "applicationDevices": "Uygulama ve Cihazlar",
+        "currentGame": "Mevcut Oyun",
+        "cloudSynchronization": "Bulut ve Senkronizasyon",
+        "studioBroadcast": "Studio ve Yayın",
+        "advancedApi": "Gelişmiş ve API",
+        "helpAbout": "Yardım ve Hakkında"
       },
       "f1": {
         "add": "Entegrasyon ekleyin",
@@ -904,7 +977,10 @@
           "refreshHud": "HUD'ı Yenile",
           "toggleDirector": "Scout Vision'ı Aç/Kapat",
           "toggleScoutPredict": "Toggle Scout Tahmin Et",
-          "toggleScoutCinematic": "İzci Sinematiğini Değiştir"
+          "toggleScoutCinematic": "İzci Sinematiğini Değiştir",
+          "setScoutFollowCT": "Scout CT Takibi",
+          "setScoutFollowDefault": "Scout Varsayılan Takip",
+          "setScoutFollowT": "Scout T Takibi"
         },
         "streamDeck": {
           "unavailable": "Kullanılamıyor"
@@ -962,6 +1038,68 @@
         "generateToken": "Oluştur",
         "regenerateToken": "Yeniden oluştur",
         "copyToken": "Kopyala"
+      },
+      "desktopAuth": {
+        "finishInBrowser": "Tarayıcınızda oturum açmayı tamamlayın. Kod istenirse şunu girin:",
+        "codeExpiresAt": "Bu kodun süresi {{time}} tarihinde doluyor.",
+        "openVerificationUrl": "{{url}} adresini açın ve bu kodu girin.",
+        "browserSignInState": "Tarayıcı oturum açma durumu {{state}} oldu.",
+        "browserSignInUnavailable": "Tarayıcı ile oturum açma kullanılamıyor ({{code}}).",
+        "errors": {
+          "connectivity": "Oturum açma servisine ulaşılamıyor. İnternet bağlantınızı ve varsa VPN bağlantınızı kontrol edip tekrar deneyin.",
+          "server": "Oturum açma servisinde geçici bir sorun var. Lütfen birkaç dakika içinde tekrar deneyin.",
+          "unavailable": "Tarayıcı ile oturum açma bu LHM veya sunucu sürümünde kullanılamıyor. Email ve şifre ile yine de oturum açabilirsiniz.",
+          "unexpectedResponse": "Oturum açma servisi beklenmeyen bir yanıt döndürdü. Tekrar deneyin veya sorun devam ederse destekle iletişime geçin.",
+          "rateLimited": "Çok fazla oturum açma denemesi. Bir süre bekleyip tekrar deneyin.",
+          "unsupportedVersion": "Bu LHM sürümü tarayıcı ile oturum açmayı desteklemiyor. LHM’yi güncelleyip tekrar deneyin.",
+          "transactionUnavailable": "Tarayıcı oturum açma oturumunuzun süresi doldu veya bulunamadı. Tarayıcı ile oturum açmayı yeniden başlatın.",
+          "generic": "Tarayıcı ile oturum açma tamamlanamadı. Lütfen tekrar deneyin."
+        },
+        "technicalCode": "Teknik kod: {{code}}",
+        "tosRequired": "LHM.gg üzerindeki güncellenmiş Hizmet Şartlarını kabul edin, ardından tekrar oturum açmayı deneyin.",
+        "reviewTerms": "Hizmet Şartlarını incele",
+        "cancelBrowserSignIn": "Tarayıcı ile oturum açmayı iptal et",
+        "signInWithBrowser": "Tarayıcı ile oturum aç",
+        "retry": "Tekrar dene"
+      },
+      "leagueOfLegendsServerMode": "Veri Toplama Modu",
+      "showStudioDataInOtherGames": "Studio verilerini diğer oyunlarda göster",
+      "autoSwitchStatus": {
+        "AUTO_SWITCH_DISABLED": "Auto-Switch kapalı.",
+        "WAITING_FOR_LIVE_DATA": "Live oyun verileri bekleniyor.",
+        "NOT_CURRENT_GAME": "Önce LHM içinde bu oyunu seçin.",
+        "THROTTLED": "Kısa süre sonra tekrar kontrol ediliyor.",
+        "MISSING_LIVE_TEAM_IDS": "Mevcut maçta takım seçilmemiş.",
+        "NO_SIDE_PLAYERS": "Her iki tarafta oyuncular bekleniyor.",
+        "NO_CURRENT_MATCH": "Önce geçerli bir maç seçin.",
+        "MULTITEAM_MATCH": "Auto-Switch çok takımlı maçlarda kullanılamaz.",
+        "CURRENT_MAP_NOT_FOUND": "Mevcut harita hiçbir veto haritasıyla eşleşmiyor.",
+        "NO_MATCHED_PLAYERS": "SteamID ile eşleşen oyuncu bulunamadı.",
+        "LOW_CONFIDENCE": "Karşı taraflarda yeterince bilinen oyuncu yok.",
+        "READY": "Hazır. Oyuncu tarafları ters görünürse değiştirecek.",
+        "SWITCHING": "Taraflar değiştiriliyor...",
+        "SWITCHED": "Taraflar kısa süre önce değiştirildi.",
+        "HALFTIME_SWITCHED": "Devre arası için taraflar değiştirildi.",
+        "REVERSE_SIDE_FAILED": "Auto-Switch tarafları değiştirmeyi denedi, ancak maç durumu bunu engelledi.",
+        "ERROR": "Auto-Switch bir hatayla karşılaştı. Sorun sürerse LHM’yi yeniden başlatın."
+      },
+      "saveRequired": "Kaydetme gerekli",
+      "subgroups": {
+        "configuration": "Yapılandırma",
+        "setupStatus": "Kurulum ve Durum"
+      },
+      "studio": {
+        "sceneCollections": "Sahne Koleksiyonları",
+        "downloadOBS": "OBS Koleksiyonunu İndir",
+        "downloadVMix": "vMix Koleksiyonunu İndir"
+      },
+      "streamDeck": {
+        "integration": "Stream Deck entegrasyonu",
+        "connected": "Bağlandı",
+        "disconnected": "Bağlantı kesildi",
+        "lastSeen": "Son görülme: {{time}}",
+        "neverConnected": "Henüz heartbeat alınmadı",
+        "pluginVersion": "Eklenti v{{version}}"
       }
     },
     "ar": {
@@ -998,7 +1136,13 @@
         "more": "Daha fazla",
         "hlaeIsRequired": "HLAE ile çalışan CS:GO'ya sahip olmalısınız",
         "proOrEntrpriseIsRequired": "Profesyonel veya Kurumsal plana sahip olmalısınız",
-        "hlaeAndHigherPlanIsRequired": "HLAE ile çalışan CS:GO'ya ve bir Professional veya Enterprise plana sahip olmalısınız"
+        "hlaeAndHigherPlanIsRequired": "HLAE ile çalışan CS:GO'ya ve bir Professional veya Enterprise plana sahip olmalısınız",
+        "advanced": "Gelişmiş",
+        "customLaunchParameters": "Özel başlatma parametreleri",
+        "testData": "Test verileri",
+        "addOverlay": "Overlay ekle",
+        "openOverlaysDirectory": "Overlay dizinini aç",
+        "showStudioPeopleEntries": "Studio People kayıtlarını göster"
       },
       "sort": {
         "custom": "Özel",
@@ -1011,7 +1155,8 @@
         "deleteTitle": "{{name}} kategorisini sil",
         "name": "Kategori adı",
         "ungrouped": "Gruplandırılmamış",
-        "deleteInfo": "{{name}} kategorisini kaldırmak istediğinizden emin misiniz? Bu işlem hiçbir HUD'u kaldırmaz."
+        "deleteInfo": "{{name}} kategorisini kaldırmak istediğinizden emin misiniz? Bu işlem hiçbir HUD'u kaldırmaz.",
+        "studioOverlays": "Studio Overlayleri"
       },
       "fields": {
         "missing": "Eksik alanlar",
@@ -1054,7 +1199,16 @@
         "clickToCopy": "Kopyalamak için tıklayın",
         "linkCopied": "Bağlantı panoya kopyalandı",
         "createShortcut": "Masaüstünde kısayol oluşturma",
-        "openingOverlay": "HUD overlay'de açılıyor..."
+        "openingOverlay": "HUD overlay'de açılıyor...",
+        "toggleOverlayUrl": "Overlay URL’sini değiştir",
+        "overlaySettings": "Overlay ayarlarına git",
+        "startOverlay": "Overlay başlat",
+        "deleteOverlayLocally": "Overlayi yerel olarak sil",
+        "deleteOverlayFromCloud": "Overlayi buluttan sil",
+        "toggleOverlayKeybinds": "Overlay tuş atamalarını değiştir (Tarayıcı Kaynağı için)",
+        "copyLink": "Bağlantıyı kopyala",
+        "variants": "Varyantlar",
+        "keybind": "Tuş ataması"
       },
       "share": {
         "actions": {
@@ -1075,7 +1229,10 @@
             "never": "Süresiz"
           },
           "customExpiryWarning": "Seçilen son kullanma tarihinden sonra HUD en fazla bir saat daha erişilebilir kalabilir.",
-          "submit": "Daveti gönder"
+          "submit": "Daveti gönder",
+          "overlayTitle": "Overlay Paylaş",
+          "overlayDescription": "Bu overlayi başka bir kullanıcıya email ile gönderin.",
+          "overlayWorkspaceOwnerDisclaimer": "Bu overlay \"{{workspace}}\" workspace’ine aittir. Workspace sahibi olmadığınız için davet Enterprise hesabı adına gönderilecektir."
         },
         "pending": {
           "title": "Bekleyen HUD paylaşım davetleri",
@@ -1128,7 +1285,23 @@
         "generic": "Bir şeyler ters gitti. Sonra tekrar dene.",
         "archive": "LHM'arşiv dosyasını okuyamadı.",
         "source": "Görünüşe göre derlenmiş HUD yerine kaynak kodu yüklüyorsunuz. Lütfen yüklemeden önce HUD'yi derleyin.",
-        "space": "Kullandığınız çalışma alanında yeterli Bulut Alanınız yok. Lütfen planınızı yükseltin veya bulut kaynaklarınızdan bazılarını silin."
+        "space": "Kullandığınız çalışma alanında yeterli Bulut Alanınız yok. Lütfen planınızı yükseltin veya bulut kaynaklarınızdan bazılarını silin.",
+        "overlayTitle": "Overlay hatası",
+        "overlayConfig": "Overlay yapılandırması yüklenemiyor.",
+        "overlayUpload": "Overlay yüklenemiyor."
+      },
+      "settings": {
+        "title": "{{name}} - Ayarlar",
+        "sections": "HUD ayar bölümleri",
+        "saveError": "HUD ayarları kaydedilemiyor."
+      },
+      "discover": {
+        "title": "Keşfet"
+      },
+      "views": {
+        "label": "HUD düzeni",
+        "grid": "Izgara",
+        "list": "Liste"
       }
     },
     "app": {
@@ -1404,6 +1577,10 @@
         "slowMode": {
           "title": "Yavaş Mod",
           "info": "Yavaş Mod, ani trafik yükünü azaltmak için API isteklerini kuyruk üzerinden gönderir. Bu, ülke genelinde kısıtlayıcı güvenlik duvarı ortamlarında yardımcı olabilir.\nBu değeri değiştirdikten sonra etkili olması için LHM'yi yeniden başlatın."
+        },
+        "showStudioDataInOtherGames": {
+          "title": "Studio verilerini diğer oyunlarda göster",
+          "info": "Etkinleştirildiğinde, Studio People ve Studio Teams verileri özgün bağlamları dışındaki oyunlarda kullanılabilir."
         }
       }
     },
@@ -1426,7 +1603,9 @@
         "single": {
           "titleTournament": "{{name}} turnuvasını sil",
           "infoTournament": "{{name}} turnuvasını kaldırmak istediğinizden emin misiniz?"
-        }
+        },
+        "titlePeople": "Kişi silinsin mi?",
+        "infoPeople": "Bu kişiyi silmek istediğinizden emin misiniz?"
       },
       "steamApiKeyMissing": {
         "title": "Steam API Anahtarı Eksik",
@@ -1456,7 +1635,9 @@
       "noUploadedResources": "Görünüşe göre henüz buluta yüklememişsiniz. Mevcut veritabanınızı yükleyebilir veya bu makinede senkronizasyonu devre dışı bırakabilirsiniz",
       "noSyncLocal": "Yerel veritabanınız bulut depolama ile senkronize edilmiyor. Veritabanını indirebilir veya yükleyebilir ya da senkronizasyonu devre dışı bırakabilirsiniz. İndirmenin bu bilgisayarda şu anda sahip olduklarınızı kaldıracağını ve yüklemenin bulut depolama içeriğini SİLECEĞİNİ unutmayın. Ne yapmak istiyorsun?",
       "error": "Bir hata oluştu, bu nedenle veri kaybını önlemek için senkronizasyonu kapattık",
-      "modalTitle": "Senkronizasyon"
+      "modalTitle": "Senkronizasyon",
+      "studioOnlyConflict": "Studio verileri yalnızca Studio senkronizasyonu etkinken kullanılabilir.",
+      "currentAndStudioConflict": "Mevcut yapılandırma Studio verileriyle çakışıyor."
     },
     "workspaces": {
       "pickModalTitle": "Çalışma alanınızı seçin",
@@ -1488,6 +1669,41 @@
         "title": "Kullanıcı kılavuzu",
         "description": "LHM'nin her bir bileşeni hakkında daha fazla bilgi edinmek için Kullanıcı Kılavuzumuza göz atın. Tüm özellikleri yapılandırmak ve kullanmak için açıklamalar, talimatlar ve en sık sorulan soruların yanıtlarını bulacaksınız. Başka sorularınız varsa, [[Discord'umuza|discord]] katılın."
       }
+    },
+    "unsavedNavigation": {
+      "title": "Kaydedilmemiş değişiklikler atılsın mı?",
+      "message": "Kaydedilmemiş değişiklikleriniz var. Bunları atıp devam etmek istiyor musunuz?",
+      "stay": "Düzenlemede kal",
+      "discard": "Değişiklikleri at"
+    },
+    "profile": {
+      "manageAccount": "Hesabı yönet",
+      "username": "Kullanıcı adı",
+      "currentWorkspace": "Mevcut workspace",
+      "role": "Rol",
+      "owner": "Sahip",
+      "member": "Üye",
+      "planStatusLabel": "Plan durumu",
+      "workspaceSeats": "Workspace koltukları",
+      "planSeats": "Plan koltukları",
+      "planStatus": {
+        "active": "Aktif",
+        "canceled": "İptal edildi",
+        "past_due": "Vadesi geçti",
+        "ended": "Sona erdi",
+        "inactive": "Aktif değil",
+        "unknown": "Bilinmiyor"
+      }
+    },
+    "keybinds": {
+      "title": "Tuş atamalarını yapılandır",
+      "global": "Global tuş atamaları",
+      "pressKeys": "Tuşlara basın...",
+      "overlap": "Çakışan tuş ataması",
+      "overlapSummary": "Çakışan tuş atamalarınız var.",
+      "recording": "Tuş ataması kaydediliyor",
+      "resetToDefault": "Varsayılana sıfırla",
+      "saveError": "Tuş ataması kaydedilemiyor."
     }
   }
 }
