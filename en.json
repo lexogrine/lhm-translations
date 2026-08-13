@@ -680,6 +680,8 @@
       "emptyList": "No tournaments yet. Create your first tournament.",
       "availableTeams": "Available teams",
       "selectedTeams": "Selected teams",
+      "moveToSelectedTeams": "Move to selected teams",
+      "moveToAvailableTeams": "Move to available teams",
       "teamsCount": "{{count}} Teams",
       "maxTeamsAllowed": "Max {{max}} teams allowed in a tournament.",
       "maxTeamsHint": "Max {{max}} teams.",
@@ -908,7 +910,17 @@
         "tosRequired": "Accept the updated Terms of Service on LHM.gg, then try signing in again.",
         "reviewTerms": "Review Terms of Service",
         "cancelBrowserSignIn": "Cancel browser sign-in",
-        "signInWithBrowser": "Sign in with browser",
+        "signInWithBrowser": "Continue in browser",
+        "chooseMethodInBrowser": "Choose a sign-in method in your browser",
+        "orUsePassword": "or sign in with email and password",
+        "orUseAuthenticationCode": "or enter your authentication code",
+        "methods": {
+          "google": "Google",
+          "steam": "Steam",
+          "linkedin": "LinkedIn",
+          "github": "GitHub",
+          "passkey": "Passkey"
+        },
         "retry": "Try again"
       },
       "Not logged in": "Not logged in",
