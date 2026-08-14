@@ -578,7 +578,7 @@
         "opened": "HUD avattiin erilliseen ikkunaan.",
         "borderless": "Voit käyttää pelin Borderless-tilaa ja kaapata HUD-näytön suoraan",
         "display": "tai lisätä sen uutena näyttölähteenä lähetysohjelmistoosi.",
-        "userGuide": "Ongelmatilanteissa tutustu käyttöoppaaseen.",
+        "userGuide": "Ongelmatilanteissa tutustu <guide>käyttöoppaaseen</guide>.",
         "started": "Peli käynnistyy"
       }
     },

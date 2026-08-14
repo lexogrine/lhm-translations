@@ -640,7 +640,7 @@
         "opened": "The HUD was opened in a separate window.",
         "borderless": "You can use Borderless mode in the game and capture the HUD screen directly",
         "display": "or add it as a new display source to your broadcasting software.",
-        "userGuide": "In case of any problems visit the User Guide.",
+        "userGuide": "In case of any problems visit the <guide>User Guide</guide>.",
         "started": "Game started"
       }
     },

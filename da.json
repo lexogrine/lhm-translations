@@ -578,7 +578,7 @@
         "opened": "HUD'en blev åbnet i et separat vindue.",
         "borderless": "Du kan bruge Borderless-tilstand i spillet og fange HUD-skærmen direkte",
         "display": "eller tilføje det som en ny skærmkilde til dit streamsoftware.",
-        "userGuide": "I tilfælde af problemer kan du læse brugervejledningen.",
+        "userGuide": "I tilfælde af problemer kan du læse <guide>brugervejledningen</guide>.",
         "started": "Spillet er startet"
       }
     },

@@ -578,7 +578,7 @@
         "opened": "HUD-en ble åpnet i et eget vindu.",
         "borderless": "Du kan bruke Fullskjern i vindu-modus i spillet og fange HUD-skjermen direkte",
         "display": "eller legge den til som en ny skjermkilde i kringkastingsprogramvaren.",
-        "userGuide": "Hvis du har problemer, kan du gå til brukerveiledningen.",
+        "userGuide": "Hvis du har problemer, kan du gå til <guide>brukerveiledningen</guide>.",
         "started": "Spillet har startet"
       }
     },

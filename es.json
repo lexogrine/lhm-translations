@@ -578,7 +578,7 @@
         "opened": "El HUD se abrió en una ventana separada.",
         "borderless": "Puedes usar el modo Pantalla sin bordes en el juego y capturar la pantalla del HUD directamente",
         "display": "o agregarlo como una nueva fuente de visualización a tu software de emisión.",
-        "userGuide": "En caso de cualquier problema visita la Guía del Usuario.",
+        "userGuide": "En caso de cualquier problema visita la <guide>Guía del Usuario</guide>.",
         "started": "Juego iniciado"
       }
     },

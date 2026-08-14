@@ -593,7 +593,7 @@
         "opened": "HUD został otwarty w osobnym oknie.",
         "borderless": "Możesz użyć trybu bez obramowania w grze i przechwycić ekran HUD bezpośrednio",
         "display": "lub dodać go jako nowe źródło wyświetlania do oprogramowania do transmisji.",
-        "userGuide": "W przypadku jakichkolwiek problemów odwiedź Podręcznik użytkownika.",
+        "userGuide": "W przypadku jakichkolwiek problemów odwiedź <guide>Podręcznik użytkownika</guide>.",
         "started": "Gra rozpoczęta"
       }
     },

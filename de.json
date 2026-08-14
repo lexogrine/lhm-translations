@@ -578,7 +578,7 @@
         "opened": "Das HUD wurde in einem separaten Fenster geöffnet.",
         "borderless": "Du kannst den randlosen Modus im Spiel verwenden und den HUD-Bildschirm direkt erfassen.",
         "display": "oder ihn als neue Anzeigequelle zu deiner Streamsoftware hinzufügen.",
-        "userGuide": "Bei Problemen schaue bitte in das Benutzerhandbuch.",
+        "userGuide": "Bei Problemen schaue bitte in das <guide>Benutzerhandbuch</guide>.",
         "started": "Spiel gestartet"
       }
     },

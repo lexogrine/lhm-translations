@@ -578,7 +578,7 @@
         "opened": "HUD dibuka di jendela terpisah.",
         "borderless": "Anda dapat menggunakan mode Tanpa Batas di dalam game dan menangkap layar HUD secara langsung",
         "display": "atau menambahkannya sebagai sumber tampilan baru ke perangkat lunak penyiaran Anda.",
-        "userGuide": "Jika ada masalah, kunjungi Panduan Pengguna.",
+        "userGuide": "Jika ada masalah, kunjungi <guide>Panduan Pengguna</guide>.",
         "started": "Permainan dimulai"
       }
     },

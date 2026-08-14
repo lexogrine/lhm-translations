@@ -578,7 +578,7 @@
         "opened": "HUD öppnades i ett separat fönster.",
         "borderless": "Du kan använda gränslöst läge i spelet och fånga HUD-skärmen direkt",
         "display": "eller lägga till den som en ny skärmkälla i din sändningsprogramvara.",
-        "userGuide": "Om du har några problem kan du läsa användarhandboken.",
+        "userGuide": "Om du har några problem kan du läsa <guide>användarhandboken</guide>.",
         "started": "Spelet har startat"
       }
     },

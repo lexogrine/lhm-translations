@@ -578,7 +578,7 @@
         "opened": "HUD đã được mở trong một cửa sổ mới",
         "borderless": "Bạn có thể sử dụng chế độ màn hình Borderless trong game và ghi hình HUD trực tiếp từ màn hình",
         "display": "Hoặc thêm thêm nó làm một Display Source trên phần mềm Phát sóng của bạn.",
-        "userGuide": "Nếu có bất kỳ vấn đề gì, hãy truy cập vào Hướng dẫn sử dụng.",
+        "userGuide": "Nếu có bất kỳ vấn đề gì, hãy truy cập vào <guide>Hướng dẫn sử dụng</guide>.",
         "started": "Game bắt đầu"
       }
     },

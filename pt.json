@@ -578,7 +578,7 @@
         "opened": "O HUD foi aberto numa janela separada.",
         "borderless": "Podes usar o modo Sem Fronteiras no jogo e capturar o ecrã do HUD diretamente",
         "display": "ou adicioná-lo como uma nova fonte de ecrã ao teu software de transmissão.",
-        "userGuide": "Em caso de problemas, consulta o Guia do Utilizador.",
+        "userGuide": "Em caso de problemas, consulta o <guide>Guia do Utilizador</guide>.",
         "started": "Jogo iniciado"
       }
     },

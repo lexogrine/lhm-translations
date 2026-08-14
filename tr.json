@@ -578,7 +578,7 @@
         "opened": "HUD ayrı bir pencerede açıldı.",
         "borderless": "Oyunda Kenarlıksız modunu kullanabilir ve HUD ekranını doğrudan yakalayabilirsiniz",
         "display": "veya yayın yazılımınıza yeni bir görüntü kaynağı olarak ekleyin.",
-        "userGuide": "Herhangi bir sorun olması durumunda Kullanıcı Kılavuzunu ziyaret edin.",
+        "userGuide": "Herhangi bir sorun olması durumunda <guide>Kullanıcı Kılavuzunu</guide> ziyaret edin.",
         "started": "Oyun başladı"
       }
     },
