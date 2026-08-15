@@ -96,7 +96,11 @@
       "decline": "Recusar",
       "downloadTemplate": "Descarregar modelo",
       "clickAndCopy": "Clicar e copiar",
-      "swap": "Trocar"
+      "swap": "Trocar",
+      "people": "Pessoas",
+      "overlays": "Overlays",
+      "person": "Pessoa",
+      "copied": "Copiado"
     },
     "chat": {
       "title": "Bate-papo de apoio",
@@ -172,7 +176,9 @@
       "quick": "Quick",
       "chat": "Bate-papo de suporte",
       "composer": "Composer",
-      "xray": "X-Ray"
+      "xray": "X-Ray",
+      "people": "Pessoas",
+      "overlays": "Overlays"
     },
     "aco": {
       "disabled": "Desativado",
@@ -242,7 +248,10 @@
         "label": "Ação cinemática"
       },
       "scoutPausedTip": "O Scout AI está pausado porque nenhum jogo em execução foi detectado.",
-      "xrayWarning": "Para que o X-Ray funcione corretamente, o CS2 deve ser iniciado com a opção Scout/X-Ray ativada."
+      "xrayWarning": "Para que o X-Ray funcione corretamente, o CS2 deve ser iniciado com a opção Scout/X-Ray ativada.",
+      "scoutFollowSide": {
+        "label": "Seguir lado"
+      }
     },
     "composer": {
       "componentsSubtitle": "Pré-visualização do componente HUD",
@@ -322,7 +331,8 @@
         "hideComponent": "Ocultar componente",
         "backToComponents": "Voltar aos componentes",
         "toBack": "Para o verso",
-        "toFront": "Para a frente"
+        "toFront": "Para a frente",
+        "livePreviews": "Pré-visualizações ao vivo"
       },
       "status": {
         "added": "Adicionados",
@@ -441,7 +451,23 @@
       "importPlayersExcel": "Utilize a nossa folha Excel pré-preparada para importar facilmente muitos jogadores de uma só vez.",
       "exportPlayers": "Exportar",
       "avatar": "Avatar",
-      "setAsCoach": "Definir como treinador"
+      "setAsCoach": "Definir como treinador",
+      "addPerson": "Adicionar pessoa",
+      "name": "Nome",
+      "secondName": "Segundo nome",
+      "importPeopleTitle": "Importar pessoas",
+      "importPeopleExcel": "Utilize uma folha Excel de pessoas do Studio exportada a partir deste separador para importar muitas pessoas de uma só vez.",
+      "picture": "Imagem",
+      "personImageInfo": "Imagem a utilizar para pessoas",
+      "socialLinks": {
+        "title": "Ligações sociais",
+        "instagram": "Instagram",
+        "x": "X",
+        "youtube": "YouTube",
+        "twitch": "Twitch",
+        "kick": "Kick",
+        "linkedin": "LinkedIn"
+      }
     },
     "teams": {
       "edit": "Editar uma equipa",
@@ -458,7 +484,8 @@
       "header": "Em direto",
       "noGame": "Nenhum jogo está atualmente em direto.",
       "tipNoOrder": "Jogadores atualmente em jogo, clique para adicionar um jogador à lista de jogadores.",
-      "tip": "Jogadores atualmente em jogo, clique para adicionar um jogador à lista de jogadores e arraste e solte para alterar a ordem dos jogadores nas suas equipas."
+      "tip": "Jogadores atualmente em jogo, clique para adicionar um jogador à lista de jogadores e arraste e solte para alterar a ordem dos jogadores nas suas equipas.",
+      "noGameDescription": "Os dados do jogo ao vivo de {{game}} aparecerão aqui automaticamente quando forem detetados."
     },
     "cameras": {
       "generatePassword": "Gerar palavra-passe",
@@ -488,7 +515,10 @@
         "lol-mr-1": "O Addon Avançado torna possível ler muito mais dados graças à leitura de memória. A leitura de memória pode ser tratada como uma batota, embora tais ferramentas existam há anos e a Riot não se refira a elas e não tenhamos ouvido falar de casos de espectadores que tenham sido banidos por isso. No entanto, usas o League of Legends Advanced Addon por tua conta e risco.",
         "lol-mr-2": "Não uses o LoL Advanced Addon durante o jogo normal, ele só é usado para espectar o jogo!"
       },
-      "nodejsWarning": "É necessário instalar o NodeJS e o NPM para a maioria dos addons"
+      "nodejsWarning": "É necessário instalar o NodeJS e o NPM para a maioria dos addons",
+      "addon": "Addon",
+      "actions": "Ações",
+      "emptyList": "Nenhum addon disponível."
     },
     "navbar": {
       "huds": "HUDs",
@@ -508,7 +538,9 @@
       "validUntil": "Válido até",
       "nextPayment": "Próximo pagamento",
       "logout": "Sair do sistema",
-      "arg": "Replays"
+      "arg": "Replays",
+      "overlays": "Overlays",
+      "people": "Pessoas"
     },
     "signals": {
       "removal": {
@@ -547,7 +579,8 @@
         "side": "Lado:",
         "teamAny": "Equipa: Qualquer",
         "playerAny": "Jogador: Qualquer"
-      }
+      },
+      "emptyList": "Ainda não há eventos. Adicione o seu primeiro evento."
     },
     "quick": {
       "uploadImage": "Carregar imagem",
@@ -698,7 +731,8 @@
       "reversedSides": "Lados invertidos",
       "mapList": "Lista de mapas",
       "generateGet5Config": "Gerar Get5 Config",
-      "emptyList": "Sem partidas ainda. Crie sua primeira partida."
+      "emptyList": "Sem partidas ainda. Crie sua primeira partida.",
+      "bestOf": "Melhor de"
     },
     "credits": {
       "header": "Créditos",
@@ -721,7 +755,8 @@
       "priority": {
         "multi": "Dar prioridade a várias mortes",
         "headshots": "Dar prioridade a tiros na cabeça",
-        "teamkills": "Dar prioridade a mortes em equipa"
+        "teamkills": "Dar prioridade a mortes em equipa",
+        "label": "Prioridade"
       },
       "mixer": {
         "label": "Misturador",
@@ -735,7 +770,8 @@
         "port": "Porta",
         "password": "Palavra-passe",
         "disconnect": "Desconectar",
-        "switchInputs": "Interruptor de entrada automática"
+        "switchInputs": "Interruptor de entrada automática",
+        "chooseReplayInput": "Escolha a entrada de repetição"
       },
       "replay": {
         "replayModeTitle": "Modo de repetição",
@@ -775,7 +811,36 @@
         "connectionRejected": {
           "title": "Conexão de replay rejeitada",
           "workspaceMismatch": "Um usuário do workspace {{workspaceName}} tentou se conectar a este PC."
-        }
+        },
+        "currentMode": "Modo atual",
+        "openReplayFeedClipsLocation": "Abrir localização dos clips Replay Feed"
+      },
+      "saveClipsDescription": "Manter os clips de repetição gerados após a reprodução",
+      "replayMachineCode": "Código da máquina de repetição",
+      "connected": "Ligado",
+      "disconnected": "Desligado",
+      "timing": "Temporização",
+      "delay": "Atraso",
+      "clockDifference": "Diferença do relógio: {{value}} ms",
+      "userGuide": "Guia do utilizador",
+      "learnMoreNdi": "Saiba mais sobre NDI",
+      "sections": {
+        "connection": "Ligação",
+        "configuration": "Configuração da repetição",
+        "output": "Saída"
+      },
+      "units": {
+        "seconds": "segundos",
+        "milliseconds": "milissegundos"
+      },
+      "obsStatus": {
+        "label": "Configuração OBS",
+        "ready": "Pronto",
+        "manualSelection": "Pronto com seleção manual da fonte",
+        "missingNdi": "Suporte de Fonte NDI em falta",
+        "notConnected": "Não ligado",
+        "unknown": "Desconhecido",
+        "manualSelectionHelp": "No OBS, abra as propriedades de LHM Replay Input e selecione a fonte que termina com LHM Replay Feed."
       }
     },
     "settings": {
@@ -823,7 +888,15 @@
       "subheaders": {
         "lhm": "LHM",
         "cloud": "Nuvem LHM",
-        "additional": "Adicional"
+        "additional": "Adicional",
+        "studio": "Studio",
+        "general": "Geral",
+        "applicationDevices": "Aplicação e dispositivos",
+        "currentGame": "Jogo atual",
+        "cloudSynchronization": "Nuvem e sincronização",
+        "studioBroadcast": "Studio e transmissão",
+        "advancedApi": "Avançado e API",
+        "helpAbout": "Ajuda e sobre"
       },
       "f1": {
         "add": "Adicionar integração",
@@ -904,7 +977,10 @@
           "refreshHud": "Atualizar HUD",
           "toggleDirector": "Alternar Visão do Scout",
           "toggleScoutPredict": "Alternar Scout Predict",
-          "toggleScoutCinematic": "Alternar Scout Cinematic"
+          "toggleScoutCinematic": "Alternar Scout Cinematic",
+          "setScoutFollowCT": "Scout segue CT",
+          "setScoutFollowDefault": "Scout segue predefinição",
+          "setScoutFollowT": "Scout segue T"
         },
         "streamDeck": {
           "unavailable": "Indisponível"
@@ -962,6 +1038,68 @@
         "generateToken": "Gerar",
         "regenerateToken": "Gerar novamente",
         "copyToken": "Copiar"
+      },
+      "desktopAuth": {
+        "finishInBrowser": "Termina de iniciar sesión en tu navegador. Si se solicita un código, introduce:",
+        "codeExpiresAt": "Este código caduca a las {{time}}.",
+        "openVerificationUrl": "Abre {{url}} e introduce este código.",
+        "browserSignInState": "El inicio de sesión en el navegador fue {{state}}.",
+        "browserSignInUnavailable": "El inicio de sesión en el navegador no está disponible ({{code}}).",
+        "errors": {
+          "connectivity": "No se puede acceder al servicio de inicio de sesión. Comprueba tu conexión a internet y cualquier VPN, e inténtalo de nuevo.",
+          "server": "El servicio de inicio de sesión tiene un problema temporal. Inténtalo de nuevo en unos minutos.",
+          "unavailable": "El inicio de sesión en el navegador no está disponible en esta versión de LHM o del servidor. Aún puedes iniciar sesión con correo electrónico y contraseña.",
+          "unexpectedResponse": "El servicio de inicio de sesión devolvió una respuesta inesperada. Inténtalo de nuevo o contacta con soporte si el problema continúa.",
+          "rateLimited": "Demasiados intentos de inicio de sesión. Espera un momento e inténtalo de nuevo.",
+          "unsupportedVersion": "Esta versión de LHM no admite inicio de sesión en el navegador. Actualiza LHM e inténtalo de nuevo.",
+          "transactionUnavailable": "Tu sesión de inicio de sesión en el navegador caducó o no se pudo encontrar. Inicia de nuevo el acceso con navegador.",
+          "generic": "No se pudo completar el inicio de sesión en el navegador. Inténtalo de nuevo."
+        },
+        "technicalCode": "Código técnico: {{code}}",
+        "tosRequired": "Acepta los Términos de Servicio actualizados en LHM.gg y vuelve a intentar iniciar sesión.",
+        "reviewTerms": "Revisar Términos de Servicio",
+        "cancelBrowserSignIn": "Cancelar inicio de sesión en el navegador",
+        "signInWithBrowser": "Iniciar sesión con el navegador",
+        "retry": "Intentar de nuevo"
+      },
+      "leagueOfLegendsServerMode": "Modo de recopilación de datos",
+      "showStudioDataInOtherGames": "Mostrar datos de Studio en otros juegos",
+      "autoSwitchStatus": {
+        "AUTO_SWITCH_DISABLED": "A troca automática está desligada.",
+        "WAITING_FOR_LIVE_DATA": "A aguardar dados do jogo ao vivo.",
+        "NOT_CURRENT_GAME": "Selecione primeiro este jogo no LHM.",
+        "THROTTLED": "A verificar novamente em breve.",
+        "MISSING_LIVE_TEAM_IDS": "Nenhuma equipa selecionada no jogo atual.",
+        "NO_SIDE_PLAYERS": "A aguardar jogadores de ambos os lados.",
+        "NO_CURRENT_MATCH": "Selecione primeiro um jogo atual.",
+        "MULTITEAM_MATCH": "A troca automática não está disponível para jogos multiequipa.",
+        "CURRENT_MAP_NOT_FOUND": "O mapa atual não corresponde a nenhum mapa de veto.",
+        "NO_MATCHED_PLAYERS": "Nenhum jogador correspondente encontrado por SteamID.",
+        "LOW_CONFIDENCE": "Não há jogadores conhecidos suficientes em lados opostos.",
+        "READY": "Pronto. Irá trocar quando os lados dos jogadores parecerem invertidos.",
+        "SWITCHING": "A trocar lados...",
+        "SWITCHED": "Os lados foram trocados recentemente.",
+        "HALFTIME_SWITCHED": "Os lados foram trocados para o intervalo.",
+        "REVERSE_SIDE_FAILED": "A troca automática tentou trocar os lados, mas o estado do jogo bloqueou-a.",
+        "ERROR": "A troca automática encontrou um erro. Reinicie o LHM se isto persistir."
+      },
+      "saveRequired": "Guardado requerido",
+      "subgroups": {
+        "configuration": "Configuración",
+        "setupStatus": "Configuração e estado"
+      },
+      "studio": {
+        "sceneCollections": "Coleções de cenas",
+        "downloadOBS": "Descarregar coleção OBS",
+        "downloadVMix": "Descarregar coleção vMix"
+      },
+      "streamDeck": {
+        "integration": "Integração Stream Deck",
+        "connected": "Ligado",
+        "disconnected": "Desligado",
+        "lastSeen": "Visto pela última vez: {{time}}",
+        "neverConnected": "Ainda não foi recebido heartbeat",
+        "pluginVersion": "Plugin v{{version}}"
       }
     },
     "ar": {
@@ -998,7 +1136,13 @@
         "more": "Mais",
         "hlaeIsRequired": "Tens de ter o CS:GO a correr com o HLAE",
         "proOrEntrpriseIsRequired": "Tem de ter um plano Professional ou Enterprise",
-        "hlaeAndHigherPlanIsRequired": "Tem de ter o CS:GO a funcionar com HLAE e um plano Profissional ou Empresarial"
+        "hlaeAndHigherPlanIsRequired": "Tem de ter o CS:GO a funcionar com HLAE e um plano Profissional ou Empresarial",
+        "advanced": "Avançado",
+        "customLaunchParameters": "Parâmetros de arranque personalizados",
+        "testData": "Dados de teste",
+        "addOverlay": "Adicionar overlay",
+        "openOverlaysDirectory": "Abrir diretório de overlays",
+        "showStudioPeopleEntries": "Mostrar entradas de pessoas do Studio"
       },
       "sort": {
         "custom": "Personalizado",
@@ -1011,7 +1155,8 @@
         "deleteTitle": "Eliminar categoria {{name}}",
         "name": "Nome da categoria",
         "ungrouped": "Sem agrupar",
-        "deleteInfo": "Tem certeza de que deseja remover a categoria {{name}}? Esta ação não removerá nenhum HUD."
+        "deleteInfo": "Tem certeza de que deseja remover a categoria {{name}}? Esta ação não removerá nenhum HUD.",
+        "studioOverlays": "Overlays do Studio"
       },
       "fields": {
         "missing": "Campos em falta",
@@ -1054,7 +1199,16 @@
         "clickToCopy": "Clicar para copiar",
         "linkCopied": "Link copiado para a área de transferência",
         "openingOverlay": "Abrindo HUD na sobreposição...",
-        "createShortcut": "Criar atalho no ambiente de trabalho"
+        "createShortcut": "Criar atalho no ambiente de trabalho",
+        "toggleOverlayUrl": "Alternar URL do overlay",
+        "overlaySettings": "Ir para as definições do overlay",
+        "startOverlay": "Iniciar overlay",
+        "deleteOverlayLocally": "Eliminar overlay localmente",
+        "deleteOverlayFromCloud": "Eliminar overlay da nuvem",
+        "toggleOverlayKeybinds": "Alternar teclas do overlay (para fonte do navegador)",
+        "copyLink": "Copiar ligação",
+        "variants": "Variantes",
+        "keybind": "Tecla de atalho"
       },
       "share": {
         "actions": {
@@ -1075,7 +1229,10 @@
             "never": "Sem data de expiração"
           },
           "customExpiryWarning": "Após a data de expiração selecionada, o HUD pode permanecer disponível por até uma hora.",
-          "submit": "Enviar convite"
+          "submit": "Enviar convite",
+          "overlayTitle": "Partilhar overlay",
+          "overlayDescription": "Enviar este overlay para outro utilizador por e-mail.",
+          "overlayWorkspaceOwnerDisclaimer": "Este overlay pertenece al espacio de trabajo \"{{workspace}}\". Como no eres el propietario del espacio de trabajo, la invitación se enviará en nombre de la cuenta principal Enterprise."
         },
         "pending": {
           "title": "Convites pendentes de partilha de HUD",
@@ -1128,7 +1285,23 @@
         "generic": "Algo correu mal. Tenta novamente mais tarde.",
         "archive": "O LHM não foi capaz de ler o ficheiro de arquivo.",
         "source": "Parece que está a carregar o código fonte, em vez do HUD compilado. Por favor, compile o HUD antes de fazer o upload.",
-        "space": "Não tem espaço suficiente na nuvem no espaço de trabalho que está a utilizar. Actualize o seu plano ou elimine alguns dos seus recursos da nuvem."
+        "space": "Não tem espaço suficiente na nuvem no espaço de trabalho que está a utilizar. Actualize o seu plano ou elimine alguns dos seus recursos da nuvem.",
+        "overlayTitle": "Não foi possível adicionar overlay",
+        "overlayConfig": "O LHM não conseguiu ler o ficheiro de configuração do overlay.",
+        "overlayUpload": "O LHM não conseguiu carregar o overlay para a nuvem. Tente novamente mais tarde."
+      },
+      "settings": {
+        "title": "{{name}} - Definições",
+        "sections": "Secções das definições do HUD",
+        "saveError": "Não foi possível guardar as definições do HUD."
+      },
+      "discover": {
+        "title": "Descobrir"
+      },
+      "views": {
+        "label": "Layout do HUD",
+        "grid": "Grelha",
+        "list": "Lista"
       }
     },
     "app": {
@@ -1404,6 +1577,10 @@
         "slowMode": {
           "title": "Modo Lento",
           "info": "O Modo Lento envia solicitações de API por meio de uma fila para reduzir o tráfego de pico. Isso pode ser útil em ambientes com firewalls restritivos em todo o país.\nReinicie o LHM após alterar este valor para que a alteração entre em vigor."
+        },
+        "showStudioDataInOtherGames": {
+          "title": "Mostrar datos de Studio en otros juegos",
+          "info": "Utilize equipas, jogadores e pessoas do Studio ao trabalhar com jogos que não têm a sua própria base de dados."
         }
       }
     },
@@ -1426,7 +1603,9 @@
         "single": {
           "titleTournament": "Eliminar torneio {{name}}",
           "infoTournament": "Tem a certeza que quer remover o torneio {{name}}?"
-        }
+        },
+        "titlePeople": "Eliminar pessoas",
+        "infoPeople": "Tem a certeza de que pretende eliminar todas as pessoas?"
       },
       "steamApiKeyMissing": {
         "title": "Chave API do Steam em falta",
@@ -1456,7 +1635,9 @@
       "noUploadedResources": "Parece que ainda não fizeste o upload para a nuvem. Pode carregar a sua base de dados atual ou desativar a sincronização nesta máquina",
       "noSyncLocal": "A sua base de dados local não está sincronizada com o armazenamento na nuvem. Pode transferir ou carregar a base de dados ou desativar a sincronização. Tenha em atenção que o download irá remover o que tem atualmente neste PC e o upload irá APAGAR o conteúdo do armazenamento na nuvem. O que é que pretende fazer?",
       "error": "Houve um erro, por isso, para evitar a perda de dados, desactivámos a sincronização",
-      "modalTitle": "Sincronização"
+      "modalTitle": "Sincronização",
+      "studioOnlyConflict": "As alterações apenas do Studio entram em conflito com os dados atuais.",
+      "currentAndStudioConflict": "Os dados atuais e do Studio entram em conflito."
     },
     "workspaces": {
       "pickModalTitle": "Escolhe o teu espaço de trabalho",
@@ -1488,6 +1669,41 @@
         "title": "Guia do utilizador",
         "description": "Consulte o nosso Guia do Utilizador para saber mais sobre cada um dos componentes do LHM. Encontrará descrições, instruções para configurar e utilizar todas as funcionalidades e respostas às perguntas mais comuns. Se tiver outras questões, junte-se ao [[nosso Discord|discord]]."
       }
+    },
+    "unsavedNavigation": {
+      "title": "Descartar alterações não guardadas?",
+      "message": "Tem alterações não guardadas. Descartá-las e continuar?",
+      "stay": "Continuar a editar",
+      "discard": "Descartar alterações"
+    },
+    "profile": {
+      "manageAccount": "Gerir conta",
+      "username": "Nome de utilizador",
+      "currentWorkspace": "Espaço de trabalho atual",
+      "role": "Função",
+      "owner": "Proprietário",
+      "member": "Membro",
+      "planStatusLabel": "Estado do plano",
+      "workspaceSeats": "Lugares do espaço de trabalho",
+      "planSeats": "Lugares do plano",
+      "planStatus": {
+        "active": "Ativo",
+        "canceled": "Cancelado",
+        "past_due": "Em atraso",
+        "ended": "Terminado",
+        "inactive": "Inativo",
+        "unknown": "Desconhecido"
+      }
+    },
+    "keybinds": {
+      "title": "Configurar teclas de atalho",
+      "global": "Teclas de atalho globais",
+      "pressKeys": "Prima teclas...",
+      "overlap": "Tecla de atalho sobreposta",
+      "overlapSummary": "Tem teclas de atalho sobrepostas.",
+      "recording": "A gravar tecla de atalho",
+      "resetToDefault": "Repor predefinição",
+      "saveError": "Não foi possível guardar a tecla de atalho."
     }
   }
 }

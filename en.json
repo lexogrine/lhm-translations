@@ -836,6 +836,7 @@
         "replayModeContent": "This computer is the replay machine. Replay configuration is controlled from Replays on the main PC.",
         "currentMode": "Current mode",
         "installObsNdiPlugin": "Install OBS NDI Plugin",
+        "openReplayFeedClipsLocation": "Open Replay Feed clips location",
         "thisPcCode": "This PC code",
         "chooseYourMixer": "Choose your mixer",
         "noInput": "No input",

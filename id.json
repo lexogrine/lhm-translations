@@ -96,7 +96,11 @@
       "decline": "Menolak",
       "downloadTemplate": "Unduh template",
       "clickAndCopy": "Klik & Salin",
-      "swap": "Tukar"
+      "swap": "Tukar",
+      "people": "Orang",
+      "overlays": "Overlays",
+      "person": "Orang",
+      "copied": "Disalin"
     },
     "chat": {
       "title": "Obrolan Dukungan",
@@ -172,7 +176,9 @@
       "quick": "Quick",
       "chat": "Obrolan Dukungan",
       "composer": "Composer",
-      "xray": "X-Ray"
+      "xray": "X-Ray",
+      "people": "Orang",
+      "overlays": "Overlays"
     },
     "aco": {
       "disabled": "Dinonaktifkan",
@@ -242,7 +248,10 @@
         "label": "Aksi Sinematik"
       },
       "scoutPausedTip": "Scout AI dijeda karena tidak ada permainan berjalan yang terdeteksi.",
-      "xrayWarning": "Agar X-Ray berfungsi dengan benar, CS2 harus diluncurkan dengan opsi Scout/X-Ray diaktifkan."
+      "xrayWarning": "Agar X-Ray berfungsi dengan benar, CS2 harus diluncurkan dengan opsi Scout/X-Ray diaktifkan.",
+      "scoutFollowSide": {
+        "label": "Ikuti sisi"
+      }
     },
     "composer": {
       "componentsSubtitle": "Pratinjau komponen HUD",
@@ -322,7 +331,8 @@
         "hideComponent": "Sembunyikan komponen",
         "backToComponents": "Kembali ke Komponen",
         "toBack": "Ke Belakang",
-        "toFront": "Ke Depan"
+        "toFront": "Ke Depan",
+        "livePreviews": "Pratinjau langsung"
       },
       "status": {
         "added": "Ditambahkan",
@@ -441,7 +451,23 @@
       "importPlayersExcel": "Gunakan lembar Excel yang telah disiapkan untuk mengimpor banyak pemain sekaligus dengan mudah.",
       "exportPlayers": "Ekspor",
       "avatar": "Avatar",
-      "setAsCoach": "Tetapkan sebagai pelatih"
+      "setAsCoach": "Tetapkan sebagai pelatih",
+      "addPerson": "Tambah orang",
+      "name": "Nama",
+      "secondName": "Nama kedua",
+      "importPeopleTitle": "Impor orang",
+      "importPeopleExcel": "Gunakan lembar Excel orang Studio yang diekspor dari tab ini untuk mengimpor banyak orang sekaligus.",
+      "picture": "Gambar",
+      "personImageInfo": "Gambar yang akan digunakan untuk orang",
+      "socialLinks": {
+        "title": "Tautan sosial",
+        "instagram": "Instagram",
+        "x": "X",
+        "youtube": "YouTube",
+        "twitch": "Twitch",
+        "kick": "Kick",
+        "linkedin": "LinkedIn"
+      }
     },
     "teams": {
       "edit": "Mengedit tim",
@@ -458,7 +484,8 @@
       "header": "Live",
       "noGame": "Tidak ada permainan yang sedang ditayangkan.",
       "tipNoOrder": "Pemain yang sedang bertanding, klik untuk menambahkan pemain ke daftar pemain.",
-      "tip": "Pemain yang sedang bertanding, klik untuk menambahkan pemain ke daftar pemain, lalu seret dan lepas untuk mengubah urutan pemain di tim mereka."
+      "tip": "Pemain yang sedang bertanding, klik untuk menambahkan pemain ke daftar pemain, lalu seret dan lepas untuk mengubah urutan pemain di tim mereka.",
+      "noGameDescription": "Data pertandingan langsung untuk {{game}} akan muncul di sini secara otomatis saat terdeteksi."
     },
     "cameras": {
       "generatePassword": "Buat kata sandi",
@@ -488,7 +515,10 @@
         "lol-mr-1": "Addon Lanjutan memungkinkan untuk membaca lebih banyak data berkat pembacaan memori. Pembacaan memori dapat dianggap sebagai cheat, sementara alat semacam itu telah ada selama bertahun-tahun dan Riot tidak mengacu pada mereka dan kami belum pernah mendengar kasus penonton yang dilarang karena hal ini. Namun demikian, Anda menggunakan League of Legends Advanced Addon dengan risiko Anda sendiri.",
         "lol-mr-2": "Jangan gunakan LoL Advanced Addon selama permainan normal, ini hanya digunakan untuk menonton permainan!"
       },
-      "nodejsWarning": "NodeJS dan NPM harus diinstal untuk sebagian besar addon"
+      "nodejsWarning": "NodeJS dan NPM harus diinstal untuk sebagian besar addon",
+      "addon": "Addon",
+      "actions": "Tindakan",
+      "emptyList": "Tidak ada addon yang tersedia."
     },
     "navbar": {
       "huds": "HUD",
@@ -508,7 +538,9 @@
       "validUntil": "Berlaku hingga",
       "nextPayment": "Pembayaran berikutnya",
       "logout": "Keluar",
-      "arg": "Replays"
+      "arg": "Replays",
+      "overlays": "Overlays",
+      "people": "Orang"
     },
     "signals": {
       "removal": {
@@ -547,7 +579,8 @@
         "side": "Samping:",
         "teamAny": "Tim: Apa saja",
         "playerAny": "Pemain Apa saja"
-      }
+      },
+      "emptyList": "Belum ada event. Tambahkan event pertama Anda."
     },
     "quick": {
       "uploadImage": "Unggah gambar",
@@ -698,7 +731,8 @@
       "reversedSides": "Sisi terbalik",
       "mapList": "Daftar peta",
       "generateGet5Config": "Menghasilkan Konfigurasi Get5",
-      "emptyList": "Belum ada pertandingan. Buat pertandingan pertamamu."
+      "emptyList": "Belum ada pertandingan. Buat pertandingan pertamamu.",
+      "bestOf": "Best of"
     },
     "credits": {
       "header": "Kredit",
@@ -721,7 +755,8 @@
       "priority": {
         "multi": "Memprioritaskan beberapa pembunuhan",
         "headshots": "Memprioritaskan tembakan ke kepala",
-        "teamkills": "Memprioritaskan pembunuhan tim"
+        "teamkills": "Memprioritaskan pembunuhan tim",
+        "label": "Prioritas"
       },
       "mixer": {
         "label": "Pengaduk",
@@ -735,7 +770,8 @@
         "port": "Port",
         "password": "Kata sandi",
         "disconnect": "Putuskan sambungan",
-        "switchInputs": "Sakelar Input Otomatis"
+        "switchInputs": "Sakelar Input Otomatis",
+        "chooseReplayInput": "Pilih input replay"
       },
       "replay": {
         "replayModeTitle": "Mode Putar Ulang",
@@ -775,7 +811,36 @@
         "connectionRejected": {
           "title": "Koneksi Replay ditolak",
           "workspaceMismatch": "Pengguna dari workspace {{workspaceName}} mencoba terhubung ke PC ini."
-        }
+        },
+        "currentMode": "Mode saat ini",
+        "openReplayFeedClipsLocation": "Buka lokasi klip Replay Feed"
+      },
+      "saveClipsDescription": "Simpan klip replay yang dibuat setelah pemutaran",
+      "replayMachineCode": "Kode mesin replay",
+      "connected": "Terhubung",
+      "disconnected": "Terputus",
+      "timing": "Timing",
+      "delay": "Penundaan",
+      "clockDifference": "Perbedaan jam: {{value}} ms",
+      "userGuide": "Panduan Pengguna",
+      "learnMoreNdi": "Pelajari lebih lanjut tentang NDI",
+      "sections": {
+        "connection": "Koneksi",
+        "configuration": "Konfigurasi replay",
+        "output": "Output"
+      },
+      "units": {
+        "seconds": "detik",
+        "milliseconds": "milidetik"
+      },
+      "obsStatus": {
+        "label": "Penyiapan OBS",
+        "ready": "Siap",
+        "manualSelection": "Siap dengan pemilihan sumber manual",
+        "missingNdi": "Dukungan Sumber NDI tidak ada",
+        "notConnected": "Tidak terhubung",
+        "unknown": "Tidak diketahui",
+        "manualSelectionHelp": "Di OBS, buka properti LHM Replay Input dan pilih sumber yang berakhiran LHM Replay Feed."
       }
     },
     "settings": {
@@ -823,7 +888,15 @@
       "subheaders": {
         "lhm": "LHM",
         "cloud": "LHM Cloud",
-        "additional": "Tambahan"
+        "additional": "Tambahan",
+        "studio": "Studio",
+        "general": "Umum",
+        "applicationDevices": "Aplikasi & Perangkat",
+        "currentGame": "Game Saat Ini",
+        "cloudSynchronization": "Cloud & Sinkronisasi",
+        "studioBroadcast": "Studio & Siaran",
+        "advancedApi": "Lanjutan & API",
+        "helpAbout": "Bantuan & Tentang"
       },
       "f1": {
         "add": "Tambahkan integrasi",
@@ -904,7 +977,10 @@
           "refreshHud": "Refresh HUD",
           "toggleDirector": "Alihkan Scout Vision",
           "toggleScoutPredict": "Beralih Scout Predict",
-          "toggleScoutCinematic": "Beralih Scout Cinematic"
+          "toggleScoutCinematic": "Beralih Scout Cinematic",
+          "setScoutFollowCT": "Scout Ikuti CT",
+          "setScoutFollowDefault": "Scout Ikuti Default",
+          "setScoutFollowT": "Scout Ikuti T"
         },
         "streamDeck": {
           "unavailable": "Tidak tersedia"
@@ -962,6 +1038,68 @@
         "generateToken": "Buat",
         "regenerateToken": "Buat ulang",
         "copyToken": "Salin"
+      },
+      "desktopAuth": {
+        "finishInBrowser": "Termina de iniciar sesión en tu navegador. Si se solicita un código, introduce:",
+        "codeExpiresAt": "Este código caduca a las {{time}}.",
+        "openVerificationUrl": "Abre {{url}} e introduce este código.",
+        "browserSignInState": "El inicio de sesión en el navegador fue {{state}}.",
+        "browserSignInUnavailable": "El inicio de sesión en el navegador no está disponible ({{code}}).",
+        "errors": {
+          "connectivity": "No se puede acceder al servicio de inicio de sesión. Comprueba tu conexión a internet y cualquier VPN, e inténtalo de nuevo.",
+          "server": "El servicio de inicio de sesión tiene un problema temporal. Inténtalo de nuevo en unos minutos.",
+          "unavailable": "El inicio de sesión en el navegador no está disponible en esta versión de LHM o del servidor. Aún puedes iniciar sesión con correo electrónico y contraseña.",
+          "unexpectedResponse": "El servicio de inicio de sesión devolvió una respuesta inesperada. Inténtalo de nuevo o contacta con soporte si el problema continúa.",
+          "rateLimited": "Demasiados intentos de inicio de sesión. Espera un momento e inténtalo de nuevo.",
+          "unsupportedVersion": "Esta versión de LHM no admite inicio de sesión en el navegador. Actualiza LHM e inténtalo de nuevo.",
+          "transactionUnavailable": "Tu sesión de inicio de sesión en el navegador caducó o no se pudo encontrar. Inicia de nuevo el acceso con navegador.",
+          "generic": "No se pudo completar el inicio de sesión en el navegador. Inténtalo de nuevo."
+        },
+        "technicalCode": "Código técnico: {{code}}",
+        "tosRequired": "Acepta los Términos de Servicio actualizados en LHM.gg y vuelve a intentar iniciar sesión.",
+        "reviewTerms": "Revisar Términos de Servicio",
+        "cancelBrowserSignIn": "Cancelar inicio de sesión en el navegador",
+        "signInWithBrowser": "Iniciar sesión con el navegador",
+        "retry": "Intentar de nuevo"
+      },
+      "leagueOfLegendsServerMode": "Modo de recopilación de datos",
+      "showStudioDataInOtherGames": "Mostrar datos de Studio en otros juegos",
+      "autoSwitchStatus": {
+        "AUTO_SWITCH_DISABLED": "Auto-Switch mati.",
+        "WAITING_FOR_LIVE_DATA": "Menunggu data game langsung.",
+        "NOT_CURRENT_GAME": "Pilih game ini di LHM terlebih dahulu.",
+        "THROTTLED": "Akan memeriksa lagi sebentar lagi.",
+        "MISSING_LIVE_TEAM_IDS": "Tidak ada tim yang dipilih dalam pertandingan saat ini.",
+        "NO_SIDE_PLAYERS": "Menunggu pemain di kedua sisi.",
+        "NO_CURRENT_MATCH": "Pilih pertandingan saat ini terlebih dahulu.",
+        "MULTITEAM_MATCH": "Auto-Switch tidak tersedia untuk pertandingan multi-tim.",
+        "CURRENT_MAP_NOT_FOUND": "Peta saat ini tidak cocok dengan peta veto mana pun.",
+        "NO_MATCHED_PLAYERS": "Tidak ditemukan pemain yang cocok berdasarkan SteamID.",
+        "LOW_CONFIDENCE": "Tidak cukup pemain yang dikenal berada di sisi berlawanan.",
+        "READY": "Siap. Akan beralih saat sisi pemain terlihat terbalik.",
+        "SWITCHING": "Mengalihkan sisi...",
+        "SWITCHED": "Sisi baru saja dialihkan.",
+        "HALFTIME_SWITCHED": "Sisi dialihkan untuk paruh waktu.",
+        "REVERSE_SIDE_FAILED": "Auto-Switch mencoba mengalihkan sisi, tetapi status pertandingan memblokirnya.",
+        "ERROR": "Auto-Switch mengalami error. Mulai ulang LHM jika ini berlanjut."
+      },
+      "saveRequired": "Guardado requerido",
+      "subgroups": {
+        "configuration": "Configuración",
+        "setupStatus": "Penyiapan & Status"
+      },
+      "studio": {
+        "sceneCollections": "Koleksi Scene",
+        "downloadOBS": "Unduh Koleksi OBS",
+        "downloadVMix": "Unduh Koleksi vMix"
+      },
+      "streamDeck": {
+        "integration": "Integrasi Stream Deck",
+        "connected": "Terhubung",
+        "disconnected": "Terputus",
+        "lastSeen": "Terakhir terlihat: {{time}}",
+        "neverConnected": "Belum ada heartbeat diterima",
+        "pluginVersion": "Plugin v{{version}}"
       }
     },
     "ar": {
@@ -998,7 +1136,13 @@
         "more": "Lainnya",
         "hlaeIsRequired": "Anda harus menjalankan CS:GO dengan HLAE",
         "proOrEntrpriseIsRequired": "Anda harus memiliki paket Profesional atau Enterprise",
-        "hlaeAndHigherPlanIsRequired": "Anda harus memiliki CS:GO yang berjalan dengan HLAE dan paket Profesional atau Enterprise"
+        "hlaeAndHigherPlanIsRequired": "Anda harus memiliki CS:GO yang berjalan dengan HLAE dan paket Profesional atau Enterprise",
+        "advanced": "Lanjutan",
+        "customLaunchParameters": "Parameter peluncuran kustom",
+        "testData": "Data uji",
+        "addOverlay": "Tambah Overlay",
+        "openOverlaysDirectory": "Buka direktori overlay",
+        "showStudioPeopleEntries": "Tampilkan entri orang Studio"
       },
       "sort": {
         "custom": "Adat",
@@ -1011,7 +1155,8 @@
         "deleteTitle": "Hapus kategori {{name}}",
         "name": "Nama kategori",
         "ungrouped": "Tidak dikelompokkan",
-        "deleteInfo": "Apakah Anda yakin ingin menghapus kategori {{name}}? Tindakan ini tidak akan menghapus HUD apa pun."
+        "deleteInfo": "Apakah Anda yakin ingin menghapus kategori {{name}}? Tindakan ini tidak akan menghapus HUD apa pun.",
+        "studioOverlays": "Overlay Studio"
       },
       "fields": {
         "missing": "Bidang yang hilang",
@@ -1054,7 +1199,16 @@
         "clickToCopy": "Klik untuk menyalin",
         "linkCopied": "Tautan disalin ke papan klip",
         "openingOverlay": "Membuka HUD di overlay...",
-        "createShortcut": "Membuat pintasan di desktop"
+        "createShortcut": "Membuat pintasan di desktop",
+        "toggleOverlayUrl": "Alihkan URL overlay",
+        "overlaySettings": "Buka pengaturan overlay",
+        "startOverlay": "Luncurkan overlay",
+        "deleteOverlayLocally": "Hapus overlay secara lokal",
+        "deleteOverlayFromCloud": "Hapus overlay dari cloud",
+        "toggleOverlayKeybinds": "Alihkan keybind overlay (untuk sumber browser)",
+        "copyLink": "Salin tautan",
+        "variants": "Varian",
+        "keybind": "Keybind"
       },
       "share": {
         "actions": {
@@ -1075,7 +1229,10 @@
             "never": "Tanpa kedaluwarsa"
           },
           "customExpiryWarning": "Setelah tanggal kedaluwarsa yang dipilih, HUD dapat tetap tersedia hingga satu jam.",
-          "submit": "Kirim undangan"
+          "submit": "Kirim undangan",
+          "overlayTitle": "Bagikan Overlay",
+          "overlayDescription": "Kirim overlay ini ke pengguna lain melalui email.",
+          "overlayWorkspaceOwnerDisclaimer": "Este overlay pertenece al espacio de trabajo \"{{workspace}}\". Como no eres el propietario del espacio de trabajo, la invitación se enviará en nombre de la cuenta principal Enterprise."
         },
         "pending": {
           "title": "Undangan berbagi HUD tertunda",
@@ -1128,7 +1285,23 @@
         "generic": "Terjadi kesalahan. Coba lagi nanti.",
         "archive": "LHM tidak dapat membaca file arsip.",
         "source": "Sepertinya Anda mengupload kode sumber, bukan HUD yang telah dikompilasi. Harap kompilasi HUD sebelum mengunggah.",
-        "space": "Anda tidak memiliki cukup Cloud Space di ruang kerja yang Anda gunakan. Harap tingkatkan paket Anda atau hapus beberapa sumber daya cloud Anda."
+        "space": "Anda tidak memiliki cukup Cloud Space di ruang kerja yang Anda gunakan. Harap tingkatkan paket Anda atau hapus beberapa sumber daya cloud Anda.",
+        "overlayTitle": "Tidak dapat menambahkan overlay",
+        "overlayConfig": "LHM tidak dapat membaca file konfigurasi overlay.",
+        "overlayUpload": "LHM tidak dapat mengunggah overlay ke cloud. Coba lagi nanti."
+      },
+      "settings": {
+        "title": "{{name}} - Pengaturan",
+        "sections": "Bagian pengaturan HUD",
+        "saveError": "Tidak dapat menyimpan pengaturan HUD."
+      },
+      "discover": {
+        "title": "Temukan"
+      },
+      "views": {
+        "label": "Tata letak HUD",
+        "grid": "Grid",
+        "list": "Daftar"
       }
     },
     "app": {
@@ -1404,6 +1577,10 @@
         "slowMode": {
           "title": "Mode Lambat",
           "info": "Mode Lambat mengirimkan permintaan API melalui antrean untuk mengurangi lalu lintas burst. Ini dapat membantu di lingkungan firewall tingkat negara yang ketat.\nMulai ulang LHM setelah mengubah nilai ini agar berlaku."
+        },
+        "showStudioDataInOtherGames": {
+          "title": "Mostrar datos de Studio en otros juegos",
+          "info": "Gunakan tim, pemain, dan orang Studio saat bekerja dengan game yang tidak memiliki database sendiri."
         }
       }
     },
@@ -1426,7 +1603,9 @@
         "single": {
           "titleTournament": "Hapus turnamen {{name}}",
           "infoTournament": "Apakah Anda yakin ingin menghapus turnamen {{name}}?"
-        }
+        },
+        "titlePeople": "Hapus orang",
+        "infoPeople": "Apakah Anda yakin ingin menghapus semua orang?"
       },
       "steamApiKeyMissing": {
         "title": "Kunci API Steam Hilang",
@@ -1456,7 +1635,9 @@
       "noUploadedResources": "Tampaknya Anda belum mengunggah ke cloud. Anda dapat mengunggah database Anda saat ini, atau menonaktifkan sinkronisasi pada mesin ini",
       "noSyncLocal": "Basis data lokal Anda tidak disinkronkan dengan penyimpanan cloud. Anda dapat mengunduh atau mengunggah database atau menonaktifkan sinkronisasi. Perlu diketahui, pengunduhan akan menghapus apa yang saat ini Anda miliki di PC ini, dan pengunggahan akan MENGHAPUS konten penyimpanan cloud. Apa yang ingin Anda lakukan?",
       "error": "Terjadi kesalahan, jadi untuk mencegah kehilangan data, kami menonaktifkan sinkronisasi",
-      "modalTitle": "Sinkronisasi"
+      "modalTitle": "Sinkronisasi",
+      "studioOnlyConflict": "Perubahan khusus Studio bertentangan dengan data saat ini.",
+      "currentAndStudioConflict": "Data saat ini dan data Studio bertentangan."
     },
     "workspaces": {
       "pickModalTitle": "Pilih ruang kerja Anda",
@@ -1488,6 +1669,41 @@
         "title": "Panduan pengguna",
         "description": "Lihat Panduan Pengguna kami untuk mempelajari lebih lanjut tentang setiap komponen LHM. Anda akan menemukan deskripsi, panduan konfigurasi dan penggunaan semua fitur, serta jawaban atas pertanyaan yang paling umum. Jika Anda memiliki pertanyaan tambahan, bergabunglah ke [[our Discord|discord]]."
       }
+    },
+    "unsavedNavigation": {
+      "title": "Buang perubahan yang belum disimpan?",
+      "message": "Anda memiliki perubahan yang belum disimpan. Buang perubahan dan lanjutkan?",
+      "stay": "Tetap mengedit",
+      "discard": "Buang perubahan"
+    },
+    "profile": {
+      "manageAccount": "Kelola akun",
+      "username": "Nama pengguna",
+      "currentWorkspace": "Workspace saat ini",
+      "role": "Peran",
+      "owner": "Pemilik",
+      "member": "Anggota",
+      "planStatusLabel": "Status paket",
+      "workspaceSeats": "Seat workspace",
+      "planSeats": "Seat paket",
+      "planStatus": {
+        "active": "Aktif",
+        "canceled": "Dibatalkan",
+        "past_due": "Lewat jatuh tempo",
+        "ended": "Berakhir",
+        "inactive": "Tidak aktif",
+        "unknown": "Tidak diketahui"
+      }
+    },
+    "keybinds": {
+      "title": "Konfigurasikan keybind",
+      "global": "Keybind global",
+      "pressKeys": "Tekan tombol...",
+      "overlap": "Keybind bertumpang tindih",
+      "overlapSummary": "Anda memiliki keybind yang bertumpang tindih.",
+      "recording": "Merekam keybind",
+      "resetToDefault": "Reset ke default",
+      "saveError": "Tidak dapat menyimpan keybind."
     }
   }
 }
