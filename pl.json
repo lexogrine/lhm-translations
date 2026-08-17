@@ -1222,7 +1222,9 @@
         "name": "Nazwa",
         "ungrouped": "Niepogrupowane",
         "deleteInfo": "Czy na pewno chcesz usunąć kategorię {{name}}? Ta czynność nie usunie żadnych HUD-ów.",
-        "studioOverlays": "Overlaye Studio"
+        "studioOverlays": "Overlaye Studio",
+        "noHUDs": "Brak HUD-ów",
+        "noOverlays": "Brak overlayów"
       },
       "fields": {
         "missing": "Brakujące pola",
@@ -1374,7 +1376,8 @@
         "leagueoflegends": "Zamów własny niestandardowy HUD dla LoL",
         "rocketleague": "Zamów własny niestandardowy HUD dla Rocket League",
         "apexlegends": "Zamów własny niestandardowy HUD dla Apex Legends",
-        "valorant": "Zamów własny niestandardowy HUD dla Valorant"
+        "valorant": "Zamów własny niestandardowy HUD dla Valorant",
+        "studio": "Zamów własną niestandardową nakładkę Studio"
       },
       "getAQuote": "Uzyskaj wycenę",
       "tryScoutAI": "Skorzystaj z naszego obserwatora AI i wielu prognoz meczów AI!",
@@ -1415,6 +1418,9 @@
             "cs2": "Counter-Strike 2 to nowy, świeży start. Ultra HUD to kompleksowa nakładka spełniająca potrzeby i styl, który przyniósł CS2. Szybka i łatwa konfiguracja Ultra HUD dostosuje się do twoich potrzeb i całkowicie ulepszy twoje wydarzenia. Twoja transmisja - podobnie jak Counter-Strike - jest gotowa na nową erę.\nUltra HUD jest dostępny dla wszystkich użytkowników Professional LHM Plan, a także Enterprise Plan z 3 lub więcej stanowiskami.",
             "dota2": "Na rynku nie było rozwiązania, które zapewniałoby dodatkowe informacje, wtapiało się w interfejs gry i było dostępne dla każdego z bardzo łatwą konfiguracją. Ultra HUD dla Dota 2 zmienił to wszystko. Zaawansowane wsparcie LHM dla Dota 2 w ciągu ostatnich kilku miesięcy pozwoliło nam ulepszyć wszystko, co do tej pory oferowaliśmy - tak powstał Ultra HUD.\nPierwszym i największym ulepszeniem, które zauważysz, jest wygląd HUD-a - od teraz jest on zarówno wszechstronny, jak i doskonale uzupełnia układ Dota 2, ale nie idzie na żadne kompromisy wizualne. To sprawia, że Ultra HUD jest idealnym rozwiązaniem dla każdego, niezależnie od własnego brandingu i oczekiwań. To po prostu prawie nowa część gry.",
             "leagueoflegends": "League of Legends Ultra HUD to kompleksowe rozwiązanie dla widzów i obserwatorów, oferujące najwyższą jakość wizualną wydarzenia e-sportowego League of Legends z łatwością LHM. Dostępny za pomocą zaledwie kilku kliknięć, z dedykowanymi nakładkami draftowymi, meczowymi i pomeczowymi, animacjami i niestandardowymi funkcjami."
+          },
+          "studio": {
+            "studio": "Twórz, personalizuj i obsługuj oprawę graficzną całego programu na żywo z poziomu jednego systemu.\n\nKorzystaj z gotowych układów dla jednej, dwóch lub czterech kamer, wielokrotnie używanych danych uczestników, lower thirds, grafik LIVE i NOW / NEXT, bloków sponsorskich, tickerów oraz ekranów oczekiwania i przerw. Zacznij od kompletnego Studio Overlay albo dodaj wybrane komponenty do istniejącej produkcji OBS Studio lub vMix."
           }
         },
         "scout": {
