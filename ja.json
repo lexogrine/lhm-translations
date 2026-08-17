@@ -498,6 +498,10 @@
       "testPlayer": "テストプレーヤー",
       "delay": "カメラ遅延（秒）",
       "cameraQuality": "カメラストリーム品質",
+      "searchPlayers": "プレイヤーを検索",
+      "refinePlayerSearch": "入力してプレイヤーリストを絞り込みます。",
+      "selectAssignedPlayer": "割り当て済みのプレイヤーを選択",
+      "playerCameraEnabled": "プレイヤー #{{player}} のカメラが有効です",
       "cameraWarningPlayer": "黄色のドットでマークされた少なくとも1人の選手との接続が対称NATによって妨げられています。通常、カメラストリーム接続の問題につながります。ネットワーク接続を変更し、カメラページを更新することをおすすめします。",
       "cameraWarningUser": "あなたの接続は対称NATによって妨げられています。通常、カメラストリーム接続の問題につながります。ネットワーク接続を変更し、LHMを再起動することをおすすめします。"
     },
@@ -650,6 +654,8 @@
       "tournamentStructure": "トーナメント構成",
       "availableTeams": "利用可能なチーム",
       "selectedTeams": "予選通過チーム",
+      "moveToSelectedTeams": "選択済みチームへ移動",
+      "moveToAvailableTeams": "利用可能なチームへ移動",
       "qualifiedTeams": "予選通過",
       "qualified": "予選通過",
       "eliminated": "敗退",
@@ -1060,6 +1066,16 @@
         "reviewTerms": "利用規約を確認",
         "cancelBrowserSignIn": "ブラウザサインインをキャンセル",
         "signInWithBrowser": "ブラウザでサインイン",
+        "chooseMethodInBrowser": "ブラウザでサインイン方法を選択してください",
+        "orUsePassword": "またはメールアドレスとパスワードでサインイン",
+        "orUseAuthenticationCode": "または認証コードを入力",
+        "methods": {
+          "google": "Google",
+          "steam": "Steam",
+          "linkedin": "LinkedIn",
+          "github": "GitHub",
+          "passkey": "Passkey"
+        },
         "retry": "もう一度試す"
       },
       "leagueOfLegendsServerMode": "データ収集モード",
@@ -1084,6 +1100,8 @@
         "ERROR": "自動切り替えでエラーが発生しました。続く場合はLHMを再起動してください。"
       },
       "saveRequired": "保存が必要",
+      "saveAndRestartRequired": "保存して再起動が必要",
+      "restartRequired": "再起動が必要",
       "subgroups": {
         "configuration": "設定",
         "setupStatus": "セットアップとステータス"
@@ -1156,7 +1174,9 @@
         "name": "カテゴリ名",
         "ungrouped": "未分類",
         "deleteInfo": "{{name}} カテゴリを削除してもよろしいですか？この操作ではHUD自体は削除されません。",
-        "studioOverlays": "Studioオーバーレイ"
+        "studioOverlays": "Studioオーバーレイ",
+        "noHUDs": "HUDがありません",
+        "noOverlays": "オーバーレイがありません"
       },
       "fields": {
         "missing": "欠落しているフィールド",
@@ -1321,7 +1341,8 @@
         "leagueoflegends": "LoL用カスタムHUDを注文する",
         "rocketleague": "ロケットリーグのカスタムHUDを注文する",
         "apexlegends": "アペックス・レジェンズ用カスタムHUDを注文する",
-        "valorant": "ヴァロラント用カスタムHUDを注文する"
+        "valorant": "ヴァロラント用カスタムHUDを注文する",
+        "studio": "独自のカスタムStudioオーバーレイを注文する"
       },
       "getAQuote": "見積もりを取る",
       "tryScoutAI": "私たちのAIオブザーバーと複数のAIマッチ予測を使用してください！",
@@ -1362,6 +1383,9 @@
             "cs2": "Counter-Strike 2は新しい再出発です。ウルトラHUDはCS2がもたらしたニーズとスタイルを満たす総合的なオーバーレイです。Ultra HUDの迅速で簡単なセットアップはあなたのニーズに適応し、イベントを完全に向上させます。あなたの放送は、カウンターストライクと同じように、新しい時代への準備が整っています。\nUltra HUDは、全てのプロフェッショナルLHMプランユーザーと、3シート以上のエンタープライズプランユーザーが利用できます。",
             "dota2": "追加情報を提供し、ゲームからインターフェイスに溶け込み、超簡単なセットアップで誰でもアクセスできるソリューションは市場にありませんでした。Ultra HUD for Dota 2はその全てを変えました。LHMはここ数ヶ月のDota 2の高度なサポートにより、これまで提供してきた全てのものを改善することができました。\n最初に気づくであろう最大のアップグレードはHUDの外観です - これからは多機能で、Dota 2のレイアウトを完璧に補完し、視覚的な妥協は一切ありません。そのため、Ultra HUDは自身のブランドや期待に関係なく、誰にとっても完璧なソリューションとなります。それは単純にゲームのほとんど新しい部分です。",
             "leagueoflegends": "League of Legends Ultra HUDは、LHMの簡単さでLeague of Legends esportイベントに最高のビジュアルを提供する複雑な観戦者・オブザーバーソリューションです。ドラフト、マッチ、ポストマッチ専用のオーバーレイ、アニメーション、カスタム機能が数クリックで利用できます。"
+          },
+          "studio": {
+            "studio": "1つの制作システムから、ライブ番組全体の放送グラフィックを作成、カスタマイズ、運用できます。\n\n1台、2台、または4台のカメラ向けに用意されたレイアウトを、再利用可能な参加者データ、ローワーサード、LIVE および NOW / NEXT グラフィック、スポンサー枠、ティッカー、待機画面や休憩画面とともに使用できます。完全な Studio Overlay から始めることも、既存の OBS Studio または vMix 制作環境に個別コンポーネントを追加することもできます。"
           }
         },
         "scout": {
@@ -1477,6 +1501,10 @@
         "clockDiff": {
           "title": "時計の差",
           "info": "PC 間の時計の差が大きすぎるため、キルのキャプチャ時に問題が発生する可能性があります。Replays をライブで使用する前に、両方のマシンのシステム時計を同期してください。"
+        },
+        "mixer": {
+          "title": "リプレイ出力",
+          "info": "LHM がリプレイ出力に使用するミキサーを選択して接続します。vMix は Instant Replay モードで使用され、Replay Feed は vMix または OBS 経由で出力できます。ミキサーの接続情報を入力し、接続＆設定を選択してください。"
         }
       },
       "aco": {

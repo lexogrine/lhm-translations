@@ -498,6 +498,10 @@
       "testPlayer": "Pemain Uji",
       "delay": "Penundaan Kamera dalam detik",
       "cameraQuality": "Kualitas Streaming Kamera",
+      "searchPlayers": "Cari pemain",
+      "refinePlayerSearch": "Ketik untuk mempersempit daftar pemain.",
+      "selectAssignedPlayer": "Pilih pemain yang ditetapkan",
+      "playerCameraEnabled": "Kamera diaktifkan untuk Pemain #{{player}}",
       "cameraWarningPlayer": "Koneksi ke setidaknya satu pemain yang ditandai titik kuning terhalang NAT simetris. Ini biasanya menyebabkan masalah koneksi streaming kamera. Disarankan pemain mengubah koneksi jaringan dan me-refresh halaman Kamera.",
       "cameraWarningUser": "Koneksi Anda terhalang NAT simetris. Ini biasanya menyebabkan masalah koneksi streaming kamera. Disarankan mengubah koneksi jaringan dan memulai ulang LHM."
     },
@@ -650,6 +654,8 @@
       "tournamentStructure": "Struktur turnamen",
       "availableTeams": "Tim tersedia",
       "selectedTeams": "Tim terpilih",
+      "moveToSelectedTeams": "Pindahkan ke tim terpilih",
+      "moveToAvailableTeams": "Pindahkan ke tim tersedia",
       "qualifiedTeams": "Tim yang lolos",
       "qualified": "Lolos",
       "eliminated": "Tereliminasi",
@@ -1060,6 +1066,16 @@
         "reviewTerms": "Revisar Términos de Servicio",
         "cancelBrowserSignIn": "Cancelar inicio de sesión en el navegador",
         "signInWithBrowser": "Iniciar sesión con el navegador",
+        "chooseMethodInBrowser": "Pilih metode masuk di browser Anda",
+        "orUsePassword": "atau masuk dengan email dan kata sandi",
+        "orUseAuthenticationCode": "atau masukkan kode autentikasi Anda",
+        "methods": {
+          "google": "Google",
+          "steam": "Steam",
+          "linkedin": "LinkedIn",
+          "github": "GitHub",
+          "passkey": "Passkey"
+        },
         "retry": "Intentar de nuevo"
       },
       "leagueOfLegendsServerMode": "Modo de recopilación de datos",
@@ -1084,6 +1100,8 @@
         "ERROR": "Auto-Switch mengalami error. Mulai ulang LHM jika ini berlanjut."
       },
       "saveRequired": "Guardado requerido",
+      "saveAndRestartRequired": "Simpan & mulai ulang diperlukan",
+      "restartRequired": "Mulai ulang diperlukan",
       "subgroups": {
         "configuration": "Configuración",
         "setupStatus": "Penyiapan & Status"
@@ -1156,7 +1174,9 @@
         "name": "Nama kategori",
         "ungrouped": "Tidak dikelompokkan",
         "deleteInfo": "Apakah Anda yakin ingin menghapus kategori {{name}}? Tindakan ini tidak akan menghapus HUD apa pun.",
-        "studioOverlays": "Overlay Studio"
+        "studioOverlays": "Overlay Studio",
+        "noHUDs": "Tidak ada HUD",
+        "noOverlays": "Tidak ada overlay"
       },
       "fields": {
         "missing": "Bidang yang hilang",
@@ -1321,7 +1341,8 @@
         "leagueoflegends": "Pesan HUD khusus Anda sendiri untuk LoL",
         "rocketleague": "Pesan HUD khusus Anda sendiri untuk Rocket League",
         "apexlegends": "Pesan HUD khusus Anda sendiri untuk Apex Legends",
-        "valorant": "Pesan HUD khusus Anda sendiri untuk Valorant"
+        "valorant": "Pesan HUD khusus Anda sendiri untuk Valorant",
+        "studio": "Pesan overlay Studio khusus Anda sendiri"
       },
       "getAQuote": "Dapatkan penawaran",
       "tryScoutAI": "Gunakan pengamat AI kami dan beberapa prediksi pertandingan AI!",
@@ -1362,6 +1383,9 @@
             "cs2": "Counter-Strike 2 adalah awal yang baru. Ultra HUD merupakan hamparan yang komprehensif untuk memenuhi kebutuhan dan gaya yang dibawa oleh CS2. Penyiapan Ultra HUD yang cepat dan mudah akan beradaptasi dengan kebutuhan Anda dan menyempurnakan acara Anda sepenuhnya. Siaran Anda - seperti halnya Counter-Strike - siap untuk era baru.\nUltra HUD tersedia untuk semua pengguna Paket LHM Profesional, serta pengguna Paket Enterprise dengan 3 kursi atau lebih.",
             "dota2": "Tidak ada solusi di pasaran yang memberikan informasi tambahan, menyatu dengan antarmuka dari game dan dapat diakses oleh semua orang dengan pengaturan yang sangat mudah. Ultra HUD untuk Dota 2 mengubah semua itu. Dukungan lanjutan LHM untuk Dota 2 selama beberapa bulan terakhir telah memungkinkan kami untuk meningkatkan semua yang kami tawarkan sejauh ini - begitulah cara Ultra HUD tercipta.\nPeningkatan pertama dan terbesar yang akan Anda perhatikan adalah tampilan HUD - mulai sekarang, HUD ini serbaguna dan melengkapi tata letak Dota 2 dengan sempurna, tetapi tidak membuat kompromi visual apa pun. Hal ini menjadikan Ultra HUD solusi yang sempurna bagi siapa saja, terlepas dari merek dan ekspektasi mereka sendiri. Ini hanyalah bagian yang hampir baru dari permainan.",
             "leagueoflegends": "League of Legends Ultra HUD adalah solusi penonton dan pengamat yang kompleks untuk menawarkan visual tertinggi untuk acara esport League of Legends dengan kemudahan LHM. Tersedia hanya dengan beberapa klik, dengan overlay, animasi, dan fitur khusus untuk draft, pertandingan, dan pasca-pertandingan."
+          },
+          "studio": {
+            "studio": "Buat, sesuaikan, dan operasikan grafis siaran untuk seluruh acara live dari satu sistem produksi.\n\nGunakan tata letak siap pakai untuk satu, dua, atau empat kamera dengan data peserta yang dapat digunakan ulang, lower third, grafis LIVE dan NOW / NEXT, blok sponsor, ticker, serta layar tunggu atau jeda. Mulailah dengan Studio Overlay lengkap atau tambahkan komponen individual ke produksi OBS Studio atau vMix Anda yang sudah ada."
           }
         },
         "scout": {
@@ -1477,6 +1501,10 @@
         "clockDiff": {
           "title": "Perbedaan jam",
           "info": "Perbedaan jam antara PC terlalu besar dan dapat menyebabkan masalah saat menangkap kill. Sinkronkan jam sistem di kedua mesin sebelum menggunakan Replays secara live."
+        },
+        "mixer": {
+          "title": "Output replay",
+          "info": "Pilih dan hubungkan mixer yang digunakan LHM untuk output replay. vMix digunakan untuk mode Instant Replay, sedangkan Replay Feed dapat menghasilkan output melalui vMix atau OBS. Masukkan detail koneksi mixer, lalu pilih Hubungkan & Pengaturan."
         }
       },
       "aco": {

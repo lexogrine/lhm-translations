@@ -498,6 +498,10 @@
       "testPlayer": "测试球员",
       "delay": "摄像头延迟（秒）",
       "cameraQuality": "摄像头流质量",
+      "searchPlayers": "搜索玩家",
+      "refinePlayerSearch": "输入以缩小玩家列表。",
+      "selectAssignedPlayer": "选择已分配的玩家",
+      "playerCameraEnabled": "玩家 #{{player}} 的摄像头已启用",
       "cameraWarningPlayer": "与至少一名球员（黄色圆点标记）的连接受对称 NAT 阻碍。这通常会导致摄像头流连接问题。建议该球员更换网络连接并刷新摄像头页面。",
       "cameraWarningUser": "您的连接受对称 NAT 阻碍。这通常会导致摄像头流连接问题。建议更换网络连接并重启 LHM。"
     },
@@ -650,6 +654,8 @@
       "tournamentStructure": "赛事结构",
       "availableTeams": "可用队伍",
       "selectedTeams": "已选队伍",
+      "moveToSelectedTeams": "移至已选队伍",
+      "moveToAvailableTeams": "移至可用队伍",
       "qualifiedTeams": "晋级队伍",
       "qualified": "已晋级",
       "eliminated": "已淘汰",
@@ -1060,6 +1066,16 @@
         "reviewTerms": "查看服务条款",
         "cancelBrowserSignIn": "取消浏览器登录",
         "signInWithBrowser": "使用浏览器登录",
+        "chooseMethodInBrowser": "在浏览器中选择登录方式",
+        "orUsePassword": "或使用邮箱和密码登录",
+        "orUseAuthenticationCode": "或输入您的身份验证代码",
+        "methods": {
+          "google": "Google",
+          "steam": "Steam",
+          "linkedin": "LinkedIn",
+          "github": "GitHub",
+          "passkey": "Passkey"
+        },
         "retry": "重试"
       },
       "leagueOfLegendsServerMode": "数据采集模式",
@@ -1084,6 +1100,8 @@
         "ERROR": "自动切换发生错误。如果持续出现，请重启 LHM。"
       },
       "saveRequired": "需要保存",
+      "saveAndRestartRequired": "需要保存并重启",
+      "restartRequired": "需要重启",
       "subgroups": {
         "configuration": "配置",
         "setupStatus": "设置与状态"
@@ -1156,7 +1174,9 @@
         "name": "名称",
         "ungrouped": "未分组",
         "deleteInfo": "您确定要删除 {{name}} 类别吗？此操作不会删除任何 HUD。",
-        "studioOverlays": "Studio 叠加层"
+        "studioOverlays": "Studio 叠加层",
+        "noHUDs": "没有 HUD",
+        "noOverlays": "没有叠加层"
       },
       "fields": {
         "missing": "缺失字段",
@@ -1321,7 +1341,8 @@
         "leagueoflegends": "为《英雄联盟》订购自己的自定义 HUD",
         "rocketleague": "为《火箭联盟》定制专属 HUD",
         "apexlegends": "为《Apex Legends》定制自己的 HUD",
-        "valorant": "为瓦洛伦特定制您自己的 HUD"
+        "valorant": "为瓦洛伦特定制您自己的 HUD",
+        "studio": "订购您自己的自定义 Studio 叠加层"
       },
       "getAQuote": "获取报价",
       "tryScoutAI": "使用我们的 AI 观察器和多 AI 比赛预测！",
@@ -1362,6 +1383,9 @@
             "cs2": "反恐精英 2》是一个全新的开始。Ultra HUD 是一款全面的覆盖程序，可满足 CS2 带来的需求和风格。Ultra HUD 的设置简单快捷，可以满足您的需求，并完全提升您的赛事效果。您的转播--就像《反恐精英》一样--已经准备好迎接新时代的到来。\nUltra HUD 适用于所有专业 LHM 计划用户以及拥有 3 个或更多席位的企业计划用户。",
             "dota2": "目前市场上还没有一种解决方案能够提供额外的信息，与游戏界面融为一体，而且每个人都能通过超级简单的设置使用。Dota 2 的 Ultra HUD 改变了这一切。在过去的几个月里，LHM 对 Dota 2 提供了先进的支持，这让我们能够改进我们迄今为止提供的所有产品--这就是 Ultra HUD 的由来。\n您将注意到的第一个也是最大的一个升级就是 HUD 的外观--从现在起，它既是多功能的，又完美地补充了 Dota 2 的布局，而且不会在视觉上做出任何妥协。这使得 Ultra HUD 成为任何人的完美解决方案，无论其品牌和期望如何。它简直就是游戏的一个全新部分。",
             "leagueoflegends": "英雄联盟 Ultra HUD 是复杂的观众和观察员解决方案，可为英雄联盟电竞赛事提供最高的视觉效果，并可轻松使用 LHM。只需点击几下，即可使用专用的草稿、比赛和赛后叠加、动画和自定义功能。"
+          },
+          "studio": {
+            "studio": "通过一个制作系统，为整场直播节目创建、自定义并操作播出图形。\n\n使用适用于一台、两台或四台摄像头的现成布局，并配合可复用的参与者数据、下三分之一字幕、LIVE 和 NOW / NEXT 图形、赞助商区块、滚动字幕以及等待或休息画面。您可以从完整的 Studio Overlay 开始，也可以将单个组件添加到现有的 OBS Studio 或 vMix 制作流程中。"
           }
         },
         "scout": {
@@ -1477,6 +1501,10 @@
         "clockDiff": {
           "title": "时钟差异",
           "info": "两台电脑之间的时钟差异过大，可能会导致捕获击杀时出现问题。请在直播使用 Replays 前同步两台机器的系统时钟。"
+        },
+        "mixer": {
+          "title": "回放输出",
+          "info": "选择并连接 LHM 用于回放输出的混合器。vMix 用于 Instant Replay 模式，而 Replay Feed 可以通过 vMix 或 OBS 输出。输入混合器的连接详细信息，然后选择连接和设置。"
         }
       },
       "aco": {

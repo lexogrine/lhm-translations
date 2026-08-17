@@ -498,6 +498,10 @@
       "testPlayer": "Test Oyuncusu",
       "delay": "Kamera Gecikmesi (saniye)",
       "cameraQuality": "Kamera Akış Kalitesi",
+      "searchPlayers": "Oyuncuları ara",
+      "refinePlayerSearch": "Oyuncu listesini daraltmak için yazın.",
+      "selectAssignedPlayer": "Atanmış bir oyuncu seçin",
+      "playerCameraEnabled": "Oyuncu #{{player}} için kamera etkin",
       "cameraWarningPlayer": "Sarı nokta ile işaretli oyunculardan en az biriyle bağlantı simetrik NAT nedeniyle engelleniyor. Bu durum genellikle kamera akışı bağlantı sorunlarına yol açar. Oyuncunun ağ bağlantısını değiştirmesi ve Kamera sayfasını yenilemesi önerilir.",
       "cameraWarningUser": "Bağlantınız simetrik NAT nedeniyle engelleniyor. Bu durum genellikle kamera akışı bağlantı sorunlarına yol açar. Ağ bağlantınızı değiştirmeniz ve LHM'yi yeniden başlatmanız önerilir."
     },
@@ -650,6 +654,8 @@
       "tournamentStructure": "Turnuva yapısı",
       "availableTeams": "Mevcut takımlar",
       "selectedTeams": "Seçili takımlar",
+      "moveToSelectedTeams": "Seçili takımlara taşı",
+      "moveToAvailableTeams": "Mevcut takımlara taşı",
       "qualifiedTeams": "Üst tura çıkan takımlar",
       "qualified": "Üst tura çıktı",
       "eliminated": "Elendi",
@@ -1060,6 +1066,16 @@
         "reviewTerms": "Hizmet Şartlarını incele",
         "cancelBrowserSignIn": "Tarayıcı ile oturum açmayı iptal et",
         "signInWithBrowser": "Tarayıcı ile oturum aç",
+        "chooseMethodInBrowser": "Tarayıcınızda bir oturum açma yöntemi seçin",
+        "orUsePassword": "veya email ve şifre ile oturum açın",
+        "orUseAuthenticationCode": "veya kimlik doğrulama kodunuzu girin",
+        "methods": {
+          "google": "Google",
+          "steam": "Steam",
+          "linkedin": "LinkedIn",
+          "github": "GitHub",
+          "passkey": "Passkey"
+        },
         "retry": "Tekrar dene"
       },
       "leagueOfLegendsServerMode": "Veri Toplama Modu",
@@ -1084,6 +1100,8 @@
         "ERROR": "Auto-Switch bir hatayla karşılaştı. Sorun sürerse LHM’yi yeniden başlatın."
       },
       "saveRequired": "Kaydetme gerekli",
+      "saveAndRestartRequired": "Kaydetme ve yeniden başlatma gerekli",
+      "restartRequired": "Yeniden başlatma gerekli",
       "subgroups": {
         "configuration": "Yapılandırma",
         "setupStatus": "Kurulum ve Durum"
@@ -1156,7 +1174,9 @@
         "name": "Kategori adı",
         "ungrouped": "Gruplandırılmamış",
         "deleteInfo": "{{name}} kategorisini kaldırmak istediğinizden emin misiniz? Bu işlem hiçbir HUD'u kaldırmaz.",
-        "studioOverlays": "Studio Overlayleri"
+        "studioOverlays": "Studio Overlayleri",
+        "noHUDs": "HUD yok",
+        "noOverlays": "Overlay yok"
       },
       "fields": {
         "missing": "Eksik alanlar",
@@ -1321,7 +1341,8 @@
         "leagueoflegends": "LoL için kendi özel HUD'ınızı sipariş edin",
         "rocketleague": "Rocket League için kendi özel HUD'ınızı sipariş edin",
         "apexlegends": "Apex Legends için kendi özel HUD'ınızı sipariş edin",
-        "valorant": "Valorant için kendi özel HUD'unuzu sipariş edin"
+        "valorant": "Valorant için kendi özel HUD'unuzu sipariş edin",
+        "studio": "Kendi özel Studio overlayinizi sipariş edin"
       },
       "getAQuote": "Fiyat teklifi alın",
       "tryScoutAI": "Yapay zeka gözlemcimizi ve çoklu yapay zeka maç tahminlerimizi kullanın!",
@@ -1362,6 +1383,9 @@
             "cs2": "Counter-Strike 2 yeni ve taze bir başlangıç. Ultra HUD, CS2'nin getirdiği ihtiyaçları ve tarzı karşılamak için kapsamlı bir kaplamadır. Ultra HUD'ın hızlı ve kolay kurulumu ihtiyaçlarınıza uyum sağlayacak ve etkinliklerinizi tamamen geliştirecektir. Yayınınız - tıpkı Counter-Strike gibi - yeni bir çağa hazır.\nUltra HUD, tüm Profesyonel LHM Planı kullanıcılarının yanı sıra 3 veya daha fazla koltuğa sahip Kurumsal Plan kullanıcıları için kullanılabilir.",
             "dota2": "Piyasada ek bilgi sağlayan, oyundan arayüze karışan ve süper kolay bir kurulumla herkes tarafından erişilebilen bir çözüm yoktu. Dota 2 için Ultra HUD tüm bunları değiştirdi. LHM'un geçtiğimiz birkaç ay boyunca Dota 2'ye verdiği ileri düzey destek, şimdiye kadar sunduğumuz her şeyi geliştirmemizi sağladı - Ultra HUD bu şekilde ortaya çıktı.\nFark edeceğiniz ilk ve en büyük yükseltme HUD'un görünümüdür - bundan böyle hem çok yönlüdür hem de Dota 2'nin düzenini mükemmel bir şekilde tamamlar, ancak görsel olarak herhangi bir ödün vermez. Bu da Ultra HUD'ı kendi markaları ve beklentileri ne olursa olsun herkes için mükemmel bir çözüm haline getiriyor. Bu sadece oyunun neredeyse yeni bir parçasıdır.",
             "leagueoflegends": "League of Legends Ultra HUD, League of Legends esport etkinliği için en yüksek görselleri LHM kolaylığı ile sunan karmaşık seyirci ve gözlemci çözümüdür. Özel taslak, maç ve maç sonrası kaplamalar, animasyonlar ve özel özelliklerle sadece birkaç tıklamayla kullanılabilir."
+          },
+          "studio": {
+            "studio": "Tek bir prodüksiyon sisteminden tüm canlı yayın için yayın grafiklerini oluşturun, özelleştirin ve yönetin.\n\nBir, iki veya dört kamera için hazır düzenleri; yeniden kullanılabilir katılımcı verileri, alt bantlar, LIVE ve NOW / NEXT grafikleri, sponsor blokları, kayan yazılar ve bekleme ya da ara ekranlarıyla kullanın. Eksiksiz Studio Overlay ile başlayın veya mevcut OBS Studio ya da vMix prodüksiyonunuza tek tek bileşenler ekleyin."
           }
         },
         "scout": {
@@ -1477,6 +1501,10 @@
         "clockDiff": {
           "title": "Saat farkı",
           "info": "PC'ler arasındaki saat farkı çok büyük ve kill yakalarken sorunlara yol açabilir. Replays'i canlı kullanmadan önce iki makinenin sistem saatlerini senkronize et."
+        },
+        "mixer": {
+          "title": "Tekrar çıkışı",
+          "info": "Tekrar çıkışı için LHM tarafından kullanılan mikseri seçip bağlayın. vMix, Instant Replay modunda kullanılır; Replay Feed ise vMix veya OBS üzerinden çıkış verebilir. Mikser bağlantı bilgilerini girin, ardından Bağlan & Kur'u seçin."
         }
       },
       "aco": {

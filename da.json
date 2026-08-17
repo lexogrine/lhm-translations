@@ -498,6 +498,10 @@
       "testPlayer": "Testafspiller",
       "delay": "Kameraforsinkelse i sekunder",
       "cameraQuality": "Kamerastream-kvalitet",
+      "searchPlayers": "Søg efter spillere",
+      "refinePlayerSearch": "Skriv for at indsnævre spillerlisten.",
+      "selectAssignedPlayer": "Vælg en tildelt spiller",
+      "playerCameraEnabled": "Kamera aktiveret for spiller #{{player}}",
       "cameraWarningPlayer": "Forbindelsen til mindst en af spillerne, markeret med en gul prik, er blokeret af symmetrisk NAT. Det resulterer normalt i problemer med kamerastream-forbindelsen. Det anbefales, at spilleren ændrer netværksforbindelsen og opdaterer Kamera-siden.",
       "cameraWarningUser": "Din forbindelse er blokeret af symmetrisk NAT. Det resulterer normalt i problemer med kamerastream-forbindelsen. Det anbefales at ændre netværksforbindelsen og genstarte LHM."
     },
@@ -650,6 +654,8 @@
       "tournamentStructure": "Turneringsstruktur",
       "availableTeams": "Tilgængelige hold",
       "selectedTeams": "Valgte hold",
+      "moveToSelectedTeams": "Flyt til valgte hold",
+      "moveToAvailableTeams": "Flyt til tilgængelige hold",
       "qualifiedTeams": "Kvalificerede hold",
       "qualified": "Kvalificeret",
       "eliminated": "Elimineret",
@@ -1060,6 +1066,16 @@
         "reviewTerms": "Gennemgå servicevilkår",
         "cancelBrowserSignIn": "Annuller browser-login",
         "signInWithBrowser": "Log ind med browser",
+        "chooseMethodInBrowser": "Vælg en loginmetode i din browser",
+        "orUsePassword": "eller log ind med e-mail og adgangskode",
+        "orUseAuthenticationCode": "eller indtast din godkendelseskode",
+        "methods": {
+          "google": "Google",
+          "steam": "Steam",
+          "linkedin": "LinkedIn",
+          "github": "GitHub",
+          "passkey": "Passkey"
+        },
         "retry": "Prøv igen"
       },
       "leagueOfLegendsServerMode": "Dataindsamlingstilstand",
@@ -1084,6 +1100,8 @@
         "ERROR": "Auto-Switch ramte en fejl. Genstart LHM, hvis det fortsætter."
       },
       "saveRequired": "Gemning påkrævet",
+      "saveAndRestartRequired": "Gem og genstart påkrævet",
+      "restartRequired": "Genstart påkrævet",
       "subgroups": {
         "configuration": "Konfiguration",
         "setupStatus": "Opsætning og status"
@@ -1156,7 +1174,9 @@
         "name": "Kategorinavn",
         "ungrouped": "Ikke grupperet",
         "deleteInfo": "Er du sikker på, at du vil fjerne kategorien {{name}}? Denne handling fjerner ingen HUD'er.",
-        "studioOverlays": "Studio Overlays"
+        "studioOverlays": "Studio Overlays",
+        "noHUDs": "Ingen HUDs",
+        "noOverlays": "Ingen overlays"
       },
       "fields": {
         "missing": "Manglende felter",
@@ -1321,7 +1341,8 @@
         "leagueoflegends": "Bestil din egen brugerdefinerede HUD til LoL",
         "rocketleague": "Bestil din egen brugerdefinerede HUD til Rocket League",
         "apexlegends": "Bestil din egen brugerdefinerede HUD til Apex Legends",
-        "valorant": "Bestil din egen brugerdefinerede HUD til Valorant"
+        "valorant": "Bestil din egen brugerdefinerede HUD til Valorant",
+        "studio": "Bestil dit eget brugerdefinerede Studio-overlay"
       },
       "getAQuote": "Få et tilbud",
       "tryScoutAI": "Brug vores AI-observatør og flere AI-kampforudsigelser!",
@@ -1362,6 +1383,9 @@
             "cs2": "Counter-Strike 2 er en ny frisk start. Ultra HUD er et omfattende overlay, der opfylder de behov og den stil, som CS2 har medført. Den hurtige og nemme opsætning af Ultra HUD vil tilpasse sig dine behov og forbedre dine events fuldstændigt. Din udsendelse - ligesom Counter-Strike - er klar til en ny æra.\nUltra HUD er tilgængelig for alle Professional LHM Plan-brugere samt Enterprise Plan-brugere med 3 eller flere sæder.",
             "dota2": "Der var ingen løsning på markedet, der gav ekstra information, smeltede ind i spillets interface og var tilgængelig for alle med en supernem opsætning. Ultra HUD til Dota 2 ændrede alt dette. LHM's avancerede support af Dota 2 i løbet af de sidste mange måneder har gjort det muligt for os at forbedre alt, hvad vi hidtil har tilbudt - det er sådan, Ultra HUD blev til.\nDen første og største opgradering, du vil lægge mærke til, er HUD'ens udseende - fra nu af er den både alsidig og passer perfekt til Dota 2's layout, men den går ikke på kompromis med det visuelle. Det gør Ultra HUD til den perfekte løsning for alle, uanset deres egen branding og forventninger. Det er simpelthen en næsten ny del af spillet.",
             "leagueoflegends": "League of Legends Ultra HUD er den komplekse tilskuer- og observatørløsning, der tilbyder den højeste grafik til League of Legends esport-begivenheden med LHM's lethed. Tilgængelig med blot et par klik, med dedikerede overlays, animationer og brugerdefinerede funktioner til draft, match og post-match."
+          },
+          "studio": {
+            "studio": "Opret, tilpas og styr broadcastgrafik til hele liveshowet fra ét produktionssystem.\n\nBrug færdige layouts til ét, to eller fire kameraer med genanvendelige deltagerdata, lower thirds, LIVE- og NOW / NEXT-grafik, sponsorblokke, tickere og vente- eller pauseskærme. Start med det komplette Studio Overlay, eller føj individuelle komponenter til din eksisterende OBS Studio- eller vMix-produktion."
           }
         },
         "scout": {
@@ -1453,6 +1477,10 @@
         "tab": {
           "title": "Replays",
           "info": "Modulet Auto Replay Generator (ARG) genererer replays, som kan vises mellem runderne eller ved afslutningen af en kamp.\nHusk, at vMix er påkrævet for korrekt ARG-konfiguration. vMix er ikke et gratis program, og ARG selv er primært designet til produktionsteams, der allerede bruger vMix."
+        },
+        "mixer": {
+          "title": "Replay-output",
+          "info": "Vælg og tilslut den mixer, som LHM bruger til replay-output. vMix bruges til Instant Replay-tilstand, mens Replay Feed kan sende output via vMix eller OBS. Indtast mixerens forbindelsesoplysninger, og vælg derefter Tilslutning og opsætning."
         },
         "safeband": {
           "title": "Sikkerhedsmargin",

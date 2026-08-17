@@ -498,6 +498,10 @@
       "testPlayer": "Người chơi thử nghiệm",
       "delay": "Độ trễ camera (giây)",
       "cameraQuality": "Chất lượng luồng camera",
+      "searchPlayers": "Tìm người chơi",
+      "refinePlayerSearch": "Nhập để thu hẹp danh sách người chơi.",
+      "selectAssignedPlayer": "Chọn người chơi đã được gán",
+      "playerCameraEnabled": "Đã bật camera cho Người chơi #{{player}}",
       "cameraWarningPlayer": "Kết nối tới ít nhất một người chơi (được đánh dấu chấm vàng) đang bị cản bởi NAT đối xứng. Điều này thường gây lỗi kết nối luồng camera. Khuyến nghị người chơi đổi kết nối mạng và làm mới trang Camera.",
       "cameraWarningUser": "Kết nối của bạn đang bị cản bởi NAT đối xứng. Điều này thường gây lỗi kết nối luồng camera. Khuyến nghị đổi kết nối mạng và khởi động lại LHM."
     },
@@ -650,6 +654,8 @@
       "tournamentStructure": "Cấu trúc giải đấu",
       "availableTeams": "Đội có sẵn",
       "selectedTeams": "Đội đã chọn",
+      "moveToSelectedTeams": "Chuyển sang đội đã chọn",
+      "moveToAvailableTeams": "Chuyển sang đội có sẵn",
       "qualifiedTeams": "Đội đủ điều kiện",
       "qualified": "Đủ điều kiện",
       "eliminated": "Bị loại",
@@ -1060,6 +1066,16 @@
         "reviewTerms": "Xem Điều khoản dịch vụ",
         "cancelBrowserSignIn": "Hủy đăng nhập bằng trình duyệt",
         "signInWithBrowser": "Đăng nhập bằng trình duyệt",
+        "chooseMethodInBrowser": "Chọn phương thức đăng nhập trong trình duyệt",
+        "orUsePassword": "hoặc đăng nhập bằng email và mật khẩu",
+        "orUseAuthenticationCode": "hoặc nhập mã xác thực của bạn",
+        "methods": {
+          "google": "Google",
+          "steam": "Steam",
+          "linkedin": "LinkedIn",
+          "github": "GitHub",
+          "passkey": "Passkey"
+        },
         "retry": "Thử lại"
       },
       "leagueOfLegendsServerMode": "Chế độ thu thập dữ liệu",
@@ -1084,6 +1100,8 @@
         "ERROR": "Tự động chuyển đổi gặp lỗi. Khởi động lại LHM nếu lỗi tiếp diễn."
       },
       "saveRequired": "Cần lưu",
+      "saveAndRestartRequired": "Cần lưu & khởi động lại",
+      "restartRequired": "Cần khởi động lại",
       "subgroups": {
         "configuration": "Cấu hình",
         "setupStatus": "Thiết lập & Trạng thái"
@@ -1156,7 +1174,9 @@
         "name": "Tên danh mục",
         "ungrouped": "Chưa nhóm",
         "deleteInfo": "Bạn có chắc muốn xóa danh mục {{name}}? Thao tác này sẽ không xóa bất kỳ HUD nào.",
-        "studioOverlays": "Lớp phủ Studio"
+        "studioOverlays": "Lớp phủ Studio",
+        "noHUDs": "Không có HUD",
+        "noOverlays": "Không có lớp phủ"
       },
       "fields": {
         "missing": "Missing fields",
@@ -1321,7 +1341,8 @@
         "leagueoflegends": "Đặt hàng HUD tùy chỉnh của riêng bạn cho LoL",
         "rocketleague": "Đặt hàng HUD tùy chỉnh của riêng bạn cho Rocket League",
         "apexlegends": "Đặt hàng HUD tùy chỉnh của riêng bạn cho Apex Legends",
-        "valorant": "Đặt mua HUD tùy chỉnh của riêng bạn cho Valorant"
+        "valorant": "Đặt mua HUD tùy chỉnh của riêng bạn cho Valorant",
+        "studio": "Đặt lớp phủ Studio tùy chỉnh của riêng bạn"
       },
       "getAQuote": "Nhận báo giá",
       "tryScoutAI": "Sử dụng trình quan sát AI của chúng tôi và nhiều dự đoán trận đấu AI!",
@@ -1362,6 +1383,9 @@
             "cs2": "Counter-Strike 2 là một khởi đầu mới. Ultra HUD là lớp phủ toàn diện đáp ứng nhu cầu và phong cách mà CS2 mang lại. Việc thiết lập nhanh chóng và dễ dàng của Ultra HUD sẽ thích ứng với nhu cầu của bạn và nâng cao hoàn toàn các sự kiện của bạn. Chương trình phát sóng của bạn - giống như Counter-Strike - đã sẵn sàng cho một kỷ nguyên mới.\nUltra HUD có sẵn cho tất cả người dùng Gói LHM Chuyên nghiệp, cũng như người dùng Gói Doanh nghiệp có từ 3 chỗ trở lên.",
             "dota2": "Không có giải pháp nào trên thị trường cung cấp thêm thông tin, hòa trộn vào giao diện từ trò chơi và mọi người đều có thể truy cập được với thiết lập siêu dễ dàng. Ultra HUD cho Dota 2 đã thay đổi tất cả. Sự hỗ trợ nâng cao của LHM đối với Dota 2 trong vài tháng qua đã cho phép chúng tôi cải thiện mọi thứ mà chúng tôi đã cung cấp cho đến nay - đó là cách Ultra HUD ra đời.\nNâng cấp đầu tiên và lớn nhất mà bạn sẽ nhận thấy là giao diện của HUD - từ bây giờ, nó vừa linh hoạt vừa bổ sung hoàn hảo cho bố cục của Dota 2 nhưng không tạo ra bất kỳ thỏa hiệp trực quan nào. Điều này làm cho Ultra HUD trở thành giải pháp hoàn hảo cho bất kỳ ai, bất kể thương hiệu và kỳ vọng của riêng họ. Nó chỉ đơn giản là một phần gần như mới của trò chơi.",
             "leagueoflegends": "League of Legends Ultra HUD là giải pháp phức tạp dành cho khán giả và người quan sát để cung cấp hình ảnh đẹp nhất cho sự kiện thể thao điện tử League of Legends với sự dễ dàng của LHM. Chỉ cần vài cú nhấp chuột, với các lớp phủ dự thảo, trận đấu và sau trận đấu, hoạt ảnh và các tính năng tùy chỉnh chuyên dụng."
+          },
+          "studio": {
+            "studio": "Tạo, tùy chỉnh và vận hành đồ họa phát sóng cho toàn bộ chương trình trực tiếp từ một hệ thống sản xuất.\n\nSử dụng các bố cục dựng sẵn cho một, hai hoặc bốn camera với dữ liệu người tham gia có thể tái sử dụng, lower third, đồ họa LIVE và NOW / NEXT, khối nhà tài trợ, ticker, cùng màn hình chờ hoặc nghỉ. Bắt đầu với Studio Overlay hoàn chỉnh hoặc thêm từng thành phần vào quy trình sản xuất OBS Studio hoặc vMix hiện có của bạn."
           }
         },
         "scout": {
@@ -1477,6 +1501,10 @@
         "clockDiff": {
           "title": "Chênh lệch đồng hồ",
           "info": "Chênh lệch đồng hồ giữa các PC quá lớn và có thể gây sự cố khi ghi lại kill. Hãy đồng bộ đồng hồ hệ thống trên cả hai máy trước khi dùng Replays trực tiếp."
+        },
+        "mixer": {
+          "title": "Đầu ra replay",
+          "info": "Chọn và kết nối bộ trộn mà LHM dùng cho đầu ra replay. vMix được dùng cho chế độ Instant Replay, còn Replay Feed có thể xuất qua vMix hoặc OBS. Nhập chi tiết kết nối của bộ trộn, rồi chọn Kết nối & Thiết lập."
         }
       },
       "aco": {

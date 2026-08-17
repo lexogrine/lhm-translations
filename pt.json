@@ -498,6 +498,10 @@
       "testPlayer": "Jogador de teste",
       "delay": "Atraso da câmara em segundos",
       "cameraQuality": "Qualidade da transmissão da câmara",
+      "searchPlayers": "Pesquisar jogadores",
+      "refinePlayerSearch": "Escreva para restringir a lista de jogadores.",
+      "selectAssignedPlayer": "Selecionar um jogador atribuído",
+      "playerCameraEnabled": "Câmara ativada para o jogador #{{player}}",
       "cameraWarningPlayer": "A ligação a pelo menos um dos jogadores, assinalado com ponto amarelo, está bloqueada por NAT simétrico. Isto normalmente causa problemas na ligação da transmissão da câmara. Recomenda-se que o jogador altere a ligação de rede e atualize a página da câmara.",
       "cameraWarningUser": "A sua ligação está bloqueada por NAT simétrico. Isto normalmente causa problemas na ligação da transmissão da câmara. Recomenda-se alterar a ligação de rede e reiniciar o LHM."
     },
@@ -650,6 +654,8 @@
       "tournamentStructure": "Estrutura do torneio",
       "availableTeams": "Equipes disponíveis",
       "selectedTeams": "Equipes selecionadas",
+      "moveToSelectedTeams": "Mover para equipas selecionadas",
+      "moveToAvailableTeams": "Mover para equipas disponíveis",
       "qualifiedTeams": "Equipes classificadas",
       "qualified": "Classificados",
       "eliminated": "Eliminados",
@@ -1060,6 +1066,16 @@
         "reviewTerms": "Revisar Términos de Servicio",
         "cancelBrowserSignIn": "Cancelar inicio de sesión en el navegador",
         "signInWithBrowser": "Iniciar sesión con el navegador",
+        "chooseMethodInBrowser": "Escolha um método de início de sessão no seu navegador",
+        "orUsePassword": "ou inicie sessão com e-mail e palavra-passe",
+        "orUseAuthenticationCode": "ou introduza o seu código de autenticação",
+        "methods": {
+          "google": "Google",
+          "steam": "Steam",
+          "linkedin": "LinkedIn",
+          "github": "GitHub",
+          "passkey": "Passkey"
+        },
         "retry": "Intentar de nuevo"
       },
       "leagueOfLegendsServerMode": "Modo de recopilación de datos",
@@ -1084,6 +1100,8 @@
         "ERROR": "A troca automática encontrou um erro. Reinicie o LHM se isto persistir."
       },
       "saveRequired": "Guardado requerido",
+      "saveAndRestartRequired": "É necessário guardar e reiniciar",
+      "restartRequired": "É necessário reiniciar",
       "subgroups": {
         "configuration": "Configuración",
         "setupStatus": "Configuração e estado"
@@ -1156,7 +1174,9 @@
         "name": "Nome da categoria",
         "ungrouped": "Sem agrupar",
         "deleteInfo": "Tem certeza de que deseja remover a categoria {{name}}? Esta ação não removerá nenhum HUD.",
-        "studioOverlays": "Overlays do Studio"
+        "studioOverlays": "Overlays do Studio",
+        "noHUDs": "Sem HUDs",
+        "noOverlays": "Sem overlays"
       },
       "fields": {
         "missing": "Campos em falta",
@@ -1321,7 +1341,8 @@
         "leagueoflegends": "Encomenda o teu HUD personalizado para LoL",
         "rocketleague": "Encomenda o teu HUD personalizado para Rocket League",
         "apexlegends": "Encomenda o teu HUD personalizado para Apex Legends",
-        "valorant": "Encomenda o teu HUD personalizado para o Valorant"
+        "valorant": "Encomenda o teu HUD personalizado para o Valorant",
+        "studio": "Encomende o seu próprio overlay personalizado de Studio"
       },
       "getAQuote": "Obter um orçamento",
       "tryScoutAI": "Usa o nosso observador de IA e previsões de vários jogos de IA!",
@@ -1362,6 +1383,9 @@
             "cs2": "Counter-Strike 2 é um novo começo. O Ultra HUD é uma sobreposição abrangente para satisfazer as necessidades e o estilo que o CS2 trouxe. A configuração rápida e fácil do Ultra HUD adaptar-se-á às suas necessidades e melhorará completamente os seus eventos. A sua transmissão - tal como o Counter-Strike - está pronta para uma nova era.\nO Ultra HUD está disponível para todos os utilizadores do Plano LHM Profissional, bem como para os utilizadores do Plano Enterprise com 3 ou mais lugares.",
             "dota2": "Não havia nenhuma solução no mercado que fornecesse informações adicionais, se misturasse com a interface do jogo e fosse acessível a todos com uma configuração super fácil. O Ultra HUD para Dota 2 mudou tudo isso. O suporte avançado da LHM ao Dota 2 nos últimos meses permitiu-nos melhorar tudo o que oferecemos até agora - foi assim que surgiu o Ultra HUD.\nA primeira e maior atualização que vai notar é o aspeto do HUD - a partir de agora, é versátil e complementa perfeitamente o layout do Dota 2, mas não faz quaisquer compromissos visuais. Isto faz do Ultra HUD a solução perfeita para qualquer pessoa, independentemente da sua marca e expectativas. É simplesmente uma parte quase nova do jogo.",
             "leagueoflegends": "O League of Legends Ultra HUD é a solução complexa para espectadores e observadores que oferece os melhores visuais para o evento desportivo do League of Legends com a facilidade do LHM. Disponível com apenas alguns cliques, com sobreposições, animações e recursos personalizados dedicados ao draft, à partida e ao pós-jogo."
+          },
+          "studio": {
+            "studio": "Crie, personalize e opere gráficos de transmissão para todo o espetáculo ao vivo a partir de um único sistema de produção.\n\nUse layouts prontos para uma, duas ou quatro câmaras com dados de participantes reutilizáveis, lower thirds, gráficos LIVE e NOW / NEXT, blocos de patrocinadores, tickers e ecrãs de espera ou intervalo. Comece com o Studio Overlay completo ou adicione componentes individuais à sua produção existente em OBS Studio ou vMix."
           }
         },
         "scout": {
@@ -1477,6 +1501,10 @@
         "clockDiff": {
           "title": "Diferença de relógio",
           "info": "A diferença de relógio entre os PCs é grande demais e pode causar problemas ao capturar abates. Sincronize os relógios do sistema nas duas máquinas antes de usar Replays ao vivo."
+        },
+        "mixer": {
+          "title": "Saída de replay",
+          "info": "Escolha e ligue o misturador que o LHM usa para a saída de replay. O vMix é usado no modo Instant Replay, enquanto o Replay Feed pode transmitir através de vMix ou OBS. Introduza os detalhes de ligação do misturador e depois selecione Ligar e configurar."
         }
       },
       "aco": {

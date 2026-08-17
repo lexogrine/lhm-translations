@@ -498,6 +498,10 @@
       "testPlayer": "Тест плејер",
       "delay": "Кашњење камере у секундама",
       "cameraQuality": "Квалитет стрима камере",
+      "searchPlayers": "Pretraži igrače",
+      "refinePlayerSearch": "Unesite tekst da suzite listu igrača.",
+      "selectAssignedPlayer": "Izaberite dodeljenog igrača",
+      "playerCameraEnabled": "Kamera je omogućena za igrača #{{player}}",
       "cameraWarningPlayer": "Веза са најмање једним од играча, означених жутом тачком, је ометана симетричним NAT-ом. Обично то доводи до проблема са повезивањем стрима камере. Препоручује се да играч промени мрежну везу и освежи страницу Камера.",
       "cameraWarningUser": "Ваша веза је ометана симетричним NAT-ом. Обично то доводи до проблема са повезивањем стрима камере. Препоручује се да промените мрежну везу и поново покренете LHM."
     },
@@ -650,6 +654,8 @@
       "tournamentStructure": "Структура турнира",
       "availableTeams": "Доступни тимови",
       "selectedTeams": "Изабрани тимови",
+      "moveToSelectedTeams": "Premesti u izabrane timove",
+      "moveToAvailableTeams": "Premesti u dostupne timove",
       "qualifiedTeams": "Квалификовани тимови",
       "qualified": "Квалификовани",
       "eliminated": "Елиминисани",
@@ -1060,6 +1066,16 @@
         "reviewTerms": "Pregledaj Uslove korišćenja",
         "cancelBrowserSignIn": "Otkaži prijavu preko pregledača",
         "signInWithBrowser": "Prijavi se preko pregledača",
+        "chooseMethodInBrowser": "Izaberite način prijave u pregledaču",
+        "orUsePassword": "ili se prijavite emailom i lozinkom",
+        "orUseAuthenticationCode": "ili unesite svoj autentifikacioni kod",
+        "methods": {
+          "google": "Google",
+          "steam": "Steam",
+          "linkedin": "LinkedIn",
+          "github": "GitHub",
+          "passkey": "Passkey"
+        },
         "retry": "Pokušaj ponovo"
       },
       "leagueOfLegendsServerMode": "Režim prikupljanja podataka",
@@ -1084,6 +1100,8 @@
         "ERROR": "Auto-Switch je naišao na grešku. Ponovo pokreni LHM ako se problem nastavi."
       },
       "saveRequired": "Potrebno je čuvanje",
+      "saveAndRestartRequired": "Potrebno je sačuvati i ponovo pokrenuti",
+      "restartRequired": "Potrebno je ponovno pokretanje",
       "subgroups": {
         "configuration": "Konfiguracija",
         "setupStatus": "Podešavanje i status"
@@ -1156,7 +1174,9 @@
         "name": "Назив категорије",
         "ungrouped": "Разгруписано",
         "deleteInfo": "Да ли сте сигурни да желите да уклоните {{name}} категорију? Ова радња неће уклонити ниједан HUD.",
-        "studioOverlays": "Studio overleji"
+        "studioOverlays": "Studio overleji",
+        "noHUDs": "Nema HUD",
+        "noOverlays": "Nema overleja"
       },
       "fields": {
         "missing": "Поља која недостају",
@@ -1321,7 +1341,8 @@
         "leagueoflegends": "Наручите сопствени прилагођени ХУД за ЛоЛ",
         "rocketleague": "Наручите сопствени обичај ХУД за Роцкет Леагуе",
         "apexlegends": "Наручите сопствени прилагођени ХУД за Апеx Легендс",
-        "valorant": "Наручите свој прилагођени HUD за Valorant"
+        "valorant": "Наручите свој прилагођени HUD за Valorant",
+        "studio": "Naručite sopstveni prilagođeni Studio overlej"
       },
       "getAQuote": "Добијте понуду",
       "tryScoutAI": "Користите нашег АИ посматрача и вишеструка предвиђања АИ подударања!",
@@ -1362,6 +1383,9 @@
             "cs2": "Цоунтер -Стрике 2 је нови нови поиетак. Ултра ХУД је свеобухватно преклапање како би се задовољиле потребе и стил који је CS2 донео. Брзо и лако подешавање ултра ХУД-а прилагодиће се вашим потребама и у потпуности побољшати ваше догађаје. Ваше емитовање - баш као и Цоунтер-Стрике - спремно је за нову еру.\nУлтра ХУД је доступан за све кориснике Професионалног ЛХМ плана, као и за кориснике Ентерприсе Плана са 3 или више места.",
             "dota2": "На тржишту није било решења које је пружало додатне информације, уклопило се у интерфејс из игре и било доступно свима са супер лаком поставком. Ултра ХУД за Дота 2 је све то променио. ЛХМ -ова напредна подршка Дота 2 у протеклих неколико месеци омогућила нам је да побољшамо све што смо до сада нудили - тако је настао Ултра ХУД.\nПрва и највећа надоградња коју ћете приметити је изглед ХУД-а - од сада је и свестран и савршено употпуњује распоред Дота 2 али не прави никакве визуелне компромисе. То ултра ХУД чини савршеним решењем за свакога, без обзира на сопствено брендирање и очекивања. То је само скоро нови део игре.",
             "leagueoflegends": "Ултра HUD за League of Legends је комплексно решење за гледаоце и посматраче које нуди највиши визуелни ефекат за е-спорт догађај League of Legends уз лакоћу LHM-а. Доступно уз само неколико кликова, са посебним преклапањима за драфт, меч и после меча, анимацијама и прилагођеним функцијама."
+          },
+          "studio": {
+            "studio": "Kreirajte, prilagodite i upravljajte grafikom za prenos tokom cele emisije uživo iz jednog produkcionog sistema.\n\nKoristite gotove rasporede za jednu, dve ili četiri kamere sa podacima učesnika koji se mogu ponovo koristiti, grafikom u donjoj trećini, LIVE i NOW / NEXT grafikom, sponzorskim blokovima, tickerima i ekranima za čekanje ili pauzu. Počnite od kompletnog Studio overleja ili dodajte pojedinačne komponente u postojeću OBS Studio ili vMix produkciju."
           }
         },
         "scout": {
@@ -1477,6 +1501,10 @@
         "clockDiff": {
           "title": "Razlika u satu",
           "info": "Razlika u vremenu između PC-jeva je prevelika i može izazvati probleme pri hvatanju killova. Sinhronizuj sistemske satove na obe mašine pre korišćenja Replays uživo."
+        },
+        "mixer": {
+          "title": "Izlaz za reprize",
+          "info": "Izaberite i povežite mikser koji LHM koristi za izlaz repriza. vMix se koristi za režim Instant Replay, dok Replay Feed može slati izlaz preko vMix ili OBS. Unesite detalje veze miksera, zatim izaberite Povezivanje i podešavanje."
         }
       },
       "aco": {

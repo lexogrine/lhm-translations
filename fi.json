@@ -498,6 +498,10 @@
       "testPlayer": "Testipelaaja",
       "delay": "Kameran viive sekunteina",
       "cameraQuality": "Kamerastreamin laatu",
+      "searchPlayers": "Hae pelaajia",
+      "refinePlayerSearch": "Kirjoita rajataksesi pelaajaluetteloa.",
+      "selectAssignedPlayer": "Valitse määritetty pelaaja",
+      "playerCameraEnabled": "Kamera käytössä pelaajalle #{{player}}",
       "cameraWarningPlayer": "Yhteys ainakin yhteen pelaajaan, joka on merkitty keltaisella pisteellä, on symmetrisen NAT:n estämä. Yleensä se aiheuttaa ongelmia kamerastreamin yhteydessä. Pelaajan kannattaa vaihtaa verkkoyhteyttä ja päivittää Kamerat-sivu.",
       "cameraWarningUser": "Yhteytesi on symmetrisen NAT:n estämä. Yleensä se aiheuttaa ongelmia kamerastreamin yhteydessä. Verkkoyhteyden vaihtaminen ja LHM:n uudelleenkäynnistys on suositeltavaa."
     },
@@ -650,6 +654,8 @@
       "tournamentStructure": "Turnauksen rakenne",
       "availableTeams": "Saatavilla olevat joukkueet",
       "selectedTeams": "Valitut joukkueet",
+      "moveToSelectedTeams": "Siirrä valittuihin joukkueisiin",
+      "moveToAvailableTeams": "Siirrä saatavilla oleviin joukkueisiin",
       "qualifiedTeams": "Jatkoon päässeet joukkueet",
       "qualified": "Jatkoon",
       "eliminated": "Pudonnut",
@@ -1060,6 +1066,16 @@
         "reviewTerms": "Tarkista käyttöehdot",
         "cancelBrowserSignIn": "Peruuta selaimella kirjautuminen",
         "signInWithBrowser": "Kirjaudu selaimella",
+        "chooseMethodInBrowser": "Valitse kirjautumistapa selaimessasi",
+        "orUsePassword": "tai kirjaudu sisään sähköpostilla ja salasanalla",
+        "orUseAuthenticationCode": "tai syötä todennuskoodisi",
+        "methods": {
+          "google": "Google",
+          "steam": "Steam",
+          "linkedin": "LinkedIn",
+          "github": "GitHub",
+          "passkey": "Passkey"
+        },
         "retry": "Yritä uudelleen"
       },
       "leagueOfLegendsServerMode": "Tiedonkeruutila",
@@ -1084,6 +1100,8 @@
         "ERROR": "Auto-Switch kohtasi virheen. Käynnistä LHM uudelleen, jos tämä jatkuu."
       },
       "saveRequired": "Tallennus vaaditaan",
+      "saveAndRestartRequired": "Tallennus ja uudelleenkäynnistys vaaditaan",
+      "restartRequired": "Uudelleenkäynnistys vaaditaan",
       "subgroups": {
         "configuration": "Määritys",
         "setupStatus": "Määritys ja tila"
@@ -1156,7 +1174,9 @@
         "name": "Kategorian nimi",
         "ungrouped": "Ryhmittelemätön",
         "deleteInfo": "Haluatko varmasti poistaa kategorian {{name}}? Tämä toiminto ei poista HUDeja.",
-        "studioOverlays": "Studio-peittokuvat"
+        "studioOverlays": "Studio-peittokuvat",
+        "noHUDs": "Ei HUD:eja",
+        "noOverlays": "Ei peittokuvia"
       },
       "fields": {
         "missing": "Puuttuvat kentät",
@@ -1321,7 +1341,8 @@
         "leagueoflegends": "Tilaa oma mukautettu HUD LoL:lle",
         "rocketleague": "Tilaa oma mukautettu HUD Rocket Leagueen",
         "apexlegends": "Tilaa oma mukautettu HUD Apex Legendsille",
-        "valorant": "Tilaa oma mukautettu HUD Valorantille"
+        "valorant": "Tilaa oma mukautettu HUD Valorantille",
+        "studio": "Tilaa oma mukautettu Studio-overlay"
       },
       "getAQuote": "Pyydä tarjous",
       "tryScoutAI": "Käytä tekoälyn tarkkailijaamme ja useita tekoälyotteluennusteita!",
@@ -1362,6 +1383,9 @@
             "cs2": "Counter-Strike 2 on uusi tuore alku. Ultra HUD on kattava overlay vastaamaan CS2:n tuomia tarpeita ja tyyliä. Ultra HUDin nopea ja helppo asennus mukautuu tarpeisiisi ja parantaa tapahtumasi täysin. Lähetyksesi - aivan kuten Counter-Strike - on valmis uuteen aikakauteen.\nUltra HUD on saatavilla kaikille Professional LHM Plan -käyttäjille sekä Enterprise Plan -käyttäjille, joilla on 3 tai useampia paikkoja.",
             "dota2": "Markkinoilla ei ollut ratkaisua, joka tarjosi lisätietoa, sulautui pelistä tulevaan käyttöliittymään ja oli kaikkien saatavilla superhelpon asennuksen avulla. Ultra HUD for Dota 2 muutti kaiken tämän. LHM'n kehittynyt tuki Dota 2:lle viime kuukausien aikana on antanut meille mahdollisuuden parantaa kaikkea, mitä olemme tähän mennessä tarjonneet - näin syntyi Ultra HUD.\nEnsimmäinen ja suurin päivitys, jonka huomaat, on HUD:n ulkonäkö - tästä lähtien se on monipuolinen ja täydentää täydellisesti Dota 2:n ulkoasua, mutta ei tee mitään visuaalisia kompromisseja. Tämä tekee Ultra HUDista täydellisen ratkaisun kenelle tahansa omasta brändistä ja odotuksista riippumatta. Se on yksinkertaisesti lähes uusi osa peliä.",
             "leagueoflegends": "League of Legends Ultra HUD on monimutkainen katsoja- ja tarkkailijaratkaisu, joka tarjoaa League of Legends -esporttitapahtuman korkeimmat visuaalit LHM:n helppoudella. Käytettävissä vain muutamalla klikkauksella, ja siinä on omat luonnos-, ottelu- ja ottelunjälkeiset päällekkäisyydet, animaatiot ja mukautetut ominaisuudet."
+          },
+          "studio": {
+            "studio": "Luo, mukauta ja ohjaa lähetysgrafiikkaa koko live-show'ta varten yhdestä tuotantojärjestelmästä.\n\nKäytä valmiita asetteluja yhdelle, kahdelle tai neljälle kameralle sekä uudelleenkäytettäviä osallistujatietoja, lower thirdsejä, LIVE- ja NOW / NEXT -grafiikoita, sponsorilohkoja, tickereitä sekä odotus- tai taukonäyttöjä. Aloita täydellä Studio Overlay -kokonaisuudella tai lisää yksittäisiä komponentteja nykyiseen OBS Studio- tai vMix-tuotantoosi."
           }
         },
         "scout": {
@@ -1453,6 +1477,10 @@
         "tab": {
           "title": "Replays",
           "info": "Auto Replay Generator (ARG) -moduuli luo uusintoja, jotka voidaan näyttää kierrosten välillä tai pelin lopussa.\nMuistathan, että vMix tarvitaan oikeaan ARG-konfiguraatioon. vMix ei ole ilmainen sovellus, ja ARG on suunniteltu ensisijaisesti tuotantotiimeille, jotka jo käyttävät vMixiä."
+        },
+        "mixer": {
+          "title": "Replay-ulostulo",
+          "info": "Valitse ja yhdistä mikseri, jota LHM käyttää replay-ulostuloon. Instant Replay -tilassa käytetään sovellusta vMix, kun taas Replay Feed voi lähettää ulostulon sovellukseen vMix tai OBS. Syötä mikserin yhteystiedot ja valitse sitten Connect & Setup."
         },
         "safeband": {
           "title": "Safeband",
