@@ -506,6 +506,8 @@
       "cameraWarningUser": "Ваша веза је ометана симетричним NAT-ом. Обично то доводи до проблема са повезивањем стрима камере. Препоручује се да промените мрежну везу и поново покренете LHM."
     },
     "addons": {
+      "saveError": "Nije moguće sačuvati podešavanja dodatka.",
+      "restartError": "Podešavanja su sačuvana, ali dodatak nije mogao ponovo da se pokrene. Proverite njegov status na listi dodataka.",
       "upload": "Отпремање додатка",
       "status": {
         "READY": "Спреман",
@@ -1128,6 +1130,18 @@
     },
     "huds": {
       "header": "ХУД-ове",
+      "drop": {
+        "prompt": "Prevucite HUD-ove i overlaye ovde da biste ih dodali u LHM"
+      },
+      "importSummary": {
+        "title": "Rezime uvoza",
+        "skipped": "Preskočeno",
+        "failed": "Neuspešno",
+        "differentGame": "Druga igra",
+        "notZip": "Nije ZIP arhiva",
+        "gameMismatch": "Ova arhiva je namenjena igri {{archiveGame}}, ali trenutna igra je {{currentGame}}.",
+        "allGames": "Sve igre"
+      },
       "workshopToolsModal": {
         "title": "Алати радионице за CS2 нису пронађени",
         "info": "DLC алати радионице за Counter-Strike 2 нису откривени. Потребно је користити га са LHM-ом приликом покретања CS2 са омогућеном Killfeed или Scout AI. Препоручује се да га преузмете преко Steam-а и покушате поново.",

@@ -512,6 +512,8 @@
       "cameraWarningUser": "Twoje połączenie jest blokowane przez symetryczny NAT. Zwykle powoduje to problemy z połączeniem strumienia kamery. Zaleca się zmianę połączenia sieciowego i ponowne uruchomienie LHM."
     },
     "addons": {
+      "saveError": "Nie udało się zapisać ustawień dodatku.",
+      "restartError": "Ustawienia zostały zapisane, ale nie udało się ponownie uruchomić dodatku. Sprawdź jego stan na liście dodatków.",
       "upload": "Prześlij dodatek",
       "status": {
         "READY": "Gotowe",
@@ -1163,6 +1165,18 @@
     },
     "huds": {
       "header": "HUDy",
+      "drop": {
+        "prompt": "Upuść tutaj HUD-y i overlaye, aby dodać je do LHM"
+      },
+      "importSummary": {
+        "title": "Podsumowanie importu",
+        "skipped": "Pominięto",
+        "failed": "Nie udało się",
+        "differentGame": "Inna gra",
+        "notZip": "To nie jest archiwum ZIP",
+        "gameMismatch": "To archiwum jest przeznaczone dla gry {{archiveGame}}, ale bieżąca gra to {{currentGame}}.",
+        "allGames": "Wszystkie gry"
+      },
       "settings": {
         "title": "{{name}} - Ustawienia",
         "sections": "Sekcje ustawień HUD-u",

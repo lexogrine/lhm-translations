@@ -506,6 +506,8 @@
       "cameraWarningUser": "Koneksi Anda terhalang NAT simetris. Ini biasanya menyebabkan masalah koneksi streaming kamera. Disarankan mengubah koneksi jaringan dan memulai ulang LHM."
     },
     "addons": {
+      "saveError": "Tidak dapat menyimpan pengaturan addon.",
+      "restartError": "Pengaturan telah disimpan, tetapi addon tidak dapat dimulai ulang. Periksa statusnya di daftar addon.",
       "upload": "Unggah addon",
       "status": {
         "READY": "Siap",
@@ -1128,6 +1130,18 @@
     },
     "huds": {
       "header": "HUD",
+      "drop": {
+        "prompt": "Letakkan HUD dan overlay Anda di sini untuk menambahkannya ke LHM"
+      },
+      "importSummary": {
+        "title": "Ringkasan impor",
+        "skipped": "Dilewati",
+        "failed": "Gagal",
+        "differentGame": "Game berbeda",
+        "notZip": "Bukan arsip ZIP",
+        "gameMismatch": "Arsip ini untuk {{archiveGame}}, tetapi game saat ini adalah {{currentGame}}.",
+        "allGames": "Semua game"
+      },
       "workshopToolsModal": {
         "title": "CS2 Workshop Tools Tidak Ditemukan",
         "info": "DLC Counter-Strike 2 Workshop Tools tidak terdeteksi. DLC ini diperlukan saat menjalankan CS2 dengan Killfeed atau Scout AI aktif di LHM. Disarankan untuk mengunduhnya lewat Steam lalu coba lagi.",

@@ -506,6 +506,8 @@
       "cameraWarningUser": "Ihre Verbindung wird durch symmetrisches NAT blockiert. Das führt häufig zu Problemen mit dem Kamerastream. Es wird empfohlen, die Netzwerkverbindung zu ändern und LHM neu zu starten."
     },
     "addons": {
+      "saveError": "Addon-Einstellungen konnten nicht gespeichert werden.",
+      "restartError": "Die Einstellungen wurden gespeichert, aber das Addon konnte nicht neu gestartet werden. Prüfen Sie seinen Status in der Addon-Liste.",
       "upload": "Addon hochladen",
       "status": {
         "READY": "Fertig",
@@ -1128,6 +1130,18 @@
     },
     "huds": {
       "header": "HUDs",
+      "drop": {
+        "prompt": "HUDs und Overlays hier ablegen, um sie zu LHM hinzuzufügen"
+      },
+      "importSummary": {
+        "title": "Importübersicht",
+        "skipped": "Übersprungen",
+        "failed": "Fehlgeschlagen",
+        "differentGame": "Anderes Spiel",
+        "notZip": "Kein ZIP-Archiv",
+        "gameMismatch": "Dieses Archiv ist für {{archiveGame}} vorgesehen, aber das aktuelle Spiel ist {{currentGame}}.",
+        "allGames": "Alle Spiele"
+      },
       "workshopToolsModal": {
         "title": "CS2 Workshop Tools nicht gefunden",
         "info": "Counter-Strike 2 Workshop Tools DLC wurde nicht erkannt. Es wird für die Nutzung mit LHM benötigt, wenn CS2 mit aktiviertem Killfeed oder Scout AI gestartet wird. Es wird empfohlen, es über Steam herunterzuladen und es erneut zu versuchen.",

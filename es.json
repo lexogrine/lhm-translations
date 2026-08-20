@@ -506,6 +506,8 @@
       "cameraWarningUser": "Tu conexión está obstruida por NAT simétrica. Esto suele provocar problemas de conexión con la transmisión de cámara. Se recomienda cambiar la conexión de red y reiniciar LHM."
     },
     "addons": {
+      "saveError": "No se pudo guardar la configuración del complemento.",
+      "restartError": "La configuración se guardó, pero no se pudo reiniciar el complemento. Comprueba su estado en la lista de complementos.",
       "upload": "Cargar complemento",
       "status": {
         "READY": "Listo",
@@ -1128,6 +1130,18 @@
     },
     "huds": {
       "header": "HUDs",
+      "drop": {
+        "prompt": "Suelta aquí tus HUDs y overlays para añadirlos a LHM"
+      },
+      "importSummary": {
+        "title": "Resumen de importación",
+        "skipped": "Omitidos",
+        "failed": "Fallidos",
+        "differentGame": "Juego diferente",
+        "notZip": "No es un archivo ZIP",
+        "gameMismatch": "Este archivo es para {{archiveGame}}, pero el juego actual es {{currentGame}}.",
+        "allGames": "Todos los juegos"
+      },
       "workshopToolsModal": {
         "title": "No se encontraron Workshop Tools de CS2",
         "info": "No se detectó el DLC Counter-Strike 2 Workshop Tools. Es necesario para usar LHM al iniciar CS2 con Killfeed o Scout AI activados. Se recomienda descargarlo desde Steam y volver a intentarlo.",

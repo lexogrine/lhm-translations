@@ -506,6 +506,8 @@
       "cameraWarningUser": "Kết nối của bạn đang bị cản bởi NAT đối xứng. Điều này thường gây lỗi kết nối luồng camera. Khuyến nghị đổi kết nối mạng và khởi động lại LHM."
     },
     "addons": {
+      "saveError": "Không thể lưu cài đặt tiện ích bổ sung.",
+      "restartError": "Đã lưu cài đặt nhưng không thể khởi động lại tiện ích bổ sung. Hãy kiểm tra trạng thái của tiện ích trong danh sách tiện ích bổ sung.",
       "upload": "Tải lên tiện ích bổ trợ",
       "status": {
         "READY": "Sẵn sàng",
@@ -1128,6 +1130,18 @@
     },
     "huds": {
       "header": "HUDs",
+      "drop": {
+        "prompt": "Thả HUD và lớp phủ của bạn vào đây để thêm chúng vào LHM"
+      },
+      "importSummary": {
+        "title": "Tóm tắt quá trình nhập",
+        "skipped": "Đã bỏ qua",
+        "failed": "Thất bại",
+        "differentGame": "Trò chơi khác",
+        "notZip": "Không phải tệp ZIP",
+        "gameMismatch": "Tệp lưu trữ này dành cho {{archiveGame}}, nhưng trò chơi hiện tại là {{currentGame}}.",
+        "allGames": "Tất cả trò chơi"
+      },
       "workshopToolsModal": {
         "title": "Không tìm thấy CS2 Workshop Tools",
         "info": "Không phát hiện DLC Counter-Strike 2 Workshop Tools. DLC này là bắt buộc khi chạy CS2 với Killfeed hoặc Scout AI được bật trong LHM. Khuyến nghị tải DLC này qua Steam rồi thử lại.",

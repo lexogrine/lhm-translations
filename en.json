@@ -512,6 +512,8 @@
       "cameraWarningUser": "Your connection is obstructed by symmetric NAT. Usually it results in camera stream connection issues. It is recommended to change the network connection and restart LHM."
     },
     "addons": {
+      "saveError": "Unable to save addon settings.",
+      "restartError": "Settings were saved, but the addon could not be restarted. Check its status in the Addons list.",
       "upload": "Upload addon",
       "addon": "Addon",
       "actions": "Actions",
@@ -1159,6 +1161,18 @@
     },
     "huds": {
       "header": "HUDs",
+      "drop": {
+        "prompt": "Drop your HUDs and Overlays here to add them to LHM"
+      },
+      "importSummary": {
+        "title": "Import summary",
+        "skipped": "Skipped",
+        "failed": "Failed",
+        "differentGame": "Different game",
+        "notZip": "Not a ZIP archive",
+        "gameMismatch": "This archive is for {{archiveGame}}, but the current game is {{currentGame}}.",
+        "allGames": "All games"
+      },
       "settings": {
         "title": "{{name}} - Settings",
         "sections": "HUD settings sections",

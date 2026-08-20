@@ -506,6 +506,8 @@
       "cameraWarningUser": "Yhteytesi on symmetrisen NAT:n estämä. Yleensä se aiheuttaa ongelmia kamerastreamin yhteydessä. Verkkoyhteyden vaihtaminen ja LHM:n uudelleenkäynnistys on suositeltavaa."
     },
     "addons": {
+      "saveError": "Lisäosan asetuksia ei voitu tallentaa.",
+      "restartError": "Asetukset tallennettiin, mutta lisäosaa ei voitu käynnistää uudelleen. Tarkista sen tila lisäosaluettelosta.",
       "upload": "Lataa lisäosa",
       "status": {
         "READY": "Valmis",
@@ -1128,6 +1130,18 @@
     },
     "huds": {
       "header": "HUDit",
+      "drop": {
+        "prompt": "Pudota HUDit ja peittokuvat tähän lisätäksesi ne LHM:ään"
+      },
+      "importSummary": {
+        "title": "Tuonnin yhteenveto",
+        "skipped": "Ohitettu",
+        "failed": "Epäonnistunut",
+        "differentGame": "Eri peli",
+        "notZip": "Ei ZIP-arkisto",
+        "gameMismatch": "Tämä arkisto on tarkoitettu pelille {{archiveGame}}, mutta nykyinen peli on {{currentGame}}.",
+        "allGames": "Kaikki pelit"
+      },
       "workshopToolsModal": {
         "title": "CS2 Workshop Toolsia ei löydy",
         "info": "Counter-Strike 2 Workshop Tools -DLC:tä ei havaittu. Sitä tarvitaan LHM:n kanssa, kun CS2 käynnistetään Killfeed tai Scout AI käytössä. Suosittelemme lataamaan sen Steamista ja yrittämään uudelleen.",
