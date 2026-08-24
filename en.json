@@ -841,6 +841,7 @@
         "openReplayFeedClipsLocation": "Open Replay Feed clips location",
         "thisPcCode": "This PC code",
         "chooseYourMixer": "Choose your mixer",
+        "vmixConfiguration": "vMix configuration",
         "noInput": "No input",
         "stepCode": {
           "noVmixRunning": "It seems like you have no vMix running. You need to start it before you start setup",
