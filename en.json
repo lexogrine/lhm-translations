@@ -257,6 +257,7 @@
         "label": "Action Cinematic"
       },
       "scoutPausedTip": "Scout AI is paused because no running game was detected.",
+      "scoutTelnetDisconnectedWarning": "Scout AI is receiving live CS2 data, but Telnet is not connected. Scout Cinematic and Scout Vision in Direct mode require CS2 to be launched with Workshop Tools. Until Telnet connects, Scout Vision will fall back to Keyboard mode and Scout Cinematic may not work correctly.",
       "xrayWarning": "For X-Ray to work correctly, CS2 must be launched with Scout/X-Ray option turned on."
     },
     "composer": {
