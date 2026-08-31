@@ -512,6 +512,7 @@
       "searchPlayers": "Search players",
       "refinePlayerSearch": "Type to narrow the player list.",
       "selectAssignedPlayer": "Select an assigned player",
+      "showSelectedMatchAndLivePlayersOnly": "Show players only from selected match + Live data",
       "playerCameraEnabled": "Camera enabled for Player #{{player}}",
       "cameraWarningPlayer": "Connection to at least one of the players, marked by yellow dot, is obstructed by symmetric NAT. Usually it results in camera stream connection issues. It is recommended for the player to change the network connection and refresh the Camera page.",
       "cameraWarningUser": "Your connection is obstructed by symmetric NAT. Usually it results in camera stream connection issues. It is recommended to change the network connection and restart LHM."
