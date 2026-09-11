@@ -858,6 +858,7 @@
           "noVmixRunning": "It seems like you have no vMix running. You need to start it before you start setup",
           "vmixBadResponse": "We couldn't connect to your vMix :C",
           "noReplay": "Create Instant Replay input, by clicking Add Input > Instant Replay. Set Camera 1 to Output 2. Click OK",
+          "noNdiSource": "Create NDI Source input, by clicking Add Input > NDI Source. Select a source corresponding to the view from the Delayed PC.",
           "showInputs": "Pick input that is your delayed game. If you haven't added it yet, do it, and click refresh",
           "finish": "Your vMix setup is finished!"
         },
