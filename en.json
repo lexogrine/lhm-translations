@@ -820,6 +820,7 @@
         "activeNdi": "NDI Replay Source",
         "mixer": "Mixer",
         "address": "Address",
+        "vMixAddressRequired": "Enter a vMix address first.",
         "vMixInput": "vMix Input",
         "verifyConnection": "Setup",
         "setup": "Connect & Setup",
