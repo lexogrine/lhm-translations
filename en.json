@@ -869,7 +869,6 @@
         "installObsNdiPlugin": "Install OBS NDI Plugin",
         "installDistroAvPlugin": "Install DistroAV plugin for OBS",
         "distroAvInstalled": "DistroAV plugin installed successfully",
-        "distroAvSourceLicense": "DistroAV source & license",
         "openReplayFeedClipsLocation": "Open Replay Feed clips location",
         "playLatestReplayFeed": "Play latest Replay Feed clip",
         "playLatestReplayFeedUnavailable": "The latest Replay Feed clip is not available to play.",
