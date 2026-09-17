@@ -779,7 +779,22 @@
       "testingAndDebugging": "Testing and Debugging",
       "customRadarBy": "Custom radar by",
       "initialLayoutIdea": "Initial Layout Idea",
-      "feedbackAndIdeas": "Feedback & Ideas"
+      "feedbackAndIdeas": "Feedback & Ideas",
+      "legal": {
+        "title": "Credits & Legal",
+        "ndiTitle": "NDI®",
+        "ndiTrademark": "NDI® is a registered trademark of Vizrt NDI AB",
+        "ndiLearnMore": "Learn about NDI®",
+        "ffmpegTitle": "FFmpeg",
+        "ffmpegDescription": "LHM Replay Feed uses FFmpeg 7.1 under the GNU General Public License version 3 or later.",
+        "ffmpegProject": "FFmpeg project",
+        "sourceRevision": "Source revision",
+        "distroAvTitle": "DistroAV",
+        "distroAvDescription": "LHM can download DistroAV 6.0.0 for OBS. DistroAV is licensed under GPLv2.",
+        "source": "Source",
+        "license": "License",
+        "terms": "Terms of Service and EULA"
+      }
     },
     "arg": {
       "safeband": "Safety band",
@@ -798,6 +813,10 @@
       "clockDifference": "Clock difference: {{value}} ms",
       "userGuide": "User Guide",
       "learnMoreNdi": "Learn more about NDI",
+      "ndiAttribution": {
+        "learnMore": "Learn about NDI®",
+        "trademark": "NDI® is a registered trademark of Vizrt NDI AB"
+      },
       "sections": {
         "connection": "Connection",
         "configuration": "Replay configuration",
@@ -836,6 +855,9 @@
         "ready": "Ready",
         "manualSelection": "Ready with manual source selection",
         "missingNdi": "Missing NDI Source support",
+        "distroAvRequiredTitle": "DistroAV Plugin Required",
+        "distroAvRequiredBody": "OBS does not currently support the Replay Feed source.",
+        "distroAvRequiredAction": "Install the DistroAV plugin for OBS, restart OBS, then return to setup.",
         "notConnected": "Not connected",
         "unknown": "Unknown",
         "manualSelectionHelp": "In OBS, open LHM Replay Input properties and select the source ending with LHM Replay Feed."
@@ -845,6 +867,9 @@
         "replayModeContent": "This computer is the replay machine. Replay configuration is controlled from Replays on the main PC.",
         "currentMode": "Current mode",
         "installObsNdiPlugin": "Install OBS NDI Plugin",
+        "installDistroAvPlugin": "Install DistroAV plugin for OBS",
+        "distroAvInstalled": "DistroAV plugin installed successfully",
+        "distroAvSourceLicense": "DistroAV source & license",
         "openReplayFeedClipsLocation": "Open Replay Feed clips location",
         "playLatestReplayFeed": "Play latest Replay Feed clip",
         "playLatestReplayFeedUnavailable": "The latest Replay Feed clip is not available to play.",
@@ -1143,7 +1168,9 @@
         },
         "credits": {
           "credits": "Credits",
-          "seeNow": "See now"
+          "seeNow": "See now",
+          "legal": "Credits & Legal",
+          "view": "View"
         },
         "downloads": {
           "downloads": "Downloads",
