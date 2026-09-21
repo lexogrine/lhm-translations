@@ -803,6 +803,7 @@
       "afterKill": "After kill",
       "saveClips": "Save clips",
       "saveClipsDescription": "Keep generated replay clips after playback",
+      "playClipsAutomatically": "Play clips automatically",
       "delayConfig": "Delay config",
       "computerId": "Computer ID",
       "replayMachineCode": "Replay machine code",
