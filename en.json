@@ -497,6 +497,7 @@
     "cameras": {
       "generatePassword": "Generate password",
       "sendToPlayers": "Send this to your players",
+      "clearSelection": "Clear selection",
       "fillFromLive": "Fill from Live tab",
       "fillFromLiveNoData": "No player data is available in the Live tab yet. Start the game or wait for LHM to receive player data.",
       "fillFromSelectedMatch": "Fill from selected Match",
