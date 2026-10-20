@@ -989,6 +989,7 @@
       "leagueOfLegendsServerMode": "Data Gathering Mode",
       "leagueOfLegendsGameLanguage": "League of Legends In-game Font",
       "openValorantScoreboardAutomatically": "Open Valorant Scoreboard automatically",
+      "valorantRoundEndEventsEnabled": "Enable automatic Valorant round-end events",
       "showStudioDataInOtherGames": "Show Studio data in other games",
       "language": "Language",
       "dota2Assets": "Dota 2 Assets",
