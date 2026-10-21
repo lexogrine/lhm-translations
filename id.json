@@ -1,6 +1,16 @@
 {
   "translation": {
     "common": {
+      "apply": "Terapkan",
+      "error": "Terjadi kesalahan.",
+      "none": "Tidak ada",
+      "remove": "Hapus",
+      "options": {
+        "none": "Tidak ada"
+      },
+      "titles": {
+        "settings": "Pengaturan"
+      },
       "cgMode": "Mode CG",
       "or": "atau",
       "close": "Tutup",
@@ -103,6 +113,7 @@
       "copied": "Disalin"
     },
     "chat": {
+      "sendMessage": "Kirim pesan",
       "title": "Obrolan Dukungan",
       "header": "Mengobrol dengan Dukungan",
       "suggestionHeader": "Ini mungkin menjawab pertanyaan Anda",
@@ -110,6 +121,7 @@
       "typeYourMessage": "Ketik pesan Anda di sini..."
     },
     "color-picker": {
+      "revert-to-default": "Kembalikan ke nilai bawaan",
       "contrast-excellent-label": "Kontras Luar Biasa!",
       "contrast-excellent-message": "Penonton Anda akan melihat teks dengan jelas pada latar belakang ini.",
       "contrast-good-label": "Kontras Baik",
@@ -141,6 +153,9 @@
       "select-trigger": "Pilih Pemicu",
       "select-player": "Pilih Pemain",
       "select-side": "Pilih Sisi"
+    },
+    "signal-ad": {
+      "any-player": "Pemain mana saja"
     },
     "blocker": {
       "personal": "Tingkatkan LHM Anda ke paket Personal, Professional, atau Enterprise untuk mendapatkan akses penuh ke bagian ini.",
@@ -181,6 +196,8 @@
       "overlays": "Overlays"
     },
     "aco": {
+      "scoutTelnetDisconnectedWarning": "Scout AI menerima data langsung CS2, tetapi Telnet belum terhubung. Scout Cinematic dan Scout Vision dalam mode Langsung mengharuskan CS2 dijalankan dengan Workshop Tools. Sampai Telnet terhubung, Scout Vision akan kembali ke mode Keyboard dan Scout Cinematic mungkin tidak berfungsi dengan benar.",
+      "scoutConsoleCaptureUnavailableWarning": "Pemilihan pemain CS2 secara langsung tidak tersedia. Scout Cinematic dan Scout Vision dalam mode Langsung mengharuskan CS2 dijalankan dengan Workshop Tools. Scout Vision akan kembali ke mode Keyboard dan Scout Cinematic mungkin tidak berfungsi dengan benar.",
       "disabled": "Dinonaktifkan",
       "aco1": "ACO",
       "acoAI": "ACO AI",
@@ -479,6 +496,10 @@
       "importTeamsExcel": "Gunakan lembar Excel yang sudah disiapkan untuk mengimpor banyak tim sekaligus dengan mudah.",
       "logo": "Logo"
     },
+    "xray": {
+      "counterTerrorists": "Kontra-Teroris",
+      "terrorists": "Teroris"
+    },
     "live": {
       "replaceUsernames": "Mengganti nama pengguna",
       "header": "Live",
@@ -488,6 +509,22 @@
       "noGameDescription": "Data pertandingan langsung untuk {{game}} akan muncul di sini secara otomatis saat terdeteksi."
     },
     "cameras": {
+      "settings": "Pengaturan kamera",
+      "filterSlots": "Filter slot kamera",
+      "filters": {
+        "assigned": "Ditugaskan",
+        "active": "Aktif",
+        "all": "Semua"
+      },
+      "searchSlots": "Cari nomor slot atau pemain",
+      "searchSlotsPlaceholder": "Cari slot atau pemain",
+      "noSlotsMatch": "Tidak ada slot kamera yang cocok dengan filter ini.",
+      "clearSelection": "Hapus pilihan",
+      "fillFromLiveNoData": "Belum ada data pemain di tab Live. Jalankan permainan atau tunggu hingga LHM menerima data.",
+      "fillFromSelectedMatch": "Isi dari pertandingan yang dipilih",
+      "fillFromSelectedMatchNoCurrent": "Tidak ada pertandingan yang ditandai Live di tab Pertandingan.",
+      "fillFromSelectedMatchNoPlayers": "Pertandingan yang ditandai Live tidak memiliki pemain yang memenuhi syarat. Pelatih dan pemain tanpa pengenal akan dilewati.",
+      "showSelectedMatchAndLivePlayersOnly": "Tampilkan hanya pemain dari pertandingan yang dipilih dan tab Live",
       "generatePassword": "Buat kata sandi",
       "sendToPlayers": "Kirim ini ke pemain Anda",
       "fillFromLive": "Isi dari tab Live",
@@ -549,6 +586,8 @@
       "people": "Orang"
     },
     "signals": {
+      "testAction": "Uji tindakan Companion",
+      "toggleBranches": "Alihkan cabang peristiwa",
       "removal": {
         "title": "Menghapus preset",
         "areYouSure": "Apakah Anda yakin ingin menghapus preset \"{{name}}\"?"
@@ -589,6 +628,7 @@
       "emptyList": "Belum ada event. Tambahkan event pertama Anda."
     },
     "quick": {
+      "overwriteTitle": "Menimpa?",
       "uploadImage": "Unggah gambar",
       "teamLogo": "Logo Tim",
       "backToLHM": "Kembali ke LHM",
@@ -622,6 +662,7 @@
       }
     },
     "tournaments": {
+      "noPlayoffs": "Play-off belum dibuat.",
       "overview": "Ringkasan",
       "edit": "Edit turnamen",
       "page": "Halaman turnamen",
@@ -751,6 +792,10 @@
       "feedbackAndIdeas": "Umpan Balik & Ide"
     },
     "arg": {
+      "playClipsAutomatically": "Putar klip secara otomatis",
+      "ndiAttribution": {
+        "learnMore": "Pelajari NDI®"
+      },
       "safeband": "Pita pengaman",
       "beforeKill": "Sebelum membunuh",
       "useHLAE": "Gunakan HLAE?",
@@ -767,6 +812,7 @@
         "label": "Prioritas"
       },
       "mixer": {
+        "vMixAddressRequired": "Masukkan alamat vMix terlebih dahulu.",
         "label": "Pengaduk",
         "activeNdi": "Sumber Putar Ulang NDI",
         "mixer": "Mixer",
@@ -782,6 +828,17 @@
         "chooseReplayInput": "Pilih input replay"
       },
       "replay": {
+        "installDistroAvPlugin": "Instal plugin DistroAV untuk OBS",
+        "distroAvInstalled": "Plugin DistroAV berhasil diinstal",
+        "playLatestReplayFeed": "Putar klip Replay Feed terbaru",
+        "playLatestReplayFeedUnavailable": "Klip Replay Feed terbaru tidak dapat diputar.",
+        "playLatestReplayFeedError": "Tidak dapat memutar klip Replay Feed terbaru.",
+        "playLatestReplayFeedNoClip": "Belum ada klip Replay Feed yang selesai.",
+        "playLatestReplayFeedCapturing": "Tunggu hingga pengambilan klip Replay Feed saat ini selesai.",
+        "playLatestReplayFeedAutomaticPlayPending": "Klip Replay Feed terbaru berada dalam antrean pemutaran otomatis.",
+        "playLatestReplayFeedAlreadyPlaying": "Klip Replay Feed sedang diputar.",
+        "invalidMachineCode": "Masukkan kode mesin replay yang valid.",
+        "vmixConfiguration": "Konfigurasi vMix",
         "replayModeTitle": "Mode Putar Ulang",
         "replayModeContent": "LHM ini sekarang berjalan dalam Mode Replay. Untuk memodifikasi parameter pemutaran ulang & mixer & parameter lainnya, lihat tab ARG pada PC Utama",
         "installObsNdiPlugin": "Instal Plugin OBS NDI",
@@ -789,6 +846,7 @@
         "chooseYourMixer": "Pilih mixer Anda",
         "noInput": "Tidak ada masukan",
         "stepCode": {
+          "noNdiSource": "Buat input NDI Source dengan mengeklik Add Input > NDI Source. Pilih sumber yang sesuai dengan tampilan dari PC tertunda.",
           "noVmixRunning": "Sepertinya Anda belum menjalankan vMix. Anda harus menjalankannya sebelum memulai penyiapan",
           "vmixBadResponse": "Kami tidak dapat terhubung ke vMix Anda: C",
           "noReplay": "Buat input Putar Ulang Instan dengan mengeklik Tambah Input > Putar Ulang Instan. Atur Kamera 1 ke Output 2. Klik OK",
@@ -842,6 +900,9 @@
         "milliseconds": "milidetik"
       },
       "obsStatus": {
+        "distroAvRequiredTitle": "Plugin DistroAV diperlukan",
+        "distroAvRequiredBody": "OBS saat ini tidak mendukung sumber Replay Feed.",
+        "distroAvRequiredAction": "Instal plugin DistroAV untuk OBS, mulai ulang OBS, lalu kembali ke penyiapan.",
         "label": "Penyiapan OBS",
         "ready": "Siap",
         "manualSelection": "Siap dengan pemilihan sumber manual",
@@ -852,6 +913,7 @@
       }
     },
     "settings": {
+      "valorantRoundEndEventsEnabled": "Aktifkan peristiwa otomatis akhir ronde Valorant",
       "logIn": "Masuk",
       "email": "Email",
       "password": "Kata sandi",
@@ -976,6 +1038,7 @@
       },
       "entry": {
         "keybinds": {
+          "playLatestReplayFeed": "Putar klip Replay Feed terbaru",
           "keybinds": "Tombol-tombol kunci",
           "hardRefreshHUD": "Penyegaran keras HUD",
           "argToggle": "Beralih ARG",
@@ -1011,6 +1074,8 @@
           "slowMode": "Mode Lambat"
         },
         "credits": {
+          "legal": "Kredit dan informasi hukum",
+          "view": "Lihat",
           "credits": "Kredit",
           "seeNow": "Lihat sekarang"
         },
@@ -1487,6 +1552,10 @@
         }
       },
       "arg": {
+        "autoInputSwitch": {
+          "title": "Sakelar Input Otomatis",
+          "info": "Mengatur apakah LHM otomatis mengganti keluaran mixer saat replay dimulai.\nDalam mode vMix Instant Replay, mengaktifkannya akan mengirim replay langsung ke Output; menonaktifkannya akan memulai pemutaran tanpa mengubah input Program yang aktif.\nDalam mode Replay Feed, mengaktifkannya akan mengalihkan vMix ke input replay yang dipilih atau OBS ke adegan Replay, lalu memulihkan keluaran sebelumnya setelah pemutaran. Jika dinonaktifkan, klip Replay Feed tetap diputar tetapi keluaran mixer tidak berubah.\nAnda juga dapat memutar ulang klip Replay Feed terbaru yang telah selesai secara manual menggunakan Putar klip Replay Feed terbaru."
+        },
         "tab": {
           "title": "Replays",
           "info": "Modul Auto Replay Generator (ARG) menghasilkan replay yang dapat ditampilkan di antara ronde atau di akhir permainan.\nHarap diingat bahwa vMix diperlukan untuk konfigurasi ARG yang tepat. vMix bukanlah aplikasi gratis, dan ARG sendiri dirancang terutama untuk tim produksi yang sudah menggunakan vMix."

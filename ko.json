@@ -1,6 +1,16 @@
 {
   "translation": {
     "common": {
+      "apply": "적용",
+      "error": "문제가 발생했습니다.",
+      "none": "없음",
+      "remove": "제거",
+      "options": {
+        "none": "없음"
+      },
+      "titles": {
+        "settings": "설정"
+      },
       "cgMode": "CG 모드",
       "or": "또는",
       "close": "닫기",
@@ -103,6 +113,7 @@
       "copied": "복사됨"
     },
     "chat": {
+      "sendMessage": "메시지 보내기",
       "title": "지원 채팅",
       "header": "지원팀과 채팅하기",
       "suggestionHeader": "질문에 대한 답변이 있을 수 있습니다",
@@ -110,6 +121,7 @@
       "typeYourMessage": "여기에 메시지를 입력하세요..."
     },
     "color-picker": {
+      "revert-to-default": "기본값으로 되돌리기",
       "contrast-excellent-label": "뛰어난 대비!",
       "contrast-excellent-message": "시청자는 이 배경에서 텍스트를 선명하게 볼 수 있습니다.",
       "contrast-good-label": "양호한 대비",
@@ -141,6 +153,9 @@
       "select-trigger": "트리거 선택",
       "select-player": "플레이어 선택",
       "select-side": "진영 선택"
+    },
+    "signal-ad": {
+      "any-player": "모든 플레이어"
     },
     "blocker": {
       "personal": "이 섹션에 대한 전체 액세스 권한을 얻으려면 LHM을 개인, 프로페셔널 또는 엔터프라이즈 요금제로 업그레이드하세요.",
@@ -181,6 +196,8 @@
       "overlays": "오버레이"
     },
     "aco": {
+      "scoutTelnetDisconnectedWarning": "Scout AI가 실시간 CS2 데이터를 수신하고 있지만 Telnet이 연결되지 않았습니다. 직접 모드의 Scout Cinematic과 Scout Vision을 사용하려면 Workshop Tools로 CS2를 실행해야 합니다. Telnet이 연결될 때까지 Scout Vision은 키보드 모드로 전환되며 Scout Cinematic이 올바르게 작동하지 않을 수 있습니다.",
+      "scoutConsoleCaptureUnavailableWarning": "CS2 플레이어 직접 선택을 사용할 수 없습니다. 직접 모드의 Scout Cinematic과 Scout Vision을 사용하려면 Workshop Tools로 CS2를 실행해야 합니다. Scout Vision은 키보드 모드로 전환되며 Scout Cinematic이 올바르게 작동하지 않을 수 있습니다.",
       "disabled": "비활성화됨",
       "aco1": "ACO",
       "acoAI": "ACO AI",
@@ -479,6 +496,10 @@
       "importTeamsExcel": "미리 준비된 Excel 시트를 사용하여 많은 팀을 한 번에 쉽게 가져올 수 있습니다.",
       "logo": "로고"
     },
+    "xray": {
+      "counterTerrorists": "대테러부대",
+      "terrorists": "테러리스트"
+    },
     "live": {
       "replaceUsernames": "사용자 이름 바꾸기",
       "header": "라이브",
@@ -488,6 +509,22 @@
       "noGameDescription": "{{game}}의 라이브 경기 데이터가 감지되면 여기에 자동으로 표시됩니다."
     },
     "cameras": {
+      "settings": "카메라 설정",
+      "filterSlots": "카메라 슬롯 필터",
+      "filters": {
+        "assigned": "할당됨",
+        "active": "활성",
+        "all": "전체"
+      },
+      "searchSlots": "슬롯 번호 또는 플레이어 검색",
+      "searchSlotsPlaceholder": "슬롯 또는 플레이어 검색",
+      "noSlotsMatch": "이 필터와 일치하는 카메라 슬롯이 없습니다.",
+      "clearSelection": "선택 지우기",
+      "fillFromLiveNoData": "Live 탭에 아직 플레이어 데이터가 없습니다. 게임을 시작하거나 LHM이 데이터를 수신할 때까지 기다리세요.",
+      "fillFromSelectedMatch": "선택한 경기에서 채우기",
+      "fillFromSelectedMatchNoCurrent": "경기 탭에 Live로 표시된 경기가 없습니다.",
+      "fillFromSelectedMatchNoPlayers": "Live로 표시된 경기에 사용할 수 있는 플레이어가 없습니다. 코치와 식별자가 없는 플레이어는 제외됩니다.",
+      "showSelectedMatchAndLivePlayersOnly": "선택한 경기와 Live 탭의 플레이어만 표시",
       "generatePassword": "비밀번호 생성",
       "sendToPlayers": "이 비밀번호를 플레이어에게 전송",
       "fillFromLive": "라이브 탭에서 채우기",
@@ -549,6 +586,8 @@
       "people": "People"
     },
     "signals": {
+      "testAction": "Companion 동작 테스트",
+      "toggleBranches": "이벤트 분기 전환",
       "removal": {
         "title": "프리셋 삭제",
         "areYouSure": "프리셋 \"{{name}}\"을 삭제하시겠습니까?"
@@ -589,6 +628,7 @@
       "emptyList": "아직 이벤트가 없습니다. 첫 이벤트를 추가하세요."
     },
     "quick": {
+      "overwriteTitle": "덮어쓰시겠습니까?",
       "uploadImage": "이미지 업로드",
       "teamLogo": "팀 로고",
       "backToLHM": "LHM으로 돌아가기",
@@ -622,6 +662,7 @@
       }
     },
     "tournaments": {
+      "noPlayoffs": "아직 플레이오프가 생성되지 않았습니다.",
       "overview": "개요",
       "edit": "토너먼트 수정",
       "page": "토너먼트 페이지",
@@ -751,6 +792,10 @@
       "feedbackAndIdeas": "피드백 및 아이디어"
     },
     "arg": {
+      "playClipsAutomatically": "클립 자동 재생",
+      "ndiAttribution": {
+        "learnMore": "NDI® 자세히 알아보기"
+      },
       "safeband": "안전 밴드",
       "beforeKill": "죽이기 전",
       "useHLAE": "HLAE 사용?",
@@ -767,6 +812,7 @@
         "label": "우선순위"
       },
       "mixer": {
+        "vMixAddressRequired": "먼저 vMix 주소를 입력하세요.",
         "label": "믹서",
         "activeNdi": "NDI 리플레이 소스",
         "mixer": "믹서",
@@ -782,6 +828,17 @@
         "chooseReplayInput": "리플레이 입력 선택"
       },
       "replay": {
+        "installDistroAvPlugin": "OBS용 DistroAV 플러그인 설치",
+        "distroAvInstalled": "DistroAV 플러그인이 설치되었습니다",
+        "playLatestReplayFeed": "최신 Replay Feed 클립 재생",
+        "playLatestReplayFeedUnavailable": "최신 Replay Feed 클립을 재생할 수 없습니다.",
+        "playLatestReplayFeedError": "최신 Replay Feed 클립을 재생하지 못했습니다.",
+        "playLatestReplayFeedNoClip": "아직 완성된 Replay Feed 클립이 없습니다.",
+        "playLatestReplayFeedCapturing": "현재 Replay Feed 클립 캡처가 끝날 때까지 기다리세요.",
+        "playLatestReplayFeedAutomaticPlayPending": "최신 Replay Feed 클립이 자동 재생 대기열에 추가되었습니다.",
+        "playLatestReplayFeedAlreadyPlaying": "Replay Feed 클립이 이미 재생 중입니다.",
+        "invalidMachineCode": "올바른 리플레이 머신 코드를 입력하세요.",
+        "vmixConfiguration": "vMix 구성",
         "replayModeTitle": "리플레이 모드",
         "replayModeContent": "이 LHM은 이제 리플레이 모드에서 실행됩니다. 리플레이 및 믹서 파라미터를 수정하려면 메인 PC의 ARG 탭을 확인하세요",
         "installObsNdiPlugin": "OBS NDI 플러그인 설치",
@@ -789,6 +846,7 @@
         "chooseYourMixer": "믹서 선택",
         "noInput": "입력 없음",
         "stepCode": {
+          "noNdiSource": "Add Input > NDI Source를 클릭하여 NDI Source 입력을 만드세요. 지연 PC의 화면에 해당하는 소스를 선택하세요.",
           "noVmixRunning": "VMix가 실행되지 않는 것 같습니다. 설정을 시작하기 전에 시작해야 합니다",
           "vmixBadResponse": "VMix :C에 연결할 수 없습니다",
           "noReplay": "입력 추가를 클릭하여 인스턴트 리플레이 입력을 생성합니다. 카메라 1을 출력 2로 설정합니다. 확인을 클릭합니다",
@@ -842,6 +900,9 @@
         "milliseconds": "밀리초"
       },
       "obsStatus": {
+        "distroAvRequiredTitle": "DistroAV 플러그인 필요",
+        "distroAvRequiredBody": "현재 OBS는 Replay Feed 소스를 지원하지 않습니다.",
+        "distroAvRequiredAction": "OBS용 DistroAV 플러그인을 설치하고 OBS를 다시 시작한 다음 설정으로 돌아오세요.",
         "label": "OBS 설정",
         "ready": "준비됨",
         "manualSelection": "수동 소스 선택으로 준비됨",
@@ -852,6 +913,7 @@
       }
     },
     "settings": {
+      "valorantRoundEndEventsEnabled": "Valorant 라운드 종료 자동 이벤트 활성화",
       "logIn": "로그인",
       "email": "이메일",
       "password": "비밀번호",
@@ -976,6 +1038,7 @@
       },
       "entry": {
         "keybinds": {
+          "playLatestReplayFeed": "최신 Replay Feed 클립 재생",
           "keybinds": "키 바인드",
           "hardRefreshHUD": "하드 새로 고침 HUD",
           "argToggle": "ARG 토글",
@@ -1011,6 +1074,8 @@
           "slowMode": "느린 모드"
         },
         "credits": {
+          "legal": "크레딧 및 법적 정보",
+          "view": "보기",
           "credits": "크레딧",
           "seeNow": "지금 보기"
         },
@@ -1487,6 +1552,10 @@
         }
       },
       "arg": {
+        "autoInputSwitch": {
+          "title": "자동 입력 스위치",
+          "info": "리플레이 시작 시 LHM이 믹서 출력을 자동으로 전환할지 설정합니다.\nvMix Instant Replay 모드에서 활성화하면 리플레이가 Output으로 바로 전송되고, 비활성화하면 활성 Program 입력을 변경하지 않고 재생됩니다.\nReplay Feed 모드에서 활성화하면 vMix가 선택한 리플레이 입력으로, 또는 OBS가 Replay 장면으로 전환된 후 재생이 끝나면 이전 출력으로 돌아갑니다. 비활성화해도 Replay Feed 클립은 재생되지만 믹서 출력은 변경되지 않습니다.\n최신 Replay Feed 클립 재생을 사용하여 가장 최근에 완성된 클립을 수동으로 다시 재생할 수도 있습니다."
+        },
         "tab": {
           "title": "Replays",
           "info": "자동 리플레이 생성기(ARG) 모듈은 라운드 사이 또는 게임 종료 시 표시할 수 있는 리플레이를 생성합니다.\nARG를 올바르게 구성하려면 vMix가 필요합니다. vMix는 무료 애플리케이션이 아니며, ARG 자체는 주로 vMix를 이미 사용하고 있는 프로덕션 팀을 위해 설계되었습니다."

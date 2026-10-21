@@ -1,6 +1,16 @@
 {
   "translation": {
     "common": {
+      "apply": "Применить",
+      "error": "Произошла ошибка.",
+      "none": "Нет",
+      "remove": "Удалить",
+      "options": {
+        "none": "Нет"
+      },
+      "titles": {
+        "settings": "Настройки"
+      },
       "cgMode": "Режим CG",
       "or": "или",
       "close": "Закрыть",
@@ -103,6 +113,7 @@
       "copied": "Скопировано"
     },
     "chat": {
+      "sendMessage": "Отправить сообщение",
       "title": "Чат поддержки",
       "header": "Чат со службой поддержки",
       "suggestionHeader": "Это может ответить на ваш вопрос",
@@ -110,6 +121,7 @@
       "typeYourMessage": "Введите ваше сообщение здесь..."
     },
     "color-picker": {
+      "revert-to-default": "Вернуть значение по умолчанию",
       "contrast-excellent-label": "Отличный контраст!",
       "contrast-excellent-message": "Ваши зрители будут чётко видеть текст на этом фоне.",
       "contrast-good-label": "Хороший контраст",
@@ -141,6 +153,9 @@
       "select-trigger": "Выбрать триггер",
       "select-player": "Выбрать игрока",
       "select-side": "Выбрать сторону"
+    },
+    "signal-ad": {
+      "any-player": "Любой игрок"
     },
     "blocker": {
       "personal": "Чтобы получить полный доступ к этому разделу, повысьте тарифный план LHM до Personal, Professional или Enterprise.",
@@ -181,6 +196,8 @@
       "overlays": "Оверлеи"
     },
     "aco": {
+      "scoutTelnetDisconnectedWarning": "Scout AI получает данные CS2 в реальном времени, но Telnet не подключён. Для Scout Cinematic и Scout Vision в прямом режиме CS2 должна быть запущена с Workshop Tools. Пока Telnet не подключится, Scout Vision будет использовать режим клавиатуры, а Scout Cinematic может работать некорректно.",
+      "scoutConsoleCaptureUnavailableWarning": "Прямой выбор игроков CS2 недоступен. Для Scout Cinematic и Scout Vision в прямом режиме CS2 должна быть запущена с Workshop Tools. Scout Vision будет использовать режим клавиатуры, а Scout Cinematic может работать некорректно.",
       "disabled": "Отключено",
       "aco1": "ACO",
       "acoAI": "ACO AI",
@@ -479,6 +496,10 @@
       "importTeamsExcel": "Используйте подготовленный лист Excel для импорта сразу нескольких команд.",
       "logo": "Логотип"
     },
+    "xray": {
+      "counterTerrorists": "Спецназ",
+      "terrorists": "Террористы"
+    },
     "live": {
       "replaceUsernames": "Заменить никнеймы",
       "header": "Live",
@@ -488,6 +509,22 @@
       "noGameDescription": "Данные Live-матча для {{game}} появятся здесь автоматически после обнаружения."
     },
     "cameras": {
+      "settings": "Настройки камер",
+      "filterSlots": "Фильтр слотов камер",
+      "filters": {
+        "assigned": "Назначенные",
+        "active": "Активные",
+        "all": "Все"
+      },
+      "searchSlots": "Поиск по номеру слота или игроку",
+      "searchSlotsPlaceholder": "Поиск слота или игрока",
+      "noSlotsMatch": "Нет слотов камер, соответствующих фильтру.",
+      "clearSelection": "Очистить выбор",
+      "fillFromLiveNoData": "На вкладке Live пока нет данных об игроках. Запустите игру или дождитесь, пока LHM получит данные.",
+      "fillFromSelectedMatch": "Заполнить из выбранного матча",
+      "fillFromSelectedMatchNoCurrent": "На вкладке матчей нет матча, отмеченного как Live.",
+      "fillFromSelectedMatchNoPlayers": "В матче, отмеченном как Live, нет подходящих игроков. Тренеры и игроки без идентификаторов пропускаются.",
+      "showSelectedMatchAndLivePlayersOnly": "Показывать только игроков из выбранного матча и вкладки Live",
       "generatePassword": "Создать пароль",
       "sendToPlayers": "Отправьте это своим игрокам",
       "fillFromLive": "Заполнить из вкладки Live",
@@ -549,6 +586,8 @@
       "people": "Люди"
     },
     "signals": {
+      "testAction": "Проверить действие Companion",
+      "toggleBranches": "Переключить ветви события",
       "removal": {
         "title": "Удалить предустановку",
         "areYouSure": "Вы уверены, что хотите удалить пресет \"{{name}}\"?"
@@ -589,6 +628,7 @@
       "emptyList": "Событий пока нет. Добавьте первое событие."
     },
     "quick": {
+      "overwriteTitle": "Перезаписать?",
       "uploadImage": "Загрузить картинку",
       "teamLogo": "Логотип команды",
       "backToLHM": "Вернуться в LHM",
@@ -622,6 +662,7 @@
       }
     },
     "tournaments": {
+      "noPlayoffs": "Плей-офф ещё не создан.",
       "overview": "Обзор",
       "edit": "Редактировать турнир",
       "page": "Страница турнира",
@@ -751,6 +792,10 @@
       "feedbackAndIdeas": "Отзывы и идеи"
     },
     "arg": {
+      "playClipsAutomatically": "Автоматически воспроизводить клипы",
+      "ndiAttribution": {
+        "learnMore": "Подробнее о NDI®"
+      },
       "safeband": "Полоса безопасности",
       "beforeKill": "Перед убийством",
       "useHLAE": "Использовать HLAE?",
@@ -767,6 +812,7 @@
         "label": "Приоритет"
       },
       "mixer": {
+        "vMixAddressRequired": "Сначала введите адрес vMix.",
         "label": "Миксер",
         "activeNdi": "Источник воспроизведения NDI",
         "mixer": "Микшер",
@@ -782,6 +828,17 @@
         "chooseReplayInput": "Выберите вход повтора"
       },
       "replay": {
+        "installDistroAvPlugin": "Установить плагин DistroAV для OBS",
+        "distroAvInstalled": "Плагин DistroAV успешно установлен",
+        "playLatestReplayFeed": "Воспроизвести последний клип Replay Feed",
+        "playLatestReplayFeedUnavailable": "Последний клип Replay Feed недоступен для воспроизведения.",
+        "playLatestReplayFeedError": "Не удалось воспроизвести последний клип Replay Feed.",
+        "playLatestReplayFeedNoClip": "Готовых клипов Replay Feed пока нет.",
+        "playLatestReplayFeedCapturing": "Дождитесь завершения записи текущего клипа Replay Feed.",
+        "playLatestReplayFeedAutomaticPlayPending": "Последний клип Replay Feed поставлен в очередь автоматического воспроизведения.",
+        "playLatestReplayFeedAlreadyPlaying": "Клип Replay Feed уже воспроизводится.",
+        "invalidMachineCode": "Введите действительный код машины повтора.",
+        "vmixConfiguration": "Настройка vMix",
         "replayModeTitle": "Режим воспроизведения",
         "replayModeContent": "Теперь этот LHM работает в режиме воспроизведения. Для изменения параметров режима воспроизведения & mixer' обратитесь к вкладке ARG на главном компьютере",
         "installObsNdiPlugin": "Установите плагин OBS NDI Plugin",
@@ -789,6 +846,7 @@
         "chooseYourMixer": "Выберите микшер",
         "noInput": "Нет входа",
         "stepCode": {
+          "noNdiSource": "Создайте вход NDI Source, нажав Add Input > NDI Source. Выберите источник, соответствующий изображению с компьютера с задержкой.",
           "noVmixRunning": "Похоже, что у вас не запущен vMix. Вам нужно запустить его перед началом настройки",
           "vmixBadResponse": "Мы не смогли подключиться к вашему vMix :C",
           "noReplay": "Создайте вход Instant Replay, нажав Add Input > Instant Replay. Установите камеру 1 на выход 2. Нажмите OK",
@@ -842,6 +900,9 @@
         "milliseconds": "миллисекунды"
       },
       "obsStatus": {
+        "distroAvRequiredTitle": "Требуется плагин DistroAV",
+        "distroAvRequiredBody": "OBS пока не поддерживает источник Replay Feed.",
+        "distroAvRequiredAction": "Установите плагин DistroAV для OBS, перезапустите OBS и вернитесь к настройке.",
         "label": "Настройка OBS",
         "ready": "Готово",
         "manualSelection": "Готово с ручным выбором источника",
@@ -852,6 +913,7 @@
       }
     },
     "settings": {
+      "valorantRoundEndEventsEnabled": "Включить автоматические события окончания раунда Valorant",
       "logIn": "Войти",
       "email": "Email",
       "password": "Пароль",
@@ -976,6 +1038,7 @@
       },
       "entry": {
         "keybinds": {
+          "playLatestReplayFeed": "Воспроизвести последний клип Replay Feed",
           "keybinds": "Сочетания клавиш",
           "hardRefreshHUD": "Принудительно перезагрузить HUD",
           "argToggle": "Включить ARG",
@@ -1011,6 +1074,8 @@
           "slowMode": "Режим замедления"
         },
         "credits": {
+          "legal": "Авторы и правовая информация",
+          "view": "Открыть",
           "credits": "Авторы",
           "seeNow": "Посмотреть"
         },
@@ -1487,6 +1552,10 @@
         }
       },
       "arg": {
+        "autoInputSwitch": {
+          "title": "Автоматический переключатель входа",
+          "info": "Определяет, будет ли LHM автоматически переключать выход микшера при запуске повтора.\nВ режиме vMix Instant Replay включение отправляет повтор непосредственно на Output; при отключении воспроизведение начинается без изменения активного входа Program.\nВ режиме Replay Feed включение переключает vMix на выбранный вход повтора или OBS на сцену Replay, а после воспроизведения восстанавливает предыдущий выход. При отключении клип Replay Feed всё равно воспроизводится, но выход микшера не меняется.\nПоследний готовый клип Replay Feed также можно воспроизвести вручную с помощью команды «Воспроизвести последний клип Replay Feed»."
+        },
         "tab": {
           "title": "Replays",
           "info": "Модуль Автогенератор повторов (ARG) генерирует повторы, которые могут быть показаны между раундами или в конце игры.\\nПожалуйста, помните, что для правильной настройки ARG требуется vMix. vMix не является бесплатным приложением, а сам ARG предназначен в первую очередь для производственных команд, уже использующих vMix."

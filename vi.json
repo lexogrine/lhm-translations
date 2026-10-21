@@ -1,6 +1,16 @@
 {
   "translation": {
     "common": {
+      "apply": "Áp dụng",
+      "error": "Đã xảy ra lỗi.",
+      "none": "Không có",
+      "remove": "Xóa",
+      "options": {
+        "none": "Không"
+      },
+      "titles": {
+        "settings": "Cài đặt"
+      },
       "cgMode": "Chế độ CG",
       "or": "hoặc",
       "close": "Đóng",
@@ -103,6 +113,7 @@
       "copied": "Đã sao chép"
     },
     "chat": {
+      "sendMessage": "Gửi tin nhắn",
       "title": "Trò chuyện hỗ trợ",
       "header": "Trò chuyện với bộ phận hỗ trợ",
       "suggestionHeader": "Điều này có thể trả lời câu hỏi của bạn",
@@ -110,6 +121,7 @@
       "typeYourMessage": "Nhập tin nhắn của bạn tại đây..."
     },
     "color-picker": {
+      "revert-to-default": "Khôi phục mặc định",
       "contrast-excellent-label": "Độ tương phản tuyệt vời!",
       "contrast-excellent-message": "Người xem sẽ thấy rõ chữ trên nền này.",
       "contrast-good-label": "Độ tương phản tốt",
@@ -141,6 +153,9 @@
       "select-trigger": "Chọn kích hoạt",
       "select-player": "Chọn người chơi",
       "select-side": "Chọn phe"
+    },
+    "signal-ad": {
+      "any-player": "Bất kỳ người chơi nào"
     },
     "blocker": {
       "personal": "Nâng cấp LHM lên gói Cá nhân, Chuyên nghiệp hoặc Doanh nghiệp để toàn quyền truy cập vào mục này.",
@@ -181,6 +196,8 @@
       "overlays": "Lớp phủ"
     },
     "aco": {
+      "scoutTelnetDisconnectedWarning": "Scout AI đang nhận dữ liệu CS2 trực tiếp nhưng Telnet chưa kết nối. Scout Cinematic và Scout Vision ở chế độ Trực tiếp yêu cầu CS2 được khởi chạy cùng Workshop Tools. Cho đến khi Telnet kết nối, Scout Vision sẽ chuyển về chế độ Bàn phím và Scout Cinematic có thể không hoạt động đúng.",
+      "scoutConsoleCaptureUnavailableWarning": "Không thể chọn trực tiếp người chơi CS2. Scout Cinematic và Scout Vision ở chế độ Trực tiếp yêu cầu CS2 được khởi chạy cùng Workshop Tools. Scout Vision sẽ chuyển về chế độ Bàn phím và Scout Cinematic có thể không hoạt động đúng.",
       "disabled": "Vô hiệu hóa",
       "aco1": "ACO",
       "acoAI": "ACO AI",
@@ -479,6 +496,10 @@
       "importTeamsExcel": "Sử dụng bảng Excel đã được chuẩn bị sẵn để có thể nhập nhiều đội cùng một lúc.",
       "logo": "Logo"
     },
+    "xray": {
+      "counterTerrorists": "Chống khủng bố",
+      "terrorists": "Khủng bố"
+    },
     "live": {
       "replaceUsernames": "Đổi tên người dùng",
       "header": "Trực tiếp",
@@ -488,6 +509,22 @@
       "noGameDescription": "Dữ liệu trận đấu trực tiếp cho {{game}} sẽ tự động xuất hiện ở đây khi được phát hiện."
     },
     "cameras": {
+      "settings": "Cài đặt camera",
+      "filterSlots": "Lọc vị trí camera",
+      "filters": {
+        "assigned": "Đã gán",
+        "active": "Đang hoạt động",
+        "all": "Tất cả"
+      },
+      "searchSlots": "Tìm số vị trí hoặc người chơi",
+      "searchSlotsPlaceholder": "Tìm vị trí hoặc người chơi",
+      "noSlotsMatch": "Không có vị trí camera nào khớp với bộ lọc này.",
+      "clearSelection": "Xóa lựa chọn",
+      "fillFromLiveNoData": "Chưa có dữ liệu người chơi trong thẻ Live. Hãy khởi chạy trò chơi hoặc chờ LHM nhận dữ liệu.",
+      "fillFromSelectedMatch": "Điền từ trận đấu đã chọn",
+      "fillFromSelectedMatchNoCurrent": "Không có trận đấu nào được đánh dấu là Live trong thẻ Trận đấu.",
+      "fillFromSelectedMatchNoPlayers": "Trận đấu được đánh dấu là Live không có người chơi phù hợp. Huấn luyện viên và người chơi không có mã định danh sẽ bị bỏ qua.",
+      "showSelectedMatchAndLivePlayersOnly": "Chỉ hiển thị người chơi từ trận đấu đã chọn và thẻ Live",
       "generatePassword": "Tạo mật khẩu",
       "sendToPlayers": "Gửi cho người chơi",
       "fillFromLive": "Điền từ tab Trực tiếp",
@@ -549,6 +586,8 @@
       "people": "People"
     },
     "signals": {
+      "testAction": "Kiểm tra hành động Companion",
+      "toggleBranches": "Bật/tắt nhánh sự kiện",
       "removal": {
         "title": "Xóa cài đặt trước",
         "areYouSure": "Bạn có chắc chắn muốn xóa cài đặt trước \"{{name}}\" không?"
@@ -589,6 +628,7 @@
       "emptyList": "Chưa có sự kiện nào. Hãy thêm sự kiện đầu tiên của bạn."
     },
     "quick": {
+      "overwriteTitle": "Ghi đè lên?",
       "uploadImage": "Tải lên hình ảnh",
       "teamLogo": "Logo đội",
       "backToLHM": "Quay lại LHM",
@@ -622,6 +662,7 @@
       }
     },
     "tournaments": {
+      "noPlayoffs": "Chưa tạo vòng loại trực tiếp.",
       "overview": "Tổng quan",
       "edit": "Chỉnh sửa giải đấu",
       "page": "Trang giải đấu",
@@ -751,6 +792,10 @@
       "feedbackAndIdeas": "Phản hồi & Ý tưởng"
     },
     "arg": {
+      "playClipsAutomatically": "Tự động phát clip",
+      "ndiAttribution": {
+        "learnMore": "Tìm hiểu về NDI®"
+      },
       "safeband": "Safety band",
       "beforeKill": "Trước khi giết",
       "useHLAE": "Sử dụng HLAE?",
@@ -767,6 +812,7 @@
         "label": "Ưu tiên"
       },
       "mixer": {
+        "vMixAddressRequired": "Hãy nhập địa chỉ vMix trước.",
         "label": "Bộ trộn",
         "activeNdi": "Nguồn phát lại NDI",
         "mixer": "Bộ trộn",
@@ -782,6 +828,17 @@
         "chooseReplayInput": "Chọn đầu vào phát lại"
       },
       "replay": {
+        "installDistroAvPlugin": "Cài đặt plugin DistroAV cho OBS",
+        "distroAvInstalled": "Đã cài đặt plugin DistroAV thành công",
+        "playLatestReplayFeed": "Phát clip Replay Feed mới nhất",
+        "playLatestReplayFeedUnavailable": "Không thể phát clip Replay Feed mới nhất.",
+        "playLatestReplayFeedError": "Không thể phát clip Replay Feed mới nhất.",
+        "playLatestReplayFeedNoClip": "Chưa có clip Replay Feed hoàn chỉnh.",
+        "playLatestReplayFeedCapturing": "Hãy chờ clip Replay Feed hiện tại hoàn tất ghi hình.",
+        "playLatestReplayFeedAutomaticPlayPending": "Clip Replay Feed mới nhất đang chờ phát tự động.",
+        "playLatestReplayFeedAlreadyPlaying": "Một clip Replay Feed đang được phát.",
+        "invalidMachineCode": "Nhập mã máy phát lại hợp lệ.",
+        "vmixConfiguration": "Cấu hình vMix",
         "replayModeTitle": "Chế độ phát lại",
         "replayModeContent": "LHM này hiện chạy ở Chế độ phát lại. Để sửa đổi các tham số của phát lại & bộ trộn, hãy xem tab ARG trên PC chính",
         "installObsNdiPlugin": "Cài đặt Plugin OBS NDI",
@@ -789,6 +846,7 @@
         "chooseYourMixer": "Chọn bộ trộn của bạn",
         "noInput": "Không có đầu vào",
         "stepCode": {
+          "noNdiSource": "Tạo đầu vào NDI Source bằng cách nhấp Add Input > NDI Source. Chọn nguồn tương ứng với hình ảnh từ PC có độ trễ.",
           "noVmixRunning": "Có vẻ như bạn không có vMix nào đang chạy. Bạn cần khởi động nó trước khi bắt đầu thiết lập",
           "vmixBadResponse": "Chúng tôi không thể kết nối với vMix của bạn :C",
           "noReplay": "Tạo đầu vào Phát lại tức thì bằng cách nhấp vào Thêm đầu vào > Phát lại tức thì. Đặt Camera 1 thành Đầu ra 2. Nhấp vào OK",
@@ -842,6 +900,9 @@
         "milliseconds": "mili giây"
       },
       "obsStatus": {
+        "distroAvRequiredTitle": "Cần plugin DistroAV",
+        "distroAvRequiredBody": "OBS hiện chưa hỗ trợ nguồn Replay Feed.",
+        "distroAvRequiredAction": "Cài đặt plugin DistroAV cho OBS, khởi động lại OBS rồi quay lại phần thiết lập.",
         "label": "Thiết lập OBS",
         "ready": "Sẵn sàng",
         "manualSelection": "Sẵn sàng với lựa chọn nguồn thủ công",
@@ -852,6 +913,7 @@
       }
     },
     "settings": {
+      "valorantRoundEndEventsEnabled": "Bật sự kiện tự động khi kết thúc vòng Valorant",
       "logIn": "Đăng nhập",
       "email": "Email",
       "password": "Mật khẩu",
@@ -976,6 +1038,7 @@
       },
       "entry": {
         "keybinds": {
+          "playLatestReplayFeed": "Phát clip Replay Feed mới nhất",
           "keybinds": "Tổ hợp phím",
           "hardRefreshHUD": "Làm mới HUD",
           "argToggle": "Bật/Tắt ARG",
@@ -1011,6 +1074,8 @@
           "slowMode": "Chế độ chậm"
         },
         "credits": {
+          "legal": "Tác giả và thông tin pháp lý",
+          "view": "Xem",
           "credits": "Tác giả",
           "seeNow": "Xem ngay"
         },
@@ -1487,6 +1552,10 @@
         }
       },
       "arg": {
+        "autoInputSwitch": {
+          "title": "Tự ​​động chuyển đổi đầu vào",
+          "info": "Kiểm soát việc LHM có tự động chuyển đầu ra bộ trộn khi bắt đầu phát lại hay không.\nTrong chế độ vMix Instant Replay, khi bật, bản phát lại được gửi thẳng đến Output; khi tắt, bản phát lại bắt đầu mà không thay đổi đầu vào Program đang hoạt động.\nTrong chế độ Replay Feed, khi bật, vMix chuyển sang đầu vào phát lại đã chọn hoặc OBS chuyển sang cảnh Replay, sau đó khôi phục đầu ra trước đó. Khi tắt, clip Replay Feed vẫn phát nhưng đầu ra bộ trộn không thay đổi.\nBạn cũng có thể phát thủ công clip Replay Feed hoàn chỉnh mới nhất bằng Phát clip Replay Feed mới nhất."
+        },
         "tab": {
           "title": "Replays",
           "info": "Module Tạo Replay tự động (ARG) tạo các bản replay hiển thị giữa các round hoặc ở khi hết game.\\nXin hãy lưu ý bạn phải có vMix để ARG có thể được cấu hình và hoạt động một cách hoàn chỉnh. vMix là một phần mềm trả phí, và ARG được thiết kế chủ yếu cho các đội sản xuất nội dung sử dụng vMix."

@@ -1,6 +1,16 @@
 {
   "translation": {
     "common": {
+      "apply": "Uygula",
+      "error": "Bir şeyler ters gitti.",
+      "none": "Yok",
+      "remove": "Kaldır",
+      "options": {
+        "none": "Yok"
+      },
+      "titles": {
+        "settings": "Ayarlar"
+      },
       "cgMode": "CG Modu",
       "or": "veya",
       "close": "Kapat",
@@ -103,6 +113,7 @@
       "copied": "Kopyalandı"
     },
     "chat": {
+      "sendMessage": "Mesaj gönder",
       "title": "Destek Sohbeti",
       "header": "Destek ile Sohbet Edin",
       "suggestionHeader": "Bu sorunuza cevap olabilir",
@@ -110,6 +121,7 @@
       "typeYourMessage": "Mesajınızı buraya yazın..."
     },
     "color-picker": {
+      "revert-to-default": "Varsayılana döndür",
       "contrast-excellent-label": "Mükemmel Kontrast!",
       "contrast-excellent-message": "İzleyicileriniz bu arka plandaki metni net bir şekilde görecek.",
       "contrast-good-label": "İyi Kontrast",
@@ -141,6 +153,9 @@
       "select-trigger": "Tetikleyici Seç",
       "select-player": "Oyuncu Seç",
       "select-side": "Taraf Seç"
+    },
+    "signal-ad": {
+      "any-player": "Herhangi bir oyuncu"
     },
     "blocker": {
       "personal": "Bu bölüme tam erişim elde etmek için LHM'nizi Kişisel, Profesyonel veya Kurumsal plana yükseltin.",
@@ -181,6 +196,8 @@
       "overlays": "Overlayler"
     },
     "aco": {
+      "scoutTelnetDisconnectedWarning": "Scout AI canlı CS2 verilerini alıyor ancak Telnet bağlı değil. Doğrudan moddaki Scout Cinematic ve Scout Vision için CS2'nin Workshop Tools ile başlatılması gerekir. Telnet bağlanana kadar Scout Vision Klavye moduna dönecek ve Scout Cinematic düzgün çalışmayabilir.",
+      "scoutConsoleCaptureUnavailableWarning": "Doğrudan CS2 oyuncu seçimi kullanılamıyor. Doğrudan moddaki Scout Cinematic ve Scout Vision için CS2'nin Workshop Tools ile başlatılması gerekir. Scout Vision Klavye moduna dönecek ve Scout Cinematic düzgün çalışmayabilir.",
       "disabled": "Engelli",
       "aco1": "ACO",
       "acoAI": "ACO AI",
@@ -479,6 +496,10 @@
       "importTeamsExcel": "Birçok ekibi aynı anda kolayca içe aktarmak için önceden hazırlanmış Excel sayfamızı kullanın.",
       "logo": "Logo"
     },
+    "xray": {
+      "counterTerrorists": "Anti-Teröristler",
+      "terrorists": "Teröristler"
+    },
     "live": {
       "replaceUsernames": "Kullanıcı adlarını değiştirin",
       "header": "Canlı",
@@ -488,6 +509,22 @@
       "noGameDescription": "{{game}} için Live maç verileri algılandığında burada otomatik olarak görünecek."
     },
     "cameras": {
+      "settings": "Kamera ayarları",
+      "filterSlots": "Kamera yuvalarını filtrele",
+      "filters": {
+        "assigned": "Atanmış",
+        "active": "Etkin",
+        "all": "Tümü"
+      },
+      "searchSlots": "Yuva numarası veya oyuncu ara",
+      "searchSlotsPlaceholder": "Yuva veya oyuncu ara",
+      "noSlotsMatch": "Bu filtreyle eşleşen kamera yuvası yok.",
+      "clearSelection": "Seçimi temizle",
+      "fillFromLiveNoData": "Live sekmesinde henüz oyuncu verisi yok. Oyunu başlatın veya LHM'nin verileri almasını bekleyin.",
+      "fillFromSelectedMatch": "Seçili maçtan doldur",
+      "fillFromSelectedMatchNoCurrent": "Maçlar sekmesinde Live olarak işaretlenmiş maç yok.",
+      "fillFromSelectedMatchNoPlayers": "Live olarak işaretlenen maçta uygun oyuncu yok. Koçlar ve tanımlayıcısı olmayan oyuncular atlanır.",
+      "showSelectedMatchAndLivePlayersOnly": "Yalnızca seçili maçtaki ve Live sekmesindeki oyuncuları göster",
       "generatePassword": "Parola oluştur",
       "sendToPlayers": "Bunu oyuncularınıza gönderin",
       "fillFromLive": "Canlı sekmesinden doldurun",
@@ -549,6 +586,8 @@
       "people": "Kişiler"
     },
     "signals": {
+      "testAction": "Companion eylemini test et",
+      "toggleBranches": "Etkinlik dallarını değiştir",
       "removal": {
         "title": "Ön ayarı sil",
         "areYouSure": "\"{{name}}\" ön ayarını silmek istediğinizden emin misiniz?"
@@ -589,6 +628,7 @@
       "emptyList": "Henüz etkinlik yok. İlk etkinliğinizi ekleyin."
     },
     "quick": {
+      "overwriteTitle": "Üzerine yaz?",
       "uploadImage": "Resim yükle",
       "teamLogo": "Takım Logosu",
       "backToLHM": "LHM'ye geri dön",
@@ -622,6 +662,7 @@
       }
     },
     "tournaments": {
+      "noPlayoffs": "Henüz play-off oluşturulmadı.",
       "overview": "Genel Bakış",
       "edit": "Turnuva düzenleme",
       "page": "Turnuva sayfası",
@@ -751,6 +792,10 @@
       "feedbackAndIdeas": "Geribildirim & Fikirler"
     },
     "arg": {
+      "playClipsAutomatically": "Klipleri otomatik oynat",
+      "ndiAttribution": {
+        "learnMore": "NDI® hakkında bilgi edinin"
+      },
       "safeband": "Güvenlik bandı",
       "beforeKill": "Öldürmeden önce",
       "useHLAE": "HLAE kullanıyor musunuz?",
@@ -767,6 +812,7 @@
         "label": "Öncelik"
       },
       "mixer": {
+        "vMixAddressRequired": "Önce bir vMix adresi girin.",
         "label": "Karıştırıcı",
         "activeNdi": "NDI Tekrar Oynatma Kaynağı",
         "mixer": "Karıştırıcı",
@@ -782,6 +828,17 @@
         "chooseReplayInput": "Tekrar girişini seçin"
       },
       "replay": {
+        "installDistroAvPlugin": "OBS için DistroAV eklentisini kur",
+        "distroAvInstalled": "DistroAV eklentisi başarıyla kuruldu",
+        "playLatestReplayFeed": "En son Replay Feed klibini oynat",
+        "playLatestReplayFeedUnavailable": "En son Replay Feed klibi oynatılamıyor.",
+        "playLatestReplayFeedError": "En son Replay Feed klibi oynatılamadı.",
+        "playLatestReplayFeedNoClip": "Henüz tamamlanmış bir Replay Feed klibi yok.",
+        "playLatestReplayFeedCapturing": "Geçerli Replay Feed klibinin yakalanmasının bitmesini bekleyin.",
+        "playLatestReplayFeedAutomaticPlayPending": "En son Replay Feed klibi otomatik oynatma kuyruğunda.",
+        "playLatestReplayFeedAlreadyPlaying": "Bir Replay Feed klibi zaten oynatılıyor.",
+        "invalidMachineCode": "Geçerli bir tekrar makinesi kodu girin.",
+        "vmixConfiguration": "vMix yapılandırması",
         "replayModeTitle": "Tekrar Oynatma Modu",
         "replayModeContent": "Bu LHM artık Tekrar Modunda çalışmaktadır. Yeniden oynatma ve karıştırıcı parametrelerini değiştirmek için Ana PC'deki ARG sekmesine bakın",
         "installObsNdiPlugin": "OBS NDI Eklentisini Yükleme",
@@ -789,6 +846,7 @@
         "chooseYourMixer": "Mikserinizi seçin",
         "noInput": "Girdi yok",
         "stepCode": {
+          "noNdiSource": "Add Input > NDI Source seçeneğine tıklayarak bir NDI Source girişi oluşturun. Gecikmeli bilgisayarın görüntüsüne karşılık gelen kaynağı seçin.",
           "noVmixRunning": "Görünüşe göre vMix çalışmıyor. Kuruluma başlamadan önce başlatmanız gerekir",
           "vmixBadResponse": "VMix'inize bağlanamadık :C",
           "noReplay": "Girdi Ekle > Anında Yeniden Oynatma öğesine tıklayarak Anında Yeniden Oynatma girdisi oluşturun. Kamera 1'i Çıkış 2 olarak ayarlayın. Tamam'a tıklayın",
@@ -842,6 +900,9 @@
         "milliseconds": "milisaniye"
       },
       "obsStatus": {
+        "distroAvRequiredTitle": "DistroAV eklentisi gerekli",
+        "distroAvRequiredBody": "OBS şu anda Replay Feed kaynağını desteklemiyor.",
+        "distroAvRequiredAction": "OBS için DistroAV eklentisini kurun, OBS'yi yeniden başlatın ve ardından kuruluma dönün.",
         "label": "OBS kurulumu",
         "ready": "Hazır",
         "manualSelection": "Manuel kaynak seçimiyle hazır",
@@ -852,6 +913,7 @@
       }
     },
     "settings": {
+      "valorantRoundEndEventsEnabled": "Otomatik Valorant tur sonu etkinliklerini aç",
       "logIn": "Giriş yap",
       "email": "E-posta",
       "password": "Şifre",
@@ -976,6 +1038,7 @@
       },
       "entry": {
         "keybinds": {
+          "playLatestReplayFeed": "En son Replay Feed klibini oynat",
           "keybinds": "Tuş Bağlamaları",
           "hardRefreshHUD": "Sert yenileme HUD",
           "argToggle": "ARG'yi değiştir",
@@ -1011,6 +1074,8 @@
           "slowMode": "Yavaş Mod"
         },
         "credits": {
+          "legal": "Katkıda bulunanlar ve yasal bilgiler",
+          "view": "Görüntüle",
           "credits": "Krediler",
           "seeNow": "Şimdi görün"
         },
@@ -1487,6 +1552,10 @@
         }
       },
       "arg": {
+        "autoInputSwitch": {
+          "title": "Otomatik Giriş Anahtarı",
+          "info": "Bir tekrar başladığında LHM'nin mikser çıkışını otomatik olarak değiştirip değiştirmeyeceğini belirler.\nvMix Instant Replay modunda etkinleştirmek tekrarı doğrudan Output'a gönderir; devre dışı bırakmak etkin Program girişini değiştirmeden oynatmayı başlatır.\nReplay Feed modunda etkinleştirmek vMix'i seçilen tekrar girişine veya OBS'yi Replay sahnesine geçirir ve oynatma sonrasında önceki çıkışı geri yükler. Devre dışı bırakıldığında Replay Feed klibi yine oynatılır ancak mikser çıkışı değişmez.\nEn son tamamlanan Replay Feed klibini En son Replay Feed klibini oynat seçeneğiyle manuel olarak da oynatabilirsiniz."
+        },
         "tab": {
           "title": "Replays",
           "info": "Auto Replay Generator (ARG) modülü, turlar arasında veya bir oyunun sonunda görüntülenebilecek tekrarlar oluşturur.\nDoğru ARG yapılandırması için vMix'in gerekli olduğunu lütfen unutmayın. vMix ücretsiz bir uygulama değildir ve ARG'nin kendisi öncelikli olarak vMix kullanan üretim ekipleri için tasarlanmıştır."

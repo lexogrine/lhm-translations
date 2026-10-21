@@ -1,6 +1,16 @@
 {
   "translation": {
     "common": {
+      "apply": "Käytä",
+      "error": "Jokin meni vikaan.",
+      "none": "Ei mitään",
+      "remove": "Poista",
+      "options": {
+        "none": "Ei mitään"
+      },
+      "titles": {
+        "settings": "Asetukset"
+      },
       "cgMode": "CG Moodi",
       "or": "tai",
       "close": "Sulje",
@@ -103,6 +113,7 @@
       "copied": "Kopioitu"
     },
     "chat": {
+      "sendMessage": "Lähetä viesti",
       "title": "Tukikeskustelu",
       "header": "Keskustele tukipalvelun kanssa",
       "suggestionHeader": "Tämä saattaa vastata kysymykseesi",
@@ -110,6 +121,7 @@
       "typeYourMessage": "Kirjoita viestisi tähän..."
     },
     "color-picker": {
+      "revert-to-default": "Palauta oletusarvo",
       "contrast-excellent-label": "Erinomainen kontrasti!",
       "contrast-excellent-message": "Katsojasi näkevät tekstin selkeästi tällä taustalla.",
       "contrast-good-label": "Hyvä kontrasti",
@@ -141,6 +153,9 @@
       "select-trigger": "Valitse laukaisin",
       "select-player": "Valitse pelaaja",
       "select-side": "Valitse puoli"
+    },
+    "signal-ad": {
+      "any-player": "Kuka tahansa pelaaja"
     },
     "blocker": {
       "personal": "Päivitä LHM:si Personal-, Professional- tai Enterprise-tilaukseen saadaksesi täydet käyttöoikeudet tähän osioon.",
@@ -181,6 +196,8 @@
       "overlays": "Peittokuvat"
     },
     "aco": {
+      "scoutTelnetDisconnectedWarning": "Scout AI vastaanottaa reaaliaikaista CS2-dataa, mutta Telnet-yhteyttä ei ole. Suoran tilan Scout Cinematic ja Scout Vision edellyttävät, että CS2 käynnistetään Workshop Toolsilla. Kunnes Telnet yhdistyy, Scout Vision palaa näppäimistötilaan ja Scout Cinematic ei ehkä toimi oikein.",
+      "scoutConsoleCaptureUnavailableWarning": "CS2-pelaajien suora valinta ei ole käytettävissä. Suoran tilan Scout Cinematic ja Scout Vision edellyttävät, että CS2 käynnistetään Workshop Toolsilla. Scout Vision palaa näppäimistötilaan ja Scout Cinematic ei ehkä toimi oikein.",
       "disabled": "Pois käytöstä",
       "aco1": "ACO",
       "acoAI": "ACO AI",
@@ -479,6 +496,10 @@
       "importTeamsExcel": "Käytä esivalmistettua Excel-taulukkoa, jolla voit helposti tuoda useita joukkueita kerralla.",
       "logo": "Logo"
     },
+    "xray": {
+      "counterTerrorists": "Erikoisjoukot",
+      "terrorists": "Terroristit"
+    },
     "live": {
       "replaceUsernames": "Käyttäjätunnusten korvaaminen",
       "header": "Live",
@@ -488,6 +509,22 @@
       "noGameDescription": "Pelin {{game}} live-ottelutiedot näkyvät täällä automaattisesti, kun ne havaitaan."
     },
     "cameras": {
+      "settings": "Kamera-asetukset",
+      "filterSlots": "Suodata kamerapaikkoja",
+      "filters": {
+        "assigned": "Määritetyt",
+        "active": "Aktiiviset",
+        "all": "Kaikki"
+      },
+      "searchSlots": "Hae paikkanumeroa tai pelaajaa",
+      "searchSlotsPlaceholder": "Hae paikkaa tai pelaajaa",
+      "noSlotsMatch": "Mikään kamerapaikka ei vastaa tätä suodatinta.",
+      "clearSelection": "Tyhjennä valinta",
+      "fillFromLiveNoData": "Live-välilehdellä ei ole vielä pelaajatietoja. Käynnistä peli tai odota, että LHM vastaanottaa tiedot.",
+      "fillFromSelectedMatch": "Täytä valitusta ottelusta",
+      "fillFromSelectedMatchNoCurrent": "Ottelut-välilehdellä ei ole Live-tilaan merkittyä ottelua.",
+      "fillFromSelectedMatchNoPlayers": "Live-tilaan merkityssä ottelussa ei ole kelvollisia pelaajia. Valmentajat ja pelaajat, joilla ei ole tunnistetta, ohitetaan.",
+      "showSelectedMatchAndLivePlayersOnly": "Näytä vain valitun ottelun ja Live-välilehden pelaajat",
       "generatePassword": "Luo salasana",
       "sendToPlayers": "Lähetä tämä pelaajille",
       "fillFromLive": "Täytä Live-välilehdeltä",
@@ -549,6 +586,8 @@
       "people": "Henkilöt"
     },
     "signals": {
+      "testAction": "Testaa Companion-toimintoa",
+      "toggleBranches": "Vaihda tapahtumahaaraa",
       "removal": {
         "title": "Poista esiasetus",
         "areYouSure": "Haluatko varmasti poistaa esiasetuksen \"{{name}}\"?"
@@ -589,6 +628,7 @@
       "emptyList": "Ei vielä tapahtumia. Lisää ensimmäinen tapahtumasi."
     },
     "quick": {
+      "overwriteTitle": "Ylikirjoittaa?",
       "uploadImage": "Lataa kuva",
       "teamLogo": "Joukkueen logo",
       "backToLHM": "Takaisin LHM",
@@ -622,6 +662,7 @@
       }
     },
     "tournaments": {
+      "noPlayoffs": "Pudotuspelejä ei ole vielä luotu.",
       "overview": "Yleiskatsaus",
       "edit": "Muokkaa turnausta",
       "page": "Turnauksen sivu",
@@ -751,6 +792,10 @@
       "feedbackAndIdeas": "Palaute &; Ideat"
     },
     "arg": {
+      "playClipsAutomatically": "Toista leikkeet automaattisesti",
+      "ndiAttribution": {
+        "learnMore": "Lisätietoja NDI®:stä"
+      },
       "safeband": "Turvakaista",
       "beforeKill": "Ennen tappamista",
       "useHLAE": "Käytä HLAE:tä?",
@@ -767,6 +812,7 @@
         "label": "Prioriteetti"
       },
       "mixer": {
+        "vMixAddressRequired": "Anna ensin vMix-osoite.",
         "label": "Sekoitin",
         "activeNdi": "NDI Replay Source",
         "mixer": "Mixer",
@@ -782,6 +828,17 @@
         "chooseReplayInput": "Valitse replay-syöte"
       },
       "replay": {
+        "installDistroAvPlugin": "Asenna DistroAV-lisäosa OBS:lle",
+        "distroAvInstalled": "DistroAV-lisäosa asennettiin",
+        "playLatestReplayFeed": "Toista uusin Replay Feed -leike",
+        "playLatestReplayFeedUnavailable": "Uusinta Replay Feed -leikettä ei voi toistaa.",
+        "playLatestReplayFeedError": "Uusimman Replay Feed -leikkeen toistaminen epäonnistui.",
+        "playLatestReplayFeedNoClip": "Valmista Replay Feed -leikettä ei ole vielä saatavilla.",
+        "playLatestReplayFeedCapturing": "Odota, että nykyisen Replay Feed -leikkeen tallennus valmistuu.",
+        "playLatestReplayFeedAutomaticPlayPending": "Uusin Replay Feed -leike odottaa automaattista toistoa.",
+        "playLatestReplayFeedAlreadyPlaying": "Replay Feed -leikettä toistetaan jo.",
+        "invalidMachineCode": "Anna kelvollinen toistokoneen koodi.",
+        "vmixConfiguration": "vMix-määritykset",
         "replayModeTitle": "Uusintatila",
         "replayModeContent": "Tämä LHM toimii nyt uusintatilassa. Voit muuttaa toisto- & mikseri's parametreja, katso ARG-välilehti Main PC:llä",
         "installObsNdiPlugin": "Asenna OBS NDI Plugin",
@@ -789,6 +846,7 @@
         "chooseYourMixer": "Valitse mikserisi",
         "noInput": "Ei tuloa",
         "stepCode": {
+          "noNdiSource": "Luo NDI Source -tulo napsauttamalla Add Input > NDI Source. Valitse lähde, joka vastaa viivästetyn tietokoneen kuvaa.",
           "noVmixRunning": "Näyttää siltä, että sinulla ei ole vMixiä käynnissä. Sinun on käynnistettävä se ennen asennuksen aloittamista",
           "vmixBadResponse": "Emme voineet muodostaa yhteyttä vMixiin :C",
           "noReplay": "Luo Instant Replay -syöttö napsauttamalla Add Input > Instant Replay. Aseta kamera 1 lähtöön 2. Napsauta OK",
@@ -842,6 +900,9 @@
         "milliseconds": "millisekuntia"
       },
       "obsStatus": {
+        "distroAvRequiredTitle": "DistroAV-lisäosa vaaditaan",
+        "distroAvRequiredBody": "OBS ei tällä hetkellä tue Replay Feed -lähdettä.",
+        "distroAvRequiredAction": "Asenna DistroAV-lisäosa OBS:lle, käynnistä OBS uudelleen ja palaa sitten määritykseen.",
         "label": "OBS-määritys",
         "ready": "Valmis",
         "manualSelection": "Valmis manuaalisella lähdevalinnalla",
@@ -852,6 +913,7 @@
       }
     },
     "settings": {
+      "valorantRoundEndEventsEnabled": "Ota automaattiset Valorant-kierroksen päättymistapahtumat käyttöön",
       "logIn": "Kirjaudu sisään",
       "email": "Sähköposti",
       "password": "Salasana",
@@ -976,6 +1038,7 @@
       },
       "entry": {
         "keybinds": {
+          "playLatestReplayFeed": "Toista uusin Replay Feed -leike",
           "keybinds": "Näppäinsidonnaisuus",
           "hardRefreshHUD": "Kova päivitys HUD",
           "argToggle": "Toggle ARG",
@@ -1011,6 +1074,8 @@
           "slowMode": "Hidas tila"
         },
         "credits": {
+          "legal": "Tekijät ja oikeudelliset tiedot",
+          "view": "Näytä",
           "credits": "Credits",
           "seeNow": "Katso nyt"
         },
@@ -1487,6 +1552,10 @@
         }
       },
       "arg": {
+        "autoInputSwitch": {
+          "title": "Automaattinen tulokytkin",
+          "info": "Määrittää, vaihtaako LHM mikserin lähdön automaattisesti toiston alkaessa.\nvMix Instant Replay -tilassa toiminnon ottaminen käyttöön lähettää toiston suoraan Output-lähtöön; poistaminen käytöstä aloittaa toiston muuttamatta aktiivista Program-tuloa.\nReplay Feed -tilassa toiminnon ottaminen käyttöön vaihtaa vMixin valittuun toistotuloon tai OBS:n Replay-kohtaukseen ja palauttaa edellisen lähdön toiston jälkeen. Kun toiminto on poistettu käytöstä, Replay Feed -leike toistetaan edelleen, mutta mikserin lähtö ei muutu.\nVoit myös toistaa uusimman valmiin Replay Feed -leikkeen manuaalisesti toiminnolla Toista uusin Replay Feed -leike."
+        },
         "tab": {
           "title": "Replays",
           "info": "Auto Replay Generator (ARG) -moduuli luo uusintoja, jotka voidaan näyttää kierrosten välillä tai pelin lopussa.\nMuistathan, että vMix tarvitaan oikeaan ARG-konfiguraatioon. vMix ei ole ilmainen sovellus, ja ARG on suunniteltu ensisijaisesti tuotantotiimeille, jotka jo käyttävät vMixiä."

@@ -1,6 +1,16 @@
 {
   "translation": {
     "common": {
+      "apply": "Appliquer",
+      "error": "Une erreur est survenue.",
+      "none": "Aucun",
+      "remove": "Supprimer",
+      "options": {
+        "none": "Aucun"
+      },
+      "titles": {
+        "settings": "Paramètres"
+      },
       "cgMode": "Mode CG",
       "or": "ou",
       "close": "Fermer",
@@ -103,6 +113,7 @@
       "copied": "Copié"
     },
     "chat": {
+      "sendMessage": "Envoyer le message",
       "title": "Support Chat",
       "header": "Chat avec l'assistance",
       "suggestionHeader": "Ceci pourrait répondre à votre question",
@@ -110,6 +121,7 @@
       "typeYourMessage": "Tapez votre message ici..."
     },
     "color-picker": {
+      "revert-to-default": "Rétablir la valeur par défaut",
       "contrast-excellent-label": "Excellent contraste !",
       "contrast-excellent-message": "Vos spectateurs verront clairement le texte sur cet arrière-plan.",
       "contrast-good-label": "Bon contraste",
@@ -141,6 +153,9 @@
       "select-trigger": "Sélectionner un déclencheur",
       "select-player": "Sélectionner un joueur",
       "select-side": "Sélectionner un camp"
+    },
+    "signal-ad": {
+      "any-player": "N'importe quel joueur"
     },
     "blocker": {
       "personal": "Mettez à niveau votre abonnement LHM à un forfait Personnel, Professionnel ou Entreprise pour obtenir un accès complet à cette section.",
@@ -181,6 +196,8 @@
       "overlays": "Overlays"
     },
     "aco": {
+      "scoutTelnetDisconnectedWarning": "Scout AI reçoit les données CS2 en direct, mais Telnet n'est pas connecté. Scout Cinematic et Scout Vision en mode Direct nécessitent le lancement de CS2 avec Workshop Tools. Jusqu'à la connexion de Telnet, Scout Vision repassera en mode Clavier et Scout Cinematic risque de ne pas fonctionner correctement.",
+      "scoutConsoleCaptureUnavailableWarning": "La sélection directe des joueurs CS2 n'est pas disponible. Scout Cinematic et Scout Vision en mode Direct nécessitent le lancement de CS2 avec Workshop Tools. Scout Vision repassera en mode Clavier et Scout Cinematic risque de ne pas fonctionner correctement.",
       "disabled": "Désactivé",
       "aco1": "ACO",
       "acoAI": "ACO AI",
@@ -479,6 +496,10 @@
       "importTeamsExcel": "Utilisez notre feuille Excel préparée à l'avance pour importer facilement plusieurs équipes à la fois.",
       "logo": "Logo"
     },
+    "xray": {
+      "counterTerrorists": "Antiterroristes",
+      "terrorists": "Terroristes"
+    },
     "live": {
       "replaceUsernames": "Remplacer les noms d'utilisateur",
       "header": "Live",
@@ -488,6 +509,22 @@
       "noGameDescription": "Les données de match en direct de {{game}} apparaîtront automatiquement ici lorsqu’elles seront détectées."
     },
     "cameras": {
+      "settings": "Paramètres des caméras",
+      "filterSlots": "Filtrer les emplacements de caméra",
+      "filters": {
+        "assigned": "Attribués",
+        "active": "Actifs",
+        "all": "Tous"
+      },
+      "searchSlots": "Rechercher un numéro d'emplacement ou un joueur",
+      "searchSlotsPlaceholder": "Rechercher un emplacement ou un joueur",
+      "noSlotsMatch": "Aucun emplacement de caméra ne correspond à ce filtre.",
+      "clearSelection": "Effacer la sélection",
+      "fillFromLiveNoData": "Aucune donnée de joueur n'est encore disponible dans l'onglet Live. Lancez le jeu ou attendez que LHM reçoive les données.",
+      "fillFromSelectedMatch": "Remplir à partir du match sélectionné",
+      "fillFromSelectedMatchNoCurrent": "Aucun match n'est marqué comme Live dans l'onglet Matchs.",
+      "fillFromSelectedMatchNoPlayers": "Le match marqué comme Live ne contient aucun joueur admissible. Les entraîneurs et les joueurs sans identifiant sont ignorés.",
+      "showSelectedMatchAndLivePlayersOnly": "Afficher uniquement les joueurs du match sélectionné et de l'onglet Live",
       "generatePassword": "Générer un mot de passe",
       "sendToPlayers": "Envoyez-le à vos joueurs",
       "fillFromLive": "Remplir à partir de l'onglet Live",
@@ -549,6 +586,8 @@
       "people": "Personnes"
     },
     "signals": {
+      "testAction": "Tester l'action Companion",
+      "toggleBranches": "Basculer les branches de l'événement",
       "removal": {
         "title": "Effacer la présélection",
         "areYouSure": "Etes-vous sûr de vouloir supprimer le preset \"{{name}}\" ?"
@@ -589,6 +628,7 @@
       "emptyList": "Aucun événement pour le moment. Ajoutez votre premier événement."
     },
     "quick": {
+      "overwriteTitle": "Remplacer?",
       "uploadImage": "Télécharger une image",
       "teamLogo": "Logo de l'équipe",
       "backToLHM": "Retour à LHM",
@@ -622,6 +662,7 @@
       }
     },
     "tournaments": {
+      "noPlayoffs": "Aucun play-off n'a encore été créé.",
       "overview": "Vue d'ensemble",
       "edit": "Modifier un tournoi",
       "page": "Page du tournoi",
@@ -751,6 +792,10 @@
       "feedbackAndIdeas": "Feedback & Idees"
     },
     "arg": {
+      "playClipsAutomatically": "Lire les clips automatiquement",
+      "ndiAttribution": {
+        "learnMore": "En savoir plus sur NDI®"
+      },
       "safeband": "Bande de sécurité",
       "beforeKill": "Avant le kill",
       "useHLAE": "Utiliser HLAE ?",
@@ -767,6 +812,7 @@
         "label": "Priorité"
       },
       "mixer": {
+        "vMixAddressRequired": "Saisissez d'abord une adresse vMix.",
         "label": "Mélangeur",
         "activeNdi": "Source de relecture NDI",
         "mixer": "Mélangeur",
@@ -782,6 +828,17 @@
         "chooseReplayInput": "Choisir l’entrée de replay"
       },
       "replay": {
+        "installDistroAvPlugin": "Installer le plugin DistroAV pour OBS",
+        "distroAvInstalled": "Le plugin DistroAV a été installé",
+        "playLatestReplayFeed": "Lire le dernier clip Replay Feed",
+        "playLatestReplayFeedUnavailable": "Le dernier clip Replay Feed n'est pas disponible à la lecture.",
+        "playLatestReplayFeedError": "Impossible de lire le dernier clip Replay Feed.",
+        "playLatestReplayFeedNoClip": "Aucun clip Replay Feed finalisé n'est encore disponible.",
+        "playLatestReplayFeedCapturing": "Attendez la fin de la capture du clip Replay Feed actuel.",
+        "playLatestReplayFeedAutomaticPlayPending": "Le dernier clip Replay Feed est en attente de lecture automatique.",
+        "playLatestReplayFeedAlreadyPlaying": "Un clip Replay Feed est déjà en cours de lecture.",
+        "invalidMachineCode": "Saisissez un code de machine de replay valide.",
+        "vmixConfiguration": "Configuration de vMix",
         "replayModeTitle": "Mode de relecture",
         "replayModeContent": "Ce LHM fonctionne desormais en mode Replay. Pour modifier les parametres du replay et du mixer, regardez l'onglet ARG sur le PC principal",
         "installObsNdiPlugin": "Installer le plugin OBS NDI",
@@ -789,6 +846,7 @@
         "chooseYourMixer": "Choisissez votre mélangeur",
         "noInput": "Pas d'entrée",
         "stepCode": {
+          "noNdiSource": "Créez une entrée NDI Source en cliquant sur Add Input > NDI Source. Sélectionnez la source correspondant à l'image du PC retardé.",
           "noVmixRunning": "Il semble que vous n'ayez pas de vMix en cours d'exécution. Vous devez le démarrer avant de commencer la configuration",
           "vmixBadResponse": "Nous n'avons pas pu nous connecter à votre vMix :C",
           "noReplay": "Creez l'entree Instant Replay en cliquant sur Add Input > Instant Replay. Reglez la Camera 1 sur Output 2. Cliquez sur OK",
@@ -842,6 +900,9 @@
         "milliseconds": "millisecondes"
       },
       "obsStatus": {
+        "distroAvRequiredTitle": "Plugin DistroAV requis",
+        "distroAvRequiredBody": "OBS ne prend actuellement pas en charge la source Replay Feed.",
+        "distroAvRequiredAction": "Installez le plugin DistroAV pour OBS, redémarrez OBS, puis revenez à la configuration.",
         "label": "Configuration OBS",
         "ready": "Prêt",
         "manualSelection": "Prêt avec sélection manuelle de la source",
@@ -852,6 +913,7 @@
       }
     },
     "settings": {
+      "valorantRoundEndEventsEnabled": "Activer les événements automatiques de fin de manche Valorant",
       "logIn": "Se connecter",
       "email": "email",
       "password": "Mot de passe",
@@ -976,6 +1038,7 @@
       },
       "entry": {
         "keybinds": {
+          "playLatestReplayFeed": "Lire le dernier clip Replay Feed",
           "keybinds": "Raccourcis clavier",
           "hardRefreshHUD": "Hard refresh HUD",
           "argToggle": "Basculer ARG",
@@ -1011,6 +1074,8 @@
           "slowMode": "Mode lent"
         },
         "credits": {
+          "legal": "Crédits et informations légales",
+          "view": "Afficher",
           "credits": "Crédits",
           "seeNow": "Voir maintenant"
         },
@@ -1487,6 +1552,10 @@
         }
       },
       "arg": {
+        "autoInputSwitch": {
+          "title": "Commutateur d'entrée automatique",
+          "info": "Détermine si LHM change automatiquement la sortie du mélangeur au démarrage d'un replay.\nEn mode vMix Instant Replay, l'activation envoie le replay directement vers Output ; la désactivation lance la lecture sans modifier l'entrée Program active.\nEn mode Replay Feed, l'activation fait basculer vMix vers l'entrée de replay sélectionnée ou OBS vers la scène Replay, puis restaure la sortie précédente après la lecture. Si cette option est désactivée, le clip Replay Feed est tout de même lu, mais la sortie du mélangeur ne change pas.\nVous pouvez également relire manuellement le dernier clip Replay Feed finalisé avec Lire le dernier clip Replay Feed."
+        },
         "tab": {
           "title": "Replays",
           "info": "Le module Auto Replay Generator (ARG) génère des rediffusions qui peuvent être affichées entre les rounds ou à la fin d'un match.\nN'oubliez pas que vMix est nécessaire pour configurer correctement ARG. vMix n'est pas une application gratuite, et ARG lui-même est conçu principalement pour les équipes de production qui utilisent déjà vMix."

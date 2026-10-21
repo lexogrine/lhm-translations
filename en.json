@@ -7,6 +7,16 @@
       "discard": "Discard changes"
     },
     "common": {
+      "apply": "Apply",
+      "error": "Something went wrong.",
+      "none": "None",
+      "remove": "Remove",
+      "options": {
+        "none": "None"
+      },
+      "titles": {
+        "settings": "Settings"
+      },
       "cgMode": "CG Mode",
       "or": "or",
       "close": "Close",
@@ -109,6 +119,7 @@
       "swap": "Swap"
     },
     "chat": {
+      "sendMessage": "Send message",
       "title": "Support Chat",
       "header": "Chat with Support",
       "suggestionHeader": "This might answer your question",
@@ -116,6 +127,7 @@
       "typeYourMessage": "Type your message here..."
     },
     "color-picker": {
+      "revert-to-default": "Revert to default",
       "contrast-excellent-label": "Excellent Contrast!",
       "contrast-excellent-message": "Your viewers will see the text clearly on this background.",
       "contrast-good-label": "Good Contrast",
@@ -147,6 +159,9 @@
       "select-trigger": "Select Trigger",
       "select-player": "Select Player",
       "select-side": "Select Side"
+    },
+    "signal-ad": {
+      "any-player": "Any player"
     },
     "blocker": {
       "personal": "Upgrade your LHM to a Personal, Professional or Enterprise plan to get full access to this section.",
@@ -487,6 +502,10 @@
       "importTeamsExcel": "Use our pre-prepared Excel sheet to easily import many teams at once.",
       "logo": "Logo"
     },
+    "xray": {
+      "counterTerrorists": "Counter-Terrorists",
+      "terrorists": "Terrorists"
+    },
     "live": {
       "replaceUsernames": "Replace usernames",
       "header": "Live",
@@ -496,6 +515,16 @@
       "tip": "Players currently in match, click to add a player to the player list, drag and drop to change the players' order in their teams."
     },
     "cameras": {
+      "settings": "Camera settings",
+      "filterSlots": "Filter camera slots",
+      "filters": {
+        "assigned": "Assigned",
+        "active": "Active",
+        "all": "All"
+      },
+      "searchSlots": "Search slot number or player",
+      "searchSlotsPlaceholder": "Search slot or player",
+      "noSlotsMatch": "No camera slots match this filter.",
       "generatePassword": "Generate password",
       "sendToPlayers": "Send this to your players",
       "clearSelection": "Clear selection",
@@ -582,6 +611,8 @@
       }
     },
     "signals": {
+      "testAction": "Test Companion action",
+      "toggleBranches": "Toggle event branches",
       "removal": {
         "title": "Delete preset",
         "areYouSure": "Are you sure you want to delete preset \"{{name}}\"?"
@@ -622,6 +653,7 @@
       }
     },
     "quick": {
+      "overwriteTitle": "Overwrite?",
       "uploadImage": "Upload image",
       "teamLogo": "Team Logo",
       "backToLHM": "Back to LHM",
@@ -655,6 +687,7 @@
       }
     },
     "tournaments": {
+      "noPlayoffs": "No play-offs have been created yet.",
       "overview": "Overview",
       "edit": "Edit a tournament",
       "page": "Tournament page",

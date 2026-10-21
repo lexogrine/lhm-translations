@@ -1,6 +1,16 @@
 {
   "translation": {
     "common": {
+      "apply": "Bruk",
+      "error": "Noe gikk galt.",
+      "none": "Ingen",
+      "remove": "Fjern",
+      "options": {
+        "none": "Ingen"
+      },
+      "titles": {
+        "settings": "Innstillinger"
+      },
       "cgMode": "CG-modus",
       "or": "eller",
       "close": "Lukk",
@@ -103,6 +113,7 @@
       "copied": "Kopiert"
     },
     "chat": {
+      "sendMessage": "Send melding",
       "title": "Støtte Chat",
       "header": "Chat med kundestøtte",
       "suggestionHeader": "Dette kan gi deg svar på spørsmålet ditt",
@@ -110,6 +121,7 @@
       "typeYourMessage": "Skriv inn meldingen din her..."
     },
     "color-picker": {
+      "revert-to-default": "Tilbakestill til standard",
       "contrast-excellent-label": "Utmerket kontrast!",
       "contrast-excellent-message": "Seerne dine vil se teksten tydelig mot denne bakgrunnen.",
       "contrast-good-label": "God kontrast",
@@ -141,6 +153,9 @@
       "select-trigger": "Velg utløser",
       "select-player": "Velg spiller",
       "select-side": "Velg side"
+    },
+    "signal-ad": {
+      "any-player": "Hvilken som helst spiller"
     },
     "blocker": {
       "personal": "Oppgrader LHM til en Personal-, Professional- eller Enterprise-abonnement for å få full tilgang til denne delen.",
@@ -181,6 +196,8 @@
       "overlays": "Overlegg"
     },
     "aco": {
+      "scoutTelnetDisconnectedWarning": "Scout AI mottar direkte CS2-data, men Telnet er ikke tilkoblet. Scout Cinematic og Scout Vision i direkte modus krever at CS2 startes med Workshop Tools. Frem til Telnet kobles til, går Scout Vision tilbake til tastaturmodus, og Scout Cinematic fungerer kanskje ikke riktig.",
+      "scoutConsoleCaptureUnavailableWarning": "Direkte valg av CS2-spillere er ikke tilgjengelig. Scout Cinematic og Scout Vision i direkte modus krever at CS2 startes med Workshop Tools. Scout Vision går tilbake til tastaturmodus, og Scout Cinematic fungerer kanskje ikke riktig.",
       "disabled": "Deaktivert",
       "aco1": "ACO",
       "acoAI": "ACO AI",
@@ -479,6 +496,10 @@
       "importTeamsExcel": "Bruk vårt ferdiglagde Excel-ark til å importere mange lag samtidig.",
       "logo": "Logo"
     },
+    "xray": {
+      "counterTerrorists": "Antiterrorister",
+      "terrorists": "Terrorister"
+    },
     "live": {
       "replaceUsernames": "Erstatt brukernavn",
       "header": "Direkte",
@@ -488,6 +509,22 @@
       "noGameDescription": "Live-kampdata for {{game}} vises automatisk her når de oppdages."
     },
     "cameras": {
+      "settings": "Kamerainnstillinger",
+      "filterSlots": "Filtrer kameraplasser",
+      "filters": {
+        "assigned": "Tildelte",
+        "active": "Aktive",
+        "all": "Alle"
+      },
+      "searchSlots": "Søk etter plassnummer eller spiller",
+      "searchSlotsPlaceholder": "Søk etter plass eller spiller",
+      "noSlotsMatch": "Ingen kameraplasser samsvarer med dette filteret.",
+      "clearSelection": "Fjern valget",
+      "fillFromLiveNoData": "Det finnes ingen spillerdata i Live-fanen ennå. Start spillet, eller vent til LHM mottar data.",
+      "fillFromSelectedMatch": "Fyll ut fra valgt kamp",
+      "fillFromSelectedMatchNoCurrent": "Ingen kamp er merket som Live i Kamper-fanen.",
+      "fillFromSelectedMatchNoPlayers": "Kampen som er merket som Live, har ingen kvalifiserte spillere. Trenere og spillere uten identifikatorer hoppes over.",
+      "showSelectedMatchAndLivePlayersOnly": "Vis bare spillere fra den valgte kampen og Live-fanen",
       "generatePassword": "Generer passord",
       "sendToPlayers": "Send dette til spillerne dine",
       "fillFromLive": "Fyll ut fra Direkte-fanen",
@@ -549,6 +586,8 @@
       "people": "Personer"
     },
     "signals": {
+      "testAction": "Test Companion-handling",
+      "toggleBranches": "Bytt hendelsesgrener",
       "removal": {
         "title": "Slett forhåndsinnstilling",
         "areYouSure": "Er du sikker på at du vil slette forhåndsinnstillingen \"{{name}}\"?"
@@ -589,6 +628,7 @@
       "emptyList": "Ingen hendelser ennå. Legg til din første hendelse."
     },
     "quick": {
+      "overwriteTitle": "Overskrive?",
       "uploadImage": "Last opp bilde",
       "teamLogo": "Lagets logo",
       "backToLHM": "Tilbake til LHM",
@@ -622,6 +662,7 @@
       }
     },
     "tournaments": {
+      "noPlayoffs": "Det er ikke opprettet noe sluttspill ennå.",
       "overview": "Oversikt",
       "edit": "Rediger en turnering",
       "page": "Turneringsside",
@@ -751,6 +792,10 @@
       "feedbackAndIdeas": "Tilbakemeldinger og ideer"
     },
     "arg": {
+      "playClipsAutomatically": "Spill av klipp automatisk",
+      "ndiAttribution": {
+        "learnMore": "Les mer om NDI®"
+      },
       "safeband": "Sikkerhetsbånd",
       "beforeKill": "Før drap",
       "useHLAE": "Bruk HLAE?",
@@ -767,6 +812,7 @@
         "label": "Prioritet"
       },
       "mixer": {
+        "vMixAddressRequired": "Skriv inn en vMix-adresse først.",
         "label": "Mixer",
         "activeNdi": "NDI Replay Source",
         "mixer": "Mixer",
@@ -782,6 +828,17 @@
         "chooseReplayInput": "Velg replay-inngangen"
       },
       "replay": {
+        "installDistroAvPlugin": "Installer DistroAV-plugin for OBS",
+        "distroAvInstalled": "DistroAV-pluginen ble installert",
+        "playLatestReplayFeed": "Spill av nyeste Replay Feed-klipp",
+        "playLatestReplayFeedUnavailable": "Det nyeste Replay Feed-klippet kan ikke spilles av.",
+        "playLatestReplayFeedError": "Det nyeste Replay Feed-klippet kunne ikke spilles av.",
+        "playLatestReplayFeedNoClip": "Det finnes ikke noe ferdig Replay Feed-klipp ennå.",
+        "playLatestReplayFeedCapturing": "Vent til opptaket av det gjeldende Replay Feed-klippet er ferdig.",
+        "playLatestReplayFeedAutomaticPlayPending": "Det nyeste Replay Feed-klippet venter på automatisk avspilling.",
+        "playLatestReplayFeedAlreadyPlaying": "Et Replay Feed-klipp spilles allerede av.",
+        "invalidMachineCode": "Skriv inn en gyldig kode for replaymaskinen.",
+        "vmixConfiguration": "vMix-konfigurasjon",
         "replayModeTitle": "Replay Mode",
         "replayModeContent": "Denne LHM-en kjører nå i avspillingsmodus. For å endre parametere for avspilling og mikser, se på ARG-fanen på hoved-PC-en",
         "installObsNdiPlugin": "Installer OBS NDI Plugin",
@@ -789,6 +846,7 @@
         "chooseYourMixer": "Velg mikseren din",
         "noInput": "Ingen inngang",
         "stepCode": {
+          "noNdiSource": "Opprett en NDI Source-inngang ved å klikke på Add Input > NDI Source. Velg kilden som tilsvarer bildet fra den forsinkede PC-en.",
           "noVmixRunning": "Det ser ut til at du ikke har noen vMix i gang. Du må starte den før du starter oppsettet",
           "vmixBadResponse": "Vi kunne ikke koble til vMixen din :C",
           "noReplay": "Opprett Instant Replay-inngang ved å klikke på Add Input > Instant Replay. Sett Kamera 1 til Utgang 2. Klikk OK",
@@ -842,6 +900,9 @@
         "milliseconds": "millisekunder"
       },
       "obsStatus": {
+        "distroAvRequiredTitle": "DistroAV-plugin kreves",
+        "distroAvRequiredBody": "OBS støtter for øyeblikket ikke Replay Feed-kilden.",
+        "distroAvRequiredAction": "Installer DistroAV-pluginen for OBS, start OBS på nytt, og gå deretter tilbake til oppsettet.",
         "label": "OBS-oppsett",
         "ready": "Klar",
         "manualSelection": "Klar med manuelt kildevalg",
@@ -852,6 +913,7 @@
       }
     },
     "settings": {
+      "valorantRoundEndEventsEnabled": "Aktiver automatiske hendelser ved slutten av Valorant-runder",
       "logIn": "Logg inn",
       "email": "E-post",
       "password": "Passord",
@@ -976,6 +1038,7 @@
       },
       "entry": {
         "keybinds": {
+          "playLatestReplayFeed": "Spill av nyeste Replay Feed-klipp",
           "keybinds": "Hurtigtaster",
           "hardRefreshHUD": "Hard oppdatering av HUD",
           "argToggle": "Av/På ARG",
@@ -1011,6 +1074,8 @@
           "slowMode": "Saktemodus"
         },
         "credits": {
+          "legal": "Bidragsytere og juridisk informasjon",
+          "view": "Vis",
           "credits": "Medvirkende",
           "seeNow": "Se nå"
         },
@@ -1487,6 +1552,10 @@
         }
       },
       "arg": {
+        "autoInputSwitch": {
+          "title": "Automatisk inngangsbryter",
+          "info": "Styrer om LHM automatisk bytter mikserutgang når en replay starter.\nI vMix Instant Replay-modus sendes replayen direkte til Output når funksjonen er aktivert; når den er deaktivert, starter avspillingen uten å endre den aktive Program-inngangen.\nI Replay Feed-modus bytter vMix til den valgte replayinngangen eller OBS til Replay-scenen og gjenoppretter deretter den forrige utgangen etter avspilling. Når funksjonen er deaktivert, spilles Replay Feed-klippet fortsatt av, men mikserutgangen endres ikke.\nDu kan også spille av det nyeste ferdige Replay Feed-klippet manuelt med Spill av nyeste Replay Feed-klipp."
+        },
         "tab": {
           "title": "Automatisk Replay Generator",
           "info": "Modulen Auto Replay Generator (ARG) genererer repriser som kan vises mellom rundene eller ved slutten av en kamp.\nHusk at vMix er nødvendig for å konfigurere ARG på riktig måte. vMix er ikke et gratis program, og ARG er først og fremst beregnet på produksjonsteam som allerede bruker vMix."

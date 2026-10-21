@@ -1,6 +1,16 @@
 {
   "translation": {
     "common": {
+      "apply": "Примени",
+      "error": "Нешто је пошло наопако.",
+      "none": "Нема",
+      "remove": "Уклони",
+      "options": {
+        "none": "Ниједна"
+      },
+      "titles": {
+        "settings": "Поставке"
+      },
       "cgMode": "ЦГ режим",
       "or": "или",
       "close": "Затворите",
@@ -103,6 +113,7 @@
       "copied": "Kopirano"
     },
     "chat": {
+      "sendMessage": "Пошаљи поруку",
       "title": "Ћаскање са подршком",
       "header": "Ћаскање са подршком",
       "suggestionHeader": "Ово би могло да одговори на ваше питање",
@@ -110,6 +121,7 @@
       "typeYourMessage": "Овде унесите своју поруку..."
     },
     "color-picker": {
+      "revert-to-default": "Врати на подразумевано",
       "contrast-excellent-label": "Одличан контраст!",
       "contrast-excellent-message": "Ваши гледаоци ће јасно видети текст на овој позадини.",
       "contrast-good-label": "Добар контраст",
@@ -141,6 +153,9 @@
       "select-trigger": "Изабери окидач",
       "select-player": "Изабери играча",
       "select-side": "Изабери страну"
+    },
+    "signal-ad": {
+      "any-player": "Било који играч"
     },
     "blocker": {
       "personal": "Надоградите ЛХМ на лични, професионални или предузетнички план да бисте добили пун приступ овом одељку.",
@@ -181,6 +196,8 @@
       "overlays": "Overleji"
     },
     "aco": {
+      "scoutTelnetDisconnectedWarning": "Scout AI прима податке из CS2 уживо, али Telnet није повезан. Scout Cinematic и Scout Vision у директном режиму захтевају да се CS2 покрене помоћу Workshop Tools. Док се Telnet не повеже, Scout Vision ће се вратити на режим тастатуре, а Scout Cinematic можда неће радити исправно.",
+      "scoutConsoleCaptureUnavailableWarning": "Директан избор CS2 играча није доступан. Scout Cinematic и Scout Vision у директном режиму захтевају да се CS2 покрене помоћу Workshop Tools. Scout Vision ће се вратити на режим тастатуре, а Scout Cinematic можда неће радити исправно.",
       "disabled": "Онемогућен",
       "aco1": "АЦО",
       "acoAI": "АЦО АИ",
@@ -479,6 +496,10 @@
       "importTeamsExcel": "Користите унапред припремљен Еxцел лист да бисте лако увезли много тимова одједном.",
       "logo": "Лого"
     },
+    "xray": {
+      "counterTerrorists": "Контратерористи",
+      "terrorists": "Терористи"
+    },
     "live": {
       "replaceUsernames": "Замена корисничких имена",
       "header": "Уживо",
@@ -488,6 +509,22 @@
       "noGameDescription": "Podaci Live meča za {{game}} pojaviće se ovde automatski kada budu otkriveni."
     },
     "cameras": {
+      "settings": "Подешавања камера",
+      "filterSlots": "Филтрирај места за камере",
+      "filters": {
+        "assigned": "Додељена",
+        "active": "Активна",
+        "all": "Сва"
+      },
+      "searchSlots": "Претражи број места или играча",
+      "searchSlotsPlaceholder": "Претражи место или играча",
+      "noSlotsMatch": "Ниједно место за камеру не одговара овом филтеру.",
+      "clearSelection": "Обриши избор",
+      "fillFromLiveNoData": "На картици Live још нема података о играчима. Покрените игру или сачекајте да LHM прими податке.",
+      "fillFromSelectedMatch": "Попуни из изабраног меча",
+      "fillFromSelectedMatchNoCurrent": "Ниједан меч није означен као Live на картици Мечеви.",
+      "fillFromSelectedMatchNoPlayers": "Меч означен као Live нема одговарајуће играче. Тренери и играчи без идентификатора се прескачу.",
+      "showSelectedMatchAndLivePlayersOnly": "Прикажи само играче из изабраног меча и картице Live",
       "generatePassword": "Генериши лозинку",
       "sendToPlayers": "Пошаљи ово својим играчима",
       "fillFromLive": "Попуни са картице \"Уживо\"",
@@ -549,6 +586,8 @@
       "people": "Ljudi"
     },
     "signals": {
+      "testAction": "Тестирај Companion радњу",
+      "toggleBranches": "Промени гране догађаја",
       "removal": {
         "title": "Обриши пресет",
         "areYouSure": "Да ли сте сигурни да желите да обришете пресет „{{name}}“?"
@@ -589,6 +628,7 @@
       "emptyList": "Još nema događaja. Dodaj prvi događaj."
     },
     "quick": {
+      "overwriteTitle": "Замените?",
       "uploadImage": "Отпремање слике",
       "teamLogo": "Логотип тима",
       "backToLHM": "Назад на ЛХМ",
@@ -622,6 +662,7 @@
       }
     },
     "tournaments": {
+      "noPlayoffs": "Плеј-оф још није креиран.",
       "overview": "Преглед",
       "edit": "Уређивање турнира",
       "page": "Страница турнира",
@@ -751,6 +792,10 @@
       "feedbackAndIdeas": "Феедбацк &амп; Идеас"
     },
     "arg": {
+      "playClipsAutomatically": "Аутоматски репродукуј клипове",
+      "ndiAttribution": {
+        "learnMore": "Сазнајте више о NDI®"
+      },
       "safeband": "Сигурносни опсег",
       "beforeKill": "Пре него што убијеш",
       "useHLAE": "Користите ХЛАЕ?",
@@ -767,6 +812,7 @@
         "label": "Prioritet"
       },
       "mixer": {
+        "vMixAddressRequired": "Прво унесите vMix адресу.",
         "label": "Миксер",
         "activeNdi": "Извор НДИ репродукције",
         "mixer": "Миксер",
@@ -782,6 +828,17 @@
         "chooseReplayInput": "Izaberi replay ulaz"
       },
       "replay": {
+        "installDistroAvPlugin": "Инсталирај DistroAV додатак за OBS",
+        "distroAvInstalled": "DistroAV додатак је успешно инсталиран",
+        "playLatestReplayFeed": "Репродукуј најновији Replay Feed клип",
+        "playLatestReplayFeedUnavailable": "Најновији Replay Feed клип није доступан за репродукцију.",
+        "playLatestReplayFeedError": "Није могуће репродуковати најновији Replay Feed клип.",
+        "playLatestReplayFeedNoClip": "Још нема завршеног Replay Feed клипа.",
+        "playLatestReplayFeedCapturing": "Сачекајте да се заврши снимање тренутног Replay Feed клипа.",
+        "playLatestReplayFeedAutomaticPlayPending": "Најновији Replay Feed клип чека аутоматску репродукцију.",
+        "playLatestReplayFeedAlreadyPlaying": "Replay Feed клип се већ репродукује.",
+        "invalidMachineCode": "Унесите важећи код машине за репризе.",
+        "vmixConfiguration": "vMix конфигурација",
         "replayModeTitle": "Режим репродукције",
         "replayModeContent": "Овај LHM сада ради у режиму репродукције. Да бисте изменили параметре репродукције и миксера, погледајте картицу ARG на главном рачунару",
         "installObsNdiPlugin": "Инсталирај ОБС НДИ додатак",
@@ -789,6 +846,7 @@
         "chooseYourMixer": "Изаберите свој миксер",
         "noInput": "Нема уноса",
         "stepCode": {
+          "noNdiSource": "Направите NDI Source улаз кликом на Add Input > NDI Source. Изаберите извор који одговара слици са рачунара са кашњењем.",
           "noVmixRunning": "Изгледа да немате покренут vMix. Морате га покренути пре него што започнете подешавање",
           "vmixBadResponse": "Нисмо могли да се повежемо са вашим vMix-ом :C",
           "noReplay": "Креирајте улаз за тренутну репродукцију кликом на Додај улаз > Тренутна репродукција. Поставите Камеру 1 на Излаз 2. Кликните на У реду",
@@ -842,6 +900,9 @@
         "milliseconds": "milisekunde"
       },
       "obsStatus": {
+        "distroAvRequiredTitle": "Потребан је DistroAV додатак",
+        "distroAvRequiredBody": "OBS тренутно не подржава Replay Feed извор.",
+        "distroAvRequiredAction": "Инсталирајте DistroAV додатак за OBS, поново покрените OBS, а затим се вратите на подешавање.",
         "label": "OBS podešavanje",
         "ready": "Spremno",
         "manualSelection": "Spremno uz ručni izbor izvora",
@@ -852,6 +913,7 @@
       }
     },
     "settings": {
+      "valorantRoundEndEventsEnabled": "Омогући аутоматске догађаје завршетка Valorant рунде",
       "logIn": "Пријавити се",
       "email": "Е-пошта",
       "password": "Лозинку",
@@ -976,6 +1038,7 @@
       },
       "entry": {
         "keybinds": {
+          "playLatestReplayFeed": "Репродукуј најновији Replay Feed клип",
           "keybinds": "Тастери",
           "hardRefreshHUD": "Тврдо освежавање ХУД-а",
           "argToggle": "Преклопник АРГ",
@@ -1011,6 +1074,8 @@
           "slowMode": "Спори режим"
         },
         "credits": {
+          "legal": "Заслуге и правне информације",
+          "view": "Прикажи",
           "credits": "Кредита",
           "seeNow": "Видиш сада"
         },
@@ -1487,6 +1552,10 @@
         }
       },
       "arg": {
+        "autoInputSwitch": {
+          "title": "Аутоматски прекидач уноса",
+          "info": "Одређује да ли LHM аутоматски мења излаз миксера када почне реприза.\nУ режиму vMix Instant Replay, укључивање шаље репризу директно на Output; искључивање покреће репродукцију без промене активног Program улаза.\nУ режиму Replay Feed, укључивање пребацује vMix на изабрани улаз за репризу или OBS на Replay сцену, а затим враћа претходни излаз. Када је искључено, Replay Feed клип се и даље репродукује, али се излаз миксера не мења.\nНајновији завршени Replay Feed клип можете и ручно репродуковати помоћу опције Репродукуј најновији Replay Feed клип."
+        },
         "tab": {
           "title": "Replays",
           "info": "Модул Ауто Реплаy Генератор (АРГ) генерише репродукције које се могу приказати између кругова или на крају игре.\nИмајте на уму да је вМиx потребан за одговарајућу АРГ конфигурацију. вМиx није бесплатна апликација, а сам АРГ је дизајниран примарлy за продукцијске тимове који већ користе вМиx."

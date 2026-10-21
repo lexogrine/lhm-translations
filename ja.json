@@ -1,6 +1,16 @@
 {
   "translation": {
     "common": {
+      "apply": "適用",
+      "error": "問題が発生しました。",
+      "none": "なし",
+      "remove": "削除",
+      "options": {
+        "none": "なし"
+      },
+      "titles": {
+        "settings": "設定"
+      },
       "cgMode": "CGモード",
       "or": "または",
       "close": "閉じる",
@@ -103,6 +113,7 @@
       "copied": "コピーしました"
     },
     "chat": {
+      "sendMessage": "メッセージを送信",
       "title": "サポートチャット",
       "header": "サポートチャット",
       "suggestionHeader": "あなたの質問にお答えします",
@@ -110,6 +121,7 @@
       "typeYourMessage": "ここにメッセージを入力してください。"
     },
     "color-picker": {
+      "revert-to-default": "デフォルトに戻す",
       "contrast-excellent-label": "コントラストが素晴らしい！",
       "contrast-excellent-message": "この背景なら、視聴者はテキストをはっきりと見ることができます。",
       "contrast-good-label": "良いコントラスト",
@@ -141,6 +153,9 @@
       "select-trigger": "トリガーを選択",
       "select-player": "選手を選択",
       "select-side": "サイドを選択"
+    },
+    "signal-ad": {
+      "any-player": "任意の選手"
     },
     "blocker": {
       "personal": "LHMをパーソナル、プロフェッショナル、またはエンタープライズプランにアップグレードすると、このセクションにフルアクセスできます。",
@@ -181,6 +196,8 @@
       "overlays": "オーバーレイ"
     },
     "aco": {
+      "scoutTelnetDisconnectedWarning": "Scout AIはCS2のライブデータを受信していますが、Telnetが接続されていません。直接モードのScout CinematicとScout Visionを使用するには、Workshop ToolsでCS2を起動する必要があります。Telnetが接続されるまでScout Visionはキーボードモードに戻り、Scout Cinematicが正しく動作しない場合があります。",
+      "scoutConsoleCaptureUnavailableWarning": "CS2選手の直接選択は利用できません。直接モードのScout CinematicとScout Visionを使用するには、Workshop ToolsでCS2を起動する必要があります。Scout Visionはキーボードモードに戻り、Scout Cinematicが正しく動作しない場合があります。",
       "disabled": "無効",
       "aco1": "ACO",
       "acoAI": "ACO AI",
@@ -479,6 +496,10 @@
       "importTeamsExcel": "事前に用意されたExcelシートを使用して、多数のチームを一度に簡単にインポートできます。",
       "logo": "ロゴ"
     },
+    "xray": {
+      "counterTerrorists": "カウンターテロリスト",
+      "terrorists": "テロリスト"
+    },
     "live": {
       "replaceUsernames": "ユーザー名の置換",
       "header": "ライブ",
@@ -488,6 +509,22 @@
       "noGameDescription": "{{game}} のライブ試合データは、検出されるとここに自動的に表示されます。"
     },
     "cameras": {
+      "settings": "カメラ設定",
+      "filterSlots": "カメラスロットを絞り込む",
+      "filters": {
+        "assigned": "割り当て済み",
+        "active": "アクティブ",
+        "all": "すべて"
+      },
+      "searchSlots": "スロット番号または選手を検索",
+      "searchSlotsPlaceholder": "スロットまたは選手を検索",
+      "noSlotsMatch": "このフィルターに一致するカメラスロットはありません。",
+      "clearSelection": "選択を解除",
+      "fillFromLiveNoData": "Liveタブに選手データがまだありません。ゲームを開始するか、LHMがデータを受信するまでお待ちください。",
+      "fillFromSelectedMatch": "選択した試合から入力",
+      "fillFromSelectedMatchNoCurrent": "試合タブにLiveとして設定された試合がありません。",
+      "fillFromSelectedMatchNoPlayers": "Liveとして設定された試合に対象選手がいません。コーチと識別子のない選手は除外されます。",
+      "showSelectedMatchAndLivePlayersOnly": "選択した試合とLiveタブの選手のみ表示",
       "generatePassword": "パスワード生成",
       "sendToPlayers": "これを選手に送信",
       "fillFromLive": "ライブタブから入力",
@@ -549,6 +586,8 @@
       "people": "People"
     },
     "signals": {
+      "testAction": "Companionアクションをテスト",
+      "toggleBranches": "イベント分岐を切り替え",
       "removal": {
         "title": "プリセット削除",
         "areYouSure": "プリセット \"{{name}}\" を本当に削除しますか？"
@@ -589,6 +628,7 @@
       "emptyList": "イベントはまだありません。最初のイベントを追加してください。"
     },
     "quick": {
+      "overwriteTitle": "上書きしますか？",
       "uploadImage": "画像のアップロード",
       "teamLogo": "チームロゴ",
       "backToLHM": "LHMに戻る",
@@ -622,6 +662,7 @@
       }
     },
     "tournaments": {
+      "noPlayoffs": "プレーオフはまだ作成されていません。",
       "overview": "概要",
       "edit": "トーナメントの編集",
       "page": "トーナメントページ",
@@ -751,6 +792,10 @@
       "feedbackAndIdeas": "フィードバックとアイデア"
     },
     "arg": {
+      "playClipsAutomatically": "クリップを自動再生",
+      "ndiAttribution": {
+        "learnMore": "NDI®について詳しく見る"
+      },
       "safeband": "安全バンド",
       "beforeKill": "殺す前に",
       "useHLAE": "HLAEを使用しますか？",
@@ -767,6 +812,7 @@
         "label": "優先度"
       },
       "mixer": {
+        "vMixAddressRequired": "最初にvMixアドレスを入力してください。",
         "label": "ミキサー",
         "activeNdi": "NDIリプレイソース",
         "mixer": "ミキサー",
@@ -782,6 +828,17 @@
         "chooseReplayInput": "リプレイ入力を選択"
       },
       "replay": {
+        "installDistroAvPlugin": "OBS用DistroAVプラグインをインストール",
+        "distroAvInstalled": "DistroAVプラグインをインストールしました",
+        "playLatestReplayFeed": "最新のReplay Feedクリップを再生",
+        "playLatestReplayFeedUnavailable": "最新のReplay Feedクリップは再生できません。",
+        "playLatestReplayFeedError": "最新のReplay Feedクリップを再生できませんでした。",
+        "playLatestReplayFeedNoClip": "完成したReplay Feedクリップはまだありません。",
+        "playLatestReplayFeedCapturing": "現在のReplay Feedクリップのキャプチャが完了するまでお待ちください。",
+        "playLatestReplayFeedAutomaticPlayPending": "最新のReplay Feedクリップは自動再生の待機中です。",
+        "playLatestReplayFeedAlreadyPlaying": "Replay Feedクリップはすでに再生中です。",
+        "invalidMachineCode": "有効なリプレイマシンコードを入力してください。",
+        "vmixConfiguration": "vMix設定",
         "replayModeTitle": "リプレイモード",
         "replayModeContent": "このLHMはリプレイモードで動作する。リプレイ&ミキサー'のパラメータを変更するには、メインPCのARGタブを見てください。",
         "installObsNdiPlugin": "OBS NDIプラグインをインストールする。",
@@ -789,6 +846,7 @@
         "chooseYourMixer": "ミキサーを選ぶ",
         "noInput": "入力なし",
         "stepCode": {
+          "noNdiSource": "Add Input > NDI SourceをクリックしてNDI Source入力を作成します。遅延PCの映像に対応するソースを選択してください。",
           "noVmixRunning": "vMixが起動していないようです。セットアップを始める前に起動してください。",
           "vmixBadResponse": "あなたのvMixに接続できませんでした。",
           "noReplay": "Add Input > Instant Replayをクリックして、インスタントリプレイ入力を作成します。カメラ1を出力2に設定します。",
@@ -842,6 +900,9 @@
         "milliseconds": "ミリ秒"
       },
       "obsStatus": {
+        "distroAvRequiredTitle": "DistroAVプラグインが必要です",
+        "distroAvRequiredBody": "現在OBSはReplay Feedソースに対応していません。",
+        "distroAvRequiredAction": "OBS用DistroAVプラグインをインストールしてOBSを再起動し、設定に戻ってください。",
         "label": "OBS設定",
         "ready": "準備完了",
         "manualSelection": "手動ソース選択で準備完了",
@@ -852,6 +913,7 @@
       }
     },
     "settings": {
+      "valorantRoundEndEventsEnabled": "Valorantのラウンド終了イベントを自動的に有効化",
       "logIn": "ログインする",
       "email": "メール",
       "password": "パスワード",
@@ -976,6 +1038,7 @@
       },
       "entry": {
         "keybinds": {
+          "playLatestReplayFeed": "最新のReplay Feedクリップを再生",
           "keybinds": "キーバインド",
           "hardRefreshHUD": "HUD ハードリフレッシュ",
           "argToggle": "ARG トグル",
@@ -1011,6 +1074,8 @@
           "slowMode": "スローモード"
         },
         "credits": {
+          "legal": "クレジットと法的情報",
+          "view": "表示",
           "credits": "クレジット",
           "seeNow": "今すぐ見る"
         },
@@ -1487,6 +1552,10 @@
         }
       },
       "arg": {
+        "autoInputSwitch": {
+          "title": "自動入力スイッチ",
+          "info": "リプレイ開始時にLHMがミキサー出力を自動的に切り替えるかどうかを設定します。\nvMix Instant Replayモードでは、有効にするとリプレイがOutputへ直接送信され、無効にするとアクティブなProgram入力を変更せずに再生が始まります。\nReplay Feedモードでは、有効にするとvMixは選択したリプレイ入力へ、OBSはReplayシーンへ切り替わり、再生後に前の出力へ戻ります。無効でもReplay Feedクリップは再生されますが、ミキサー出力は変わりません。\n最新のReplay Feedクリップを再生を使って、最後に完成したクリップを手動で再生することもできます。"
+        },
         "tab": {
           "title": "Replays",
           "info": "Auto Replay Generator (ARG)モジュールは、ラウンド間や試合終了時に表示できるリプレイを生成します。\nARGを正しく設定するにはvMixが必要です。vMixは無料アプリではなく、ARG自体も主に既にvMixを使っている制作チーム向けに設計されています。"

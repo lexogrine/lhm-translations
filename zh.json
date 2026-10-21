@@ -1,6 +1,16 @@
 {
   "translation": {
     "common": {
+      "apply": "应用",
+      "error": "出现错误。",
+      "none": "无",
+      "remove": "移除",
+      "options": {
+        "none": "无"
+      },
+      "titles": {
+        "settings": "设置"
+      },
       "cgMode": "CG 模式",
       "or": "或",
       "close": "關閉",
@@ -103,6 +113,7 @@
       "copied": "已复制"
     },
     "chat": {
+      "sendMessage": "发送消息",
       "title": "支持聊天",
       "header": "与支持人员聊天",
       "suggestionHeader": "这可能会回答您的问题",
@@ -110,6 +121,7 @@
       "typeYourMessage": "在此输入您的信息..."
     },
     "color-picker": {
+      "revert-to-default": "恢复默认值",
       "contrast-excellent-label": "对比度极佳！",
       "contrast-excellent-message": "在此背景下，您的观看者将清晰地看到文字。",
       "contrast-good-label": "对比度良好",
@@ -141,6 +153,9 @@
       "select-trigger": "选择触发器",
       "select-player": "选择球员",
       "select-side": "选择阵营"
+    },
+    "signal-ad": {
+      "any-player": "任意球员"
     },
     "blocker": {
       "personal": "将您的 LHM 升级到个人、专业或企业计划，即可完全访问此部分。",
@@ -181,6 +196,8 @@
       "overlays": "叠加层"
     },
     "aco": {
+      "scoutTelnetDisconnectedWarning": "Scout AI 正在接收 CS2 实时数据，但 Telnet 尚未连接。直接模式下的 Scout Cinematic 和 Scout Vision 要求使用 Workshop Tools 启动 CS2。在 Telnet 连接之前，Scout Vision 将回退到键盘模式，Scout Cinematic 可能无法正常工作。",
+      "scoutConsoleCaptureUnavailableWarning": "无法直接选择 CS2 选手。直接模式下的 Scout Cinematic 和 Scout Vision 要求使用 Workshop Tools 启动 CS2。Scout Vision 将回退到键盘模式，Scout Cinematic 可能无法正常工作。",
       "disabled": "禁用",
       "aco1": "ACO",
       "acoAI": "ACO AI",
@@ -479,6 +496,10 @@
       "importTeamsExcel": "使用我们预先准备好的 Excel 表单，一次轻松导入多个球队。",
       "logo": "徽标"
     },
+    "xray": {
+      "counterTerrorists": "反恐精英",
+      "terrorists": "恐怖分子"
+    },
     "live": {
       "replaceUsernames": "替换用户名",
       "header": "实时",
@@ -488,6 +509,22 @@
       "noGameDescription": "检测到 {{game}} 的实时比赛数据后，将自动显示在这里。"
     },
     "cameras": {
+      "settings": "摄像头设置",
+      "filterSlots": "筛选摄像头槽位",
+      "filters": {
+        "assigned": "已分配",
+        "active": "活跃",
+        "all": "全部"
+      },
+      "searchSlots": "搜索槽位编号或选手",
+      "searchSlotsPlaceholder": "搜索槽位或选手",
+      "noSlotsMatch": "没有摄像头槽位符合此筛选条件。",
+      "clearSelection": "清除选择",
+      "fillFromLiveNoData": "Live 选项卡中尚无选手数据。请启动游戏或等待 LHM 接收选手数据。",
+      "fillFromSelectedMatch": "从所选比赛填充",
+      "fillFromSelectedMatchNoCurrent": "比赛选项卡中没有标记为直播的比赛。",
+      "fillFromSelectedMatchNoPlayers": "标记为直播的比赛没有符合条件的选手。教练和没有标识符的选手将被跳过。",
+      "showSelectedMatchAndLivePlayersOnly": "仅显示所选比赛和 Live 选项卡中的选手",
       "generatePassword": "生成密码",
       "sendToPlayers": "发送给玩家",
       "fillFromLive": "从 \"实时 \"选项卡填写",
@@ -549,6 +586,8 @@
       "people": "People"
     },
     "signals": {
+      "testAction": "测试 Companion 操作",
+      "toggleBranches": "切换事件分支",
       "removal": {
         "title": "删除预设",
         "areYouSure": "你确定要删除预置\"{{name}}\"吗？"
@@ -589,6 +628,7 @@
       "emptyList": "还没有事件。添加您的第一个事件。"
     },
     "quick": {
+      "overwriteTitle": "覆盖？",
       "uploadImage": "上传图片",
       "teamLogo": "团队徽标",
       "backToLHM": "返回 LHM",
@@ -622,6 +662,7 @@
       }
     },
     "tournaments": {
+      "noPlayoffs": "尚未创建淘汰赛。",
       "overview": "概述",
       "edit": "编辑比赛",
       "page": "锦标赛页面",
@@ -751,6 +792,10 @@
       "feedbackAndIdeas": "反馈和想法"
     },
     "arg": {
+      "playClipsAutomatically": "自动播放片段",
+      "ndiAttribution": {
+        "learnMore": "了解 NDI®"
+      },
       "safeband": "安全带",
       "beforeKill": "杀戮之前",
       "useHLAE": "使用HLAE？",
@@ -767,6 +812,7 @@
         "label": "优先级"
       },
       "mixer": {
+        "vMixAddressRequired": "请先输入 vMix 地址。",
         "label": "混合器",
         "activeNdi": "NDI 回放源",
         "mixer": "混音器",
@@ -782,6 +828,17 @@
         "chooseReplayInput": "选择回放输入"
       },
       "replay": {
+        "installDistroAvPlugin": "为 OBS 安装 DistroAV 插件",
+        "distroAvInstalled": "DistroAV 插件安装成功",
+        "playLatestReplayFeed": "播放最新的 Replay Feed 片段",
+        "playLatestReplayFeedUnavailable": "最新的 Replay Feed 片段无法播放。",
+        "playLatestReplayFeedError": "无法播放最新的 Replay Feed 片段。",
+        "playLatestReplayFeedNoClip": "尚无已完成的 Replay Feed 片段。",
+        "playLatestReplayFeedCapturing": "请等待当前 Replay Feed 片段采集完成。",
+        "playLatestReplayFeedAutomaticPlayPending": "最新的 Replay Feed 片段已加入自动播放队列。",
+        "playLatestReplayFeedAlreadyPlaying": "已有 Replay Feed 片段正在播放。",
+        "invalidMachineCode": "请输入有效的回放机器代码。",
+        "vmixConfiguration": "vMix 配置",
         "replayModeTitle": "回放模式",
         "replayModeContent": "此 LHM 现在以重放模式运行。要修改重放&混音器'参数，请查看主 PC 上的 ARG 选项卡。",
         "installObsNdiPlugin": "安装 OBS NDI 插件",
@@ -789,6 +846,7 @@
         "chooseYourMixer": "选择混音器",
         "noInput": "无输入",
         "stepCode": {
+          "noNdiSource": "点击添加输入 > NDI Source 创建 NDI Source 输入。选择与延迟电脑画面对应的源。",
           "noVmixRunning": "您似乎没有运行 vMix。在开始设置之前，您需要启动它。",
           "vmixBadResponse": "我们无法连接到您的 vMix :C",
           "noReplay": "点击添加输入 >即时重放，创建即时重放输入。将摄像机 1 设置为输出 2。 单击确定",
@@ -842,6 +900,9 @@
         "milliseconds": "毫秒"
       },
       "obsStatus": {
+        "distroAvRequiredTitle": "需要 DistroAV 插件",
+        "distroAvRequiredBody": "OBS 当前不支持 Replay Feed 源。",
+        "distroAvRequiredAction": "为 OBS 安装 DistroAV 插件，重启 OBS，然后返回设置。",
         "label": "OBS 设置",
         "ready": "就绪",
         "manualSelection": "已就绪，需手动选择源",
@@ -852,6 +913,7 @@
       }
     },
     "settings": {
+      "valorantRoundEndEventsEnabled": "启用 Valorant 回合结束自动事件",
       "logIn": "登录",
       "email": "电子邮件",
       "password": "密码",
@@ -976,6 +1038,7 @@
       },
       "entry": {
         "keybinds": {
+          "playLatestReplayFeed": "播放最新的 Replay Feed 片段",
           "keybinds": "按键绑定",
           "hardRefreshHUD": "硬刷新 HUD",
           "argToggle": "切换ARG",
@@ -1011,6 +1074,8 @@
           "slowMode": "慢速模式"
         },
         "credits": {
+          "legal": "制作人员与法律信息",
+          "view": "查看",
           "credits": "信用",
           "seeNow": "立即查看"
         },
@@ -1487,6 +1552,10 @@
         }
       },
       "arg": {
+        "autoInputSwitch": {
+          "title": "自动输入开关",
+          "info": "控制 LHM 是否在回放开始时自动切换混流器输出。\n在 vMix Instant Replay 模式下，启用后会将回放直接发送到 Output；禁用后会开始播放，但不会更改当前的 Program 输入。\n在 Replay Feed 模式下，启用后会将 vMix 切换到所选回放输入，或将 OBS 切换到 Replay 场景，并在播放后恢复之前的输出。禁用后，Replay Feed 片段仍会播放，但混流器输出不会改变。\n你也可以使用“播放最新的 Replay Feed 片段”手动重播最新完成的片段。"
+        },
         "tab": {
           "title": "Replays",
           "info": "自动回放生成器（ARG）模块可生成回放，在两轮比赛之间或比赛结束时显示。\\nvMix 并非免费应用程序，ARG 本身主要是为已使用 vMix 的制作团队设计的。"
