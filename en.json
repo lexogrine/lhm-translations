@@ -1048,6 +1048,10 @@
         "REVERSE_SIDE_FAILED": "Auto-Switch tried to switch sides, but match state blocked it.",
         "ERROR": "Auto-Switch hit an error. Restart LHM if this persists."
       },
+      "cs2DataPolling": "Data polling rate",
+      "cs2DataPollingSlow": "Default",
+      "cs2DataPollingFast": "Fast",
+      "saveAndRestartCS2Required": "Save & restart CS2 required",
       "overrideCS2PlayerKeybinds": "Override CS2 Player Keybinds",
       "overrideCS2PlayerKeybindsOptions": {
         "no": "No",
